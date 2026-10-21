@@ -1,0 +1,12 @@
+Research job for Heartbeat Observatory LLC (a small Indiana company making AI-made educational TV: history, science, open
+questions; also games and a daily AI news show). Use web search AND X search. Write the file x-and-youtube-scan.md in this folder and stop.
+
+Find REAL, current (2026) examples of people earning money with AI-made content, especially:
+1. YouTube channels made with Claude / AI scripting that are monetized (faceless educational, history, science, explainers).
+   What makes them survive YouTube's July 2026 "inauthentic content" rules (templated/repetitive AI content demonetized)?
+2. X creators earning under X's new Original Content Rewards (Premium, 500 verified followers, 500K impressions/90 days):
+   what kinds of posts and videos actually earn, and rough amounts people report.
+3. Other revenue lines small AI-content studios use: memberships, sponsors, licensing clips, Patreon, merch, selling
+   templates/tools, game sales, newsletters. Which earn first for a channel starting from zero?
+For every claim: link + date + whether it's self-reported. Separate verified facts from hype. No trading or financial-product
+content. Plain words, short tables. End with "Top 5 moves for a zero-follower start" ranked by speed to first dollar.

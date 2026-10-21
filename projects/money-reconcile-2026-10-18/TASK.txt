@@ -1,0 +1,14 @@
+Reconcile Jaron's Polymarket US account history (read-only analysis; you cannot and must not trade or contact anything).
+Files here: polymarket-activity.json (every record Polymarket's API returns: trades with manual/automatic flags, position
+resolutions with realized P&L, account balance changes: deposits, withdrawals, transfers, bonuses, with status) and
+publish-crew-copy.py (how the website's chart sums them - see pm_account_story and the AI trade P&L code).
+Known truth from Jaron's Polymarket app (10/18 9:42 PM): portfolio total $68.80 now (cash $68.80, open trades ~$0); about
+$14.34 on Oct 16 2 AM; $24.58 on Oct 9; $26.17 on Oct 8; $12.66 at 3:25 AM 10/18 in the 1D view (that one may be a stale app point).
+Jaron deposited $75 by card on 2026-10-15 (Polymarket still lists it PENDING). Summing all records from zero gives ~$50 MORE
+than the real balance overall, and about $17 is unaccounted for between Oct 14 and now.
+Find exactly where the dollars go. Build a running balance from the records in time order and compare with the known points.
+Check: fees on trades/deposits, the pending deposit, REFERRAL_BONUS and TRANSFER records (2 x ~$2.5), resolutions counted
+twice or missing, partial fills, positions still open or "dust", and how the script splits hand vs AI shares.
+Write REPORT.md: a plain-English answer (what's missing and why, in dollars, with record ids/dates), a table of the running
+balance vs the known points, and the exact code change publish-crew-copy.py needs so the chart matches reality. Do not edit
+any file except REPORT.md.

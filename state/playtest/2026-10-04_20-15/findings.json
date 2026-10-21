@@ -1,0 +1,199 @@
+[
+ {
+  "title": "Frame-time spike during \"spots\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 5,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:25",
+  "detail": "a single frame took 4760 ms (typical 17 ms); 7 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/010-spots-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:08 [start] websocket closed",
+   "00:09 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:23 [spots] === phase spots starts",
+   "00:23 [spots] spots source inventory {\"doors\":3,\"pads\":9,\"counts\":{\"portRooms\":13,\"pads\":9,\"ships\":9}}",
+   "00:24 [spots] spots: skipped door Supply depot-15m-open: the game moved the player 242 m away from the requested spot",
+   "00:25 [spots] spots: skipped door Supply depot-5m-shut: the game moved the player 8 m away from the requested spot"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/007-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:08 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/sunita.glb (Load request cancelled)",
+  "shot": "shots-iphone/001-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/jorge.glb (Load request cancelled)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/aoi.glb (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/walter.glb (Load request cancelled)",
+  "shot": "shots-iphone/004-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/ada.glb (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/zuri.glb (Load request cancelled)",
+  "shot": "shots-iphone/006-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Same sign text on 2 port signs: \"marineris port\"",
+  "sev": 22,
+  "kind": "spot-repeated-sign-text",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:26",
+  "detail": "beacon, arrivals-gantry",
+  "shot": null,
+  "steps": [
+   "01:07 [spots] spots: skipped ship meridian-pad08-ring6of6: the game moved the player 46 m away from the requested spot",
+   "01:07 [spots] spots: meridian-pad08-airlock ramp is raised, no walk views",
+   "01:08 [spots] spots: skipped ship meridian-pad09-ring1of6: the game moved the player 45 m away from the requested spot",
+   "01:11 [spots] spots: skipped ship meridian-pad09-ring2of6: the game moved the player 45 m away from the requested spot",
+   "01:21 [spots] spots note: model for meridian@pad09 not found (no ramp mesh check)",
+   "01:21 [spots] spots: meridian-pad09-airlock ramp is raised, no walk views",
+   "01:22 [spots] spots: skipped sign Supply-depot-sign: the game moved the player 251 m away from the requested spot",
+   "01:23 [spots] spots: skipped sign Crew-hall-sign: the game moved the player 228 m away from the requested spot",
+   "01:24 [spots] spots: skipped sign arrivals-gantry: the game moved the player 227 m away from the requested spot",
+   "01:25 [spots] spots: skipped sign padboard-01: the game moved the player 78 m away from the requested spot",
+   "01:25 [spots] spots: skipped sign padboard-02: the game moved the player 228 m away from the requested spot",
+   "01:26 [spots] spots: skipped sign padboard-03: the game moved the player 347 m away from the requested spot"
+  ]
+ },
+ {
+  "title": "Same sign text on 2 port signs: \"pad status\"",
+  "sev": 22,
+  "kind": "spot-repeated-sign-text",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:26",
+  "detail": "padboard-02, padboard-03",
+  "shot": null,
+  "steps": [
+   "01:07 [spots] spots: skipped ship meridian-pad08-ring6of6: the game moved the player 46 m away from the requested spot",
+   "01:07 [spots] spots: meridian-pad08-airlock ramp is raised, no walk views",
+   "01:08 [spots] spots: skipped ship meridian-pad09-ring1of6: the game moved the player 45 m away from the requested spot",
+   "01:11 [spots] spots: skipped ship meridian-pad09-ring2of6: the game moved the player 45 m away from the requested spot",
+   "01:21 [spots] spots note: model for meridian@pad09 not found (no ramp mesh check)",
+   "01:21 [spots] spots: meridian-pad09-airlock ramp is raised, no walk views",
+   "01:22 [spots] spots: skipped sign Supply-depot-sign: the game moved the player 251 m away from the requested spot",
+   "01:23 [spots] spots: skipped sign Crew-hall-sign: the game moved the player 228 m away from the requested spot",
+   "01:24 [spots] spots: skipped sign arrivals-gantry: the game moved the player 227 m away from the requested spot",
+   "01:25 [spots] spots: skipped sign padboard-01: the game moved the player 78 m away from the requested spot",
+   "01:25 [spots] spots: skipped sign padboard-02: the game moved the player 228 m away from the requested spot",
+   "01:26 [spots] spots: skipped sign padboard-03: the game moved the player 347 m away from the requested spot"
+  ]
+ }
+]

@@ -1,0 +1,9 @@
+=== LIVE NFL ===
+DEN @ LAC id=401872989 | DEN 10 @ LAC 3 | 1:37 - 2nd Quarter
+  homeWP=0.2824 awayWP=None
+DET @ ARI id=401872991 | DET 7 @ ARI 7 | 10:45 - 2nd Quarter
+  homeWP=0.3015 awayWP=None
+SF @ SEA id=401872992 | SF 7 @ SEA 10 | 8:31 - 2nd Quarter
+  homeWP=0.5397 awayWP=None
+=== LIVE CFB ===
+(none)

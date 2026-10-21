@@ -1,0 +1,596 @@
+[
+ {
+  "title": "Page error (uncaught exception)",
+  "sev": 95,
+  "kind": "page-error",
+  "count": 70,
+  "phase": "opening",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "08:53",
+  "detail": "TypeError: Cannot read properties of undefined (reading 'id') |     at MultiplayerView.shipPose (https://www.heartbeatobservatory.com/games/the-cosmos/src/world-state/multiplayerView.js?v=b1aaba9baac2a41dfaf6:168:95) |     at MultiplayerView.updateBodies (https://www.heartbeatobservatory.com/games/the-cosmos/src/world-state/multiplayerView.js?v=b1aaba9baac2a41dfaf6:255:59) |     at MultiplayerView",
+  "shot": "shots-desktop/045-opening-PROBLEM-page-error.jpg",
+  "steps": [
+   "06:53 [opening] REFRESH (mid-dig)",
+   "06:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:06 [opening] tap #opening-action (opening action)",
+   "07:11 [opening] tap #opening-action (opening action)",
+   "07:13 [opening] tap #opening-action (opening action)",
+   "07:15 [opening] tap #opening-action (opening action)",
+   "07:20 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "07:20 [opening] walk to the rescue vehicle",
+   "07:29 [opening] tap #opening-action (opening action)",
+   "07:32 [opening] opening stage 5 -> 6 (PruittPruitt, Homeguard. We saw you come down. I would say welcome home, but there is not much home built yet.)",
+   "07:48 [opening] REFRESH (mid-ride)",
+   "07:49 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Page error (uncaught exception)",
+  "sev": 95,
+  "kind": "page-error",
+  "count": 5,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:30",
+  "detail": "TypeError: undefined is not an object (evaluating 's.id') |     at shipPose (https://www.heartbeatobservatory.com/games/the-cosmos/src/world-state/multiplayerView.js?v=b1aaba9baac2a41dfaf6:168:94) |     at updateBodies (https://www.heartbeatobservatory.com/games/the-cosmos/src/world-state/multiplayerView.js?v=b1aaba9baac2a41dfaf6:255:67) |     at tick (https://www.heartbeatobservatory.com/games/th",
+  "shot": "shots-iphone/047-opening-PROBLEM-page-error.jpg",
+  "steps": [
+   "06:54 [opening] mis-tap beside #opening-action",
+   "06:55 [opening] tap #opening-action (opening action)",
+   "06:56 [opening] tap #opening-action (opening action)",
+   "06:57 [opening] tap #opening-action (opening action)",
+   "06:58 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:58 [opening] walk to the rescue vehicle",
+   "07:07 [opening] tap #opening-action (opening action)",
+   "07:09 [opening] opening stage 5 -> 6 (PruittPruitt, Homeguard. We saw you come down. I would say welcome home, but there is not much home built yet.)",
+   "07:24 [opening] REFRESH (mid-ride)",
+   "07:24 [opening] websocket closed (the bot refreshed the page)",
+   "07:25 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "08:30 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Page error (uncaught exception)",
+  "sev": 95,
+  "kind": "page-error",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "25:21",
+  "detail": "Unhandled Promise Rejection: TypeError: null is not an object (evaluating 'view.ship') |     at RemoteCrew (https://www.heartbeatobservatory.com/games/the-cosmos/src/world-state/remoteCrew.js?v=b1aaba9baac2a41dfaf6:9:31) |     at unknown (https://www.heartbeatobservatory.com/games/the-cosmos/src/main.js?v=b1aaba9baac2a41dfaf6:481:24)",
+  "shot": "shots-iphone/070-tour-PROBLEM-page-error.jpg",
+  "steps": [
+   "14:44 [tour] walk to Salvage trader",
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader",
+   "18:44 [tour] go talk to Field kit trader",
+   "18:44 [tour] walk to Field kit trader",
+   "20:44 [tour] go talk to Reception clerk",
+   "20:44 [tour] walk to Reception clerk",
+   "22:44 [tour] to the tower lift",
+   "22:44 [tour] walk to tower door",
+   "25:14 [tour] REFRESH (refresh after the port tour)",
+   "25:14 [tour] websocket closed (the bot refreshed the page)",
+   "25:15 [tour] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Nothing changed for 60+ seconds (same message, same place)",
+  "sev": 86,
+  "kind": "stuck-state",
+  "count": 16,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:32",
+  "detail": "in \"tour\": position {\"x\":1024105,\"y\":3050879,\"z\":-5498457}, button \"\", caption \"\", toast \"Back in Mars space.\", ship outside",
+  "shot": "shots-iphone/059-tour-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "08:36 [panels] tap #btn-close-settings (close Settings)",
+   "08:37 [panels] mis-tap beside #purse",
+   "08:38 [panels] tap #purse (open Account / purse)",
+   "08:39 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:40 [panels] tap #multiplayer-button (open World / crew)",
+   "08:41 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:41 [panels] mis-tap beside #btn-key-controls",
+   "08:42 [panels] tap #btn-key-controls (open Controls)",
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide"
+  ]
+ },
+ {
+  "title": "Could not walk to Arrival guide",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:43",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/060-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:36 [panels] tap #btn-close-settings (close Settings)",
+   "08:37 [panels] mis-tap beside #purse",
+   "08:38 [panels] tap #purse (open Account / purse)",
+   "08:39 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:40 [panels] tap #multiplayer-button (open World / crew)",
+   "08:41 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:41 [panels] mis-tap beside #btn-key-controls",
+   "08:42 [panels] tap #btn-key-controls (open Controls)",
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide"
+  ]
+ },
+ {
+  "title": "Could not walk to Supply clerk",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/061-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:38 [panels] tap #purse (open Account / purse)",
+   "08:39 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:40 [panels] tap #multiplayer-button (open World / crew)",
+   "08:41 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:41 [panels] mis-tap beside #btn-key-controls",
+   "08:42 [panels] tap #btn-key-controls (open Controls)",
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide",
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk"
+  ]
+ },
+ {
+  "title": "Could not walk to Food trader",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/062-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:40 [panels] tap #multiplayer-button (open World / crew)",
+   "08:41 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:41 [panels] mis-tap beside #btn-key-controls",
+   "08:42 [panels] tap #btn-key-controls (open Controls)",
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide",
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk",
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader"
+  ]
+ },
+ {
+  "title": "Could not walk to Salvage trader",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "16:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/063-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:41 [panels] mis-tap beside #btn-key-controls",
+   "08:42 [panels] tap #btn-key-controls (open Controls)",
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide",
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk",
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader",
+   "14:44 [tour] go talk to Salvage trader",
+   "14:44 [tour] walk to Salvage trader"
+  ]
+ },
+ {
+  "title": "Could not walk to Water trader",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "18:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/064-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:43 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:43 [tour] === phase tour starts",
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide",
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk",
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader",
+   "14:44 [tour] go talk to Salvage trader",
+   "14:44 [tour] walk to Salvage trader",
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader"
+  ]
+ },
+ {
+  "title": "Could not walk to Field kit trader",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "20:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/065-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:43 [tour] go talk to Arrival guide",
+   "08:43 [tour] walk to Arrival guide",
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk",
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader",
+   "14:44 [tour] go talk to Salvage trader",
+   "14:44 [tour] walk to Salvage trader",
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader",
+   "18:44 [tour] go talk to Field kit trader",
+   "18:44 [tour] walk to Field kit trader"
+  ]
+ },
+ {
+  "title": "Could not walk to Reception clerk",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "22:44",
+  "detail": "gave up after 120s; last distance 1000000000 m",
+  "shot": "shots-iphone/066-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "10:44 [tour] go talk to Supply clerk",
+   "10:44 [tour] walk to Supply clerk",
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader",
+   "14:44 [tour] go talk to Salvage trader",
+   "14:44 [tour] walk to Salvage trader",
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader",
+   "18:44 [tour] go talk to Field kit trader",
+   "18:44 [tour] walk to Field kit trader",
+   "20:44 [tour] go talk to Reception clerk",
+   "20:44 [tour] walk to Reception clerk"
+  ]
+ },
+ {
+  "title": "Could not walk to tower door",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "25:14",
+  "detail": "gave up after 150s; last distance 1000000000 m",
+  "shot": "shots-iphone/067-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "12:44 [tour] go talk to Food trader",
+   "12:44 [tour] walk to Food trader",
+   "14:44 [tour] go talk to Salvage trader",
+   "14:44 [tour] walk to Salvage trader",
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader",
+   "18:44 [tour] go talk to Field kit trader",
+   "18:44 [tour] walk to Field kit trader",
+   "20:44 [tour] go talk to Reception clerk",
+   "20:44 [tour] walk to Reception clerk",
+   "22:44 [tour] to the tower lift",
+   "22:44 [tour] walk to tower door"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 5,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "06:34",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/036-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:09 [opening] walk to the cabin exit",
+   "06:10 [opening] tap #opening-action (opening action)",
+   "06:12 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:12 [opening] walk to the crate",
+   "06:13 [opening] tap #opening-action (opening action)",
+   "06:15 [opening] tap #opening-action (opening action)",
+   "06:16 [opening] tap #opening-action (opening action)",
+   "06:17 [opening] tap #opening-action (opening action)",
+   "06:18 [opening] REFRESH (mid-dig)",
+   "06:18 [opening] websocket closed (the bot refreshed the page)",
+   "06:19 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:32 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap:  \"✕\" overlaps  \"Hear the faction leader of h\" by 46%",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:41",
+  "detail": " \"✕\" overlaps  \"Hear the faction leader of h\" by 46% (World / crew scrolled, iphone)",
+  "shot": "shots-iphone/056-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "08:32 [panels] === phase panels starts",
+   "08:32 [panels] mis-tap beside #btn-settings",
+   "08:33 [panels] tap #btn-settings (open Settings)",
+   "08:34 [panels] tap #set-view (settings switch #set-view)",
+   "08:35 [panels] tap #set-tool (settings switch #set-tool)",
+   "08:36 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "08:36 [panels] tap #set-voice-mute (toggle back)",
+   "08:36 [panels] tap #btn-close-settings (close Settings)",
+   "08:37 [panels] mis-tap beside #purse",
+   "08:38 [panels] tap #purse (open Account / purse)",
+   "08:39 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:40 [panels] tap #multiplayer-button (open World / crew)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The whole viewport is black. There is no caption, title, loading text, Skip intro button, HUD, or scene. The b",
+  "sev": 63,
+  "kind": "vision",
+  "count": 2,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:30",
+  "detail": "Entire screen (the vision model's description of the screen: The screenshot is a completely black frame with no visible text, caption, title, buttons, or any 3D world content.)",
+  "shot": "shots-iphone/046-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "08:30 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 17,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "00:15",
+  "detail": "a single frame took 3706 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:15 [opening] === phase opening starts",
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The whole frame is extremely dark, almost black. The world, horizon and cabin interior are barely visible, and",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "08:53",
+  "detail": "entire viewport (the vision model's description of the screen: A very dark, nearly black view from inside a cabin or cockpit shows a faint sunset glow on the horizon, a dim landscape, a diagonal strut on the right, and barely visible HUD panels, a Settings button, and 'World / crew' and 'Controls' buttons.)",
+  "shot": "shots-desktop/044-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "08:53 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Walter, who is speaking, is not visible in the frame. The subtitle plays but only an empty floor and a table a",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:15",
+  "detail": "center and lower half of the viewport, with the subtitle at the bottom (the vision model's description of the screen: A first-person view inside a dark ship observation lounge, looking through a railing and glass at a reddish planet-like curve and a docked ship, with a small table in the foreground, a tutorial hint at the top and a subtitle from Walter at the bottom.)",
+  "shot": "shots-iphone/004-opening-opening.jpg",
+  "steps": [
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: A pale lavender blocky object is cut off by the right screen edge and sits in the foreground. It could be a cl",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "02:13",
+  "detail": "bottom right corner (the vision model's description of the screen: A first-person view inside a sci-fi boarding hall with a tiled ceiling, a diagonal ceiling beam, grey metal wall panels with yellow-black striped trim, a diamond-plate floor, and an orange lit doorway on the left.)",
+  "shot": "shots-iphone/011-opening-opening.jpg",
+  "steps": [
+   "00:46 [opening] in the boarding hall, waiting for the gangway to come down"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The camera is pressed right up against a wall or door panel, so the view is almost entirely one surface. Only ",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "04:53",
+  "detail": "Whole frame, the door panel fills nearly all of it (the vision model's description of the screen: A close-up, angled view of a gray sci-fi bulkhead door with a dark blue-trimmed monitor, a small vent plate, and a yellow-black hazard stripe edge, with the pilot's caption at the bottom and a Skip intro button at the top right.)",
+  "shot": "shots-iphone/025-opening-opening.jpg",
+  "steps": [
+   "04:36 [opening] opening stage 1 -> 2 (You are aboard the Kestrel. Walk to a window if you like.)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The game is still on the boot/loading screen even though the bot's reload wait timed out after 120 seconds. Th",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "27:15",
+  "detail": "Whole screen, 'Loading the port…' line (the vision model's description of the screen: A near-black boot screen shows the title \"THE COSMOS\", a tagline about your ship, crew and real-size worlds, and a dim \"Loading the port…\" line, all centered on the phone screen.)",
+  "shot": "shots-iphone/071-tour-PROBLEM-harness.jpg",
+  "steps": [
+   "27:15 [tour] SESSION ERROR page.waitForFunction: Timeout 120000ms exceeded.\n    at Session.reload (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\lib\\core.mjs:106:21)\n    at async refreshCheck (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:81:54)\n    at async runSession (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:115:57)\n    at async file:///C:/Users/lilli/AI-Shared/tools/playtester/play.mjs:133:44"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The top-left info panel text is too dim to read (position/coordinates and a distance line), and the top-center",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "08:53",
+  "detail": "top-left panel and top-center (the vision model's description of the screen: A very dark, nearly black view from inside a cabin or cockpit shows a faint sunset glow on the horizon, a dim landscape, a diagonal strut on the right, and barely visible HUD panels, a Settings button, and 'World / crew' and 'Controls' buttons.)",
+  "shot": "shots-desktop/044-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "08:53 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 2,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "03:38",
+  "detail": "shown in opening-caption while the bot was: 03:38 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)",
+  "shot": "shots-iphone/017-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:17 [opening] tap screen to unlock sound",
+   "00:21 [opening] tap screen to unlock sound",
+   "00:38 [opening] walk to the boarding hall",
+   "00:39 [opening] walk to the boarding hall",
+   "00:39 [opening] walk to the boarding hall",
+   "00:44 [opening] walk to the boarding hall",
+   "00:46 [opening] in the boarding hall, waiting for the gangway to come down",
+   "03:33 [opening] walk to down the gangway",
+   "03:34 [opening] walk to down the gangway",
+   "03:35 [opening] walk to down the gangway",
+   "03:38 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 3,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "08:28",
+  "detail": "THREE.BufferGeometry.toNonIndexed(): BufferGeometry is already non-indexed.",
+  "shot": "shots-iphone/046-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "06:53 [opening] no dig button shown while standing at the crate",
+   "06:54 [opening] mis-tap beside #opening-action",
+   "06:55 [opening] tap #opening-action (opening action)",
+   "06:56 [opening] tap #opening-action (opening action)",
+   "06:57 [opening] tap #opening-action (opening action)",
+   "06:58 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:58 [opening] walk to the rescue vehicle",
+   "07:07 [opening] tap #opening-action (opening action)",
+   "07:09 [opening] opening stage 5 -> 6 (PruittPruitt, Homeguard. We saw you come down. I would say welcome home, but there is not much home built yet.)",
+   "07:24 [opening] REFRESH (mid-ride)",
+   "07:24 [opening] websocket closed (the bot refreshed the page)",
+   "07:25 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Bot harness error: page.waitForFunction: Timeout 120000ms exceeded.",
+  "sev": 10,
+  "kind": "harness",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "27:15",
+  "detail": "page.waitForFunction: Timeout 120000ms exceeded.\n    at Session.reload (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\lib\\core.mjs:106:21)\n    at async refreshCheck (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:81:54)\n    at async runSession (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:115:",
+  "shot": "shots-iphone/071-tour-PROBLEM-harness.jpg",
+  "steps": [
+   "16:44 [tour] go talk to Water trader",
+   "16:44 [tour] walk to Water trader",
+   "18:44 [tour] go talk to Field kit trader",
+   "18:44 [tour] walk to Field kit trader",
+   "20:44 [tour] go talk to Reception clerk",
+   "20:44 [tour] walk to Reception clerk",
+   "22:44 [tour] to the tower lift",
+   "22:44 [tour] walk to tower door",
+   "25:14 [tour] REFRESH (refresh after the port tour)",
+   "25:14 [tour] websocket closed (the bot refreshed the page)",
+   "25:15 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "27:15 [tour] SESSION ERROR page.waitForFunction: Timeout 120000ms exceeded.\n    at Session.reload (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\lib\\core.mjs:106:21)\n    at async refreshCheck (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:81:54)\n    at async runSession (C:\\Users\\lilli\\AI-Shared\\tools\\playtester\\play.mjs:115:57)\n    at async file:///C:/Users/lilli/AI-Shared/tools/playtester/play.mjs:133:44"
+  ]
+ }
+]

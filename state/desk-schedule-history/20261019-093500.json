@@ -1,0 +1,162 @@
+{
+  "tz": "America/Indiana/Indianapolis",
+  "note": "2026-10-11 loosened (Jaron go): no blackout, every lane open all day, no lane caps; per-game cap + tennis_max_size_usd still apply. Old copy: AI-Shared/state/desk_schedule-backup-2026-10-11-before-loosen.json",
+  "lanes": [
+    {
+      "name": "college football",
+      "remind": true,
+      "sports": [
+        "cfb"
+      ],
+      "windows": [
+        {
+          "to": "24:00",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "cap_usd": null
+        }
+      ],
+      "original_caps_usd": [
+        null
+      ]
+    },
+    {
+      "name": "NFL",
+      "remind": true,
+      "sports": [
+        "nfl"
+      ],
+      "windows": [
+        {
+          "to": "24:00",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "cap_usd": null
+        }
+      ],
+      "original_caps_usd": [
+        null
+      ]
+    },
+    {
+      "name": "basketball (test)",
+      "remind": false,
+      "sports": [
+        "nba",
+        "wnba",
+        "cbb",
+        "ncaab"
+      ],
+      "windows": [
+        {
+          "to": "24:00",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "cap_usd": null
+        }
+      ],
+      "original_caps_usd": [
+        null
+      ]
+    },
+    {
+      "name": "soccer (test)",
+      "remind": false,
+      "sports": [
+        "epl",
+        "mls",
+        "ucl",
+        "uel",
+        "lal",
+        "bun",
+        "sea",
+        "lg1",
+        "unl",
+        "cop",
+        "acle",
+        "lmx",
+        "lpa",
+        "ekst",
+        "afcq",
+        "intf",
+        "cnl",
+        "ncaams",
+        "ncaaws"
+      ],
+      "windows": [
+        {
+          "to": "24:00",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "cap_usd": null
+        }
+      ],
+      "original_caps_usd": [
+        null
+      ]
+    },
+    {
+      "name": "Bitcoin",
+      "remind": false,
+      "sports": [
+        "btc"
+      ],
+      "windows": [
+        {
+          "to": "24:00",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "cap_usd": null
+        }
+      ],
+      "original_caps_usd": [
+        null
+      ]
+    }
+  ],
+  "quiet": {
+    "to": "07:00",
+    "from": "00:00"
+  },
+  "evening_report": "21:00"
+}

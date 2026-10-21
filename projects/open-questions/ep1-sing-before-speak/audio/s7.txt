@@ -1,0 +1,6 @@
+file 'parts/s7_0.wav'
+file 'parts/gap.wav'
+file 'parts/s7_1.wav'
+file 'parts/gap.wav'
+file 'parts/s7_2.wav'
+file 'parts/gap.wav'

@@ -1,0 +1,231 @@
+[
+ {
+  "title": "Could not walk to Bram Okonkwo",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:29",
+  "detail": "gave up after 240s; last distance 89 m",
+  "shot": "shots-iphone/080-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "11:01 [tour] tap #crew-talk (Talk to Odette Marsh)",
+   "11:02 [tour] tap button \"What does the middle stone measure?\" (ask them something)",
+   "11:03 [tour] tap button \"✕\" (close talk panel)",
+   "11:03 [tour] go talk to Farah Adeyemi",
+   "11:03 [tour] walk to Farah Adeyemi",
+   "11:03 [tour] outpost route of 33 legs around 35 solid things",
+   "11:27 [tour] tap #crew-talk (Talk to Farah Adeyemi)",
+   "11:28 [tour] tap button \"What jobs are there?\" (ask them something)",
+   "11:29 [tour] tap button \"✕\" (close talk panel)",
+   "11:29 [tour] go talk to Bram Okonkwo",
+   "11:29 [tour] walk to Bram Okonkwo",
+   "11:29 [tour] outpost route of 81 legs around 35 solid things"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 6,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:26",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/034-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:01 [opening] walk to the cabin exit",
+   "06:03 [opening] tap #opening-action (opening action)",
+   "06:04 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:04 [opening] walk to the crate",
+   "06:05 [opening] tap #opening-action (opening action)",
+   "06:06 [opening] tap #opening-action (opening action)",
+   "06:08 [opening] tap #opening-action (opening action)",
+   "06:09 [opening] tap #opening-action (opening action)",
+   "06:11 [opening] REFRESH (mid-dig)",
+   "06:11 [opening] websocket closed (the bot refreshed the page)",
+   "06:12 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:25 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 8,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:15",
+  "detail": "a single frame took 4192 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:15 [opening] === phase opening starts",
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:41",
+  "detail": "a single frame took 4580 ms (typical 16 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/083-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "11:03 [tour] go talk to Farah Adeyemi",
+   "11:03 [tour] walk to Farah Adeyemi",
+   "11:03 [tour] outpost route of 33 legs around 35 solid things",
+   "11:27 [tour] tap #crew-talk (Talk to Farah Adeyemi)",
+   "11:28 [tour] tap button \"What jobs are there?\" (ask them something)",
+   "11:29 [tour] tap button \"✕\" (close talk panel)",
+   "11:29 [tour] go talk to Bram Okonkwo",
+   "11:29 [tour] walk to Bram Okonkwo",
+   "11:29 [tour] outpost route of 81 legs around 35 solid things",
+   "15:30 [tour] REFRESH (refresh after the port tour)",
+   "15:30 [tour] websocket closed (the bot refreshed the page)",
+   "15:31 [tour] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 8,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:05",
+  "detail": "Failed to load resource: the server responded with a status of 404 ()",
+  "shot": "shots-iphone/057-tour-PROBLEM-console-error.jpg",
+  "steps": [
+   "08:25 [panels] tap #purse (open Account / purse)",
+   "08:27 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:27 [panels] tap #multiplayer-button (open World / crew)",
+   "08:28 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:29 [panels] tap #btn-key-controls (open Controls)",
+   "08:30 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:31 [tour] === phase tour starts",
+   "08:31 [tour] settlement world Callisto: people Director Ila Sorn, Tomas Grey, Odette Marsh, Farah Adeyemi, Bram Okonkwo",
+   "08:31 [tour] go talk to Director Ila Sorn",
+   "08:31 [tour] walk to Director Ila Sorn",
+   "08:31 [tour] outpost route of 80 legs around 35 solid things",
+   "10:05 [tour] tap #crew-talk (Talk to Director Ila Sorn)"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 8,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:05",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/undefined.jpg",
+  "shot": "shots-iphone/056-tour-PROBLEM-http.jpg",
+  "steps": [
+   "08:25 [panels] tap #purse (open Account / purse)",
+   "08:27 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:27 [panels] tap #multiplayer-button (open World / crew)",
+   "08:28 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:29 [panels] tap #btn-key-controls (open Controls)",
+   "08:30 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:31 [tour] === phase tour starts",
+   "08:31 [tour] settlement world Callisto: people Director Ila Sorn, Tomas Grey, Odette Marsh, Farah Adeyemi, Bram Okonkwo",
+   "08:31 [tour] go talk to Director Ila Sorn",
+   "08:31 [tour] walk to Director Ila Sorn",
+   "08:31 [tour] outpost route of 80 legs around 35 solid things",
+   "10:05 [tour] tap #crew-talk (Talk to Director Ila Sorn)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: NPC models look like unfinished placeholder mannequins — no face/texture detail, head appears to float just ab",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "02:38",
+  "detail": "both figures in the stalls, left and right (the vision model's description of the screen: Two humanoid figures stand in locker-room-style stalls, each a plain white mannequin with a featureless round head, blocky torso/arms, and separate cylindrical legs.)",
+  "shot": "shots-iphone/012-opening-opening.jpg",
+  "steps": [
+   "00:49 [opening] in the boarding hall, waiting for the gangway to come down"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: UI text and panel content are rendered at extremely low contrast against a near-black background, making almos",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:18",
+  "detail": "across the whole screen, especially the top text block and bottom buttons (the vision model's description of the screen: Near-black screen at the end of the opening sequence with a faint 'SKIFF 7' label and two barely-visible buttons at the bottom, plus illegible dark header text.)",
+  "shot": "shots-iphone/043-opening-opening-done.jpg",
+  "steps": [
+   "08:14 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Scene is washed out to near-solid pale beige/white with almost no visible terrain detail, far more extreme tha",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "entire viewport below the HUD panel (the vision model's description of the screen: Walking view where the screen has gone almost entirely flat beige/white with very low contrast, showing only the HUD, direction arrow, waypoint circle, and newly-appeared Shovel/Dig buttons.)",
+  "shot": "shots-iphone/077-tour-walking.jpg",
+  "steps": [
+   "11:29 [tour] outpost route of 81 legs around 35 solid things"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "03:37",
+  "detail": "shown in opening-caption while the bot was: 03:37 [opening] walk to the arrivals hall board",
+  "shot": "shots-iphone/017-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:20 [opening] tap screen to unlock sound",
+   "00:23 [opening] tap screen to unlock sound",
+   "00:42 [opening] walk to the boarding hall",
+   "00:43 [opening] walk to the boarding hall",
+   "00:43 [opening] walk to the boarding hall",
+   "00:48 [opening] walk to the boarding hall",
+   "00:49 [opening] in the boarding hall, waiting for the gangway to come down",
+   "03:32 [opening] walk to down the gangway",
+   "03:33 [opening] walk to down the gangway",
+   "03:34 [opening] walk to down the gangway",
+   "03:37 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)",
+   "03:37 [opening] walk to the arrivals hall board"
+  ]
+ }
+]

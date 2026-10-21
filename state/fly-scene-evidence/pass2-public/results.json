@@ -1,0 +1,110 @@
+[
+  {
+    "name": "phone",
+    "before": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": true,
+      "tableDimensions": {
+        "length": 2.74,
+        "width": 1.525,
+        "height": 0.76,
+        "netHeight": 0.1525
+      },
+      "jointBodies": 66,
+      "jointCount": 102,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "pose": "idle",
+      "dnSampled": 51,
+      "tick": "2026-09-12T23:16:11.279182+00:00",
+      "sampleCount": 3000
+    },
+    "watcher": "WATCH",
+    "paused": 1,
+    "cachedReadyMs": 707,
+    "errors": [],
+    "responses": [],
+    "after": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 2,
+      "selected": "fly-1",
+      "glb": true,
+      "tableDimensions": {
+        "length": 2.74,
+        "width": 1.525,
+        "height": 0.76,
+        "netHeight": 0.1525
+      },
+      "jointBodies": 66,
+      "jointCount": 102,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "pose": "idle",
+      "dnSampled": 60,
+      "tick": "2026-09-12T23:16:33.618657+00:00",
+      "sampleCount": 3000
+    },
+    "overflow": false,
+    "text": "▥ HEARTBEAT OBSERVATORY\nThe colony ↗\nIs it learning? ↗\n\nMALECNS V1.0 / LIVING ATLAS\n\nInside the fly.\n\nA match becomes a smell. A brain responds.\n\n01 The trader\n02 The watcher\nEXECUTION MODE\nDRY\nSimulation · no orders\nVALENCE\nHZ\n+6.6\n−80\n−15 / +20 thresholds\n+80\nSUGAR / REALIZED\n$0.00\nDry-run realized P&L\nSPIKES / SEC\n7,012,280\nSimulation time\nKC FIRING\n150\n20–200 sparse range\nCAP / EXPOSURE\n$1 / $5\nPer trade / total\nDN FIRING\n60\nIn sampled tick\nLIVE SIMULATION\n3S SINCE TICK\n+\nMushroom body\nKC → MBON · the learning circuit\n140,024 measured neuron positions\nDrag to orbit · new ticks flash once\nPause orbit\nReset view\nAsset IDs\n\nTHE SENSES /\nFLY-1\n\nKrol Yan vs. Marchuk Maksym\n\nSmelling from Marchuk Maksym (NO @ 52¢)\n\nSETS · OUR SIDE / OPPONENT\n1 : 1\n11-6\n6-11\n9-9\nCurrent set S3\nCurrent points\n9 : 9\nEntry-side price\n52¢\nSince last set\n+4¢\nSpread\n3¢\nHolding\nYes\nBrain response\nNeutral\n\nMeasured flybody anatomy | 160x display size. Real joints; threshold-driven motion, not measured limb movement.\n\nMEASURED REGIONS\nORN\nPN\nKC\nMBON\nPAM\nPPL1\nDN\nother\n\n3,000 sampled spikes shown\n37,105 neurons fired this tick\n\nAction trace\nLast 8 · checked 07:16 PM\nNo recorded actions for this fly yet.\n\nEvery dot is a measured neuron position. Every flash is a neuron that actually spiked in the simulation this tick. The valence is read from the fly’s own mushroom body.\n\nWhat is chosen: the pairing of profit with dopamine, the mapping of a match onto smells, and the thresholds. Avatar movements illustrate "
+  },
+  {
+    "name": "laptop",
+    "before": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": true,
+      "tableDimensions": {
+        "length": 2.74,
+        "width": 1.525,
+        "height": 0.76,
+        "netHeight": 0.1525
+      },
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "pose": "idle",
+      "jointBodies": 66,
+      "jointCount": 102,
+      "dnSampled": 60,
+      "tick": "2026-09-12T23:16:33.618657+00:00",
+      "sampleCount": 3000
+    },
+    "watcher": "WATCH",
+    "paused": 1,
+    "cachedReadyMs": 719,
+    "errors": [],
+    "responses": [],
+    "after": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": true,
+      "tableDimensions": {
+        "length": 2.74,
+        "width": 1.525,
+        "height": 0.76,
+        "netHeight": 0.1525
+      },
+      "jointBodies": 66,
+      "jointCount": 102,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "pose": "idle",
+      "dnSampled": 60,
+      "tick": "2026-09-12T23:16:33.618657+00:00",
+      "sampleCount": 3000
+    },
+    "overflow": false,
+    "text": "▥ HEARTBEAT OBSERVATORY\nThe colony ↗\nIs it learning? ↗\n\nMALECNS V1.0 / LIVING ATLAS\n\nInside the fly.\n\nA match becomes a smell. A brain responds.\n\n01 The trader\n02 The watcher\nEXECUTION MODE\nDRY\nSimulation · no orders\nVALENCE\nHZ\n+6.6\n−80\n−15 / +20 thresholds\n+80\nSUGAR / REALIZED\n$0.00\nDry-run realized P&L\nSPIKES / SEC\n7,012,280\nSimulation time\nKC FIRING\n150\n20–200 sparse range\nCAP / EXPOSURE\n$1 / $5\nPer trade / total\nDN FIRING\n60\nIn sampled tick\nLIVE SIMULATION\n16S SINCE TICK\n+\nMushroom body\nKC → MBON · the learning circuit\n140,024 measured neuron positions\nDrag to orbit · new ticks flash once\nPause orbit\nReset view\nAsset IDs\n\nTHE SENSES /\nFLY-1\n\nKrol Yan vs. Marchuk Maksym\n\nSmelling from Marchuk Maksym (NO @ 52¢)\n\nSETS · OUR SIDE / OPPONENT\n1 : 1\n11-6\n6-11\n9-9\nCurrent set S3\nCurrent points\n9 : 9\nEntry-side price\n52¢\nSince last set\n+4¢\nSpread\n3¢\nHolding\nYes\nBrain response\nNeutral\n\nMeasured flybody anatomy | 160x display size. Real joints; threshold-driven motion, not measured limb movement.\n\nMEASURED REGIONS\nORN\nPN\nKC\nMBON\nPAM\nPPL1\nDN\nother\n\n3,000 sampled spikes shown\n37,105 neurons fired this tick\n\nAction trace\nLast 8 · checked 07:16 PM\nNo recorded actions for this fly yet.\n\nEvery dot is a measured neuron position. Every flash is a neuron that actually spiked in the simulation this tick. The valence is read from the fly’s own mushroom body.\n\nWhat is chosen: the pairing of profit with dopamine, the mapping of a match onto smells, and the thresholds. Avatar movements illustrate"
+  }
+]

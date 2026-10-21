@@ -1,0 +1,41 @@
+﻿63 markets with a game in progress (started Γëñ now, still open):
+  started 01:00Z  atc-lmx-leo-asl-2026-09-14-leo                   Will Club Leon FC win against Atletico 0.4300/0.4400
+  started 00:40Z  tsc-mlb-sd-col-2026-09-14-11pt5                  Will the total in San Diego Padres vs  0.8000/0.8200
+  started 00:40Z  tsc-mlb-sd-col-2026-09-14-10pt5                  Will the total in San Diego Padres vs  0.6450/0.6500
+  started 00:40Z  asc-mlb-sd-col-2026-09-14-neg-1pt5               Will the San Diego Padres cover -1.5 v 0.8800/0.8850
+  started 00:40Z  aec-mlb-sd-col-2026-09-14                        Who will win in the upcoming baseball  0.9350/0.9400
+  started 00:35Z  aec-wta-elsjac-liusam-2026-09-13                 Elsa Jacquemot vs. Liudmila Samsonova  0.3000/0.3100
+  started 00:30Z  aec-atp-triboy-edwwin-2026-09-14                 Tristan Boyer vs. Edward Winter        0.9300/0.9400
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-tt-den-20pt5           Will the total in Denver Broncos vs. K 0.6100/0.6200
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-54pt5            Will the total in Denver Broncos vs. K 0.3100/0.3200
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-48pt5            Will the total in Denver Broncos vs. K 0.1800/0.1900
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-46pt5            Will the total in Denver Broncos vs. K 0.3300/0.3900
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-44pt5            Will the total in Denver Broncos vs. K 0.2800/0.2900
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-42pt5            Will the total in Denver Broncos vs. K 0.5300/0.5500
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-40pt5            Will the total in Denver Broncos vs. K 0.4800/0.4900
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-total-36pt5            Will the total in Denver Broncos vs. K 0.8800/0.8900
+  started 00:15Z  tsc-nfl-den-kc-2026-09-14-1h-22pt5               Will the total in Denver Broncos vs. K 0.1000/0.1100
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-trofra-gte1      Will Troy Franklin record 1+ touchdown 0.0200/0.0300
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-trakel-gte1      Will Travis Kelce record 1+ touchdowns 0.1900/0.2000
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-rasric-gte1      Will Rashee Rice record 1+ touchdowns? 0.1600/0.1700
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-kenwal-gte1      Will Kenneth Walker record 1+ touchdow 0.4100/0.4300
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-jdob-gte1        Will J.K. Dobbins record 1+ touchdowns 0.1500/0.1600
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-jaywad-gte1      Will Jaylen Waddle record 1+ touchdown 0.1200/0.1400
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-cousut-gte1      Will Courtland Sutton record 1+ touchd 0.1100/0.1300
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-td-bonix-gte1       Will Bo Nix record 1+ touchdowns?      0.1600/0.1700
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ryd-patmah-gte15    Will Patrick Mahomes record 15+ rushin 0.9100/0.9400
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ryd-kenwal-gte100   Will Kenneth Walker III record 100+ ru 0.4500/0.4700
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ryd-bonix-gte20     Will Bo Nix record 20+ rushing yards?  0.3500/0.3600
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ryd-bonix-gte15     Will Bo Nix record 15+ rushing yards?  0.2800/0.2900
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-recyd-cousut-gte40  Will Courtland Sutton record 40+ recei 0.2200/0.2300
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-pyd-patmah-gte225   Will Patrick Mahomes record 225+ passi 0.0700/0.0800
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ptd-patmah-gte2     Will Patrick Mahomes record 2+ passing 0.2300/0.2400
+  started 00:15Z  astatc-nfl-den-kc-2026-09-14-ptd-bonix-gte2      Will Bo Nix record 2+ passing touchdow 0.5800/0.5900
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-9pt5               Will the Denver Broncos cover 9.5 vs t 0.7300/0.7400
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-7pt5               Will the Denver Broncos cover 7.5 vs t 0.6900/0.7000
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-6pt5               Will the Denver Broncos cover 6.5 vs t 0.6100/0.6200
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-4pt5               Will the Denver Broncos cover 4.5 vs t 0.6700/0.6800
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-3pt5               Will the Denver Broncos cover 3.5 vs t 0.6500/0.6600
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-2pt5               Will the Denver Broncos cover 2.5 vs t 0.4900/0.5000
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-1pt5               Will the Denver Broncos cover 1.5 vs t 0.3900/0.4000
+  started 00:15Z  asc-nfl-den-kc-2026-09-14-pos-0pt5               Will the Denver Broncos cover 0.5 vs t 0.3100/0.3500

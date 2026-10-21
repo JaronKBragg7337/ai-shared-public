@@ -1,0 +1,156 @@
+{
+  "_help": "One block per trouble type. Add a new type = add a block here + (if it needs new geometry) one small function in lib/spots.mjs. 'look' is the what-to-look-for line the vision review gets with each screenshot. Distances in metres, port-local frame (x right, z back).",
+  "settleMs": 450,
+  "doors": {
+    "distances": [
+      15,
+      5,
+      1.5
+    ],
+    "states": [
+      "shut",
+      "open"
+    ],
+    "floorView": true,
+    "look": "The doorway named in the label: is it visible and unobstructed (no pipe, board, rail or glass partition across it), is the label the door's own name, does the open passage read clearly?",
+    "lookFloor": "Looking down through the open doorway: is there a continuous visible floor and threshold, with no sill, prop or gap blocking the opening?"
+  },
+  "ramps": {
+    "perType": true,
+    "views": [
+      {
+        "id": "up",
+        "look": "Walking UP the ramp from the ground toward the hatch: is there a visible ramp surface (not thin air), does it meet the ground and the hatch cleanly, is the hatch/nozzle/prop in the way?"
+      },
+      {
+        "id": "down",
+        "look": "Standing at the hatch looking DOWN the ramp: you should see a solid ramp under you; if you see the ground far below and nothing between, the ramp is invisible (you float down)."
+      },
+      {
+        "id": "back",
+        "look": "From the bottom of the ramp looking back at the ship: ramp panel visible and attached, hull solid around the opening, nothing floating in the doorway."
+      }
+    ]
+  },
+  "ships": {
+    "ring": 6,
+    "radius": {
+      "meridian": 26,
+      "courier": 16,
+      "lifeboat": 15,
+      "default": 22
+    },
+    "lookAtHeight": 2.5,
+    "look": "Ship seen from outside at eye height: is the hull solid and opaque (not see-through, no interior shelves/doors visible through it), windows and panels textured, nothing floating, ramp/gear attached to the hull?"
+  },
+  "signs": {
+    "closeDistance": 2.5,
+    "widthFactor": 0.75,
+    "maxDistance": 12,
+    "flagRepeatedText": true,
+    "buildingText": {
+      "depot": "SUPPLY / ARRIVALS",
+      "tower": "PORT CONTROL",
+      "hall": "CREW HALL"
+    },
+    "buildingSign": {
+      "y": 3.85,
+      "w": 8,
+      "h": 0.48
+    },
+    "extra": [
+      {
+        "id": "beacon",
+        "text": "MARINERIS PORT",
+        "x": -28,
+        "y": 4,
+        "z": 65.511,
+        "w": 15.6,
+        "h": 1.75
+      },
+      {
+        "id": "arrivals-gantry",
+        "text": "MARINERIS PORT",
+        "x": -88,
+        "y": 3.75,
+        "z": 35.62,
+        "w": 20.8,
+        "h": 0.4
+      },
+      {
+        "id": "padboard-01",
+        "text": "PAD 01 / MERIDIAN",
+        "x": -17,
+        "y": 1.95,
+        "z": 34.045,
+        "w": 1.95,
+        "h": 0.78
+      },
+      {
+        "id": "padboard-02",
+        "text": "PAD STATUS",
+        "x": 49,
+        "y": 1.95,
+        "z": -7.455,
+        "w": 1.95,
+        "h": 0.78
+      },
+      {
+        "id": "padboard-03",
+        "text": "PAD STATUS",
+        "x": 51,
+        "y": 1.95,
+        "z": 47.545,
+        "w": 1.95,
+        "h": 0.78
+      }
+    ],
+    "look": "Sign close up: can you read every word (real text, not bars or placeholder blocks), is it facing you, and does the text match what the thing is?"
+  },
+  "night": {
+    "sky": "night",
+    "maxViews": 5,
+    "towardKinds": [
+      "depot",
+      "hall",
+      "tower",
+      "arrivals",
+      "market"
+    ],
+    "note": "stands 3 m beyond the pad edge facing the nearest building",
+    "look": "Night view from the pad toward the settlement: are the buildings, path and pad lit so it reads as a place? Fail if the ground is black, buildings are invisible, or the ship floats in black."
+  },
+  "math": [
+    "door-opening-vs-prop-boxes",
+    "duplicate-door-names",
+    "ramp-lowered-but-no-visible-mesh",
+    "ship-interior-door-sign-falls-back-to-first-atlas-entry",
+    "repeated-sign-text",
+    "inside-duplicate-door-labels",
+    "inside-prop-or-screen-over-door-opening",
+    "inside-door-sign-falls-back"
+  ],
+  "inside": {
+    "ships": [
+      "liner",
+      "kestrel",
+      "own"
+    ],
+    "distances": [
+      5,
+      1.5
+    ],
+    "secondSideDistance": 1.5,
+    "eyeHeight": 1.66,
+    "settleMs": 700,
+    "clearApproach": 0.6,
+    "clearWallMounted": 0.1,
+    "note": "liner = Ares liner Hellas Dawn (the opening's first stage); kestrel = Soft Landing, the descent transport (opening stage 3); own = the player's own ship (the Skiff). Doors open on their own within 1.7 m, so the 5 m shot is shut and the 1.5 m shot is open.",
+    "look": {
+      "door": "Standing inside the ship in front of a door: is the door itself visible and unobstructed (no pipe, board, rail, glass partition, prop, locker or screen across or over it), does its sign carry its OWN name (not MEDBAY on everything), and does the passage read clearly behind it?",
+      "door-open": "The door is now sliding open at arm's length: is the opening clear and walkable, floor continuous through it, nothing standing in the gap, and is the sign above it readable and matching the room beyond?",
+      "cockpit": "Looking back from the front window / pilot seat toward the cabin and its door: you should see the door and the cabin beyond. Fail if a hull piece, riser, bulkhead or panel hides the cabin or the door, or if the view is blocked by geometry that is not furniture.",
+      "room": "One room seen from its own doorway: does it read as a real room (floor, walls, ceiling, lights, furniture in sensible places), nothing floating, nothing see-through, no props blocking the way in, no door covered by a prop."
+    }
+  }
+}

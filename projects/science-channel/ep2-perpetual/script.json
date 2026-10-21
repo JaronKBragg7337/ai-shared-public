@@ -1,0 +1,42 @@
+[
+ {
+  "id": "s1",
+  "text": "Can a machine run forever?"
+ },
+ {
+  "id": "s2",
+  "text": "People have tried for centuries. A twelfth century wheel with weights on its rim is often credited to Bhaskara, though that is disputed. Villard de Honnecourt drew one in France in the early twelve hundreds. Leonardo da Vinci drew several, and doubted them. In seventeen seventy five, the Paris Academy of Sciences stopped examining such proposals."
+ },
+ {
+  "id": "s3",
+  "text": "Let's test it in a simulation. Eight weights on arms: swung out on the right, folded in on the left. The right side looks heavier, so the wheel should keep turning."
+ },
+ {
+  "id": "s4",
+  "text": "One push. With no friction, it never gains speed. Energy only trades between motion and height. Now add a little friction. The energy leaks away as heat, and the wheel settles. The push is now warmth in the bearing and the air. Add it all up, and the books always balance."
+ },
+ {
+  "id": "s5",
+  "text": "Two rules explain this. First law: energy is neither created nor destroyed, so a machine cannot give out more than it takes in. Second law: heat flows from hot to cold, so no machine can turn heat from one source completely into work. These are our best current understanding, and the most tested rules in physics. No claimed perpetual motion machine has passed an independent test."
+ },
+ {
+  "id": "s6",
+  "text": "What works is collecting energy that already flows. Sunlight is about one thousand watts per square meter, and panels turn twenty to twenty five percent of it into power. A footstep on a floor tile gives around three joules, by one maker's figure. Radio waves in the air carry nanowatts to one microwatt per square centimeter."
+ },
+ {
+  "id": "s7",
+  "text": "Fill one phone battery from footsteps: about eighteen thousand steps. From radio waves at ten microwatts: about one hundred seventy five years. Useful for tiny sensors, not for a phone."
+ },
+ {
+  "id": "s8",
+  "text": "Now the open edge. In nineteen ninety eight, astronomers found that the expansion of the universe is speeding up. The Nobel Prize followed in two thousand eleven. We call the cause dark energy. In the standard model it is about sixty eight percent of the universe's energy content, and we cannot yet explain it. Recent surveys hint that it may change over time. That is not settled. Whether anything like it could ever be tapped is not established."
+ },
+ {
+  "id": "s9",
+  "text": "Every machine we have built stops. What we have not understood yet is still out there."
+ },
+ {
+  "id": "s10",
+  "text": "A Heartbeat Observatory science short."
+ }
+]

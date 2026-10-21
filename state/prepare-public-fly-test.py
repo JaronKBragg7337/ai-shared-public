@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('state/test-fly-pass2.cjs');s=p.read_text(encoding='utf-8').replace("await page.goto('http://127.0.0.1:8093/live-systems/flies/brain/')","await page.goto((process.argv[2]||'http://127.0.0.1:8093')+'/live-systems/flies/brain/')").replace("/pass2-local-phone", "/pass2-public-phone").replace("/pass2-joint-tests.json","/pass2-public-joint-tests.json");Path('state/test-fly-pass2-public.cjs').write_text(s,encoding='utf-8')

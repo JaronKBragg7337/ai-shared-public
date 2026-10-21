@@ -1,0 +1,594 @@
+﻿{
+    "id":  "401856714",
+    "uid":  "s:20~l:23~e:401856714~c:401856714",
+    "date":  "2026-10-10T16:45Z",
+    "attendance":  0,
+    "type":  {
+                 "id":  "1",
+                 "abbreviation":  "STD"
+             },
+    "timeValid":  true,
+    "dateValid":  true,
+    "neutralSite":  false,
+    "conferenceCompetition":  true,
+    "playByPlayAvailable":  true,
+    "recent":  true,
+    "venue":  {
+                  "id":  "3634",
+                  "fullName":  "Ben Hill Griffin Stadium",
+                  "address":  {
+                                  "city":  "Gainesville",
+                                  "state":  "FL",
+                                  "country":  "USA"
+                              },
+                  "indoor":  false
+              },
+    "competitors":  [
+                        {
+                            "id":  "57",
+                            "uid":  "s:20~l:23~t:57",
+                            "type":  "team",
+                            "order":  0,
+                            "homeAway":  "home",
+                            "team":  {
+                                         "id":  "57",
+                                         "uid":  "s:20~l:23~t:57",
+                                         "location":  "Florida",
+                                         "name":  "Gators",
+                                         "abbreviation":  "FLA",
+                                         "displayName":  "Florida Gators",
+                                         "shortDisplayName":  "Florida",
+                                         "color":  "0021a5",
+                                         "alternateColor":  "fa4616",
+                                         "isActive":  true,
+                                         "venue":  {
+                                                       "id":  "3634"
+                                                   },
+                                         "links":  [
+                                                       {
+                                                           "rel":  [
+                                                                       "clubhouse",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/_/id/57/florida-gators",
+                                                           "text":  "Clubhouse",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "clubhouse",
+                                                                       "mobile",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/_/id/57/florida-gators",
+                                                           "text":  "Clubhouse",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "roster",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/roster/_/id/57",
+                                                           "text":  "Roster",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "roster",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:57\u0026section=roster",
+                                                           "text":  "Roster",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "stats",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/stats/_/id/57",
+                                                           "text":  "Statistics",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "stats",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:57\u0026section=stats",
+                                                           "text":  "Statistics",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "schedule",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/schedule/_/id/57",
+                                                           "text":  "Schedule",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "schedule",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:57\u0026section=scores",
+                                                           "text":  "Schedule",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       }
+                                                   ],
+                                         "logo":  "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+                                         "logoDark":  "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/57.png",
+                                         "conferenceId":  "8"
+                                     },
+                            "score":  "13",
+                            "linescores":  [
+                                               {
+                                                   "value":  7.0,
+                                                   "displayValue":  "7",
+                                                   "period":  1
+                                               },
+                                               {
+                                                   "value":  3.0,
+                                                   "displayValue":  "3",
+                                                   "period":  2
+                                               },
+                                               {
+                                                   "value":  3.0,
+                                                   "displayValue":  "3",
+                                                   "period":  3
+                                               }
+                                           ],
+                            "statistics":  [
+
+                                           ],
+                            "curatedRank":  {
+                                                "current":  16
+                                            },
+                            "records":  [
+                                            {
+                                                "name":  "overall",
+                                                "abbreviation":  "overall",
+                                                "type":  "total",
+                                                "summary":  "4-1"
+                                            },
+                                            {
+                                                "name":  "Home",
+                                                "abbreviation":  "Home",
+                                                "type":  "homerecord",
+                                                "summary":  "3-0"
+                                            },
+                                            {
+                                                "name":  "Away",
+                                                "abbreviation":  "Away",
+                                                "type":  "awayrecord",
+                                                "summary":  "1-1"
+                                            },
+                                            {
+                                                "name":  "vs. Conf.",
+                                                "abbreviation":  "CONF",
+                                                "type":  "vsconf",
+                                                "summary":  "2-1"
+                                            }
+                                        ]
+                        },
+                        {
+                            "id":  "2579",
+                            "uid":  "s:20~l:23~t:2579",
+                            "type":  "team",
+                            "order":  1,
+                            "homeAway":  "away",
+                            "team":  {
+                                         "id":  "2579",
+                                         "uid":  "s:20~l:23~t:2579",
+                                         "location":  "South Carolina",
+                                         "name":  "Gamecocks",
+                                         "abbreviation":  "SC",
+                                         "displayName":  "South Carolina Gamecocks",
+                                         "shortDisplayName":  "South Carolina",
+                                         "color":  "73000a",
+                                         "alternateColor":  "000000",
+                                         "isActive":  true,
+                                         "venue":  {
+                                                       "id":  "3994"
+                                                   },
+                                         "links":  [
+                                                       {
+                                                           "rel":  [
+                                                                       "clubhouse",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/_/id/2579/south-carolina-gamecocks",
+                                                           "text":  "Clubhouse",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "clubhouse",
+                                                                       "mobile",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/_/id/2579/south-carolina-gamecocks",
+                                                           "text":  "Clubhouse",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "roster",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/roster/_/id/2579",
+                                                           "text":  "Roster",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "roster",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2579\u0026section=roster",
+                                                           "text":  "Roster",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "stats",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/stats/_/id/2579",
+                                                           "text":  "Statistics",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "stats",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2579\u0026section=stats",
+                                                           "text":  "Statistics",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "schedule",
+                                                                       "desktop",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "https://www.espn.com/college-football/team/schedule/_/id/2579",
+                                                           "text":  "Schedule",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       },
+                                                       {
+                                                           "rel":  [
+                                                                       "schedule",
+                                                                       "sportscenter",
+                                                                       "app",
+                                                                       "team"
+                                                                   ],
+                                                           "href":  "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2579\u0026section=scores",
+                                                           "text":  "Schedule",
+                                                           "isExternal":  false,
+                                                           "isPremium":  false
+                                                       }
+                                                   ],
+                                         "logo":  "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+                                         "logoDark":  "https://a.espncdn.com/i/teamlogos/ncaa/500-dark/2579.png",
+                                         "conferenceId":  "8"
+                                     },
+                            "score":  "31",
+                            "linescores":  [
+                                               {
+                                                   "value":  7.0,
+                                                   "displayValue":  "7",
+                                                   "period":  1
+                                               },
+                                               {
+                                                   "value":  10.0,
+                                                   "displayValue":  "10",
+                                                   "period":  2
+                                               },
+                                               {
+                                                   "value":  14.0,
+                                                   "displayValue":  "14",
+                                                   "period":  3
+                                               }
+                                           ],
+                            "statistics":  [
+
+                                           ],
+                            "curatedRank":  {
+                                                "current":  99
+                                            },
+                            "records":  [
+                                            {
+                                                "name":  "overall",
+                                                "abbreviation":  "overall",
+                                                "type":  "total",
+                                                "summary":  "2-3"
+                                            },
+                                            {
+                                                "name":  "Home",
+                                                "abbreviation":  "Home",
+                                                "type":  "homerecord",
+                                                "summary":  "2-2"
+                                            },
+                                            {
+                                                "name":  "Away",
+                                                "abbreviation":  "Away",
+                                                "type":  "awayrecord",
+                                                "summary":  "0-1"
+                                            },
+                                            {
+                                                "name":  "vs. Conf.",
+                                                "abbreviation":  "CONF",
+                                                "type":  "vsconf",
+                                                "summary":  "0-3"
+                                            }
+                                        ]
+                        }
+                    ],
+    "notes":  [
+
+              ],
+    "situation":  {
+                      "lastPlay":  {
+                                       "id":  "401856714629",
+                                       "type":  {
+                                                    "id":  "2",
+                                                    "text":  "End Period",
+                                                    "abbreviation":  "EP"
+                                                },
+                                       "text":  "End of 3rd quarter.",
+                                       "scoreValue":  0,
+                                       "team":  {
+                                                    "id":  "57"
+                                                },
+                                       "probability":  {
+                                                           "tiePercentage":  0.0,
+                                                           "homeWinPercentage":  0.0313,
+                                                           "awayWinPercentage":  0.9687,
+                                                           "secondsLeft":  900
+                                                       },
+                                       "statYardage":  0,
+                                       "drive":  {
+                                                     "description":  "3 plays, 12 yards, 1:12",
+                                                     "start":  {
+                                                                   "yardLine":  25,
+                                                                   "text":  "FLA 25"
+                                                               },
+                                                     "timeElapsed":  {
+                                                                         "displayValue":  "1:12"
+                                                                     }
+                                                 },
+                                       "start":  {
+                                                     "yardLine":  35,
+                                                     "team":  {
+                                                                  "id":  "57"
+                                                              }
+                                                 },
+                                       "end":  {
+                                                   "yardLine":  37,
+                                                   "team":  {
+                                                                "id":  "57"
+                                                            }
+                                               }
+                                   },
+                      "down":  2,
+                      "yardLine":  37,
+                      "distance":  10,
+                      "downDistanceText":  "2nd \u0026 10 at FLA 37",
+                      "shortDownDistanceText":  "2nd \u0026 10",
+                      "possessionText":  "FLA 37",
+                      "isRedZone":  false,
+                      "homeTimeouts":  1,
+                      "awayTimeouts":  1,
+                      "possession":  "57"
+                  },
+    "status":  {
+                   "clock":  0.0,
+                   "displayClock":  "0:00",
+                   "period":  3,
+                   "type":  {
+                                "id":  "2",
+                                "name":  "STATUS_IN_PROGRESS",
+                                "state":  "in",
+                                "completed":  false,
+                                "description":  "In Progress",
+                                "detail":  "End of 3rd Quarter",
+                                "shortDetail":  "End of 3rd"
+                            }
+               },
+    "broadcasts":  [
+                       {
+                           "market":  "national",
+                           "names":  [
+                                         "SEC Network"
+                                     ]
+                       }
+                   ],
+    "leaders":  [
+                    {
+                        "name":  "passingYards",
+                        "displayName":  "Passing Leader",
+                        "shortDisplayName":  "PASS",
+                        "abbreviation":  "PYDS",
+                        "leaders":  [
+                                        {
+                                            "displayValue":  "20/30, 232 YDS, 3 TD",
+                                            "value":  232.0,
+                                            "athlete":  {
+                                                            "id":  "4875127",
+                                                            "fullName":  "LaNorris Sellers",
+                                                            "displayName":  "LaNorris Sellers",
+                                                            "shortName":  "L. Sellers",
+                                                            "links":  [
+                                                                          "@{rel=System.Object[]; href=https://www.espn.com/college-football/player/_/id/4875127/lanorris-sellers}"
+                                                                      ],
+                                                            "headshot":  "https://a.espncdn.com/i/headshots/college-football/players/full/4875127.png",
+                                                            "jersey":  "16",
+                                                            "position":  {
+                                                                             "abbreviation":  "QB"
+                                                                         },
+                                                            "team":  {
+                                                                         "id":  "2579"
+                                                                     },
+                                                            "active":  true
+                                                        },
+                                            "team":  {
+                                                         "id":  "2579"
+                                                     }
+                                        }
+                                    ]
+                    },
+                    {
+                        "name":  "rushingYards",
+                        "displayName":  "Rushing Leader",
+                        "shortDisplayName":  "RUSH",
+                        "abbreviation":  "RYDS",
+                        "leaders":  [
+                                        {
+                                            "displayValue":  "14 CAR, 57 YDS",
+                                            "value":  57.0,
+                                            "athlete":  {
+                                                            "id":  "5079322",
+                                                            "fullName":  "Jadan Baugh",
+                                                            "displayName":  "Jadan Baugh",
+                                                            "shortName":  "J. Baugh",
+                                                            "links":  [
+                                                                          "@{rel=System.Object[]; href=https://www.espn.com/college-football/player/_/id/5079322/jadan-baugh}"
+                                                                      ],
+                                                            "headshot":  "https://a.espncdn.com/i/headshots/college-football/players/full/5079322.png",
+                                                            "jersey":  "13",
+                                                            "position":  {
+                                                                             "abbreviation":  "RB"
+                                                                         },
+                                                            "team":  {
+                                                                         "id":  "57"
+                                                                     },
+                                                            "active":  true
+                                                        },
+                                            "team":  {
+                                                         "id":  "57"
+                                                     }
+                                        }
+                                    ]
+                    },
+                    {
+                        "name":  "receivingYards",
+                        "displayName":  "Receiving Leader",
+                        "shortDisplayName":  "REC",
+                        "abbreviation":  "RECYDS",
+                        "leaders":  [
+                                        {
+                                            "displayValue":  "4 REC, 83 YDS, 1 TD",
+                                            "value":  83.0,
+                                            "athlete":  {
+                                                            "id":  "4870745",
+                                                            "fullName":  "Nyck Harbor",
+                                                            "displayName":  "Nyck Harbor",
+                                                            "shortName":  "N. Harbor",
+                                                            "links":  [
+                                                                          "@{rel=System.Object[]; href=https://www.espn.com/college-football/player/_/id/4870745/nyck-harbor}"
+                                                                      ],
+                                                            "headshot":  "https://a.espncdn.com/i/headshots/college-football/players/full/4870745.png",
+                                                            "jersey":  "8",
+                                                            "position":  {
+                                                                             "abbreviation":  "WR"
+                                                                         },
+                                                            "team":  {
+                                                                         "id":  "2579"
+                                                                     },
+                                                            "active":  true
+                                                        },
+                                            "team":  {
+                                                         "id":  "2579"
+                                                     }
+                                        }
+                                    ]
+                    }
+                ],
+    "groups":  {
+                   "id":  "8",
+                   "name":  "Southeastern Conference",
+                   "shortName":  "SEC",
+                   "isConference":  true
+               },
+    "format":  {
+                   "regulation":  {
+                                      "periods":  4
+                                  }
+               },
+    "startDate":  "2026-10-10T16:45Z",
+    "broadcast":  "SEC Network",
+    "geoBroadcasts":  [
+                          {
+                              "type":  {
+                                           "id":  "1",
+                                           "shortName":  "TV"
+                                       },
+                              "market":  {
+                                             "id":  "1",
+                                             "type":  "National"
+                                         },
+                              "media":  {
+                                            "shortName":  "SEC Network",
+                                            "logo":  "https://a.espncdn.com/guid/4658b4d2-a8e1-3630-9475-13af31514cfe/logos/default.png",
+                                            "darkLogo":  ""
+                                        },
+                              "lang":  "en",
+                              "region":  "us"
+                          },
+                          {
+                              "type":  {
+                                           "id":  "5",
+                                           "shortName":  "Radio"
+                                       },
+                              "market":  {
+                                             "id":  "1",
+                                             "type":  "National"
+                                         },
+                              "media":  {
+                                            "shortName":  "ERADM"
+                                        },
+                              "lang":  "en",
+                              "region":  "us"
+                          }
+                      ],
+    "highlights":  [
+
+                   ]
+}

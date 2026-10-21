@@ -1,0 +1,147 @@
+{
+  "tz": "America/Indiana/Indianapolis",
+  "quiet": {
+    "from": "00:00",
+    "to": "07:00"
+  },
+  "evening_report": "21:00",
+  "lanes": [
+    {
+      "name": "college football",
+      "sports": [
+        "cfb"
+      ],
+      "remind": true,
+      "windows": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "to": "24:00",
+          "cap_usd": null
+        }
+      ]
+    },
+    {
+      "name": "NFL",
+      "sports": [
+        "nfl"
+      ],
+      "remind": true,
+      "windows": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "to": "24:00",
+          "cap_usd": null
+        }
+      ]
+    },
+    {
+      "name": "basketball (test)",
+      "sports": [
+        "nba",
+        "wnba",
+        "cbb",
+        "ncaab"
+      ],
+      "remind": false,
+      "windows": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "to": "24:00",
+          "cap_usd": null
+        }
+      ]
+    },
+    {
+      "name": "soccer (test)",
+      "sports": [
+        "epl",
+        "mls",
+        "ucl",
+        "uel",
+        "lal",
+        "bun",
+        "sea",
+        "lg1",
+        "unl",
+        "cop",
+        "acle",
+        "lmx",
+        "lpa",
+        "ekst",
+        "afcq",
+        "intf",
+        "cnl",
+        "ncaams",
+        "ncaaws"
+      ],
+      "remind": false,
+      "windows": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "to": "24:00",
+          "cap_usd": null
+        }
+      ]
+    },
+    {
+      "name": "Bitcoin",
+      "sports": [
+        "btc"
+      ],
+      "remind": false,
+      "windows": [
+        {
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "from": "00:00",
+          "to": "24:00",
+          "cap_usd": null
+        }
+      ]
+    }
+  ],
+  "note": "2026-10-11 loosened (Jaron go): no blackout, every lane open all day, no lane caps; per-game cap + tennis_max_size_usd still apply. Old copy: AI-Shared/state/desk_schedule-backup-2026-10-11-before-loosen.json"
+}

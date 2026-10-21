@@ -1,0 +1,41 @@
+86 markets with a game in progress (started ??? now, still open):
+  started 19:00Z  tsc-lal-val-rso-2026-09-20-2pt5                  Will the total in VAL vs RSO be more t 0.4200/0.4500
+  started 19:00Z  aec-wnba-ny-tor-2026-09-20                       Who will win in the upcoming basketbal 0.9600/0.9700
+  started 18:45Z  tsc-lg1-olm-psg-2026-09-20-3pt5                  Will the total in OLM vs PSG be more t 0.2100/0.2300
+  started 18:45Z  atc-sea-mil-lec-2026-09-20-mil                   Will AC Milan win against US Lecce in  0.8800/0.8900
+  started 18:45Z  atc-lg1-olm-psg-2026-09-20-psg                   Will Paris Saint-Germain FC win agains 0.6300/0.6400
+  started 18:45Z  asc-lg1-olm-psg-2026-09-20-pos-1pt5              Will the Olympique de Marseille cover  0.6300/0.7100
+  started 18:35Z  tsc-mlb-tor-tex-2026-09-20-7pt5                  Will the total in Toronto Blue Jays vs 0.4600/0.4650
+  started 18:35Z  aec-mlb-tor-tex-2026-09-20                       Who will win in the upcoming baseball  0.6750/0.6800
+  started 18:15Z  aec-mlb-wsh-stl-2026-09-20                       Who will win in the upcoming baseball  0.3400/0.3450
+  started 18:10Z  aec-mlb-det-cws-2026-09-20                       Who will win in the upcoming baseball  0.4750/0.4800
+  started 18:10Z  aec-mlb-atl-hou-2026-09-20                       Who will win in the upcoming baseball  0.3050/0.3100
+  started 17:55Z  aec-atpcq-santav-nicbru-2026-09-20               Who will win in the upcoming tennis ev 0.8800/0.8900
+  started 17:40Z  tsc-mlb-bos-tb-2026-09-20-8pt5                   Will the total in Boston Red Sox vs Ta 0.1550/0.3400
+  started 17:40Z  aec-mlb-chc-cin-2026-09-20                       Who will win in the upcoming baseball  0.9750/0.9800
+  started 17:40Z  aec-mlb-bos-tb-2026-09-20                        Who will win in the upcoming baseball  0.0400/0.0450
+  started 17:35Z  aec-mlb-kc-pit-2026-09-20                        Who will win in the upcoming baseball  0.4150/0.4200
+  started 17:30Z  aec-atpcq-lorrod-tadmen-2026-09-20               Who will win in the upcoming tennis ev 0.8800/0.9000
+  started 17:20Z  aec-atp-crigar-danmer-2026-09-20                 Who will win in the upcoming atp event 0.4800/0.4900
+  started 17:10Z  aec-mlb-phi-nym-2026-09-20                       Who will win in the upcoming baseball  0.9050/0.9100
+  started 17:05Z  aec-atpcq-fedcar-ryadic-2026-09-20               Who will win in the upcoming tennis ev 0.9500/0.9600
+  started 17:00Z  tsc-nfl-pit-ne-2026-09-20-total-41pt5            Will the total in PIT Steelers vs. NE  0.0350/0.0400
+  started 17:00Z  tsc-nfl-pit-ne-2026-09-20-total-32pt5            Will the total in Pittsburgh Steelers  0.4800/0.4900
+  started 17:00Z  tsc-nfl-pit-ne-2026-09-20-total-24pt5            Will the total in Pittsburgh Steelers  0.6200/0.7500
+  started 17:00Z  tsc-nfl-phi-ten-2026-09-20-total-39pt5           Will the total in Philadelphia Eagles  0.7400/0.7500
+  started 17:00Z  tsc-nfl-no-bal-2026-09-20-total-45pt5            Will the total in New Orleans Saints v 0.2000/0.2900
+  started 17:00Z  tsc-nfl-no-bal-2026-09-20-total-42pt5            Will the total in New Orleans Saints v 0.4600/0.4700
+  started 17:00Z  tsc-nfl-min-chi-2026-09-20-tt-chi-10pt5          Will the total in Minnesota Vikings vs 0.4300/0.4400
+  started 17:00Z  tsc-nfl-min-chi-2026-09-20-total-46pt5           Will the total in Minnesota Vikings vs 0.0100/0.0200
+  started 17:00Z  tsc-nfl-min-chi-2026-09-20-total-45pt5           Will the total in Minnesota Vikings vs 0.0100/0.0200
+  started 17:00Z  tsc-nfl-cin-hou-2026-09-20-total-45pt5           Will the total in CIN Bengals vs. HOU  0.1150/0.1200
+  started 17:00Z  tsc-nfl-cin-hou-2026-09-20-total-26pt5           Will the total in Cincinnati Bengals v 0.9000/0.9800
+  started 17:00Z  tsc-nfl-car-atl-2026-09-20-total-43pt5           Will the total in CAR Panthers vs. ATL 0.7200/0.7250
+  started 17:00Z  tsc-nfl-car-atl-2026-09-20-total-42pt5           Will the total in Carolina Panthers vs 0.8000/0.8100
+  started 17:00Z  astatc-nfl-phi-ten-2026-09-20-td-saqbar-gte1     Will Saquon Barkley record 1+ touchdow 0.1100/0.1700
+  started 17:00Z  astatc-nfl-no-bal-2026-09-20-ryd-alvkam-gte20    Will Alvin Kamara record 20+ rushing y 0.4000/0.4100
+  started 17:00Z  astatc-nfl-min-chi-2026-09-20-td-jusjef-gte1     Will Justin Jefferson record 1+ touchd 0.0400/0.0800
+  started 17:00Z  astatc-nfl-min-chi-2026-09-20-td-calewil-gte1    Will Caleb Williams record 1+ touchdow 0.0400/0.0800
+  started 17:00Z  astatc-nfl-car-atl-2026-09-20-td-bijrob-gte1     Will Bijan Robinson record 1+ touchdow 0.1100/0.1900
+  started 17:00Z  asc-nfl-pit-ne-2026-09-20-pos-9pt5               Will the Pittsburgh Steelers cover 9.5 0.4500/0.4600
+  started 17:00Z  asc-nfl-pit-ne-2026-09-20-pos-7pt5               Will the Pittsburgh Steelers cover 7.5 0.1250/0.1300

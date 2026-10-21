@@ -1,0 +1,172 @@
+﻿{
+ "balances": {
+  "balances": [
+   {
+    "currentBalance": 14.3273,
+    "currency": "USD",
+    "lastUpdated": null,
+    "buyingPower": 9.9473,
+    "assetNotional": 0,
+    "assetAvailable": 0,
+    "pendingCredit": 0,
+    "openOrders": 0,
+    "unsettledFunds": 0,
+    "pendingWithdrawals": [],
+    "marginRequirement": 4.38,
+    "balanceReservation": 7.4829,
+    "depositReservation": 0,
+    "bonusReservation": 7.4829,
+    "displayedBonus": 7.4829,
+    "displayedAvailableSoon": 0,
+    "displayedCash": 2.4644,
+    "availableToWithdraw": 2.4644,
+    "bonusHold": 7.4829
+   }
+  ]
+ },
+ "positions": {
+  "positions": {
+   "aec-cfb-ucla-ore-2026-10-10": {
+    "netPosition": "-4",
+    "qtyBought": "0",
+    "qtySold": "4",
+    "cost": {
+     "value": "3.5040",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "0.0000",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-10T20:22:45.392964963Z",
+    "marketMetadata": {
+     "slug": "aec-cfb-ucla-ore-2026-10-10",
+     "icon": "",
+     "title": "UCLA vs. Oregon",
+     "outcome": "Ducks",
+     "eventSlug": "cfb-ucla-ore-2026-10-10",
+     "teamId": 1232,
+     "team": {
+      "id": 1232,
+      "name": "Oregon",
+      "abbreviation": "ore",
+      "league": "cfb",
+      "record": "3-1",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/team_logos/football/cfb/_ore_50000245.png",
+      "alias": "Ducks",
+      "safeName": "Oregon",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us/ncaa/Polymarket_Oregon+Ducks_R%40160x160%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us/ncaa/Polymarket_Oregon+Ducks_L%40160x160%40160x160.png",
+      "colorPrimary": "#154733",
+      "providerId": 245,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/CFB/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/CFB/<email>",
+      "displayAbbreviation": "ORE",
+      "ranking": "13",
+      "conference": "Big Ten",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "245"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "5c218a3b-a013-4037-97b6-603c9502b701"
+       }
+      ],
+      "color": {
+       "light": "#154733",
+       "dark": "#154733"
+      }
+     },
+     "eventId": "131867"
+    },
+    "cashValue": {
+     "value": "1.9360",
+     "currency": "USD"
+    },
+    "qtyAvailable": "-4",
+    "avgPx": {
+     "value": "0.8000",
+     "currency": "USD"
+    },
+    "fees": null,
+    "baseCost": null,
+    "costPerShare": null,
+    "netPositionDecimal": "-4.3800",
+    "qtyBoughtDecimal": "0.0000",
+    "qtySoldDecimal": "4.3800",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "-4.3800",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:SHORT:aec-cfb-ucla-ore-2026-10-10"
+   },
+   "usgcc-aliens-12-31-2026": {
+    "netPosition": "32",
+    "qtyBought": "32",
+    "qtySold": "0",
+    "cost": {
+     "value": "2.7200",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "0.0000",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-05T12:47:23.478370325Z",
+    "marketMetadata": {
+     "slug": "usgcc-aliens-12-31-2026",
+     "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/aliens-2807a6544a.jpg",
+     "title": "US Confirms That Aliens Exist?",
+     "outcome": "Yes",
+     "eventSlug": "aliens",
+     "subject": {
+      "id": -1,
+      "name": "December 31, 2026",
+      "subjectType": ""
+     },
+     "eventId": "17708"
+    },
+    "cashValue": {
+     "value": "1.2800",
+     "currency": "USD"
+    },
+    "qtyAvailable": "32",
+    "avgPx": {
+     "value": "0.0850",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.0700",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "2.6500",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.0830",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "32.0000",
+    "qtyBoughtDecimal": "32.0000",
+    "qtySoldDecimal": "0.0000",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "32.0000",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:usgcc-aliens-12-31-2026"
+   }
+  },
+  "nextCursor": "",
+  "eof": true,
+  "availablePositions": []
+ },
+ "open_orders": {
+  "orders": []
+ }
+}

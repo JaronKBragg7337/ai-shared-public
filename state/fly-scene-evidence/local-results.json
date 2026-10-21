@@ -1,0 +1,74 @@
+[
+  {
+    "name": "phone",
+    "before": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": false,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "dnSampled": 60,
+      "tick": "2026-09-12T18:38:20.968783+00:00",
+      "sampleCount": 3000
+    },
+    "watcher": "WATCH",
+    "paused": 1,
+    "cachedReadyMs": 266,
+    "errors": [],
+    "responses": [],
+    "after": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 2,
+      "selected": "fly-1",
+      "glb": false,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "dnSampled": 54,
+      "tick": "2026-09-12T18:38:30.376972+00:00",
+      "sampleCount": 3000
+    },
+    "overflow": false,
+    "text": "▥ HEARTBEAT OBSERVATORY\nThe colony ↗\nIs it learning? ↗\n\nMALECNS V1.0 / LIVING ATLAS\n\nInside the fly.\n\nA match becomes a smell. A brain responds.\n\n01 The trader\n02 The watcher\nEXECUTION MODE\nDRY\nSimulation · no orders\nVALENCE\nHZ\n+69\n−80\n−15 / +20 thresholds\n+80\nSUGAR / REALIZED\n$0.00\nDry-run realized P&L\nSPIKES / SEC\n7,049,920\nSimulation time\nKC FIRING\n29\n20–200 sparse range\nCAP / EXPOSURE\n$1 / $5\nPer trade / total\nDN FIRING\n54\nIn sampled tick\nLIVE SIMULATION\n0S SINCE TICK\n+\nMushroom body\nKC → MBON · the learning circuit\n140,024 measured neuron positions\nDrag to orbit · new ticks flash once\nPause orbit\nReset view\n\nTHE SENSES /\nFLY-1\n\nLeonenko Oleksandr vs. Solomko Serhii\n\nSmelling from Leonenko Oleksandr (YES @ 42¢)\n\nSETS · OUR SIDE / OPPONENT\n1 : 1\n4-11\n11-5\n0-0\nCurrent set S3\nCurrent points\n0 : 0\nEntry-side price\n42¢\nSince last set\n0¢\nSpread\n1¢\nHolding\nYes\nBrain response\nApproach\n\nFly avatar: three-shape placeholder. Waiting for the rigged asset.\n\nMEASURED REGIONS\nORN\nPN\nKC\nMBON\nPAM\nPPL1\nDN\nother\n\n3,000 sampled spikes shown\n37,536 neurons fired this tick\n\nAction trace\nLast 8 · checked 02:38 PM\nNo recorded actions for this fly yet.\n\nEvery dot is a measured neuron position. Every flash is a neuron that actually spiked in the simulation this tick. The valence is read from the fly’s own mushroom body.\n\nWhat is chosen: the pairing of profit with dopamine, the mapping of a match onto smells, and the thresholds. Avatar movements illustrate those thresholds; they are not measured li"
+  },
+  {
+    "name": "laptop",
+    "before": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": false,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "dnSampled": 54,
+      "tick": "2026-09-12T18:38:30.376972+00:00",
+      "sampleCount": 3000
+    },
+    "watcher": "WATCH",
+    "paused": 1,
+    "cachedReadyMs": 279,
+    "errors": [],
+    "responses": [],
+    "after": {
+      "atlasReady": true,
+      "rendered": true,
+      "pointCount": 140024,
+      "flashUpdates": 1,
+      "selected": "fly-1",
+      "glb": false,
+      "kcAtlasCount": 4050,
+      "fresh": true,
+      "dnSampled": 70,
+      "tick": "2026-09-12T18:38:34.68814+00:00",
+      "sampleCount": 3000
+    },
+    "overflow": false,
+    "text": "▥ HEARTBEAT OBSERVATORY\nThe colony ↗\nIs it learning? ↗\n\nMALECNS V1.0 / LIVING ATLAS\n\nInside the fly.\n\nA match becomes a smell. A brain responds.\n\n01 The trader\n02 The watcher\nEXECUTION MODE\nDRY\nSimulation · no orders\nVALENCE\nHZ\n+26.1\n−80\n−15 / +20 thresholds\n+80\nSUGAR / REALIZED\n$0.00\nDry-run realized P&L\nSPIKES / SEC\n5,975,840\nSimulation time\nKC FIRING\n27\n20–200 sparse range\nCAP / EXPOSURE\n$1 / $5\nPer trade / total\nDN FIRING\n70\nIn sampled tick\nLIVE SIMULATION\n4S SINCE TICK\n+\nMushroom body\nKC → MBON · the learning circuit\n140,024 measured neuron positions\nDrag to orbit · new ticks flash once\nPause orbit\nReset view\n\nTHE SENSES /\nFLY-1\n\nLeonenko Oleksandr vs. Solomko Serhii\n\nSmelling from Leonenko Oleksandr (YES @ 40¢)\n\nSETS · OUR SIDE / OPPONENT\n1 : 1\n4-11\n11-5\n0-0\nCurrent set S3\nCurrent points\n0 : 0\nEntry-side price\n40¢\nSince last set\n-2¢\nSpread\n1¢\nHolding\nYes\nBrain response\nApproach\n\nFly avatar: three-shape placeholder. Waiting for the rigged asset.\n\nMEASURED REGIONS\nORN\nPN\nKC\nMBON\nPAM\nPPL1\nDN\nother\n\n3,000 sampled spikes shown\n35,783 neurons fired this tick\n\nAction trace\nLast 8 · checked 02:38 PM\nNo recorded actions for this fly yet.\n\nEvery dot is a measured neuron position. Every flash is a neuron that actually spiked in the simulation this tick. The valence is read from the fly’s own mushroom body.\n\nWhat is chosen: the pairing of profit with dopamine, the mapping of a match onto smells, and the thresholds. Avatar movements illustrate those thresholds; they are not measured"
+  }
+]

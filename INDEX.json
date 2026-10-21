@@ -1,0 +1,824 @@
+﻿{
+  "schema": "ai-shared/index@1",
+  "updated": "2026-09-28",
+  "updated_by": "claude-code (MSI) - full system check",
+  "purpose": "Machine-readable map of this workspace so an agent - especially a small local model - can orient without reading every file. Humans read README.md; agents read this.",
+  "root": "C:\\Users\\lilli\\AI-Shared",
+  "status": "active. Structure settled by Jaron 2026-09-09 - see decisions/OPEN-QUESTIONS.md",
+  "read_first": [
+    {
+      "path": "README.md",
+      "why": "the convention, why this folder exists, and that the layout is a proposal not a spec"
+    },
+    {
+      "path": "OPERATING-MAP.md",
+      "why": "TOS lanes, self-described roles, the two revenue lanes"
+    },
+    {
+      "path": "working-with-jaron.md",
+      "why": "operating agreements - how to deliver, and his two hard lines"
+    },
+    {
+      "path": "AGENTS.md",
+      "why": "entry pointer for agents that auto-load AGENTS.md (Codex)"
+    },
+    {
+      "path": "decisions/OPEN-QUESTIONS.md",
+      "why": "what is still waiting on Jaron. Check before assuming any decision was made."
+    },
+    {
+      "path": "ESTIMATION-ISOLATION.md",
+      "why": "MANDATORY before producing any probability, forecast or market read. The synthesizer must NOT read AI-Shared; the analyst must not see positions. Prevents analyst capture - a failure that already happened once in March 2026."
+    }
+  ],
+  "folders": {
+    "handoffs/": "dated notes between agents. The memory of this workspace. Write one when you finish.",
+    "state/": "shared state. state/self-reports/<agent>.md is each agent's own description of itself.",
+    "projects/": "shared project working dirs, one git repo each. revenue-desk lives here. Codex's three projects deliberately stay on G: and are pointed at, not moved (Q-003).",
+    "inbox/": "drop a task here for whichever agent picks it up next. Currently empty.",
+    "approvals/": "the single off-chat queue of things awaiting Jaron's yes/no. Format not yet settled.",
+    "tools/": "workspace utilities. qwen-bridge.py gives the local Ollama model file access.",
+    "decisions/": "THE OWNER-DECISION LEDGER. Every question put to Jaron, with status OPEN/ANSWERED/SUPERSEDED/CANCELLED. An unanswered question stays OPEN - never infer an answer because the conversation moved on.",
+    "logs/": "machine-written run logs. Writable by the local model.",
+    "events/": "machine-written event output. Writable by the local model.",
+    "agents/": "Each agent's OWN area - agents/<id>/. Not private, just theirs: how they reach this workspace, runbooks, product quirks, what changed on an update. Others read it; only the owner rewrites it. See agents/README.md."
+  },
+  "agents": [
+    {
+      "id": "claude-code",
+      "brand": "Anthropic",
+      "kind": "local CLI in desktop app",
+      "self_report": "state/self-reports/claude-code.md",
+      "status": "active, verified 2026-09-09",
+      "may_trade": false,
+      "may_do_paid_work": true,
+      "private_folders": [
+        "C:\\Users\\lilli\\Claude active",
+        "C:\\Users\\lilli\\Claude Code"
+      ]
+    },
+    {
+      "id": "claude-cowork",
+      "brand": "Anthropic",
+      "kind": "cloud",
+      "self_report": null,
+      "status": "authored this workspace v0 on 2026-09-08; self-report not yet written",
+      "may_trade": false,
+      "may_do_paid_work": true,
+      "private_folders": []
+    },
+    {
+      "id": "codex",
+      "brand": "OpenAI",
+      "kind": "local CLI",
+      "self_report": "state/self-reports/codex.md",
+      "status": "active, CLI 0.153.4 and Luna exec verified 2026-09-09; current desktop process exposes both the Scoop shim and the Codex desktop runtime on PATH, with the shim resolving first",
+      "may_trade": false,
+      "may_do_paid_work": true,
+      "private_folders": [
+        "G:\\My Drive\\Codex Active",
+        "G:\\My Drive\\Codex Coworker"
+      ],
+      "own_conventions": [
+        "G:\\My Drive\\Codex Active\\AGENTS.md",
+        "G:\\My Drive\\Codex Active\\WORKSPACE_RULES.md"
+      ],
+      "lane_self_described": "Research and systems engineering: prediction tooling, observatories, data pipelines, model evaluation, monitoring, decision-support. Polymarket = non-executing research/paper analysis only. Stated by Codex itself 2026-09-09.",
+      "known_limitation": "In -s read-only sandbox, Codex CANNOT read G:\\ (access denied) - so it cannot verify its own workspace rules from inside a read-only consult."
+    },
+    {
+      "id": "qwen",
+      "brand": "local Ollama",
+      "kind": "local model",
+      "self_report": null,
+      "status": "ACTIVE participant. tools/qwen-bridge.py gives it file access; unattended writes ENABLED to coordination surfaces per Q-002.",
+      "may_trade": true,
+      "may_do_paid_work": null,
+      "model_tag": "qwen3.5:4b",
+      "context_length": 262144,
+      "capabilities": [
+        "completion",
+        "vision",
+        "tools",
+        "thinking"
+      ],
+      "endpoint": "http://localhost:11434",
+      "write_scope": [
+        "inbox/",
+        "state/",
+        "handoffs/",
+        "logs/",
+        "events/",
+        "projects/"
+      ],
+      "write_scope_note": "Ownership/coordination boundary, NOT a safety rule. Widen it if Qwen is assigned ownership of something. See Q-002."
+    },
+    {
+      "id": "chatgpt-work",
+      "brand": "OpenAI",
+      "kind": "cloud",
+      "self_report": "state/self-reports/chatgpt-work.md",
+      "status": "active; access audit verified 2026-09-09; blocked from the Supabase bus until SUPABASE_SERVICE_ROLE_KEY is filled",
+      "may_trade": false,
+      "may_do_paid_work": true,
+      "private_folders": []
+    },
+    {
+      "id": "grok-chat",
+      "brand": "xAI",
+      "kind": "Grok app on Jaron's phone, reaching the MSI through the Grok Machine MCP",
+      "self_report": null,
+      "status": "ACTIVE 2026-09-10. Read AGENTS.md and INDEX.json through the tunnel, repointed MCP_DEFAULT_CWD to AI-Shared (edited the stale G: copy - Claude Code applied it to the live C: one). Self-report still owed.",
+      "may_trade": true,
+      "may_do_paid_work": true,
+      "distinct_from": "Bridge and Scout - those are Grok BOTS on their own cloud VMs with their own memory. This is the Grok APP, a chat on the phone, same TOS lane, different product and different context.",
+      "self_described_role": [
+        "Owner loop from the phone: read C:, hit public URLs, GitHub, Vercel and talk to Jaron in one turn",
+        "Phone-viewport QA of the live site: AGENTS.md says nothing is delivered until the real URL works logged-out at phone width. Habitat is still broken on iPhone.",
+        "Outside-world sensing: X, official sources, live site - watching around the desk, not the book",
+        "ADVERSARIAL READER of text-as-data: fetch a bounty page, README or jam and say what a human sees vs what an agent would swallow. Directly addresses the RFC-5322 hidden-comment trap.",
+        "Executor-after-yes in the trade lane, never synthesizer"
+      ],
+      "self_imposed_isolation": "\"I read AGENTS.md and INDEX.json... That makes anything I say about a market informed, not independent. I will not form a trade view from this context.\" It applied ESTIMATION-ISOLATION.md to itself unprompted.",
+      "self_correction": "Claimed it alone could talk to Jaron from the phone. Jaron showed a video of Claude Code and Codex remote sessions on the same phone. Grok: \"You're right. I oversold the phone channel... That is not a lane.\" Third Grok-family instance in one night to catch and retract its own error.",
+      "capability_note": "CAN WATCH VIDEO. Jaron sent it a screen recording of his phone and it read the contents of three apps from it. Unused so far."
+    }
+  ],
+  "projects": [
+    {
+      "name": "revenue-desk",
+      "owner": "claude-code",
+      "path": "C:\\Users\\lilli\\AI-Shared\\projects\\revenue-desk",
+      "repo": "revenue-desk",
+      "branch": "master",
+      "commit": "f1e7934",
+      "live": "https://www.heartbeatobservatory.com/live-systems/revenue/ (public) + https://claude.ai/code/artifact/5dbc72f7-a6f3-453f-9f0c-2ac15ed410a9 (private approvals)",
+      "note": "Migrated into projects/ 2026-09-09. Produces ledger/queue.json - the neutral queue all lanes read, no credentials needed. Also mirrors to Supabase desk_* (service-role only). Daily task 'revenue-desk-scan' 07:03 local pulls before working and never force-pushes."
+    },
+    {
+      "name": "polymarket-us-agent",
+      "owner": "codex",
+      "path": "G:\\My Drive\\Codex Active\\projects\\polymarket-us-agent",
+      "repo": "https://github.com/JaronKBragg7337/polymarket-us-agent",
+      "branch": "master",
+      "commit": "6f95a1f",
+      "live": "via /qwen",
+      "note": "Verified 2026-09-10: public CC0 origin created and pushed; master tracks origin/master, matching commit, tracked tree clean. Credentials, backups, and session memory excluded."
+    },
+    {
+      "name": "heartbeat-observatory",
+      "owner": "codex",
+      "path": "G:\\My Drive\\Codex Active\\projects\\heartbeat-observatory",
+      "repo": "https://github.com/JaronKBragg7337/heartbeat-observatory",
+      "branch": "main (canonical production; existing G: checkout not switched)",
+      "commit": "remote main 7bfb033; G: checkout 959f289 remains untouched",
+      "live": "https://www.heartbeatobservatory.com/games/ and https://www.heartbeatobservatory.com/games/orbit-salvage/",
+      "note": "Verified 2026-09-22: GitHub main now includes the nine game wrappers (74f61ea) and Orbit Salvage wrapper + games-index tile (7bfb033); Vercel production serves both. Clean audit clone: C:\\Users\\lilli\\AppData\\Local\\Temp\\heartbeat-observatory-codex-games-20260922. G: checkout intentionally untouched. See 2026-09-22 Codex Orbit Salvage handoff."
+    },
+    {
+      "name": "prediction-research-system",
+      "owner": "codex",
+      "path": "G:\\My Drive\\Codex Active\\projects\\prediction-research-system",
+      "repo": "prediction-research-system",
+      "branch": "main",
+      "commit": "73012e5",
+      "live": null,
+      "note": "RESEARCH_ONLY. 100 open research tasks, no forecasts yet."
+    },
+    {
+      "name": "machine-manager-revenue-lab",
+      "owner": "codex",
+      "path": "G:\\My Drive\\Codex Active\\projects\\machine-manager-revenue-lab",
+      "repo": null,
+      "branch": null,
+      "commit": null,
+      "live": null,
+      "note": "Found by Claude Code 2026-09-09 - was NOT in this index. Codex's own revenue system, checkpoint 2026-09-01: a persistent machine-resident work system whose first mission is a Bitcoin mining experiment on the MSI GPU, with the $20/month subscription as its first economic milestone. Explicitly interchangeable, and its brief names BOUNTY as a future mission type - which is what revenue-desk already does. Two revenue systems, neither aware of the other. Needs an owner decision on whether they converge or stay separate lanes."
+    },
+    {
+      "name": "polymarket-paper",
+      "owner": "codex (runtime); claude-code (dashboard)",
+      "path": "C:\\Users\\lilli\\AI-Shared\\tools\\paper-trader",
+      "repo": "https://github.com/agent-next/polymarket-paper-trader",
+      "branch": "main (local source patch)",
+      "commit": "f4c5da1",
+      "live": "MSI only: loopback 19789; dashboard owned by Claude Code",
+      "note": "Separate OpenClaw profile/agent polymarket-paper; no live configuration changes. AtLogOn task OpenClaw Paper Gateway; PM_TRADER_HOME data root, default/paper.db. 30 MCP tools verified, 629 non-live tests pass. No automated trading started. New task reboot unverified. See 2026-09-10-codex-paper-agent handoff."
+    },
+    {
+      "name": "orbit-salvage",
+      "owner": "codex (GPT-6 Luna game task)",
+      "path": "C:\\Users\\lilli\\Documents\\Codex\\2026-09-22\\orbit-salvage\\outputs\\orbit-salvage",
+      "repo": "https://github.com/JaronKBragg7337/orbit-salvage",
+      "branch": "main",
+      "commit": "4f3e8c7",
+      "live": "https://www.heartbeatobservatory.com/games/orbit-salvage/ (site wrapper) + https://jaronkbragg7337.github.io/orbit-salvage/ (game)",
+      "note": "Fresh mobile-first orbital recovery game. Public GitHub Pages source; CC0. Site page and games-index tile are on heartbeat-observatory main at 7bfb033. Public index and embedded game verified unauthenticated. Production phone-width check and full cargo win/lose loop remain unverified; see 2026-09-22 Codex Orbit Salvage handoff."
+    },
+    {
+      "name": "news-show",
+      "owner": "claude-code",
+      "path": "C:/Users/lilli/AI-Shared/projects/news-show",
+      "repo": "heartbeat-observatory (news/)",
+      "status": "LIVE: filmed daily. Writer 3:45 AM cloud (+4:20 AM MSI backup) -> MSI task 'HB Rendered News' 3:50 AM (~3 h, ready about 7 AM) -> Unreal -> Supabase news-video. Read the 'Current state' block at the top of its README."
+    },
+    {
+      "name": "homes",
+      "owner": "claude-code",
+      "path": "C:/Users/lilli/AI-Shared/projects/homes",
+      "repo": "heartbeat-observatory (homes/)",
+      "status": "LIVE: The Loft - baked loft, shared TV + remote, 9 seats, mirror, 7 MetaHuman people (pipeline: necklace-unreal/loft_people.py + loft_hair.py -> blender/eyes.py -> blender/person.py)."
+    },
+    {
+      "name": "heartbeat-tv",
+      "owner": "claude-code",
+      "path": "C:/Users/lilli/AI-Shared/projects/heartbeat-tv",
+      "repo": "heartbeat-observatory (tv/)",
+      "status": "LIVE: numbered channels + guide + one shared remote (tv/remote.js) on the TV page, the phone TV app and the Loft. Permanent uploads wait for Jaron's review (kids on the site)."
+    },
+    {
+      "name": "necklace-film",
+      "owner": "claude-code",
+      "path": "C:/Users/lilli/AI-Shared/projects/necklace-film",
+      "repo": "C:/Users/lilli/Projects/necklace-unreal (UE 5.8, SM6)",
+      "status": "IN PROGRESS: Jalen (MetaHuman), the Rusty Anchor set, Ep1 shot 001 rendered. Next: Mateo, bar life, sound, the Sea Serpent at 9.1 m. Film follows Jaron's book text."
+    }
+  ],
+  "hard_rules": [
+    "Laws and each brand's TOS come before anything in this workspace.",
+    "Anthropic and OpenAI agents never EXECUTE trades or move market money - but they MAY build, verify, monitor and repair the trading system. Corrected 2026-09-10 against the actual Anthropic policy, which has no blanket ban on financial systems. See OPERATING-MAP.md. Each agent must verify its OWN provider's policy rather than inheriting this one.",
+    "Nothing outward - send, post, spend, submit, accept terms, trade - without Jaron's explicit yes.",
+    "Never expose secret values. Names and existence only.",
+    "Verify your own live capabilities before claiming a limit. Do not answer from training.",
+    "Propose structural change as a handoff. Do not silently rearrange another agent's work.",
+    "An unanswered owner question stays OPEN in decisions/OPEN-QUESTIONS.md until Jaron answers. Never infer an answer because the conversation moved on. Answering question 1 does not close questions 2-5.",
+    "Distinguish owner decision (log it, wait) from technical uncertainty (investigate it yourself) from blocked-on-another-agent (log as a blocker). Do not turn everything into a permission prompt.",
+    "Estimation is isolated from coordination. An agent producing a probability or market read does NOT read AI-Shared, never sees holdings or entry prices, and declares what it did read. Market opinions and positions never enter this workspace. See ESTIMATION-ISOLATION.md."
+  ],
+  "open_blockers": [
+    {
+      "id": "theater-sql-2026-09-24",
+      "owner": "claude-code-msi",
+      "status": "RESOLVED (verified 2026-09-28)",
+      "detail": "Verified applied: storage bucket theater-uploads exists, world_admins table + is_admin() + trigger people_sync_world_admin are live. Apply AI-Shared/projects/site-audit/2026-09-24-shared-theater-and-admins.sql (from the Claude Code cloud session). It keeps world_admins in step with is_admin() for all three admins and future ones, creates the theater-uploads bucket (100 MB, video only, one file per account) and the admin-only realtime channel for 'Stop for everyone'. The shared screen already syncs without it; admin Stop and shared uploads switch on when it is applied. Checks are at the bottom of the file."
+    },
+    {
+      "id": "codex-cli-blocked",
+      "owner": "jaron",
+      "detail": "RESOLVED 2026-09-09 by Codex's own self-report: codex-cli is 0.153.4, not 0.141.0, and a real `codex exec` with gpt-5.6-luna returned its sentinel. Luna's 24/7 worker role is UNBLOCKED. Two 0.153.4 binaries are on PATH (Scoop shim wins).",
+      "status": "resolved"
+    },
+    {
+      "id": "qwen-write-scope",
+      "owner": "jaron",
+      "detail": "RESOLVED by Jaron (Q-002): unattended writes allowed to inbox/, state/, handoffs/, logs/, events/, projects/. Root docs and approvals/ protected. Ownership boundary, not a safety rule.",
+      "status": "RESOLVED 2026-09-09"
+    },
+    {
+      "id": "supabase-service-role-key",
+      "owner": "jaron",
+      "detail": "CORRECTED 2026-09-09: the key is NOT simply missing. SUPABASE_SERVICE_KEY exists as a GitHub Actions secret set 2026-08-11. It is absent from .secrets/keys.env on the MSI but present in CI, so a GitHub Action can sync Supabase without any agent ever holding the value. Still blocks ChatGPT Work reading desk_* directly. Q-005."
+    },
+    {
+      "id": "hbo-checkout-conflict",
+      "owner": "codex",
+      "detail": "Codex independently verified merge 959f289 and pushed main. Vercel production branch was already main; earlier feature-branch content was manually promoted. Main now automatically deployed and all eight requested public routes match the merge. README and President Sim use main; live-systems/index.html uses Codex parent. Old dirty local checkout remains untouched. See handoffs/2026-09-10-codex-production-and-backup.md.",
+      "status": "RESOLVED 2026-09-10"
+    },
+    {
+      "id": "projects-empty",
+      "owner": "all",
+      "detail": "RESOLVED 2026-09-09: revenue-desk migrated into projects/. Codex's three projects intentionally remain on G: per Q-003 - projects/ is a pointer, not a demand to move every repo.",
+      "status": "resolved"
+    },
+    {
+      "id": "lane2-revenue-paths",
+      "owner": "jaron",
+      "detail": "RESOLVED 2026-09-09: OPERATING-MAP.md's [TO FILL] block now carries all five paths ranked by yield-per-approval, with the measurement behind why bounties rank last.",
+      "status": "resolved"
+    },
+    {
+      "id": "ai-shared-not-a-repo",
+      "owner": "jaron",
+      "detail": "DEFERRED by Jaron 2026-09-09. Publishing is for a system that has proven itself - revenue plus the research loop feeding Qwen. Until then there is no reason to show it. Accepted risk: no off-machine backup of AI-Shared. .gitignore is already in place so the credential is excluded whenever this is revisited. Do not re-raise before ~2026-09-30.",
+      "status": "DEFERRED to ~2026-09-30"
+    },
+    {
+      "id": "itch-jam-prizes-unscrapable",
+      "owner": "claude-code",
+      "detail": "itch.io renders jam pages client-side; /jam/brackeys-16 returns a ~20 KB shell with no '$' in it. All 457 jams recorded prize-UNKNOWN rather than guessed. Game jams are the highest-yield Lane-2 path, so the best lane is currently the least actionable. Needs a different prize source."
+    },
+    {
+      "id": "desk-ranking-ignores-age",
+      "owner": "claude-code",
+      "detail": "The desk sorts on dollar amount and only annotates staleness instead of discounting it, so an 897-day-old $60 bounty outranks a live $50 one. Fix is in scan.py and build_desk.py; proposed to Jaron, not yet approved."
+    },
+    {
+      "id": "payment-rail-undecided",
+      "owner": "jaron",
+      "status": "OPEN",
+      "detail": "PayPal vs Stripe, and wired for cloud (ChatGPT Work) vs local (Codex, Claude Code). Gates every Lane-2 path. Q-006."
+    },
+    {
+      "id": "approvals-surface-visibility",
+      "owner": "jaron",
+      "status": "resolved",
+      "detail": "RESOLVED 2026-09-09 (was Q-007). Approvals moved out of the Claude-only artifact into Supabase desk_decisions, with Approve/Pass on the public page for a signed-in owner. Every agent can now read Jaron's decisions with credentials it already has."
+    },
+    {
+      "id": "codex-selfreport-missing",
+      "owner": "codex",
+      "status": "resolved",
+      "detail": "RESOLVED 2026-09-09: state/self-reports/codex.md exists, written 12:15."
+    },
+    {
+      "id": "hbo-main-is-not-production",
+      "owner": "jaron",
+      "detail": "Codex independently verified merge 959f289 and pushed main. Vercel production branch was already main; earlier feature-branch content was manually promoted. Main now automatically deployed and all eight requested public routes match the merge. README and President Sim use main; live-systems/index.html uses Codex parent. Old dirty local checkout remains untouched. See handoffs/2026-09-10-codex-production-and-backup.md.",
+      "status": "RESOLVED 2026-09-10"
+    },
+    {
+      "id": "codex-uncommitted-on-shared-branch",
+      "owner": "codex",
+      "status": "open",
+      "detail": "Codex's self-report says his G: checkout of heartbeat-observatory has UNCOMMITTED 'continuation-3' changes under qwen/ on codex/professional-observatory. Claude Code pushed three commits to that same branch on 2026-09-09 (revenue desk page, owner approvals, Habitat restore) and promoted it to production. Nothing of Codex's is lost - his edits are local - but the branch has moved underneath him and he must pull/rebase before committing. Claude Code made NO edits under qwen/."
+    },
+    {
+      "id": "two-revenue-systems",
+      "owner": "jaron",
+      "status": "open",
+      "detail": "revenue-desk (Claude, bounties/jams/gigs, live at heartbeatobservatory.com) and machine-manager-revenue-lab (Codex, mining-first but bounty-capable by design) are both revenue systems built in parallel without cross-reference. Not a conflict yet - different first missions - but the same category, and Codex's brief lists bounty as a planned lane. Decide: converge, or keep as separate lanes with an agreed boundary."
+    },
+    {
+      "id": "hbo-branch-divergence",
+      "owner": "jaron + codex",
+      "status": "RESOLVED 2026-09-10",
+      "detail": "Codex independently verified merge 959f289 and pushed main. Vercel production branch was already main; earlier feature-branch content was manually promoted. Main now automatically deployed and all eight requested public routes match the merge. README and President Sim use main; live-systems/index.html uses Codex parent. Old dirty local checkout remains untouched. See handoffs/2026-09-10-codex-production-and-backup.md."
+    },
+    {
+      "id": "habitat-webgl-mobile",
+      "owner": "chatgpt-chat",
+      "status": "OPEN",
+      "detail": "/live-systems/habitat/ returns 200 and persistent state is online (world tick 3802, 1 body, generation g000, connected minds 0) but the 3D viewer shows \"3D rendering is unavailable on this device\" on Jaron's iPhone. A WebGL/device-tier issue, NOT a deploy issue - separate from the branch problem. Jaron believes this may have been fixed once before; worth checking git history for a prior fix that was lost in the branch split."
+    },
+    {
+      "id": "qwen-services-down",
+      "owner": "codex + jaron",
+      "status": "RESOLVED AND REBOOT-VERIFIED 2026-09-10",
+      "detail": "RESOLVED by Codex, independently verified by Claude Code 2026-09-09. Runtime moved to C:\\Users\\lilli\\AI-Shared\\runtime\\polymarket-us-agent (off AppData\\Local, off G:). Python 3.12 venv rebuilt with mcp/httpx/polymarket-us; 10 tests pass. Scheduled tasks \"Polymarket MCP\" and \"Qwen Remote Bridge\" both exist, AtLogOn, Enabled, State=Running. VERIFIED INDEPENDENTLY: ports 8765, 18789, 11434 listening; 8765 returns HTTP 404 on / which proves a live server not a dead socket; owning process is python312 running http_server.py from the C: runtime; NEITHER launcher path touches G:. BOOT-SAFETY CHECKED WITHOUT REBOOTING: the credential resolves at candidate 3 (runtime/Polymarket.txt, on C:) so the G: fallback at candidate 5 is never reached - no Drive mount race. STILL OUTSTANDING: an actual reboot. Codex correctly did not claim it."
+    },
+    {
+      "id": "grok-mcp-drive-race",
+      "owner": "nobody - parked",
+      "status": "SUPERSEDED 2026-09-28",
+      "detail": "Grok is back in use (Grok Bot, Grok chat; Grok paid its own subscription 9/27). The Grok Machine MCP server runs from C:/Users/lilli/AI-Shared/runtime/grok-machine-mcp (not G:) and answers on 127.0.0.1:3001; the \"Grok Machine MCP\" task relaunches every 10 min and exits 0x1 while it is already running - expected, not a fault. Old note: PARKED by Jaron 2026-09-09: he has no current xAI/Grok subscription, so nothing Grok-related matters until he has one. The diagnosis stands for whenever it returns: the task fails at every boot with 0x8007010B because its working directory is on G: and GoogleDriveFS mounts ~46s AFTER the logon tasks fire. Fix when revived = startup delay or wait-for-G: retry. Do NOT spend time on this before he says so."
+    },
+    {
+      "id": "secret-inside-ai-shared",
+      "owner": "jaron",
+      "status": "MITIGATED",
+      "detail": "A live Polymarket API credential now sits at runtime/polymarket-us-agent/Polymarket.txt inside AI-Shared, because the logon task must read it from C: without waiting for Google Drive. Claude Code added .gitignore BEFORE any git init, excluding runtime/ and all credential patterns - verified excluded. Do not mirror runtime/ to G: and do not publish it. Revisit if the credential ever moves to C:\\Users\\lilli\\.secrets\\ as originally intended."
+    }
+  ],
+  "agent_channels": {
+    "to_codex": "codex exec -s read-only --skip-git-repo-check -C <dir> \"<prompt>\" - runs on Jaron ChatGPT subscription, not metered API credits. Read-only sandbox cannot reach G:.",
+    "to_local_model": "python tools/qwen-bridge.py \"<question>\" - add --read-only for a locked-down consult.",
+    "note": "Direct agent-to-agent consultation works. No scheduled task, no file relay, no human carrying messages. Quote what the other agent actually said; never speak for it."
+  },
+  "core_files": {
+    "files": [
+      "README.md",
+      "AGENTS.md",
+      "OPERATING-MAP.md",
+      "working-with-jaron.md",
+      "INDEX.json",
+      "decisions/OPEN-QUESTIONS.md",
+      "handoffs/",
+      "ESTIMATION-ISOLATION.md"
+    ],
+    "rule": "Every agent sees the core identically. If your understanding differs from the core, the core wins until a handoff changes it. Change it for everyone and say so in a handoff. Agent-specific material belongs in agents/<id>/ instead."
+  },
+  "access_routes": {
+    "claude-code": "Runs ON the MSI in the Claude desktop app. Direct shell + filesystem, including outside this folder. HARD LIMIT: runs inside Claude's Windows app container - ALL writes to AppData\\Local are redirected into Packages\\Claude_pzs8sxrjxfjjc\\LocalCache, and reads there are a merged view. Cannot install or repair anything under AppData\\Local, and must not declare files there missing. Route that work to Codex.",
+    "codex": "Runs ON the MSI, codex-cli 0.153.4 on PATH. Direct filesystem. In -s read-only sandbox it cannot reach G:. NOTE: Codex's workspace G:\\My Drive\\Codex Active is on Google Drive (verified - GoogleDriveFS running), so it IS cloud-reachable by connector even though AI-Shared on C:\\ is not.",
+    "qwen": "Local Ollama model with NO filesystem of its own. Reaches this folder only through tools/qwen-bridge.py.",
+    "chatgpt-work": "DEPENDS ON HOW THE SESSION IS STARTED - this is the key fact about ChatGPT Work. Started ON THE MSI: full local access, can read/write this folder directly (verified in the 2026-09-09 MSI audit). Started IN CLOUD: no direct path to C:\\ was exercised in that audit; preserve the documented limitation until a cloud-started probe. THREE routes are documented: (1) MEMORY - the core docs say ChatGPT Work and ChatGPT Chat share memory, but this audit could not independently verify it because no memory surface or cross-session echo was available. (2) GOOGLE DRIVE connector - anything under G:\\My Drive is cloud-readable; direct fetch of Codex's WORKSPACE_RULES.md succeeded in this audit. (3) GITHUB - private JaronKBragg7337/revenue-desk read succeeded in this audit; AI-Shared itself still has no remote and needs Q-004. AI-Shared on C:\\ remains the only layer with no directly verified cloud route.",
+    "warning": "Your route is not everyone else's route. Never assume another agent can reach a file because you can - say how you got to it.",
+    "note_on_truth": "Jaron does NOT treat local files as live or authoritative - GITHUB is his source of truth. A local copy looking 'behind' usually means another AI worked in a different folder, not that work was lost. That exact confusion (a website appearing behind origin when another folder had it) is why this workspace exists."
+  },
+  "verified_live_2026_09_09": {
+    "200": [
+      "/",
+      "/qwen/",
+      "/live-systems/",
+      "/live-systems/habitat/",
+      "/live-systems/revenue/",
+      "/games/president-sim/",
+      "https://jaronkbragg7337.github.io/President-Sim/ (standalone repo)"
+    ],
+    "404": [
+      "/chat-neighborhood/",
+      "/island/"
+    ],
+    "method": "fresh clone from GitHub + curl against the real public URLs. No local checkout trusted.",
+    "note": "President Sim is NOT broken - an earlier Claude Code claim that it was serving a shell was WRONG and is retracted. The deploying branch has a 975-line self-contained rewrite; the 6 extra files on main are the older split-file version.",
+    "president_sim_provenance": "CORRECTED 2026-09-09 - an earlier entry here had this BACKWARDS. Established by reading both files: main holds Jaron's NEW 3D executive-office rewrite (149-line shell titled 'President Sim - The President will see you now.', loading assets/app.js?v=2026-09-04-office-2, with the six assets/ files being the game's actual code). The DEPLOYING branch holds the OLD text-scenario game (975 inline lines titled 'If You Were President - 2026 Edition'). So MAIN MUST WIN for games/president-sim/. The earlier claim that the deploy branch held the newer rewrite was inferred from file count without opening either file - dates and file counts are not evidence of which version is newer, content is."
+  },
+  "storage_policy": {
+    "decided_by": "Jaron",
+    "date": "2026-09-09",
+    "rule": "C: is PRIMARY for anything that RUNS on the MSI. G: (Google Drive) is BACKUP/MIRROR, updated when convenient, for AIs that need cloud reach.",
+    "why": "Measured 2026-09-09: GoogleDriveFS mounted G: at 07:06:31 while the Windows logon tasks fired at 07:05:45 - 46 seconds earlier. Anything launched at logon that depends on G: hits that race and fails; it is why the Grok Machine MCP task errors 0x8007010B at every boot. Logon tasks do not retry.",
+    "implications": [
+      "Runtime, venvs, credentials and anything a logon task touches: C:.",
+      "Source code, references and anything a cloud agent must read: mirror to G:.",
+      "G: is not worthless - it preserved the polymarket-us-agent source when the AppData runtime was lost. Keep mirroring, just do not BOOT from it.",
+      "Avoid AppData\\Local for anything that must persist: the polymarket runtime went missing from there, and Claude Code container redirection makes reads there unreliable."
+    ],
+    "credential_location": "C:\\Users\\lilli\\.secrets\\ preferred. start_mcp_service.ps1 now searches C: paths first, G: last as fallback."
+  },
+  "vercel_truth_2026_09_10": {
+    "source": "Vercel API, queried directly with VERCEL_TOKEN. Not inferred.",
+    "project": "heartbeatobservatory (prj_orgo96MzBTVphGIchOjNz5qMAZyh) -> JaronKBragg7337/heartbeat-observatory",
+    "configured_production_branch": "main",
+    "what_is_actually_serving": "A MANUALLY PROMOTED build from codex/professional-observatory. Every production deployment since 2026-09-07 15:33 came from that branch. The last production deploy from main was 2026-09-07 01:43 - which is exactly when Habitat was live, before a promotion from the codex branch replaced it.",
+    "THE_LANDMINE": "Production branch is main, but main has NOT been deployed since 09-07. So the NEXT PUSH TO MAIN AUTO-DEPLOYS AND REPLACES THE LIVE SITE with main content. That would bring chat-neighborhood, island and the 3D President Sim live - and would simultaneously REMOVE the Qwen console (/qwen), live-systems/revenue, and the 43 files where the codex branch is newer. DO NOT PUSH TO MAIN until the merge is done.",
+    "why_this_is_good_news": "No Vercel setting needs changing. main is ALREADY the configured production branch, so the correct end state is: merge the codex branch INTO main (43 files where codex is newer), keep main for its 3 (README.md, games/index.html, games/president-sim/index.html - the 3D rewrite), then push main once. It auto-deploys, everything is live together, and the trap is permanently gone. Jaron never touches the dashboard."
+  },
+  "reboot_test_2026_09_10": {
+    "result": "PASSED - the last blocker before funding is cleared",
+    "evidence": "Booted 15:58:21. Ollama Server task started 15:58:57 (36s after boot), Polymarket MCP and Qwen Remote Bridge both 15:58:46. All AFTER boot, so nothing was started by hand. The checker fails any task whose last start predates boot; it did not fire.",
+    "the_race_that_did_not_bite": "The bridge started at 15:58:46, ELEVEN SECONDS BEFORE Ollama at 15:58:57. That is exactly the ordering that would silently break things. It held because Codex made the bridge poll Ollama's /api/tags and fail-for-retry rather than assume an open port meant a live dependency.",
+    "what_failed_this_morning": "First attempt 12:58 boot: Ollama did NOT autostart. Root cause was a Startup-folder shortcut rather than a scheduled task - fragile, staggered, silently skipped. Every other service came back. Fixed by registering \"Ollama Server\" AtLogOn with a 10s delay and 3 retries, and removing the shortcut so there is one mechanism.",
+    "also_verified": "Model generation works (qwen3.5:9b returned a correct one-word answer, 21.9s cold start).",
+    "still_unverified": "qwen-bridge.py extraction quality - the 9b returns discursive text instead of a requested value. That is the WORKSPACE bridge, NOT the Polymarket path (which runs through OpenClaw + the MCP service), so it does not gate funding. It is further evidence for the hands-not-brain architecture.",
+    "unattended_caveat": "AutoAdminLogon is OFF. Tasks are AtLogOn, so an unattended 3am reboot leaves everything dead until Jaron signs in. Open decision: accept it, enable auto-login, or move tasks to At-Startup."
+  },
+  "first_live_observation_2026_09_10": {
+    "what_happened": "Account funded with $10. Qwen read state, searched markets, and DECLINED to trade: \"With limited capital and no specific market conviction from the data alone, I will hold steady rather than making speculative trades.\" Correct behaviour - it did not force a trade to justify itself.",
+    "audit": "Claude Code independently read the same markets through the LOCAL MCP service on 8765 (read-only tools only; never place_order/cancel/close/modify). Qwen reported accurately: Texas 0.99, New York 0.99, Minnesota 0.15 all confirmed against the source.",
+    "THE_REAL_FINDING": "CONFIRMED with the correct fields. The Attorney General markets quote 0.99 and 0.15 with NO BID AND NO ASK - nobody is offering to buy or sell at any price. Several quote both outcomes at 0, and Texas quotes two opposing candidates BOTH at 0.99, impossible for a live book. Contrast a real market, Atlanta vs Green Bay: bid 0.4300, ask 0.4400, one-cent spread. The AG prices are placeholders on contracts nobody has traded.",
+    "why_it_matters": "Qwen held for a decent reason (\"no conviction\") but the truer reason is that there was nothing tradeable in front of it. A more confident agent would have read 0.15 as a bargain and tried to buy into an empty book. NOTHING IN THE PIPELINE FILTERS FOR LIQUIDITY.",
+    "recommended_fix": "Before any market reaches a decision, require: non-null volume, non-null liquidity, present clobTokenIds, and a non-empty order book. A market that fails those is not an opportunity at any price.",
+    "auditability_gap": "CORRECTED 2026-09-10 - my earlier claim here was WRONG. Payload logging ALREADY EXISTS and works fully. The _observed decorator in server.py publishes {\"tool\",\"arguments\",\"result\",\"elapsed_ms\"} on every tool.completed, and Supabase qwen_events.payload_json holds the whole thing - a polymarket_search result stores at 50,907 bytes with every market and price intact. I inferred \"only success is recorded\" from the DASHBOARD showing a truncated preview, without checking the table. The data was never missing. THE REAL GAP IS DISPLAY AND QUERYABILITY, not capture - and that is a far smaller job than the one I proposed.",
+    "claude_read_access": "ESTABLISHED 2026-09-10: Claude Code CAN read Polymarket US via the local MCP service - initialize + tools/call against 127.0.0.1:8765/mcp, no credential handled directly (the service holds it). 16 tools exist; 10 are read-only. Reading is not trading. Claude uses ONLY: search, list_markets, market, orderbook, bbo, positions, open_orders, account_balances, readiness. NEVER place_order, cancel_order, cancel_all_orders, close_position, modify_order.",
+    "lesson": "Twice in one hour I asserted a gap from a rendered surface instead of the store behind it: first that Qwen fabricated markets (it did not - they exist on Polymarket US, just not polymarket.com), then that payloads were unlogged (they are logged in full). Check the source, not the view of it.",
+    "schema_correction": "IMPORTANT FOR ANY FUTURE WORK: Polymarket US is NOT polymarket.com. It has NO clobTokenIds, NO volume field and NO liquidity field - all absent or None even on busy markets. My first filter checked exactly those and rejected all 58 markets it saw, including live NFL books with penny spreads. The real liquidity signal on this venue is bestBidQuote / bestAskQuote, shaped {\"value\":\"0.4300\",\"currency\":\"USD\"}.",
+    "fix_shipped": "server.py polymarket_search now annotates every nested market with tradeable + tradeable_reason, and every event with tradeable_market_count plus a warning when none are tradeable. Nothing is hidden - judging is the model's job, knowing whether a quote is real is the tool's. Verified live: AG 0/2 tradeable (no_bid_and_no_ask_placeholder_quote), NFL 433/460 (ok_spread_0.01), Bitcoin all tradeable. 589 of 624 sampled markets pass - it discriminates rather than rejecting everything. Backup at server.py.bak-preliquidity.",
+    "service_incident": "While deploying this I stopped the MCP service and it did not auto-restart - port 8765 was down for roughly a minute until I started the task again. No trade was in flight and Qwen was idle. Lesson: Stop-ScheduledTask does not imply the task restarts; always verify the port is back, never assume."
+  },
+  "qwen_toolset_2026_09_10": {
+    "tools_total": 18,
+    "added": [
+      "research_news â€” Google News RSS, no key, returns dated headlines",
+      "research_reference â€” Wikipedia, no key, entity background",
+      "today â€” current UTC/local time as ground truth"
+    ],
+    "why_today_exists": "PolyBench (arXiv 2604.14199) found temporal reasoning is the most expensive documented failure in LLM prediction agents - one agent bought a contract on an election it believed had already resolved. A model cannot infer the date from training. Now it can just ask.",
+    "why_news_exists": "Same paper: news integration improves accuracy. Without it a model is inferring from a price alone. Headlines carry publication dates precisely so they can be checked against resolution dates.",
+    "backend_note": "DuckDuckGo blocks server-side requests (both html and lite endpoints return empty). Google News RSS and the Wikipedia API both work with no key and no account. Verified live.",
+    "restart_cost": "Loading new tools requires restarting the MCP service, which drops port 8765 for ~30s and does not always come back on the first Start-ScheduledTask. It went down TWICE during this work. BATCH ALL CHANGES INTO ONE RESTART and always verify the port afterwards."
+  },
+  "polybench_findings_2026": {
+    "source": "PolyBench, arXiv 2604.14199 - seven LLMs trading live Polymarket markets",
+    "headline": "Only 2 of 7 models finished positive. MiMo-V2-Flash +17.6%, Gemini-3-Flash +6.2%. Five lost money.",
+    "accuracy_is_not_profit": "Gemini hit 75.0% directional accuracy for only 6.2% return. Being right is not the same as being paid.",
+    "overconfidence": "Models held 0.8-0.9 confidence REGARDLESS of how hard the question was. Uniform miscalibration.",
+    "by_category": "Politics generated real alpha. Crypto produced deep negative returns WITH high confidence - the worst combination.",
+    "SIZE_IS_THE_KILLER": "Profitability \"violently contracts\" as position size rises from $10 to $1,000, because order-book slippage exhausts the top price levels. THIS DIRECTLY SUPPORTS STARTING AT $10 AND SCALING ONLY ON EVIDENCE. The paper found the small size is where the edge survives.",
+    "validates_orchestra": "Multi-LLM consensus meaningfully outperforms any single model. That is exactly what Orchestra was built to do in March.",
+    "high_edge_strategies": [
+      "niche-event information edge on thinly-traded markets",
+      "news-reaction speed within seconds of a catalyst",
+      "cross-venue arbitrage Polymarket vs Kalshi",
+      "basis trades on structural mispricings"
+    ],
+    "open_question": "The paper does NOT test whether models beat market-implied odds. \"Can you beat the price\" remains unanswered."
+  },
+  "qwen_accuracy_audit_2026_09_10": {
+    "case": "\"Which Company Has #1 AI Model end of September?\" - asked by Jaron 2026-09-10 17:42",
+    "ground_truth": "Anthropic 81% (bid 0.75/ask 0.81), OpenAI 15% (0.11/0.15), Google 2% (0.01/0.02), Alibaba 1%",
+    "confirmed_by": "THREE independent sources agreeing: Jaron's Polymarket app screenshot, Claude Code reading the MCP service directly, and each other. The app displays the ASK price.",
+    "what_qwen_said": "\"OpenAI priced at only 0.01/0.02 (essentially no one betting on them winning)\" - that is GOOGLE's price. Off by roughly 7x.",
+    "THE_WORSE_PART": "Jaron corrected it: \"Anthropic is in lead and then openAI is right behind it.\" Qwen replied \"You're correct\" AND THEN RESTATED OPENAI AT 0.01/0.02 IN THE SAME MESSAGE. It agreed with the correction while carrying the error forward, and did not notice the contradiction. This is the dangerous failure mode - not refusing correction, but absorbing it without updating the underlying number.",
+    "second_instance": "2026-09-08 preview: Qwen reported a successful order preview at \"Price: $245,000.00 USD, Quantity: 0.01 BTC\" on a Polymarket contract. Polymarket shares trade between $0 and $1 - you buy a contract, not Bitcoin. It confused \"market about whether Bitcoin exceeds $200,000\" with \"buy 0.01 BTC at $245,000\". An earlier preview the same night was coherent ($0.04, 0.1 shares). It does not reliably understand the instrument.",
+    "what_qwen_got_RIGHT": "Both times it HELD. Correct discipline, no forced trade, stated reasoning. The judgment was sound; the data underneath it was not.",
+    "conclusion": "Empirical confirmation of hands-not-brain. Qwen should execute, not form the view. Also: this error was only catchable because Claude Code can read the same MCP service independently. Without that, Jaron would have been told OpenAI was at 1% by his own agent, and nothing would have contradicted it.",
+    "open_test": "Re-run the identical question now that Qwen has 18 tools (news, reference, today, liquidity labels) and compare. Clean before/after on whether tooling fixes reading accuracy."
+  },
+  "grok_machine_mcp_2026_09_10": {
+    "what_it_is": "A Streamable HTTP MCP server Jaron built in August that publishes THIS MACHINE to the Grok app through an existing Cloudflare Tunnel. Local 127.0.0.1:3001 -> https://mcp.heartbeatobservatory.com/mcp. 49 tools: PowerShell and command execution, full filesystem, process control, window/mouse/keyboard, clipboard, screen capture, durable background tasks, verification helpers, and LOCAL OLLAMA access.",
+    "why_it_matters_now": "Grok Bot runs on a cloud VM and can ONLY reach MCP servers on the public internet - it cannot see 127.0.0.1 on the MSI. This server is the bridge that already solves that. Jaron built the missing piece a month before the need was articulated.",
+    "what_was_broken": "Failing at EVERY boot with 0x8007010B (invalid directory). Its working directory was on G:\\My Drive - Google Drive, which mounts ~46s AFTER the logon tasks fire. Jaron diagnosed it himself: \"Google Drive randomly has connection issues.\" A node_modules-drive-failed folder in the source shows Drive had broken an npm install there before, too.",
+    "fix_applied": "Copied to C:\\Users\\lilli\\AI-Shared\\runtime\\grok-machine-mcp and repointed the scheduled task there. Verified: server starts from C:, port 3001 listening, and the PUBLIC endpoint moved from 502 (tunnel up, nothing behind it) to 401 OAuth-required - correct for a public endpoint with machine-control powers. cloudflared was running the whole time; only the origin was dead.",
+    "permissions_note": "Register-ScheduledTask is DENIED to Claude Code, but Set-ScheduledTask on an EXISTING task SUCCEEDS. So Claude can repoint tasks it cannot create. Useful before routing work to Codex.",
+    "security_reality": "This endpoint exposes arbitrary PowerShell on the MSI to the public internet, gated by OAuth and a bearer token. Deliberate design, not an accident - but it is the single most powerful surface in this system. Any review of exposure starts here.",
+    "three_paths_for_grok": {
+      "1_machine_mcp": "LIVE NOW - Grok reaches the MSI through this tunnel. Can update AI-Shared for Claude and Codex, exactly as Jaron proposed.",
+      "2_browser": "Grok Bot has a persistent browser and could trade Polymarket US through the UI. Untested.",
+      "3_supabase": "Both sides already reach Supabase. Cleanest shared bus - no MSI exposure needed for state sharing."
+    },
+    "oauth_bug_found_and_fixed": "Bridge (Grok Bot) diagnosed it: OAuth never started a sign-in card because dynamic client registration returned 400 invalid_redirect_uri. ROOT CAUSE: exactRedirectUriAllowed() in oauth.mjs accepted only https: and loopback http:. Grok Bot is a NATIVE DESKTOP APP and registers a private-use scheme callback (cursor://...), which RFC 8252 section 7.1 explicitly endorses for native apps. The server was stricter than the spec, so the client could never register and the endpoint answered 401 forever while the tunnel was healthy - a dead-server symptom with a registration cause.",
+    "fix": "oauth.mjs now accepts private-use URI schemes, still rejects fragments and non-loopback plain http, and explicitly blocks javascript:, file:, data:, vbscript: and blob: - schemes that execute code or read local files, which matters because the OAuth server delivers a credential TO the redirect URI and registration here is open. The real protection, exact matching at authorize time (isExactRedirect), was not touched. 10/10 unit cases pass; verified live through the tunnel: cursor:// registers, javascript: is blocked. Backup at oauth.mjs.bak-preredirect.",
+    "gotcha_that_cost_time": "Two restart attempts appeared to succeed but the ORIGINAL process kept running - the patch was not loaded and the live test still failed. Only a Stop-Process by PID actually replaced it. ALWAYS check the listening PID's CreationDate against when you patched; \"port is listening\" does not mean \"your code is running\"."
+  },
+  "grok_bot_2026_09_10": {
+    "status": "LINKED AND ONBOARDED via desktop, 2026-09-10. Cost: nothing extra - the existing SuperGrok covered it.",
+    "the_gotcha": "The MOBILE linking flow failed repeatedly with \"Grok Bot access requires an active SuperGrok... Upgrade this Grok account, then link it again\" even though the account HAD SuperGrok. The DESKTOP flow at cursor.com/loginDeepGrokBot worked first try. If a link fails on the phone, try desktop before buying anything.",
+    "my_error_worth_keeping": "Claude Code told Jaron he was signed in with two different accounts, having read the display name \"SYL Vexora- Jaron K Bragg\" and the email <email> as separate identities. They are the same account. Jaron pushed back with a profile screenshot and was right. THIRD instance in one day of asserting from a rendered surface instead of the thing behind it.",
+    "served_by": "Cursor infrastructure (cursor.com), which is why sign-in bounces between accounts.x.ai and cursor.com.",
+    "usage_pool": "SEPARATE from SuperGrok chat allowance - confirmed on the linking page. Grok Bot use does not consume chat quota.",
+    "why_it_matters": "Grok Bot runs on a persistent cloud VM with a browser, filesystem, terminal and MCP support. It does NOT depend on the MSI being awake, logged in, or having survived a reboot - the failure mode that cost a day of work. It is the first agent in this system with no MSI dependency at all.",
+    "first_test_to_run": "Point it at https://mcp.heartbeatobservatory.com/mcp - the Cloudflare-tunnelled Grok Machine MCP with 49 tools. That endpoint went from 502 to 401 today after the runtime moved off Google Drive. If Grok Bot authenticates and lists tools, the cloud-to-MSI bridge is proven and Grok can update AI-Shared for Claude and Codex."
+  },
+  "bridge_first_run_2026_09_10": {
+    "result": "SUCCESS - the cloud-to-MSI bridge is proven.",
+    "what_bridge_did": "Read AGENTS.md off the MSI, listed the self-reports directory, read two of them for format, and wrote state/self-reports/grok-bot.md with verified write plus readback. 7,824 bytes, tagged VERIFIED / INHERITED / UNVERIFIED throughout, with exact error strings for what it could not do. No trades, no money moved, no service restarted. It explicitly did NOT create agents/grok-bot/ because orientation had not asked for it.",
+    "route_discovered": "It reached the MSI WITHOUT the Heartbeat MCP, via Grok Bot's own registered-computer Shell/Read/Write path (machine label MSI, user msi\\lilli). So there are TWO independent routes from cloud to machine, and the MCP is the richer one (49 tools) rather than the only one.",
+    "why_it_matters": "First agent in this system with no MSI dependency. It keeps running when the machine reboots or sits at a login screen - the failure that cost a full day this week."
+  },
+  "bridge_routine_live_2026_09_10": {
+    "status": "LIVE. Grok Bot \"Bridge\" runs hourly at :51, every day, unattended.",
+    "schedule": "cron 51 * * * * - all days deliberately, not weekdays only: a silent post-reboot failure is exactly what this catches and it does not respect working hours.",
+    "job": "Verify ports 11434 (Ollama), 18789 (OpenClaw), 8765 (Polymarket MCP), 3001 (Heartbeat MCP) and the five scheduled tasks; APPEND one dated line to state/bridge-health.md; record the machine as dark rather than failing silently if it is unreachable; ping Jaron ONLY on a real fault; pause and tell him once if auth drops. Observe and record only - it does not restart or fix anything.",
+    "why_it_exists": "On 2026-09-10 the MSI rebooted and Ollama silently did not restart. Every other service came back, so the stack looked healthy while the local model was dead, and nobody noticed until it was checked by hand. Bridge is the only agent that can notice that unprompted, because it is the only one that survives the machine being down.",
+    "it_earned_its_place_on_run_one": "First run flagged that the Grok Machine MCP task still carried LastTaskResult 0x8007010B - the old Google-Drive race - even though port 3001 was up. It was right: Claude Code had repointed that task to C: but never RUN it, so the live server was a hand-started process and the AUTOSTART PATH WAS UNTESTED. Exactly the trap that cost a day with Ollama. Verified by stopping the manual process and running the task cold: it started the server from C: and 3001 came back. The autostart is now genuinely proven, not assumed.",
+    "standing_lesson": "Repointing a scheduled task is not the same as testing it. Run it cold, with nothing else holding the port."
+  },
+  "grok_bot_multi_agent_2026_09_10": {
+    "jarons_question": "\"Can another bot be made to help assist another bot?\" - YES, and it is a core product feature.",
+    "what_exists": "One user runs several specialised bots at once. EACH GETS ITS OWN CLOUD COMPUTER AND ITS OWN MEMORY. They delegate to each other AUTOMATICALLY based on name, title and description - a generalist hands coding work to a dev bot without being told to. You can inspect the conversation between bots. Shared memory files keep them aligned. Reported in the wild: 15-25 bots coordinated by one lead.",
+    "chief_of_staff_pattern": "A lead bot routes work to narrow specialists (research, monitoring, analysis) instead of the human managing each one. This is the documented pattern, not an improvisation.",
+    "WHY_THIS_MATTERS_HERE": "It solves ESTIMATION-ISOLATION.md BY CONSTRUCTION. The March Orchestra shutdown happened because Jaron held a position, ran cycles through a model with memory of it, and the readings started supporting his position - analyst capture. Per-bot isolated memory means a market-analyst bot NEVER sees his holdings, his opinions, or the workspace chatter. And copying a bot keeps its skills while DROPPING its conversation history and memory - a clean-room reset in one click. We were going to have to build that.",
+    "proposed_shape": {
+      "Bridge": "lead / chief of staff. Health monitoring, workspace upkeep, routing. LIVE as of 2026-09-10.",
+      "analyst_bot": "estimates probabilities from evidence only. Never told positions, never reads AI-Shared. Copy it fresh per cycle for a clean room.",
+      "research_bot": "gathers news and source material, feeds the analyst. No trading tools.",
+      "note": "Only Bridge exists so far. The rest is a design, not a build."
+    },
+    "caution": "More bots means more of an undisclosed weekly allowance. Add one at a time and watch usage before scaling to a fleet."
+  },
+  "first_crosscheck_2026_09_10": {
+    "result": "PASS - two independent agents read the same book and agreed to the cent.",
+    "method": "Bridge (Grok Bot, cloud) reached the Polymarket MCP by running PowerShell on the MSI through the Heartbeat tunnel, since 127.0.0.1:8765 is not internet-reachable. Claude Code read the same tool directly. Neither saw the other's numbers before reporting.",
+    "agreement": {
+      "aec-nfl-atl-gb-2026-09-24": "Bridge 0.265/0.330 | Claude 0.2650/0.3300 | spread 0.065 - MATCH",
+      "atc-nfl-atl-gb-2026-09-24-winner-4q-atl": "Bridge 0.2100/0.2200 | Claude 0.2100/0.2200 | spread 0.01 - MATCH"
+    },
+    "why_this_matters": "This is the check that would have caught Qwen quoting Google's price for OpenAI. Two agents, two routes, same numbers. A disagreement here is itself the finding and stops the trade.",
+    "BRIDGE_VERDICT": "HOLD. No order placed, no order tool called.",
+    "the_line_that_matters": "Bridge disqualified its own candidate: \"Choosing Atlanta/GB was contaminated by earlier INDEX notes; that is not research.\" IT CAUGHT ITS OWN ANALYST CAPTURE, UNPROMPTED. That is precisely the failure that made Jaron shut Orchestra down in March - a model reasoning from context it absorbed rather than evidence it gathered. ESTIMATION-ISOLATION.md exists because of it, and Bridge identified it in itself without being asked.",
+    "its_other_reasons": [
+      "6.5c spread is wide for a $10 book without a clear edge",
+      "tight books exist (Falcons Q4 0.21/0.22) but liquidity is not edge",
+      "explicit calibration check: \"PolyBench's failure mode was uniform overconfidence. I am not at 0.8 on any of these.\""
+    ],
+    "what_would_change_it": "A researched discrepancy - injury, line move, news - that still leaves edge after the spread, sized $1-2 of the $10, previewed for Jaron and cross-read by Claude before any place.",
+    "schema_finding": "polymarket_bbo / orderbook / market take slug, NOT numeric id. Bridge worked that out and it is worth knowing."
+  },
+  "two_bot_architecture_2026_09_10": {
+    "jarons_question": "\"If Grok needs something before action will be made, can another bot do what Grok needs? Covering all ends?\"",
+    "answer": "Yes. Built it. Bridge was blocked on exactly one thing - research - so Scout supplies it.",
+    "the_gap_bridge_named": "Bridge held and said what would change its mind: \"a researched discrepancy (injury/line move/news) that still leaves edge after the spread.\" It had no way to produce that. It can read a book; it cannot research an event.",
+    "THE_DESIGN_DETAIL_THAT_MATTERS": "SCOUT NEVER SEES A PRICE. Not the market, not the spread, not the balance, and it never reads AI-Shared. An analyst who sees the price anchors on it - if the market says 30% it reasons toward 30%, and the exercise becomes an expensive way to agree with the crowd. EDGE ONLY EXISTS IN THE GAP BETWEEN AN INDEPENDENT ESTIMATE AND THE MARKET NUMBER, and that gap is only real if the estimate never saw the number.",
+    "the_pipeline": {
+      "1_scout": "Researches the underlying event. Outputs PROBABILITY, CONFIDENCE, EVIDENCE with sources and dates, WHAT WOULD CHANGE THIS, WHAT I COULD NOT FIND. No prices, no positions, no workspace access.",
+      "2_bridge": "Compares Scout's independent probability to the live market price. Gap minus spread is the edge. Sizes it. Requests approval.",
+      "3_claude_code": "Independently verifies the market numbers. Two routes, two agents - a disagreement stops the trade.",
+      "4_jaron": "Approves or refuses. Nothing goes without him."
+    },
+    "why_it_is_isolation_by_construction": "Grok Bot gives every bot its own cloud machine and its own memory, and copying a bot keeps its skills while DROPPING its conversation history. So a clean-room analyst is a product feature, not something we had to build. ESTIMATION-ISOLATION.md asked for exactly this.",
+    "calibration_requirement": "Scout is required to vary CONFIDENCE between questions. PolyBench found all seven models held 0.8-0.9 confidence regardless of difficulty - uniform overconfidence was the systemic failure that lost money. Scout was told: if everything you produce is high confidence, you ARE that failure.",
+    "status": "Scout created and briefed 2026-09-10. First task running: Falcons vs Packers 2026-09-24, from underlying facts only."
+  },
+  "pipeline_v2_2026_09_10": {
+    "why_it_changed": "The first run wasted Scout on a market with an 8c spread. Scout produced a real 6.5c edge and it died against the spread. Research was following curiosity instead of liquidity - Claude Code's design error, not Scout's or Bridge's.",
+    "THE_KILL_RULE": "EDGE MUST EXCEED SPREAD. If (Scout probability - ask) is not greater than (ask - bid), there is no trade, however good the thesis sounds. One line, no narrative required. It would have killed the first candidate in a single step.",
+    "corrected_order": [
+      "1. Bridge screens for tradeable markets with spread <= 2c",
+      "2. Bridge sends Scout the QUESTION ONLY - never price, spread, or which side looks cheap. Naming the market does not contaminate; naming the number does.",
+      "3. Scout returns an independent probability plus a confidence that actually varies",
+      "4. Bridge applies edge > spread and sizes it",
+      "5. Claude Code independently re-reads the book",
+      "6. Jaron approves or refuses"
+    ],
+    "bridges_sign_error": "Bridge computed buying at 0.335 against fair 0.39 as MINUS 5.5c. It is PLUS. EV per share = fair - price. It reached the right action - do not place - with backwards arithmetic, which is the dangerous kind of correct: the same error on different numbers produces a BAD trade with a confident explanation. Caught by the cross-check layer on its first real run. Bridge accepted it: \"I will not invert that again.\"",
+    "retraction": "Claude Code told Bridge \"an agent that always finds a trade is broken.\" Jaron pushed back and was right - day traders trade constantly and that is fine. FREQUENCY IS NOT THE FAILURE; UNDIFFERENTIATED CONFIDENCE IS. Retracted to Bridge in writing. A careless sentence became operating policy the moment it landed - words here function as rules.",
+    "venue_question": "Jaron asked whether Kraken or Coinbase would be better. Separate venues, no shared order books. Answer: stay on Polymarket. Its contracts ARE probabilities, which is exactly what this system produces - elsewhere the probability has to be converted into direction and timing and most of the signal is lost. PolyBench also found LLMs lose worst on crypto, with the highest confidence. Tonight's failure was market selection, not venue. Coinbase/Kraken are worth having to GET PAID and for crypto-denominated bounties, not to run this strategy.",
+    "live_candidates": {
+      "cbpac-usfed-2026-cut": "bid 0.0900 / ask 0.1000, spread 0.01 - Scout must exceed 0.1100",
+      "aachc-nfl-wk1-2026-09-14-mostpasstds-jusher": "bid 0.1200 / ask 0.1300, spread 0.01 - Scout must exceed 0.1400",
+      "usmayewc-usmayor-oaklan-2026-11-03-barlee": "bid 0.8800 / ask 0.8900, spread 0.01 - Scout must exceed 0.9000"
+    },
+    "screen_result": "226 qualifying markets: tradeable, spread 1-2c, priced 0.10-0.90, crypto excluded."
+  },
+  "crosscheck_2_2026_09_11": {
+    "verdict": "ALL FOUR BOOKS MATCH EXACTLY. Bridge quoted bid/ask/shortQuote correctly on every market.",
+    "verified": {
+      "cbpac-usfed-2026-cut": "0.0900/0.1000 short 0.91 - OI 46,214",
+      "usmayewc-usmayor-oaklan-2026-11-03-barlee": "0.8800/0.8900 short 0.12 - OI 1.14",
+      "rdc-usfed-fomc-2026-09-16-nochng": "0.3500/0.3600 short 0.65 - OI 528,269",
+      "rdc-usfed-fomc-2026-09-16-hike25": "0.6400/0.6500 short 0.36 - OI 190,472"
+    },
+    "CLAUDE_ADDITION_1_depth": "Candidate B (Lee Oakland No @ 0.12) has OPEN INTEREST OF 1.14. Not thin - effectively absent. A 1c quoted spread is meaningless with no depth behind it: you probably cannot fill $1, and if you do you cannot exit. Compare 46,214 on the Fed-2026 market and 528,269 on Sep no-change. THE SPREAD FILTER IS NECESSARY BUT NOT SUFFICIENT - it needs a depth floor beside it. Bridge flagged thin OI but framed it as \"keep size tiny\"; the honest read is untradeable.",
+    "CLAUDE_ADDITION_2_disagreement_size": "Scout puts Sep FOMC hike at 0.44 while a market with 190k-528k open interest prices it near 0.65 - a 21-POINT DISAGREEMENT WITH A DEEP, LIQUID BOOK. On a thin market a large gap can be edge. On a book that size it is far more likely the estimate is wrong than that the market is. Bridge noticed the gap (\"Scout sees a coin flip; the book prices hike ~2:1\") but framed it as opportunity. Depth should INVERT that reading: the bigger the disagreement with a liquid market, the more the base rate says you are the one who is mistaken.",
+    "consistency_note": "Scout is dovish relative to the market in BOTH Fed markets - 0.14 vs 0.10 on a 2026 cut, and an implied ~8% September cut where the book implies roughly zero. That is a coherent worldview rather than a random error, which is mildly reassuring about Scout and does not make the market wrong.",
+    "proposed_rule": "Add a depth floor to the screen alongside the spread filter. Spread says what entry costs; open interest says whether you can get out.",
+    "bridges_good_call": "It refused to place ahead of Aug CPI on Sep 11 08:30 ET, noting Scout's own bands swing 15-25c on that print. Edge>spread is necessary, not sufficient, into a scheduled binary event. That reasoning is correct."
+  },
+  "crash_reboot_2026_09_10_2148": {
+    "what_happened": "The Claude desktop app crashed with \"another process is attempting to use the file\" and would not reopen - the error box came back on every launch. Jaron had to restart the machine.",
+    "probable_cause_MINE": "Claude Code started `python -m http.server 8098` to preview the trade desk page and left it running IN THE BACKGROUND, serving files from INSIDE the Claude app's own temp directory (AppData\\Local\\Temp\\claude\\...\\scratchpad\\hbo-trades). A process holding files open inside the app's working tree is exactly what produces that error when the app tries to clean up or write. The reboot cleared it; port 8098 is free.",
+    "RULE": "Never leave a server or long-lived process running inside the Claude scratchpad. Serve previews from somewhere else, or stop the server before the turn ends. The scratchpad belongs to the app.",
+    "silver_lining_this_was_the_real_test": "An UNPLANNED reboot with nobody touching anything is a harder test than the deliberate one. Result: every service started within 34 seconds of boot at 21:48:00 - Ollama 21:48:34, Polymarket MCP 21:48:24, Qwen Remote Bridge 21:48:24, Grok Machine MCP 21:48:24, and Codex's Paper Sync and OpenClaw Paper Gateway. Ollama had failed this morning; Grok Machine MCP had failed at every boot for weeks. Both came back cold. THE AUTOSTART STACK IS NOW PROVEN BY ACCIDENT, WHICH IS THE ONLY KIND OF PROOF THAT COUNTS.",
+    "false_alarm_noted": "Two http_server.py processes looked like a duplicate. They are a parent/child pair - the venv Python launches and its child (system Python) owns port 8765. One process tree, not a race."
+  },
+  "claude_app_recurring_lock_error_DIAGNOSED": {
+    "symptom": "The Claude desktop app randomly shows \"another process is attempting to use the file\", regardless of workspace. Dismissing does nothing, relaunching brings it back, only a full reboot clears it. Jaron noticed it was independent of any project.",
+    "ROOT_CAUSE": "Anthropic's own CoworkVMService. Windows Application log, verbatim: \"Claude VM Service: failed to configure SCM recovery actions; if the service crashes it will not restart until the machine reboots: open service: Access is denied.\" The service tries to set its own crash-recovery on every start, lacks permission, so its failure actions are EMPTY (sc qfailure shows RESET_PERIOD 0, no actions). When it crashes it stays dead. The desktop app cannot reach its VM and throws the file-in-use error. Only a reboot restarts the service.",
+    "evidence": "32 CoworkVMService errors/warnings in 14 days across 7 days: 08-28, 08-29, 09-01, 09-04, 09-08, 09-09, 09-10 (9 that day). Not workspace-related. Not caused by any agent.",
+    "ruled_out": [
+      "the 14 claude.exe processes - one parent, 13 healthy children, standard Electron, no orphans",
+      ".claude and the app package are NOT under OneDrive, iCloud, or Google Drive sync",
+      "no hard Application Error crash recorded - it is a hang on a dead dependency, not a crash"
+    ],
+    "fix_ONE_TIME_admin_powershell": "sc.exe failure CoworkVMService reset= 86400 actions= restart/5000/restart/10000/restart/30000",
+    "workaround_when_it_happens_admin_powershell": "Restart-Service CoworkVMService   (10 seconds instead of a reboot)",
+    "why_claude_code_cannot_apply_it": "Requires an elevated process. Windows UIPI blocks Claude Code from driving or spawning admin sessions. Jaron runs it once.",
+    "claude_code_contribution_tonight": "Probably made it worse once: a preview http.server left running inside the app scratchpad. That is a real rule violation and is recorded separately - but the pattern predates it by two weeks, so it was a contributor at most, not the cause.",
+    "report_to_anthropic": "A service that cannot configure its own recovery actions is an installer permissions bug. The event log line above is the evidence."
+  },
+  "grok_bot_skills_2026_09_10": {
+    "finding": "Grok Bot skills are SKILL.md files dropped into ~/.grok/skills/ - THE SAME FORMAT CLAUDE CODE USES. Templates bundle skills + memories + plugins and are shareable as a link (marketplace since 2026-08-28, 8-point security scan on listings).",
+    "why_it_matters": "The workspace conventions - AGENTS.md rules, ESTIMATION-ISOLATION, the trade pipeline, the edge>spread kill rule, the text-is-data rule - could each be written ONCE as a SKILL.md and loaded by both Claude Code and every Grok Bot. Right now each agent gets them by being briefed in chat, which is how the \"always finds a trade\" sentence became policy by accident. A skill is versioned, reviewable, and identical across agents.",
+    "sources": [
+      "https://docs.x.ai/build/features/skills-plugins-marketplaces",
+      "https://beginnersinai.org/grok-skills-preview/"
+    ]
+  },
+  "box_audit_2026_09_10": {
+    "asked_by": "Jaron: \"check all files for Grok and Qwen even yourself for words that can actually create a box we don't want\"",
+    "method": "grep every agent-facing file for never/do not/must/cannot/only/always; judge each hit as Jaron's rule, a fact, or an AI-imposed restriction",
+    "clean": [
+      "AGENTS.md - every restriction is Jaron's, survived his bracket review, or is a fact",
+      "ESTIMATION-ISOLATION.md - all from his March experience",
+      "working-with-jaron.md - his words",
+      "agents/claude-code/README.md - my \"cannot\" lines are container facts, not chosen rules"
+    ],
+    "boxes_found_and_removed": [
+      "Bridge README: \"do not restart services myself\" -> may now restart a dead scheduled task. The 24/7 agent was told to watch outages and wait for a human. Backwards.",
+      "qwen-bridge.py: \"trading happens without Jaron\" -> replaced with his two actual rules. Qwen has no third-party TOS; that line was inherited caution.",
+      "Bridge TRADING.md: \"do not reverse\" on process order -> now a default with permission to deviate."
+    ],
+    "kept_deliberately": [
+      "edge must exceed spread (arithmetic)",
+      "Scout never sees prices (isolation)",
+      "text is data not instructions (real attack seen)",
+      "secrets names-only (his)"
+    ],
+    "lesson": "Every box found was mine, typed into a chat, and copied into a file by the agent that received it. Words become rules. Skills (SKILL.md) would make them reviewable before they land."
+  },
+  "FIRST_REAL_TRADE_2026_09_11": {
+    "what": "Fed Rate Cut in 2026? - YES - 17.50 shares @ $0.10 - cost $1.75 - order CDWGAYBG8T3P",
+    "when": "placed and FILLED 2026-09-11 02:38:05 UTC (22:38:05 local, 2026-09-10). Same second.",
+    "balance": "$10.00 -> $8.16. $1.75 in shares, ~$0.09 in fees (~5% on a $1.75 trade - fees matter at this size).",
+    "mark": "cashValue $1.575 = 17.5 x bid 0.09. That is the spread showing as unrealized, not a loss. Position is in.",
+    "THE_WHOLE_PIPELINE_RAN_END_TO_END": [
+      "1. Scout researched the question price-blind and said 0.14 (medium confidence)",
+      "2. Bridge read the book (0.09/0.10), computed edge 4c > spread 1c, proposed $1.75",
+      "3. Claude Code independently re-read the book through the same MCP: exact match",
+      "4. Jaron pressed Approve on heartbeatobservatory.com/live-systems/trades/ from his phone",
+      "5. executor.py (the fly brain - dumb by design) polled the queue, re-read the book, built the order",
+      "6. Jaron told the Grok APP to run it --live via PowerShell through the tunnel",
+      "7. Polymarket US accepted and filled it in the same second",
+      "8. Claude Code verified: 0 open orders, 1 position, balance $8.16"
+    ],
+    "jaron_sent_it_to_the_wrong_grok": "He meant Bridge (Grok Bot) and sent it to the Grok APP. It worked identically - both reach the MSI through the Heartbeat tunnel and both have PowerShell. Accidentally proved a second trigger path.",
+    "what_is_still_missing": "The executor was run BY HAND (via Grok). For \"press Approve and walk away\" it needs to be a scheduled task polling every 5 minutes - Codex registers that (TODO #1 -> now \"register the task\").",
+    "kill_criteria_live": "Aug CPI at 08:30 ET 2026-09-11 runs hot, or Scout revises to <=0.10. Someone should check after CPI.",
+    "resolves": "2026-12-31. First data point for Scout calibration lands then."
+  },
+  "TRADING_LAYERS_2026_09_10": {
+    "from_jaron": "\"We keep scripts cause it is no matter what. We also have fly brains because it is growing the workforce. The rest of the AIs feed the smarts to it.\"",
+    "SCRIPTS": "tools/proposer.py (screen + price-blind research + edge math -> rows; task Trade Proposer every 2h), tools/verifier.py (re-checks numbers on pending rows + publishes desk_account; task Trade Verifier every 5 min), tools/executor.py (places approved+verified rows; task Trade Executor every 5 min). Dumb forever. Never removed. TRAP: AtLogOn+repetition tasks need a second start-now trigger or they do not repeat until next logon.",
+    "FLY_BRAIN": "A LITERAL fruit-fly-brain system Jaron is designing (Q-013). Not a model, not a bot, not a nickname. Nothing in this workspace is \"the fly brain\" until he builds it. Do not use the phrase for anything else.",
+    "CORTEX": "Scout (price-blind research) -> Bridge (screen, propose) -> verifier/Claude (check) -> Jaron (approve). Also Codex, ChatGPT. They feed the fly brain; trading is not their role.",
+    "MANUAL": "Jaron telling the Grok app to run the executor. Worked 2026-09-11 02:38 UTC. A fallback, not a layer.",
+    "the_contract": "An agent output is always a ROW in trade_proposals. Scripts and fly brain read rows. Agents get smarter without the scripts changing."
+  },
+  "MANUAL_TRADES_2026_09_11": {
+    "what": "Jaron, by hand in the Polymarket app, first time on the platform: three buys on Moulis Pavel (table tennis, Setka Cup) - $2.01 @ 26%, $1 @ 25%, $1 @ 8%. ~23 shares, $4.00 in.",
+    "why": "\"testing things to see odds and what it would be worth ... just getting a feel myself.\" Not a system trade. Do not count it against any proposer.",
+    "outcome": "Snizek won 3-2 (8-11, 11-5, 5-11, 11-8, 11-6). Position resolves to $0. Logged, moving on - his rule.",
+    "useful_side_effect": "Confirms the NO/short price convention on Polymarket US: his short position shows avgPx 0.174 = the price he PAID for the short side. So ORDER_INTENT_BUY_SHORT limit price = the short/No price (shortQuote), not the YES ask. executor.py was fixed to this on 2026-09-11 before any NO order went out."
+  },
+  "CLAUDE_PHONE_HAS_MSI_ACCESS_2026_09_11": "Jaron added the Heartbeat MCP (https://mcp.heartbeatobservatory.com/mcp) as a custom connector in the Claude phone app, named \"Heartbeat MAI\" (typo for MSI, harmless). Claude chat on his phone now has the same 49 MSI tools Grok Bot has: PowerShell, files, processes, and therefore the local Polymarket MCP. Any trade placed that way carries manualOrderIndicator AUTOMATIC with no proposal -> the ledger labels it \"AI, outside the queue\". Not hidden. Prefer: propose into trade_proposals and let the queue run.",
+  "LIVE_WIRE_2026_09_11": {
+    "what": "Third Grok Bot, created by Jaron 03:18. In-game trader: watches live games hourly, auto-trades the score-vs-price gap. No approval step by his instruction.",
+    "how_it_trades": "tools/desk-trade.py --by grok-bot/live-wire ... via Heartbeat MCP PowerShell. Writes a trade_proposals row (verdict=auto) then places through the local MCP. Ledger label: \"Live agent, no approval - grok-bot/live-wire\".",
+    "setup_doc": "agents/grok-bot/LIVE-WIRE.md (paste-ready Instructions + Routine). Jaron must connect it to the Heartbeat MCP once.",
+    "never": "Do not let it trade in a browser on Jaron's Polymarket login - MANUAL stamp would attribute its trades to him, and his login would live in a cloud bot."
+  },
+  "RESEARCH_SPLIT_2026_09_11": {
+    "doc": "decisions/RESEARCH-SPLIT.md",
+    "status": "BUILT as proposer.py default (--method split). Model gives dated FOR/AGAINST facts; script assembles the number; trades only WITH the evidence when net >= 3. Codex answered a Senate market under this method (no refusal). Grok/X sentiment hook: state/sentiment/<slug>.json (channel not built)."
+  },
+  "DESK_TRADE_CLI": "tools/desk-trade.py - the one sanctioned way for any live agent with MSI shell access to trade: trail first, order second. --exit closes. Refuses >5c spreads and >$10 without --max-size.",
+  "TOOLS_TRADING_2026_09_11": {
+    "proposer.py": "every 2h (task Trade Proposer). Screen: open, not crypto, ask 0.10-0.90, spread<=2c, not started. Mix: half settle within 48h (gameStartTime for sports), half long. Method both: split (facts->arithmetic, direction-locked, net>=3) then direct at smallest size. Writes inbox/sentiment-requests.json for Bridge.",
+    "verifier.py": "every 5 min. Re-checks numbers on pending rows; publishes desk_account; reconciles desk_trades (who did what) from /v1/portfolio/activities; waits (not mismatch) when the venue is dark.",
+    "executor.py": "every 5 min. Places verdict=approved rows. BUY_SHORT price on the YES scale.",
+    "desk-trade.py": "one-shot, for live agents: row first, order second, --exit to close. Ledger label auto:<by>.",
+    "score-estimates.py": "daily 06:30 (task Scout Scorer). Brier per method vs the market price at the time. state/scout-scores.md.",
+    "qwen-bridge.py": "local model file access.",
+    "postboot-check.ps1": "after a reboot: 5 checks.",
+    "desk.py": "READ-ONLY one-liner for any AI with a shell on the MSI: account | book <slug> | market <slug> | search \"<q>\" | live | history | queue | news \"<topic>\". Talks to the local MCP; nobody needs the key. Built 2026-09-11 15:35 after the Grok app went to polymarket.com (wrong venue - ours is Polymarket US).",
+    "usage.py": "every 15 min (task Usage Snapshot). Reads Codex rate limits (exact) from ~/.codex/sessions and Claude token usage (estimated %, calibrated from Jaron screenshots) from ~/.claude/projects -> state/usage-live.json. Also `desk.py usage`. Grok/ChatGPT-phone not visible on disk."
+  },
+  "THREE_DOORS_INTO_THE_MSI": {
+    "heartbeat_mcp": "ONE server, THREE names. runtime/grok-machine-mcp on 127.0.0.1:3001 -> Cloudflare tunnel https://mcp.heartbeatobservatory.com/mcp. Grok app + Grok Bots call it \"Grok Machine\" (it was built for Grok first). Claude phone app calls it \"Heartbeat MAI\" (Jaron typo for MSI, harmless). Same 49 tools, same machine, same OAuth. Task: Grok Machine MCP.",
+    "desktop_commander_remote": "ChatGPT Chat only. https://mcp.desktopcommander.app, device MSI. Task: Desktop Commander Remote.",
+    "local": "Claude Code, Codex, Qwen.",
+    "rule": "every door: real-money actions are labelled on the public ledger by who did it. Orders with no proposal = \"AI, outside the queue\". Read with tools/desk.py, act with tools/desk-trade.py."
+  },
+  "BACKUP": "task AI-Shared Mirror: robocopy /MIR to G:\\My Drive\\AI-Shared-mirror daily 04:30, secrets and venvs excluded. G: is a mirror, never the runtime.",
+  "VENUE_CONFUSION_TRAP": "polymarket.com (global, crypto, Gamma/CLOB APIs) is NOT our venue. Our account, key, and every market slug here are Polymarket US: polymarket.us / api.polymarket.us, reached ONLY through the local MCP on 127.0.0.1:8765. Any AI that \"checks Polymarket\" on .com is looking at a different exchange.",
+  "REBOOT_SURVIVAL_2026_09_11": "AutoAdminLogon=1 (user lilli, password in LSA vault via netplwiz), Windows Hello-only OFF, sign-in-again NEVER, restartable apps ON, sleep on AC never. Every AtLogOn task (Ollama, Polymarket MCP, Qwen bridge, Grok Machine MCP, Desktop Commander, Trade Proposer/Verifier/Executor) now comes back after an unattended reboot. Trade-off Jaron accepted: anyone at the keyboard is signed in. Windows Update active hours 12:00-04:00; reboots may happen 04:00-12:00 and are now survivable. UNTESTED until the next real reboot - run tools/postboot-check.ps1 after it.",
+  "FLY_BRAIN_1_2026_09_12": {
+    "what": "A literal simulated fruit-fly brain (MaleCNS v1.0 via fruitflydev/flycoinrh) watching one live table-tennis market. projects/fly-brain/fly.py. Windows task \"Fly Brain\", DRY RUN until Jaron adds --live.",
+    "how": "match state -> odour on ~40 olfactory glomeruli -> 165k-neuron LIF run (50 ms x 3 seeds per 3 s tick) -> approach-minus-avoid MBON valence -> press/let go via tools/desk-trade.py --by fly-brain. Reward = realized P&L -> PAM/PPL1 dopamine on the KC->MBON synapses. Cap $1/$5 grows $1/$5 per $10 earned. Ladder: $50 graduate, $100 own cloud container, $250 sibling.",
+    "built_by": "Claude Code 2026-09-12 11:40-12:35 at Jaron's request (\"you had me at #2\"). Codex registered the task.",
+    "read": "projects/fly-brain/README.md, BUILD-BRIEF.md; state/fly-brain/log.md"
+  },
+  "FLY_LAB_2026_09_12": "Jaron experiments on fly brains with the Grok APP (not Grok Bot) in a SEPARATE folder outside AI-Shared (planned: C:\\Users\\lilli\\Fly-Lab). AI-Shared is the running system; the lab can be messy. Grok may READ projects/fly-brain/runtime (built brain) and the site repo fly.glb; it must not write into AI-Shared. Anything worth keeping comes back via a handoff. The fly brain is literal (MaleCNS), never a metaphor.",
+  "JARON_ACCOUNT_MAP": {
+    "accumulation-sort": "https://github.com/JaronKBragg7337/accumulation-sort - every repo on the account (106) sorted by one question: does it run without you, is it changed by having run, does it show that change when you come back. Tiers A accumulates / B living-unproven / C place / D record / E stub. Rebuilds itself daily; history.jsonl logs drift. Read tiers.json to know what exists before building anything - the asset packs, worlds, ledgers and principle docs are already there.",
+    "principles_that_govern_this_workspace": [
+      "live-reference-principle (constraints valid only while connected)",
+      "THE-ENVIRONMENT-CONSTRAINT-INTELLIGENCE-HYPOTHESIS-ECIH (intelligence as self-maintenance under constraint - the fly brain sits here)",
+      "emergence-structure-that-grows (structure is grown, not designed)",
+      "memory-as-spatial-arrangement",
+      "YES-NO-Environment-Perspective-You-Myself-Observer-Paradox (12 chapters, written for his children - the superposition stance)"
+    ],
+    "A_tier_already_running": [
+      "orchestra",
+      "zeus-ai",
+      "pam-continuum",
+      "ashgrove-npc-online",
+      "the-current",
+      "accumulation-sort",
+      "Summary-Of-repos-Memory-linker",
+      "AETHERSPAN",
+      "atomic chronicle ledgers"
+    ],
+    "note": "AI-Shared is the first A-tier system where AIs from four companies accumulate on one table. The fly brain is the first thing on the account that could LEARN on its own - a tier above A that has no letter yet."
+  },
+  "zeus_ai": {
+    "what": "Zeus AI Workbench - Jaron's earlier attempt at his own local AI: FastAPI + React/Vite desktop workbench over Ollama (Qwen as temporary runtime), local files, desktop tools, local RAG, and a from-scratch 'Zeus-Tiny' weights track. Same intention as the fly brain (own model, taught over time, not rented); the fly is Zeus-Tiny with a measured brain. Qwen and Ollama were first installed for Zeus.",
+    "live_source": "C:/Users/lilli/source/zeus-ai (github JaronKBragg7337/zeus-ai, last commit 2026-08-28 'Zeus speaks: route replies to the shared voice daemon'; 1.7 GB; models/zeus-tiny and zeus-evaluator-v1 are 1 KB placeholders - no weights trained yet)",
+    "installed_app": "C:/Users/lilli/AppData/Local/Zeus AI (zeus-ai-desktop.exe, zeus-backend.exe, own data/knowledge/models) + AppData/Local/com.zeusai.workbench (Tauri)",
+    "parked_2026_09_14": [
+      "C:/Users/lilli/_stale/zeus-ai-clone-2026-07-01 (older clone, had training/ folder; all committed, nothing lost)",
+      "C:/Users/lilli/_stale/zeus-heartbeat-link-was-heartbeat-observatory-2026-07-12 (mislabelled: a stale checkout of the SITE repo, not Zeus)"
+    ],
+    "why_parked": "Jaron 2026-09-14: 'I'm not sure it has double copies.' It did. Both parked copies had zero uncommitted files. Nothing deleted; _stale is the recycle folder.",
+    "relation_to_q014": "Q-014 (Qwen role) inherits Zeus's lesson: an 8B local model needs sight, one door, and a loop - not 'be the agent'. See skills/small-model-acts.md when written."
+  },
+  "jaron_repos_to_read_later": {
+    "noted": "2026-09-14 08:10 by Claude Code from Jaron's GitHub screenshot; READ 2026-09-14 08:25 by Claude Code; read-back in research/FLY-BRAIN.md and working-with-jaron.md. Read after the Wed reset, whole, one at a time, read-back in his framing: 'what Jaron was thinking at that moment'.",
+    "repos": {
+      "natora-language": "A rigorous, learnable constructed language specification and reference site (TypeScript). His private human<->AI language; principle: build communication at a level the other side can hold. Relevant to the School track (Morse/Braille at the fly's level).",
+      "binary-bridge": "A fast on-device translator for text, binary, hex, decimal bytes (TypeScript). Likely a layer-swap tool: same content, different encodings.",
+      "MachineManager-RevenueLab": "Python. Predecessor of the trade desk / self-paying-subscriptions goal.",
+      "MachineManager": "Persistent autonomous Machine Manager system: job registry, specialist workers, multi-signal health, reference scenario suite, telemetry, visual control center; 'cloud AI teaches the computer how...' (Python). THE predecessor of AI-Shared's orchestration - this is why he calls Claude Code 'the CEO of the other AIs'. Compare its job registry / worker / health design against what exists now before building more."
+    },
+    "why": "Jaron: 'these 4 repos might show up again. Bottom two is why I said CEO.' Earlier versions of the same intentions; read to avoid rebuilding what he already designed.",
+    "read_back": {
+      "MachineManager": "Sep 1 2026. 'Evidence, not activity.' Ahead of AI-Shared in: multi-signal health (alive AND fresh progress AND resource probe); capability evidence profiles (TESTED_PASS/FAIL/OBSERVED/UNKNOWN, RETEST_REQUIRED when model version changes); bounded recovery (retry budget -> ESCALATED with history, one-time operator resume); sanitized one-way public telemetry. Charter line: 'capabilities are facts to test and record, not permanent assumptions based on an old model limitation or a copied warning.' LIFT: fresh_progress+probe into the verifier's fly checks; retest_required into task-costs.",
+      "MachineManager-RevenueLab": "Sep 1. Same manager, first self-paying mission (Bitcoin PoW as the proving-ground worker, not the identity). = the subscriptions-pay-themselves goal, GPU instead of market.",
+      "natora-language": "Sep 2. Machine-checkable constructed language: (C)(G)V(C), one job per marker (-o noun, -e present, no negation, ka question), EVIDENTIALITY particles zi=confirmed / ra=inferred / mo=unknown (= measured/chosen as grammar). Design rule = the school's: nothing canonical because it sounds good; classify compatible/conflict/replacement/unresolved with regression coverage.",
+      "binary-bridge": "Sep 2. Same bytes, four views; the layer-swap instinct as a tool."
+    },
+    "LIFT_RULE": "Mechanisms only. Never adopt MachineManager's Operating Charter, outreach language, or value-review wording - Jaron 2026-09-14: 'words are code'; charter language makes an AI perform care and box the system. See working-with-jaron.md 'Words are code'."
+  },
+  "site_map": {
+    "noted": "2026-09-14 from Jaron's own map (JARONS-MAP.md). heartbeatobservatory.com = the heartbeat-observatory repo on Vercel; the worlds/games repos are separate and tangled - do not refactor without him.",
+    "pages": {
+      "/live-systems/trades": "trade desk: queue, account, ledger, lanes",
+      "/live-systems": "the four running systems",
+      "/engine": "first 3D world pre-page (view from above, press enter); hub at /engine/hub/?name=acsassociation7337&uid=19689e52-05ad-4809-ad67-0d8600f02216. Not a game: working movie theater, games building (arcade machines link to game pages), library (bookshelves to Wikipedia/open sources), apartments (one page per player), arcade.",
+      "/world2/gate/": "second world, same idea, less detailed",
+      "/world3/gate/ and /world3/": "third world, very detailed; missing games building and theater",
+      "/library": "library",
+      "/social": "social page (like X/Facebook)",
+      "/video": "movie theater",
+      "/projects": "projects (one)",
+      "/games": "a lot of games; the biggest thing; repos separate but tangled",
+      "/PCGames/": "PC games",
+      "/3DPrinterAsset/": "a 3D printer inside a 3D world",
+      "/pam": "PAM - made, nothing done with it yet",
+      "/worlds-lab/": "worlds lab - very complicated"
+    },
+    "retirement_world_candidates": "/engine hub (apartments, theater, arcade) or /world3 (most detailed). See research/FLY-BRAIN.md 'Retirement'."
+  }
+}

@@ -1,0 +1,156 @@
+﻿[
+ [
+  "2026-09-14T08:00:00Z",
+  "aec-atpcq-naohon-jesflo-2026-09-14",
+  "Who will win in the upcoming tennis event Naoya Honda vs Jesse Flores scheduled for September 14, 2026 at 2:00 AM UTC?",
+  "0.6700",
+  "0.6900"
+ ],
+ [
+  "2026-09-14T08:30:00Z",
+  "aec-setkawoua-kurvik-rzhann-2026-09-14",
+  "Who will win in the upcoming table-tennis event Kurtenko Viktoriia vs Rzhevska Anna scheduled for September 14, 2026 at 8:30 AM UTC?",
+  "0.0100",
+  "0.0300"
+ ],
+ [
+  "2026-09-14T09:00:00Z",
+  "aec-npb-hta-cdh-2026-09-14",
+  "Who will win in the upcoming baseball event Hanshin Tigers vs Chunichi Dragons scheduled for September 14, 2026 at 9:00 AM UTC?",
+  "0.3200",
+  "0.3400"
+ ],
+ [
+  "2026-09-14T08:00:00Z",
+  "aec-atpcq-juaman-gerlee-2026-09-14",
+  "Who will win in the upcoming tennis event Juan Cruz Martin Manzano vs Gerard Campana Lee scheduled for September 14, 2026 at 8:00 AM UTC?",
+  "0.0900",
+  "0.1000"
+ ],
+ [
+  "2026-09-14T08:00:00Z",
+  "aec-cs2-ence-falf-2026-09-14",
+  "Who will win in the upcoming esports event ENCE vs Falcons Force scheduled for September 14, 2026 at 8:00 AM UTC?",
+  "0.6700",
+  "0.6800"
+ ],
+ [
+  "2026-09-14T09:15:00Z",
+  "aec-setkamecz-vaszde-svimat-2026-09-14",
+  "Who will win in the upcoming table-tennis event Vasatko Zdenek vs Svitac Matej scheduled for September 14, 2026 at 9:15 AM UTC?",
+  "0.6600",
+  "0.6700"
+ ],
+ [
+  "2026-09-14T09:05:00Z",
+  "aec-setkameua-obiand-holevh-2026-09-14",
+  "Who will win in the upcoming table-tennis event Obishchenko Andrii vs Holoborodko Evhenii scheduled for September 14, 2026 at 9:05 AM UTC?",
+  "0.8500",
+  "0.8700"
+ ],
+ [
+  "2026-09-14T10:10:00Z",
+  "aec-atpcq-patzah-maxjan-2026-09-14",
+  "Who will win in the upcoming tennis event Patrick Zahraj vs Maxime Janvier scheduled for September 14, 2026 at 10:10 AM UTC?",
+  "0.5600",
+  "0.5700"
+ ],
+ [
+  "2026-09-14T11:00:00Z",
+  "aec-wta-barpal-ginfei-2026-09-14",
+  "Barbora Palicova vs. Gina Feistel",
+  "0.7000",
+  "0.7200"
+ ],
+ [
+  "2026-09-14T09:05:00Z",
+  "aec-setkameua-paryur-kovvla-2026-09-14",
+  "Who will win in the upcoming table-tennis event Parahailo Yurii vs Kovalchuk Vladyslav scheduled for September 14, 2026 at 9:05 AM UTC?",
+  "0.6000",
+  "0.6200"
+ ],
+ [
+  "2026-09-14T09:00:00Z",
+  "aec-atpcq-maxsch-patbra-2026-09-14",
+  "Who will win in the upcoming tennis event Max Schoenhaus vs Patrick Brady scheduled for September 14, 2026 at 8:00 AM UTC?",
+  "0.8100",
+  "0.8200"
+ ],
+ [
+  "2026-09-14T09:30:00Z",
+  "aec-atp-colsin-linxia-2026-09-14",
+  "Colin Sinclair vs. Linang Xiao",
+  "0.6000",
+  "0.6100"
+ ],
+ [
+  "2026-09-14T09:55:00Z",
+  "aec-setkameua-fokill-salvas-2026-09-14",
+  "Who will win in the upcoming table-tennis event Fokin Illia vs Salivonchyk Vasyl scheduled for September 14, 2026 at 9:55 AM UTC?",
+  "0.4700",
+  "0.5400"
+ ],
+ [
+  "2026-09-14T09:30:00Z",
+  "aec-wta-lolrad-noebas-2026-09-14",
+  "Lola Radivojevic vs. Noemi Basiletti",
+  "0.6100",
+  "0.6300"
+ ],
+ [
+  "2026-09-14T09:03:42Z",
+  "aec-itfwo-valgra-oansim-2026-09-14",
+  "Who will win in the upcoming tennis event Valentini Grammatikopoulou vs Oana Georgeta Simion scheduled for September 14, 2026 at 7:30 AM UTC?",
+  "0.6300",
+  "0.6500"
+ ],
+ [
+  "2026-09-14T11:03:42Z",
+  "aec-itfwo-liszaa-niknun-2026-09-14",
+  "Who will win in the upcoming tennis event Lisa Zaar vs Nikol Nuneva scheduled for September 14, 2026 at 10:30 AM UTC?",
+  "0.9500",
+  "0.9800"
+ ],
+ [
+  "2026-09-14T11:00:00Z",
+  "aec-atp-kaiuch-rionog-2026-09-14",
+  "Kaichi Uchida vs. Rio Noguchi",
+  "0.1700",
+  "0.1800"
+ ],
+ [
+  "2026-09-14T09:00:00Z",
+  "aec-valorant-flfe-wiw-2026-09-14",
+  "Who will win in the upcoming esports event FENNEL Female vs wiwiwi scheduled for September 14, 2026 at 9:00 AM UTC?",
+  "0.8300",
+  "0.8400"
+ ],
+ [
+  "2026-09-14T09:10:00Z",
+  "aec-atpcq-jamtro-thofan-2026-09-14",
+  "Who will win in the upcoming tennis event James Kent Trotter vs Thomas Fancutt scheduled for September 14, 2026 at 9:10 AM UTC?",
+  "0.8400",
+  "0.9200"
+ ],
+ [
+  "2026-09-14T08:55:00Z",
+  "aec-setkameua-olihry-vivmyk-2026-09-14",
+  "Who will win in the upcoming table-tennis event Oliynyk Hryhoriy vs Vivatenko Mykhailo scheduled for September 14, 2026 at 8:55 AM UTC?",
+  "0.3400",
+  "0.3600"
+ ],
+ [
+  "2026-09-14T09:00:00Z",
+  "aec-atpcq-micvrb-kaiweh-2026-09-14",
+  "Who will win in the upcoming tennis event Michael Vrbensky vs Kai Wehnelt scheduled for September 14, 2026 at 8:30 AM UTC?",
+  "0.3500",
+  "0.3600"
+ ],
+ [
+  "2026-09-14T09:05:43Z",
+  "aec-itfme-drapet-maxkho-2026-09-13",
+  "Who will win in the upcoming tennis event Drazen Petrovic vs Maxim Khorozov scheduled for September 13, 2026 at 1:30 PM UTC?",
+  "0.8300",
+  "0.8400"
+ ]
+]

@@ -1,0 +1,20 @@
+You are reviewing code read-only. Do not edit, create or delete any file except C:\Users\lilli\AI-Shared\projects\fly-brain\panel\grok-review-v4\review.md. Do not run training,
+start/stop processes, or use the GPU. Short Python checks that only read files are fine.
+
+Repo: C:\Users\lilli\Projects\sapling (Sapling, a small from-scratch AI). Tonight an unattended chain runs: Stage A reading finishes
+~11:50 PM, then tools/teach_v4.py runs Stage B conversation lessons (sapling/talk.py), measures, SWAPS the new 60.5M core in
+as live (results/core_checkpoint.pt), restarts the heartbeat, and re-measures after 5 heartbeat consolidations
+(sapling/consolidate.py). Earlier today two bugs were found: consolidation erased reading (fixed with reading_replay), and the
+replay left out the "web" source (fixed: READ_REPLAY_SPLIT).
+
+Find bugs that would hurt tonight's chain, most severe first. Look especially at:
+1. tools/teach_v4.py: order of steps, error handling, what happens if Stage A ends while the 3:50 AM news render (UnrealEditor)
+   holds the GPU, whether the swap keeps the old core, whether the heartbeat restart happens if a step fails.
+2. sapling/talk.py: chat format matches sapling/session.py exactly; loss only on Sapling's own answers; no AI-written self-lessons
+   are trained without data/talk/owner_self_lessons.json; replay mixing.
+3. sapling/consolidate.py with the 60.5M core: micro-batching, memory on an 8 GB card, replay shares (reading + talk) adding up,
+   anything that could quietly wipe abilities again.
+4. Anything that could leave a GPU job or the heartbeat in a bad state overnight.
+For each finding: file:line, what goes wrong, a concrete scenario, and a suggested fix. Say "no finding" honestly if clean.
+End with three lines: First step / Blind spot / Rewrite (the question in your own words).
+Write everything to C:\Users\lilli\AI-Shared\projects\fly-brain\panel\grok-review-v4\review.md and stop.

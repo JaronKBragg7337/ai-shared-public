@@ -1,0 +1,2 @@
+
+[qwen3.5:4b | 0 tool turns | 21.7s | read-write]

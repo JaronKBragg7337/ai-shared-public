@@ -1,0 +1,17 @@
+TEST BUILD for Heartbeat TV (Jaron 10/18: testing how Codex does on usage and production vs Claude's builders).
+Build the FIRST episode of a NEW channel, CH 22 "Lost Places" (ruins and cities: what we know and what we don't), episode 22.1:
+"Did we build civilization backward?" - Gobekli Tepe in Turkey, monumental stone enclosures ~11,600-9,500 years old, built
+by people usually described as hunter-gatherers, before or at the very start of farming. What's established (dating, carved
+pillars and animals, Klaus Schmidt's "temple first" idea, Lee Clare's newer work showing houses, water cisterns and daily life
+there), what's argued over (temple vs settlement, whether it was buried on purpose, Karahan Tepe and the wider Tas Tepeler
+sites), and what is NOT established (no evidence for lost advanced civilizations - say so plainly, fairly).
+
+Read first and follow exactly: C:\Users\lilli\AI-Shared\projects\heartbeat-tv\BUILDER-BRIEF-WAVE1.md (pipeline, voice check,
+GPU quiet hours, outputs), and copy the newest working episode as your template: C:\Users\lilli\AI-Shared\projects\earth\ep1-oxygen\
+(script.json with "say" fields for numbers, ep.py, build.sh, SOURCES.md) and C:\Users\lilli\AI-Shared\projects\tv-lib\.
+Work ONLY in this folder (C:\Users\lilli\AI-Shared\projects\lost-places\ep1-gobekli). Give Lost Places its own warm, readable look.
+Verify facts from primary/academic sources (DAI/German Archaeological Institute, peer-reviewed papers) and list them in SOURCES.md.
+Render with Pillow/CPU only. Run python C:\Users\lilli\AI-Shared\projects\tv-lib\verify_voice.py until it PASSES.
+Outputs here: the 16:9 mp4, the 9:16 vertical mp4, a poster jpg.
+STOP THERE. Do NOT publish: do not touch the website repo, Supabase, social-queue.json, or git. Do not kill any process you did
+not start (never kill by name). Then write REPORT.md: length, what you verified, anything weak or unsure, total time.

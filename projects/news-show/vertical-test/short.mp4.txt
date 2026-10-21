@@ -1,0 +1,4 @@
+file 'C:/Users/lilli/AI-Shared/projects/news-show/vertical-test/_parts/logo_v.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/news-show/vertical-test/_parts/body_v.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/news-show/vertical-test/_parts/full_v.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/news-show/vertical-test/_parts/end_v.mp4'

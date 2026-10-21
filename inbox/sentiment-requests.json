@@ -1,0 +1,434 @@
+{
+ "aec-mlb-bos-nyy-2026-09-29": {
+  "question": "Who will win in the upcoming baseball event Boston Red Sox vs New York Yankees scheduled for September 29, 2026 at 8:00 AM UTC?",
+  "outcome": "Boston Red Sox",
+  "category": "sports",
+  "ends": "2026-10-13T12:00:00Z",
+  "requested_at": 1790690239.827004,
+  "write_to": "state/sentiment/aec-mlb-bos-nyy-2026-09-29.json"
+ },
+ "aec-mlb-cws-hou-2026-09-29": {
+  "question": "Who will win in the upcoming baseball event Chicago White Sox vs Houston Astros scheduled for September 29, 2026 at 9:00 PM UTC?",
+  "outcome": "Chicago White Sox",
+  "category": "sports",
+  "ends": "2026-10-14T01:00:00Z",
+  "requested_at": 1790668631.8415873,
+  "write_to": "state/sentiment/aec-mlb-cws-hou-2026-09-29.json"
+ },
+ "aec-valorant-g2-pr-2026-09-29": {
+  "question": "Who will win in the upcoming esports event G2 Esports vs Paper Rex scheduled for September 29, 2026 at 9:00 AM UTC?",
+  "outcome": "G2 Esports",
+  "category": "sports",
+  "ends": "2026-10-13T13:00:00Z",
+  "requested_at": 1790668631.8415873,
+  "write_to": "state/sentiment/aec-valorant-g2-pr-2026-09-29.json"
+ },
+ "aec-ufc-natsil-wancon-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Natalia Silva vs Wang Cong scheduled for October 4, 2026 at 2:15 AM UTC?",
+  "outcome": "Natalia Silva",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790675832.4156127,
+  "write_to": "state/sentiment/aec-ufc-natsil-wancon-2026-10-03.json"
+ },
+ "aec-wnba-lv-ind-2026-09-29": {
+  "question": "Who will win in the upcoming basketball event Las Vegas vs Indiana scheduled for September 29, 2026 at 10:30 PM UTC?",
+  "outcome": "Aces",
+  "category": "sports",
+  "ends": "2026-10-14T02:30:00Z",
+  "requested_at": 1790675832.4156127,
+  "write_to": "state/sentiment/aec-wnba-lv-ind-2026-09-29.json"
+ },
+ "aec-eurolg-efs-rma-2026-09-29": {
+  "question": "Who will win in the upcoming basketball event Anadolu Efes SK vs Real Madrid scheduled for September 29, 2026 at 5:00 PM UTC?",
+  "outcome": "Anadolu Efes SK",
+  "category": "sports",
+  "ends": "2026-10-13T21:00:00Z",
+  "requested_at": 1790675832.4156127,
+  "write_to": "state/sentiment/aec-eurolg-efs-rma-2026-09-29.json"
+ },
+ "tsc-mlb-phi-atl-2026-09-29-6pt5": {
+  "question": "Will the total in Philadelphia Phillies vs Atlanta Braves be more than 6.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-10-13T22:00:00Z",
+  "requested_at": 1790690239.827004,
+  "write_to": "state/sentiment/tsc-mlb-phi-atl-2026-09-29-6pt5.json"
+ },
+ "asc-mlb-phi-atl-2026-09-29-pos-1pt5": {
+  "question": "Will the Philadelphia Phillies cover 1.5 vs the Atlanta Braves in Philadelphia Phillies vs Atlanta Braves?",
+  "outcome": "+1.50",
+  "category": "sports",
+  "ends": "2026-10-13T22:00:00Z",
+  "requested_at": 1790690239.827004,
+  "write_to": "state/sentiment/asc-mlb-phi-atl-2026-09-29-pos-1pt5.json"
+ },
+ "aec-nhl-fla-car-2026-09-29": {
+  "question": "Who will win in the upcoming hockey event FLA Panthers vs CAR Hurricanes scheduled for September 29, 2026 at 9:00 PM UTC?",
+  "outcome": "Panthers",
+  "category": "sports",
+  "ends": "2026-10-14T01:00:00Z",
+  "requested_at": 1790697431.6962993,
+  "write_to": "state/sentiment/aec-nhl-fla-car-2026-09-29.json"
+ },
+ "aec-nfl-nyj-chi-2026-10-04": {
+  "question": "Who will win in the upcoming football event New York Jets vs Chicago Bears scheduled for October 4, 2026 at 5:00 PM UTC?",
+  "outcome": "Jets",
+  "category": "sports",
+  "ends": "2026-10-18T21:00:00Z",
+  "requested_at": 1790697431.6962993,
+  "write_to": "state/sentiment/aec-nfl-nyj-chi-2026-10-04.json"
+ },
+ "atc-intf-mex-per-2026-09-29-mex": {
+  "question": "Will Mexico win against Peru in the International Friendlies match scheduled for Sep 29, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-10-14T05:00:00Z",
+  "requested_at": 1790711836.6633372,
+  "write_to": "state/sentiment/atc-intf-mex-per-2026-09-29-mex.json"
+ },
+ "aec-mlb-phi-atl-2026-09-30": {
+  "question": "Who will win in the upcoming baseball event Philadelphia Phillies vs Atlanta Braves scheduled for September 30, 2026 at 6:00 PM UTC?",
+  "outcome": "Philadelphia Phillies",
+  "category": "sports",
+  "ends": "2026-10-14T22:00:00Z",
+  "requested_at": 1790733432.716834,
+  "write_to": "state/sentiment/aec-mlb-phi-atl-2026-09-30.json"
+ },
+ "tsc-mlb-cws-hou-2026-09-29-8pt5": {
+  "question": "Will the total in Chicago White Sox vs Houston Astros be more than 8.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-10-14T01:00:00Z",
+  "requested_at": 1790711836.6633372,
+  "write_to": "state/sentiment/tsc-mlb-cws-hou-2026-09-29-8pt5.json"
+ },
+ "asc-nfl-ind-was-2026-10-04-neg-3pt5": {
+  "question": "Will the Indianapolis Colts cover -3.5 vs the Washington Commanders in IND Colts vs. WAS Commanders?",
+  "outcome": "-3.50",
+  "category": "sports",
+  "ends": "2026-10-18T17:30:00Z",
+  "requested_at": 1790733432.731456,
+  "write_to": "state/sentiment/asc-nfl-ind-was-2026-10-04-neg-3pt5.json"
+ },
+ "aec-wnba-min-ny-2026-09-29": {
+  "question": "Who will win in the upcoming basketball event Minnesota vs New York scheduled for September 30, 2026 at 12:30 AM UTC?",
+  "outcome": "Lynx",
+  "category": "sports",
+  "ends": "2026-10-14T04:30:00Z",
+  "requested_at": 1790719033.0789363,
+  "write_to": "state/sentiment/aec-wnba-min-ny-2026-09-29.json"
+ },
+ "aec-nfl-jax-cin-2026-10-04": {
+  "question": "Who will win in the upcoming football event Jacksonville Jaguars vs Cincinnati Bengals scheduled for October 4, 2026 at 5:00 PM UTC?",
+  "outcome": "Jaguars",
+  "category": "sports",
+  "ends": "2026-10-18T21:00:00Z",
+  "requested_at": 1790726235.764133,
+  "write_to": "state/sentiment/aec-nfl-jax-cin-2026-10-04.json"
+ },
+ "aec-kbo-sla-hea-2026-10-01": {
+  "question": "Who will win in the upcoming baseball event Samsung Lions vs Hanwha Eagles scheduled for October 1, 2026 at 9:30 AM UTC?",
+  "outcome": "Samsung Lions",
+  "category": "sports",
+  "ends": "2026-10-15T13:30:00Z",
+  "requested_at": 1790726235.764133,
+  "write_to": "state/sentiment/aec-kbo-sla-hea-2026-10-01.json"
+ },
+ "aec-mlb-bos-nyy-2026-09-30": {
+  "question": "Who will win in the upcoming baseball event Boston Red Sox vs New York Yankees scheduled for September 30, 2026 at 8:00 AM UTC?",
+  "outcome": "Boston Red Sox",
+  "category": "sports",
+  "ends": "2026-10-14T12:00:00Z",
+  "requested_at": 1790733432.731456,
+  "write_to": "state/sentiment/aec-mlb-bos-nyy-2026-09-30.json"
+ },
+ "asc-nfl-pit-cle-2026-10-01-neg-2pt5": {
+  "question": "Will the Pittsburgh Steelers cover -2.5 vs the Cleveland Browns in PIT Steelers vs. CLE Browns?",
+  "outcome": "-2.50",
+  "category": "sports",
+  "ends": "2026-10-16T04:15:00Z",
+  "requested_at": 1790834234.9837186,
+  "write_to": "state/sentiment/asc-nfl-pit-cle-2026-10-01-neg-2pt5.json"
+ },
+ "aec-ufc-kingre-estrib-2026-10-03": {
+  "question": "Who will win in the upcoming mma event King Green vs Esteban Ribovics scheduled for October 4, 2026 at 1:00 AM UTC?",
+  "outcome": "King Green",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790733432.731456,
+  "write_to": "state/sentiment/aec-ufc-kingre-estrib-2026-10-03.json"
+ },
+ "aec-atp-lucsil-genoli-2026-09-28": {
+  "question": "Who will win in the upcoming atp event Lucas Andrade Da Silva vs Genaro Alberto Olivieri scheduled for September 28, 2026 at 1:00 PM UTC?",
+  "outcome": "Lucas Da Silva",
+  "category": "sports",
+  "ends": "2026-10-12T17:00:00Z",
+  "requested_at": 1790733432.731456,
+  "write_to": "state/sentiment/aec-atp-lucsil-genoli-2026-09-28.json"
+ },
+ "aec-mlb-chc-sd-2026-09-30": {
+  "question": "Who will win in the upcoming baseball event Chicago Cubs vs San Diego Padres scheduled for October 1, 2026 at 2:00 AM UTC?",
+  "outcome": "Chicago Cubs",
+  "category": "sports",
+  "ends": "2026-10-15T06:00:00Z",
+  "requested_at": 1790740633.7130823,
+  "write_to": "state/sentiment/aec-mlb-chc-sd-2026-09-30.json"
+ },
+ "aec-atp-ottvir-tiaper-2026-09-28": {
+  "question": "Who will win in the upcoming atp event Otto Virtanen vs Tiago Pereira scheduled for September 28, 2026 at 10:00 AM UTC?",
+  "outcome": "Otto Virtanen",
+  "category": "sports",
+  "ends": "2026-10-12T14:00:00Z",
+  "requested_at": 1790747834.564371,
+  "write_to": "state/sentiment/aec-atp-ottvir-tiaper-2026-09-28.json"
+ },
+ "aec-ufc-deifig-paytal-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Deiveson Figueiredo vs Payton Talbott scheduled for October 4, 2026 at 1:30 AM UTC?",
+  "outcome": "Deiveson Figueiredo",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790740633.7130823,
+  "write_to": "state/sentiment/aec-ufc-deifig-paytal-2026-10-03.json"
+ },
+ "aec-ufc-ategau-romkop-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Ateba Gautier vs Roman Kopylov scheduled for October 4, 2026 at 12:00 AM UTC?",
+  "outcome": "Ateba Gautier",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790747834.5633674,
+  "write_to": "state/sentiment/aec-ufc-ategau-romkop-2026-10-03.json"
+ },
+ "aec-mlb-cws-hou-2026-09-30": {
+  "question": "Who will win in the upcoming baseball event Chicago White Sox vs Houston Astros scheduled for September 30, 2026 at 9:00 PM UTC?",
+  "outcome": "Chicago White Sox",
+  "category": "sports",
+  "ends": "2026-10-15T01:00:00Z",
+  "requested_at": 1790755035.023996,
+  "write_to": "state/sentiment/aec-mlb-cws-hou-2026-09-30.json"
+ },
+ "aec-ufc-marmcg-bensop-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Marcus McGhee vs Benardo Sopaj scheduled for October 3, 2026 at 10:30 PM UTC?",
+  "outcome": "Marcus McGhee",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790755035.023996,
+  "write_to": "state/sentiment/aec-ufc-marmcg-bensop-2026-10-03.json"
+ },
+ "aec-cfb-byu-tcu-2026-10-03": {
+  "question": "Who will win in the upcoming football event BYU vs TCU scheduled for October 3, 2026 at 11:00 PM UTC?",
+  "outcome": "Cougars",
+  "category": "sports",
+  "ends": "2026-10-18T03:00:00Z",
+  "requested_at": 1790755035.023996,
+  "write_to": "state/sentiment/aec-cfb-byu-tcu-2026-10-03.json"
+ },
+ "aec-nfl-lac-sea-2026-10-04": {
+  "question": "Who will win in the upcoming football event Los Angeles Chargers vs Seattle Seahawks scheduled for October 4, 2026 at 8:25 PM UTC?",
+  "outcome": "Chargers",
+  "category": "sports",
+  "ends": "2026-10-19T00:25:00Z",
+  "requested_at": 1790755035.0374258,
+  "write_to": "state/sentiment/aec-nfl-lac-sea-2026-10-04.json"
+ },
+ "aec-ufc-johwal-micpar-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Johnny Walker vs Mick Parkin scheduled for October 3, 2026 at 10:00 PM UTC?",
+  "outcome": "Johnny Walker",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790762234.8047082,
+  "write_to": "state/sentiment/aec-ufc-johwal-micpar-2026-10-03.json"
+ },
+ "aec-cfb-mia-clmsn-2026-10-03": {
+  "question": "Who will win in the upcoming football event Miami (FL) vs Clemson scheduled for October 3, 2026 at 11:30 PM UTC?",
+  "outcome": "Hurricanes",
+  "category": "sports",
+  "ends": "2026-10-18T03:30:00Z",
+  "requested_at": 1790762234.8047082,
+  "write_to": "state/sentiment/aec-cfb-mia-clmsn-2026-10-03.json"
+ },
+ "tsc-nfl-pit-cle-2026-10-01-total-38pt5": {
+  "question": "Will the total in PIT Steelers vs. CLE Browns be more than 38.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-10-16T04:15:00Z",
+  "requested_at": 1790791037.0565073,
+  "write_to": "state/sentiment/tsc-nfl-pit-cle-2026-10-01-total-38pt5.json"
+ },
+ "asc-nfl-nyj-chi-2026-10-04-pos-3pt5": {
+  "question": "Will the New York Jets cover 3.5 vs the Chicago Bears in NY Jets vs. CHI Bears?",
+  "outcome": "+3.50",
+  "category": "sports",
+  "ends": "2026-10-18T21:00:00Z",
+  "requested_at": 1790834234.9997673,
+  "write_to": "state/sentiment/asc-nfl-nyj-chi-2026-10-04-pos-3pt5.json"
+ },
+ "aec-atp-jirleh-zizber-2026-09-28": {
+  "question": "Who will win in the upcoming atp event Jiri Lehecka vs Zizou Bergs scheduled for September 29, 2026 at 2:00 AM UTC?",
+  "outcome": "Jiri Lehecka",
+  "category": "sports",
+  "ends": "2026-10-13T06:00:00Z",
+  "requested_at": 1790769431.8934739,
+  "write_to": "state/sentiment/aec-atp-jirleh-zizber-2026-09-28.json"
+ },
+ "aec-nfl-kc-lv-2026-10-04": {
+  "question": "Who will win in the upcoming football event Kansas City Chiefs vs Las Vegas Raiders scheduled for October 4, 2026 at 8:25 PM UTC?",
+  "outcome": "Chiefs",
+  "category": "sports",
+  "ends": "2026-10-19T00:25:00Z",
+  "requested_at": 1790776638.0242398,
+  "write_to": "state/sentiment/aec-nfl-kc-lv-2026-10-04.json"
+ },
+ "tsc-mlb-bos-nyy-2026-09-30-6pt5": {
+  "question": "Will the total in Game 2: BOS Red Sox vs. NY Yankees be more than 6.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-10-15T04:00:00Z",
+  "requested_at": 1790776638.0252469,
+  "write_to": "state/sentiment/tsc-mlb-bos-nyy-2026-09-30-6pt5.json"
+ },
+ "tsc-mlb-phi-atl-2026-09-30-7pt5": {
+  "question": "Will the total in Game 2: PHI Phillies vs. ATL Braves be more than 7.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-10-14T22:00:00Z",
+  "requested_at": 1790783837.2167592,
+  "write_to": "state/sentiment/tsc-mlb-phi-atl-2026-09-30-7pt5.json"
+ },
+ "asc-nfl-ind-was-2026-10-04-neg-2pt5": {
+  "question": "Will the Indianapolis Colts cover -2.5 vs the Washington Commanders in IND Colts vs. WAS Commanders?",
+  "outcome": "-2.50",
+  "category": "sports",
+  "ends": "2026-10-18T17:30:00Z",
+  "requested_at": 1790791037.0565073,
+  "write_to": "state/sentiment/asc-nfl-ind-was-2026-10-04-neg-2pt5.json"
+ },
+ "aec-wnba-atl-wsh-2026-09-30": {
+  "question": "Who will win in the upcoming basketball event Atlanta vs Washington scheduled for September 30, 2026 at 11:00 PM UTC?",
+  "outcome": "Dream",
+  "category": "sports",
+  "ends": "2026-10-15T03:00:00Z",
+  "requested_at": 1790791037.0565073,
+  "write_to": "state/sentiment/aec-wnba-atl-wsh-2026-09-30.json"
+ },
+ "atc-unl-wal-nor-2026-10-01-nor": {
+  "question": "Will Norway win against Wales in the UEFA Nations League match scheduled for Oct 1, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-10-15T22:45:00Z",
+  "requested_at": 1790798239.6465971,
+  "write_to": "state/sentiment/atc-unl-wal-nor-2026-10-01-nor.json"
+ },
+ "aec-wnba-gsv-dal-2026-09-30": {
+  "question": "Who will win in the upcoming basketball event Golden State vs Dallas scheduled for October 1, 2026 at 1:00 AM UTC?",
+  "outcome": "Valkyries",
+  "category": "sports",
+  "ends": "2026-10-15T05:00:00Z",
+  "requested_at": 1790805434.4866767,
+  "write_to": "state/sentiment/aec-wnba-gsv-dal-2026-09-30.json"
+ },
+ "aec-cfb-fl-missr-2026-10-03": {
+  "question": "Who will win in the upcoming football event Florida vs Missouri scheduled for October 3, 2026 at 7:30 PM UTC?",
+  "outcome": "Gators",
+  "category": "sports",
+  "ends": "2026-10-17T23:30:00Z",
+  "requested_at": 1790812634.2943592,
+  "write_to": "state/sentiment/aec-cfb-fl-missr-2026-10-03.json"
+ },
+ "atc-unl-den-por-2026-10-01-por": {
+  "question": "Will Portugal win against Denmark in the UEFA Nations League match scheduled for Oct 1, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-10-15T22:45:00Z",
+  "requested_at": 1790812634.2943592,
+  "write_to": "state/sentiment/atc-unl-den-por-2026-10-01-por.json"
+ },
+ "aec-atp-alezve-camnor-2026-09-28": {
+  "question": "Who will win in the upcoming atp event Alexander Zverev vs Cameron Norrie scheduled for September 29, 2026 at 2:00 AM UTC?",
+  "outcome": "Alexander Zverev",
+  "category": "sports",
+  "ends": "2026-10-13T06:00:00Z",
+  "requested_at": 1790812634.2943592,
+  "write_to": "state/sentiment/aec-atp-alezve-camnor-2026-09-28.json"
+ },
+ "aec-cfb-pennst-nw-2026-10-02": {
+  "question": "Who will win in the upcoming football event Penn State vs Northwestern scheduled for October 3, 2026 at 12:00 AM UTC?",
+  "outcome": "Nittany Lions",
+  "category": "sports",
+  "ends": "2026-10-17T04:00:00Z",
+  "requested_at": 1790812634.295348,
+  "write_to": "state/sentiment/aec-cfb-pennst-nw-2026-10-02.json"
+ },
+ "aec-nfl-gb-tb-2026-10-04": {
+  "question": "Who will win in the upcoming football event Green Bay Packers vs Tampa Bay Buccaneers scheduled for October 4, 2026 at 5:00 PM UTC?",
+  "outcome": "Packers",
+  "category": "sports",
+  "ends": "2026-10-18T21:00:00Z",
+  "requested_at": 1790819835.1242683,
+  "write_to": "state/sentiment/aec-nfl-gb-tb-2026-10-04.json"
+ },
+ "aec-nfl-atl-no-2026-10-05": {
+  "question": "Who will win in the upcoming football event Atlanta Falcons vs New Orleans Saints scheduled for October 6, 2026 at 12:15 AM UTC?",
+  "outcome": "Falcons",
+  "category": "sports",
+  "ends": "2026-10-20T04:15:00Z",
+  "requested_at": 1790819835.1458075,
+  "write_to": "state/sentiment/aec-nfl-atl-no-2026-10-05.json"
+ },
+ "aec-nfl-pit-cle-2026-10-01": {
+  "question": "Who will win in the upcoming football event Pittsburgh Steelers vs Cleveland Browns scheduled for October 2, 2026 at 12:15 AM UTC?",
+  "outcome": "Steelers",
+  "category": "sports",
+  "ends": "2026-10-16T04:15:00Z",
+  "requested_at": 1790827036.2184615,
+  "write_to": "state/sentiment/aec-nfl-pit-cle-2026-10-01.json"
+ },
+ "aec-nfl-lar-phi-2026-10-04": {
+  "question": "Who will win in the upcoming football event Los Angeles Rams vs Philadelphia Eagles scheduled for October 4, 2026 at 5:00 PM UTC?",
+  "outcome": "Rams",
+  "category": "sports",
+  "ends": "2026-10-18T21:00:00Z",
+  "requested_at": 1790827036.2269654,
+  "write_to": "state/sentiment/aec-nfl-lar-phi-2026-10-04.json"
+ },
+ "aec-ufc-antwin-lucarm-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Anthony Wint vs Lucas Armand scheduled for October 3, 2026 at 8:00 PM UTC?",
+  "outcome": "Anthony Wint",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790827036.2404768,
+  "write_to": "state/sentiment/aec-ufc-antwin-lucarm-2026-10-03.json"
+ },
+ "aec-mlb-phi-atl-2026-10-01": {
+  "question": "Who will win in the upcoming baseball event Philadelphia Phillies vs Atlanta Braves scheduled for October 1, 2026 at 6:00 PM UTC?",
+  "outcome": "Philadelphia Phillies",
+  "category": "sports",
+  "ends": "2026-10-16T04:00:00Z",
+  "requested_at": 1790834234.9997673,
+  "write_to": "state/sentiment/aec-mlb-phi-atl-2026-10-01.json"
+ },
+ "aec-cfb-ohiost-iowa-2026-10-03": {
+  "question": "Who will win in the upcoming football event Ohio State vs Iowa scheduled for October 3, 2026 at 7:30 PM UTC?",
+  "outcome": "Buckeyes",
+  "category": "sports",
+  "ends": "2026-10-17T23:30:00Z",
+  "requested_at": 1790834234.9997673,
+  "write_to": "state/sentiment/aec-cfb-ohiost-iowa-2026-10-03.json"
+ },
+ "aec-cfb-pitt-vtech-2026-10-02": {
+  "question": "Who will win in the upcoming football event Pittsburgh vs Virginia Tech scheduled for October 2, 2026 at 11:00 PM UTC?",
+  "outcome": "Panthers",
+  "category": "sports",
+  "ends": "2026-10-17T03:00:00Z",
+  "requested_at": 1790834234.9997673,
+  "write_to": "state/sentiment/aec-cfb-pitt-vtech-2026-10-02.json"
+ },
+ "aec-ufc-jacsmi-bruwhi-2026-10-03": {
+  "question": "Who will win in the upcoming mma event Jacobe Smith vs Bruce Whitehead scheduled for October 3, 2026 at 9:30 PM UTC?",
+  "outcome": "Jacobe Smith",
+  "category": "sports",
+  "ends": "2026-10-18T00:00:00Z",
+  "requested_at": 1790834234.9997673,
+  "write_to": "state/sentiment/aec-ufc-jacsmi-bruwhi-2026-10-03.json"
+ }
+}

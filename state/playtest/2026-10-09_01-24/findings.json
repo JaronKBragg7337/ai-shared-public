@@ -1,0 +1,736 @@
+[
+ {
+  "title": "Page error (uncaught exception)",
+  "sev": 95,
+  "kind": "page-error",
+  "count": 1,
+  "phase": "monkey",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:52",
+  "detail": "NotAllowedError: Failed to execute 'requestPointerLock' on 'Element': Too many pointer lock requests in a short window of time. |     at HTMLCanvasElement.<anonymous> (https://www.heartbeatobservatory.com/games/the-cosmos/src/ui/touch.js?v=3744d951f2a39a32653e:205:91)",
+  "shot": "shots-desktop/038-monkey-PROBLEM-page-error.jpg",
+  "steps": [
+   "02:45 [monkey] tap on empty 3D view at 532,453",
+   "02:45 [monkey] monkey tap Close",
+   "02:46 [monkey] monkey tap btn-settings",
+   "02:47 [monkey] monkey tap btn-settings",
+   "02:48 [monkey] tap on empty 3D view at 710,625",
+   "02:48 [monkey] monkey tap btn-key-controls",
+   "02:49 [monkey] tap on empty 3D view at 1214,328",
+   "02:49 [monkey] tap on empty 3D view at 184,350",
+   "02:51 [monkey] tap on empty 3D view at 305,305",
+   "02:51 [monkey] tap on empty 3D view at 777,437",
+   "02:52 [monkey] monkey tap touch-key-KeyW",
+   "02:52 [monkey] tap on empty 3D view at 878,590"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Shift runner",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:36",
+  "detail": "no progress for 56s at port -61,-41 (target -64,-41, 3 m away)",
+  "shot": "shots-iphone/103-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:50 [tour] not getting closer (3 m away), trying to get unstuck #3",
+   "12:50 [tour] run-up jump #3",
+   "12:52 [tour] jump",
+   "13:00 [tour] not getting closer (3 m away), trying to get unstuck #4",
+   "13:00 [tour] run-up jump #4",
+   "13:03 [tour] jump",
+   "13:11 [tour] not getting closer (3 m away), trying to get unstuck #5",
+   "13:11 [tour] sidestep around whatever is in the way",
+   "13:15 [tour] route of 3 legs",
+   "13:22 [tour] not getting closer (3 m away), trying to get unstuck #6",
+   "13:29 [tour] not getting closer (3 m away), trying to get unstuck #7",
+   "13:36 [tour] not getting closer (3 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Lookout at the glass",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:52",
+  "detail": "no progress for 56s at port -59,-41 (target -56,-41, 4 m away)",
+  "shot": "shots-iphone/106-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "14:05 [tour] not getting closer (4 m away), trying to get unstuck #3",
+   "14:05 [tour] run-up jump #3",
+   "14:07 [tour] jump",
+   "14:16 [tour] not getting closer (4 m away), trying to get unstuck #4",
+   "14:16 [tour] run-up jump #4",
+   "14:18 [tour] jump",
+   "14:27 [tour] not getting closer (4 m away), trying to get unstuck #5",
+   "14:27 [tour] sidestep around whatever is in the way",
+   "14:31 [tour] route of 3 legs",
+   "14:38 [tour] not getting closer (4 m away), trying to get unstuck #6",
+   "14:45 [tour] not getting closer (4 m away), trying to get unstuck #7",
+   "14:52 [tour] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "After the graphics context was lost and restored, the game never drew again",
+  "sev": 80,
+  "kind": "context-not-restored",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:36",
+  "detail": "",
+  "shot": "shots-desktop/026-lifecycle-PROBLEM-context-not-restored.jpg",
+  "steps": [
+   "01:10 [spam] jump",
+   "01:10 [spam] jump",
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:14 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:14 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:15 [lifecycle] === phase lifecycle starts",
+   "01:15 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:26 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:36 [lifecycle] QA FAIL: lifecycle: graphics context lost and restored, game draws again - events: [\"lost\"]"
+  ]
+ },
+ {
+  "title": "A button is covered by something else: #multiplayer-button \"World / crew\" is covered by #touch-key-KeyD",
+  "sev": 68,
+  "kind": "covered",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:33",
+  "detail": "#multiplayer-button \"World / crew\" is covered by #touch-key-KeyD (Controls open, desktop)",
+  "shot": "shots-desktop/011-panels-PROBLEM-covered.jpg",
+  "steps": [
+   "00:15 [panels] tap #btn-settings (open Settings)",
+   "00:20 [panels] tap #set-view (settings switch #set-view)",
+   "00:21 [panels] tap #set-tool (settings switch #set-tool)",
+   "00:23 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "00:23 [panels] tap #set-voice-mute (toggle back)",
+   "00:23 [panels] tap #btn-close-settings (close Settings)",
+   "00:25 [panels] tap #purse (open Account / purse)",
+   "00:27 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:28 [panels] tap #multiplayer-button (open World / crew)",
+   "00:30 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:31 [panels] mis-tap beside #btn-key-controls",
+   "00:32 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 4,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:29",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/034-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:04 [opening] walk to the cabin exit",
+   "06:06 [opening] tap #opening-action (opening action)",
+   "06:07 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:07 [opening] walk to the crate",
+   "06:09 [opening] tap #opening-action (opening action)",
+   "06:09 [opening] tap #opening-action (opening action)",
+   "06:10 [opening] tap #opening-action (opening action)",
+   "06:12 [opening] tap #opening-action (opening action)",
+   "06:13 [opening] REFRESH (mid-dig)",
+   "06:13 [opening] websocket closed (the bot refreshed the page)",
+   "06:14 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:27 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap: #touch-key-KeyD \"Right\" overlaps #multiplayer-button \"World / crew\" by 83%",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:33",
+  "detail": "#touch-key-KeyD \"Right\" overlaps #multiplayer-button \"World / crew\" by 83% (Controls open, desktop)",
+  "shot": "shots-desktop/010-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "00:15 [panels] tap #btn-settings (open Settings)",
+   "00:20 [panels] tap #set-view (settings switch #set-view)",
+   "00:21 [panels] tap #set-tool (settings switch #set-tool)",
+   "00:23 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "00:23 [panels] tap #set-voice-mute (toggle back)",
+   "00:23 [panels] tap #btn-close-settings (close Settings)",
+   "00:25 [panels] tap #purse (open Account / purse)",
+   "00:27 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:28 [panels] tap #multiplayer-button (open World / crew)",
+   "00:30 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:31 [panels] mis-tap beside #btn-key-controls",
+   "00:32 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 8,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "a single frame took 3970 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:14 [opening] === phase opening starts",
+   "00:14 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"lifecycle\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:44",
+  "detail": "a single frame took 4171 ms (typical 4 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/027-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:11 [spam] jump",
+   "01:14 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:14 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:15 [lifecycle] === phase lifecycle starts",
+   "01:15 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:26 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:36 [lifecycle] QA FAIL: lifecycle: graphics context lost and restored, game draws again - events: [\"lost\"]",
+   "01:36 [lifecycle] REFRESH (recovering after a lost graphics context)",
+   "01:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"network\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "network",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:26",
+  "detail": "a single frame took 4529 ms (typical 4 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/034-network-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "01:59 [network] tap #purse (tap while offline)",
+   "02:01 [network] tap button \"Close\" (close account-panel)",
+   "02:12 [network] QA pass: network: while offline the game keeps drawing and does not crash",
+   "02:12 [network] QA info: network: the game tells the player the connection is gone (within about 12 s) - connected flag true -> true; messages: ",
+   "02:12 [network] NETWORK BACK",
+   "02:14 [network] QA pass: network: after the network returns the game reconnects and answers again - 2 s",
+   "02:14 [network] QA pass: network: money and place unchanged by a network blip",
+   "02:15 [network] REFRESH (refresh after being offline)",
+   "02:17 [network] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:25 [network] QA pass: network: refresh while offline, then online again, the game comes back",
+   "02:25 [network] SLOW NETWORK on (900 ms delay, 60 KB/s)",
+   "02:25 [network] tap #btn-settings (tap on a slow network)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"panels\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:19",
+  "detail": "a single frame took 6412 ms (typical 4 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/003-panels-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:14 [start] desktop budget is 5 min and the opening alone takes about 10: started from the review start (use --desktop-opening to play it)",
+   "00:14 [panels] === phase panels starts",
+   "00:15 [panels] tap #btn-settings (open Settings)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"smoke\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "smoke",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:44",
+  "detail": "a single frame took 4300 ms (typical 4 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/013-smoke-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:27 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:28 [panels] tap #multiplayer-button (open World / crew)",
+   "00:30 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:31 [panels] mis-tap beside #btn-key-controls",
+   "00:32 [panels] tap #btn-key-controls (open Controls)",
+   "00:33 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:34 [smoke] === phase smoke starts",
+   "00:34 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: tbeatobservatory.com/games/the-cosmos/src/voice/proximity.js 127 ms)",
+   "00:34 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 13.7 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:34 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"freeplay\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "freeplay",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "05:03",
+  "detail": "a single frame took 4246 ms (typical 4 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/045-freeplay-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "04:22 [edges] jump",
+   "04:24 [edges] jump",
+   "04:26 [edges] jump",
+   "04:35 [edges] jump",
+   "04:38 [edges] jump",
+   "04:40 [edges] jump",
+   "04:48 [edges] QA pass: edges: walked and jumped into walls in 8 directions, never fell through - furthest 56 m from where it started",
+   "04:48 [edges] QA pass: edges: still drawing afterwards",
+   "04:48 [freeplay] === phase freeplay starts",
+   "04:52 [freeplay] tap on empty 3D view at 476,604",
+   "04:54 [freeplay] REFRESH (random refresh while playing)",
+   "04:56 [freeplay] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Large bright white/tan diagonal band dominates the view, looks like a broken or overexposed texture/geometry r",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:36",
+  "detail": "center of screen, running diagonally top-right to bottom-left (the vision model's description of the screen: Overworld HUD view where a bright, overexposed diagonal stripe (blown-out/clipped geometry or lighting) cuts across the entire screen, obscuring the scene behind it.)",
+  "shot": "shots-iphone/103-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "13:36 [tour] walk to Lookout at the glass"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: A huge, overly bright vertical white bar/beam fills most of the center of the screen, looking like a broken te",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:53",
+  "detail": "center of screen, full height (the vision model's description of the screen: First-person phone view from inside a dim cabin/boat interior, with a HUD showing Mars coordinates and a NEXT objective about buying a power cell, plus bottom buttons for World/crew, Controls, Talk/Watch supervisor, and a grayed-out Lift-to-lobby button.)",
+  "shot": "shots-iphone/106-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "14:52 [tour] walk to cab landing"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The Controls panel did not close after the toggle-closed tap — it remains open and visually unchanged from bef",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:33",
+  "detail": "bottom left panel (the vision model's description of the screen: Desktop exterior Mars landing pad scene, after the bot tapped Controls again to close the panel, but the Controls panel is still fully open and identical to the previous screenshot.)",
+  "shot": "shots-desktop/011-panels-PROBLEM-covered.jpg",
+  "steps": [
+   "00:33 [panels] tap #btn-key-controls (toggle closed Controls)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The interior room (yellow-panelled walls, hanging lights, furniture) appears to float directly above the dirt ",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:27",
+  "detail": "upper third of the screen, where interior meets the dust field (the vision model's description of the screen: Split view of a lit ship/hangar interior sitting above a red Martian dust field with rocks, a small crate/rover with a flag, and a 'Dig (E)' prompt.)",
+  "shot": "shots-iphone/033-opening-opening.jpg",
+  "steps": [
+   "06:14 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Three large flat, untextured color panels (blue, green, white) with no icons or content are visible, looking l",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:37",
+  "detail": "Bottom edge of the screen, below the dialogue panel, cut off by the screen bottom (the vision model's description of the screen: Dialogue panel with the 'Watch supervisor' NPC open, showing a job offer and an 'Accept · A tonne for the foundation' button which was just tapped.)",
+  "shot": "shots-iphone/082-tour-quest-accepted.jpg",
+  "steps": [
+   "11:36 [tour] tap button \"Accept · A tonne for the foundation\" (accept the job)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: \"Lift to lobby (E)\" button is grayed out/unusable while the player appears stuck, consistent with the reported",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:53",
+  "detail": "bottom right button (the vision model's description of the screen: First-person phone view from inside a dim cabin/boat interior, with a HUD showing Mars coordinates and a NEXT objective about buying a power cell, plus bottom buttons for World/crew, Controls, Talk/Watch supervisor, and a grayed-out Lift-to-lobby button.)",
+  "shot": "shots-iphone/106-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "14:52 [tour] walk to cab landing"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The World/crew button, visible in other shots at this same bottom-left spot, is missing/hidden — the Controls ",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:33",
+  "detail": "bottom left, where World/crew normally sits (the vision model's description of the screen: Desktop exterior Mars landing pad scene with the Controls keybindings panel open at bottom left, listing action buttons like Debug, View, Fire, movement keys, etc.)",
+  "shot": "shots-desktop/010-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "00:32 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: World/crew button is still hidden/covered by the stuck-open Controls panel",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:33",
+  "detail": "bottom left, where World/crew normally sits (the vision model's description of the screen: Desktop exterior Mars landing pad scene, after the bot tapped Controls again to close the panel, but the Controls panel is still fully open and identical to the previous screenshot.)",
+  "shot": "shots-desktop/011-panels-PROBLEM-covered.jpg",
+  "steps": [
+   "00:33 [panels] tap #btn-key-controls (toggle closed Controls)"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "03:36",
+  "detail": "shown in opening-caption while the bot was: 03:34 [opening] walk to down the gangway",
+  "shot": "shots-iphone/016-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:14 [opening] === phase opening starts",
+   "00:14 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:17 [opening] tap screen to unlock sound",
+   "00:20 [opening] tap screen to unlock sound",
+   "00:40 [opening] walk to the boarding hall",
+   "00:41 [opening] walk to the boarding hall",
+   "00:41 [opening] walk to the boarding hall",
+   "00:46 [opening] walk to the boarding hall",
+   "00:48 [opening] in the boarding hall, waiting for the gangway to come down",
+   "03:32 [opening] walk to down the gangway",
+   "03:33 [opening] walk to down the gangway",
+   "03:34 [opening] walk to down the gangway"
+  ]
+ },
+ {
+  "title": "Game said: \"Weather sensors are offline. Watch the dust outside.\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:19",
+  "detail": "shown in crew-panel while the bot was: 12:18 [tour] tap button \"Understood. What can I do here?\" (answer back)",
+  "shot": "shots-iphone/098-tour-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "12:15 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "12:15 [tour] tap button \"✕\" (close talk panel)",
+   "12:15 [tour] go talk to Weather officer",
+   "12:15 [tour] walk to Weather officer",
+   "12:15 [tour] tap #crew-talk (Talk to Weather officer)",
+   "12:16 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "12:16 [tour] tap button \"✕\" (close talk panel)",
+   "12:17 [tour] go talk to Weather officer",
+   "12:17 [tour] walk to Weather officer",
+   "12:17 [tour] tap #crew-talk (Talk to Weather officer)",
+   "12:17 [tour] tap button \"What is your watch like?\" (ask them something)",
+   "12:18 [tour] tap button \"Understood. What can I do here?\" (answer back)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:35",
+  "detail": "a single frame took 1010 ms (typical 26 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/053-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "08:15 [panels] tap #btn-close-settings (close Settings)",
+   "08:15 [panels] tap #purse (open Account / purse)",
+   "08:16 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:17 [panels] mis-tap beside #multiplayer-button",
+   "08:18 [panels] tap #multiplayer-button (open World / crew)",
+   "08:19 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:19 [panels] tap #btn-key-controls (open Controls)",
+   "08:20 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:21 [tour] === phase tour starts",
+   "08:21 [tour] go talk to Arrival guide",
+   "08:21 [tour] walk to Arrival guide",
+   "08:21 [tour] route of 28 legs"
+  ]
+ },
+ {
+  "title": "Low text contrast in 2 places",
+  "sev": 38,
+  "kind": "a11y-contrast",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:48",
+  "detail": "span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+  "shot": "shots-desktop/017-a11y-PROBLEM-a11y-contrast.jpg",
+  "steps": [
+   "00:33 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:34 [smoke] === phase smoke starts",
+   "00:34 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: tbeatobservatory.com/games/the-cosmos/src/voice/proximity.js 127 ms)",
+   "00:34 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 13.7 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:34 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s",
+   "00:44 [a11y] === phase a11y starts",
+   "00:44 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:46 [a11y] tap #btn-close-settings (close settings)",
+   "00:48 [a11y] QA FAIL: a11y: text is at least 11 px - 2 small: span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\""
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"a11y\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:49",
+  "detail": "a single frame took 2587 ms (typical 29 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/021-a11y-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s",
+   "00:44 [a11y] === phase a11y starts",
+   "00:44 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:46 [a11y] tap #btn-close-settings (close settings)",
+   "00:48 [a11y] QA FAIL: a11y: text is at least 11 px - 2 small: span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "00:48 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "00:48 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "00:48 [a11y] QA pass: a11y: a volume or mute control exists",
+   "00:48 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Mars · Valles Marineris 13°59'50.7\\\"S 59°11'39.9\\\"W +2213.1 m Martian regolith · 3.72 m/s² Hauling cart: 0.0 / 1054 k"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"perf\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "perf",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:40",
+  "detail": "a single frame took 829 ms (typical 25 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/036-perf-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "02:12 [network] QA info: network: the game tells the player the connection is gone (within about 12 s) - connected flag true -> true; messages: ",
+   "02:12 [network] NETWORK BACK",
+   "02:14 [network] QA pass: network: after the network returns the game reconnects and answers again - 2 s",
+   "02:14 [network] QA pass: network: money and place unchanged by a network blip",
+   "02:15 [network] REFRESH (refresh after being offline)",
+   "02:17 [network] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:25 [network] QA pass: network: refresh while offline, then online again, the game comes back",
+   "02:25 [network] SLOW NETWORK on (900 ms delay, 60 KB/s)",
+   "02:25 [network] tap #btn-settings (tap on a slow network)",
+   "02:30 [network] tap #btn-close-settings (close settings)",
+   "02:31 [network] QA pass: network: slow connection (900 ms, 60 KB/s) for a panel tap - 6 s",
+   "02:31 [perf] === phase perf starts"
+  ]
+ },
+ {
+  "title": "Text smaller than 11 px in 2 places (hard to read on a phone)",
+  "sev": 36,
+  "kind": "a11y-small-text",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:48",
+  "detail": "span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\"",
+  "shot": "shots-desktop/016-a11y-PROBLEM-a11y-small-text.jpg",
+  "steps": [
+   "00:32 [panels] tap #btn-key-controls (open Controls)",
+   "00:33 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:34 [smoke] === phase smoke starts",
+   "00:34 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: tbeatobservatory.com/games/the-cosmos/src/voice/proximity.js 127 ms)",
+   "00:34 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 13.7 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:34 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s",
+   "00:44 [a11y] === phase a11y starts",
+   "00:44 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:46 [a11y] tap #btn-close-settings (close settings)",
+   "00:48 [a11y] QA FAIL: a11y: text is at least 11 px - 2 small: span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\""
+  ]
+ },
+ {
+  "title": "1 buttons have no text or label (a screen reader says nothing)",
+  "sev": 34,
+  "kind": "a11y-noname",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:48",
+  "detail": "input.",
+  "shot": "shots-desktop/018-a11y-PROBLEM-a11y-noname.jpg",
+  "steps": [
+   "00:34 [smoke] === phase smoke starts",
+   "00:34 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: tbeatobservatory.com/games/the-cosmos/src/voice/proximity.js 127 ms)",
+   "00:34 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 13.7 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:34 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s",
+   "00:44 [a11y] === phase a11y starts",
+   "00:44 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:46 [a11y] tap #btn-close-settings (close settings)",
+   "00:48 [a11y] QA FAIL: a11y: text is at least 11 px - 2 small: span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: every button has a name - input."
+  ]
+ },
+ {
+  "title": "Zooming the page is switched off in the viewport tag",
+  "sev": 30,
+  "kind": "a11y-zoom-locked",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:48",
+  "detail": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+  "shot": "shots-desktop/019-a11y-PROBLEM-a11y-zoom-locked.jpg",
+  "steps": [
+   "00:34 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 13.7 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:34 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:36 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:43 [smoke] QA pass: smoke: warm reload comes back - 9.3 s",
+   "00:44 [a11y] === phase a11y starts",
+   "00:44 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:46 [a11y] tap #btn-close-settings (close settings)",
+   "00:48 [a11y] QA FAIL: a11y: text is at least 11 px - 2 small: span.hint 10px \"Third person to inspect \" ; span.hint 10px \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:48 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "00:48 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "00:48 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+  ]
+ },
+ {
+  "title": "Network cut for about 12 s and the game said nothing and still thinks it is connected",
+  "sev": 28,
+  "kind": "offline-silent",
+  "count": 1,
+  "phase": "network",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:12",
+  "detail": "connected=true. A hint only: the bot's offline switch may not cut a socket that is already open, so a real phone going into a tunnel could behave differently.",
+  "shot": "shots-desktop/033-network-PROBLEM-offline-silent.jpg",
+  "steps": [
+   "01:36 [lifecycle] REFRESH (recovering after a lost graphics context)",
+   "01:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:47 [lifecycle] QA pass: lifecycle: rotate to 900x560, the 3D view fills the screen - {\"cw\":900,\"ch\":560,\"iw\":900,\"ih\":560}",
+   "01:51 [lifecycle] tap #btn-settings (open Settings, then rotate)",
+   "01:53 [lifecycle] QA pass: lifecycle: rotate to 900x560 with Settings open, the 3D view fills the screen - {\"cw\":900,\"ch\":560,\"iw\":900,\"ih\":560}",
+   "01:54 [lifecycle] tap #btn-close-settings (close settings)",
+   "01:56 [network] === phase network starts",
+   "01:56 [network] NETWORK CUT",
+   "01:59 [network] tap #purse (tap while offline)",
+   "02:01 [network] tap button \"Close\" (close account-panel)",
+   "02:12 [network] QA pass: network: while offline the game keeps drawing and does not crash",
+   "02:12 [network] QA info: network: the game tells the player the connection is gone (within about 12 s) - connected flag true -> true; messages: "
+  ]
+ }
+]

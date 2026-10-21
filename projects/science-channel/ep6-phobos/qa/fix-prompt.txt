@@ -1,0 +1,21 @@
+You are fixing a finished 6-minute science TV episode. Folder: C:\Users\lilli\AI-Shared\projects\science-channel\ep6-phobos.
+Read qa/grok-qa.md first (the latest review, verdict "fix first"). Read finish.py, diagram.py, tts.mjs, script.json, shots.py.
+
+HARD LIMITS (another job owns the GPU tonight): do NOT run Blender, do NOT re-render 3D frames, do NOT run anything on the GPU.
+The rendered frames in C:/Users/lilli/Renders/phobos-ep6/frames stay as they are. Kokoro TTS (node), Pillow, ffmpeg and
+faster-whisper on CPU are fine. Do NOT git push, do NOT publish or copy anything to the website. Keep the old mp4/jpg as
+*-before-grokfix.* copies before rebuilding.
+
+Fix only the items that need no new 3D render:
+1. Pronunciation: re-voice ONLY the affected narration segments so the voice says "Hurford", "boulder tracks" and "Idefix"
+   (use a phonetic respelling in the TTS input only; captions and script text keep the real spelling). Keep voice and speed.
+2. Captions over the boards: during the Pillow infographic passages (One day on Mars, What cut the grooves, Where did Phobos come
+   from, MMX timeline) the burned-in captions must not cover body text, citations, or the NOT SETTLED / PUBLISHED PLAN pills.
+   Move them where the board leaves room or shrink the board area; choose the cleanest. Captions must still match the voice timing.
+3. Kill the blank cream flashes (reported near 00:52, 01:22 and 06:13).
+4. Shorten the PHOBOS TODAY source line so it stays off the Mars disk. Fix the footer typo "drawn deeper than life" -> "deeper than real".
+5. The 01:40 title already says DEIMOS while the voice is still on Phobos losing energy: move that label change to match the voice
+   if it's a label/timing change only (no re-render).
+Then rebuild with finish.py (both 16:9 and vertical + poster), run ../../tv-lib/verify_voice.py on the new mp4 (it must pass), and
+write qa/fix-report.md: what you changed, per item, with before/after timestamps; anything you could not fix without a 3D re-render
+(list those clearly as "needs Blender: ..."). Stop when done.

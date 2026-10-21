@@ -1,0 +1,930 @@
+﻿{
+ "ipcc-anthropic-2026-10-31": {
+  "question": "Anthropic IPO Officially Confirmed By",
+  "outcome": "October 31, 2026",
+  "category": "finance",
+  "ends": "2027-07-14T23:00:00Z",
+  "requested_at": 1789243044.5473976,
+  "write_to": "state/sentiment/ipcc-anthropic-2026-10-31.json"
+ },
+ "aimrc-company1-2026-12-31-anthro": {
+  "question": "Which Company Has #1 AI Model end of 2026?",
+  "outcome": "Anthropic",
+  "category": "technology",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789279036.5781195,
+  "write_to": "state/sentiment/aimrc-company1-2026-12-31-anthro.json"
+ },
+ "aimrc-company1-dur2026-openai": {
+  "question": "Which Companies will have #1 AI Model in 2026?",
+  "outcome": "OpenAI",
+  "category": "technology",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789271839.9131832,
+  "write_to": "state/sentiment/aimrc-company1-dur2026-openai.json"
+ },
+ "aec-nfl-bal-ind-2026-09-13": {
+  "question": "Who will win in the upcoming football event Baltimore Ravens vs Indianapolis Colts scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Ravens",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789279036.563132,
+  "write_to": "state/sentiment/aec-nfl-bal-ind-2026-09-13.json"
+ },
+ "aec-nfl-dal-nyg-2026-09-13": {
+  "question": "Who will win in the upcoming football event Dallas Cowboys vs New York Giants scheduled for September 14, 2026 at 12:20 AM UTC?",
+  "outcome": "Cowboys",
+  "category": "sports",
+  "ends": "2026-09-28T00:20:00Z",
+  "requested_at": 1789279036.5438864,
+  "write_to": "state/sentiment/aec-nfl-dal-nyg-2026-09-13.json"
+ },
+ "paccc-usse-midterms-2026-11-03-dem": {
+  "question": "U.S Senate Midterm Winner",
+  "outcome": "Democratic Party",
+  "category": "politics",
+  "ends": "2027-02-01T23:59:00Z",
+  "requested_at": 1789243044.5096653,
+  "write_to": "state/sentiment/paccc-usse-midterms-2026-11-03-dem.json"
+ },
+ "tec-mlb-champ-2026-09-27-mil": {
+  "question": "World Series Champion",
+  "outcome": "Milwaukee Brewers",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789243044.5248177,
+  "write_to": "state/sentiment/tec-mlb-champ-2026-09-27-mil.json"
+ },
+ "aec-ufc-tommcm-marrah-2026-09-12": {
+  "question": "Who will win in the upcoming mma event Tommy McMillen vs Marwan Rahiki scheduled for September 12, 2026 at 6:00 PM UTC?",
+  "outcome": "Tommy McMillen",
+  "category": "sports",
+  "ends": "2026-09-26T18:00:00Z",
+  "requested_at": 1789243044.5248177,
+  "write_to": "state/sentiment/aec-ufc-tommcm-marrah-2026-09-12.json"
+ },
+ "paccc-usho-midterms-2026-11-03-rep": {
+  "question": "U.S House Midterm Winner",
+  "outcome": "Republican Party",
+  "category": "politics",
+  "ends": "2027-02-01T23:59:00Z",
+  "requested_at": 1789250236.7311242,
+  "write_to": "state/sentiment/paccc-usho-midterms-2026-11-03-rep.json"
+ },
+ "tec-mlb-nlchamp-2026-09-27-mil": {
+  "question": "National League Champion",
+  "outcome": "Milwaukee Brewers",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789250236.7321312,
+  "write_to": "state/sentiment/tec-mlb-nlchamp-2026-09-27-mil.json"
+ },
+ "aec-nfl-gb-min-2026-09-13": {
+  "question": "Who will win in the upcoming football event Green Bay Packers vs Minnesota Vikings scheduled for September 13, 2026 at 8:25 PM UTC?",
+  "outcome": "Packers",
+  "category": "sports",
+  "ends": "2026-09-27T20:25:00Z",
+  "requested_at": 1789250236.7321312,
+  "write_to": "state/sentiment/aec-nfl-gb-min-2026-09-13.json"
+ },
+ "ipcc-2026ipos-anthropic": {
+  "question": "Which Companies Will Confirm an IPO in 2026",
+  "outcome": "Anthropic",
+  "category": "finance",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789250236.7321312,
+  "write_to": "state/sentiment/ipcc-2026ipos-anthropic.json"
+ },
+ "ewc-usgub-ga-2026-11-03-dem": {
+  "question": "Georgia Governor Election Winner",
+  "outcome": "Keisha Lance Bottoms (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789257445.4606194,
+  "write_to": "state/sentiment/ewc-usgub-ga-2026-11-03-dem.json"
+ },
+ "tec-nfl-champ-2027-02-14-w-losram": {
+  "question": "Pro Football Champion 2027",
+  "outcome": "Los Angeles R",
+  "category": "sports",
+  "ends": "2027-02-28T23:00:00Z",
+  "requested_at": 1789257445.4606194,
+  "write_to": "state/sentiment/tec-nfl-champ-2027-02-14-w-losram.json"
+ },
+ "atc-lal-lev-fcb-2026-09-13-fcb": {
+  "question": "Will FC Barcelona win against Levante UD in the La Liga match scheduled for Sep 13, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-27T14:15:00Z",
+  "requested_at": 1789257445.4606194,
+  "write_to": "state/sentiment/atc-lal-lev-fcb-2026-09-13-fcb.json"
+ },
+ "ccrc-sptfy-1-artst-us-yr-2026-drake": {
+  "question": "Top Artist in the US 2026?",
+  "outcome": "Drake",
+  "category": "culture",
+  "ends": "2026-12-16T23:00:00Z",
+  "requested_at": 1789257445.4606194,
+  "write_to": "state/sentiment/ccrc-sptfy-1-artst-us-yr-2026-drake.json"
+ },
+ "ewc-usse-tx-2026-11-03-rep": {
+  "question": "Texas Senate Election Winner",
+  "outcome": "Ken Paxton (R)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789271839.899521,
+  "write_to": "state/sentiment/ewc-usse-tx-2026-11-03-rep.json"
+ },
+ "prdc-gtavi-12-31-2026": {
+  "question": "GTA VI Released By",
+  "outcome": "December 31, 2026",
+  "category": "culture",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789264640.607165,
+  "write_to": "state/sentiment/prdc-gtavi-12-31-2026.json"
+ },
+ "aec-nfl-nyj-ten-2026-09-13": {
+  "question": "Who will win in the upcoming football event New York Jets vs Tennessee Titans scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Jets",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789264640.607165,
+  "write_to": "state/sentiment/aec-nfl-nyj-ten-2026-09-13.json"
+ },
+ "tec-mlb-alchamp-2026-09-27-nyy": {
+  "question": "American League Champion",
+  "outcome": "New York Yankees",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789264640.607165,
+  "write_to": "state/sentiment/tec-mlb-alchamp-2026-09-27-nyy.json"
+ },
+ "tec-mlb-al-2026-11-27-cy-camsch": {
+  "question": "American League Cy Young Award",
+  "outcome": "Cam Schlittler",
+  "category": "sports",
+  "ends": "2026-12-11T23:00:00Z",
+  "requested_at": 1789271839.899521,
+  "write_to": "state/sentiment/tec-mlb-al-2026-11-27-cy-camsch.json"
+ },
+ "aec-atp-alezve-benshe-2026-09-13": {
+  "question": "Alexander Zverev vs. Ben Shelton",
+  "outcome": "Alexander Zverev",
+  "category": "sports",
+  "ends": "2026-09-27T18:00:00Z",
+  "requested_at": 1789271839.9005299,
+  "write_to": "state/sentiment/aec-atp-alezve-benshe-2026-09-13.json"
+ },
+ "tec-mlb-nl-2026-11-27-roy-salste": {
+  "question": "National League Rookie of the Year",
+  "outcome": "Sal Stewart",
+  "category": "sports",
+  "ends": "2026-12-11T23:00:00Z",
+  "requested_at": 1789279036.5438864,
+  "write_to": "state/sentiment/tec-mlb-nl-2026-11-27-roy-salste.json"
+ },
+ "tac-emmys-vs-2026-09-14-thelat": {
+  "question": "Emmys: Outstanding Variety Series",
+  "outcome": "The Late Show With Stephen Colbert",
+  "category": "culture",
+  "ends": "2026-09-28T23:00:00Z",
+  "requested_at": 1789279036.5438864,
+  "write_to": "state/sentiment/tac-emmys-vs-2026-09-14-thelat.json"
+ },
+ "ewc-usse-nh-2026-11-03-dem": {
+  "question": "New Hampshire Senate Election Winner",
+  "outcome": "Chris Pappas (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789279036.5438864,
+  "write_to": "state/sentiment/ewc-usse-nh-2026-11-03-dem.json"
+ },
+ "aec-nfl-den-kc-2026-09-14": {
+  "question": "Who will win in the upcoming football event Denver Broncos vs Kansas City Chiefs scheduled for September 15, 2026 at 12:15 AM UTC?",
+  "outcome": "Broncos",
+  "category": "sports",
+  "ends": "2026-09-29T00:15:00Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/aec-nfl-den-kc-2026-09-14.json"
+ },
+ "ewc-usse-tx-2026-11-03-dem": {
+  "question": "Texas Senate Election Winner",
+  "outcome": "James Talarico (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/ewc-usse-tx-2026-11-03-dem.json"
+ },
+ "aec-nfl-atl-pit-2026-09-13": {
+  "question": "Who will win in the upcoming football event Atlanta Falcons vs Pittsburgh Steelers scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Falcons",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/aec-nfl-atl-pit-2026-09-13.json"
+ },
+ "tec-mlb-champ-2026-09-27-nyy": {
+  "question": "World Series Champion",
+  "outcome": "New York Yankees",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/tec-mlb-champ-2026-09-27-nyy.json"
+ },
+ "aec-nfl-tb-cin-2026-09-13": {
+  "question": "Who will win in the upcoming football event Tampa Bay Buccaneers vs Cincinnati Bengals scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Buccaneers",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/aec-nfl-tb-cin-2026-09-13.json"
+ },
+ "ipcc-anthropic-2027-06-30": {
+  "question": "Anthropic IPO Officially Confirmed By",
+  "outcome": "June 30, 2027",
+  "category": "finance",
+  "ends": "2027-07-14T23:00:00Z",
+  "requested_at": 1789286241.660802,
+  "write_to": "state/sentiment/ipcc-anthropic-2027-06-30.json"
+ },
+ "aec-nfl-cle-jax-2026-09-13": {
+  "question": "Who will win in the upcoming football event Cleveland Browns vs Jacksonville Jaguars scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Browns",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/aec-nfl-cle-jax-2026-09-13.json"
+ },
+ "ewc-usse-me-2026-11-03-dem": {
+  "question": "Maine Senate Election Winner",
+  "outcome": "Troy Jackson (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/ewc-usse-me-2026-11-03-dem.json"
+ },
+ "aec-nfl-no-det-2026-09-13": {
+  "question": "Who will win in the upcoming football event New Orleans Saints vs Detroit Lions scheduled for September 13, 2026 at 5:00 PM UTC?",
+  "outcome": "Saints",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/aec-nfl-no-det-2026-09-13.json"
+ },
+ "tec-mlb-nlchamp-2026-09-27-lad": {
+  "question": "National League Champion",
+  "outcome": "Los Angeles Dodgers",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/tec-mlb-nlchamp-2026-09-27-lad.json"
+ },
+ "atc-epl-mnu-mnc-2026-09-13-mnc": {
+  "question": "Will Manchester City FC win against Manchester United FC in the Premier League match scheduled for Sep 13, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-27T15:30:00Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/atc-epl-mnu-mnc-2026-09-13-mnc.json"
+ },
+ "apdc-altman-openai-ceo-2026-12-31": {
+  "question": "Sam Altman Announced Out As OpenAI CEO?",
+  "outcome": "By December 31, 2026",
+  "category": "finance",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789293435.0975013,
+  "write_to": "state/sentiment/apdc-altman-openai-ceo-2026-12-31.json"
+ },
+ "aec-nfl-was-phi-2026-09-13": {
+  "question": "Who will win in the upcoming football event Washington Commanders vs Philadelphia Eagles scheduled for September 13, 2026 at 8:25 PM UTC?",
+  "outcome": "Commanders",
+  "category": "sports",
+  "ends": "2026-09-27T20:25:00Z",
+  "requested_at": 1789300634.7028246,
+  "write_to": "state/sentiment/aec-nfl-was-phi-2026-09-13.json"
+ },
+ "ewc-usgub-ga-2026-11-03-rep": {
+  "question": "Georgia Governor Election Winner",
+  "outcome": "Rick Jackson (R)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789300634.7028246,
+  "write_to": "state/sentiment/ewc-usgub-ga-2026-11-03-rep.json"
+ },
+ "aec-nfl-mia-lv-2026-09-13": {
+  "question": "Who will win in the upcoming football event Miami Dolphins vs Las Vegas Raiders scheduled for September 13, 2026 at 8:25 PM UTC?",
+  "outcome": "Dolphins",
+  "category": "sports",
+  "ends": "2026-09-27T20:25:00Z",
+  "requested_at": 1789300634.7028246,
+  "write_to": "state/sentiment/aec-nfl-mia-lv-2026-09-13.json"
+ },
+ "tec-mls-eastconf-2026-12-12-w-mia": {
+  "question": "MLS Eastern Conference Champion",
+  "outcome": "Inter Miami CF",
+  "category": "sports",
+  "ends": "2026-12-26T23:00:00Z",
+  "requested_at": 1789329442.6796474,
+  "write_to": "state/sentiment/tec-mls-eastconf-2026-12-12-w-mia.json"
+ },
+ "asc-nfl-bal-ind-2026-09-13-neg-5pt5": {
+  "question": "Will the Baltimore Ravens cover -5.5 vs the Indianapolis Colts in Baltimore Ravens vs. Indianapolis Colts?",
+  "outcome": "-5.50",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789300634.703477,
+  "write_to": "state/sentiment/asc-nfl-bal-ind-2026-09-13-neg-5pt5.json"
+ },
+ "tpoyc-2026-zohmam": {
+  "question": "TIME Person of the Year 2026",
+  "outcome": "Zohran Mamdani",
+  "category": "culture",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789300634.703477,
+  "write_to": "state/sentiment/tpoyc-2026-zohmam.json"
+ },
+ "aec-mlb-col-det-2026-09-13": {
+  "question": "Who will win in the upcoming baseball event Colorado Rockies vs Detroit Tigers scheduled for September 13, 2026 at 4:10 PM UTC?",
+  "outcome": "Colorado Rockies",
+  "category": "sports",
+  "ends": "2026-09-27T16:10:00Z",
+  "requested_at": 1789307845.220228,
+  "write_to": "state/sentiment/aec-mlb-col-det-2026-09-13.json"
+ },
+ "asc-nfl-bal-ind-2026-09-13-neg-3pt5": {
+  "question": "Will the Baltimore Ravens cover -3.5 vs the Indianapolis Colts in Baltimore Ravens vs. Indianapolis Colts?",
+  "outcome": "-3.50",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789307845.220228,
+  "write_to": "state/sentiment/asc-nfl-bal-ind-2026-09-13-neg-3pt5.json"
+ },
+ "ewc-usse-me-2026-11-03-rep": {
+  "question": "Maine Senate Election Winner",
+  "outcome": "Susan Collins (R)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789307845.220228,
+  "write_to": "state/sentiment/ewc-usse-me-2026-11-03-rep.json"
+ },
+ "tsc-mlb-col-det-2026-09-13-8pt5": {
+  "question": "Will the total in Colorado Rockies vs Detroit Tigers be more than 8.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-09-27T16:10:00Z",
+  "requested_at": 1789307845.220228,
+  "write_to": "state/sentiment/tsc-mlb-col-det-2026-09-13-8pt5.json"
+ },
+ "aimrc-company1-2026-12-31-openai": {
+  "question": "Which Company Has #1 AI Model end of 2026?",
+  "outcome": "OpenAI",
+  "category": "technology",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789307845.220228,
+  "write_to": "state/sentiment/aimrc-company1-2026-12-31-openai.json"
+ },
+ "asc-nfl-chi-car-2026-09-13-neg-2pt5": {
+  "question": "Will the Chicago Bears cover -2.5 vs the Carolina Panthers in Chicago Bears vs. Carolina Panthers?",
+  "outcome": "-2.50",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789315032.950674,
+  "write_to": "state/sentiment/asc-nfl-chi-car-2026-09-13-neg-2pt5.json"
+ },
+ "asc-nfl-bal-ind-2026-09-13-neg-2pt5": {
+  "question": "Will the Baltimore Ravens cover -2.5 vs the Indianapolis Colts in Baltimore Ravens vs. Indianapolis Colts?",
+  "outcome": "-2.50",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789315032.950674,
+  "write_to": "state/sentiment/asc-nfl-bal-ind-2026-09-13-neg-2pt5.json"
+ },
+ "ewc-usgub-ks-2026-11-03-rep": {
+  "question": "Kansas Governor Election Winner",
+  "outcome": "Ty Masterson (R)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789315032.950674,
+  "write_to": "state/sentiment/ewc-usgub-ks-2026-11-03-rep.json"
+ },
+ "asc-nfl-bal-ind-2026-09-13-neg-4pt5": {
+  "question": "Will the Baltimore Ravens cover -4.5 vs the Indianapolis Colts in Baltimore Ravens vs. Indianapolis Colts?",
+  "outcome": "-4.50",
+  "category": "sports",
+  "ends": "2026-09-27T17:00:00Z",
+  "requested_at": 1789315032.950674,
+  "write_to": "state/sentiment/asc-nfl-bal-ind-2026-09-13-neg-4pt5.json"
+ },
+ "ccrc-sptfy-n1-song-glbl-yr-2026-endofb": {
+  "question": "Top Song 2026?",
+  "outcome": "End of Beginning - Djo",
+  "category": "culture",
+  "ends": "2026-12-16T23:00:00Z",
+  "requested_at": 1789315032.950674,
+  "write_to": "state/sentiment/ccrc-sptfy-n1-song-glbl-yr-2026-endofb.json"
+ },
+ "aec-nfl-ari-lac-2026-09-13": {
+  "question": "Who will win in the upcoming football event Arizona Cardinals vs Los Angeles Chargers scheduled for September 13, 2026 at 8:25 PM UTC?",
+  "outcome": "Cardinals",
+  "category": "sports",
+  "ends": "2026-09-27T20:25:00Z",
+  "requested_at": 1789322242.0149915,
+  "write_to": "state/sentiment/aec-nfl-ari-lac-2026-09-13.json"
+ },
+ "asc-nfl-was-phi-2026-09-13-pos-5pt5": {
+  "question": "Will the Washington Commanders cover 5.5 vs the Philadelphia Eagles in Washington Commanders vs. Philadelphia Eagles?",
+  "outcome": "+5.50",
+  "category": "sports",
+  "ends": "2026-09-27T20:25:00Z",
+  "requested_at": 1789322242.0159922,
+  "write_to": "state/sentiment/asc-nfl-was-phi-2026-09-13-pos-5pt5.json"
+ },
+ "ewc-usgub-wi-2026-11-03-dem": {
+  "question": "Wisconsin Governor Election Winner",
+  "outcome": "David Crowley (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789322242.0159922,
+  "write_to": "state/sentiment/ewc-usgub-wi-2026-11-03-dem.json"
+ },
+ "aec-mlb-sea-ath-2026-09-13": {
+  "question": "Who will win in the upcoming baseball event Seattle Mariners vs Athletics scheduled for September 13, 2026 at 8:05 PM UTC?",
+  "outcome": "Seattle Mariners",
+  "category": "sports",
+  "ends": "2026-09-27T20:05:00Z",
+  "requested_at": 1789322242.0159922,
+  "write_to": "state/sentiment/aec-mlb-sea-ath-2026-09-13.json"
+ },
+ "tec-mls-westconf-2026-12-12-w-laf": {
+  "question": "MLS Western Conference Champion",
+  "outcome": "Los Angeles FC",
+  "category": "sports",
+  "ends": "2026-12-26T23:00:00Z",
+  "requested_at": 1789322242.0159922,
+  "write_to": "state/sentiment/tec-mls-westconf-2026-12-12-w-laf.json"
+ },
+ "asc-nfl-dal-nyg-2026-09-13-neg-3pt5": {
+  "question": "Will the Dallas Cowboys cover -3.5 vs the New York Giants in Dallas Cowboys vs. New York Giants?",
+  "outcome": "-3.50",
+  "category": "sports",
+  "ends": "2026-09-28T00:20:00Z",
+  "requested_at": 1789336636.4204478,
+  "write_to": "state/sentiment/asc-nfl-dal-nyg-2026-09-13-neg-3pt5.json"
+ },
+ "asc-nfl-dal-nyg-2026-09-13-neg-2pt5": {
+  "question": "Will the Dallas Cowboys cover -2.5 vs the New York Giants in Dallas Cowboys vs. New York Giants?",
+  "outcome": "-2.50",
+  "category": "sports",
+  "ends": "2026-09-28T00:20:00Z",
+  "requested_at": 1789329442.6796474,
+  "write_to": "state/sentiment/asc-nfl-dal-nyg-2026-09-13-neg-2pt5.json"
+ },
+ "ewc-usgub-az-2026-11-03-dem": {
+  "question": "Arizona Governor Election Winner",
+  "outcome": "Katie Hobbs (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789394231.7795722,
+  "write_to": "state/sentiment/ewc-usgub-az-2026-11-03-dem.json"
+ },
+ "tec-ucl-final-2026-06-05-w-ars": {
+  "question": "UEFA Champions League Winner",
+  "outcome": "Arsenal",
+  "category": "sports",
+  "ends": "2027-06-19T23:00:00Z",
+  "requested_at": 1789329442.6796474,
+  "write_to": "state/sentiment/tec-ucl-final-2026-06-05-w-ars.json"
+ },
+ "ewc-usse-mn-2026-11-03-dem": {
+  "question": "Minnesota Senate Election Winner",
+  "outcome": "Peggy Flanagan\t(D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789329442.6796474,
+  "write_to": "state/sentiment/ewc-usse-mn-2026-11-03-dem.json"
+ },
+ "tec-uefa-bdor-2026-10-26-w-harkan": {
+  "question": "Ballon d'Or 2026 Winner",
+  "outcome": "Harry Kane",
+  "category": "sports",
+  "ends": "2026-11-09T23:00:00Z",
+  "requested_at": 1789336636.4204478,
+  "write_to": "state/sentiment/tec-uefa-bdor-2026-10-26-w-harkan.json"
+ },
+ "tsc-mlb-sd-sf-2026-09-13-7pt5": {
+  "question": "Will the total in San Diego Padres vs San Francisco Giants be more than 7.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-09-27T23:20:00Z",
+  "requested_at": 1789336636.4204478,
+  "write_to": "state/sentiment/tsc-mlb-sd-sf-2026-09-13-7pt5.json"
+ },
+ "atc-lal-elc-rma-2026-09-15-rma": {
+  "question": "Will Real Madrid CF win against Elche CF in the La Liga match scheduled for Sep 15, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-29T19:30:00Z",
+  "requested_at": 1789336636.4217253,
+  "write_to": "state/sentiment/atc-lal-elc-rma-2026-09-15-rma.json"
+ },
+ "tpoyc-2026-jamtal": {
+  "question": "TIME Person of the Year 2026",
+  "outcome": "James Talarico",
+  "category": "culture",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789336636.4217253,
+  "write_to": "state/sentiment/tpoyc-2026-jamtal.json"
+ },
+ "aec-mlb-sea-laa-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event Seattle Mariners vs Los Angeles Angels scheduled for September 15, 2026 at 1:38 AM UTC?",
+  "outcome": "Seattle Mariners",
+  "category": "sports",
+  "ends": "2026-09-29T01:38:00Z",
+  "requested_at": 1789343831.5383441,
+  "write_to": "state/sentiment/aec-mlb-sea-laa-2026-09-14.json"
+ },
+ "tec-nba-champ-2027-06-18-w-phi": {
+  "question": "2027 NBA Champion",
+  "outcome": "Philadelphia 76ers",
+  "category": "sports",
+  "ends": "2027-07-02T23:00:00Z",
+  "requested_at": 1789343831.5383441,
+  "write_to": "state/sentiment/tec-nba-champ-2027-06-18-w-phi.json"
+ },
+ "atc-lmx-gua-pum-2026-09-13-gua": {
+  "question": "Will CD Guadalajara win against Pumas de la UNAM in the Liga MX match scheduled for Sep 13, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-28T01:07:00Z",
+  "requested_at": 1789343831.5383441,
+  "write_to": "state/sentiment/atc-lmx-gua-pum-2026-09-13-gua.json"
+ },
+ "kpic-tsla-dlvrs-2026-q3-above-450k": {
+  "question": "Tesla Q3 Total Deliveries?",
+  "outcome": "Above 450k",
+  "category": "finance",
+  "ends": "2026-10-16T23:00:00Z",
+  "requested_at": 1789343831.5393522,
+  "write_to": "state/sentiment/kpic-tsla-dlvrs-2026-q3-above-450k.json"
+ },
+ "rtc-bbus-s28-3-2026-10-01-drecam": {
+  "question": "Big Brother Season 28: 3rd Place",
+  "outcome": "Drew Campbell",
+  "category": "culture",
+  "ends": "2026-10-15T23:00:00Z",
+  "requested_at": 1789408640.339905,
+  "write_to": "state/sentiment/rtc-bbus-s28-3-2026-10-01-drecam.json"
+ },
+ "tsc-nfl-den-kc-2026-09-14-total-44pt5": {
+  "question": "Will the total in Denver Broncos vs. Kansas City Chiefs be more than 44.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-09-29T00:15:00Z",
+  "requested_at": 1789351034.200208,
+  "write_to": "state/sentiment/tsc-nfl-den-kc-2026-09-14-total-44pt5.json"
+ },
+ "tec-mlb-alchamp-2026-09-27-cle": {
+  "question": "American League Champion",
+  "outcome": "Cleveland Guardians",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789351034.200208,
+  "write_to": "state/sentiment/tec-mlb-alchamp-2026-09-27-cle.json"
+ },
+ "cbpac-usfed-2026-cut": {
+  "question": "Fed Rate Cut in 2026?",
+  "outcome": "Cut",
+  "category": "macro",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789351034.200208,
+  "write_to": "state/sentiment/cbpac-usfed-2026-cut.json"
+ },
+ "arankc-atp-2026-12-31-no1-jansin": {
+  "question": "Men's Pro Tennis No. 1 on Dec 31, 2026",
+  "outcome": "Jannik Sinner",
+  "category": "sports",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789351034.200208,
+  "write_to": "state/sentiment/arankc-atp-2026-12-31-no1-jansin.json"
+ },
+ "ewc-usse-mi-2026-11-03-dem": {
+  "question": "Michigan Senate Election Winner",
+  "outcome": "Abdul El-Sayed (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789351034.200208,
+  "write_to": "state/sentiment/ewc-usse-mi-2026-11-03-dem.json"
+ },
+ "asc-nfl-den-kc-2026-09-14-pos-2pt5": {
+  "question": "Will the Denver Broncos cover 2.5 vs the Kansas City Chiefs in Denver Broncos vs. Kansas City Chiefs?",
+  "outcome": "+2.50",
+  "category": "sports",
+  "ends": "2026-09-29T00:15:00Z",
+  "requested_at": 1789358233.7191422,
+  "write_to": "state/sentiment/asc-nfl-den-kc-2026-09-14-pos-2pt5.json"
+ },
+ "aec-atp-masima-enzagu-2026-09-13": {
+  "question": "Masamichi Imamura vs. Enzo Aguiard",
+  "outcome": "Masamichi Imamura",
+  "category": "sports",
+  "ends": "2026-09-28T03:00:00Z",
+  "requested_at": 1789358233.7436986,
+  "write_to": "state/sentiment/aec-atp-masima-enzagu-2026-09-13.json"
+ },
+ "tec-epl-title-2027-05-30-w-ars": {
+  "question": "English Premier League Champion",
+  "outcome": "Arsenal",
+  "category": "sports",
+  "ends": "2027-06-13T23:00:00Z",
+  "requested_at": 1789358233.7447035,
+  "write_to": "state/sentiment/tec-epl-title-2027-05-30-w-ars.json"
+ },
+ "aec-mlb-lad-cin-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event Los Angeles Dodgers vs Cincinnati Reds scheduled for September 14, 2026 at 10:40 PM UTC?",
+  "outcome": "Los Angeles Dodgers",
+  "category": "sports",
+  "ends": "2026-09-28T22:40:00Z",
+  "requested_at": 1789358233.7447035,
+  "write_to": "state/sentiment/aec-mlb-lad-cin-2026-09-14.json"
+ },
+ "ipcc-openai-2027-06-30": {
+  "question": "OpenAI IPO Officially Confirmed By",
+  "outcome": "June 30, 2027",
+  "category": "finance",
+  "ends": "2027-07-14T23:00:00Z",
+  "requested_at": 1789358233.7452183,
+  "write_to": "state/sentiment/ipcc-openai-2027-06-30.json"
+ },
+ "aec-mlb-bal-nym-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event Baltimore Orioles vs New York Mets scheduled for September 14, 2026 at 11:10 PM UTC?",
+  "outcome": "Baltimore Orioles",
+  "category": "sports",
+  "ends": "2026-09-28T23:10:00Z",
+  "requested_at": 1789365433.208329,
+  "write_to": "state/sentiment/aec-mlb-bal-nym-2026-09-14.json"
+ },
+ "rdc-usfed-fomc-2026-09-16-nochng": {
+  "question": "Fed Decision in September",
+  "outcome": "No Change",
+  "category": "macro",
+  "ends": "2026-09-30T23:00:00Z",
+  "requested_at": 1789365433.208329,
+  "write_to": "state/sentiment/rdc-usfed-fomc-2026-09-16-nochng.json"
+ },
+ "atc-lal-vil-bet-2026-09-14-bet": {
+  "question": "Will Real Betis Balompie win against Villarreal CF in the La Liga match scheduled for Sep 14, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-28T19:00:00Z",
+  "requested_at": 1789408640.3103476,
+  "write_to": "state/sentiment/atc-lal-vil-bet-2026-09-14-bet.json"
+ },
+ "aec-boxing-canalv-chrmbi-2026-10-31-canalv-chrmbi": {
+  "question": "Canelo Alvarez vs Christian Mbilli",
+  "outcome": "Canelo Alvarez",
+  "category": "sports",
+  "ends": "2026-11-14T23:00:00Z",
+  "requested_at": 1789365433.208329,
+  "write_to": "state/sentiment/aec-boxing-canalv-chrmbi-2026-10-31-canalv-chrmbi.json"
+ },
+ "prdc-gtavi-11-19-2026": {
+  "question": "GTA VI Released By",
+  "outcome": "November 19, 2026",
+  "category": "culture",
+  "ends": "2027-01-14T23:00:00Z",
+  "requested_at": 1789365433.208329,
+  "write_to": "state/sentiment/prdc-gtavi-11-19-2026.json"
+ },
+ "tec-mlb-champ-2026-09-27-lad": {
+  "question": "World Series Champion",
+  "outcome": "Los Angeles Dodgers",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789372632.5195305,
+  "write_to": "state/sentiment/tec-mlb-champ-2026-09-27-lad.json"
+ },
+ "ccrc-sptfy-1-artst-glbl-yr-2026-badbun": {
+  "question": "Spotify Top Global Artist 2026",
+  "outcome": "Bad Bunny",
+  "category": "culture",
+  "ends": "2026-12-16T23:00:00Z",
+  "requested_at": 1789372632.5195305,
+  "write_to": "state/sentiment/ccrc-sptfy-1-artst-glbl-yr-2026-badbun.json"
+ },
+ "ipcc-anthropic-2026-11-30": {
+  "question": "Anthropic IPO Officially Confirmed By",
+  "outcome": "November 30, 2026",
+  "category": "finance",
+  "ends": "2027-07-14T23:00:00Z",
+  "requested_at": 1789372632.5195305,
+  "write_to": "state/sentiment/ipcc-anthropic-2026-11-30.json"
+ },
+ "aimc-gemini-3pt5pro-2026-09-30": {
+  "question": "Gemini 3.5 Pro Released?",
+  "outcome": "By September 30, 2026",
+  "category": "technology",
+  "ends": "2026-10-14T23:00:00Z",
+  "requested_at": 1789372632.5195305,
+  "write_to": "state/sentiment/aimc-gemini-3pt5pro-2026-09-30.json"
+ },
+ "tac-emmys-ls-2026-09-14-dtfstl": {
+  "question": "Emmys: Outstanding Limited Series",
+  "outcome": "DTF St. Louis",
+  "category": "culture",
+  "ends": "2026-09-28T23:00:00Z",
+  "requested_at": 1789379835.9154592,
+  "write_to": "state/sentiment/tac-emmys-ls-2026-09-14-dtfstl.json"
+ },
+ "tec-mlb-al-2026-11-27-mvp-yoralv": {
+  "question": "American League MVP",
+  "outcome": "Yordan Alvarez",
+  "category": "sports",
+  "ends": "2026-12-11T23:00:00Z",
+  "requested_at": 1789379835.9154592,
+  "write_to": "state/sentiment/tec-mlb-al-2026-11-27-mvp-yoralv.json"
+ },
+ "tsc-nfl-den-kc-2026-09-14-total-42pt5": {
+  "question": "Will the total in Denver Broncos vs. Kansas City Chiefs be more than 42.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-09-29T00:15:00Z",
+  "requested_at": 1789415835.1732044,
+  "write_to": "state/sentiment/tsc-nfl-den-kc-2026-09-14-total-42pt5.json"
+ },
+ "ewc-ref-ca-blntax-2026-11-03-pass": {
+  "question": "California Billionaire Wealth Tax Referendum",
+  "outcome": "Passes?",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789379835.9154592,
+  "write_to": "state/sentiment/ewc-ref-ca-blntax-2026-11-03-pass.json"
+ },
+ "tac-emmys-cs-2026-09-14-widows": {
+  "question": "Emmys: Outstanding Comedy Series",
+  "outcome": "Widows Bay",
+  "category": "culture",
+  "ends": "2026-09-28T23:00:00Z",
+  "requested_at": 1789379835.9154592,
+  "write_to": "state/sentiment/tac-emmys-cs-2026-09-14-widows.json"
+ },
+ "kpic-tsla-dlvrs-2026-q3-above-440k": {
+  "question": "Tesla Q3 Total Deliveries?",
+  "outcome": "Above 440k",
+  "category": "finance",
+  "ends": "2026-10-16T23:00:00Z",
+  "requested_at": 1789379835.9154592,
+  "write_to": "state/sentiment/kpic-tsla-dlvrs-2026-q3-above-440k.json"
+ },
+ "aec-ufc-josvan-alepan-2026-09-19": {
+  "question": "Who will win in the upcoming mma event Joshua Van vs Alexandre Pantoja scheduled for September 20, 2026 at 3:15 AM UTC?",
+  "outcome": "Joshua Van",
+  "category": "sports",
+  "ends": "2026-10-03T21:00:00Z",
+  "requested_at": 1789387033.689646,
+  "write_to": "state/sentiment/aec-ufc-josvan-alepan-2026-09-19.json"
+ },
+ "atc-epl-lee-new-2026-09-14-new": {
+  "question": "Will Newcastle United FC win against Leeds United FC in the Premier League match scheduled for Sep 14, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-28T19:00:00Z",
+  "requested_at": 1789387033.689646,
+  "write_to": "state/sentiment/atc-epl-lee-new-2026-09-14-new.json"
+ },
+ "ewc-usmayor-losang-2026-11-03-karbas": {
+  "question": "LA Mayoral Election Winner",
+  "outcome": "Karen Bass",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789387033.689646,
+  "write_to": "state/sentiment/ewc-usmayor-losang-2026-11-03-karbas.json"
+ },
+ "tec-uefa-bdor-2026-10-26-w-lamyam": {
+  "question": "Ballon d'Or 2026 Winner",
+  "outcome": "Lamine Yamal",
+  "category": "sports",
+  "ends": "2026-11-09T23:00:00Z",
+  "requested_at": 1789387033.689646,
+  "write_to": "state/sentiment/tec-uefa-bdor-2026-10-26-w-lamyam.json"
+ },
+ "ewc-usse-ia-2026-11-03-rep": {
+  "question": "Iowa Senate Election Winner",
+  "outcome": "Ashley Hinson (R)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789387033.689646,
+  "write_to": "state/sentiment/ewc-usse-ia-2026-11-03-rep.json"
+ },
+ "atc-sea-tor-rom-2026-09-14-rom": {
+  "question": "Will AS Roma win against Torino FC in the Serie A match scheduled for Sep 14, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-28T16:30:00Z",
+  "requested_at": 1789394231.7620168,
+  "write_to": "state/sentiment/atc-sea-tor-rom-2026-09-14-rom.json"
+ },
+ "aec-mlb-cws-cle-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event Chicago White Sox vs Cleveland Guardians scheduled for September 14, 2026 at 10:40 PM UTC?",
+  "outcome": "Chicago White Sox",
+  "category": "sports",
+  "ends": "2026-09-28T22:40:00Z",
+  "requested_at": 1789415835.1569142,
+  "write_to": "state/sentiment/aec-mlb-cws-cle-2026-09-14.json"
+ },
+ "tec-epl-title-2027-05-30-w-mnc": {
+  "question": "English Premier League Champion",
+  "outcome": "Manchester City",
+  "category": "sports",
+  "ends": "2027-06-13T23:00:00Z",
+  "requested_at": 1789401437.4830494,
+  "write_to": "state/sentiment/tec-epl-title-2027-05-30-w-mnc.json"
+ },
+ "tsc-mlb-mia-az-2026-09-14-7pt5": {
+  "question": "Will the total in Miami Marlins vs Arizona Diamondbacks be more than 7.5?",
+  "outcome": "Over",
+  "category": "sports",
+  "ends": "2026-09-29T01:40:00Z",
+  "requested_at": 1789401437.461004,
+  "write_to": "state/sentiment/tsc-mlb-mia-az-2026-09-14-7pt5.json"
+ },
+ "ipcc-anthropic-2026-12-31": {
+  "question": "Anthropic IPO Officially Confirmed By",
+  "outcome": "December 31, 2026",
+  "category": "finance",
+  "ends": "2027-07-14T23:00:00Z",
+  "requested_at": 1789394231.7795722,
+  "write_to": "state/sentiment/ipcc-anthropic-2026-12-31.json"
+ },
+ "atc-sea-int-udi-2026-09-14-int": {
+  "question": "Will FC Internazionale Milano win against Udinese Calcio in the Serie A match scheduled for Sep 14, 2026?",
+  "outcome": "Yes",
+  "category": "sports",
+  "ends": "2026-09-28T18:45:00Z",
+  "requested_at": 1789401437.4830494,
+  "write_to": "state/sentiment/atc-sea-int-udi-2026-09-14-int.json"
+ },
+ "ewc-usse-oh-2026-11-03-dem": {
+  "question": "Ohio Senate Election Winner",
+  "outcome": "Sherrod Brown (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789408640.323261,
+  "write_to": "state/sentiment/ewc-usse-oh-2026-11-03-dem.json"
+ },
+ "tac-oscars-03-14-2027-bestpic-digger": {
+  "question": "Oscar Winner: Best Picture",
+  "outcome": "Digger",
+  "category": "culture",
+  "ends": "2027-03-28T23:00:00Z",
+  "requested_at": 1789401437.5001023,
+  "write_to": "state/sentiment/tac-oscars-03-14-2027-bestpic-digger.json"
+ },
+ "tec-mlb-nlchamp-2026-09-27-atl": {
+  "question": "National League Champion",
+  "outcome": "Atlanta Braves",
+  "category": "sports",
+  "ends": "2026-11-06T16:20:09Z",
+  "requested_at": 1789408640.3103476,
+  "write_to": "state/sentiment/tec-mlb-nlchamp-2026-09-27-atl.json"
+ },
+ "aec-mlb-sd-col-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event San Diego Padres vs Colorado Rockies scheduled for September 15, 2026 at 12:40 AM UTC?",
+  "outcome": "San Diego Padres",
+  "category": "sports",
+  "ends": "2026-09-29T00:40:00Z",
+  "requested_at": 1789408640.323261,
+  "write_to": "state/sentiment/aec-mlb-sd-col-2026-09-14.json"
+ },
+ "aqc-mlb-postseason-2026-09-27-q-az": {
+  "question": "MLB Postseason Teams",
+  "outcome": "Diamondbacks",
+  "category": "sports",
+  "ends": "2026-10-11T23:00:00Z",
+  "requested_at": 1789415835.1569142,
+  "write_to": "state/sentiment/aqc-mlb-postseason-2026-09-27-q-az.json"
+ },
+ "ewc-usgub-nv-2026-11-03-dem": {
+  "question": "Nevada Governor Election Winner",
+  "outcome": "Aaron Ford (D)",
+  "category": "politics",
+  "ends": "2026-11-17T23:00:00Z",
+  "requested_at": 1789415835.1732044,
+  "write_to": "state/sentiment/ewc-usgub-nv-2026-11-03-dem.json"
+ },
+ "aec-mlb-nyy-min-2026-09-14": {
+  "question": "Who will win in the upcoming baseball event New York Yankees vs Minnesota Twins scheduled for September 14, 2026 at 11:40 PM UTC?",
+  "outcome": "New York Yankees",
+  "category": "sports",
+  "ends": "2026-09-28T23:40:00Z",
+  "requested_at": 1789415835.1732044,
+  "write_to": "state/sentiment/aec-mlb-nyy-min-2026-09-14.json"
+ },
+ "aachc-mlb-2026-09-27-br-lad": {
+  "question": "MLB Best Regular Season Record",
+  "outcome": "Dodgers",
+  "category": "sports",
+  "ends": "2026-10-11T23:00:00Z",
+  "requested_at": 1789415835.1732044,
+  "write_to": "state/sentiment/aachc-mlb-2026-09-27-br-lad.json"
+ }
+}

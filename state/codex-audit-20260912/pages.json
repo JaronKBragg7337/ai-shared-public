@@ -1,0 +1,35 @@
+[
+  {
+    "route": "/live-systems/",
+    "status": 200,
+    "title": "Live Systems · Heartbeat Observatory",
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "errors": [],
+    "excerpt": "HEARTBEAT OBSERVATORY\nSign in\n← All sections\nLive Systems\n\nYour own systems on display, shown live as they run.\n\nLive\nPERSISTENT LOCAL AGENT · MSI\nQwen / Polymarket US →\n\nThe local model running on the MSI, with its Polymarket US tooling. Public dashboard; the owner channel is reserved for the owner.\n\nPERSISTENT WORLD · OPEN CONTROLLER PROTOCOL\nHabitat →\n\nThe controller-neutral world with its 3D viewer and Supabase world state. Seed-01 was its first live external mind.\n\nPREDICTION MARKETS · OWNER-GATED\nTrade Desk →\n\nAgents screen Polymarket US, research each question without seeing the price, and propose. A script re-checks the numbers; the owner approves from a phone; a script places. The account, every position, and a ledger of who did what — human or AI — are on the same page.\n\nPAID WORK · PARKED\nRevenue Desk →\n\nReads public bounty boards daily and holds survivors for approval. Set as"
+  },
+  {
+    "route": "/live-systems/trades/",
+    "status": 200,
+    "title": "Trade Desk — Heartbeat Observatory",
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "errors": [],
+    "excerpt": "HEARTBEAT OBSERVATORY\nDirectory\nLive Systems\nQwen\nPaper\nSign in\n\nOWNER DECISION REQUIRED\n\nTrade / Desk\nUpdated 1:42:16 PM\nNothing is placed without an explicit yes\n\nAgents propose. A script re-checks the numbers. You decide from your phone. A script places.\n\nDecide 7\nAccount\nLedger\nHistory\nAWAITING YOU\n7\nVERIFIED\n7\nAPPROVED\n5\nPLACED\n9\n\nWAITING ON A DECISION\n\nPending proposals\n\nEdge is the independent probability minus what you would pay. Spread is what entry costs. Edge must beat spread or it should not be here. Open interest is whether you could get out again — a tight spread on an empty book is not a real market. Size is yours to change before you approve; every share pays $1 if the side you bought is right, nothing if it is wrong.\n\nBuffalo vs. Houston — Bills\n\nNFL › Sports › Games › Football › Week 1 · football_team_full_game_winner · open in Polymarket ↗\n\nYES buy Bills at 53.0¢ a sha"
+  },
+  {
+    "route": "/qwen/",
+    "status": 200,
+    "title": "Qwen / Polymarket US — Heartbeat Observatory",
+    "layout": {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    "errors": [],
+    "excerpt": "HEARTBEAT OBSERVATORY\nSign in to control\n\nPERSISTENT LOCAL AGENT\n\nQwen / Polymarket US\nLast heartbeat just now\nRead-only execution mode\n\nOWNER CHANNEL · SAME MSI SESSION\n\nTalk to Qwen\nSIGN-IN REQUIRED\nPrivate control channel\n\nAnyone can view the dashboard. Sign in with the owner account to message Qwen.\n\nSign in to message Qwen →\n\nRUNTIME\n\nConnection state\n\nState store updated Sep 12, 1:42 PM\n\nQwen\nONLINE\n\nqwen3.5:4b\n\nOllama\nONLINE\n\nqwen3.5:4b\n\nOpenClaw\nONLINE\n\nNo additional detail reported\n\nMCP service\nONLINE\n\npolymarket-us · Last read just now\n\nPolymarket US\nONLINE\n\nPolymarket US retail API · Credential presence confirmed\n\nOBSERVED ACCOUNT\n\nPolymarket US state\nMCP / API RESPONSE\nACCOUNT IDENTITY\n••••\npolymarket_readiness + authenticated account responses\nAUTHENTICATION\nAuthenticated\nCredential presence confirmed · value hidden\nOBSERVATION\n1:42:10 PM\nLast successful account read\nAVAILAB"
+  }
+]

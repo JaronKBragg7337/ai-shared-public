@@ -1,0 +1,1 @@
+homeWP=0.9289 famuWP=0.0711 alstWP=0.9289 detail=End of 3rd Quarter scores=ALST=24(home) FAMU=14(away) completed=False

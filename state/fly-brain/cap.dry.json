@@ -1,0 +1,8 @@
+{
+ "per_trade": 1.0,
+ "exposure": 5.0,
+ "realized": 0.0,
+ "milestones": [],
+ "press": 20.0,
+ "letgo": -15.0
+}

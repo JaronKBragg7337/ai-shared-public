@@ -1,0 +1,209 @@
+[
+ {
+  "title": "Could not walk to core sample site S2",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:10",
+  "detail": "gave up after 100s; last distance 225 m",
+  "shot": "shots-iphone/024-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "03:11 [fly] tap on empty 3D view at 43,527",
+   "03:20 [fly] trip ended",
+   "03:20 [fly] after trip: landed=true onMoon=true moon=Phobos flying=false",
+   "03:20 [fly] on phobos: stand up and walk out",
+   "03:20 [fly] tap #chip-ramp (lower the ramp from the pilot seat)",
+   "03:25 [fly] tap #space-sheet .close (close the Course sheet)",
+   "03:26 [fly] tap button \"Stand\" (stand up)",
+   "03:41 [fly] walk to off the ramp tip",
+   "03:43 [fly] 3 sample sites known",
+   "03:43 [fly] walk to core sample site S1",
+   "04:28 [fly] tap #btn-action (action)",
+   "04:29 [fly] walk to core sample site S2"
+  ]
+ },
+ {
+  "title": "Could not walk to core sample site S3",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:50",
+  "detail": "gave up after 100s; last distance 1056 m",
+  "shot": "shots-iphone/028-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "03:20 [fly] trip ended",
+   "03:20 [fly] after trip: landed=true onMoon=true moon=Phobos flying=false",
+   "03:20 [fly] on phobos: stand up and walk out",
+   "03:20 [fly] tap #chip-ramp (lower the ramp from the pilot seat)",
+   "03:25 [fly] tap #space-sheet .close (close the Course sheet)",
+   "03:26 [fly] tap button \"Stand\" (stand up)",
+   "03:41 [fly] walk to off the ramp tip",
+   "03:43 [fly] 3 sample sites known",
+   "03:43 [fly] walk to core sample site S1",
+   "04:28 [fly] tap #btn-action (action)",
+   "04:29 [fly] walk to core sample site S2",
+   "06:10 [fly] walk to core sample site S3"
+  ]
+ },
+ {
+  "title": "Could not walk to core sample site S1",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:50",
+  "detail": "gave up after 100s; last distance 3240 m",
+  "shot": "shots-iphone/044-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "11:28 [fly] tap button \"×5\" (speed up ×5)",
+   "11:30 [fly] tap button \"×20\" (speed up ×20)",
+   "11:36 [fly] tap button \"×60\" (speed up ×60)",
+   "11:47 [fly] trip ended",
+   "11:47 [fly] after trip: landed=true onMoon=true moon=Deimos flying=false",
+   "11:47 [fly] on deimos: stand up and walk out",
+   "11:47 [fly] tap #chip-ramp (lower the ramp from the pilot seat)",
+   "11:52 [fly] tap #space-sheet .close (close the Course sheet)",
+   "11:52 [fly] tap button \"Stand\" (stand up)",
+   "12:08 [fly] walk to off the ramp tip",
+   "12:10 [fly] 1 sample sites known",
+   "12:10 [fly] walk to core sample site S1"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "shot": "shots-iphone/002-start-PROBLEM-console-error.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js",
+  "shot": "shots-iphone/001-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js",
+  "shot": "shots-iphone/004-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Game said: \"Cruise: raiders cannot follow a ship at this speed\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 3,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:41",
+  "detail": "shown in hud-readout while the bot was: 01:29 [fly] tap on empty 3D view at 263,604",
+  "shot": "shots-iphone/012-fly-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:24 [fly] tap button \"Phobos7667 km · about 36 minLand at the \" (choose Phobos)",
+   "00:26 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Phobos (pad 01)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "00:26 [fly] trip phase lift, warp x1, eta 0s",
+   "00:26 [fly] tap button \"×60\" (speed up ×60)",
+   "00:29 [fly] tap on empty 3D view at 287,662",
+   "00:33 [fly] tap button \"×20\" (speed up ×20)",
+   "00:36 [fly] trip phase ascent, warp x20, eta 0s",
+   "00:36 [fly] tap button \"×20\" (speed up ×20)",
+   "00:45 [fly] tap button \"×60\" (speed up ×60)",
+   "00:48 [fly] tap button \"×5\" (speed up ×5)",
+   "00:51 [fly] tap on empty 3D view at 41,584",
+   "01:29 [fly] tap on empty 3D view at 263,604"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:10",
+  "detail": "a single frame took 2121 ms (typical 28 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/007-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off",
+   "00:01 [start] websocket open ws://127.0.0.1:8463/",
+   "00:08 [fly] === phase fly starts",
+   "00:08 [fly] ship centre at port 0,0; ramp foot 0,30"
+  ]
+ }
+]

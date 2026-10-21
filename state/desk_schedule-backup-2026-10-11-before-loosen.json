@@ -1,0 +1,148 @@
+{
+ "tz": "America/Indiana/Indianapolis",
+ "global_closed": {
+  "from": "02:00",
+  "to": "11:00"
+ },
+ "quiet": {
+  "from": "00:00",
+  "to": "07:00"
+ },
+ "evening_report": "21:00",
+ "lanes": [
+  {
+   "name": "college football",
+   "sports": [
+    "cfb"
+   ],
+   "remind": true,
+   "windows": [
+    {
+     "days": [
+      "fri",
+      "sat"
+     ],
+     "from": "11:00",
+     "to": "02:00",
+     "cap_usd": null
+    }
+   ]
+  },
+  {
+   "name": "NFL",
+   "sports": [
+    "nfl"
+   ],
+   "remind": true,
+   "windows": [
+    {
+     "days": [
+      "sun"
+     ],
+     "from": "13:00",
+     "to": "20:00",
+     "cap_usd": null
+    },
+    {
+     "days": [
+      "thu",
+      "sun"
+     ],
+     "from": "20:00",
+     "to": "24:00",
+     "cap_usd": 2
+    }
+   ]
+  },
+  {
+   "name": "basketball (test)",
+   "sports": [
+    "nba",
+    "wnba",
+    "cbb",
+    "ncaab"
+   ],
+   "remind": false,
+   "windows": [
+    {
+     "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "00:00",
+     "to": "24:00",
+     "cap_usd": 1
+    }
+   ]
+  },
+  {
+   "name": "soccer (test)",
+   "sports": [
+    "epl",
+    "mls",
+    "ucl",
+    "uel",
+    "lal",
+    "bun",
+    "sea",
+    "lg1",
+    "unl",
+    "cop",
+    "acle",
+    "lmx",
+    "lpa",
+    "ekst",
+    "afcq",
+    "intf",
+    "cnl",
+    "ncaams",
+    "ncaaws"
+   ],
+   "remind": false,
+   "windows": [
+    {
+     "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "00:00",
+     "to": "24:00",
+     "cap_usd": 1
+    }
+   ]
+  },
+  {
+   "name": "Bitcoin",
+   "sports": [
+    "btc"
+   ],
+   "remind": false,
+   "windows": [
+    {
+     "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "00:00",
+     "to": "24:00",
+     "cap_usd": null
+    }
+   ]
+  }
+ ]
+}

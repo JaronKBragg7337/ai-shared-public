@@ -1,0 +1,1118 @@
+﻿{
+    "today":  {
+                  "utc":  "2026-09-10 23:12:56 UTC",
+                  "local":  "2026-09-10 19:12:56",
+                  "unix":  1789081976,
+                  "note":  "Any market resolving AFTER this moment is undecided. Any event dated BEFORE it has already happened. Never infer today\u0027s date from training."
+              },
+    "balance":  10,
+    "buyingPower":  10,
+    "event_markets":  451,
+    "tradeable_market_count":  443,
+    "filtered_non_prop_count":  110,
+    "filtered":  [
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 5.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-5pt5",
+                         "id":  "780019",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.19",
+                         "bid":  0.68,
+                         "ask":  0.87
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-10pt5",
+                         "id":  "780062",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.43",
+                         "bid":  0.46,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 14.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-14pt5",
+                         "id":  "780012",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.07,
+                         "ask":  0.55
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-10pt5",
+                         "id":  "780054",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.09,
+                         "ask":  0.59
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-13pt5",
+                         "id":  "780072",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.35",
+                         "bid":  0.18,
+                         "ask":  0.53
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 7.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-7pt5",
+                         "id":  "780027",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.24",
+                         "bid":  0.63,
+                         "ask":  0.87
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 25.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2h-25pt5",
+                         "id":  "780005",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.31",
+                         "bid":  0.27,
+                         "ask":  0.58
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-10pt5",
+                         "id":  "780070",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.18,
+                         "ask":  0.68
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 34.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-34pt5",
+                         "id":  "780052",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.31",
+                         "bid":  0.13,
+                         "ask":  0.44
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-6pt5",
+                         "id":  "780026",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.41,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-12pt5",
+                         "id":  "780071",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.39",
+                         "bid":  0.14,
+                         "ask":  0.53
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-20pt5",
+                         "id":  "780036",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.32,
+                         "ask":  0.8
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-16pt5",
+                         "id":  "780057",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.46",
+                         "bid":  0.07,
+                         "ask":  0.53
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-10pt5",
+                         "id":  "780022",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.41",
+                         "bid":  0.07,
+                         "ask":  0.48
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 62.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-62pt5",
+                         "id":  "779829",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.01,
+                         "ask":  0.51
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 50.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-50pt5",
+                         "id":  "779823",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.22",
+                         "bid":  0.27,
+                         "ask":  0.49
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-13pt5",
+                         "id":  "780029",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.2,
+                         "ask":  0.68
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-10pt5",
+                         "id":  "780016",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.29",
+                         "bid":  0.41,
+                         "ask":  0.7
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 22.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2h-22pt5",
+                         "id":  "780004",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.3",
+                         "bid":  0.33,
+                         "ask":  0.63
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-10pt5",
+                         "id":  "780078",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.47",
+                         "bid":  0.42,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 36.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-36pt5",
+                         "id":  "779816",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.39,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 25.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1h-25pt5",
+                         "id":  "780000",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.24",
+                         "bid":  0.23,
+                         "ask":  0.47
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-6pt5",
+                         "id":  "780077",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.42,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-12pt5",
+                         "id":  "780079",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.3,
+                         "ask":  0.8
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-20pt5",
+                         "id":  "780076",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.01,
+                         "ask":  0.51
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 17.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-17pt5",
+                         "id":  "780066",
+                         "tradeable":  false,
+                         "reason":  "no_bid_and_no_ask_placeholder_quote",
+                         "bid":  null,
+                         "ask":  null
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-16pt5",
+                         "id":  "780065",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.27",
+                         "bid":  0.31,
+                         "ask":  0.58
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-19pt5",
+                         "id":  "780067",
+                         "tradeable":  false,
+                         "reason":  "no_bid_and_no_ask_placeholder_quote",
+                         "bid":  null,
+                         "ask":  null
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-13pt5",
+                         "id":  "780064",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.19,
+                         "ask":  0.69
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-12pt5",
+                         "id":  "780063",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.27,
+                         "ask":  0.77
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 23.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-23pt5",
+                         "id":  "780048",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.35",
+                         "bid":  0.51,
+                         "ask":  0.86
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-19pt5",
+                         "id":  "780046",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.33",
+                         "bid":  0.55,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-13pt5",
+                         "id":  "780044",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.09",
+                         "bid":  0.8,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 30.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-30pt5",
+                         "id":  "780040",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.34",
+                         "bid":  0.11,
+                         "ask":  0.45
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 26.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-26pt5",
+                         "id":  "780038",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.11,
+                         "ask":  0.61
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-13pt5",
+                         "id":  "780033",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.2",
+                         "bid":  0.62,
+                         "ask":  0.82
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-10pt5",
+                         "id":  "780031",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.17",
+                         "bid":  0.72,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-10pt5",
+                         "id":  "780028",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.4",
+                         "bid":  0.37,
+                         "ask":  0.77
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-13pt5",
+                         "id":  "780023",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.38",
+                         "bid":  0.03,
+                         "ask":  0.41
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 7.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-7pt5",
+                         "id":  "780021",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.36",
+                         "bid":  0.35,
+                         "ask":  0.71
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-13pt5",
+                         "id":  "780017",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.3",
+                         "bid":  0.27,
+                         "ask":  0.57
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 14.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-14pt5",
+                         "id":  "780018",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.32",
+                         "bid":  0.23,
+                         "ask":  0.55
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 7.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-7pt5",
+                         "id":  "780009",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.44",
+                         "bid":  0.25,
+                         "ask":  0.69
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-6pt5",
+                         "id":  "780008",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.28",
+                         "bid":  0.47,
+                         "ask":  0.75
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2h-16pt5",
+                         "id":  "780002",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.46",
+                         "bid":  0.32,
+                         "ask":  0.78
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 28.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1h-28pt5",
+                         "id":  "780001",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.24",
+                         "bid":  0.07,
+                         "ask":  0.31
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1h-16pt5",
+                         "id":  "779997",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.33",
+                         "bid":  0.6,
+                         "ask":  0.93
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 60.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-60pt5",
+                         "id":  "779828",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.05,
+                         "ask":  0.55
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 30.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-30pt5",
+                         "id":  "779813",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.15",
+                         "bid":  0.75,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 24.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-24pt5",
+                         "id":  "779806",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.19",
+                         "bid":  0.71,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-6pt5",
+                         "id":  "780069",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.33,
+                         "ask":  0.83
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 34.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-34pt5",
+                         "id":  "780041",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.32",
+                         "bid":  0.1,
+                         "ask":  0.42
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 22.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1h-22pt5",
+                         "id":  "779999",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.32",
+                         "bid":  0.29,
+                         "ask":  0.61
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 44.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-44pt5",
+                         "id":  "779820",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.21",
+                         "bid":  0.68,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 14.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-14pt5",
+                         "id":  "780030",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.17,
+                         "ask":  0.65
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-13pt5",
+                         "id":  "780011",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.43",
+                         "bid":  0.07,
+                         "ask":  0.5
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-6pt5",
+                         "id":  "780014",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.46",
+                         "bid":  0.38,
+                         "ask":  0.84
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-19pt5",
+                         "id":  "780035",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.4",
+                         "bid":  0.26,
+                         "ask":  0.66
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-10pt5",
+                         "id":  "780010",
+                         "tradeable":  false,
+                         "reason":  "no_bid_and_no_ask_placeholder_quote",
+                         "bid":  null,
+                         "ask":  null
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-20pt5",
+                         "id":  "780068",
+                         "tradeable":  false,
+                         "reason":  "no_bid_and_no_ask_placeholder_quote",
+                         "bid":  null,
+                         "ask":  null
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2h-19pt5",
+                         "id":  "780003",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.42",
+                         "bid":  0.46,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 52.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-52pt5",
+                         "id":  "779824",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.07,
+                         "ask":  0.57
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-16pt5",
+                         "id":  "780034",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.4",
+                         "bid":  0.41,
+                         "ask":  0.81
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 5.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-5pt5",
+                         "id":  "780013",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.19",
+                         "bid":  0.7,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 32.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-32pt5",
+                         "id":  "779814",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.46",
+                         "bid":  0.44,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 26.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-26pt5",
+                         "id":  "780049",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.46",
+                         "bid":  0.16,
+                         "ask":  0.62
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 27.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-27pt5",
+                         "id":  "780050",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.42",
+                         "bid":  0.12,
+                         "ask":  0.54
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 46.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-46pt5",
+                         "id":  "779821",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.34",
+                         "bid":  0.25,
+                         "ask":  0.59
+                     },
+                     {
+                         "q":  "Who will win in the upcoming football event Atlanta Falcons vs Green Bay Packers scheduled for September 25, 2026 at 12:15 AM UTC?",
+                         "slug":  "aec-nfl-atl-gb-2026-09-24",
+                         "id":  "779756",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.065",
+                         "bid":  0.265,
+                         "ask":  0.33
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-6pt5",
+                         "id":  "780020",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.33,
+                         "ask":  0.81
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-12pt5",
+                         "id":  "780043",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.1",
+                         "bid":  0.8,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 40.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-40pt5",
+                         "id":  "779818",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.21",
+                         "bid":  0.68,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 54.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-54pt5",
+                         "id":  "779825",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.38",
+                         "bid":  0.15,
+                         "ask":  0.53
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 7.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2q-7pt5",
+                         "id":  "780015",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.29",
+                         "bid":  0.55,
+                         "ask":  0.84
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-16pt5",
+                         "id":  "780073",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.42",
+                         "bid":  0.12,
+                         "ask":  0.54
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 5.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1q-5pt5",
+                         "id":  "780007",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.36",
+                         "bid":  0.52,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 10.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-10pt5",
+                         "id":  "780042",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.22",
+                         "bid":  0.68,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-1h-19pt5",
+                         "id":  "779998",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.36",
+                         "bid":  0.57,
+                         "ask":  0.93
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 42.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-42pt5",
+                         "id":  "779819",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.37,
+                         "ask":  0.87
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 48.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-48pt5",
+                         "id":  "779822",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.32,
+                         "ask":  0.81
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 56.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-56pt5",
+                         "id":  "779826",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.13,
+                         "ask":  0.63
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-13pt5",
+                         "id":  "780056",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.07",
+                         "bid":  0.49,
+                         "ask":  0.56
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 17.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-17pt5",
+                         "id":  "780074",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.48",
+                         "bid":  0.05,
+                         "ask":  0.53
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-atl-19pt5",
+                         "id":  "780075",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.03,
+                         "ask":  0.52
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 13.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-13pt5",
+                         "id":  "780080",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.22,
+                         "ask":  0.72
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-16pt5",
+                         "id":  "780081",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.07,
+                         "ask":  0.57
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-20pt5",
+                         "id":  "780084",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.17",
+                         "bid":  0.03,
+                         "ask":  0.2
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 17.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-17pt5",
+                         "id":  "780082",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.2",
+                         "bid":  0.14,
+                         "ask":  0.34
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-6pt5",
+                         "id":  "780053",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.36",
+                         "bid":  0.52,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-19pt5",
+                         "id":  "780059",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.47",
+                         "bid":  0.02,
+                         "ask":  0.49
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 27.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-27pt5",
+                         "id":  "780039",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.21",
+                         "bid":  0.11,
+                         "ask":  0.32
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-12pt5",
+                         "id":  "780055",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.41",
+                         "bid":  0.18,
+                         "ask":  0.59
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 38.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-38pt5",
+                         "id":  "779817",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.15",
+                         "bid":  0.74,
+                         "ask":  0.89
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 19.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt2h-gb-19pt5",
+                         "id":  "780083",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.5",
+                         "bid":  0.09,
+                         "ask":  0.59
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 6.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-gb-6pt5",
+                         "id":  "780061",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.41,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-20pt5",
+                         "id":  "780060",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.02,
+                         "ask":  0.51
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 17.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt1h-atl-17pt5",
+                         "id":  "780058",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.02,
+                         "ask":  0.51
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 30.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-30pt5",
+                         "id":  "780051",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.28",
+                         "bid":  0.23,
+                         "ask":  0.51
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 16.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-16pt5",
+                         "id":  "780045",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.15",
+                         "bid":  0.75,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 20.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-gb-20pt5",
+                         "id":  "780047",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.34",
+                         "bid":  0.54,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 14.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-3q-14pt5",
+                         "id":  "780024",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.49",
+                         "bid":  0.07,
+                         "ask":  0.56
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 5.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-4q-5pt5",
+                         "id":  "780025",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.3",
+                         "bid":  0.6,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 58.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-58pt5",
+                         "id":  "779827",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.15",
+                         "bid":  0.1,
+                         "ask":  0.25
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 64.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-64pt5",
+                         "id":  "779830",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.09",
+                         "bid":  0.01,
+                         "ask":  0.1
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 34.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-34pt5",
+                         "id":  "779815",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.35",
+                         "bid":  0.42,
+                         "ask":  0.77
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 28.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-28pt5",
+                         "id":  "779811",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.03",
+                         "bid":  0.87,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 26.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-total-26pt5",
+                         "id":  "779808",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.16",
+                         "bid":  0.74,
+                         "ask":  0.9
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 28.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-2h-28pt5",
+                         "id":  "780006",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.24",
+                         "bid":  0.21,
+                         "ask":  0.45
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 12.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-12pt5",
+                         "id":  "780032",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.3",
+                         "bid":  0.58,
+                         "ask":  0.88
+                     },
+                     {
+                         "q":  "Will the total in Atlanta vs. Green Bay be more than 23.5?",
+                         "slug":  "tsc-nfl-atl-gb-2026-09-24-tt-atl-23pt5",
+                         "id":  "780037",
+                         "tradeable":  true,
+                         "reason":  "ok_spread_0.25",
+                         "bid":  0.2,
+                         "ask":  0.45
+                     }
+                 ],
+    "around_043":  [
+                       {
+                           "q":  "Will Atlanta Falcons win the third quarter?",
+                           "slug":  "atc-nfl-atl-gb-2026-09-24-winner-3q-atl",
+                           "id":  "779855",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.05",
+                           "bid":  0.42,
+                           "ask":  0.47
+                       },
+                       {
+                           "q":  "Will Atlanta Falcons win the second half?",
+                           "slug":  "atc-nfl-atl-gb-2026-09-24-winner-2h-atl",
+                           "id":  "779846",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.02",
+                           "bid":  0.4,
+                           "ask":  0.42
+                       },
+                       {
+                           "q":  "Total Passing Yards: Over 500.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-pyd-500pt5",
+                           "id":  "780147",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.42,
+                           "ask":  0.43
+                       },
+                       {
+                           "q":  "Both Teams to Score Points - 2nd Quarter: Over 0.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-bp2q-0pt5",
+                           "id":  "780110",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.42,
+                           "ask":  0.43
+                       },
+                       {
+                           "q":  "Will the Atlanta Falcons cover 4.5 vs the Green Bay Packers in Atlanta vs. Green Bay?",
+                           "slug":  "asc-nfl-atl-gb-2026-09-24-pos-4pt5",
+                           "id":  "779786",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.02",
+                           "bid":  0.415,
+                           "ask":  0.435
+                       },
+                       {
+                           "q":  "Total Rushing Yards: Over 250.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-ryd-250pt5",
+                           "id":  "780157",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.42,
+                           "ask":  0.43
+                       },
+                       {
+                           "q":  "Total Passing Touchdowns: Over 3.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-ptd-3pt5",
+                           "id":  "780140",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.44,
+                           "ask":  0.45
+                       },
+                       {
+                           "q":  "Both Teams to Score Points - 4th Quarter: Over 0.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-bp4q-0pt5",
+                           "id":  "780112",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.44,
+                           "ask":  0.45
+                       },
+                       {
+                           "q":  "Team Total Sacks: Over 2.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-sacks-atl-2pt5",
+                           "id":  "780180",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.44,
+                           "ask":  0.45
+                       },
+                       {
+                           "q":  "Both Teams to Score a Touchdown - 1st Half: Over 0.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-btd1h-0pt5",
+                           "id":  "780113",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.45,
+                           "ask":  0.46
+                       },
+                       {
+                           "q":  "Both Teams to Score a Touchdown - 2nd Half: Over 0.5",
+                           "slug":  "astatc-nfl-atl-gb-2026-09-24-btd2h-0pt5",
+                           "id":  "780114",
+                           "tradeable":  true,
+                           "reason":  "ok_spread_0.01",
+                           "bid":  0.45,
+                           "ask":  0.46
+                       }
+                   ],
+    "prop":  {
+                 "question":  "Will Atlanta Falcons win the fourth quarter?",
+                 "id":  "779858",
+                 "slug":  "atc-nfl-atl-gb-2026-09-24-winner-4q-atl",
+                 "bid":  "0.2100",
+                 "ask":  "0.2200",
+                 "tradeable":  true,
+                 "reason":  "ok_spread_0.01"
+             },
+    "orderbook_preview":  "{\"marketData\": {\"marketSlug\": \"atc-nfl-atl-gb-2026-09-24-winner-4q-atl\", \"bids\": [{\"px\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"qty\": \"106.0000\"}, {\"px\": {\"value\": \"0.1800\", \"currency\": \"USD\"}, \"qty\": \"100.0000\"}, {\"px\": {\"value\": \"0.1500\", \"currency\": \"USD\"}, \"qty\": \"50.0000\"}, {\"px\": {\"value\": \"0.1000\", \"currency\": \"USD\"}, \"qty\": \"120.0000\"}, {\"px\": {\"value\": \"0.0300\", \"currency\": \"USD\"}, \"qty\": \"50.0000\"}, {\"px\": {\"value\": \"0.0200\", \"currency\": \"USD\"}, \"qty\": \"150.0000\"}, {\"px\": {\"value\": \"0.0100\", \"currency\": \"USD\"}, \"qty\": \"54430.0000\"}], \"offers\": [{\"px\": {\"value\": \"0.2200\", \"currency\": \"USD\"}, \"qty\": \"6.0000\"}, {\"px\": {\"value\": \"0.5700\", \"currency\": \"USD\"}, \"qty\": \"200.0000\"}, {\"px\": {\"value\": \"0.7500\", \"currency\": \"USD\"}, \"qty\": \"50.0000\"}, {\"px\": {\"value\": \"0.9000\", \"currency\": \"USD\"}, \"qty\": \"120.0000\"}, {\"px\": {\"value\": \"0.9700\", \"currency\": \"USD\"}, \"qty\": \"50.0000\"}, {\"px\": {\"value\": \"0.9800\", \"currency\": \"USD\"}, \"qty\": \"150.0000\"}, {\"px\": {\"value\": \"0.9900\", \"currency\": \"USD\"}, \"qty\": \"54424.0000\"}], \"state\": \"MARKET_STATE_OPEN\", \"stats\": {\"settlementPx\": {\"value\": \"0.0000\", \"currency\": \"USD\"}, \"settlementSetTime\": \"2026-09-10T21:00:23.691566211Z\", \"notionalSetTime\": \"2026-09-10T21:00:23.692020038Z\", \"settlementPriceCalculationMethod\": \"SETTLEMENT_PRICE_CALCULATION_METHOD_EVENT_TIER_4\", \"currentPx\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"lastPriceSample\": {\"longPx\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"shortPx\": {\"value\": \"0.79\", \"currency\": \"USD\"}, \"ts\":",
+    "bbo_preview":  "{\"marketData\": {\"marketSlug\": \"atc-nfl-atl-gb-2026-09-24-winner-4q-atl\", \"currentPx\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"lastTradePx\": null, \"settlementPx\": {\"value\": \"0.0000\", \"currency\": \"USD\"}, \"sharesTraded\": \"\", \"openInterest\": \"\", \"bestAsk\": {\"value\": \"0.2200\", \"currency\": \"USD\"}, \"bestBid\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"askDepth\": 7, \"bidDepth\": 7, \"lastPriceSample\": {\"longPx\": {\"value\": \"0.2100\", \"currency\": \"USD\"}, \"shortPx\": {\"value\": \"0.79\", \"currency\": \"USD\"}, \"ts\": \"2026-09-10T23:07:10.262666264Z\"}, \"longQuote\": {\"value\": \"0.2200\", \"currency\": \"USD\"}, \"shortQuote\": {\"value\": \"0.79\", \"currency\": \"USD\"}, \"state\": \"MARKET_STATE_OPEN\"}}",
+    "news_preview":  "{\"query\": \"Falcons Packers NFL preview September 2026\", \"retrieved_at\": \"2026-09-10 23:13:08 UTC\", \"count\": 8, \"results\": [{\"title\": \"NFL fixtures and schedule 2026: UK times for regular season games and post-season playoffs on road to Super Bowl LXI - Sky Sports\", \"published\": \"Thu, 10 Sep 2026 18:17:29 GMT\", \"source\": \"Sky Sports\", \"link\": \"https://news.google.com/rss/articles/CBMi_wFBVV95cUxOQVJrSURlS3Byd2RNNVBZUGJSd1daSDdtV3Q2Z0RHSlE4YV9lTWlRNkloaWNYMm5EV1lXUHFjYTNOOHBJOVI2SG5jLU5SVzBmZUp6VWlqd3F4ZXpDZGlLaDZuSmxiUTBYSG12Sl95b09pdW9pMDdiZVpOV3M0T2xsYWxsUzNOM0lqMklvSWNSNzJKcHZtalZSWnNna0RLelBIZDFCYi12U2w3b2J4X2FGQzdKRG1JTlg2MnZqUTl6LWg3cjJlTGtmZUhGaTRJXzdlcVJzRDJ5TGlIdEhTeHFqTzA5RXNEQWpuUE8tcFM4ZUlNQzBfbUZiWkNReE5qbnc?oc=5\"}, {\"title\": \"2026 NFL team win totals, odds, picks, best bets: Sleeping on Seattle? Lions bounce back, but fade Falcons - CBS Sports\", \"published\": \"Fri, 04 Sep 2026 12:11:57 GMT\", \"source\": \"CBS Sports\", \"link\": \"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmI5bUlHS2hWcmNuMGJPaHpuOUsxRm9FS3RRb2tKODZLOXB4M2Vmd3ZiQl9XT0p6MXFwcG8tamtKZkp1Y25mQUdESmNUc0p0YmtsVFRGM0J4cFYtWDlPVnNSeG5HdlZVSWwtZHc2Y3JlT28teHVhbXFZR0EyazdQZmY2TXZJTXhI?oc=5\"}, {\"title\": \"Atlanta Falcons at Minnesota Vikings - NFL News - Nov 29, 2026 - USA Today\", \"published\": \"Thu, 03 Sep 2026 14:48:55 GMT\", \"source\": \"USA Today\", \"link\": \"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1laVJlWDNBUWpGSEdPRGFWNmlJMTNVRndZUkpmV0tRNi0tbnNYU21NTV9FaVhoakpoVWFDSlhxT1ZQaUw0VWE0aVc5WGQ3N1BtX2I2Sl9sNFl6aHl0UVNHTHhYbUVZdTJp?oc=5\"}, {\"title\": \"Atlanta Falcons 2026 schedule: Key dates, matchups and storylines - Atlanta Falcons\", \"published\": \"Thu, 14 May 2026 07:00:00 GMT\", \"source\": \"Atlanta Falcons\", \"link\": \"https://news.google.com/rss/articles/CBMimwFBVV95cUxPR2hNYVE3dVRvY04xazFpQ1BRNVNMNkgzaUgtcDI5VlBJY1Vadmlza0V6elJOTWJGU2pNblV5aDJiZ29TYkE4M0tDMWF3YWpjMG9Zb2R1ME5rQWw2VmdfZ2VwS0pOZ0RsdnZnQjNYRkpSdWVPOUdOOEFfN1JjOVdnYi1CeDVuZUlqZmNGOEhlNTlUN25xb3hHdFlUSQ?oc=5\"}, {\"title\": \"10 thing"
+}

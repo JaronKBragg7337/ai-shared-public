@@ -1,0 +1,428 @@
+[
+ {
+  "title": "Game said: \"Walk to that place.\"",
+  "sev": 80,
+  "kind": "refusal-message",
+  "count": 2,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:34",
+  "detail": "shown in ship-toast while the bot was: 12:34 [dig] no Dig button (button: \"\"); turning to find ground",
+  "shot": "shots-iphone/105-dig-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "12:26 [dig] tap #btn-action (action)",
+   "12:27 [dig] tap #btn-action (action)",
+   "12:27 [dig] tap #btn-action (action)",
+   "12:27 [dig] tap #btn-action (action)",
+   "12:28 [dig] tap #btn-action (action)",
+   "12:29 [dig] tap #btn-action (action)",
+   "12:29 [dig] tap #btn-action (action)",
+   "12:30 [dig] tap #btn-action (action)",
+   "12:31 [dig] tap #btn-action (action)",
+   "12:31 [dig] mis-tap beside #btn-action",
+   "12:32 [dig] tap #btn-action (action)",
+   "12:34 [dig] no Dig button (button: \"\"); turning to find ground"
+  ]
+ },
+ {
+  "title": "Stuck while walking to the ship ramp",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 2,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:39",
+  "detail": "no progress for 56s at port 54,-30 (target 214,-101, 8 m away)",
+  "shot": "shots-iphone/128-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "14:47 [fly] not getting closer (8 m away), trying to get unstuck #3",
+   "14:47 [fly] run-up jump #3",
+   "14:50 [fly] jump",
+   "14:58 [fly] not getting closer (8 m away), trying to get unstuck #4",
+   "14:58 [fly] run-up jump #4",
+   "15:00 [fly] jump",
+   "15:09 [fly] not getting closer (8 m away), trying to get unstuck #5",
+   "15:09 [fly] sidestep around whatever is in the way",
+   "15:13 [fly] route of 21 legs",
+   "15:25 [fly] not getting closer (8 m away), trying to get unstuck #6",
+   "15:32 [fly] not getting closer (8 m away), trying to get unstuck #7",
+   "15:39 [fly] not getting closer (8 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Shift runner",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:03",
+  "detail": "no progress for 56s at port -61,-41 (target -64,-41, 3 m away)",
+  "shot": "shots-iphone/084-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "08:17 [tour] not getting closer (3 m away), trying to get unstuck #3",
+   "08:17 [tour] run-up jump #3",
+   "08:19 [tour] jump",
+   "08:27 [tour] not getting closer (3 m away), trying to get unstuck #4",
+   "08:27 [tour] run-up jump #4",
+   "08:30 [tour] jump",
+   "08:38 [tour] not getting closer (3 m away), trying to get unstuck #5",
+   "08:38 [tour] sidestep around whatever is in the way",
+   "08:42 [tour] route of 3 legs",
+   "08:49 [tour] not getting closer (3 m away), trying to get unstuck #6",
+   "08:56 [tour] not getting closer (3 m away), trying to get unstuck #7",
+   "09:03 [tour] not getting closer (3 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Lookout at the glass",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:19",
+  "detail": "no progress for 56s at port -59,-41 (target -56,-41, 4 m away)",
+  "shot": "shots-iphone/087-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "09:32 [tour] not getting closer (4 m away), trying to get unstuck #3",
+   "09:32 [tour] run-up jump #3",
+   "09:34 [tour] jump",
+   "09:43 [tour] not getting closer (4 m away), trying to get unstuck #4",
+   "09:43 [tour] run-up jump #4",
+   "09:45 [tour] jump",
+   "09:53 [tour] not getting closer (4 m away), trying to get unstuck #5",
+   "09:53 [tour] sidestep around whatever is in the way",
+   "09:57 [tour] route of 3 legs",
+   "10:05 [tour] not getting closer (4 m away), trying to get unstuck #6",
+   "10:12 [tour] not getting closer (4 m away), trying to get unstuck #7",
+   "10:19 [tour] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "The Dig button never appeared on open ground",
+  "sev": 78,
+  "kind": "cannot-dig",
+  "count": 1,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:06",
+  "detail": "button text \"Drop\", standing at {\"x\":-90.2,\"y\":0.3,\"z\":83.7}, looking down",
+  "shot": "shots-iphone/115-dig-PROBLEM-cannot-dig.jpg",
+  "steps": [
+   "12:57 [dig] tap #btn-action (action)",
+   "12:58 [dig] tap #btn-action (action)",
+   "12:59 [dig] tap #btn-action (action)",
+   "12:59 [dig] tap #btn-action (action)",
+   "13:00 [dig] tap #btn-action (action)",
+   "13:01 [dig] tap #btn-action (action)",
+   "13:01 [dig] mis-tap beside #btn-action",
+   "13:02 [dig] tap #btn-action (action)",
+   "13:03 [dig] tap #btn-action (action)",
+   "13:04 [dig] tap #btn-action (action)",
+   "13:04 [dig] mis-tap beside #btn-action",
+   "13:05 [dig] tap #btn-action (action)"
+  ]
+ },
+ {
+  "title": "Could not walk to Arrival guide",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "05:52",
+  "detail": "gave up after 120s; last distance 9 m",
+  "shot": "shots-desktop/046-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "03:42 [panels] tap #btn-close-settings (close Settings)",
+   "03:43 [panels] mis-tap beside #purse",
+   "03:44 [panels] tap #purse (open Account / purse)",
+   "03:46 [panels] tap #account-panel .account-close (close Account / purse)",
+   "03:47 [panels] tap #multiplayer-button (open World / crew)",
+   "03:49 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "03:50 [panels] tap #btn-key-controls (open Controls)",
+   "03:51 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "03:52 [tour] === phase tour starts",
+   "03:52 [tour] go talk to Arrival guide",
+   "03:52 [tour] walk to Arrival guide",
+   "03:53 [tour] route of 36 legs"
+  ]
+ },
+ {
+  "title": "Talk panel did not open for Watch supervisor",
+  "sev": 70,
+  "kind": "panel-not-open",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:07",
+  "detail": "tapped Talk, no panel",
+  "shot": "shots-iphone/062-tour-PROBLEM-panel-not-open.jpg",
+  "steps": [
+   "05:49 [tour] walk to lift landing",
+   "05:50 [tour] lift button says: Lift open · step inside",
+   "05:50 [tour] tap #btn-action (action)",
+   "05:51 [tour] walk to inside the lift",
+   "05:52 [tour] mis-tap beside #btn-action",
+   "05:53 [tour] tap #btn-action (action)",
+   "05:53 [tour] lift going up",
+   "06:03 [tour] arrived in the control cab",
+   "06:05 [tour] go talk to Watch supervisor",
+   "06:05 [tour] walk to Watch supervisor",
+   "06:05 [tour] route of 3 legs",
+   "06:06 [tour] tap #crew-talk (Talk to Watch supervisor)"
+  ]
+ },
+ {
+  "title": "Buttons are covered by something on top of them (2 places)",
+  "sev": 68,
+  "kind": "covered",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "03:50",
+  "detail": "#multiplayer-button \"World / crew\" is covered by #touch-key-KeyD ;  #voice-talk \"Hold B to talkno one near\" is covered by #touch-key-KeyW",
+  "shot": "shots-desktop/038-panels-PROBLEM-covered.jpg",
+  "steps": [
+   "03:37 [panels] tap #btn-settings (open Settings)",
+   "03:39 [panels] tap #set-view (settings switch #set-view)",
+   "03:40 [panels] tap #set-tool (settings switch #set-tool)",
+   "03:41 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "03:42 [panels] tap #set-voice-mute (toggle back)",
+   "03:42 [panels] tap #btn-close-settings (close Settings)",
+   "03:43 [panels] mis-tap beside #purse",
+   "03:44 [panels] tap #purse (open Account / purse)",
+   "03:46 [panels] tap #account-panel .account-close (close Account / purse)",
+   "03:47 [panels] tap #multiplayer-button (open World / crew)",
+   "03:49 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "03:50 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 8,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "01:18",
+  "detail": "cuts stayed 0 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/012-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:10 [opening] === phase opening starts",
+   "00:10 [opening] opening stage -1 -> 0 ()",
+   "00:13 [opening] tap screen to unlock sound",
+   "00:22 [opening] tap screen to unlock sound",
+   "01:12 [opening] opening stage 0 -> 1 (Move: WASD / left thumb · Look: mouse / right thumb)",
+   "01:15 [opening] tap #opening-action (opening action)",
+   "01:16 [opening] opening stage 1 -> 2 (Something lies beneath the collapsed dust.)",
+   "01:16 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap each other (3 places)",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 4,
+  "phase": "panels",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "03:32",
+  "detail": "#btn-close-settings \"✕\" overlaps #set-tool \"Hand spade Shovel Excavator \" by 77% ;  #touch-key-KeyW \"Forward\" overlaps #voice-talk \"Hold B to talkno one near\" by 97% ;  #touch-key-KeyD \"Right\" overlaps #multiplayer-button \"World / crew\" by 83%",
+  "shot": "shots-iphone/030-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "01:59 [opening] tap #opening-action (opening action)",
+   "02:01 [opening] tap #opening-action (opening action)",
+   "02:02 [opening] opening stage 2 -> 3 (A vehicle is approaching.)",
+   "02:03 [opening] walk to the rescue vehicle",
+   "02:10 [opening] tap #opening-action (opening action)",
+   "02:12 [opening] opening stage 3 -> 4 (Jorge: Free Settlements. We saw you come down.)",
+   "02:28 [opening] REFRESH (mid-ride)",
+   "02:28 [opening] websocket closed (the bot refreshed the page)",
+   "02:29 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "03:29 [opening] opening finished",
+   "03:31 [panels] === phase panels starts",
+   "03:31 [panels] tap #btn-settings (open Settings)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 17,
+  "phase": "opening",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "00:10",
+  "detail": "a single frame took 2627 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:10 [opening] === phase opening starts",
+   "00:10 [opening] opening stage -1 -> 0 ()"
+  ]
+ },
+ {
+  "title": "Game said: \"Weather sensors are offline. Watch the dust outside.\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:46",
+  "detail": "shown in crew-panel while the bot was: 07:45 [tour] tap button \"Understood. What can I do here?\" (answer back)",
+  "shot": "shots-iphone/079-tour-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "07:41 [tour] tap button \"✕\" (close talk panel)",
+   "07:41 [tour] go talk to Weather officer",
+   "07:41 [tour] walk to Weather officer",
+   "07:42 [tour] tap #crew-talk (Talk to Weather officer)",
+   "07:42 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "07:42 [tour] tap button \"✕\" (close talk panel)",
+   "07:43 [tour] go talk to Weather officer",
+   "07:43 [tour] walk to Weather officer",
+   "07:43 [tour] mis-tap beside #crew-talk",
+   "07:44 [tour] tap #crew-talk (Talk to Weather officer)",
+   "07:44 [tour] tap button \"What is your watch like?\" (ask them something)",
+   "07:45 [tour] tap button \"Understood. What can I do here?\" (answer back)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 4,
+  "phase": "tour",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "03:53",
+  "detail": "a single frame took 1195 ms (typical 26 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/037-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "03:36 [panels] tap #set-voice-mute (toggle back)",
+   "03:36 [panels] tap #btn-close-settings (close Settings)",
+   "03:36 [panels] tap #purse (open Account / purse)",
+   "03:38 [panels] tap #account-panel .account-close (close Account / purse)",
+   "03:38 [panels] tap #multiplayer-button (open World / crew)",
+   "03:39 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "03:40 [panels] tap #btn-key-controls (open Controls)",
+   "03:41 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "03:42 [tour] === phase tour starts",
+   "03:42 [tour] go talk to Arrival guide",
+   "03:42 [tour] walk to Arrival guide",
+   "03:42 [tour] route of 28 legs"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"freeplay\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "freeplay",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "17:40",
+  "detail": "a single frame took 2742 ms (typical 29 ms); 4 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/139-freeplay-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "17:09 [freeplay] tap button \"✕\"",
+   "17:11 [freeplay] tap #multiplayer-button (idle fiddling)",
+   "17:13 [freeplay] tap button \"✕\"",
+   "17:18 [freeplay] tap on empty 3D view at 103,608",
+   "17:23 [freeplay] mis-tap beside #btn-key-controls",
+   "17:24 [freeplay] tap #btn-key-controls (idle fiddling)",
+   "17:27 [freeplay] mis-tap beside #purse",
+   "17:28 [freeplay] tap #purse (idle fiddling)",
+   "17:29 [freeplay] tap button \"Close\"",
+   "17:30 [freeplay] REFRESH (random refresh while playing)",
+   "17:30 [freeplay] websocket closed (the bot refreshed the page)",
+   "17:31 [freeplay] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"hire\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:18",
+  "detail": "a single frame took 2926 ms (typical 29 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/091-hire-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "10:19 [tour] back down the lift",
+   "10:19 [tour] walk to cab landing",
+   "10:46 [tour] walk to inside the lift (down)",
+   "10:47 [tour] tap #btn-action (action)",
+   "11:00 [tour] REFRESH (refresh after the port tour)",
+   "11:00 [tour] websocket closed (the bot refreshed the page)",
+   "11:01 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "11:12 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "11:12 [hire] === phase hire starts",
+   "11:12 [hire] candidates: Jorge(Navigator), Sunita(Gunner (dorsal)), Walter(Gunner (ventral)), Zuri Okafor 1(Captain), Ada Chen 1(Pilot), Aoi Patel 1(Communications officer)",
+   "11:12 [hire] walk to candidate Ada Chen 1",
+   "11:12 [hire] route of 6 legs"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"dig\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:37",
+  "detail": "a single frame took 2903 ms (typical 17 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/121-dig-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "13:03 [dig] tap #btn-action (action)",
+   "13:04 [dig] tap #btn-action (action)",
+   "13:04 [dig] mis-tap beside #btn-action",
+   "13:05 [dig] tap #btn-action (action)",
+   "13:06 [dig] dug 86 bites; cart 0.0/1054 -> 90.2/1054",
+   "13:07 [dig] walk to the amber weigh bay",
+   "13:07 [dig] route of 9 legs",
+   "13:24 [dig] quest was not accepted, so no Deliver button is expected",
+   "13:24 [dig] tap #btn-drop-all (drop all)",
+   "13:25 [dig] REFRESH (refresh right after digging)",
+   "13:25 [dig] websocket closed (the bot refreshed the page)",
+   "13:26 [dig] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ }
+]

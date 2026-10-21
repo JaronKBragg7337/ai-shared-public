@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('state/fly-scene-build/live-systems/flies/brain/scene.js');s=p.read_text(encoding='utf-8').replace('avatar, measuredFly','measuredFly').replace(', lastPose=null','').replace('avatar=measuredFly.holder;','debugLayer?.refresh();');s=s.replace('measuredFly?.update(v,t-pressedAt,t,reducedMotion);','sceneState.pose=t-pressedAt<700?\'press\':valid(v)&&v< -15?\'groom\':valid(v)&&v>20?\'wing\':\'idle\';measuredFly?.update(v,t-pressedAt,t,reducedMotion);');p.write_text(s,encoding='utf-8')
+p=Path('state/fly-scene-build/live-systems/flies/brain/assets.js');s=p.read_text(encoding='utf-8').replace('}}return {update};','}}return {update,refresh};');p.write_text(s,encoding='utf-8')

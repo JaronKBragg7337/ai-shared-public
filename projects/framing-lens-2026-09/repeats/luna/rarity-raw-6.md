@@ -1,0 +1,2 @@
+<!-- luna rarity-raw run 6 2026-10-08 01:32 8s -->
+There’s no single agreed answer, because “rarest” depends on what counts as a material and how abundance is measured. If you mean naturally occurring chemical elements, **astatine** is often cited: it has no stable isotopes and is continually produced and decays, so only tiny amounts exist on Earth at any moment. In the cosmos overall, though, we can’t confidently name one rarest material; some exotic particles or short-lived forms of matter may be far rarer, and we can’t inventory the whole universe.

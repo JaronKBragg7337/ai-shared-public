@@ -1,0 +1,15 @@
+Implement the fix from your REPORT.md, tonight (Jaron 10/18: "this is the thing that's needed today").
+Edit ONLY publish-crew-copy.py and crew-index-copy.html in this folder (copies of the live files). Do not run the publisher
+(it would publish); test your functions directly against polymarket-activity.json instead.
+1. Account ledger from real cash: deposits (incl. advanced pending), bonus, transfers, withdrawals, fill cash incl. commissions,
+   resolution payouts - so the running balance ends at the real cash ($68.80 on this data). The chart events must carry this
+   real cash flow, so the account line is true at every point (deposits/withdrawals/bonus as their own events).
+2. Fees: add totals "fees_paid" (commissions charged minus maker rebates) and per-owner fees (AI vs hand) to the snapshot.
+3. AI vs hand results in REAL DOLLARS: assign each fill's cash (incl. fee) to its owner (AUTOMATIC = AI, MANUAL = hand) and
+   settlement payouts to the owner of the shares held at settlement, using proportional pooling of remaining shares per market
+   for mixed markets (state that convention in a comment). Totals AI + hand + funding must equal final cash exactly.
+   Keep won/lost counts per owner. Keep per-bot splitting as it is for now (note it is approximate).
+4. crew-index-copy.html: cards use the new real numbers: "AI trades, net (after fees)", "Jaron by hand, net (after fees)",
+   a new "Fees paid, all time" card, deposits incl. bonus/credits shown honestly (e.g. "+$25 bonus, +$5.07 credits" in the label),
+   and the "How the account adds up" line must add up with NO unexplained remainder.
+Write TEST.md: the new totals on this data, proof they sum to $68.80, and the Cincinnati-West Virginia example (AI -10.16, hand -1.00).

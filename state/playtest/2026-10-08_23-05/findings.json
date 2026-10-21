@@ -1,0 +1,739 @@
+[
+ {
+  "title": "Could not walk to Arrival guide",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:39",
+  "detail": "gave up after 120s; last distance 7 m",
+  "shot": "shots-desktop/018-tour-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "01:52 [tour] not getting closer (9 m away), trying to get unstuck #2",
+   "01:52 [tour] run-up jump #2",
+   "01:54 [tour] jump",
+   "02:02 [tour] not getting closer (9 m away), trying to get unstuck #3",
+   "02:02 [tour] run-up jump #3",
+   "02:05 [tour] jump",
+   "02:13 [tour] not getting closer (9 m away), trying to get unstuck #4",
+   "02:13 [tour] run-up jump #4",
+   "02:16 [tour] jump",
+   "02:25 [tour] not getting closer (9 m away), trying to get unstuck #5",
+   "02:25 [tour] sidestep around whatever is in the way",
+   "02:29 [tour] route of 9 legs"
+  ]
+ },
+ {
+  "title": "Buttons are covered by something on top of them (2 places)",
+  "sev": 68,
+  "kind": "covered",
+  "count": 2,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:39",
+  "detail": "#btn-settings \"Settings\" is covered by #boot ;  #multiplayer-button \"World / crew\" is covered by #touch-key-KeyD",
+  "shot": "shots-iphone/096-lifecycle-PROBLEM-covered.jpg",
+  "steps": [
+   "14:25 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 1 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \"",
+   "14:25 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 3,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:32",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/036-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:08 [opening] tap #opening-action (opening action)",
+   "06:09 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:09 [opening] walk to the crate",
+   "06:10 [opening] tap #opening-action (opening action)",
+   "06:11 [opening] mis-tap beside #opening-action",
+   "06:12 [opening] tap #opening-action (opening action)",
+   "06:13 [opening] tap #opening-action (opening action)",
+   "06:14 [opening] tap #opening-action (opening action)",
+   "06:15 [opening] REFRESH (mid-dig)",
+   "06:15 [opening] websocket closed (the bot refreshed the page)",
+   "06:16 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:31 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap each other (2 places)",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:28",
+  "detail": " \"✕\" overlaps  \"Hear the faction leader of h\" by 46% ;  #touch-key-KeyD \"Right\" overlaps #multiplayer-button \"World / crew\" by 83%",
+  "shot": "shots-iphone/054-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "07:14 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "08:16 [opening] opening finished",
+   "08:20 [panels] === phase panels starts",
+   "08:21 [panels] tap #btn-settings (open Settings)",
+   "08:22 [panels] tap #set-view (settings switch #set-view)",
+   "08:23 [panels] tap #set-tool (settings switch #set-tool)",
+   "08:24 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "08:24 [panels] tap #set-voice-mute (toggle back)",
+   "08:24 [panels] tap #btn-close-settings (close Settings)",
+   "08:25 [panels] tap #purse (open Account / purse)",
+   "08:26 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:27 [panels] tap #multiplayer-button (open World / crew)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Red/dark banner reads 'Graphics problem: WebGL context lost - safe mode active' overlapping the status text",
+  "sev": 63,
+  "kind": "vision",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:49",
+  "detail": "top of screen, over the HUD readout (the vision model's description of the screen: Split-screen glitch: top half shows a 3D outdoor scene with HUD/dialogue text, bottom half of the screen is solid black with two floating menu buttons.)",
+  "shot": "shots-iphone/101-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:48 [lifecycle] QA pass: lifecycle: rotate to 852x393 with Settings open, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Entire bottom half of the screen is flat black with no scene content, just two buttons ('World / crew', 'Contr",
+  "sev": 63,
+  "kind": "vision",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:49",
+  "detail": "bottom half of screen (the vision model's description of the screen: Split-screen glitch: top half shows a 3D outdoor scene with HUD/dialogue text, bottom half of the screen is solid black with two floating menu buttons.)",
+  "shot": "shots-iphone/101-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:48 [lifecycle] QA pass: lifecycle: rotate to 852x393 with Settings open, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 9,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:15",
+  "detail": "a single frame took 4034 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:15 [opening] === phase opening starts",
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"panels\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "08:30",
+  "detail": "a single frame took 1488 ms (typical 28 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/056-panels-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "08:21 [panels] tap #btn-settings (open Settings)",
+   "08:22 [panels] tap #set-view (settings switch #set-view)",
+   "08:23 [panels] tap #set-tool (settings switch #set-tool)",
+   "08:24 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "08:24 [panels] tap #set-voice-mute (toggle back)",
+   "08:24 [panels] tap #btn-close-settings (close Settings)",
+   "08:25 [panels] tap #purse (open Account / purse)",
+   "08:26 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:27 [panels] tap #multiplayer-button (open World / crew)",
+   "08:28 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:29 [panels] tap #btn-key-controls (open Controls)",
+   "08:29 [panels] tap #btn-key-controls (toggle closed Controls)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"smoke\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "smoke",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:18",
+  "detail": "a single frame took 4736 ms (typical 15 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/085-smoke-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "12:36 [lifeboat] QA pass: lifeboat: buy the coupler from Pruitt - purse 9700 -> 9400",
+   "12:36 [lifeboat] tap button \"✕\" (close talk panel)",
+   "12:36 [lifeboat] walk to the lifeboat (to fit the parts)",
+   "12:36 [lifeboat] outpost route of 83 legs around 30 solid things",
+   "14:05 [lifeboat] tap #btn-action (action)",
+   "14:07 [lifeboat] QA pass: lifeboat: fit both parts, the boat is no longer drained - HUD: NEXT Lifeboat ready. Crew are hired at the Crew Hall at Marineris Port on Mars: fly home (Course), land, and walk to the hall at the north e",
+   "14:07 [smoke] === phase smoke starts",
+   "14:07 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: beatobservatory.com/games/the-cosmos/src/port/workerLines.js 131 ms)",
+   "14:07 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 14.2 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "14:07 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "14:07 [smoke] websocket closed (the bot refreshed the page)",
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"lifecycle\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:45",
+  "detail": "a single frame took 3137 ms (typical 15 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/101-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:39 [lifecycle] QA pass: lifecycle: rotate to 852x393, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}",
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"lifeboat\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "lifeboat",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:32",
+  "detail": "a single frame took 5355 ms (typical 29 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/073-lifeboat-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "11:07 [tour] tap button \"What does Homeguard want?\" (ask them something)",
+   "11:08 [tour] tap button \"✕\" (close talk panel)",
+   "11:09 [tour] REFRESH (refresh after the port tour)",
+   "11:09 [tour] websocket closed (the bot refreshed the page)",
+   "11:10 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "11:28 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "11:28 [lifeboat] === phase lifeboat starts",
+   "11:28 [lifeboat] lifeboat on earth is drained, missing cell + coupler; HUD says: NEXT The lifeboat has no power. Buy a power cell from Okafor, the flight line crew chief (Skyward), the Skyward Launch Complex and a fuel coupler from Pruitt, t",
+   "11:28 [lifeboat] QA pass: lifeboat: the NEXT line on screen names who sells each part - NEXT The lifeboat has no power. Buy a power cell from Okafor, the flight line crew chief (Skyward), the Skyward Launch Complex and a fuel coupler from Pruitt, t",
+   "11:28 [lifeboat] go talk to Okafor",
+   "11:28 [lifeboat] walk to Okafor",
+   "11:28 [lifeboat] outpost route of 34 legs around 30 solid things"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Full black screen with zero text/caption/UI of any kind",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:19",
+  "detail": "entire screen (the vision model's description of the screen: Completely black frame with no caption, title, or loading text of any kind visible anywhere on screen.)",
+  "shot": "shots-iphone/045-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "08:16 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Boat/lifeboat frame appears as an incomplete, untextured gray scaffold floating in mid-air, not resting on the",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "smoke",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:19",
+  "detail": "center of the screen, above the horizon (the vision model's description of the screen: A gray wireframe/skeletal boat-like frame structure hovering disconnected above a grassy field, with the quest panel describing the lifeboat being ready.)",
+  "shot": "shots-iphone/085-smoke-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Right roughly half of the screen is solid black with no 3D content rendered, while the left half shows the sce",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:49",
+  "detail": "right half of the screen (the vision model's description of the screen: Zoomed-in landscape view with the same HUD/warning banner panel on the left and the 3D scene (structure, palm trees, crosswalk) visible only on the left portion of the screen.)",
+  "shot": "shots-iphone/100-lifecycle-PROBLEM-console-error.jpg",
+  "steps": [
+   "14:48 [lifecycle] QA pass: lifecycle: rotate to 852x393 with Settings open, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:45",
+  "detail": "THREE.WebGLState: TypeError: undefined is not an object (evaluating 'gl.texImage3D.apply')",
+  "shot": "shots-iphone/100-lifecycle-PROBLEM-console-error.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:39 [lifecycle] QA pass: lifecycle: rotate to 852x393, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}",
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:37",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/094-lifecycle-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "14:24 [a11y] tap #btn-close-settings (close settings)",
+   "14:25 [a11y] QA FAIL: a11y: text is at least 11 px - 8 small: #hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ;",
+   "14:25 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 1 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \"",
+   "14:25 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: 'Graphics problem: WebGL context lost - safe mode active' banner is still shown even though the 3D scene is cl",
+  "sev": 49,
+  "kind": "vision",
+  "count": 2,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:48",
+  "detail": "top of HUD panel (the vision model's description of the screen: Landscape view after rotating, showing the HUD panel with the WebGL-context-lost banner still displayed while the 3D scene (gantry structure, palm trees, sky, runway) has in fact loaded behind it.)",
+  "shot": "shots-iphone/099-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: No crew, hull panels, or solid geometry visible on the structure — looks like an unfinished or broken model re",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "smoke",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:19",
+  "detail": "center of the screen (the vision model's description of the screen: A gray wireframe/skeletal boat-like frame structure hovering disconnected above a grassy field, with the quest panel describing the lifeboat being ready.)",
+  "shot": "shots-iphone/085-smoke-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Tooltip text \"Earth frame.\" is very small relative to the screen and low in the frame, easy to miss",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "small dark pill/label centered above the doorway (the vision model's description of the screen: Interior metal corridor/room with a bright overhead light, a closed airlock-style door with a small dark screen, and a small floating tooltip reading \"Earth frame.\" above the doorway.)",
+  "shot": "shots-iphone/088-a11y-PROBLEM-a11y-small-text.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: \"Raise ramp\" button text and the \"Earth frame.\" tooltip are dark/dim text on a dark semi-transparent backgroun",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "bottom-right button and the tooltip above the door (the vision model's description of the screen: Same interior corridor scene as image 4 (metal walls, lit door, \"Earth frame.\" tooltip, Raise ramp button bottom-right).)",
+  "shot": "shots-iphone/089-a11y-PROBLEM-a11y-contrast.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Entire 3D viewport is solid black with no scene rendered",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:45",
+  "detail": "whole screen below/around the HUD (the vision model's description of the screen: Portrait HUD on a solid black viewport, with a 'Graphics problem: WebGL context lost - safe mode active' banner shown above the cart/tool/NEXT info and the World/crew and Controls buttons.)",
+  "shot": "shots-iphone/097-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: A tooltip box 'Earth frame.' overlaps and obscures the NEXT objective text behind it",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:49",
+  "detail": "middle of top half, over the quest text block (the vision model's description of the screen: Split-screen glitch: top half shows a 3D outdoor scene with HUD/dialogue text, bottom half of the screen is solid black with two floating menu buttons.)",
+  "shot": "shots-iphone/101-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:48 [lifecycle] QA pass: lifecycle: rotate to 852x393 with Settings open, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "03:36",
+  "detail": "shown in opening-caption while the bot was: 03:36 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)",
+  "shot": "shots-iphone/017-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:15 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:19 [opening] tap screen to unlock sound",
+   "00:22 [opening] tap screen to unlock sound",
+   "00:39 [opening] walk to the boarding hall",
+   "00:39 [opening] walk to the boarding hall",
+   "00:40 [opening] walk to the boarding hall",
+   "00:45 [opening] walk to the boarding hall",
+   "00:46 [opening] in the boarding hall, waiting for the gangway to come down",
+   "03:31 [opening] walk to down the gangway",
+   "03:32 [opening] walk to down the gangway",
+   "03:33 [opening] walk to down the gangway",
+   "03:36 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 5,
+  "phase": "tour",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "08:31",
+  "detail": "a single frame took 739 ms (typical 29 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/058-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "08:24 [panels] tap #btn-close-settings (close Settings)",
+   "08:25 [panels] tap #purse (open Account / purse)",
+   "08:26 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:27 [panels] tap #multiplayer-button (open World / crew)",
+   "08:28 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:29 [panels] tap #btn-key-controls (open Controls)",
+   "08:29 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:30 [tour] === phase tour starts",
+   "08:30 [tour] settlement world Earth: people Okafor, Pruitt",
+   "08:30 [tour] go talk to Okafor",
+   "08:30 [tour] walk to Okafor",
+   "08:30 [tour] outpost route of 117 legs around 30 solid things"
+  ]
+ },
+ {
+  "title": "Low text contrast in 1 places",
+  "sev": 38,
+  "kind": "a11y-contrast",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "span.hint 3.9:1 (needs 4.5) \"Third person to inspect \"",
+  "shot": "shots-iphone/089-a11y-PROBLEM-a11y-contrast.jpg",
+  "steps": [
+   "14:07 [smoke] === phase smoke starts",
+   "14:07 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: beatobservatory.com/games/the-cosmos/src/port/workerLines.js 131 ms)",
+   "14:07 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 14.2 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "14:07 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "14:07 [smoke] websocket closed (the bot refreshed the page)",
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:23 [smoke] QA pass: smoke: warm reload comes back - 16.2 s",
+   "14:23 [a11y] === phase a11y starts",
+   "14:23 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "14:24 [a11y] tap #btn-close-settings (close settings)",
+   "14:25 [a11y] QA FAIL: a11y: text is at least 11 px - 8 small: #hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ;",
+   "14:25 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 1 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \""
+  ]
+ },
+ {
+  "title": "Text smaller than 11 px in 8 places (hard to read on a phone)",
+  "sev": 36,
+  "kind": "a11y-small-text",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "#hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Crew are\"",
+  "shot": "shots-iphone/088-a11y-PROBLEM-a11y-small-text.jpg",
+  "steps": [
+   "14:07 [lifeboat] QA pass: lifeboat: fit both parts, the boat is no longer drained - HUD: NEXT Lifeboat ready. Crew are hired at the Crew Hall at Marineris Port on Mars: fly home (Course), land, and walk to the hall at the north e",
+   "14:07 [smoke] === phase smoke starts",
+   "14:07 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: beatobservatory.com/games/the-cosmos/src/port/workerLines.js 131 ms)",
+   "14:07 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 14.2 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "14:07 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "14:07 [smoke] websocket closed (the bot refreshed the page)",
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:23 [smoke] QA pass: smoke: warm reload comes back - 16.2 s",
+   "14:23 [a11y] === phase a11y starts",
+   "14:23 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "14:24 [a11y] tap #btn-close-settings (close settings)",
+   "14:25 [a11y] QA FAIL: a11y: text is at least 11 px - 8 small: #hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ;"
+  ]
+ },
+ {
+  "title": "1 buttons have no text or label (a screen reader says nothing)",
+  "sev": 34,
+  "kind": "a11y-noname",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "input.",
+  "shot": "shots-iphone/090-a11y-PROBLEM-a11y-noname.jpg",
+  "steps": [
+   "14:07 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: beatobservatory.com/games/the-cosmos/src/port/workerLines.js 131 ms)",
+   "14:07 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 14.2 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "14:07 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "14:07 [smoke] websocket closed (the bot refreshed the page)",
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:23 [smoke] QA pass: smoke: warm reload comes back - 16.2 s",
+   "14:23 [a11y] === phase a11y starts",
+   "14:23 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "14:24 [a11y] tap #btn-close-settings (close settings)",
+   "14:25 [a11y] QA FAIL: a11y: text is at least 11 px - 8 small: #hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ;",
+   "14:25 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 1 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \"",
+   "14:25 [a11y] QA FAIL: a11y: every button has a name - input."
+  ]
+ },
+ {
+  "title": "Zooming the page is switched off in the viewport tag",
+  "sev": 30,
+  "kind": "a11y-zoom-locked",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:25",
+  "detail": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+  "shot": "shots-iphone/091-a11y-PROBLEM-a11y-zoom-locked.jpg",
+  "steps": [
+   "14:07 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "14:07 [smoke] websocket closed (the bot refreshed the page)",
+   "14:08 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:23 [smoke] QA pass: smoke: warm reload comes back - 16.2 s",
+   "14:23 [a11y] === phase a11y starts",
+   "14:23 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "14:24 [a11y] tap #btn-close-settings (close settings)",
+   "14:25 [a11y] QA FAIL: a11y: text is at least 11 px - 8 small: #hud-readout 10px \"· Skyward Launch Complex\" ; b. 10px \"Earth\" ; span.dim 10px \"Grass and soil · 9.82 m/\" ; span.load 10px \"Hauling cart: 0.0 / 399 \" ;",
+   "14:25 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 1 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \"",
+   "14:25 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 11,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:45",
+  "detail": "THREE.Material: parameter 'map' has value of undefined.",
+  "shot": "shots-iphone/099-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:39 [lifecycle] QA pass: lifecycle: rotate to 852x393, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}",
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 6,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:48",
+  "detail": "THREE.WebGLRenderer: Texture has been resized from (125x83) to (64x64).",
+  "shot": "shots-iphone/102-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:39 [lifecycle] QA pass: lifecycle: rotate to 852x393, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}",
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 4,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:14",
+  "detail": "THREE.BufferGeometry.toNonIndexed(): BufferGeometry is already non-indexed.",
+  "shot": "shots-iphone/045-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "06:38 [opening] tap #opening-action (opening action)",
+   "06:39 [opening] tap #opening-action (opening action)",
+   "06:40 [opening] tap #opening-action (opening action)",
+   "06:42 [opening] tap #opening-action (opening action)",
+   "06:43 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:43 [opening] walk to the rescue vehicle",
+   "06:52 [opening] mis-tap beside #opening-action",
+   "06:53 [opening] tap #opening-action (opening action)",
+   "06:56 [opening] opening stage 5 -> 6 (OkaforOkafor, flight line, Skyward. We saw you on radar. You were not on the schedule.)",
+   "07:12 [opening] REFRESH (mid-ride)",
+   "07:12 [opening] websocket closed (the bot refreshed the page)",
+   "07:14 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:41",
+  "detail": "THREE.WebGLRenderer: WebGL 1 support was deprecated in r153 and will be removed in r163.",
+  "shot": "shots-iphone/097-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "14:25 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "14:25 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "14:25 [a11y] QA pass: a11y: a volume or mute control exists",
+   "14:25 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"Raise ramp\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Earth · Skyward Launch Complex 28.612° N 80.599° W Grass and soil · 9.82 m/s² Hauling cart: 0.0 / 399 kg to",
+   "14:25 [lifecycle] === phase lifecycle starts",
+   "14:25 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "14:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "14:37 [lifecycle] websocket closed",
+   "14:37 [lifecycle] QA skipped: lifecycle: graphics context lost and restored - this browser does not allow forcing it",
+   "14:38 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "14:39 [lifecycle] QA pass: lifecycle: rotate to 852x393, the 3D view fills the screen - {\"cw\":852,\"ch\":393,\"iw\":852,\"ih\":393}",
+   "14:40 [lifecycle] tap #btn-settings (open Settings, then rotate)"
+  ]
+ }
+]

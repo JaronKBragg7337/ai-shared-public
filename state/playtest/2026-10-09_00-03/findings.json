@@ -1,0 +1,793 @@
+[
+ {
+  "title": "Game said: \"fetch failed\"",
+  "sev": 80,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:42",
+  "detail": "shown in opening-caption while the bot was: 06:41 [opening] tap #opening-action (opening action)",
+  "shot": "shots-iphone/036-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "06:15 [opening] REFRESH (mid-dig)",
+   "06:15 [opening] websocket closed (the bot refreshed the page)",
+   "06:16 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:29 [opening] tap #opening-action (opening action)",
+   "06:31 [opening] tap #opening-action (opening action)",
+   "06:33 [opening] tap #opening-action (opening action)",
+   "06:34 [opening] tap #opening-action (opening action)",
+   "06:36 [opening] tap #opening-action (opening action)",
+   "06:37 [opening] tap #opening-action (opening action)",
+   "06:38 [opening] tap #opening-action (opening action)",
+   "06:39 [opening] tap #opening-action (opening action)",
+   "06:41 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons are covered by something on top of them (2 places)",
+  "sev": 68,
+  "kind": "covered",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:38",
+  "detail": "#multiplayer-button \"World / crew\" is covered by #touch-key-KeyD ;  #voice-talk \"Hold B to talkno one near\" is covered by #touch-key-KeyW",
+  "shot": "shots-desktop/012-panels-PROBLEM-covered.jpg",
+  "steps": [
+   "00:23 [panels] mis-tap beside #set-view",
+   "00:24 [panels] tap #set-view (settings switch #set-view)",
+   "00:25 [panels] tap #set-tool (settings switch #set-tool)",
+   "00:27 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "00:27 [panels] tap #set-voice-mute (toggle back)",
+   "00:28 [panels] tap #btn-close-settings (close Settings)",
+   "00:29 [panels] mis-tap beside #purse",
+   "00:30 [panels] tap #purse (open Account / purse)",
+   "00:32 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:33 [panels] tap #multiplayer-button (open World / crew)",
+   "00:35 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:37 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 4,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:31",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/035-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:09 [opening] tap #opening-action (opening action)",
+   "06:10 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:10 [opening] walk to the crate",
+   "06:11 [opening] mis-tap beside #opening-action",
+   "06:12 [opening] tap #opening-action (opening action)",
+   "06:13 [opening] tap #opening-action (opening action)",
+   "06:13 [opening] tap #opening-action (opening action)",
+   "06:14 [opening] tap #opening-action (opening action)",
+   "06:15 [opening] REFRESH (mid-dig)",
+   "06:15 [opening] websocket closed (the bot refreshed the page)",
+   "06:16 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:29 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap each other (2 places)",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:38",
+  "detail": "#touch-key-KeyW \"Forward\" overlaps #voice-talk \"Hold B to talkno one near\" by 97% ;  #touch-key-KeyD \"Right\" overlaps #multiplayer-button \"World / crew\" by 83%",
+  "shot": "shots-desktop/010-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "00:23 [panels] mis-tap beside #set-view",
+   "00:24 [panels] tap #set-view (settings switch #set-view)",
+   "00:25 [panels] tap #set-tool (settings switch #set-tool)",
+   "00:27 [panels] tap #set-voice-mute (toggle #set-voice-mute)",
+   "00:27 [panels] tap #set-voice-mute (toggle back)",
+   "00:28 [panels] tap #btn-close-settings (close Settings)",
+   "00:29 [panels] mis-tap beside #purse",
+   "00:30 [panels] tap #purse (open Account / purse)",
+   "00:32 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:33 [panels] tap #multiplayer-button (open World / crew)",
+   "00:35 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:37 [panels] tap #btn-key-controls (open Controls)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 8,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "a single frame took 3938 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:00 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:14 [opening] === phase opening starts",
+   "00:14 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"panels\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "panels",
+  "devices": [
+   "iphone",
+   "desktop"
+  ],
+  "firstAt": "08:40",
+  "detail": "a single frame took 2051 ms (typical 28 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/051-panels-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "06:58 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:58 [opening] walk to the rescue vehicle",
+   "07:05 [opening] tap #opening-action (opening action)",
+   "07:07 [opening] opening stage 5 -> 6 (PruittPruitt, Homeguard. We saw you come down. I would say welcome home, but there is not much home built yet.)",
+   "07:25 [opening] REFRESH (mid-ride)",
+   "07:25 [opening] websocket closed (the bot refreshed the page)",
+   "07:26 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "08:32 [opening] opening finished",
+   "08:37 [panels] === phase panels starts",
+   "08:37 [panels] tap #btn-settings (open Settings)",
+   "08:38 [panels] tap #set-view (settings switch #set-view)",
+   "08:39 [panels] tap #set-tool (settings switch #set-tool)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"lifeboat\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "lifeboat",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:34",
+  "detail": "a single frame took 5025 ms (typical 26 ms); 4 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/077-lifeboat-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "12:06 [tour] tap button \"Work and a crew. Understood.\" (answer back)",
+   "12:07 [tour] tap button \"✕\" (close talk panel)",
+   "12:08 [tour] REFRESH (refresh after the port tour)",
+   "12:08 [tour] websocket closed (the bot refreshed the page)",
+   "12:09 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "12:28 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "12:28 [lifeboat] === phase lifeboat starts",
+   "12:28 [lifeboat] lifeboat on earth is drained, missing cell + coupler; HUD says: NEXT The lifeboat has no power. Buy a power cell from Okafor, the flight line crew chief (Skyward), the Skyward Launch Complex and a fuel coupler from Pruitt, t",
+   "12:28 [lifeboat] QA pass: lifeboat: the NEXT line on screen names who sells each part - NEXT The lifeboat has no power. Buy a power cell from Okafor, the flight line crew chief (Skyward), the Skyward Launch Complex and a fuel coupler from Pruitt, t",
+   "12:28 [lifeboat] go talk to Okafor",
+   "12:28 [lifeboat] walk to Okafor",
+   "12:28 [lifeboat] outpost route of 35 legs around 30 solid things"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"network\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "network",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:40",
+  "detail": "a single frame took 5483 ms (typical 4 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/039-network-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "02:09 [lifecycle] tap #btn-close-settings (close settings)",
+   "02:11 [network] === phase network starts",
+   "02:11 [network] NETWORK CUT",
+   "02:14 [network] tap #purse (tap while offline)",
+   "02:15 [network] tap button \"Close\" (close account-panel)",
+   "02:27 [network] QA pass: network: while offline the game keeps drawing and does not crash",
+   "02:27 [network] QA info: network: the game tells the player the connection is gone (within about 12 s) - connected flag true -> true; messages: ",
+   "02:27 [network] NETWORK BACK",
+   "02:29 [network] QA pass: network: after the network returns the game reconnects and answers again - 2 s",
+   "02:29 [network] QA pass: network: money and place unchanged by a network blip",
+   "02:30 [network] REFRESH (refresh after being offline)",
+   "02:32 [network] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:20",
+  "detail": "a single frame took 4550 ms (typical 15 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/075-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "11:50 [tour] tap button \"What does Homeguard want?\" (ask them something)",
+   "11:51 [tour] tap button \"✕\" (close talk panel)",
+   "11:52 [tour] go talk to Marisol Quintero",
+   "11:52 [tour] walk to Marisol Quintero",
+   "11:52 [tour] outpost route of 20 legs around 30 solid things",
+   "12:05 [tour] tap #crew-talk (Talk to Marisol Quintero)",
+   "12:06 [tour] tap button \"What does dispatch do?\" (ask them something)",
+   "12:06 [tour] tap button \"Work and a crew. Understood.\" (answer back)",
+   "12:07 [tour] tap button \"✕\" (close talk panel)",
+   "12:08 [tour] REFRESH (refresh after the port tour)",
+   "12:08 [tour] websocket closed (the bot refreshed the page)",
+   "12:09 [tour] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"smoke\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "smoke",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:49",
+  "detail": "a single frame took 5316 ms (typical 4 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/015-smoke-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:29 [panels] mis-tap beside #purse",
+   "00:30 [panels] tap #purse (open Account / purse)",
+   "00:32 [panels] tap #account-panel .account-close (close Account / purse)",
+   "00:33 [panels] tap #multiplayer-button (open World / crew)",
+   "00:35 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "00:37 [panels] tap #btn-key-controls (open Controls)",
+   "00:38 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:39 [smoke] === phase smoke starts",
+   "00:39 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: w.heartbeatobservatory.com/games/the-cosmos/src/ship/guns.js 196 ms)",
+   "00:39 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 15.8 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:39 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"a11y\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:58",
+  "detail": "a single frame took 3041 ms (typical 42 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/023-a11y-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:50 [smoke] QA pass: smoke: warm reload comes back - 11.1 s",
+   "00:51 [a11y] === phase a11y starts",
+   "00:52 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:56 [a11y] tap #btn-close-settings (close settings)",
+   "00:57 [a11y] QA FAIL: a11y: text is at least 11 px - 7 small: span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-",
+   "00:57 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:57 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "00:57 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "00:57 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+   "00:57 [a11y] QA pass: a11y: a volume or mute control exists",
+   "00:57 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Mars · Valles Marineris 13°59'56.9\\\"S 59°11'47.9\\\"W +2213.1 m Martian regolith · 3.72 m/s² Hauling cart: 0.0 / 1054 k"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"freeplay\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "freeplay",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "05:06",
+  "detail": "a single frame took 5716 ms (typical 4 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/048-freeplay-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "04:19 [edges] jump",
+   "04:28 [edges] jump",
+   "04:30 [edges] jump",
+   "04:32 [edges] jump",
+   "04:41 [edges] jump",
+   "04:43 [edges] jump",
+   "04:45 [edges] jump",
+   "04:54 [edges] QA pass: edges: walked and jumped into walls in 8 directions, never fell through - furthest 39 m from where it started",
+   "04:54 [edges] QA pass: edges: still drawing afterwards",
+   "04:54 [freeplay] === phase freeplay starts",
+   "04:54 [freeplay] REFRESH (random refresh while playing)",
+   "04:56 [freeplay] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "When the graphics context is lost (iPhones do this after the app was in the background) the game restarts itself in reduced-graphics \"safe mode\"",
+  "sev": 52,
+  "kind": "context-lost-safe-mode",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:47",
+  "detail": "by design (src/core/graphicsHealth.js). The page address gets ?tier=safe and it stays that way for the session, with a red graphics banner: \"Graphics problem: WebGL context lost - safe mode active\". A player who just switched apps and came back is left on worse graphics.",
+  "shot": "shots-desktop/032-lifecycle-PROBLEM-context-lost-safe-mode.jpg",
+  "steps": [
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:21 [spam] jump",
+   "01:21 [spam] jump",
+   "01:24 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:24 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:24 [lifecycle] === phase lifecycle starts",
+   "01:24 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:39 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:47 [lifecycle] QA info: lifecycle: graphics context lost, game reloads itself into safe mode and still plays - the game restarted with ?tier=safe (reduced graphics). Banner: \"Graphics problem: WebGL context lost - safe mode active\""
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: 'fetch failed' error text displayed on screen",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:42",
+  "detail": "center of screen, above the Carry button (the vision model's description of the screen: A crate sits on a hauling cart/trailer in a grassy field, with a 'fetch failed' message and a Carry button showing a spinning/loading icon.)",
+  "shot": "shots-iphone/036-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "06:41 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Visible error text \"fetch failed\" floating mid-screen with no context",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:45",
+  "detail": "center of screen (the vision model's description of the screen: A blurred, dim view of grass/dirt terrain during the opening sequence, with a Walk/Look/Use hint top-left, a Skip intro button top-right, and a Carry (E) button bottom-right.)",
+  "shot": "shots-iphone/037-opening-opening.jpg",
+  "steps": [
+   "06:43 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Fully black screen with zero text or loading indicator, unlike the game's other deliberate blackout frames whi",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:35",
+  "detail": "entire screen (the vision model's description of the screen: Completely black frame with no visible text, caption, or UI of any kind.)",
+  "shot": "shots-iphone/046-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "08:32 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Controls panel did not close after the 'toggle closed Controls' tap — this frame is pixel-identical to the pri",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:38",
+  "detail": "Controls panel, left side of screen (the vision model's description of the screen: Identical Mars pad scene with the Controls panel still fully open, taken right after the bot tapped the Controls button to toggle it closed.)",
+  "shot": "shots-desktop/011-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "00:38 [panels] tap #btn-key-controls (toggle closed Controls)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Body text in the info panel (coordinates, regolith/hauling stats, tool name, and the multi-line NEXT objective",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "top-left info panel (the vision model's description of the screen: Identical Mars landing-pad HUD scene, flagged for small text during an accessibility pass.)",
+  "shot": "shots-desktop/018-a11y-PROBLEM-a11y-small-text.jpg",
+  "steps": [
+   "00:57 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Mars · Valles Marineris 13°59'56.9\\\"S 59°11'47.9\\\"W +2213.1 m Martian regolith · 3.72 m/s² Hauling cart: 0.0 / 1054 k"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Gray secondary text ('Martian regolith · 3.72 m/s²', 'Hauling cart: 0.0 / 1054 kg', 'tool: Shovel') is low-con",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "top-left info panel, lines below the orange location heading (the vision model's description of the screen: Identical Mars landing-pad HUD scene, flagged for contrast during an accessibility pass.)",
+  "shot": "shots-desktop/019-a11y-PROBLEM-a11y-contrast.jpg",
+  "steps": [
+   "00:57 [a11y] QA pass: readability: something on screen tells a player what to do next - {\"action\":\"\",\"hint\":\"\",\"caption\":\"\",\"hud\":\"Mars · Valles Marineris 13°59'56.9\\\"S 59°11'47.9\\\"W +2213.1 m Martian regolith · 3.72 m/s² Hauling cart: 0.0 / 1054 k"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "03:38",
+  "detail": "shown in opening-caption while the bot was: 03:36 [opening] walk to down the gangway",
+  "shot": "shots-iphone/017-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:14 [opening] === phase opening starts",
+   "00:14 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:17 [opening] tap screen to unlock sound",
+   "00:20 [opening] tap screen to unlock sound",
+   "00:38 [opening] walk to the boarding hall",
+   "00:38 [opening] walk to the boarding hall",
+   "00:39 [opening] walk to the boarding hall",
+   "00:44 [opening] walk to the boarding hall",
+   "00:45 [opening] in the boarding hall, waiting for the gangway to come down",
+   "03:34 [opening] walk to down the gangway",
+   "03:35 [opening] walk to down the gangway",
+   "03:36 [opening] walk to down the gangway"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"lifecycle\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:44",
+  "detail": "a single frame took 2379 ms (typical 4 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-desktop/030-lifecycle-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:21 [spam] jump",
+   "01:21 [spam] jump",
+   "01:24 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:24 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:24 [lifecycle] === phase lifecycle starts",
+   "01:24 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:39 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Low text contrast in 2 places",
+  "sev": 38,
+  "kind": "a11y-contrast",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+  "shot": "shots-desktop/019-a11y-PROBLEM-a11y-contrast.jpg",
+  "steps": [
+   "00:38 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:39 [smoke] === phase smoke starts",
+   "00:39 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: w.heartbeatobservatory.com/games/the-cosmos/src/ship/guns.js 196 ms)",
+   "00:39 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 15.8 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:39 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:50 [smoke] QA pass: smoke: warm reload comes back - 11.1 s",
+   "00:51 [a11y] === phase a11y starts",
+   "00:52 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:56 [a11y] tap #btn-close-settings (close settings)",
+   "00:57 [a11y] QA FAIL: a11y: text is at least 11 px - 7 small: span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-",
+   "00:57 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\""
+  ]
+ },
+ {
+  "title": "Text smaller than 11 px in 7 places (hard to read on a phone)",
+  "sev": 36,
+  "kind": "a11y-small-text",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-sub 10px \"no one near\" ; span.hint 10px \"Third person to inspect \"",
+  "shot": "shots-desktop/018-a11y-PROBLEM-a11y-small-text.jpg",
+  "steps": [
+   "00:37 [panels] tap #btn-key-controls (open Controls)",
+   "00:38 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "00:39 [smoke] === phase smoke starts",
+   "00:39 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: w.heartbeatobservatory.com/games/the-cosmos/src/ship/guns.js 196 ms)",
+   "00:39 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 15.8 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:39 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:50 [smoke] QA pass: smoke: warm reload comes back - 11.1 s",
+   "00:51 [a11y] === phase a11y starts",
+   "00:52 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:56 [a11y] tap #btn-close-settings (close settings)",
+   "00:57 [a11y] QA FAIL: a11y: text is at least 11 px - 7 small: span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-"
+  ]
+ },
+ {
+  "title": "1 buttons have no text or label (a screen reader says nothing)",
+  "sev": 34,
+  "kind": "a11y-noname",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "input.",
+  "shot": "shots-desktop/020-a11y-PROBLEM-a11y-noname.jpg",
+  "steps": [
+   "00:39 [smoke] === phase smoke starts",
+   "00:39 [smoke] QA info: smoke: page transfer on a cold load - 250 requests, 1.3 MB over the wire (slowest: w.heartbeatobservatory.com/games/the-cosmos/src/ship/guns.js 196 ms)",
+   "00:39 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 15.8 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:39 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:50 [smoke] QA pass: smoke: warm reload comes back - 11.1 s",
+   "00:51 [a11y] === phase a11y starts",
+   "00:52 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:56 [a11y] tap #btn-close-settings (close settings)",
+   "00:57 [a11y] QA FAIL: a11y: text is at least 11 px - 7 small: span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-",
+   "00:57 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:57 [a11y] QA FAIL: a11y: every button has a name - input."
+  ]
+ },
+ {
+  "title": "graphics shapes (geometries) grew from 349 to 650 over the run (new areas loading, or a leak)",
+  "sev": 30,
+  "kind": "memory-growth",
+  "count": 1,
+  "phase": "lifeboat",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:30",
+  "detail": "samples 46; phases opening -> lifeboat. Only a leak if it keeps climbing while standing still: the idle check measures that.",
+  "shot": null,
+  "steps": [
+   "12:56 [lifeboat] go talk to Pruitt",
+   "12:56 [lifeboat] walk to Pruitt",
+   "12:56 [lifeboat] outpost route of 34 legs around 30 solid things",
+   "13:28 [lifeboat] tap #crew-talk (Talk to Pruitt)",
+   "13:28 [lifeboat] tap button \"Buy the fuel coupler · 300 marksFor your\" (buy the coupler)",
+   "13:30 [lifeboat] QA pass: lifeboat: buy the coupler from Pruitt - purse 9700 -> 9400",
+   "13:30 [lifeboat] tap button \"✕\" (close talk panel)",
+   "13:30 [lifeboat] walk to the lifeboat (to fit the parts)",
+   "13:30 [lifeboat] outpost route of 94 legs around 30 solid things",
+   "15:25 [lifeboat] mis-tap beside #btn-action",
+   "15:26 [lifeboat] tap #btn-action (action)",
+   "15:28 [lifeboat] QA pass: lifeboat: fit both parts, the boat is no longer drained - HUD: NEXT No more jobs here for now. Dig, haul and sell what the ground gives, or fly to another world (Course). The people here will have more w"
+  ]
+ },
+ {
+  "title": "textures grew from 122 to 342 over the run (new areas loading, or a leak)",
+  "sev": 30,
+  "kind": "memory-growth",
+  "count": 1,
+  "phase": "lifeboat",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:30",
+  "detail": "samples 46; phases opening -> lifeboat. Only a leak if it keeps climbing while standing still: the idle check measures that.",
+  "shot": null,
+  "steps": [
+   "12:56 [lifeboat] go talk to Pruitt",
+   "12:56 [lifeboat] walk to Pruitt",
+   "12:56 [lifeboat] outpost route of 34 legs around 30 solid things",
+   "13:28 [lifeboat] tap #crew-talk (Talk to Pruitt)",
+   "13:28 [lifeboat] tap button \"Buy the fuel coupler · 300 marksFor your\" (buy the coupler)",
+   "13:30 [lifeboat] QA pass: lifeboat: buy the coupler from Pruitt - purse 9700 -> 9400",
+   "13:30 [lifeboat] tap button \"✕\" (close talk panel)",
+   "13:30 [lifeboat] walk to the lifeboat (to fit the parts)",
+   "13:30 [lifeboat] outpost route of 94 legs around 30 solid things",
+   "15:25 [lifeboat] mis-tap beside #btn-action",
+   "15:26 [lifeboat] tap #btn-action (action)",
+   "15:28 [lifeboat] QA pass: lifeboat: fit both parts, the boat is no longer drained - HUD: NEXT No more jobs here for now. Dig, haul and sell what the ground gives, or fly to another world (Course). The people here will have more w"
+  ]
+ },
+ {
+  "title": "Zooming the page is switched off in the viewport tag",
+  "sev": 30,
+  "kind": "a11y-zoom-locked",
+  "count": 1,
+  "phase": "a11y",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "00:57",
+  "detail": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover",
+  "shot": "shots-desktop/021-a11y-PROBLEM-a11y-zoom-locked.jpg",
+  "steps": [
+   "00:39 [smoke] QA pass: smoke: time from opening the link to the first drawn frames - 15.8 s (headless software rendering, a real phone is usually quicker to draw but slower to download)",
+   "00:39 [smoke] REFRESH (smoke: warm reload (cache filled))",
+   "00:41 [smoke] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:50 [smoke] QA pass: smoke: warm reload comes back - 11.1 s",
+   "00:51 [a11y] === phase a11y starts",
+   "00:52 [a11y] tap #btn-settings (open Settings for the accessibility scan)",
+   "00:56 [a11y] tap #btn-close-settings (close settings)",
+   "00:57 [a11y] QA FAIL: a11y: text is at least 11 px - 7 small: span.dim 10px \"Martian regolith · 3.72 \" ; span.dim 10px \"tool: Shovel\" ; div.next-goal 10px \"Lifeboat ready. Next: hi\" ; b. 10px \"NEXT\" ; #voice-talk-",
+   "00:57 [a11y] QA FAIL: a11y: text contrast (4.5:1, or 3:1 for big text) - 2 low: span.hint 3.9:1 (needs 4.5) \"Third person to inspect \" ; span.hint 3.9:1 (needs 4.5) \"Spade for detail, shovel\"",
+   "00:57 [a11y] QA FAIL: a11y: every button has a name - input.",
+   "00:57 [a11y] QA pass: a11y: tap targets at least 44 px (Apple guideline) - 2 smaller: #btn-settings 76x40 ; #btn-close-settings 37x44",
+   "00:57 [a11y] QA FAIL: a11y: pinch-zoom is not locked off - width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+  ]
+ },
+ {
+  "title": "Network cut for about 12 s and the game said nothing and still thinks it is connected",
+  "sev": 28,
+  "kind": "offline-silent",
+  "count": 1,
+  "phase": "network",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "02:27",
+  "detail": "connected=true. A hint only: the bot's offline switch may not cut a socket that is already open, so a real phone going into a tunnel could behave differently.",
+  "shot": "shots-desktop/038-network-PROBLEM-offline-silent.jpg",
+  "steps": [
+   "01:47 [lifecycle] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "01:48 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:03 [lifecycle] QA pass: lifecycle: rotate to 900x560, the 3D view fills the screen - {\"cw\":900,\"ch\":560,\"iw\":900,\"ih\":560}",
+   "02:05 [lifecycle] tap #btn-settings (open Settings, then rotate)",
+   "02:07 [lifecycle] QA pass: lifecycle: rotate to 900x560 with Settings open, the 3D view fills the screen - {\"cw\":900,\"ch\":560,\"iw\":900,\"ih\":560}",
+   "02:09 [lifecycle] tap #btn-close-settings (close settings)",
+   "02:11 [network] === phase network starts",
+   "02:11 [network] NETWORK CUT",
+   "02:14 [network] tap #purse (tap while offline)",
+   "02:15 [network] tap button \"Close\" (close account-panel)",
+   "02:27 [network] QA pass: network: while offline the game keeps drawing and does not crash",
+   "02:27 [network] QA info: network: the game tells the player the connection is gone (within about 12 s) - connected flag true -> true; messages: "
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 16,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:43",
+  "detail": "THREE.WebGLRenderer: Texture has been resized from (256x192) to (256x128).",
+  "shot": "shots-desktop/029-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:21 [spam] jump",
+   "01:21 [spam] jump",
+   "01:24 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:24 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:24 [lifecycle] === phase lifecycle starts",
+   "01:24 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:39 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 6,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:43",
+  "detail": "THREE.Material: parameter 'map' has value of undefined.",
+  "shot": "shots-desktop/028-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:21 [spam] jump",
+   "01:21 [spam] jump",
+   "01:24 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:24 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:24 [lifecycle] === phase lifecycle starts",
+   "01:24 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:39 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 2,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:30",
+  "detail": "THREE.BufferGeometry.toNonIndexed(): BufferGeometry is already non-indexed.",
+  "shot": "shots-iphone/046-opening-PROBLEM-console-warning.jpg",
+  "steps": [
+   "06:51 [opening] tap #opening-action (opening action)",
+   "06:52 [opening] walk to the crate",
+   "06:53 [opening] tap #opening-action (opening action)",
+   "06:55 [opening] tap #opening-action (opening action)",
+   "06:56 [opening] tap #opening-action (opening action)",
+   "06:58 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:58 [opening] walk to the rescue vehicle",
+   "07:05 [opening] tap #opening-action (opening action)",
+   "07:07 [opening] opening stage 5 -> 6 (PruittPruitt, Homeguard. We saw you come down. I would say welcome home, but there is not much home built yet.)",
+   "07:25 [opening] REFRESH (mid-ride)",
+   "07:25 [opening] websocket closed (the bot refreshed the page)",
+   "07:26 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 1,
+  "phase": "lifecycle",
+  "devices": [
+   "desktop"
+  ],
+  "firstAt": "01:41",
+  "detail": "THREE.WebGLRenderer: WebGL 1 support was deprecated in r153 and will be removed in r163.",
+  "shot": "shots-desktop/027-lifecycle-PROBLEM-console-warning.jpg",
+  "steps": [
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:20 [spam] jump",
+   "01:21 [spam] jump",
+   "01:21 [spam] jump",
+   "01:24 [spam] QA pass: spam: 25 jumps and wild looks, game keeps drawing",
+   "01:24 [spam] spam: 0 requests sent, purse 10000 -> 10000",
+   "01:24 [lifecycle] === phase lifecycle starts",
+   "01:24 [lifecycle] app sent to the background (hidden, blur, pagehide)",
+   "01:36 [lifecycle] QA pass: lifecycle: background 8 s and return keeps place, money and ship state",
+   "01:39 [lifecycle] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ }
+]

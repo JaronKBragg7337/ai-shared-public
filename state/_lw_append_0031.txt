@@ -1,0 +1,11 @@
+
+2026-09-19 00:31Z | RESULT | SMU Mustangs YES aec-cfb-smu-lou settled LOSS realized -USD5.0004 (final SMU 31-41 LOU; filled 18.52@0.27) | streak RESET to 0 next USD5
+2026-09-19 00:31Z | RESULT | SELA Lions YES aec-cfb-selou-lamon order CKJD9XX3AWP9 NEVER FILLED (resting cancelled/expired; SELA won 38-35 final last~0.995) | missed fill lesson join ask sooner on sticky lag
+2026-09-19 00:31Z | TRADE PLACED | Virginia Tech Hokies YES aec-cfb-vtech-mary-2026-09-19 @0.70 | size USD5 order CKM569MPCWPF BUY_LONG 7.14sh GTC resting (executions empty) | Yahoo LIVE VT 13-0 MD ~2Q 13:45 after Grunkemeyer rush TD missed PAT; Poly sticky 0.695/0.70 vs live SB ML ~-425 (~81pct) ~10c lag; kill: MD within 3 or leads / YES ask under 0.55 / MD TD before VT next score | Elon Twin ABSENT | streak0 after SMU loss
+2026-09-19 00:31Z | WATCH NO TRADE | LSU Tigers YES aec-cfb-lsu-miss YES 0.39/0.405 | Yahoo LIVE LSU 0-10 MISS 1Q ~1:00 WP Miss~0.679 vs Poly LSU~0.40 (Miss~0.60) ~8c soft on NO skip prefer VT clearer lead lag
+2026-09-19 00:31Z | WATCH NO TRADE | Colorado YES aec-cfb-col-nw YES 0.27/0.275 | Yahoo LIVE COLO 0-7 NW 2Q ~10:35 WP NW~0.708 COLO~0.292 aligned skip
+2026-09-19 00:31Z | WATCH NO TRADE | WVU Mountaineers YES aec-cfb-wvir-vir YES 0.195/0.20 | Yahoo LIVE WVU 13-14 UVA mid-TD (PAT pending) pregame UVA heavy fav; book moved 0.16→0.20 still soft without fresh WP skip
+2026-09-19 00:31Z | WATCH NO TRADE | TT Konkulovskyi YES aec-setkameua-konrom-krovit YES 0.57/0.64 spread 7c + no verified set/point board - no score no trade
+2026-09-19 00:31Z | WATCH NO TRADE | BYU 0.935 fav; NMX/MSU longshots under 0.10; VT-band MLB SEA/NYY early no score research skip
+2026-09-19 00:31Z | RESEARCH | desk live/book/market/account + desk-trade dry-run then live; Yahoo Sports PBP+WP (ESPN API 403 both MSI+box); NCAA henrygd scoreboard; Elon Twin feed+brief ABSENT
+2026-09-19 00:31Z | SESSION | desk OK msi-heartbeat | cash avail USD34.69 | open live LW 0 + VT Hokies order resting CKM569MPCWPF | streak 0 next USD5 | traded resting | quiet (SMU loss =USD5 not over; MSI OK)

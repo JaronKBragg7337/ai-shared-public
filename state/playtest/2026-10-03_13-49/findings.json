@@ -1,0 +1,285 @@
+[
+ {
+  "title": "A game action stays \"pending\" forever (the server never answers), so the buttons are dead",
+  "sev": 97,
+  "kind": "server-not-answering",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:29",
+  "detail": "in the opening step 0: the game's own busy flag has been on for 25 s; button text \"\", caption \"Continue the opening first.\"",
+  "shot": "shots-iphone/010-opening-PROBLEM-server-not-answering.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:15 [opening] === phase opening starts",
+   "00:16 [opening] opening stage -1 -> 0 ()",
+   "00:29 [opening] tap screen to unlock sound",
+   "00:33 [opening] tap screen to unlock sound"
+  ]
+ },
+ {
+  "title": "Hiring Ada Chen 1 did not work",
+  "sev": 84,
+  "kind": "hire-failed",
+  "count": 1,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:00",
+  "detail": "tapped Hire; they are still a candidate; marks 10000 -> 10000; screen said \"Ada Chen 1Pilot · skill 82%✕Walk over to them first.Flies what you point her at. Keeps the ship off the rocks and out of\"",
+  "shot": "shots-iphone/097-hire-PROBLEM-hire-failed.jpg",
+  "steps": [
+   "10:59 [tour] REFRESH (refresh after the port tour)",
+   "10:59 [tour] websocket closed (the bot refreshed the page)",
+   "11:01 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "11:22 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "11:22 [hire] === phase hire starts",
+   "11:22 [hire] candidates: Jorge(Navigator), Sunita(Gunner (dorsal)), Walter(Gunner (ventral)), Zuri Okafor 1(Captain), Ada Chen 1(Pilot), Aoi Patel 1(Communications officer)",
+   "11:22 [hire] walk to candidate Ada Chen 1",
+   "11:22 [hire] route of 8 legs",
+   "11:36 [hire] tap #crew-talk (open hiring panel)",
+   "11:37 [hire] tap button \"Meet Ada Chen 1 · 560 marks\" (hire Ada Chen 1)",
+   "11:40 [hire] the button said Meet first; waiting for the candidate to walk over, then Hire",
+   "12:00 [hire] hire result: status candidate, marks 10000 -> 10000"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Shift runner",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:02",
+  "detail": "no progress for 56s at port -61,-41 (target -64,-41, 3 m away)",
+  "shot": "shots-iphone/087-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "08:15 [tour] not getting closer (3 m away), trying to get unstuck #3",
+   "08:15 [tour] run-up jump #3",
+   "08:17 [tour] jump",
+   "08:25 [tour] not getting closer (3 m away), trying to get unstuck #4",
+   "08:25 [tour] run-up jump #4",
+   "08:28 [tour] jump",
+   "08:36 [tour] not getting closer (3 m away), trying to get unstuck #5",
+   "08:36 [tour] sidestep around whatever is in the way",
+   "08:40 [tour] route of 3 legs",
+   "08:47 [tour] not getting closer (3 m away), trying to get unstuck #6",
+   "08:54 [tour] not getting closer (3 m away), trying to get unstuck #7",
+   "09:02 [tour] not getting closer (3 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Lookout at the glass",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:18",
+  "detail": "no progress for 56s at port -59,-41 (target -56,-41, 4 m away)",
+  "shot": "shots-iphone/090-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "09:30 [tour] not getting closer (4 m away), trying to get unstuck #3",
+   "09:30 [tour] run-up jump #3",
+   "09:32 [tour] jump",
+   "09:41 [tour] not getting closer (4 m away), trying to get unstuck #4",
+   "09:41 [tour] run-up jump #4",
+   "09:43 [tour] jump",
+   "09:52 [tour] not getting closer (4 m away), trying to get unstuck #5",
+   "09:52 [tour] sidestep around whatever is in the way",
+   "09:56 [tour] route of 3 legs",
+   "10:03 [tour] not getting closer (4 m away), trying to get unstuck #6",
+   "10:11 [tour] not getting closer (4 m away), trying to get unstuck #7",
+   "10:18 [tour] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 9,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:45",
+  "detail": "cuts stayed 3 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/014-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "00:29 [opening] tap screen to unlock sound",
+   "00:33 [opening] tap screen to unlock sound",
+   "01:33 [opening] opening stage 0 -> 1 (Move: WASD / left thumb · Look: mouse / right thumb)",
+   "01:37 [opening] mis-tap beside #opening-action",
+   "01:38 [opening] tap #opening-action (mis-tap)",
+   "01:38 [opening] tap #opening-action (opening action)",
+   "01:39 [opening] opening stage 1 -> 2 (Something lies beneath the collapsed dust.)",
+   "01:39 [opening] walk to the crate",
+   "01:39 [opening] tap #opening-action (opening action)",
+   "01:40 [opening] tap #opening-action (opening action)",
+   "01:41 [opening] tap #opening-action (opening action)",
+   "01:43 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap: #btn-close-settings \"✕\" overlaps #set-tool \"Hand spade Shovel Excavator \" by 77%",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "04:28",
+  "detail": "#btn-close-settings \"✕\" overlaps #set-tool \"Hand spade Shovel Excavator \" by 77% (Settings scrolled, iphone)",
+  "shot": "shots-iphone/032-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "02:31 [opening] tap #opening-action (opening action)",
+   "02:33 [opening] tap #opening-action (opening action)",
+   "02:34 [opening] opening stage 2 -> 3 (A vehicle is approaching.)",
+   "02:35 [opening] walk to the rescue vehicle",
+   "02:44 [opening] tap #opening-action (opening action)",
+   "02:47 [opening] opening stage 3 -> 4 (Zuri: Outer Accord. We saw you come down.)",
+   "03:03 [opening] REFRESH (mid-ride)",
+   "03:03 [opening] websocket closed (the bot refreshed the page)",
+   "03:05 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:22 [opening] opening finished",
+   "04:26 [panels] === phase panels starts",
+   "04:26 [panels] tap #btn-settings (open Settings)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 9,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:16",
+  "detail": "a single frame took 5451 ms (typical 16 ms); 4 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:15 [opening] === phase opening starts",
+   "00:16 [opening] opening stage -1 -> 0 ()"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"hire\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:27",
+  "detail": "a single frame took 4628 ms (typical 43 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/094-hire-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "10:18 [tour] back down the lift",
+   "10:18 [tour] walk to cab landing",
+   "10:44 [tour] walk to inside the lift (down)",
+   "10:45 [tour] tap #btn-action (action)",
+   "10:59 [tour] REFRESH (refresh after the port tour)",
+   "10:59 [tour] websocket closed (the bot refreshed the page)",
+   "11:01 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "11:22 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "11:22 [hire] === phase hire starts",
+   "11:22 [hire] candidates: Jorge(Navigator), Sunita(Gunner (dorsal)), Walter(Gunner (ventral)), Zuri Okafor 1(Captain), Ada Chen 1(Pilot), Aoi Patel 1(Communications officer)",
+   "11:22 [hire] walk to candidate Ada Chen 1",
+   "11:22 [hire] route of 8 legs"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"dig\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:57",
+  "detail": "a single frame took 7376 ms (typical 16 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/129-dig-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:00 [dig] dug 105 bites; cart 0.0/1054 -> 392.7/1054",
+   "14:00 [dig] walk to the amber weigh bay",
+   "14:01 [dig] route of 7 legs",
+   "14:17 [dig] not getting closer (21 m away), trying to get unstuck #1",
+   "14:17 [dig] run-up jump #1",
+   "14:19 [dig] jump",
+   "14:39 [dig] tap #quest-deliver (deliver the tonne)",
+   "14:41 [dig] delivery: marks 9280 -> 9280",
+   "14:41 [dig] tap #btn-drop-all (drop all)",
+   "14:41 [dig] REFRESH (refresh right after digging)",
+   "14:41 [dig] websocket closed (the bot refreshed the page)",
+   "14:43 [dig] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Game said: \"Weather sensors are offline. Watch the dust outside.\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:43",
+  "detail": "shown in crew-panel while the bot was: 07:43 [tour] tap button \"Understood. What can I do here?\" (answer back)",
+  "shot": "shots-iphone/082-tour-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "07:40 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "07:40 [tour] tap button \"✕\" (close talk panel)",
+   "07:40 [tour] go talk to Weather officer",
+   "07:40 [tour] walk to Weather officer",
+   "07:40 [tour] tap #crew-talk (Talk to Weather officer)",
+   "07:41 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "07:41 [tour] tap button \"✕\" (close talk panel)",
+   "07:42 [tour] go talk to Weather officer",
+   "07:42 [tour] walk to Weather officer",
+   "07:42 [tour] tap #crew-talk (Talk to Weather officer)",
+   "07:42 [tour] tap button \"What is your watch like?\" (ask them something)",
+   "07:43 [tour] tap button \"Understood. What can I do here?\" (answer back)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "04:40",
+  "detail": "a single frame took 1920 ms (typical 58 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/039-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "04:32 [panels] tap #set-voice-mute (toggle back)",
+   "04:32 [panels] tap #btn-close-settings (close Settings)",
+   "04:33 [panels] tap #purse (open Account / purse)",
+   "04:34 [panels] tap #account-panel .account-close (close Account / purse)",
+   "04:35 [panels] tap #multiplayer-button (open World / crew)",
+   "04:36 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "04:37 [panels] tap #btn-key-controls (open Controls)",
+   "04:38 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "04:38 [tour] === phase tour starts",
+   "04:38 [tour] go talk to Arrival guide",
+   "04:38 [tour] walk to Arrival guide",
+   "04:38 [tour] route of 28 legs"
+  ]
+ }
+]

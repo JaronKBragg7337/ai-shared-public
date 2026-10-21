@@ -1,0 +1,3 @@
+Read BRIEFING.md (you may also read the code it points to). Question: Should Sapling keep its rest system (the energy budget plus the
+choice to rest or stop) for now, or turn it off so its development goes faster? Give your answer, your reasoning from the evidence,
+and what evidence would change your mind. Under 350 words. Plain words.

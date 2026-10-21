@@ -1,0 +1,4 @@
+available to trade $10.83   (venue 'currentBalance' $10.83 includes deposits on hold)
+positions: 1
+  YES   32.00 sh  US Confirms That Aliens Exist?             outcome=Yes                avg 0.0850  cost $2.72  now $1.60  [usgcc-aliens-12-31-2026]
+open orders: 0

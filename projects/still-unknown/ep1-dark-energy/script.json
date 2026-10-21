@@ -1,0 +1,58 @@
+[
+ {
+  "id": "s1",
+  "text": "Everything we can see. Every star, every galaxy, every atom of you. It all adds up to about five percent of the universe. The rest is dark. And the largest share of that dark is something that pushes. We measured the push. We named its cause: dark energy. We still do not know what it is."
+ },
+ {
+  "id": "s2",
+  "text": "Start with what was measured. We have known since 1929, from Edwin Hubble's work, that the universe is expanding: the farther away a galaxy is, the faster it moves away from us. Hubble measured those distances with Cepheids, pulsing stars whose rhythm reveals their true brightness. The big question in the 1990s was how fast gravity was slowing that expansion down."
+ },
+ {
+  "id": "s3",
+  "text": "In 1998, two teams of astronomers were watching a special kind of exploding star, a type one A supernova. Once you correct for how fast each one fades, and its color, these explosions reach nearly the same peak brightness. So how faint one looks tells you how far away it is."
+ },
+ {
+  "id": "s4",
+  "text": "Both teams expected the far-off supernovae to look a little brighter than a plain expanding universe would predict, because gravity should have been slowing things down. They looked fainter. Farther away than they should be. The expansion of the universe is not slowing down. It is speeding up."
+ },
+ {
+  "id": "s5",
+  "text": "The High-z team, led by Brian Schmidt, with Adam Riess leading the 1998 analysis, published sixteen distant supernovae that year. Saul Perlmutter's Supernova Cosmology Project published forty-two in 1999. The 2011 Nobel Prize in Physics went to all three, for the discovery of the accelerating expansion of the universe."
+ },
+ {
+  "id": "s6",
+  "text": "Whatever drives it got a name: dark energy. The simplest version is a number Einstein wrote into his equations in 1917 and later regretted. The cosmological constant. An energy of empty space itself, the same everywhere, the same at all times. Put it back into the equations, and the supernova measurements fit."
+ },
+ {
+  "id": "s7",
+  "text": "Measured by the Planck satellite's map of the oldest light, dark energy makes up about sixty-eight percent of the energy in the universe today. Dark matter, about twenty-seven percent. Ordinary matter, about five. Those shares are inferred through a model, not weighed on a scale."
+ },
+ {
+  "id": "s8",
+  "text": "Here is the first crack. The expansion rate today is called the Hubble constant. Measure it from the oldest light, and you get about sixty-seven kilometers per second per megaparsec. Measure it from nearby exploding stars and pulsing stars, and you get about seventy-three. The error bars do not overlap. This is the Hubble tension, and as of October 2026, it is not resolved."
+ },
+ {
+  "id": "s8b",
+  "text": "Why does any of this matter? If dark energy is a true constant, the expansion keeps speeding up forever, and distant galaxies slip out of sight one by one. If it weakens, that future changes. The difference is far too small to notice in a human lifetime. It only shows up when you combine measurements of millions of galaxies across a whole survey."
+ },
+ {
+  "id": "s9",
+  "text": "Then came DESI, an instrument on a telescope in Arizona that mapped nearly fifteen million galaxies and quasars in three dimensions. In March 2025, combined with other data, it found a preference for dark energy that changes over time, weakening as the universe ages. The strength of that hint: between two point eight and four point two sigma, depending on which data you combine."
+ },
+ {
+  "id": "s10",
+  "text": "Physics calls a result a discovery at five sigma. This is not there yet. And in July 2026, a new DESI analysis of the hydrogen gas between galaxies shifted back toward the constant, the simple Einstein version. Both results come from the same project. DESI finished its planned five-year survey in April 2026. Results from the full dataset are expected in 2027."
+ },
+ {
+  "id": "s11",
+  "text": "So here is the ledger. Measured: the expansion is speeding up. Measured, through a model: the shares of dark energy, dark matter, and ordinary matter. Not settled: whether dark energy is constant or changing. Not settled: why the two expansion rates disagree. Unknown: what dark energy actually is."
+ },
+ {
+  "id": "s12",
+  "text": "The candidates on the table: the energy of empty space, a slowly changing field, or gravity that behaves differently at the largest scales. Each one predicts a slightly different history of the expansion. That is exactly what DESI and the next surveys are built to measure. None has passed the test yet. Could it ever be understood, or used? Not established. Not ruled out. Someone watching this might be the one who finds out."
+ },
+ {
+  "id": "s13",
+  "text": "Still Unknown, from Heartbeat Observatory."
+ }
+]

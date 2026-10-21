@@ -1,0 +1,1 @@
+The radio is playing an instrumental version. One coworker knows the song and mentally fills in the lyrics; the other hears only what’s actually playing.

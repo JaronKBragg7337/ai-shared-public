@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\lilli\AI-Shared\state\_tmp_pos_check.py", line 5, in <module>
+    import desk_trade as DT
+ModuleNotFoundError: No module named 'desk_trade'

@@ -1,0 +1,33 @@
+=== TENN BOOK ===
+RC 0
+aec-cfb-tenn-ark-2026-10-10
+  YES bid 0.8600 / ask 0.8650   buy NO costs 0.14   last 0.8850
+  open interest 82599.1200   depth bid 43 / ask 19   shares traded 161874.4800
+
+=== TENN DRY ===
+RC 0
+[2026-10-10 17:05:06] DRY RUN grok-bot/satya-twin: {"marketSlug": "aec-cfb-tenn-ark-2026-10-10", "intent": "ORDER_INTENT_BUY_LONG", "type": "ORDER_TYPE_LIMIT", "price": {"value": "0.86", "currency": "USD"}, "quantity": "5.81", "tif": "TIME_IN_FORCE_GOOD_TILL_CANCEL"} | book 0.86/0.865 short 0.14 | row would be: {"slug": "aec-cfb-tenn-ark-2026-10-10", "question": "Who will win in the upcoming football event Tennessee vs Arkansas scheduled for October 10, 2026 at 8:15 PM UTC? \u2014 Volunteers", "outcome": "Volunteers", "side": "yes", "entry_price": 0.865, "bid": 0.86, "ask": 0.865, "spread": 0.005, "scout_p
+
+=== TENN LIVE ===
+RC 0
+[2026-10-10 17:05:11] #1195 grok-bot/satya-twin YES aec-cfb-tenn-ark-2026-10-10 $5.00 @ 0.92 -> PLACED {"id": "D11RBC6TEZ89", "executions": []} | why: TENN0-ARK0 early 2Q ESPN TENN WP89.6 vs Volunteers ask~0.80 about 10c under; mid-game ride
+{
+ "proposal_id": 1195,
+ "placed": true,
+ "order": {
+  "marketSlug": "aec-cfb-tenn-ark-2026-10-10",
+  "intent": "ORDER_INTENT_BUY_LONG",
+  "type": "ORDER_TYPE_LIMIT",
+  "price": {
+   "value": "0.92",
+   "currency": "USD"
+  },
+  "quantity": "5.43",
+  "tif": "TIME_IN_FORCE_GOOD_TILL_CANCEL"
+ },
+ "result": {
+  "id": "D11RBC6TEZ89",
+  "executions": []
+ }
+}
+

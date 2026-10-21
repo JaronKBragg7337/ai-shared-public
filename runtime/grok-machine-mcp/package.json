@@ -1,0 +1,23 @@
+{
+  "name": "grok-machine-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local Windows control MCP server for a Grok custom connector.",
+  "license": "CC0-1.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "check": "node --check server.mjs",
+    "smoke": "node smoke.mjs",
+    "oauth-smoke": "node oauth-smoke.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "dotenv": "16.6.1",
+    "zod": "4.4.3"
+  }
+}

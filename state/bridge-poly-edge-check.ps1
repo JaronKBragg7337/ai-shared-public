@@ -1,0 +1,36 @@
+$ErrorActionPreference = 'Stop'
+$slugs = @(
+  'cbpac-usfed-2026-cut',
+  'aachc-nfl-wk1-2026-09-14-mostpasstds-jusher',
+  'usmayewc-usmayor-oaklan-2026-11-03-barlee'
+)
+function Invoke-McpJson([string]$json, [string]$sessionId) {
+  $headers = @{ 'Content-Type' = 'application/json'; 'Accept' = 'application/json, text/event-stream' }
+  if ($sessionId) { $headers['Mcp-Session-Id'] = $sessionId }
+  $resp = Invoke-WebRequest -Uri 'http://127.0.0.1:8765/mcp' -Method POST -Headers $headers -Body ([System.Text.Encoding]::UTF8.GetBytes($json)) -UseBasicParsing
+  $sid = $resp.Headers['Mcp-Session-Id']; if (-not $sid) { $sid = $resp.Headers['mcp-session-id'] }
+  $data = New-Object System.Collections.Generic.List[string]
+  foreach ($line in ($resp.Content -split "`n")) { if ($line.StartsWith('data: ')) { [void]$data.Add($line.Substring(6).Trim()) } }
+  return @{ SessionId = $sid; Raw = if ($data.Count -eq 0) { $resp.Content } else { $data[$data.Count-1] } }
+}
+function Call-Tool([string]$sid, [int]$id, [string]$name, [hashtable]$arguments) {
+  $obj = @{ jsonrpc='2.0'; id=$id; method='tools/call'; params=@{ name=$name; arguments=$arguments } }
+  return Invoke-McpJson (($obj | ConvertTo-Json -Depth 12 -Compress)) $sid
+}
+function T([string]$raw) { ($raw | ConvertFrom-Json).result.content[0].text }
+$initObj = @{ jsonrpc='2.0'; id=1; method='initialize'; params=@{ protocolVersion='2024-11-05'; capabilities=@{}; clientInfo=@{ name='bridge'; version='1.0' } } }
+$sid = (Invoke-McpJson (($initObj | ConvertTo-Json -Depth 8 -Compress)) $null).SessionId
+try { Invoke-WebRequest -Uri 'http://127.0.0.1:8765/mcp' -Method POST -Headers @{ 'Content-Type'='application/json'; 'Accept'='application/json, text/event-stream'; 'Mcp-Session-Id'=$sid } -Body ([Text.Encoding]::UTF8.GetBytes('{"jsonrpc":"2.0","method":"notifications/initialized"}')) -UseBasicParsing | Out-Null } catch {}
+$today = T (Call-Tool $sid 2 'today' @{}).Raw
+$bal = T (Call-Tool $sid 3 'polymarket_account_balances' @{}).Raw
+$i = 10
+foreach ($slug in $slugs) {
+  $i++
+  $bbo = T (Call-Tool $sid $i 'polymarket_bbo' @{ slug = $slug }).Raw
+  $ob = T (Call-Tool $sid ($i+50) 'polymarket_orderbook' @{ slug = $slug }).Raw
+  Write-Output ('=== ' + $slug + ' ===')
+  Write-Output $bbo
+  Write-Output ('OB_HEAD=' + $ob.Substring(0, [Math]::Min(1200, $ob.Length)))
+}
+Write-Output ('TODAY=' + $today)
+Write-Output ('BAL=' + $bal)

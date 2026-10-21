@@ -1,0 +1,6 @@
+﻿Who will win in the upcoming football event UCLA vs Oregon scheduled for October 10, 2026 at 7:30 PM UTC?  ΓÇö  
+  slug aec-cfb-ucla-ore-2026-10-10 | category sports | type football_team_full_game_winner
+  outcomes ["Bruins","Ducks"] | LONG side (what you buy at the ask) = Bruins
+  active True closed False | game start 2026-10-10T19:30:00Z | ends 2026-10-24T23:30:00Z
+  app: https://polymarket.us/event/<event>  (search the title in the app if unsure)
+  rules: This market will settle to the winner of the UCLA vs Oregon College Football game scheduled for Oct 10, 2026. Overtime is included if played. If a tied final score is reported and no official winner is declared, this market will not resolve automatically and will be reviewed against the official governing-body result. If the game is delayed, postponed, or suspended and not rescheduled to a date within two weeks of the originally scheduled date, the market will settle to the last fair market price. Outcome sourced from the relevant governing body.

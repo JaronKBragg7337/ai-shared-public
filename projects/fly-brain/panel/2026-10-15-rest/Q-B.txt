@@ -1,0 +1,3 @@
+Read BRIEFING.md (you may also read the code it points to). Question: What does Sapling's rest system (the energy budget plus the
+choice to rest or stop) cost it right now, what does it give, and what would have to be true for it to start mattering? Under 350
+words. Plain words.

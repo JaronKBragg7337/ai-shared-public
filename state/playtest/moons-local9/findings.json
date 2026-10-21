@@ -1,0 +1,337 @@
+[
+ {
+  "title": "Floating off the ground on a moon (airborne for 8+ seconds)",
+  "sev": 90,
+  "kind": "floating-on-moon",
+  "count": 18,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "05:13",
+  "detail": "walking on the moon, still airborne after 10 s, speed 4.03 m/s {\"r\":11972.79,\"sampler\":-0.061,\"shipGround\":-0.054,\"vRad\":0.613,\"suitHold\":0.8,\"jump\":0.6}",
+  "shot": "shots-iphone/025-fly-PROBLEM-floating-on-moon.jpg",
+  "steps": [
+   "02:47 [fly] on phobos: stand up and walk out",
+   "02:47 [fly] tap #chip-ramp (lower the ramp from the pilot seat)",
+   "02:51 [fly] tap #space-sheet .close (close the Course sheet)",
+   "02:52 [fly] tap button \"Stand\" (stand up)",
+   "03:06 [fly] walk to off the ramp tip",
+   "03:08 [fly] 1 sample sites known",
+   "03:08 [fly] walk to core sample site S1",
+   "04:23 [fly] tap #btn-action (action)",
+   "04:24 [fly] walk to a wander on phobos",
+   "04:32 [fly] jump",
+   "04:33 [fly] walk to back to the ship",
+   "05:11 [fly] AIRTRACE [grounded-before, grounded-after, dist-to-drawn-ground, radial-vel, moving, pushOut]: [[0,0,0.034,0.725,1,0.12],[0,0,0.02,0.713,1,0.12],[0,0,0.006,0.7,1,0.12],[0,0,-0.008,0.688,1,0.12],[0,0,-0.02,0.671,1,0.12],[0,0,-0.039,0.661,1,0.12],[0,0,-0.051,0.639,1,0.12],[0,0,-0.077,1.474,1,0.06],[0,0,-0.026,0.75,1,0.06],[0,0,-0.036,0.737,1,0.06],[0,0,-0.047,0.724,1,0.06],[0,0,-0.057,0.712,1,0.06],[0,0,-0.065,1.315,1,0.06],[0,0,-0.008,0.75,1,0.06],[0,0,-0.015,0.738,1,0.06],[0,0,-0.022,0.725,1,0.06],[0,0,-0.031,0.709,1,0.06],[0,0,-0.042,0.7,1,0.06],[0,0,-0.048,0.688,1,0.06],[0,0,-0.058,0.674,1,0.06],[0,0,-0.069,0.651,1,0.06],[0,0,-0.093,1.154,1,0.12],[0,0,0.026,0.75,1,0.12],[0,0,0.006,0.737,1,0.12],[0,0,-0.005,0.725,1,0.12],[0,0,-0.013,0.712,1,0.12],[0,0,-0.023,0.688,1,0.12],[0,0,-0.044,0.675,1,0.12],[0,0,-0.058,0.663,1,0.12],[0,0,-0.072,1.401,1,0.06],[0,0,-0.019,0.75,1,0.06],[0,0,-0.031,0.74,1,0.06],[0,0,-0.039,0.728,1,0.06],[0,0,-0.05,1.237,1,0.06],[0,0,0.005,0.75,1,0.06],[0,0,-0.005,0.727,1,0.06],[0,0,-0.024,0.714,1,0.06],[0,0,-0.034,0.701,1,0.06],[0,0,-0.045,0.689,1,0.06],[0,0,-0.055,0.677,1,0.06]]"
+  ]
+ },
+ {
+  "title": "Nothing changed for 60+ seconds (same message, same place)",
+  "sev": 86,
+  "kind": "stuck-state",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:47",
+  "detail": "in \"fly\": position {\"x\":5.5,\"y\":0,\"z\":14.9}, button \"\", caption \"\", toast \"\", ship aboard",
+  "shot": "shots-iphone/055-fly-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "10:03 [fly] not getting closer (14 m away), trying to get unstuck #2",
+   "10:03 [fly] run-up jump #2",
+   "10:05 [fly] jump",
+   "10:14 [fly] not getting closer (14 m away), trying to get unstuck #3",
+   "10:14 [fly] run-up jump #3",
+   "10:16 [fly] jump",
+   "10:25 [fly] not getting closer (14 m away), trying to get unstuck #4",
+   "10:25 [fly] run-up jump #4",
+   "10:27 [fly] jump",
+   "10:36 [fly] not getting closer (14 m away), trying to get unstuck #5",
+   "10:36 [fly] sidestep around whatever is in the way",
+   "10:47 [fly] not getting closer (14 m away), trying to get unstuck #6"
+  ]
+ },
+ {
+  "title": "Stuck while walking to back to the ship",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:01",
+  "detail": "no progress for 56s at shipworld 6,15 (target 0,28, 14 m away)",
+  "shot": "shots-iphone/056-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:05 [fly] jump",
+   "10:14 [fly] not getting closer (14 m away), trying to get unstuck #3",
+   "10:14 [fly] run-up jump #3",
+   "10:16 [fly] jump",
+   "10:25 [fly] not getting closer (14 m away), trying to get unstuck #4",
+   "10:25 [fly] run-up jump #4",
+   "10:27 [fly] jump",
+   "10:36 [fly] not getting closer (14 m away), trying to get unstuck #5",
+   "10:36 [fly] sidestep around whatever is in the way",
+   "10:47 [fly] not getting closer (14 m away), trying to get unstuck #6",
+   "10:54 [fly] not getting closer (14 m away), trying to get unstuck #7",
+   "11:01 [fly] not getting closer (14 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck on a walking route: pilot seat route",
+  "sev": 78,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:31",
+  "detail": "at -0.4,10.1 (y 3), 26 m from the end",
+  "shot": "shots-iphone/028-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "03:08 [fly] 1 sample sites known",
+   "03:08 [fly] walk to core sample site S1",
+   "04:23 [fly] tap #btn-action (action)",
+   "04:24 [fly] walk to a wander on phobos",
+   "04:32 [fly] jump",
+   "04:33 [fly] walk to back to the ship",
+   "05:11 [fly] AIRTRACE [grounded-before, grounded-after, dist-to-drawn-ground, radial-vel, moving, pushOut]: [[0,0,0.034,0.725,1,0.12],[0,0,0.02,0.713,1,0.12],[0,0,0.006,0.7,1,0.12],[0,0,-0.008,0.688,1,0.12],[0,0,-0.02,0.671,1,0.12],[0,0,-0.039,0.661,1,0.12],[0,0,-0.051,0.639,1,0.12],[0,0,-0.077,1.474,1,0.06],[0,0,-0.026,0.75,1,0.06],[0,0,-0.036,0.737,1,0.06],[0,0,-0.047,0.724,1,0.06],[0,0,-0.057,0.712,1,0.06],[0,0,-0.065,1.315,1,0.06],[0,0,-0.008,0.75,1,0.06],[0,0,-0.015,0.738,1,0.06],[0,0,-0.022,0.725,1,0.06],[0,0,-0.031,0.709,1,0.06],[0,0,-0.042,0.7,1,0.06],[0,0,-0.048,0.688,1,0.06],[0,0,-0.058,0.674,1,0.06],[0,0,-0.069,0.651,1,0.06],[0,0,-0.093,1.154,1,0.12],[0,0,0.026,0.75,1,0.12],[0,0,0.006,0.737,1,0.12],[0,0,-0.005,0.725,1,0.12],[0,0,-0.013,0.712,1,0.12],[0,0,-0.023,0.688,1,0.12],[0,0,-0.044,0.675,1,0.12],[0,0,-0.058,0.663,1,0.12],[0,0,-0.072,1.401,1,0.06],[0,0,-0.019,0.75,1,0.06],[0,0,-0.031,0.74,1,0.06],[0,0,-0.039,0.728,1,0.06],[0,0,-0.05,1.237,1,0.06],[0,0,0.005,0.75,1,0.06],[0,0,-0.005,0.727,1,0.06],[0,0,-0.024,0.714,1,0.06],[0,0,-0.034,0.701,1,0.06],[0,0,-0.045,0.689,1,0.06],[0,0,-0.055,0.677,1,0.06]]",
+   "05:58 [fly] walk to up the ramp (moon)",
+   "06:16 [fly] jump",
+   "06:21 [fly] jump",
+   "06:26 [fly] jump",
+   "06:31 [fly] jump"
+  ]
+ },
+ {
+  "title": "Could not walk to a wander on deimos",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:45",
+  "detail": "gave up after 60s; last distance 26 m",
+  "shot": "shots-iphone/051-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:58 [fly] jump",
+   "09:07 [fly] not getting closer (26 m away), trying to get unstuck #2",
+   "09:07 [fly] run-up jump #2",
+   "09:09 [fly] jump",
+   "09:17 [fly] not getting closer (26 m away), trying to get unstuck #3",
+   "09:17 [fly] run-up jump #3",
+   "09:20 [fly] jump",
+   "09:28 [fly] not getting closer (26 m away), trying to get unstuck #4",
+   "09:28 [fly] run-up jump #4",
+   "09:31 [fly] jump",
+   "09:39 [fly] not getting closer (26 m away), trying to get unstuck #5",
+   "09:39 [fly] sidestep around whatever is in the way"
+  ]
+ },
+ {
+  "title": "Buttons are covered by something on top of them (7 places)",
+  "sev": 68,
+  "kind": "covered",
+  "count": 7,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:41",
+  "detail": "#chip-range \"Range\" is covered by button.go ;  #chip-course \"Course\" is covered by button.go ;  #chip-jobs \"Jobs\" is covered by button.go ;  #chip-range \"Range\" is covered by button.wp ;  #chip-course \"Course\" is covered by div.row ;  #chip-jobs \"Jobs\" is covered by button.wp ;  #chip-jobs \"Jobs\" is covered by button.wp on",
+  "shot": "shots-iphone/031-fly-PROBLEM-covered.jpg",
+  "steps": [
+   "04:33 [fly] walk to back to the ship",
+   "05:11 [fly] AIRTRACE [grounded-before, grounded-after, dist-to-drawn-ground, radial-vel, moving, pushOut]: [[0,0,0.034,0.725,1,0.12],[0,0,0.02,0.713,1,0.12],[0,0,0.006,0.7,1,0.12],[0,0,-0.008,0.688,1,0.12],[0,0,-0.02,0.671,1,0.12],[0,0,-0.039,0.661,1,0.12],[0,0,-0.051,0.639,1,0.12],[0,0,-0.077,1.474,1,0.06],[0,0,-0.026,0.75,1,0.06],[0,0,-0.036,0.737,1,0.06],[0,0,-0.047,0.724,1,0.06],[0,0,-0.057,0.712,1,0.06],[0,0,-0.065,1.315,1,0.06],[0,0,-0.008,0.75,1,0.06],[0,0,-0.015,0.738,1,0.06],[0,0,-0.022,0.725,1,0.06],[0,0,-0.031,0.709,1,0.06],[0,0,-0.042,0.7,1,0.06],[0,0,-0.048,0.688,1,0.06],[0,0,-0.058,0.674,1,0.06],[0,0,-0.069,0.651,1,0.06],[0,0,-0.093,1.154,1,0.12],[0,0,0.026,0.75,1,0.12],[0,0,0.006,0.737,1,0.12],[0,0,-0.005,0.725,1,0.12],[0,0,-0.013,0.712,1,0.12],[0,0,-0.023,0.688,1,0.12],[0,0,-0.044,0.675,1,0.12],[0,0,-0.058,0.663,1,0.12],[0,0,-0.072,1.401,1,0.06],[0,0,-0.019,0.75,1,0.06],[0,0,-0.031,0.74,1,0.06],[0,0,-0.039,0.728,1,0.06],[0,0,-0.05,1.237,1,0.06],[0,0,0.005,0.75,1,0.06],[0,0,-0.005,0.727,1,0.06],[0,0,-0.024,0.714,1,0.06],[0,0,-0.034,0.701,1,0.06],[0,0,-0.045,0.689,1,0.06],[0,0,-0.055,0.677,1,0.06]]",
+   "05:58 [fly] walk to up the ramp (moon)",
+   "06:16 [fly] jump",
+   "06:21 [fly] jump",
+   "06:26 [fly] jump",
+   "06:31 [fly] jump",
+   "06:39 [fly] button near seat: \"Sit  ·  Navigation\"",
+   "06:39 [fly] tap #btn-action (action)",
+   "06:40 [fly] seated: nav",
+   "06:40 [fly] mis-tap beside #chip-course",
+   "06:40 [fly] tap #chip-course (open the Course sheet)"
+  ]
+ },
+ {
+  "title": "Buttons overlap each other (4 places)",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 4,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:47",
+  "detail": "#chip-range \"Range\" overlaps  \"×1\" by 48% ;  #chip-course \"Course\" overlaps  \"×5\" by 31% ;  #chip-course \"Course\" overlaps  \"×20\" by 34% ;  #chip-jobs \"Jobs\" overlaps  \"×60\" by 48%",
+  "shot": "shots-iphone/035-fly-PROBLEM-overlap.jpg",
+  "steps": [
+   "06:21 [fly] jump",
+   "06:26 [fly] jump",
+   "06:31 [fly] jump",
+   "06:39 [fly] button near seat: \"Sit  ·  Navigation\"",
+   "06:39 [fly] tap #btn-action (action)",
+   "06:40 [fly] seated: nav",
+   "06:40 [fly] mis-tap beside #chip-course",
+   "06:40 [fly] tap #chip-course (open the Course sheet)",
+   "06:41 [fly] tap button \"Deimos15000 km · about 111 h 10 minThe o\" (choose Deimos)",
+   "06:43 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Deimos (pad 03)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "06:43 [fly] trip phase lift, warp x1, eta 0s",
+   "06:43 [fly] tap button \"×5\" (speed up ×5)"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 4,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "shot": "shots-iphone/002-start-PROBLEM-console-error.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js",
+  "shot": "shots-iphone/001-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js",
+  "shot": "shots-iphone/004-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:04",
+  "detail": "The live connection closed while playing: ws://127.0.0.1:8463/",
+  "shot": "shots-iphone/006-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off",
+   "00:01 [start] websocket open ws://127.0.0.1:8463/",
+   "00:04 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Game said: \"Cruise: raiders cannot follow a ship at this speed\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 2,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:05",
+  "detail": "shown in hud-readout while the bot was: 01:05 [fly] trip phase transit, warp x60, eta 1679s",
+  "shot": "shots-iphone/014-fly-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:27 [fly] mis-tap beside #chip-course",
+   "00:27 [fly] tap #chip-course (open the Course sheet)",
+   "00:28 [fly] tap button \"Phobos7668 km · about 36 minLand at the \" (choose Phobos)",
+   "00:30 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Phobos (pad 03)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "00:30 [fly] trip phase lift, warp x1, eta 0s",
+   "00:30 [fly] tap button \"×20\" (speed up ×20)",
+   "00:33 [fly] tap button \"×60\" (speed up ×60)",
+   "00:38 [fly] trip phase ascent, warp x60, eta 0s",
+   "00:38 [fly] tap button \"×5\" (speed up ×5)",
+   "00:41 [fly] tap button \"×20\" (speed up ×20)",
+   "00:51 [fly] tap button \"×60\" (speed up ×60)",
+   "01:05 [fly] trip phase transit, warp x60, eta 1679s"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 4,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "a single frame took 1807 ms (typical 30 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/008-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off",
+   "00:01 [start] websocket open ws://127.0.0.1:8463/",
+   "00:04 [start] websocket closed",
+   "00:05 [start] websocket open ws://127.0.0.1:8463/",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship type meridian; ship centre at port 214,-120; ramp foot 214,-90"
+  ]
+ }
+]

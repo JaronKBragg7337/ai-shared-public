@@ -1,0 +1,166 @@
+[
+ {
+  "id": "s1",
+  "words": 56,
+  "missing": 1,
+  "missing_pct": 1.8,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "fifteenth"
+  ]
+ },
+ {
+  "id": "s2",
+  "words": 65,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s3",
+  "words": 67,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s4",
+  "words": 54,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s5",
+  "words": 76,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s6",
+  "words": 67,
+  "missing": 1,
+  "missing_pct": 1.5,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "nineties"
+  ]
+ },
+ {
+  "id": "s7",
+  "words": 65,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s8",
+  "words": 58,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s9",
+  "words": 58,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s10",
+  "words": 73,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s11",
+  "words": 77,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s12",
+  "words": 51,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s13",
+  "words": 48,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s14",
+  "words": 70,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s15",
+  "words": 49,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "s16",
+  "words": 5,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ }
+]

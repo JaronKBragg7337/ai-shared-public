@@ -1,0 +1,316 @@
+[
+ {
+  "title": "Page error (uncaught exception)",
+  "sev": 95,
+  "kind": "page-error",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "Unhandled Promise Rejection: TypeError: Load failed",
+  "shot": "shots-iphone/013-start-PROBLEM-page-error.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"spots\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 4,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:26",
+  "detail": "a single frame took 4463 ms (typical 16 ms); 7 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/019-spots-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:08 [start] websocket closed",
+   "00:09 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:24 [spots] === phase spots starts",
+   "00:24 [spots] spots source inventory {\"doors\":3,\"pads\":9,\"counts\":{\"portRooms\":13,\"pads\":9,\"ships\":9}}"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/014-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:08 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/sunita.glb (Load request cancelled)",
+  "shot": "shots-iphone/001-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/jorge.glb (Load request cancelled)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/ada.glb (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/walter.glb (Load request cancelled)",
+  "shot": "shots-iphone/004-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/zuri.glb (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/aoi.glb (Load request cancelled)",
+  "shot": "shots-iphone/006-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Same sign text on 2 port signs: \"marineris port\"",
+  "sev": 22,
+  "kind": "spot-repeated-sign-text",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:18",
+  "detail": "beacon, arrivals-gantry",
+  "shot": null,
+  "steps": [
+   "00:24 [spots] === phase spots starts",
+   "00:24 [spots] spots source inventory {\"doors\":3,\"pads\":9,\"counts\":{\"portRooms\":13,\"pads\":9,\"ships\":9}}",
+   "00:38 [spots] spots: 5 parked ships: courier@pad01, lifeboat@pad06, meridian@pad04, meridian@pad05, meridian@pad08",
+   "00:42 [spots] spots: courier-pad01-cargo hinge -0.2,1.8,18.3 foot -0.2,-0.1,21.8 (foot height above ground should be ~0)",
+   "00:44 [spots] spots: courier-pad01-airlock hinge 3.3,1.8,9.1 foot 6.4,-0.1,9.1 (foot height above ground should be ~0)",
+   "00:53 [spots] spots note: model for lifeboat@pad06 not found (no ramp mesh check)",
+   "00:53 [spots] spots: lifeboat-pad06-airlock ramp is raised, no walk views",
+   "01:00 [spots] spots note: model for meridian@pad04 not found (no ramp mesh check)",
+   "01:04 [spots] spots: meridian-pad05-cargo hinge 214.0,2.2,-99.1 foot 214.0,-0.1,-94.5 (foot height above ground should be ~0)",
+   "01:06 [spots] spots: meridian-pad05-airlock ramp is raised, no walk views",
+   "01:12 [spots] spots note: model for meridian@pad08 not found (no ramp mesh check)",
+   "01:12 [spots] spots: meridian-pad08-airlock ramp is raised, no walk views"
+  ]
+ },
+ {
+  "title": "Same sign text on 2 port signs: \"pad status\"",
+  "sev": 22,
+  "kind": "spot-repeated-sign-text",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:18",
+  "detail": "padboard-02, padboard-03",
+  "shot": null,
+  "steps": [
+   "00:24 [spots] === phase spots starts",
+   "00:24 [spots] spots source inventory {\"doors\":3,\"pads\":9,\"counts\":{\"portRooms\":13,\"pads\":9,\"ships\":9}}",
+   "00:38 [spots] spots: 5 parked ships: courier@pad01, lifeboat@pad06, meridian@pad04, meridian@pad05, meridian@pad08",
+   "00:42 [spots] spots: courier-pad01-cargo hinge -0.2,1.8,18.3 foot -0.2,-0.1,21.8 (foot height above ground should be ~0)",
+   "00:44 [spots] spots: courier-pad01-airlock hinge 3.3,1.8,9.1 foot 6.4,-0.1,9.1 (foot height above ground should be ~0)",
+   "00:53 [spots] spots note: model for lifeboat@pad06 not found (no ramp mesh check)",
+   "00:53 [spots] spots: lifeboat-pad06-airlock ramp is raised, no walk views",
+   "01:00 [spots] spots note: model for meridian@pad04 not found (no ramp mesh check)",
+   "01:04 [spots] spots: meridian-pad05-cargo hinge 214.0,2.2,-99.1 foot 214.0,-0.1,-94.5 (foot height above ground should be ~0)",
+   "01:06 [spots] spots: meridian-pad05-airlock ramp is raised, no walk views",
+   "01:12 [spots] spots note: model for meridian@pad08 not found (no ramp mesh check)",
+   "01:12 [spots] spots: meridian-pad08-airlock ramp is raised, no walk views"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 5,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load ada TypeError: Load failed",
+  "shot": "shots-iphone/010-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 4,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load sunita TypeError: Load failed",
+  "shot": "shots-iphone/008-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load isaiah Error: THREE.GLTFLoader: WebP required by asset but unsupported.",
+  "shot": "shots-iphone/007-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load jorge TypeError: Load failed",
+  "shot": "shots-iphone/009-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load walter TypeError: Load failed",
+  "shot": "shots-iphone/011-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Console warning",
+  "sev": 20,
+  "kind": "console-warning",
+  "count": 3,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:08",
+  "detail": "person failed to load aoi TypeError: Load failed",
+  "shot": "shots-iphone/012-start-PROBLEM-console-warning.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ }
+]

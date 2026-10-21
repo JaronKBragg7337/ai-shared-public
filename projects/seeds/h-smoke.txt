@@ -1,0 +1,276 @@
+H-Smoke
+
+a self-contained (water-from-air) refillable mist-inhalation device in a cigarette-pack form factor. The only external dependency is battery charging (USB-C). The “pack” performs atmospheric water capture and refills the “stick” only when docked, and the packing/slapping motion actuates a mechanical micro-pump for tactile realism.
+
+This design is explicitly grounded in published “wood + hygroscopic salt + solar-thermal layer” atmospheric water harvesting concepts reported by RMIT/Zhejiang A&F collaborators (including reported capture/release performance and material constituents).  
+
+⸻
+
+Atmospheric Water–Derived Mist Inhaler (Pack-Integrated Harvester + Docked Refill Stick)
+
+1. Overview
+
+Purpose
+
+A reusable, non-combustion inhalation device providing a cigarette-like “hand-to-mouth + draw” ritual while atomizing water-based mist. The system is designed such that the inhaled fluid is produced from atmospheric moisture harvested inside the pack. The only routine external input is electrical charging.
+
+Core constraints
+	•	The pack harvests water from air using a sorption + controlled desorption + condensation process.
+	•	The stick reservoir is refilled only when inserted into the pack.
+	•	The “pack” action (tapping/slapping/packing) provides tactile realism and mechanically actuates refill dosing; it is not assumed to be the primary energy source for water generation or atomization.
+
+Reference basis for feasibility
+
+RMIT and collaborators describe a lab prototype using a wood-based spongy scaffold combined with lithium chloride and photothermal components (including carbon nanotube layer; also reported iron oxide nanoparticles) to absorb atmospheric moisture with the lid open and release collected water when heated under sunlight with the lid closed. Reported performance includes outdoor capture around 2.5 mL per gram overnight with ~94% daily collection efficiency, and operation across ~30–90% RH.  
+A peer-reviewed pre-proof describing “wood-based composite materials” for solar-powered atmospheric water harvesting (Journal of Cleaner Production, DOI: 10.1016/j.jclepro.2025.145061) provides further technical grounding.  
+
+⸻
+
+2. Operating Principle (Water-from-Air Cycle)
+
+2.1 Capture (Sorption)
+	•	Ambient air is admitted through filtered vents into a sorption chamber containing a replaceable sorbent cartridge.
+	•	Sorbent chemistry uses a hygroscopic salt (e.g., LiCl) embedded/retained within a porous wood-derived scaffold. The RMIT device explicitly cites “wood’s spongy scaffolding” and “lithium chloride” as constituents.  
+
+2.2 Release (Desorption) + Condensation
+	•	Captured water is not directly “squeezed out”; it is desorbed as vapor by heating the sorbent and then condensed on a cooler surface.
+	•	RMIT’s prototype uses sun-powered activation; this blueprint replaces solar heating with an electric heater powered by the pack’s rechargeable battery (still consistent with the same thermodynamic cycle).  
+
+2.3 Collection and Storage
+	•	Condensed liquid is guided into a sealed pack reservoir (“pack tank”).
+	•	The pack tank is the source for stick refill dosing.
+
+⸻
+
+3. System Requirements (Engineering Targets)
+
+3.1 Form factor
+	•	Pack external: 90(H) × 60(W) × 22(D) mm (±2 mm).
+	•	Stick external: 84(L) × 8(Ø) mm (±1 mm).
+
+3.2 Water production targets (design goals, not guaranteed)
+	•	Moderate humidity (50–70% RH): 1–5 mL/day (realistic for pocket-scale with limited airflow; depends heavily on vent exposure time).
+	•	Low humidity (~30% RH): expect substantially lower yield; RMIT reported absorption still occurring at ~30% RH, but pocket constraints will reduce throughput.  
+
+3.3 Stick consumption
+	•	Stick reservoir: 1.0–1.5 mL usable volume.
+	•	Puff: 2–6 seconds; max puff 8–10 seconds; enforced cooldown.
+
+⸻
+
+4. Architecture
+
+4.1 Pack subsystems
+	1.	Air Intake & Filtration
+	•	Hydrophobic dust filter + replaceable pre-filter (e.g., nonwoven + PTFE membrane disk).
+	2.	Sorption Chamber
+	•	Houses Sorbent Cartridge (replaceable).
+	3.	Desorption/Condensation Module
+	•	Heater (hot side) + vapor path + condenser plate (cold side) + collection gutter.
+	4.	Pack Reservoir (Tank)
+	•	10–30 mL, sealed, food-grade.
+	5.	Dock + Refill Dosing Mechanism
+	•	Self-sealing fluid interface + mechanical micro-pump actuated by pack motion.
+	6.	Power + Control
+	•	Li-ion battery + USB-C charging + heater driver + sensors + safety cutoffs.
+
+4.2 Stick subsystems
+	1.	Reservoir (receives refill only docked)
+	2.	Ultrasonic Mesh Atomizer Core
+	3.	Air Path + Draw Restrictor
+	4.	Mouthpiece + Check Valve
+	5.	Optional “ember” LED
+
+⸻
+
+5. Sorbent Cartridge: Materials and Containment
+
+5.1 Sorbent composition (reference-aligned)
+
+RMIT’s described composition includes:
+	•	Wood’s spongy scaffolding (refined balsa wood structure)  
+	•	Lithium chloride (hygroscopic capture)  
+	•	Iron oxide nanoparticles (reported as part of device composition; also discussed as assisting solar absorption in secondary reporting)  
+	•	Carbon nanotube layer (photothermal/solar absorption layer in the described system)  
+
+Important: This blueprint treats the “photothermal layer” as optional because heating is provided electrically. However, photothermal coating can reduce electrical heating load if users expose the pack to sunlight during release.
+
+5.2 Critical safety requirement: zero salt carryover
+
+If LiCl is used, the design must prevent:
+	•	liquid water contacting the salt directly during collection
+	•	aerosols carrying dissolved salts
+
+Containment strategy (required):
+	•	Sorbent is sealed inside a vapor-permeable, liquid-impermeable membrane envelope (e.g., ePTFE or equivalent hydrophobic microporous barrier).
+	•	Desorbed vapor is routed through a vapor-only channel to the condenser plate.
+	•	Condensed water never contacts the sorbent; it only touches inert condenser surfaces and downstream tubing.
+
+5.3 Water quality gate (required for inhalation use)
+	•	Inline 0.2 µm filter (wet path) to reduce particulate/bioburden.
+	•	Inline conductivity sensor in pack tank outlet:
+	•	If conductivity exceeds a threshold (engineering team to calibrate using baseline distilled water), firmware locks refill and flags cartridge replacement/inspection.
+
+⸻
+
+6. Mechanical Design (Pack)
+
+6.1 Enclosure and structural materials
+	•	Outer shell: PC-ABS or ABS (injection-ready; PETG acceptable for prototypes).
+	•	Internal chassis: glass-filled nylon or PETG.
+	•	Hinge: 2 mm stainless pin.
+	•	Lid detent: magnets or spring detent.
+
+6.2 Airflow and venting
+	•	Two-stage vents:
+	•	Intake vent: bottom/side, protected by splash baffle
+	•	Exhaust vent: top/rear, behind a labyrinth path to prevent liquid intrusion
+	•	Replaceable filter module accessible by a service door.
+
+6.3 Desorption/Condensation module
+
+Hot side
+	•	Sorbent cartridge sits in an insulated pocket (aerogel blanket or silicone foam).
+	•	Heater: polyimide (Kapton) heater pad, 3–10 W capability.
+	•	Thermal fuse + NTC thermistor on cartridge surface.
+
+Vapor path
+	•	Short, low-dead-volume duct from cartridge envelope to condenser.
+	•	One-way check flap optional to prevent back diffusion.
+
+Cold side
+	•	Condenser plate: 316L stainless or anodized aluminum with inert coating.
+	•	Passive heat sink coupled to outer shell; optional micro-fan if power budget allows (RMIT reports using a cooling mechanism in its cup device; small forced convection can materially improve condensation efficiency).  
+	•	Condenser geometry: 3–5° slope into a gutter feeding pack tank.
+
+6.4 Pack reservoir (tank)
+	•	Material: food-grade PP or HDPE, 10–30 mL.
+	•	Includes:
+	•	fill sensor (optional)
+	•	drain port (service)
+	•	vent with hydrophobic membrane (pressure equalization without contamination ingress)
+
+6.5 Docked refill interface
+	•	Fluid interface must be self-sealing on both pack and stick sides.
+	•	Recommended interface: micro “needle + septum” style with medical-grade silicone septum and mechanical lock collar.
+	•	Spill control: check valve upstream of dock.
+
+6.6 Packing-motion refill pump
+
+The tactile “pack” action is mapped to a controlled refill dose:
+	•	A sliding mass (“slap sled”) travels 5–12 mm under impact.
+	•	The sled compresses a peristaltic pinch segment (preferred) or micro-diaphragm pump.
+	•	Per action transfer: 0.02–0.05 mL (tunable via tubing ID and pinch stroke).
+	•	20 strong “packs” yields ~0.4–1.0 mL transferred.
+
+Peristaltic approach is preferred because water only contacts the tube and backflow is naturally limited.
+
+⸻
+
+7. Mechanical Design (Stick)
+
+7.1 Reservoir and wet/dry separation
+	•	Reservoir: 1.0–1.5 mL, PP insert or molded cavity.
+	•	Hard separation between:
+	•	wet bay (reservoir + atomizer)
+	•	dry bay (electronics)
+	•	Seals: silicone O-rings at mouthpiece and reservoir interface.
+
+7.2 Atomization core
+	•	Use an off-the-shelf ultrasonic mesh nebulizer module (medical-grade style). This reduces development risk and improves aerosol consistency.
+	•	Target power: 1–3 W during activation (module dependent).
+
+7.3 Air path and draw feel
+	•	Draw restrictor insert: interchangeable orifice (0.6–1.2 mm) to tune pressure drop.
+	•	Mist injection: mist enters a mixing chamber upstream of mouthpiece.
+	•	Check valve: silicone duckbill to prevent backflow and reduce condensation migration into device.
+
+7.4 Dock-only refill
+	•	Stick refill port aligns with dock needle.
+	•	Port is closed when undocked (self-sealing).
+	•	Firmware interlock: refill only when dock detect is asserted.
+
+⸻
+
+8. Electrical Design
+
+8.1 Power
+	•	Pack battery: 3.7 V Li-ion, 1000–2000 mAh (protected cell recommended).
+	•	USB-C charging: integrated Li-ion charge controller with protections.
+	•	Heater driver: PWM MOSFET with thermal safeguards.
+	•	Atomizer power: 5 V boost as needed (depending on nebulizer module requirements).
+
+8.2 Sensors and safety interlocks
+	•	Cartridge temperature (NTC)
+	•	Condenser zone temperature (optional)
+	•	Tank level (optional)
+	•	Conductivity sensor (required if LiCl sorbent is used)
+	•	Leak detection strip (optional, recommended)
+	•	Dock detect (hall sensor or pogo pin state)
+
+8.3 Firmware logic (high-level)
+	•	Modes:
+	•	Capture Mode: passive; periodic sensor polling only
+	•	Release Mode: heat cartridge to setpoint; condense; stop when moisture depleted or time limit reached
+	•	Refill Mode: enabled only when docked and water quality passes
+	•	Puff Mode: stick atomization; duration and cooldown enforced
+	•	Lockouts:
+	•	over-temp
+	•	high conductivity
+	•	low tank / low stick reservoir (if sensor)
+	•	leak detect asserted
+
+⸻
+
+9. Manufacturing Notes (Prototype → Engineering Build)
+
+9.1 Prototype path
+	•	Phase 1: stick atomization + dock refill from a manually filled pack tank.
+	•	Phase 2: integrate sorbent cartridge + heater + condenser + quality gating.
+	•	Phase 3: optimize airflow exposure and condensation performance.
+
+9.2 Materials compatibility
+	•	Wet path: 316L stainless, PP/HDPE, medical silicone; avoid reactive metals or adhesives in contact with collected water.
+	•	Adhesives: only outside wet path; use mechanical retention where possible.
+
+⸻
+
+10. Verification and Test Protocol
+
+10.1 Water capture/release yield
+	•	Controlled chamber tests at 30%, 50%, 70% RH, multiple temperatures.
+	•	Record:
+	•	mass gain of cartridge (capture)
+	•	water collected in tank (release)
+	•	Compare to published baseline expectations for similar materials (RMIT reports measurable absorption at 30% RH and outdoor capture/release performance figures).  
+
+10.2 Contamination / salt carryover
+	•	Conductivity of tank water post-release.
+	•	Ion chromatography (engineering lab) recommended to validate no Li+ / Cl− elevation beyond acceptable threshold.
+	•	If elevated: redesign cartridge membrane/seals and vapor path.
+
+10.3 Leak and robustness
+	•	Drop and slap testing with full tank (8 hours carry simulation).
+	•	Verify no wetting of electronics, no seepage at dock.
+
+10.4 Atomization performance
+	•	Puff cycle endurance (e.g., 500 puff cycles).
+	•	Mesh clogging and cleaning intervals.
+	•	Aerosol droplet size distribution (if equipment available).
+
+⸻
+
+11. Key Technical Risks and Mitigations
+	1.	Insufficient water yield in pocket usage
+	•	Mitigation: design for “vented overnight” exposure; maximize sorbent surface area; optimize airflow channels.
+	2.	Salt carryover risk (LiCl)
+	•	Mitigation: vapor-only separation, membrane containment, conductivity lockout, replaceable cartridges.
+	3.	Biofilm/hygiene
+	•	Mitigation: 0.2 µm filter, cleanable mouthpiece, serviceable wet path, periodic drying cycle.
+
+⸻
+
+12. References
+	•	RMIT University news release describing composition (wood scaffold + lithium chloride + iron oxide nanoparticles + carbon nanotube layer), operating mode (lid open capture, lid closed sunlight release), and reported performance figures.  
+	•	Independent technical summary describing WLG-15 composite, solar-driven release and condensation hardware elements (cooling plate/heat sink/fan), and device operating cycle.  
+	•	Journal of Cleaner Production pre-proof listing (DOI: 10.1016/j.jclepro.2025.145061) for the wood-based composite atmospheric water harvesting study.  

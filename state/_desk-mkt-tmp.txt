@@ -1,0 +1,6 @@
+Will Real Sociedad de Futbol win against RC Deportivo A Coruna in the La Liga match scheduled for Oct 11, 2026?  —  
+  slug atc-lal-rso-dep-2026-10-11-rso | category sports | type soccer_team_full_time_winner
+  outcomes ["Yes","No"] | LONG side (what you buy at the ask) = Yes
+  active True closed False | game start 2026-10-11T14:15:00Z | ends 2026-10-25T18:15:00Z
+  app: https://polymarket.us/event/<event>  (search the title in the app if unsure)
+  rules: This market will settle to the winner at the end of 90 minutes plus stoppage time in the Real Sociedad de Fútbol vs RC Deportivo A Coruña La Liga match scheduled for 2026-10-11 10:15AM ET. If the match is tied following 90 minutes plus stoppage time, the market will settle to Tie. If the match is delayed, postponed, or suspended and not rescheduled to a date within two weeks of the originally scheduled date, the market will settle to the last fair market price. Outcome sourced from La Liga.

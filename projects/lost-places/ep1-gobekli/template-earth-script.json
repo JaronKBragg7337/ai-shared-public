@@ -1,0 +1,192 @@
+[
+ {
+  "id": "s1",
+  "text": "Think of the worst thing that ever happened to life on Earth. An asteroid? A volcano? There is a case that one of the biggest crises was caused by life itself, about 2.4 billion years ago, by a waste product: oxygen. This is Earth. Today: the Great Oxidation Event, what the rocks show, and what nobody can measure yet.",
+  "say": "Think of the worst thing that ever happened to life on Earth. An asteroid? A volcano? There is a case that one of the biggest crises was caused by life itself, about two point four billion years ago, by a waste product: oxygen. This is Earth. Today: the Great Oxidation Event, what the rocks show, and what nobody can measure yet.",
+  "disp": [
+   "Think of the worst thing that ever happened to life on Earth.",
+   "An asteroid?",
+   "A volcano?",
+   "There is a case that one of the biggest crises was caused by life itself,",
+   "about 2.4 billion years ago, by a waste product: oxygen.",
+   "This is Earth.",
+   "Today: the Great Oxidation Event, what the rocks show, and what nobody can measure yet."
+  ]
+ },
+ {
+  "id": "s2",
+  "text": "Today, oxygen is about 21 percent of the air. For roughly the first two billion years of Earth's history, atmospheric oxygen was almost absent. Chemistry in ancient rocks points to levels far below one thousandth of today's. Life was there, microbes in the oceans, living in a world with almost no free oxygen, though small local oxygen pockets may have existed.",
+  "say": "Today, oxygen is about 21 percent of the air. For roughly the first two billion years of Earth's history, atmospheric oxygen was almost absent. Chemistry in ancient rocks points to levels far below one thousandth of today's. Life was there, microbes in the oceans, living in a world with almost no free oxygen, though small local oxygen pockets may have existed.",
+  "disp": [
+   "Today, oxygen is about 21 percent of the air.",
+   "For roughly the first two billion years of Earth's history, atmospheric oxygen was almost absent.",
+   "Chemistry in ancient rocks points to levels far below one thousandth of today's.",
+   "Life was there, microbes in the oceans, living in a world with almost no free oxygen,",
+   "though small local oxygen pockets may have existed."
+  ]
+ },
+ {
+  "id": "s3",
+  "text": "The source was a group of microbes called cyanobacteria. Their kind of photosynthesis splits water, and oxygen is the leftover. For them, it was waste. When this started is debated. Some evidence and genetic studies point to 2.7 billion years ago or earlier, and claims of even older fossils are contested. What the rocks agree on is this: the oxygen did not pile up in the air right away.",
+  "say": "The source was a group of microbes called cyanobacteria. Their kind of photosynthesis splits water, and oxygen is the leftover. For them, it was waste. When this started is debated. Some evidence and genetic studies point to two point seven billion years ago or earlier, and claims of even older fossils are contested. What the rocks agree on is this: the oxygen did not pile up in the air right away.",
+  "disp": [
+   "The source was a group of microbes called cyanobacteria.",
+   "Their kind of photosynthesis splits water, and oxygen is the leftover.",
+   "For them, it was waste.",
+   "When this started is debated.",
+   "Some evidence and genetic studies point to 2.7 billion years ago or earlier,",
+   "and claims of even older fossils are contested.",
+   "What the rocks agree on is this: the oxygen did not pile up in the air right away."
+  ]
+ },
+ {
+  "id": "s4",
+  "text": "Why not right away? Because oxygen had places to go. Iron dissolved in the oceans grabbed it, and so did gases from volcanoes and freshly exposed rock. Free oxygen could build up in the air only once its sources outpaced those sinks. Estimates of the delay vary, from about 200 to 400 million years, and they depend on models and on when the microbes started, which is not settled.",
+  "say": "Why not right away? Because oxygen had places to go. Iron dissolved in the oceans grabbed it, and so did gases from volcanoes and freshly exposed rock. Free oxygen could build up in the air only once its sources outpaced those sinks. Estimates of the delay vary, from about 200 to 400 million years, and they depend on models and on when the microbes started, which is not settled.",
+  "disp": [
+   "Why not right away?",
+   "Because oxygen had places to go.",
+   "Iron dissolved in the oceans grabbed it, and so did gases from volcanoes and freshly exposed rock.",
+   "Free oxygen could build up in the air only once its sources outpaced those sinks.",
+   "Estimates of the delay vary, from about 200 to 400 million years,",
+   "and they depend on models and on when the microbes started, which is not settled."
+  ]
+ },
+ {
+  "id": "s5",
+  "text": "The oceans left a record in stone. Banded iron formations are alternating iron-rich and silica-rich layers, and the colors and minerals vary. The great ones, like those in the Hamersley Range of Western Australia, are about 2.5 billion years old, and iron formations host many of the world's largest iron ore deposits. One prominent explanation: iron dissolved in oxygen-free seawater met oxygen, rusted, and sank in layers. That is not a complete or settled account. Some formed when oxygen was still scarce, and researchers have proposed other causes, such as other microbes or sunlight. The bands show iron leaving the ocean. On their own, they do not date the oxygen in the air.",
+  "say": "The oceans left a record in stone. Banded iron formations are alternating iron-rich and silica-rich layers, and the colors and minerals vary. The great ones, like those in the Hamerzlee Range of Western Australia, are about two point five billion years old, and iron formations host many of the world's largest iron ore deposits. One prominent explanation: iron dissolved in oxygen-free seawater met oxygen, rusted, and sank in layers. That is not a complete or settled account. Some formed when oxygen was still scarce, and researchers have proposed other causes, such as other microbes or sunlight. The bands show iron leaving the ocean. On their own, they do not date the oxygen in the air.",
+  "disp": [
+   "The oceans left a record in stone.",
+   "Banded iron formations are alternating iron-rich and silica-rich layers,",
+   "and the colors and minerals vary.",
+   "The great ones, like those in the Hamersley Range of Western Australia,",
+   "are about 2.5 billion years old, and iron formations host many of the world's largest iron ore deposits.",
+   "One prominent explanation: iron dissolved in oxygen-free seawater met oxygen, rusted, and sank in layers.",
+   "That is not a complete or settled account.",
+   "Some formed when oxygen was still scarce, and researchers have proposed other causes,",
+   "such as other microbes or sunlight.",
+   "The bands show iron leaving the ocean.",
+   "On their own, they do not date the oxygen in the air."
+  ]
+ },
+ {
+  "id": "s6",
+  "text": "The strongest clue is sulfur. In rocks older than about 2.4 billion years, sulfur carries an odd isotope pattern, called mass-independent fractionation, that forms when sunlight hits sulfur gases in air without oxygen. In 2000, Farquhar and colleagues found the pattern in older rocks and found it gone from younger ones, with the change falling somewhere between about 2.45 and 2.09 billion years ago. Later studies narrow that, and the answer depends on which rocks you use. Other clues are consistent with it. Grains of minerals that rust away, like uraninite and pyrite, wash into old river sediments, then stop appearing. Red, rusted soil layers show up. Still, none of these is a switch. They are proxies. Rocks tell the story. Nobody measured the air.",
+  "say": "The strongest clue is sulfur. In rocks older than about two point four billion years, sulfur carries an odd isotope pattern, called mass-independent fractionation, that forms when sunlight hits sulfur gases in air without oxygen. In 2000, Far-kwar and colleagues found the pattern in older rocks and found it gone from younger ones, with the change falling somewhere between about two point four five and two point zero nine billion years ago. Later studies narrow that, and the answer depends on which rocks you use. Other clues are consistent with it. Grains of minerals that rust away, like yur-ay-nuh-nite and pyrite, wash into old river sediments, then stop appearing. Red, rusted soil layers show up. Still, none of these is a switch. They are proxies. Rocks tell the story. Nobody measured the air.",
+  "disp": [
+   "The strongest clue is sulfur.",
+   "In rocks older than about 2.4 billion years, sulfur carries an odd isotope pattern,",
+   "called mass-independent fractionation, that forms when sunlight hits sulfur gases in air without oxygen.",
+   "In 2000, Farquhar and colleagues found the pattern in older rocks and found it gone from younger",
+   "ones, with the change falling somewhere between about 2.45 and 2.09 billion years ago.",
+   "Later studies narrow that, and the answer depends on which rocks you use.",
+   "Other clues are consistent with it.",
+   "Grains of minerals that rust away, like uraninite and pyrite, wash into old river sediments,",
+   "then stop appearing.",
+   "Red, rusted soil layers show up.",
+   "Still, none of these is a switch.",
+   "They are proxies.",
+   "Rocks tell the story.",
+   "Nobody measured the air."
+  ]
+ },
+ {
+  "id": "s7",
+  "text": "So when? Estimates differ, partly because studies use different clues and define the start differently. One 2017 study placed the start of the oxygen rise between 2.46 and 2.43 billion years ago. A 2020 study gave 2.50 to 2.43. A 2021 study separated an early rise, around 2.43, from permanent oxygen in the air, around 2.22. It was probably not a switch. Oxygen likely rose and fell in pulses over a few hundred million years. One debated estimate says it later reached up to about ten percent of today's level.",
+  "say": "So when? Estimates differ, partly because studies use different clues and define the start differently. One twenty seventeen study placed the start of the oxygen rise between two point four six and two point four three billion years ago. A twenty twenty study gave two point five zero to two point four three. A twenty twenty-one study separated an early rise, around two point four three, from permanent oxygen in the air, around two point two two. It was probably not a switch. Oxygen likely rose and fell in pulses over a few hundred million years. One debated estimate says it later reached up to about ten percent of today's level.",
+  "disp": [
+   "So when?",
+   "Estimates differ, partly because studies use different clues and define the start differently.",
+   "One 2017 study placed the start of the oxygen rise between 2.46 and 2.43 billion years ago.",
+   "A 2020 study gave 2.50 to 2.43.",
+   "A 2021 study separated an early rise, around 2.43, from permanent oxygen in the air, around 2.22.",
+   "It was probably not a switch.",
+   "Oxygen likely rose and fell in pulses over a few hundred million years.",
+   "One debated estimate says it later reached up to about ten percent of today's level."
+  ]
+ },
+ {
+  "id": "s8",
+  "text": "For many anaerobic microbes, rising oxygen was harmful. Oxygen forms reactive molecules that can damage proteins, DNA, and cell membranes. Cells that evolved defenses, and then ways to use oxygen, got a big reward: breathing it can release substantially more energy from the same food than fermenting does. Strict anaerobes did not vanish. Many still live today in mud, deep sediment, and animal guts, places oxygen does not reach. So for some, the story was retreat, not only death.",
+  "say": "For many anaerobic microbes, rising oxygen was harmful. Oxygen forms reactive molecules that can damage proteins, DNA, and cell membranes. Cells that evolved defenses, and then ways to use oxygen, got a big reward: breathing it can release substantially more energy from the same food than fermenting does. Strict anaerobes did not vanish. Many still live today in mud, deep sediment, and animal guts, places oxygen does not reach. So for some, the story was retreat, not only death.",
+  "disp": [
+   "For many anaerobic microbes, rising oxygen was harmful.",
+   "Oxygen forms reactive molecules that can damage proteins, DNA, and cell membranes.",
+   "Cells that evolved defenses, and then ways to use oxygen, got a big reward:",
+   "breathing it can release substantially more energy from the same food than fermenting does.",
+   "Strict anaerobes did not vanish.",
+   "Many still live today in mud, deep sediment, and animal guts, places oxygen does not reach.",
+   "So for some, the story was retreat, not only death."
+  ]
+ },
+ {
+  "id": "s9",
+  "text": "There is also a cold chapter. The Huronian rocks north of Lake Huron in Canada preserve three glacial horizons, broadly bracketed between about 2.45 and 2.22 billion years ago. One leading idea: the early air was warmed by methane, and oxygen destroyed methane, turning it into carbon dioxide, a weaker greenhouse gas. In South Africa, the Makganyene glaciation may have reached the tropics, a possible snowball Earth. But dating and matching these layers is disputed. A 2020 study argued that oxygen rose before that snowball. That fits the idea, but the link is still a hypothesis.",
+  "say": "There is also a cold chapter. The Hue-roe-nee-an rocks north of Lake Huron in Canada preserve three glacial horizons, broadly bracketed between about two point four five and two point two two billion years ago. One leading idea: the early air was warmed by methane, and oxygen destroyed methane, turning it into carbon dioxide, a weaker greenhouse gas. In South Africa, the Mak-gan-yen-ee glaciation may have reached the tropics, a possible snowball Earth. But dating and matching these layers is disputed. A twenty twenty study argued that oxygen rose before that snowball. That fits the idea, but the link is still a hypothesis.",
+  "disp": [
+   "There is also a cold chapter.",
+   "The Huronian rocks north of Lake Huron in Canada preserve three glacial horizons,",
+   "broadly bracketed between about 2.45 and 2.22 billion years ago.",
+   "One leading idea: the early air was warmed by methane, and oxygen destroyed methane,",
+   "turning it into carbon dioxide, a weaker greenhouse gas.",
+   "In South Africa, the Makganyene glaciation may have reached the tropics, a possible snowball Earth.",
+   "But dating and matching these layers is disputed.",
+   "A 2020 study argued that oxygen rose before that snowball.",
+   "That fits the idea, but the link is still a hypothesis."
+  ]
+ },
+ {
+  "id": "s10",
+  "text": "Now the big question. Was it a mass extinction? Honestly: not established. Microbes leave few fossils, and rocks that old are rare and changed by heat and pressure. Nobody has counted species before and after. The idea rests on inference: oxygen was toxic, and oxygen-free habitats shrank. Some scientists call it Earth's first mass extinction, but it is usually left out of the standard lists. One study of sulfate minerals inferred a productivity collapse of more than 80 percent. But that was about 2 billion years ago, shortly after the oxygen rise, whether an oxygen overshoot caused it is debated, and it measures how much the biosphere produced, not how many species died.",
+  "say": "Now the big question. Was it a mass extinction? Honestly: not established. Microbes leave few fossils, and rocks that old are rare and changed by heat and pressure. Nobody has counted species before and after. The idea rests on inference: oxygen was toxic, and oxygen-free habitats shrank. Some scientists call it Earth's first mass extinction, but it is usually left out of the standard lists. One study of sulfate minerals inferred a productivity collapse of more than 80 percent. But that was about 2 billion years ago, shortly after the oxygen rise, whether an oxygen overshoot caused it is debated, and it measures how much the biosphere produced, not how many species died.",
+  "disp": [
+   "Now the big question.",
+   "Was it a mass extinction?",
+   "Honestly: not established.",
+   "Microbes leave few fossils, and rocks that old are rare and changed by heat and pressure.",
+   "Nobody has counted species before and after.",
+   "The idea rests on inference: oxygen was toxic, and oxygen-free habitats shrank.",
+   "Some scientists call it Earth's first mass extinction, but it is usually left out of the standard lists.",
+   "One study of sulfate minerals inferred a productivity collapse of more than 80 percent.",
+   "But that was about 2 billion years ago, shortly after the oxygen rise,",
+   "whether an oxygen overshoot caused it is debated, and it measures how much the biosphere produced,",
+   "not how many species died."
+  ]
+ },
+ {
+  "id": "s11",
+  "text": "Here is where things stand. Well supported: oxygen in the air rose sharply around 2.4 billion years ago, the sulfur record changed, and living things were the source. Debated: exactly when and how fast, when cyanobacteria began, whether this caused the ice ages, and how much life died. What would help: more precisely dated rocks, better chemical fingerprints of ancient microbes, and models that tie them together.",
+  "say": "Here is where things stand. Well supported: oxygen in the air rose sharply around two point four billion years ago, the sulfur record changed, and living things were the source. Debated: exactly when and how fast, when cyanobacteria began, whether this caused the ice ages, and how much life died. What would help: more precisely dated rocks, better chemical fingerprints of ancient microbes, and models that tie them together.",
+  "disp": [
+   "Here is where things stand.",
+   "Well supported: oxygen in the air rose sharply around 2.4 billion years ago,",
+   "the sulfur record changed, and living things were the source.",
+   "Debated: exactly when and how fast, when cyanobacteria began, whether this caused the ice ages,",
+   "and how much life died.",
+   "What would help: more precisely dated rocks, better chemical fingerprints of ancient microbes,",
+   "and models that tie them together."
+  ]
+ },
+ {
+  "id": "s12",
+  "text": "Life did not just live on Earth. It changed Earth: the air, the oceans, the rocks, and the climate. Everything that came after had to live in the world that life made. Every breath of oxygen began as somebody's waste.",
+  "say": "Life did not just live on Earth. It changed Earth: the air, the oceans, the rocks, and the climate. Everything that came after had to live in the world that life made. Every breath of oxygen began as somebody's waste.",
+  "disp": [
+   "Life did not just live on Earth.",
+   "It changed Earth: the air, the oceans, the rocks, and the climate.",
+   "Everything that came after had to live in the world that life made.",
+   "Every breath of oxygen began as somebody's waste."
+  ]
+ },
+ {
+  "id": "s13",
+  "text": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "say": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "disp": [
+   "Sources are on screen.",
+   "Made with AI by Heartbeat Observatory.",
+   "Find the full list at heartbeatobservatory.com."
+  ]
+ }
+]

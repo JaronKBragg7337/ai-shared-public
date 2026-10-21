@@ -1,0 +1,52 @@
+[
+  {
+    "file": "lostplaces-ep1-gobekli.mp4",
+    "bytes": 15099784,
+    "duration": 391.771995,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1",
+    "video": "h264",
+    "audio": "aac",
+    "full_decode": "PASS",
+    "samples": [
+      "stills/final-01-land.jpg",
+      "stills/final-02-land.jpg",
+      "stills/final-03-land.jpg",
+      "stills/final-04-land.jpg",
+      "stills/final-05-land.jpg",
+      "stills/final-06-land.jpg",
+      "stills/final-07-land.jpg",
+      "stills/final-08-land.jpg",
+      "stills/final-09-land.jpg",
+      "stills/final-10-land.jpg",
+      "stills/final-11-land.jpg",
+      "stills/final-12-land.jpg"
+    ]
+  },
+  {
+    "file": "lostplaces-ep1-gobekli-vertical.mp4",
+    "bytes": 17409870,
+    "duration": 391.771995,
+    "width": 1080,
+    "height": 1920,
+    "fps": "24/1",
+    "video": "h264",
+    "audio": "aac",
+    "full_decode": "PASS",
+    "samples": [
+      "stills/final-01-port.jpg",
+      "stills/final-02-port.jpg",
+      "stills/final-03-port.jpg",
+      "stills/final-04-port.jpg",
+      "stills/final-05-port.jpg",
+      "stills/final-06-port.jpg",
+      "stills/final-07-port.jpg",
+      "stills/final-08-port.jpg",
+      "stills/final-09-port.jpg",
+      "stills/final-10-port.jpg",
+      "stills/final-11-port.jpg",
+      "stills/final-12-port.jpg"
+    ]
+  }
+]

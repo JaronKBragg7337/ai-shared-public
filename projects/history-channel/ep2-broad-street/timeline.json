@@ -1,0 +1,59 @@
+{
+ "total": 133.529,
+ "segs": [
+  {
+   "id": "s1",
+   "start": 0.7,
+   "dur": 2.273,
+   "text": "How did one map beat a theory?"
+  },
+  {
+   "id": "s2",
+   "start": 3.373,
+   "dur": 17.128,
+   "text": "London, eighteen fifty four. Most doctors believed cholera spread by miasma, bad air from filth and rot. Then cholera struck Soho. Physician John Snow counted upwards of five hundred fatal attacks in ten days, nearly all within about two hundred fifty yards of Broad Street."
+  },
+  {
+   "id": "s3",
+   "start": 20.901,
+   "dur": 15.806,
+   "text": "Snow marked each death on a street map, one mark per house. The marks bunched around the Broad Street pump. Of the first eighty three deaths he checked, ten lived nearer another pump. Five of those families sent to Broad Street for water. Three were children at a school beside it."
+  },
+  {
+   "id": "s4",
+   "start": 37.107,
+   "dur": 22.933,
+   "text": "Then came the people who should have died, and did not. The Poland Street workhouse, surrounded by cases, had five hundred thirty five inmates and five deaths. It had its own well. At the Broad Street brewery, over seventy workers had no severe cholera. They drank their malt liquor, not water. And a widow in Hampstead, miles away, had Broad Street water delivered by cart. She drank it, and died on September second."
+  },
+  {
+   "id": "s5",
+   "start": 60.44,
+   "dur": 19.138,
+   "text": "On September seventh, Snow took his evidence to the parish Board of Guardians. The next day, the pump handle was removed. Now the honest part. Attacks peaked at one hundred forty three on September first. By the day the handle came off, twelve. Many people had already fled. Snow himself could not say how much the handle mattered."
+  },
+  {
+   "id": "s6",
+   "start": 79.978,
+   "dur": 18.992,
+   "text": "His strongest test was two water companies. Lambeth drew its water upriver of London's sewage. Southwark and Vauxhall drew it below. Each served rich and poor alike. In the epidemic, Southwark and Vauxhall homes lost three hundred fifteen per ten thousand. Lambeth homes, thirty seven. About eight times as many."
+  },
+  {
+   "id": "s7",
+   "start": 99.37,
+   "dur": 21.038,
+   "text": "The officials were not convinced. In eighteen fifty five, a government committee rejected Snow's water idea. Back in eighteen fifty four, Filippo Pacini had seen the cholera bacterium in Florence. Almost no one noticed. William Farr gave up miasma for cholera in eighteen sixty six. Robert Koch identified the bacterium in eighteen eighty three."
+  },
+  {
+   "id": "s8",
+   "start": 120.808,
+   "dur": 7.076,
+   "text": "Snow never saw the germ. He counted. Go where it happens, count what you can, and let the numbers change your mind."
+  },
+  {
+   "id": "s9",
+   "start": 128.283,
+   "dur": 2.446,
+   "text": "A Heartbeat Observatory history short."
+  }
+ ]
+}

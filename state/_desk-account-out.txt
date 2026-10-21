@@ -1,0 +1,5 @@
+﻿available to trade $12.35   (venue 'currentBalance' $12.35 includes deposits on hold)
+positions: 2
+  YES    1.89 sh  Sunderland AFC vs. Brighton & Hove Albion  outcome=Yes                avg 0.5450  cost $1.03  now $1.87  [atc-epl-sun-bha-2026-10-10-bha]
+  YES   32.00 sh  US Confirms That Aliens Exist?             outcome=Yes                avg 0.0850  cost $2.72  now $1.28  [usgcc-aliens-12-31-2026]
+open orders: 0

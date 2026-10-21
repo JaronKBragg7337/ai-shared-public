@@ -1,0 +1,46 @@
+[
+ {
+  "id": "s1",
+  "text": "How do you keep breathing inside a sealed capsule, when the only air is the air you already have?"
+ },
+ {
+  "id": "s2",
+  "text": "NASA's design numbers: one person uses about eight tenths of a kilogram of oxygen a day, and breathes out about one kilogram of carbon dioxide. Seal one person in a three cubic meter pod, and watch. In our simulation, carbon dioxide passes the half percent workplace limit in about forty minutes, and keeps climbing. Oxygen slowly falls."
+ },
+ {
+  "id": "s3",
+  "text": "Apollo's answer was lithium hydroxide. It captures carbon dioxide, and leaves lithium carbonate and water. Carbon dioxide stays low. But lithium hydroxide makes no oxygen. That has to come from tanks."
+ },
+ {
+  "id": "s4",
+  "text": "On Apollo thirteen, three men had to live in a lunar module built for two. Its round canisters could not keep up, and the command module's square ones did not fit. So the crew and the ground built an adapter from plastic bags, hoses, cardboard, and duct tape."
+ },
+ {
+  "id": "s5",
+  "text": "Potassium superoxide does both jobs. Four units of it plus two of carbon dioxide make two of potassium carbonate, and three of oxygen. Carbon dioxide goes in. Oxygen comes out. One kilogram absorbs up to a third of a kilogram of carbon dioxide, and releases a third of a kilogram of oxygen."
+ },
+ {
+  "id": "s6",
+  "text": "Breath also carries water vapor. Potassium superoxide reacts with that too, releasing more oxygen and forming potassium hydroxide, which captures more carbon dioxide. Breathing drives the chemistry: harder breathing, more oxygen."
+ },
+ {
+  "id": "s7",
+  "text": "Now run the same pod with a potassium superoxide canister. Carbon dioxide holds near a quarter of a percent. Oxygen stays near twenty percent, because the canister gives oxygen back. It used about half a kilogram of the chemical in six hours."
+ },
+ {
+  "id": "s8",
+  "text": "Six hours, side by side. With no scrubber, carbon dioxide reaches four point six percent, and oxygen drops to fifteen point eight. With lithium hydroxide, carbon dioxide is held, but oxygen falls to sixteen and a half. With potassium superoxide, both stay in range."
+ },
+ {
+  "id": "s9",
+  "text": "That is why it turns up where tanks are awkward. Some sixty minute mine self rescuers use it, started by a small chlorate candle. And NASA's history says Soviet Vostok, Voskhod, and Soyuz craft stored their oxygen chemically, with potassium superoxide cartridges."
+ },
+ {
+  "id": "s10",
+  "text": "One honest warning: potassium superoxide reacts violently with water, so it lives sealed inside canisters, handled by trained people. Your breath, turned back into air."
+ },
+ {
+  "id": "s11",
+  "text": "A Heartbeat Observatory science short."
+ }
+]

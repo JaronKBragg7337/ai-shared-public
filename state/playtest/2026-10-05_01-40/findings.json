@@ -1,0 +1,274 @@
+[
+ {
+  "title": "Stuck while walking to Shift runner",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:54",
+  "detail": "no progress for 56s at port -61,-41 (target -64,-41, 3 m away)",
+  "shot": "shots-iphone/101-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:07 [tour] not getting closer (3 m away), trying to get unstuck #3",
+   "12:07 [tour] run-up jump #3",
+   "12:10 [tour] jump",
+   "12:18 [tour] not getting closer (3 m away), trying to get unstuck #4",
+   "12:18 [tour] run-up jump #4",
+   "12:20 [tour] jump",
+   "12:29 [tour] not getting closer (3 m away), trying to get unstuck #5",
+   "12:29 [tour] sidestep around whatever is in the way",
+   "12:33 [tour] route of 3 legs",
+   "12:40 [tour] not getting closer (3 m away), trying to get unstuck #6",
+   "12:47 [tour] not getting closer (3 m away), trying to get unstuck #7",
+   "12:54 [tour] not getting closer (3 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Lookout at the glass",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:10",
+  "detail": "no progress for 56s at port -59,-41 (target -56,-41, 4 m away)",
+  "shot": "shots-iphone/104-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "13:23 [tour] not getting closer (4 m away), trying to get unstuck #3",
+   "13:23 [tour] run-up jump #3",
+   "13:25 [tour] jump",
+   "13:33 [tour] not getting closer (4 m away), trying to get unstuck #4",
+   "13:33 [tour] run-up jump #4",
+   "13:36 [tour] jump",
+   "13:44 [tour] not getting closer (4 m away), trying to get unstuck #5",
+   "13:44 [tour] sidestep around whatever is in the way",
+   "13:48 [tour] route of 3 legs",
+   "13:56 [tour] not getting closer (4 m away), trying to get unstuck #6",
+   "14:03 [tour] not getting closer (4 m away), trying to get unstuck #7",
+   "14:10 [tour] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:55",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/035-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:28 [opening] tap #opening-action (opening action)",
+   "06:30 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:30 [opening] walk to the crate",
+   "06:31 [opening] tap #opening-action (opening action)",
+   "06:32 [opening] tap #opening-action (opening action)",
+   "06:33 [opening] mis-tap beside #opening-action",
+   "06:34 [opening] tap #opening-action (opening action)",
+   "06:35 [opening] tap #opening-action (opening action)",
+   "06:36 [opening] REFRESH (mid-dig)",
+   "06:36 [opening] websocket closed (the bot refreshed the page)",
+   "06:37 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:54 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The whole viewport is black with no caption, title, loading text or Skip intro button. The bot reported 'openi",
+  "sev": 63,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:42",
+  "detail": "Entire screen (the vision model's description of the screen: The screenshot is entirely black, with no visible title, caption, loading text, Skip intro button, HUD, or 3D world content.)",
+  "shot": "shots-iphone/044-opening-opening-done.jpg",
+  "steps": [
+   "08:37 [opening] opening finished"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 12,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:20",
+  "detail": "a single frame took 5655 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:20 [opening] === phase opening starts",
+   "00:20 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The instruction says to aim the shovel at the dust around the crate, but no crate, dust, shovel, ground or any",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:55",
+  "detail": "Whole viewport, around the central reticle (the vision model's description of the screen: A dark red, almost empty viewport shows an orange ring reticle in the center, a hint at the bottom reading 'Aim the shovel at the dust around the crate.', a 'Skip intro' button at top right, a 'Dig (E)' button at bottom right, and a small 'Walk · Look · Use (E / touch)' label at top left.)",
+  "shot": "shots-iphone/035-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:54 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 2,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:02",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/007-opening-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:20 [opening] === phase opening starts",
+   "00:20 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:24 [opening] tap screen to unlock sound",
+   "00:27 [opening] tap screen to unlock sound",
+   "00:44 [opening] walk to the boarding hall",
+   "00:45 [opening] walk to the boarding hall",
+   "00:45 [opening] walk to the boarding hall",
+   "00:50 [opening] walk to the boarding hall",
+   "00:52 [opening] in the boarding hall, waiting for the gangway to come down",
+   "01:02 [opening] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The captain's subtitle is light grey text with no backing panel, laid over the busy grated floor texture. Seve",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:56",
+  "detail": "Bottom of the screen, the 'CAPTAIN' caption block (the vision model's description of the screen: A first-person view down a metal-floored boarding hall toward a closed grey door with a small window and yellow-striped panels on either side, with a captain's subtitle about the ships off the port and starboard sides shown at the bottom.)",
+  "shot": "shots-iphone/006-opening-opening.jpg",
+  "steps": [
+   "00:52 [opening] in the boarding hall, waiting for the gangway to come down"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: Large foreground geometry (a beam and wall edge, a railing and a box-like ledge) blocks much of the view, and ",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:21",
+  "detail": "center and lower-left of the viewport (the vision model's description of the screen: A first-person view on Mars (Valles Marineris) from inside or beside a structure with beige pillars and a railing, looking out at a port with buildings and a reddish horizon, with a HUD panel showing location, hauling cart, a mission hint and currency, plus World/crew, Controls and Talk buttons.)",
+  "shot": "shots-iphone/090-tour-after-talk-cab-ground.jpg",
+  "steps": [
+   "11:20 [tour] tap button \"✕\" (close talk panel)"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "04:02",
+  "detail": "shown in opening-caption while the bot was: 04:02 [opening] walk to the arrivals hall board",
+  "shot": "shots-iphone/019-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:45 [opening] walk to the boarding hall",
+   "00:50 [opening] walk to the boarding hall",
+   "00:52 [opening] in the boarding hall, waiting for the gangway to come down",
+   "01:02 [opening] websocket closed",
+   "01:04 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:07 [opening] websocket closed",
+   "01:09 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "03:57 [opening] walk to down the gangway",
+   "03:58 [opening] walk to down the gangway",
+   "03:59 [opening] walk to down the gangway",
+   "04:02 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)",
+   "04:02 [opening] walk to the arrivals hall board"
+  ]
+ },
+ {
+  "title": "Game said: \"Weather sensors are offline. Watch the dust outside.\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:36",
+  "detail": "shown in crew-panel while the bot was: 11:35 [tour] tap #crew-talk (Talk to Weather officer)",
+  "shot": "shots-iphone/095-tour-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "11:30 [tour] route of 5 legs",
+   "11:32 [tour] tap #crew-talk (Talk to Weather officer)",
+   "11:33 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "11:33 [tour] tap button \"✕\" (close talk panel)",
+   "11:33 [tour] go talk to Weather officer",
+   "11:33 [tour] walk to Weather officer",
+   "11:34 [tour] tap #crew-talk (Talk to Weather officer)",
+   "11:34 [tour] opened Ground controller instead of Weather officer; stepping closer to the right person",
+   "11:34 [tour] tap button \"✕\" (close talk panel)",
+   "11:35 [tour] go talk to Weather officer",
+   "11:35 [tour] walk to Weather officer",
+   "11:35 [tour] tap #crew-talk (Talk to Weather officer)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:58",
+  "detail": "a single frame took 1287 ms (typical 38 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/054-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "08:47 [panels] tap #btn-close-settings (close Settings)",
+   "08:48 [panels] tap #purse (open Account / purse)",
+   "08:49 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:50 [panels] mis-tap beside #multiplayer-button",
+   "08:51 [panels] tap #multiplayer-button (open World / crew)",
+   "08:52 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:53 [panels] tap #btn-key-controls (open Controls)",
+   "08:54 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:54 [tour] === phase tour starts",
+   "08:54 [tour] go talk to Arrival guide",
+   "08:54 [tour] walk to Arrival guide",
+   "08:54 [tour] route of 20 legs"
+  ]
+ }
+]

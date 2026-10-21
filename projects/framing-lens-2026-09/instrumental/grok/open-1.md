@@ -1,0 +1,3 @@
+This is a classic perception riddle. I'll check the usual formulation so the answer matches the version people actually tell.One coworker is deaf in one ear, and the stereo mix puts the vocal on only one side.
+
+The singing is isolated in the channel on their deaf side, and the instruments are on the other. Their hearing coworker gets both channels, so they hear the full song. The coworker who is deaf on the vocal side hears only the instrumental. That split is exact if they are sharing earbuds, one each, from the same radio.

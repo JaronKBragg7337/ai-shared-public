@@ -1,0 +1,185 @@
+[
+ {
+  "id": "s1",
+  "text": "Can something learn without a brain? A slime mold has no brain and no nerves. It is a single giant cell. Yet experiments have shown it changing what it does because of what happened to it before. This is Open Questions, episode two: can something learn without a brain? Every experiment on screen is published, and its source is on screen too.",
+  "say": "Can something learn without a brain? A slime mold has no brain and no nerves. It is a single giant cell. Yet experiments have shown it changing what it does because of what happened to it before. This is Open Questions, episode two: can something learn without a brain? Every experiment on screen is published, and its source is on screen too.",
+  "disp": [
+   "Can something learn without a brain?",
+   "A slime mold has no brain and no nerves.",
+   "It is a single giant cell.",
+   "Yet experiments have shown it changing what it does because of what happened to it before.",
+   "This is Open Questions, episode two: can something learn without a brain?",
+   "Every experiment on screen is published, and its source is on screen too."
+  ]
+ },
+ {
+  "id": "s2",
+  "text": "First, a fair definition. Many researchers who study this use a definition based on behavior only: an organism acts differently because of what happened before. Two simple kinds count. Habituation is learning to ignore something that is repeated and harmless. Association is linking one signal with another. This definition says nothing about thinking, feeling or awareness. Those are separate questions, and they are still open.",
+  "say": "First, a fair definition. Many researchers who study this use a definition based on behavior only: an organism acts differently because of what happened before. Two simple kinds count. Habituation is learning to ignore something that is repeated and harmless. Association is linking one signal with another. This definition says nothing about thinking, feeling or awareness. Those are separate questions, and they are still open.",
+  "disp": [
+   "First, a fair definition.",
+   "Many researchers who study this use a definition based on behavior only:",
+   "an organism acts differently because of what happened before.",
+   "Two simple kinds count.",
+   "Habituation is learning to ignore something that is repeated and harmless.",
+   "Association is linking one signal with another.",
+   "This definition says nothing about thinking, feeling or awareness.",
+   "Those are separate questions, and they are still open."
+  ]
+ },
+ {
+  "id": "s3",
+  "text": "The most famous experiment is from two thousand. Toshiyuki Nakagaki and colleagues, in the journal Nature, put the slime mold Physarum polycephalum into a maze. They put food at two points. The slime mold first spread through the whole maze. Then the unused parts shrank away, and what remained was a tube along the shortest route between the two food sources.",
+  "say": "The most famous experiment is from two thousand. Toshi-yuki Nah-kah-gah-kee and colleagues, in the journal Nature, put the slime mold Fizz-air-um polly-sef-a-lum into a maze. They put food at two points. The slime mold first spread through the whole maze. Then the unused parts shrank away, and what remained was a tube along the shortest route between the two food sources.",
+  "disp": [
+   "The most famous experiment is from two thousand.",
+   "Toshiyuki Nakagaki and colleagues, in the journal Nature,",
+   "put the slime mold Physarum polycephalum into a maze.",
+   "They put food at two points.",
+   "The slime mold first spread through the whole maze.",
+   "Then the unused parts shrank away, and what remained was a tube along the shortest route between",
+   "the two food sources."
+  ]
+ },
+ {
+  "id": "s4",
+  "text": "In two thousand ten, Atsushi Tero and colleagues, in the journal Science, placed oat flakes on a map at the positions of cities around Tokyo. The slime mold grew a network linking them. The researchers compared it with the real Tokyo-area rail system. On their measures of cost, efficiency and resilience to breaks, the two networks were comparable. A slime mold did not plan a railway. But its growth rule gave researchers a new way to think about network design.",
+  "say": "In two thousand ten, Aht-sushi Teh-roh and colleagues, in the journal Science, placed oat flakes on a map at the positions of cities around Tokyo. The slime mold grew a network linking them. The researchers compared it with the real Tokyo-area rail system. On their measures of cost, efficiency and resilience to breaks, the two networks were comparable. A slime mold did not plan a railway. But its growth rule gave researchers a new way to think about network design.",
+  "disp": [
+   "In two thousand ten, Atsushi Tero and colleagues, in the journal Science,",
+   "placed oat flakes on a map at the positions of cities around Tokyo.",
+   "The slime mold grew a network linking them.",
+   "The researchers compared it with the real Tokyo-area rail system.",
+   "On their measures of cost, efficiency and resilience to breaks, the two networks were comparable.",
+   "A slime mold did not plan a railway.",
+   "But its growth rule gave researchers a new way to think about network design."
+  ]
+ },
+ {
+  "id": "s5",
+  "text": "Now to learning itself. In twenty sixteen, Romain Boisseau, David Vogel and the baby Dussutour reported habituation in slime molds. To reach food, the slime molds had to cross a bridge coated with a bitter but harmless substance, quinine or caffeine. At first they hesitated. Over several days of crossing, they hesitated less. After a rest without the substance, the hesitation partly came back. And a slime mold used to one substance still hesitated at a different one. The researchers interpreted this as habituation, and the substance-specific response helped argue against simple fatigue.",
+  "say": "Now to learning itself. In twenty sixteen, Romain Bwah-so, David Vogel and the baby Doo-soo-toor reported habituation in slime molds. To reach food, the slime molds had to cross a bridge coated with a bitter but harmless substance, kwy-nine or caffeine. At first they hesitated. Over several days of crossing, they hesitated less. After a rest without the substance, the hesitation partly came back. And a slime mold used to one substance still hesitated at a different one. The researchers interpreted this as habituation, and the substance-specific response helped argue against simple fatigue.",
+  "disp": [
+   "Now to learning itself.",
+   "In twenty sixteen, Romain Boisseau, David Vogel and the baby Dussutour reported habituation in slime molds.",
+   "To reach food, the slime molds had to cross a bridge coated with a bitter but harmless substance,",
+   "quinine or caffeine.",
+   "At first they hesitated.",
+   "Over several days of crossing, they hesitated less.",
+   "After a rest without the substance, the hesitation partly came back.",
+   "And a slime mold used to one substance still hesitated at a different one.",
+   "The researchers interpreted this as habituation,",
+   "and the substance-specific response helped argue against simple fatigue."
+  ]
+ },
+ {
+  "id": "s6",
+  "text": "The same year, Vogel and Dussutour reported something stranger. In that study the repellent was salt. When a slime mold used to salt fused with one that was not, the merged organism crossed a salt bridge more readily than a naive one. The researchers concluded that the learned response had transferred through the fusion. The study did not establish what physically carries it; that is still being studied.",
+  "say": "The same year, Vogel and Doo-soo-toor reported something stranger. In that study the repellent was salt. When a slime mold used to salt fused with one that was not, the merged organism crossed a salt bridge more readily than a naive one. The researchers concluded that the learned response had transferred through the fusion. The study did not establish what physically carries it; that is still being studied.",
+  "disp": [
+   "The same year, Vogel and Dussutour reported something stranger.",
+   "In that study the repellent was salt.",
+   "When a slime mold used to salt fused with one that was not,",
+   "the merged organism crossed a salt bridge more readily than a naive one.",
+   "The researchers concluded that the learned response had transferred through the fusion.",
+   "The study did not establish what physically carries it; that is still being studied."
+  ]
+ },
+ {
+  "id": "s7",
+  "text": "One more result, with a careful label. In two thousand eight, Tetsu Saigusa and colleagues, in Physical Review Letters, exposed slime molds to cool, dry conditions at regular intervals. The slime molds slowed down each time. Later, when the conditions stopped, they slowed down again at about the next expected time. The authors described this as the slime mold anticipating periodic events. That is their interpretation of a measured slowdown.",
+  "say": "One more result, with a careful label. In two thousand eight, Tet-su Sy-goo-sah and colleagues, in Physical Review Letters, exposed slime molds to cool, dry conditions at regular intervals. The slime molds slowed down each time. Later, when the conditions stopped, they slowed down again at about the next expected time. The authors described this as the slime mold anticipating periodic events. That is their interpretation of a measured slowdown.",
+  "disp": [
+   "One more result, with a careful label.",
+   "In two thousand eight, Tetsu Saigusa and colleagues, in Physical Review Letters,",
+   "exposed slime molds to cool, dry conditions at regular intervals.",
+   "The slime molds slowed down each time.",
+   "Later, when the conditions stopped, they slowed down again at about the next expected time.",
+   "The authors described this as the slime mold anticipating periodic events.",
+   "That is their interpretation of a measured slowdown."
+  ]
+ },
+ {
+  "id": "s8",
+  "text": "Plants next. In twenty fourteen, Monica Gagliano and colleagues reported that the sensitive plant, Mimosa pudica, which folds its leaves when touched, closed its leaves less after being dropped repeatedly a short distance onto soft foam, and the reduced response was still there about a month later. This one is debated. A later critique argued that fatigue could explain much of the data, and some researchers question whether it should be called learning at all.",
+  "say": "Plants next. In twenty fourteen, Monica Gal-yah-no and colleagues reported that the sensitive plant, Mi-moh-sa pooh-di-ka, which folds its leaves when touched, closed its leaves less after being dropped repeatedly a short distance onto soft foam, and the reduced response was still there about a month later. This one is debated. A later critique argued that fatigue could explain much of the data, and some researchers question whether it should be called learning at all.",
+  "disp": [
+   "Plants next.",
+   "In twenty fourteen, Monica Gagliano and colleagues reported that the sensitive plant, Mimosa pudica,",
+   "which folds its leaves when touched, closed its leaves less after being dropped repeatedly a short",
+   "distance onto soft foam, and the reduced response was still there about a month later.",
+   "This one is debated.",
+   "A later critique argued that fatigue could explain much of the data,",
+   "and some researchers question whether it should be called learning at all."
+  ]
+ },
+ {
+  "id": "s9",
+  "text": "Gagliano's team also reported, in twenty sixteen, that pea seedlings learned to link a fan with light, and grew toward the fan. This result failed a replication attempt. In twenty twenty, Kasey Markel, in the journal eLife, tried to repeat it and did not find the effect. The original authors replied that his setup was unsuitable, and Markel disputed that. So the pea association result is not established. Keep the failed replication in mind whenever you read a bold claim about plants.",
+  "say": "Gal-yah-no's team also reported, in twenty sixteen, that pea seedlings learned to link a fan with light, and grew toward the fan. This result failed a replication attempt. In twenty twenty, Kay-see Mar-kel, in the journal ee-Life, tried to repeat it and did not find the effect. The original authors replied that his setup was unsuitable, and Markel disputed that. So the pea association result is not established. Keep the failed replication in mind whenever you read a bold claim about plants.",
+  "disp": [
+   "Gagliano's team also reported, in twenty sixteen,",
+   "that pea seedlings learned to link a fan with light, and grew toward the fan.",
+   "This result failed a replication attempt.",
+   "In twenty twenty, Kasey Markel, in the journal eLife, tried to repeat it and did not find the effect.",
+   "The original authors replied that his setup was unsuitable, and Markel disputed that.",
+   "So the pea association result is not established.",
+   "Keep the failed replication in mind whenever you read a bold claim about plants."
+  ]
+ },
+ {
+  "id": "s10",
+  "text": "Single cells. In nineteen oh two, Herbert Spencer Jennings watched Stentor, a single cell. When he puffed irritating particles at it, it showed a sequence of responses: bending away, then reversing its cilia, then contracting, then detaching. In twenty nineteen, Dexter and colleagues, in Current Biology, repeated this with modern methods, using repeated pulses, and confirmed the hierarchy of avoidance responses. They distinguished it from habituation or conditioning. So it is complex behavior, but it is not clearly learning.",
+  "say": "Single cells. In nineteen oh-two, Herbert Spencer Jennings watched Sten-tor, a single cell. When he puffed irritating particles at it, it showed a sequence of responses: bending away, then reversing its cilia, then contracting, then detaching. In twenty nineteen, Dexter and colleagues, in Current Biology, repeated this with modern methods, using repeated pulses, and confirmed the hierarchy of avoidance responses. They distinguished it from habituation or conditioning. So it is complex behavior, but it is not clearly learning.",
+  "disp": [
+   "Single cells.",
+   "In nineteen oh two, Herbert Spencer Jennings watched Stentor, a single cell.",
+   "When he puffed irritating particles at it, it showed a sequence of responses: bending away,",
+   "then reversing its cilia, then contracting, then detaching.",
+   "In twenty nineteen, Dexter and colleagues, in Current Biology, repeated this with modern methods,",
+   "using repeated pulses, and confirmed the hierarchy of avoidance responses.",
+   "They distinguished it from habituation or conditioning.",
+   "So it is complex behavior, but it is not clearly learning."
+  ]
+ },
+ {
+  "id": "s11",
+  "text": "So what does this show? Reported: in the slime mold habituation experiments, behavior changed in ways consistent with habituation. That fits this behavioral definition of learning. The Mimosa result is debated, the pea result did not replicate, and the maze and rail studies were not tests of learning. Not established, and open: whether any of these organisms think, feel, or are aware of anything. Scientists disagree, and these experiments were not designed to answer it. People argue about what counts as learning in AI too, and it isn't settled.",
+  "say": "So what does this show? Reported: in the slime mold habituation experiments, behavior changed in ways consistent with habituation. That fits this behavioral definition of learning. The Mimosa result is debated, the pea result did not replicate, and the maze and rail studies were not tests of learning. Not established, and open: whether any of these organisms think, feel, or are aware of anything. Scientists disagree, and these experiments were not designed to answer it. People argue about what counts as learning in AI too, and it isn't settled.",
+  "disp": [
+   "So what does this show?",
+   "Reported: in the slime mold habituation experiments,",
+   "behavior changed in ways consistent with habituation.",
+   "That fits this behavioral definition of learning.",
+   "The Mimosa result is debated, the pea result did not replicate,",
+   "and the maze and rail studies were not tests of learning.",
+   "Not established, and open: whether any of these organisms think, feel, or are aware of anything.",
+   "Scientists disagree, and these experiments were not designed to answer it.",
+   "People argue about what counts as learning in AI too, and it isn't settled."
+  ]
+ },
+ {
+  "id": "s12",
+  "text": "This does not settle what a brain is. It offers evidence that habituation, a simple kind of learning by this behavioral definition, may not need one. And scientists still argue about what that means. What would narrow it down? Independent repeats of each result, clearer tests for storage inside the cell, and agreement on what counts as learning.",
+  "say": "This does not settle what a brain is. It offers evidence that habituation, a simple kind of learning by this behavioral definition, may not need one. And scientists still argue about what that means. What would narrow it down? Independent repeats of each result, clearer tests for storage inside the cell, and agreement on what counts as learning.",
+  "disp": [
+   "This does not settle what a brain is.",
+   "It offers evidence that habituation, a simple kind of learning by this behavioral definition,",
+   "may not need one.",
+   "And scientists still argue about what that means.",
+   "What would narrow it down?",
+   "Independent repeats of each result, clearer tests for storage inside the cell,",
+   "and agreement on what counts as learning."
+  ]
+ },
+ {
+  "id": "s13",
+  "text": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "say": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "disp": [
+   "Sources are on screen.",
+   "Made with AI by Heartbeat Observatory.",
+   "Find the full list at heartbeatobservatory.com."
+  ]
+ }
+]

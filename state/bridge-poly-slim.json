@@ -1,0 +1,146 @@
+﻿{
+    "today":  {
+                  "utc":  "2026-09-10 23:11:15 UTC",
+                  "local":  "2026-09-10 19:11:15",
+                  "unix":  1789081875,
+                  "note":  "Any market resolving AFTER this moment is undecided. Any event dated BEFORE it has already happened. Never infer today\u0027s date from training."
+              },
+    "balance":  10,
+    "buyingPower":  10,
+    "tradeable_with_quotes":  443,
+    "schemas":  {
+                    "polymarket_bbo":  "{\"properties\":{\"slug\":{\"title\":\"Slug\",\"type\":\"string\"}},\"required\":[\"slug\"],\"title\":\"polymarket_bboArguments\",\"type\":\"object\"}",
+                    "polymarket_market":  "{\"properties\":{\"slug\":{\"title\":\"Slug\",\"type\":\"string\"}},\"required\":[\"slug\"],\"title\":\"polymarket_marketArguments\",\"type\":\"object\"}",
+                    "polymarket_search":  "{\"properties\":{\"query\":{\"title\":\"Query\",\"type\":\"string\"}},\"required\":[\"query\"],\"title\":\"polymarket_searchArguments\",\"type\":\"object\"}",
+                    "polymarket_orderbook":  "{\"properties\":{\"slug\":{\"title\":\"Slug\",\"type\":\"string\"}},\"required\":[\"slug\"],\"title\":\"polymarket_orderbookArguments\",\"type\":\"object\"}"
+                },
+    "candidates":  [
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Atlanta Falcons win the fourth quarter?",
+                           "id":  "779858",
+                           "bid":  0.21,
+                           "ask":  0.22,
+                           "spread":  0.01,
+                           "reason":  "ok_spread_0.01",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.215
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Green Bay Packers win the fourth quarter?",
+                           "id":  "779860",
+                           "bid":  0.54,
+                           "ask":  0.56,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.55
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Atlanta Falcons win the second half?",
+                           "id":  "779846",
+                           "bid":  0.4,
+                           "ask":  0.42,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.41
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Green Bay Packers win the first half?",
+                           "id":  "779845",
+                           "bid":  0.39,
+                           "ask":  0.41,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.4
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Green Bay Packers win the second quarter?",
+                           "id":  "779854",
+                           "bid":  0.61,
+                           "ask":  0.63,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.62
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Atlanta Falcons win the first half?",
+                           "id":  "779842",
+                           "bid":  0.32,
+                           "ask":  0.34,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.33
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Atlanta Falcons win the first quarter?",
+                           "id":  "779849",
+                           "bid":  0.3,
+                           "ask":  0.32,
+                           "spread":  0.02,
+                           "reason":  "ok_spread_0.02",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.31
+                       },
+                       {
+                           "event":  "Atlanta vs. Green Bay",
+                           "question":  "Will Atlanta Falcons win the third quarter?",
+                           "id":  "779855",
+                           "bid":  0.42,
+                           "ask":  0.47,
+                           "spread":  0.05,
+                           "reason":  "ok_spread_0.05",
+                           "endDate":  "2026-10-09T00:15:00Z",
+                           "mid":  0.445
+                       }
+                   ],
+    "detail":  {
+                   "candidate":  {
+                                     "event":  "Atlanta vs. Green Bay",
+                                     "question":  "Will Atlanta Falcons win the fourth quarter?",
+                                     "id":  "779858",
+                                     "bid":  0.21,
+                                     "ask":  0.22,
+                                     "spread":  0.01,
+                                     "reason":  "ok_spread_0.01",
+                                     "endDate":  "2026-10-09T00:15:00Z",
+                                     "mid":  0.215
+                                 },
+                   "attempts":  [
+                                    {
+                                        "tool":  "orderbook",
+                                        "arg":  "marketId",
+                                        "isError":  true,
+                                        "preview":  "Error executing tool polymarket_orderbook: 1 validation error for polymarket_orderbookArguments\nslug\n  Field required [type=missing, input_value={\u0027marketId\u0027: \u0027779858\u0027}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+                                    },
+                                    {
+                                        "tool":  "orderbook",
+                                        "arg":  "market_id",
+                                        "isError":  true,
+                                        "preview":  "Error executing tool polymarket_orderbook: 1 validation error for polymarket_orderbookArguments\nslug\n  Field required [type=missing, input_value={\u0027market_id\u0027: \u0027779858\u0027}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+                                    },
+                                    {
+                                        "tool":  "orderbook",
+                                        "arg":  "id",
+                                        "isError":  true,
+                                        "preview":  "Error executing tool polymarket_orderbook: 1 validation error for polymarket_orderbookArguments\nslug\n  Field required [type=missing, input_value={\u0027id\u0027: \u0027779858\u0027}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"
+                                    },
+                                    {
+                                        "tool":  "orderbook",
+                                        "arg":  "slug",
+                                        "isError":  true,
+                                        "preview":  "Error executing tool polymarket_orderbook: market with slug \"779858\" not found"
+                                    }
+                                ]
+               }
+}

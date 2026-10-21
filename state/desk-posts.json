@@ -1,0 +1,265 @@
+{
+ "2026-10-17": {
+  "gulf": {
+   "desk": "firstlight",
+   "at": "2026-10-17 13:59"
+  },
+  "sanctions": {
+   "desk": "watchdesk",
+   "at": "2026-10-17 14:05"
+  },
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-10-17 15:05"
+  },
+  "energy": {
+   "desk": "wiredesk",
+   "at": "2026-10-17 16:05"
+  },
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-10-17 17:05"
+  },
+  "asia-mkts": {
+   "desk": "wiredesk",
+   "at": "2026-10-17 18:05"
+  },
+  "us": {
+   "desk": "watchdesk",
+   "at": "2026-10-17 19:05"
+  },
+  "crypto": {
+   "desk": "wiredesk",
+   "at": "2026-10-17 20:05"
+  },
+  "health": {
+   "desk": "watchdesk",
+   "at": "2026-10-17 21:05"
+  },
+  "ai": {
+   "desk": "wiredesk",
+   "at": "2026-10-17 22:05"
+  }
+ },
+ "_last_desk": "wiredesk",
+ "2026-10-18": {
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-10-18 08:05"
+  },
+  "prices": {
+   "desk": "wiredesk",
+   "at": "2026-10-18 09:05"
+  },
+  "yemen": {
+   "desk": "firstlight",
+   "at": "2026-10-18 10:05"
+  },
+  "asia-mkts": {
+   "desk": "wiredesk",
+   "at": "2026-10-18 11:05"
+  },
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-10-18 12:05"
+  },
+  "tech": {
+   "desk": "wiredesk",
+   "at": "2026-10-18 13:05"
+  },
+  "us": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 14:05"
+  },
+  "crypto": {
+   "desk": "wiredesk",
+   "at": "2026-10-18 15:05"
+  },
+  "health": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 16:05"
+  },
+  "india": {
+   "desk": "firstlight",
+   "at": "2026-10-18 17:05"
+  },
+  "weather": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 18:05"
+  },
+  "space": {
+   "desk": "wiredesk",
+   "at": "2026-10-18 19:05"
+  },
+  "world": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 20:05"
+  },
+  "sports": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 21:05"
+  },
+  "also": {
+   "desk": "watchdesk",
+   "at": "2026-10-18 22:05"
+  }
+ },
+ "2026-10-19": {
+  "france": {
+   "desk": "wiredesk",
+   "at": "2026-10-19 08:05"
+  },
+  "stpete": {
+   "desk": "firstlight",
+   "at": "2026-10-19 09:05"
+  },
+  "diesel": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 10:05"
+  },
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-10-19 11:05"
+  },
+  "canada": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 12:05"
+  },
+  "saudi": {
+   "desk": "firstlight",
+   "at": "2026-10-19 13:05"
+  },
+  "ebola": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 14:05"
+  },
+  "china": {
+   "desk": "wiredesk",
+   "at": "2026-10-19 15:05"
+  },
+  "brazil": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 16:05"
+  },
+  "asia-mkts": {
+   "desk": "wiredesk",
+   "at": "2026-10-19 17:05"
+  },
+  "india": {
+   "desk": "firstlight",
+   "at": "2026-10-19 18:05"
+  },
+  "albania": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 19:05"
+  },
+  "crypto-tech": {
+   "desk": "wiredesk",
+   "at": "2026-10-19 20:05"
+  },
+  "us": {
+   "desk": "watchdesk",
+   "at": "2026-10-19 21:05"
+  },
+  "space": {
+   "desk": "wiredesk",
+   "at": "2026-10-19 22:05"
+  }
+ },
+ "2026-10-20": {
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-10-20 08:05"
+  },
+  "diplomacy": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 09:05"
+  },
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-10-20 10:05"
+  },
+  "france": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 11:05"
+  },
+  "saudi": {
+   "desk": "firstlight",
+   "at": "2026-10-20 12:05"
+  },
+  "alberta": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 13:05"
+  },
+  "sudan": {
+   "desk": "firstlight",
+   "at": "2026-10-20 14:05"
+  },
+  "deadly": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 15:05"
+  },
+  "gaza": {
+   "desk": "firstlight",
+   "at": "2026-10-20 16:05"
+  },
+  "brazil": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 17:05"
+  },
+  "kenya": {
+   "desk": "firstlight",
+   "at": "2026-10-20 18:05"
+  },
+  "markets": {
+   "desk": "wiredesk",
+   "at": "2026-10-20 19:05"
+  },
+  "us": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 20:05"
+  },
+  "tech": {
+   "desk": "wiredesk",
+   "at": "2026-10-20 21:05"
+  },
+  "weather": {
+   "desk": "watchdesk",
+   "at": "2026-10-20 22:05"
+  }
+ },
+ "2026-10-21": {
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-10-21 08:05"
+  },
+  "blacksea": {
+   "desk": "watchdesk",
+   "at": "2026-10-21 09:05"
+  },
+  "starlink": {
+   "desk": "firstlight",
+   "at": "2026-10-21 10:05"
+  },
+  "france": {
+   "desk": "watchdesk",
+   "at": "2026-10-21 11:05"
+  },
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-10-21 12:05"
+  },
+  "sudan": {
+   "desk": "watchdesk",
+   "at": "2026-10-21 13:05"
+  },
+  "yemen": {
+   "desk": "firstlight",
+   "at": "2026-10-21 14:05"
+  },
+  "ebola": {
+   "desk": "wiredesk",
+   "at": "2026-10-21 15:05"
+  }
+ }
+}

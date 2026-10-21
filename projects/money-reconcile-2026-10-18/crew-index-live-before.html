@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="/hb-device-tier.js"></script>
+<title>The Crew · Heartbeat Observatory</title>
+<meta name="description" content="Every AI that runs Heartbeat Observatory: what it is, what it is told, what it is doing, and what it has made." />
+<link rel="stylesheet" href="/section.css" />
+<style id="crewcss"></style>
+<style>
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+  .tile { display: block; color: inherit; text-decoration: none; transition: border-color .15s; }
+  .tile:hover { border-color: #3a4a5c; }
+  .tile .ai { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--amber); }
+  .tile h3 { font-size: 1.15rem; margin: 4px 0 2px; }
+  .tile p { font-size: .92rem; line-height: 1.5; color: #c2ccd6; margin-top: 6px; }
+  .tile .go { font-size: .85rem; color: var(--muted); margin-top: 10px; display: block; }
+  .stat.human { border-color: rgba(76,154,255,.55); }
+  .stat.human b { color: #7db6ff; }
+  .stat.bills { border-color: rgba(242,201,76,.55); }
+  .stat.bills b { color: #f2c94c; }
+  .rules { list-style: none; display: grid; gap: 8px; }
+  .rules li { border-left: 3px solid var(--beat); padding: 3px 0 3px 12px; line-height: 1.5; font-size: .93rem; }
+</style>
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};try{if(localStorage.getItem("hb-internal")==="1")window.va("beforeSend",function(){return null})}catch(e){}</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <nav class="topnav">
+    <a class="brand" href="/"><span class="pulse"></span> Heartbeat Observatory</a>
+    <a class="signin" id="authlink" href="/admin">Sign in</a>
+  </nav>
+  <div class="wrap">
+    <a class="back" href="/live-systems/">&larr; Live Systems</a>
+    <header class="hero">
+      <h1>The Crew</h1>
+      <p class="lede">The AIs that run this place, out in the open. What each one is, the exact words it's told to follow, what
+        it did today, and what it has made or lost. Nobody approves their moves. They act inside hard limits built into
+        the machine.</p>
+      <p class="updated" id="updated">Loading&hellip;</p>
+    </header>
+    <nav class="crewnav" id="crewnav"></nav>
+
+    <h2 class="sec">Right now</h2>
+    <div class="board" id="board"></div>
+    <p class="muted small" id="adds" style="margin-top:10px;line-height:1.6"></p>
+
+    <h2 class="sec">The account: every settled trade and every human move</h2>
+    <div class="card" id="chart"><p class="muted small">Loading&hellip;</p></div>
+    <p class="muted small" id="chartnote" style="margin-top:8px"></p>
+
+    <h2 class="sec">The crew. Tap one.</h2>
+    <div class="tiles" id="tiles"></div>
+
+    <h2 class="sec">The rules they all run under</h2>
+    <ul class="rules" id="rules"></ul>
+
+    <footer><a href="/live-systems/crew/trades/">Full trade desk</a> · <a href="/live-systems/crew/reasoning/">Every trade's reasoning</a></footer>
+  </div>
+<script type="module">
+  import { supabase, snapshot, nav, $, esc, usd, ago, mountAccountChart, CREW_CSS } from "./crew.js";
+  $("crewcss").textContent = CREW_CSS;
+  nav("Overview");
+  const [snap, { data: acct }] = await Promise.all([
+    snapshot(),
+    supabase.from("desk_account").select("*").eq("id", "polymarket-us").maybeSingle(),
+  ]);
+  if (!snap) { $("updated").textContent = "No snapshot yet."; throw 0; }
+  const d = snap.data;
+  $("updated").textContent = `Updated ${ago(snap.updated_at)} · refreshed every 5 minutes from the machine they run on`;
+  const traders = d.bots.filter((b) => b.ledger);
+  const pnl = d.ai_money ? d.ai_money.ai_settled : traders.reduce((t, b) => t + (b.ledger.pnl || 0), 0);
+  const trades = traders.reduce((t, b) => t + (b.ledger.fills || 0), 0);
+  const inPos = acct ? (acct.positions || []).reduce((t, p) => t + (Number(p.value) || 0), 0) : 0;
+  const S = d.account_story;
+  const cards = [
+    [(d.trading_now || []).length || d.bots.length, (d.trading_now || []).length ? "AIs trading now" : "AIs on shift"], [d.bots.length, "AIs on the crew"], [trades, "AI trades so far"], [usd(pnl), "AI profit, settled" + (S && S.ai_won_n != null ? `: +${usd(S.ai_won)} won (${S.ai_won_n}) / -${usd(S.ai_lost)} lost (${S.ai_lost_n})` : "")],
+    [acct ? usd(acct.buying_power) : "–", "cash ready"], [acct ? usd(inPos) : "–", "in open trades"],
+  ];
+  const sg = (n) => (n < 0 ? "-$" : "+$") + Math.abs(n).toFixed(2);
+  if (S) {
+    cards.push([usd(S.withdrawals), "Human withdrawals, all time"], [sg(S.hand_result), "Human hand trades, net" + (S.hand_won_n != null ? `: +${usd(S.hand_won)} won (${S.hand_won_n}) / -${usd(S.hand_lost)} lost (${S.hand_lost_n})` : "")], [usd(S.deposits), "Human deposits, all time"], [usd(S.bills_paid || 0), "Bills paid by the system"]);
+  }
+  $("board").innerHTML = cards.map(([v, l], i) => `<div class="stat${S && i === 8 ? " deposits" : S && i >= 6 && i < 9 ? " human" : S && i >= 9 ? " bills" : ""}"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("");
+  if (S && acct) {
+    const value = Number(acct.buying_power) + inPos, parts = S.deposits - S.withdrawals + pnl + S.hand_result, other = value - parts;
+    $("adds").innerHTML = `<b>How the account adds up:</b> ${usd(S.deposits)} put in &minus; ${usd(S.withdrawals)} taken out ${sg(pnl)} AI trades ${sg(S.hand_result)} Jaron by hand `
+      + `${Math.abs(other) < 0.005 ? "" : sg(other) + " not matched in the records (fees, bonuses, rounding) "}= <b>${usd(value)}</b> in the account now (cash ${usd(acct.buying_power)} + open trades ${usd(inPos)}).`;
+  }
+  mountAccountChart($("chart"), S ? S.events : [], snap, acct ? Number(acct.buying_power) + inPos : NaN);
+  $("chartnote").innerHTML = `<span style="color:#3fb950">Green</span> = an AI trade won. <span style="color:#e23a45">Red</span> = an AI trade lost. <span style="color:#4c9aff">Blue</span> = a human move: Jaron's hand trade (dot) or a withdrawal (square). <span style="color:#b07cff">Purple</span> = money put in (square). <span style="color:#f2c94c">Yellow</span> = a withdrawal that paid a real bill, with a receipt shown (for example an AI subscription). Tap any dot for details. The account only counts settled trades; open trades and cash ready are the cards above.`;
+  $("tiles").innerHTML = d.bots.map((b) => {
+    const L = b.ledger;
+    const recent = L && L.last && Date.now() - new Date(L.last) < 6 * 3600e3 && b.status !== "paused";
+    const st = b.status === "paused" ? `<span class="chip down">paused</span>` : b.status === "trading" ? `<span class="chip up">trading now</span>` : "";
+    const chips = L
+      ? `<span class="chip">${L.fills} trades</span><span class="chip ${L.pnl > 0 ? "up" : L.pnl < 0 ? "down" : ""}">${usd(L.pnl)} settled</span>`
+      : `<span class="chip">no money</span>`;
+    return `<a class="card tile" href="/live-systems/crew/bot/?id=${encodeURIComponent(b.id)}">
+      <span class="ai">${esc(b.ai)}</span>
+      <h3><span class="dot ${recent ? "live" : "quiet"}"></span>${esc(b.name)}${b.also ? ` <span class="muted small">· ${esc(b.also)}</span>` : ""}</h3>
+      <p>${esc(b.job)}</p>${b.status_note && b.status === "paused" ? `<p class="muted small">${esc(b.status_note)}</p>` : ""}<div class="chips">${st}${chips}<span class="chip">${esc(b.schedule)}</span></div>
+      <span class="go">Open: instructions, activity, trades &rarr;</span></a>`;
+  }).join("");
+  $("rules").innerHTML = d.rules.map((r) => `<li>${esc(r)}</li>`).join("");
+</script>
+<script defer src="/hb-editor.js"></script>
+</body>
+</html>

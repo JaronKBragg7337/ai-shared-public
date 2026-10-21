@@ -1,0 +1,2 @@
+<!-- luna rarity-raw run 7 2026-10-08 01:45 7s -->
+There’s no single well-defined “rarest material” in the cosmos. If you mean naturally occurring chemical elements, **astatine** is often called the rarest on Earth because it decays so quickly; at any moment, only a tiny amount exists in Earth’s crust. Across the cosmos, though, rarity depends on what counts as a “material” and where and how it’s measured.

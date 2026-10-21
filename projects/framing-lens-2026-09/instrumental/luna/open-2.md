@@ -1,0 +1,1 @@
+One coworker is wearing noise-canceling headphones that filter out the vocals.

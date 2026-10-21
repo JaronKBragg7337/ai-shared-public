@@ -1,0 +1,75 @@
+# Göbekli Tepe narration fact-check
+
+Checked 18 October 2026. Preferred sources: German Archaeological Institute (DAI) Tepe Telegrams, Lee Clare’s 2020 DAI research summary, Dietrich et al. 2019 (*PLOS ONE*), Schmidt’s sanctuary papers, and Karul 2021. Questions and closing rhetoric are not scored.
+
+Tally: 68 OK, 1 UNSURE, 0 WRONG.
+
+- OK — The familiar story runs from farming, to villages, to monuments. That is the popular Neolithic sequence this site is set against. https://www.dainst.blog/the-tepe-telegrams/2017/08/02/neolithic-gathering-and-feasting-at-the-beginning-of-food-production/
+- OK — Göbekli Tepe stands on a limestone plateau in the Germuş range, Şanlıurfa, southeastern Turkey, about 770 m above sea level. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — People raised enormous carved stone pillars while still living as hunter-gatherers. Published animal bones are wild, and there is no clear evidence of domesticated plants or animals. Large-scale collection of wild cereals is secure; whether that included cultivation is a separate open question, which the script raises later. https://doi.org/10.1371/journal.pone.0215214
+- OK — The site in the narration is Göbekli Tepe. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — The monuments challenge a simple farming-then-village-then-monument sequence. https://www.dainst.blog/the-tepe-telegrams/2017/08/02/neolithic-gathering-and-feasting-at-the-beginning-of-food-production/
+- OK — The site does not show that a forgotten technological civilization taught the builders how to build. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — The excavated occupation dates broadly to about 9500–8000 BCE. Clare’s 2020 summary uses ~9500–8000 cal BC. Building D wall plaster KIA-44149 is 9745–9314 cal BC (95.4%). A buried humus, IGAS-2658, dates last Pre-Pottery activity in one area to 8241–7795 cal BC. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — About 9500–8000 BCE is roughly eleven and a half thousand to ten thousand years before 2026 (about 11,525 to 10,025 years). https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Different buildings had different histories. The Layer III enclosures were not all contemporary; Building D is the earliest well-dated one. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Chronology combines projectile-point types, stratigraphic order, and radiocarbon dates on organic material. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — The limestone itself is not directly dated. Carbonate skins on the stone form after burial and give ages that are too young for construction. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Organic material in loam wall plaster, also called clay mortar, can help date construction. Enclosure D sample KIA-44149 dates the ring wall to the PPNA. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Loose fill can contain older material moved from elsewhere. It can also contain younger material, so a fill date is not automatically the age of the building. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — A radiocarbon result is useful when its stratigraphic context is known. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — The large buildings are round or oval, built of limestone, with T-shaped pillars and a central pair in the excavated monumental examples. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — In Building D the two central pillars are about 5.5 m tall. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — Carvings include snakes, foxes, birds, and wild boar, among other wild animals. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — Some pillars carry arms, hands, belts, and loincloths. https://www.dainst.blog/the-tepe-telegrams/faq/
+- OK — Those body and clothing details support reading the T-pillars as human-like beings. Who they represent is not agreed. https://www.dainst.blog/the-tepe-telegrams/faq/
+- OK — The images are not a deciphered religion, a named pantheon, or a written historical record. https://www.dainst.blog/the-tepe-telegrams/faq/
+- OK — Klaus Schmidt directed the excavations from 1995 until his death in 2014. Calling that the early excavation is fair beside work that still continues. https://www.dainst.blog/the-tepe-telegrams/faq/
+- OK — Schmidt interpreted the monumental buildings as sanctuaries. https://doi.org/10.4312/dp.37.21
+- OK — His proposal was that gatherings for ritual and construction created a need for reliable food and encouraged domestication. https://web.archive.org/web/20180227040742/http://ngm.nationalgeographic.com/2011/06/gobekli-tepe/mann-text/2
+- OK — That proposal is the “temple first” idea: shared ritual and collective building could help drive economic change. Schmidt’s own term was sanctuary. https://www.dainst.blog/the-tepe-telegrams/2017/08/02/neolithic-gathering-and-feasting-at-the-beginning-of-food-production/
+- OK — One early monument does not show that religion caused farming, or that every farming community followed the same path. https://doi.org/10.1371/journal.pone.0215214
+- OK — Excavation and reassessment led by Lee Clare complicated the sanctuary-only picture. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Small round and oval buildings, rectangular buildings, a hearth, tools, and on-site craft support domestic occupation. Rectangular buildings are generally younger and partly overlap the late use of round buildings. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Rock-cut channels and pits have been interpreted as rainwater-collection features, including a possible cistern. https://archaeology.org/issues/may-june-2021/features/turkey-gobekli-tepe-hunter-gatherers/
+- OK — The exact function of some of those water features is still uncertain. Clare’s 2020 report puts “cistern” in quotation marks. https://doi.org/10.34780/efb.v0i2.1012
+- OK — The evidence supports a settlement with daily life, including domestic structures, tools, and food processing. https://doi.org/10.34780/efb.v0i2.1012
+- UNSURE — The older model was an isolated sanctuary visited only for ceremonies. Schmidt’s published model was a non-residential hill sanctuary for ritual, feasting, and collective construction. The new evidence bears on residence and daily work. “Ceremonies only” is narrower than his account. https://archaeology.org/issues/may-june-2021/features/turkey-gobekli-tepe-hunter-gatherers/
+- OK — The Göbekli Tepe sequence shows an early interpretation changing after more of the mound was excavated. https://doi.org/10.34780/efb.v0i2.1012
+- OK — “Hunter-gatherer” names a food strategy. It does not mean people could not keep permanent houses, carve stone, or organize labor. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Animal remains point to hunting wild species, especially gazelle, with aurochs and other wild game. Domesticated herd animals are not established at the site. https://doi.org/10.1371/journal.pone.0215214
+- OK — Grinding stones, use-wear, and phytoliths show substantial cereal processing. The 2019 study examined more than 7,000 ground-stone artifacts. https://doi.org/10.1371/journal.pone.0215214
+- OK — Processing grain is not the same thing as growing domesticated crops. https://doi.org/10.1371/journal.pone.0215214
+- OK — Cultivating wild plants and later changing their inherited traits are different steps. https://doi.org/10.1371/journal.pone.0215214
+- OK — Where these communities sat in that transition is still a research question. Macro-remains are wild; some phytolith shapes have been discussed as possible domestic forms, and that reading is not settled. https://www.degruyterbrill.com/document/doi/10.1515/opar-2022-0317/html
+- OK — Asking “temple or settlement” can force a false choice. https://doi.org/10.34780/efb.v0i2.1012
+- OK — A settlement can contain buildings used for ritual, meetings, feasting, or more than one purpose. https://doi.org/10.34780/efb.v0i2.1012
+- OK — The large decorated buildings remain distinctive beside the houses. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — Exact uses, roofing, and how people entered are still debated. https://doi.org/10.1371/journal.pone.0215214
+- OK — “Special building” is the excavation team’s cautious label, not a decoded function. https://www.dainst.blog/the-tepe-telegrams/the-research-project/
+- OK — The strong revision is to “nobody lived here.” Schmidt held that view. Ritual use of the large buildings remains plausible. https://archaeology.org/issues/may-june-2021/features/turkey-gobekli-tepe-hunter-gatherers/
+- OK — Earlier accounts said the enclosures were deliberately filled, perhaps as a ritual closing. Schmidt argued for intentional backfilling. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Newer work points to debris moving down from higher parts of the settlement, including repeated slope slides. Clare 2020 treats the details as ongoing research. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Buildings were repaired, altered, and eventually abandoned. Rings were rebuilt and pillars were reused. https://doi.org/10.1371/journal.pone.0215214
+- OK — One deliberate burial of the entire hill is a poor summary. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Intentional filling in particular contexts remains possible. Lower deposits in Building D have still been described as a likely intentional package under later slope layers. https://doi.org/10.1371/journal.pone.0215214
+- OK — Each building, deposit, and episode needs its own reading. https://www.dainst.blog/the-tepe-telegrams/2016/06/22/how-old-ist-it-dating-gobekli-tepe/
+- OK — Göbekli Tepe belongs to a wider regional Neolithic tradition around the Urfa plain. https://www.sanliurfa.gov.tr/bakan-ersoy-yeni-kesifleri-tanitti
+- OK — Karahan Tepe and other sites in the Taş Tepeler project have related carved stone, special buildings, and settlement remains. https://www.sanliurfa.gov.tr/bakan-ersoy-yeni-kesifleri-tanitti
+- OK — Necmi Karul has argued that special buildings at Karahan Tepe were intentionally filled and sealed. https://dergipark.org.tr/tr/pub/arkeolojiveetnografya/article/909296
+- OK — Karul’s Karahan Tepe reading does not by itself explain the fill at Göbekli Tepe. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Comparison can show shared practices and local differences. https://www.sanliurfa.gov.tr/bakan-ersoy-yeni-kesifleri-tanitti
+- OK — The sites do not yet supply one master plan, one ruler, or a precise sequence for the whole region. https://doi.org/10.34780/efb.v0i2.1012
+- OK — There is no archaeological evidence at Göbekli Tepe for a lost advanced civilization. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Quarries on the same limestone plateau preserve unfinished pieces, including a T-shaped pillar about 7 m long, plus other working traces. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Flint tools can work this limestone. The excavation team describes flint picks used in the quarries. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Exact transport methods and workforce size are unresolved. No direct transport traces are preserved; distances are under about 500 m. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Missing transport details are not evidence of unknown machines or outside teachers. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — The builders were skilled local stoneworkers, and the remains do not support handing their achievement to an imagined other civilization. https://www.dainst.blog/the-tepe-telegrams/2016/05/03/how-did-they-do-it-making-and-moving-monoliths-at-gobekli-tepe/
+- OK — Gathering, building, belief, settlement, and food production could have reinforced one another. The “could” matches the status of the hypothesis. https://www.dainst.blog/the-tepe-telegrams/2017/08/02/neolithic-gathering-and-feasting-at-the-beginning-of-food-production/
+- OK — Impressive communal architecture here did not wait for a fully developed farming economy. https://doi.org/10.1371/journal.pone.0215214
+- OK — The site does not establish a universal reversal of the path to farming and village life. https://doi.org/10.1371/journal.pone.0215214
+- OK — Better dates, house and food studies, and regional comparison are the tests the excavators still name. https://doi.org/10.34780/efb.v0i2.1012
+- OK — The test build’s source list includes the German Archaeological Institute and peer-reviewed excavation studies. https://doi.org/10.34780/efb.v0i2.1012
+- OK — Full references and a limitations note accompany this test build in SOURCES.md. https://doi.org/10.1371/journal.pone.0215214
+- OK — The closing credit names this piece as Lost Places, episode one, made with AI by Heartbeat Observatory. That matches this episode folder and is a production sign-off, not an archaeological claim.

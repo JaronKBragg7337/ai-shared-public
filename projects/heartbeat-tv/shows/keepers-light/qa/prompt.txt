@@ -1,0 +1,13 @@
+Check the three live Keeper's Light episodes for narration or dialogue that is cut off, missing, or doesn't match the script.
+Videos (live site copies): C:\Users\lilli\Projects\heartbeat-observatory\tv\shows\keepers-light-ep1.mp4, -ep2.mp4, -ep3.mp4.
+Scripts/build: C:\Users\lilli\AI-Shared\projects\heartbeat-tv\shows\keepers-light (README.md, build.py, keeper_audio.py) and
+C:\Users\lilli\Renders\keepers-ep2, keepers-ep3. The voice tool (Kokoro) used to silently cut any line over ~512 phonemes
+(~25-27 s); that bug hit other shows on 10/14.
+
+Do NOT use the GPU (another job owns it): run faster-whisper on CPU only (device="cpu", compute_type="int8").
+C:\Users\lilli\AI-Shared\projects\tv-lib\verify_voice.py may help if these episodes have a script.json; if not, transcribe and
+compare against the dialogue text in the build/audio scripts yourself. Do NOT edit, re-render, re-voice or publish anything.
+Report only. Also list lines that stop around 25-27 s.
+
+Write C:\Users\lilli\AI-Shared\projects\heartbeat-tv\shows\keepers-light\qa\voice-check.md: per episode, PASS or the exact cut
+lines with timestamps, expected text vs heard text. End with First step / Blind spot / Rewrite. Then stop.

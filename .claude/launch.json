@@ -1,0 +1,47 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hbo-site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8123",
+        "--directory",
+        "C:/Users/lilli/AppData/Local/Temp/claude/C--Users-lilli-AI-Shared/6cacb0b9-dd02-46b4-88e9-fcea9022ace0/scratchpad/hbo-trades"
+      ],
+      "port": 8123
+    },
+    {
+      "name": "hbo-live",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4331",
+        "--directory",
+        "C:/Users/lilli/Projects/heartbeat-observatory"
+      ],
+      "port": 4331
+    },
+    {
+      "name": "cosmos-sol",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:/Users/lilli/Projects/ho-sol/games/the-cosmos/server.js"],
+      "port": 8378
+    },
+    {
+      "name": "necklace",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4340",
+        "--directory",
+        "C:/Users/lilli/Projects/the-necklace-show"
+      ],
+      "port": 4340
+    }
+  ]
+}

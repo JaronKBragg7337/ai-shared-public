@@ -1,0 +1,598 @@
+﻿{
+ "balances": {
+  "balances": [
+   {
+    "currentBalance": 193.26085,
+    "currency": "USD",
+    "lastUpdated": null,
+    "buyingPower": 168.72085,
+    "assetNotional": 0,
+    "assetAvailable": 0,
+    "pendingCredit": 0,
+    "openOrders": 0,
+    "unsettledFunds": 0,
+    "pendingWithdrawals": [],
+    "marginRequirement": 24.54,
+    "balanceReservation": 25,
+    "depositReservation": 0,
+    "bonusReservation": 25,
+    "displayedBonus": 25,
+    "displayedAvailableSoon": 0,
+    "displayedCash": 143.72085,
+    "availableToWithdraw": 143.72085,
+    "bonusHold": 25
+   }
+  ]
+ },
+ "positions": {
+  "positions": {
+   "aec-nfl-ari-nyg-2026-10-04": {
+    "netPosition": "-24",
+    "qtyBought": "0",
+    "qtySold": "24",
+    "cost": {
+     "value": "9.9999",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "0.0000",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T18:55:21.641025561Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-ari-nyg-2026-10-04",
+     "icon": "",
+     "title": "ARI Cardinals vs. NY Giants",
+     "outcome": "Giants",
+     "eventSlug": "nfl-ari-nyg-2026-10-04",
+     "teamId": 71,
+     "team": {
+      "id": 71,
+      "name": "New York Giants",
+      "abbreviation": "nyg",
+      "league": "nfl",
+      "record": "2-1",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/NYG.png",
+      "alias": "Giants",
+      "safeName": "NY Giants",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_NewYorkGiants_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_NewYorkGiants_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#0B2265",
+      "providerId": 23,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "NYG",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "23"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "04aa1c9d-66da-489d-b16a-1dee3f2eec4d"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#0B2265",
+       "dark": "#0B2265"
+      }
+     },
+     "eventId": "118974"
+    },
+    "cashValue": {
+     "value": "14.1779",
+     "currency": "USD"
+    },
+    "qtyAvailable": "-24",
+    "avgPx": {
+     "value": "0.4100",
+     "currency": "USD"
+    },
+    "fees": null,
+    "baseCost": null,
+    "costPerShare": null,
+    "netPositionDecimal": "-24.3900",
+    "qtyBoughtDecimal": "0.0000",
+    "qtySoldDecimal": "24.3900",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "-24.3900",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:SHORT:aec-nfl-ari-nyg-2026-10-04"
+   },
+   "aec-nfl-dal-hou-2026-10-04": {
+    "netPosition": "0",
+    "qtyBought": "22",
+    "qtySold": "22",
+    "cost": null,
+    "realized": {
+     "value": "0.7286",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T17:26:22.365530969Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-dal-hou-2026-10-04",
+     "icon": "",
+     "title": "DAL Cowboys vs. HOU Texans",
+     "outcome": "Cowboys",
+     "eventSlug": "nfl-dal-hou-2026-10-04",
+     "teamId": 56,
+     "team": {
+      "id": 56,
+      "name": "Dallas Cowboys",
+      "abbreviation": "dal",
+      "league": "nfl",
+      "record": "1-2",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/DAL.png",
+      "alias": "Cowboys",
+      "safeName": "DAL Cowboys",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_DallasCowboys_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_DallasCowboys_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#041E42",
+      "providerId": 9,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "DAL",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "9"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "e627eec7-bbae-4fa4-8e73-8e1d6bc5c060"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#041E42",
+       "dark": "#041E42"
+      }
+     },
+     "eventId": "118977"
+    },
+    "cashValue": {
+     "value": "0.0666",
+     "currency": "USD"
+    },
+    "qtyAvailable": "0",
+    "avgPx": null,
+    "fees": null,
+    "baseCost": null,
+    "costPerShare": null,
+    "netPositionDecimal": "0.1500",
+    "qtyBoughtDecimal": "21.6800",
+    "qtySoldDecimal": "21.5300",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "0.1500",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:aec-nfl-dal-hou-2026-10-04"
+   },
+   "aec-nfl-gb-tb-2026-10-04": {
+    "netPosition": "8",
+    "qtyBought": "8",
+    "qtySold": "0",
+    "cost": {
+     "value": "5.1070",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "0.0000",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T18:02:23.129067764Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-gb-tb-2026-10-04",
+     "icon": "",
+     "title": "GB Packers vs. TB Buccaneers",
+     "outcome": "Packers",
+     "eventSlug": "nfl-gb-tb-2026-10-04",
+     "teamId": 59,
+     "team": {
+      "id": 59,
+      "name": "Green Bay Packers",
+      "abbreviation": "gb",
+      "league": "nfl",
+      "record": "1-2",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/GB.png",
+      "alias": "Packers",
+      "safeName": "GB Packers",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_GreenBayPackers_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_GreenBayPackers_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#203731",
+      "providerId": 12,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "GB",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "12"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "a20471b4-a8d9-40c7-95ad-90cc30e46932"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#203731",
+       "dark": "#203731"
+      }
+     },
+     "eventId": "118979"
+    },
+    "cashValue": {
+     "value": "6.7502",
+     "currency": "USD"
+    },
+    "qtyAvailable": "8",
+    "avgPx": {
+     "value": "0.6340",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.1300",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "4.9770",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.6170",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "8.0600",
+    "qtyBoughtDecimal": "8.0600",
+    "qtySoldDecimal": "0.0000",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "8.0600",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:aec-nfl-gb-tb-2026-10-04"
+   },
+   "aec-nfl-jax-cin-2026-10-04": {
+    "netPosition": "8",
+    "qtyBought": "21",
+    "qtySold": "14",
+    "cost": {
+     "value": "3.7400",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "3.5386",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T18:21:59.516496641Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-jax-cin-2026-10-04",
+     "icon": "",
+     "title": "JAC Jaguars vs. CIN Bengals",
+     "outcome": "Jaguars",
+     "eventSlug": "nfl-jax-cin-2026-10-04",
+     "teamId": 62,
+     "team": {
+      "id": 62,
+      "name": "Jacksonville Jaguars",
+      "abbreviation": "jax",
+      "league": "nfl",
+      "record": "2-1",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/JAX.png",
+      "alias": "Jaguars",
+      "safeName": "JAC Jaguars",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_JacksonvilleJaguars_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_JacksonvilleJaguars_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#006778",
+      "providerId": 15,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "JAX",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "15"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "f7ddd7fa-0bae-4f90-bc8e-669e4d6cf2de"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#006778",
+       "dark": "#2492A4"
+      }
+     },
+     "eventId": "118982"
+    },
+    "cashValue": {
+     "value": "5.6850",
+     "currency": "USD"
+    },
+    "qtyAvailable": "8",
+    "avgPx": {
+     "value": "0.4880",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.1350",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "3.6049",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.4700",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "7.6700",
+    "qtyBoughtDecimal": "21.2800",
+    "qtySoldDecimal": "13.6100",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "7.6700",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:aec-nfl-jax-cin-2026-10-04"
+   },
+   "aec-nfl-lar-phi-2026-10-04": {
+    "netPosition": "0",
+    "qtyBought": "22",
+    "qtySold": "22",
+    "cost": {
+     "value": "0.0660",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "2.9906",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T19:07:47.892849840Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-lar-phi-2026-10-04",
+     "icon": "",
+     "title": "LA Rams vs. PHI Eagles",
+     "outcome": "Eagles",
+     "eventSlug": "nfl-lar-phi-2026-10-04",
+     "teamId": 73,
+     "team": {
+      "id": 73,
+      "name": "Philadelphia Eagles",
+      "abbreviation": "phi",
+      "league": "nfl",
+      "record": "2-1",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/PHI.png",
+      "alias": "Eagles",
+      "safeName": "PHI Eagles",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_PhiladelphiaEagles_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_PhiladelphiaEagles_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#004C54",
+      "providerId": 26,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "PHI",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "26"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "386bdbf9-9eea-4869-bb9a-274b0bc66e80"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#004C54",
+       "dark": "#004C54"
+      }
+     },
+     "eventId": "118978"
+    },
+    "cashValue": {
+     "value": "0.1052",
+     "currency": "USD"
+    },
+    "qtyAvailable": "0",
+    "avgPx": {
+     "value": "0.4370",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.0030",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "0.0630",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.4200",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "-0.1500",
+    "qtyBoughtDecimal": "22.0100",
+    "qtySoldDecimal": "22.1600",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "-0.1500",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:SHORT:aec-nfl-lar-phi-2026-10-04"
+   },
+   "aec-nfl-ne-buf-2026-10-04": {
+    "netPosition": "10",
+    "qtyBought": "46",
+    "qtySold": "36",
+    "cost": {
+     "value": "5.1170",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "-3.4792",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-10-04T19:04:24.280079478Z",
+    "marketMetadata": {
+     "slug": "aec-nfl-ne-buf-2026-10-04",
+     "icon": "",
+     "title": "NE Patriots vs. BUF Bills",
+     "outcome": "Patriots",
+     "eventSlug": "nfl-ne-buf-2026-10-04",
+     "teamId": 69,
+     "team": {
+      "id": 69,
+      "name": "New England Patriots",
+      "abbreviation": "ne",
+      "league": "nfl",
+      "record": "1-2",
+      "logo": "https://polymarket-upload.s3.us-east-2.amazonaws.com/NFL+Team+Logos/NE.png",
+      "alias": "Patriots",
+      "safeName": "NE Patriots",
+      "homeIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_NewEnglandPatriots_FacingRight_Icon%40160x160.png",
+      "awayIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Polymarket_NewEnglandPatriots_FacingLeft_Icon%40160x160.png",
+      "colorPrimary": "#002244",
+      "providerId": 21,
+      "ordering": "away",
+      "longIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIcon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "displayAbbreviation": "NE",
+      "conference": "",
+      "providerIds": [
+       {
+        "provider": "PROVIDER_SPORTSDATAIO",
+        "providerId": "21"
+       },
+       {
+        "provider": "PROVIDER_SPORTRADAR",
+        "providerId": "97354895-8c77-4fd4-a860-32e62ea7382a"
+       }
+      ],
+      "longIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "shortIconDark": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-logos/NFL/<email>",
+      "color": {
+       "light": "#002244",
+       "dark": "#002244"
+      }
+     },
+     "eventId": "118975"
+    },
+    "cashValue": {
+     "value": "5.1370",
+     "currency": "USD"
+    },
+    "qtyAvailable": "10",
+    "avgPx": {
+     "value": "0.5120",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.1670",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "4.9500",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.4950",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "10.0000",
+    "qtyBoughtDecimal": "46.3100",
+    "qtySoldDecimal": "36.3100",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "10.0000",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:aec-nfl-ne-buf-2026-10-04"
+   },
+   "usgcc-aliens-12-31-2026": {
+    "netPosition": "26",
+    "qtyBought": "26",
+    "qtySold": "0",
+    "cost": {
+     "value": "2.2800",
+     "currency": "USD"
+    },
+    "realized": {
+     "value": "0.0000",
+     "currency": "USD"
+    },
+    "bodPosition": "0",
+    "expired": false,
+    "updateTime": "2026-09-22T02:47:04.106107966Z",
+    "marketMetadata": {
+     "slug": "usgcc-aliens-12-31-2026",
+     "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/aliens-2807a6544a.jpg",
+     "title": "US Confirms That Aliens Exist?",
+     "outcome": "Yes",
+     "eventSlug": "aliens",
+     "subject": {
+      "id": -1,
+      "name": "December 31, 2026",
+      "subjectType": ""
+     },
+     "eventId": "17708"
+    },
+    "cashValue": {
+     "value": "1.8200",
+     "currency": "USD"
+    },
+    "qtyAvailable": "26",
+    "avgPx": {
+     "value": "0.0880",
+     "currency": "USD"
+    },
+    "fees": {
+     "value": "0.0500",
+     "currency": "USD"
+    },
+    "baseCost": {
+     "value": "2.2300",
+     "currency": "USD"
+    },
+    "costPerShare": {
+     "value": "0.0860",
+     "currency": "USD"
+    },
+    "netPositionDecimal": "26.0000",
+    "qtyBoughtDecimal": "26.0000",
+    "qtySoldDecimal": "0.0000",
+    "bodPositionDecimal": "0.0000",
+    "qtyAvailableDecimal": "26.0000",
+    "comboLegDetails": [],
+    "positionId": "defe9ff3-6562-4bb5-96f6-3f5a64d246c9:LONG:usgcc-aliens-12-31-2026"
+   }
+  },
+  "nextCursor": "",
+  "eof": true,
+  "availablePositions": []
+ },
+ "open_orders": {
+  "orders": []
+ }
+}

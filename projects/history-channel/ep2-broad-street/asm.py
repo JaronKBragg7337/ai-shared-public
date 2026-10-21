@@ -1,0 +1,5 @@
+h=open('ep1_render.py',encoding='utf8').read().split('\n')
+head='\n'.join(h[:80]).replace('ep.1 "What if the railroads never existed?"','ep.2 "The map that beat a theory"')
+tail='\n'.join(h[401:])
+tail=tail.replace("bounds.append((s0, s1))","bounds.append((s0, s1))\nBOUND = {sid: b for (sid, *_r), b in zip(SCENES, bounds)}",1)
+open('render.py','w',encoding='utf8').write(head+'\n'+open('mid.py',encoding='utf8').read()+'\n'+tail)

@@ -1,0 +1,59 @@
+[
+ {
+  "title": "Prop box overlaps the clear opening at Supply depot",
+  "sev": 78,
+  "kind": "spot-door-obstruction",
+  "count": 2,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:16",
+  "detail": "Port collision box COS-MARS-STR-0110 intersects the door opening (cheap bounds check).",
+  "shot": null,
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:04 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [spots] === phase spots starts",
+   "00:16 [spots] spots source inventory {\"doors\":[{\"i\":0,\"name\":\"Supply depot\",\"x\":-62,\"z\":26.84,\"width\":3.2,\"progress\":0},{\"i\":1,\"name\":\"Port control\",\"x\":-60,\"z\":-33.16,\"width\":2.4,\"progress\":0},{\"i\":2,\"name\":\"Crew hall\",\"x\":-28,\"z\":-61.16,\"width\":4,\"progress\":0}],\"duplicate\":[],\"overlaps\":[{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Port control\",\"prop\":\"COS-MARS-STR-0112\"}],\"counts\":{\"portRooms\":13,\"pads\":5,\"ships\":7}}"
+  ]
+ },
+ {
+  "title": "Prop box overlaps the clear opening at Port control",
+  "sev": 78,
+  "kind": "spot-door-obstruction",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:16",
+  "detail": "Port collision box COS-MARS-STR-0112 intersects the door opening (cheap bounds check).",
+  "shot": null,
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:04 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [spots] === phase spots starts",
+   "00:16 [spots] spots source inventory {\"doors\":[{\"i\":0,\"name\":\"Supply depot\",\"x\":-62,\"z\":26.84,\"width\":3.2,\"progress\":0},{\"i\":1,\"name\":\"Port control\",\"x\":-60,\"z\":-33.16,\"width\":2.4,\"progress\":0},{\"i\":2,\"name\":\"Crew hall\",\"x\":-28,\"z\":-61.16,\"width\":4,\"progress\":0}],\"duplicate\":[],\"overlaps\":[{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Port control\",\"prop\":\"COS-MARS-STR-0112\"}],\"counts\":{\"portRooms\":13,\"pads\":5,\"ships\":7}}"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"spots\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "spots",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:18",
+  "detail": "a single frame took 3794 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/007-spots-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:04 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [spots] === phase spots starts",
+   "00:16 [spots] spots source inventory {\"doors\":[{\"i\":0,\"name\":\"Supply depot\",\"x\":-62,\"z\":26.84,\"width\":3.2,\"progress\":0},{\"i\":1,\"name\":\"Port control\",\"x\":-60,\"z\":-33.16,\"width\":2.4,\"progress\":0},{\"i\":2,\"name\":\"Crew hall\",\"x\":-28,\"z\":-61.16,\"width\":4,\"progress\":0}],\"duplicate\":[],\"overlaps\":[{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Supply depot\",\"prop\":\"COS-MARS-STR-0110\"},{\"door\":\"Port control\",\"prop\":\"COS-MARS-STR-0112\"}],\"counts\":{\"portRooms\":13,\"pads\":5,\"ships\":7}}"
+  ]
+ }
+]

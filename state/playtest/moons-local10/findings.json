@@ -1,0 +1,202 @@
+[
+ {
+  "title": "Stuck while walking to back to the ship",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:02",
+  "detail": "no progress for 56s at shipworld 6,15 (target 0,28, 14 m away)",
+  "shot": "shots-iphone/040-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:06 [fly] jump",
+   "10:15 [fly] not getting closer (14 m away), trying to get unstuck #3",
+   "10:15 [fly] run-up jump #3",
+   "10:17 [fly] jump",
+   "10:26 [fly] not getting closer (14 m away), trying to get unstuck #4",
+   "10:26 [fly] run-up jump #4",
+   "10:28 [fly] jump",
+   "10:37 [fly] not getting closer (14 m away), trying to get unstuck #5",
+   "10:37 [fly] sidestep around whatever is in the way",
+   "10:48 [fly] not getting closer (14 m away), trying to get unstuck #6",
+   "10:55 [fly] not getting closer (14 m away), trying to get unstuck #7",
+   "11:02 [fly] not getting closer (14 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Could not walk to a wander on deimos",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:46",
+  "detail": "gave up after 60s; last distance 26 m",
+  "shot": "shots-iphone/036-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "08:59 [fly] jump",
+   "09:08 [fly] not getting closer (26 m away), trying to get unstuck #2",
+   "09:08 [fly] run-up jump #2",
+   "09:09 [fly] jump",
+   "09:18 [fly] not getting closer (26 m away), trying to get unstuck #3",
+   "09:18 [fly] run-up jump #3",
+   "09:20 [fly] jump",
+   "09:29 [fly] not getting closer (26 m away), trying to get unstuck #4",
+   "09:29 [fly] run-up jump #4",
+   "09:31 [fly] jump",
+   "09:40 [fly] not getting closer (26 m away), trying to get unstuck #5",
+   "09:40 [fly] sidestep around whatever is in the way"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 4,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "shot": "shots-iphone/002-start-PROBLEM-console-error.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js",
+  "shot": "shots-iphone/001-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js",
+  "shot": "shots-iphone/004-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:04",
+  "detail": "The live connection closed while playing: ws://127.0.0.1:8463/",
+  "shot": "shots-iphone/006-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open ws://127.0.0.1:8463/",
+   "00:04 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off"
+  ]
+ },
+ {
+  "title": "Game said: \"Cruise: raiders cannot follow a ship at this speed\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 2,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:31",
+  "detail": "shown in hud-readout while the bot was: 01:31 [fly] tap button \"×60\" (speed up ×60)",
+  "shot": "shots-iphone/014-fly-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:29 [fly] tap button \"Phobos7667 km · about 111 h 13 minLand a\" (choose Phobos)",
+   "00:30 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Phobos (pad 01)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "00:30 [fly] trip phase lift, warp x1, eta 0s",
+   "00:30 [fly] tap button \"×5\" (speed up ×5)",
+   "00:34 [fly] tap button \"×60\" (speed up ×60)",
+   "00:36 [fly] tap button \"×20\" (speed up ×20)",
+   "00:40 [fly] trip phase ascent, warp x20, eta 0s",
+   "00:40 [fly] tap button \"×60\" (speed up ×60)",
+   "00:53 [fly] tap button \"×20\" (speed up ×20)",
+   "01:02 [fly] tap button \"×5\" (speed up ×5)",
+   "01:31 [fly] trip phase transit, warp x5, eta 1682s",
+   "01:31 [fly] tap button \"×60\" (speed up ×60)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "a single frame took 2261 ms (typical 30 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/008-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?ws=ws://127.0.0.1:8463&qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open ws://127.0.0.1:8463/",
+   "00:04 [start] websocket closed",
+   "00:05 [start] websocket open ws://127.0.0.1:8463/",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship type meridian; ship centre at port 0,0; ramp foot 0,30"
+  ]
+ }
+]

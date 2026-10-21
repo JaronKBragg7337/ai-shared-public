@@ -1,0 +1,791 @@
+[
+ {
+  "title": "The opening could not be finished, so the bot had to bypass it",
+  "sev": 99,
+  "kind": "opening-bypassed",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:37",
+  "detail": "After a refresh and the Walk button, the opening still would not move on. The rest of the run used the review start (?opening=off).",
+  "shot": "shots-iphone/038-opening-PROBLEM-opening-bypassed.jpg",
+  "steps": [
+   "00:22 [opening] tap screen to unlock sound",
+   "01:02 [opening] websocket closed",
+   "01:04 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:06 [opening] websocket closed",
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested"
+  ]
+ },
+ {
+  "title": "The opening is stuck at step 0",
+  "sev": 97,
+  "kind": "stuck-stage",
+  "count": 3,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "02:16",
+  "detail": "no progress for 120 s. caption: \"\", hint: \"\", button: \"\", position {\"x\":6622.2,\"y\":-3397245.8,\"z\":6622.2}, the game's own view: {\"busy\":true,\"active\":true,\"statePose\":{\"x\":4.6,\"z\":4},\"stage\":0,\"held\":false,\"label\":\"\"}",
+  "shot": "shots-iphone/014-opening-PROBLEM-stuck-stage.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [opening] === phase opening starts",
+   "00:16 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:22 [opening] tap screen to unlock sound",
+   "01:02 [opening] websocket closed",
+   "01:04 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:06 [opening] websocket closed",
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Nothing changed for 60+ seconds (same message, same place)",
+  "sev": 86,
+  "kind": "stuck-state",
+  "count": 6,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:10",
+  "detail": "in \"tour\": position {\"x\":6622.2,\"y\":-3397245.8,\"z\":6622.2}, button \"\", caption \"\", toast \"\", ship outside",
+  "shot": "shots-iphone/052-tour-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "09:30 [tour] not getting closer (10 m away), trying to get unstuck #2",
+   "09:30 [tour] run-up jump #2",
+   "09:32 [tour] jump",
+   "09:41 [tour] not getting closer (10 m away), trying to get unstuck #3",
+   "09:41 [tour] run-up jump #3",
+   "09:43 [tour] jump",
+   "09:51 [tour] not getting closer (10 m away), trying to get unstuck #4",
+   "09:51 [tour] run-up jump #4",
+   "09:54 [tour] jump",
+   "10:02 [tour] not getting closer (10 m away), trying to get unstuck #5",
+   "10:02 [tour] sidestep around whatever is in the way",
+   "10:07 [tour] route of 28 legs"
+  ]
+ },
+ {
+  "title": "Nothing changed for 60+ seconds (same message, same place)",
+  "sev": 86,
+  "kind": "stuck-state",
+  "count": 3,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "05:06",
+  "detail": "in \"opening\": position {\"x\":6622.2,\"y\":-3397245.8,\"z\":6622.2}, button \"\", caption \"\", toast \"\", ship outside",
+  "shot": "shots-iphone/026-opening-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "00:16 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:22 [opening] tap screen to unlock sound",
+   "01:02 [opening] websocket closed",
+   "01:04 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "01:06 [opening] websocket closed",
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Game said: \"fetch failed\"",
+  "sev": 80,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:04",
+  "detail": "shown in opening-caption while the bot was: 08:58 [tour] not getting closer (11 m away), trying to get unstuck #6",
+  "shot": "shots-iphone/048-tour-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "08:15 [tour] run-up jump #2",
+   "08:17 [tour] jump",
+   "08:25 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "08:25 [tour] run-up jump #3",
+   "08:28 [tour] jump",
+   "08:36 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "08:36 [tour] run-up jump #4",
+   "08:39 [tour] jump",
+   "08:47 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "08:47 [tour] sidestep around whatever is in the way",
+   "08:51 [tour] route of 20 legs",
+   "08:58 [tour] not getting closer (11 m away), trying to get unstuck #6"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Arrival guide",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:12",
+  "detail": "no progress for 56s at port 140,-82 (target -12,41, 11 m away)",
+  "shot": "shots-iphone/049-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "08:25 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "08:25 [tour] run-up jump #3",
+   "08:28 [tour] jump",
+   "08:36 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "08:36 [tour] run-up jump #4",
+   "08:39 [tour] jump",
+   "08:47 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "08:47 [tour] sidestep around whatever is in the way",
+   "08:51 [tour] route of 20 legs",
+   "08:58 [tour] not getting closer (11 m away), trying to get unstuck #6",
+   "09:05 [tour] not getting closer (11 m away), trying to get unstuck #7",
+   "09:12 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Supply clerk",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:28",
+  "detail": "no progress for 56s at port 140,-82 (target -65,19, 10 m away)",
+  "shot": "shots-iphone/053-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "09:41 [tour] not getting closer (10 m away), trying to get unstuck #3",
+   "09:41 [tour] run-up jump #3",
+   "09:43 [tour] jump",
+   "09:51 [tour] not getting closer (10 m away), trying to get unstuck #4",
+   "09:51 [tour] run-up jump #4",
+   "09:54 [tour] jump",
+   "10:02 [tour] not getting closer (10 m away), trying to get unstuck #5",
+   "10:02 [tour] sidestep around whatever is in the way",
+   "10:07 [tour] route of 28 legs",
+   "10:14 [tour] not getting closer (10 m away), trying to get unstuck #6",
+   "10:21 [tour] not getting closer (10 m away), trying to get unstuck #7",
+   "10:28 [tour] not getting closer (10 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Food trader",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:43",
+  "detail": "no progress for 56s at port 140,-82 (target -70,48, 11 m away)",
+  "shot": "shots-iphone/056-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:56 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "10:56 [tour] run-up jump #3",
+   "10:58 [tour] jump",
+   "11:07 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "11:07 [tour] run-up jump #4",
+   "11:09 [tour] jump",
+   "11:18 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "11:18 [tour] sidestep around whatever is in the way",
+   "11:22 [tour] route of 28 legs",
+   "11:29 [tour] not getting closer (11 m away), trying to get unstuck #6",
+   "11:36 [tour] not getting closer (11 m away), trying to get unstuck #7",
+   "11:43 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Salvage trader",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:59",
+  "detail": "no progress for 56s at port 140,-82 (target -62,48, 11 m away)",
+  "shot": "shots-iphone/059-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:11 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "12:11 [tour] run-up jump #3",
+   "12:14 [tour] jump",
+   "12:22 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "12:22 [tour] run-up jump #4",
+   "12:25 [tour] jump",
+   "12:33 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "12:33 [tour] sidestep around whatever is in the way",
+   "12:37 [tour] route of 27 legs",
+   "12:44 [tour] not getting closer (11 m away), trying to get unstuck #6",
+   "12:52 [tour] not getting closer (11 m away), trying to get unstuck #7",
+   "12:59 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Water trader",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:14",
+  "detail": "no progress for 56s at port 140,-82 (target -54,48, 11 m away)",
+  "shot": "shots-iphone/062-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "13:27 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "13:27 [tour] run-up jump #3",
+   "13:29 [tour] jump",
+   "13:37 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "13:37 [tour] run-up jump #4",
+   "13:40 [tour] jump",
+   "13:48 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "13:48 [tour] sidestep around whatever is in the way",
+   "13:52 [tour] route of 26 legs",
+   "14:00 [tour] not getting closer (11 m away), trying to get unstuck #6",
+   "14:07 [tour] not getting closer (11 m away), trying to get unstuck #7",
+   "14:14 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Field kit trader",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:29",
+  "detail": "no progress for 56s at port 140,-82 (target -46,48, 11 m away)",
+  "shot": "shots-iphone/065-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "14:42 [tour] not getting closer (11 m away), trying to get unstuck #3",
+   "14:42 [tour] run-up jump #3",
+   "14:44 [tour] jump",
+   "14:52 [tour] not getting closer (11 m away), trying to get unstuck #4",
+   "14:52 [tour] run-up jump #4",
+   "14:55 [tour] jump",
+   "15:03 [tour] not getting closer (11 m away), trying to get unstuck #5",
+   "15:03 [tour] sidestep around whatever is in the way",
+   "15:07 [tour] route of 25 legs",
+   "15:14 [tour] not getting closer (11 m away), trying to get unstuck #6",
+   "15:22 [tour] not getting closer (11 m away), trying to get unstuck #7",
+   "15:29 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world is not visible. The whole viewport is a washed-out, blurry white/gray haze with no recognizable M",
+  "sev": 63,
+  "kind": "vision",
+  "count": 3,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:22",
+  "detail": "entire screen (the vision model's description of the screen: A nearly all-white, washed-out blurry screen with faint gray smudges and a small translucent orange circle at lower left, with a faded welcome message at the top saying 'Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.')",
+  "shot": "shots-iphone/046-tour-walking.jpg",
+  "steps": [
+   "08:17 [tour] jump"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 8,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:16",
+  "detail": "a single frame took 4230 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/003-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [opening] === phase opening starts",
+   "00:16 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening-bypass\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "opening-bypass",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:57",
+  "detail": "a single frame took 5665 ms (typical 44 ms); 3 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/039-opening-bypass-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "01:06 [opening] websocket closed",
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested",
+   "07:37 [opening] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "07:37 [opening] websocket closed",
+   "07:38 [opening] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The screen is an empty black void with only the title text. There is no 3D world, ship, planet, menu, or start",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:02",
+  "detail": "Entire screen, especially the area around and below the centered text (the vision model's description of the screen: A mostly black mobile screen with a centered title 'THE COSMOS' and a small gray tagline reading 'Your ship. Your crew. Real worlds at their real size. Mars is only the first port.' and nothing else.)",
+  "shot": "shots-iphone/008-opening-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "01:02 [opening] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world is not visible. The view is almost entirely a washed-out white or grey blur with no recognizable ",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:38",
+  "detail": "Whole screen (the vision model's description of the screen: A nearly all-white, washed-out blurry view with a faint pale panel or wall filling most of the screen, a small caption in the top-left reading 'Welcome to Mariners. Leave by the starboard gangway: the boarding hall is behind the promenade.', and a faint orange circular touch control near the lower left.)",
+  "shot": "shots-iphone/050-tour-walking.jpg",
+  "steps": [
+   "09:32 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world is not visible. The whole frame is a featureless, blurry off-white surface with smudges, which su",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:28",
+  "detail": "Entire screen (the vision model's description of the screen: A nearly blank, washed-out white/beige blurry view (apparently the camera pressed up against a wall or surface) with faint pale-orange instruction text at the top left reading 'Welcome to Mariner's. Leave by the starboard gangway: the boarding hall is behind the promenade.' and a faint orange circular touch indicator at lower left.)",
+  "shot": "shots-iphone/053-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:28 [tour] not getting closer (10 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The camera appears to be pressed against or inside a wall or panel. The view is a blurry, featureless grey-whi",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:53",
+  "detail": "entire screen (the vision model's description of the screen: A mostly blank, washed-out white-grey screen that looks like a close-up of a smooth wall or panel with a vertical seam, with faint pale-orange welcome text at the top left ('Welcome to Manneris. Leave by the starboard gangway: the boarding hall is behind the promenade.') and a faint orange circle on the left side.)",
+  "shot": "shots-iphone/054-tour-walking.jpg",
+  "steps": [
+   "10:48 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The camera is jammed against or clipped into a wall or corner. The whole view is a featureless white/grey surf",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:22",
+  "detail": "Entire screen (the vision model's description of the screen: A mostly blank, washed-out white/grey view that looks like the camera is pressed against or inside a wall corner, with faint smudgy marks, a low-contrast hint text at the top-left ('Welcome to Manneris. Leave by the starboard gangway; the boarding hall is behind the promenade.') and a faint tan circular touch-control dot at the lower lef",
+  "shot": "shots-iphone/055-tour-walking.jpg",
+  "steps": [
+   "11:18 [tour] sidestep around whatever is in the way"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The camera is clipped against or inside a white wall or corner surface. The view fills the whole screen with f",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:39",
+  "detail": "entire screen (the vision model's description of the screen: A nearly blank, pale grey-white screen that looks like the camera is pressed up against a white wall or corner, with a faint vertical seam down the middle, a small tan circle at lower left, and low-contrast beige text in the top-left reading 'Welcome to Manneris. Leave by the starboard gangway: the boarding hall is behind the promenade.'",
+  "shot": "shots-iphone/063-tour-walking.jpg",
+  "steps": [
+   "14:33 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The view is almost entirely a featureless pale surface with smudgy dark blotches. The camera seems to be clipp",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:07",
+  "detail": "Whole screen (the vision model's description of the screen: A mostly blank, pale grey-white screen that looks like the camera is pressed up against a wall or corner, with a faint peach-colored welcome message at the top ('Welcome to Mariners. Leave by the starboard gangway; the boarding hall is behind the promenade.') and a translucent peach circular touch control at the lower left.)",
+  "shot": "shots-iphone/064-tour-walking.jpg",
+  "steps": [
+   "15:03 [tour] sidestep around whatever is in the way"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 3,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:02",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/008-opening-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:03 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:16 [opening] === phase opening starts",
+   "00:16 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)",
+   "00:22 [opening] tap screen to unlock sound",
+   "01:02 [opening] websocket closed"
+  ]
+ },
+ {
+  "title": "The Settings button is not on screen",
+  "sev": 50,
+  "kind": "panel-button-missing",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:57",
+  "detail": "#btn-settings",
+  "shot": "shots-iphone/041-panels-PROBLEM-panel-button-missing.jpg",
+  "steps": [
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested",
+   "07:37 [opening] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "07:37 [opening] websocket closed",
+   "07:38 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:57 [panels] === phase panels starts"
+  ]
+ },
+ {
+  "title": "The Account / purse button is not on screen",
+  "sev": 50,
+  "kind": "panel-button-missing",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:57",
+  "detail": "#purse",
+  "shot": "shots-iphone/042-panels-PROBLEM-panel-button-missing.jpg",
+  "steps": [
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested",
+   "07:37 [opening] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "07:37 [opening] websocket closed",
+   "07:38 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:57 [panels] === phase panels starts"
+  ]
+ },
+ {
+  "title": "The World / crew button is not on screen",
+  "sev": 50,
+  "kind": "panel-button-missing",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:57",
+  "detail": "#multiplayer-button",
+  "shot": "shots-iphone/043-panels-PROBLEM-panel-button-missing.jpg",
+  "steps": [
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested",
+   "07:37 [opening] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "07:37 [opening] websocket closed",
+   "07:38 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:57 [panels] === phase panels starts"
+  ]
+ },
+ {
+  "title": "The Controls button is not on screen",
+  "sev": 50,
+  "kind": "panel-button-missing",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "07:57",
+  "detail": "#btn-key-controls",
+  "shot": "shots-iphone/044-panels-PROBLEM-panel-button-missing.jpg",
+  "steps": [
+   "01:08 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "02:16 [opening] REFRESH (opening stuck, trying a refresh)",
+   "02:16 [opening] websocket closed (the bot refreshed the page)",
+   "02:18 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "04:54 [opening] REFRESH (opening stuck, trying a refresh)",
+   "04:54 [opening] websocket closed (the bot refreshed the page)",
+   "04:55 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:37 [opening] opening is blocked: bypassing with opening=off so the rest of the game can still be tested",
+   "07:37 [opening] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "07:37 [opening] websocket closed",
+   "07:38 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "07:57 [panels] === phase panels starts"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome/instruction text is very low contrast (pale beige on near-white) and is hard to read.",
+  "sev": 49,
+  "kind": "vision",
+  "count": 2,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:22",
+  "detail": "top left, the text block (the vision model's description of the screen: A nearly all-white, washed-out blurry screen with faint gray smudges and a small translucent orange circle at lower left, with a faded welcome message at the top saying 'Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.')",
+  "shot": "shots-iphone/046-tour-walking.jpg",
+  "steps": [
+   "08:17 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome text names 'Marineris', but nothing in the scene matches a starboard gangway, boarding hall or pro",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:22",
+  "detail": "center of the screen (the vision model's description of the screen: A nearly all-white, washed-out blurry screen with faint gray smudges and a small translucent orange circle at lower left, with a faded welcome message at the top saying 'Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.')",
+  "shot": "shots-iphone/046-tour-walking.jpg",
+  "steps": [
+   "08:17 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome caption is very low contrast, pale orange or beige text on a near-white background, so it is hard ",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:38",
+  "detail": "Top-left, the 'Welcome to Mariners...' text (the vision model's description of the screen: A nearly all-white, washed-out blurry view with a faint pale panel or wall filling most of the screen, a small caption in the top-left reading 'Welcome to Mariners. Leave by the starboard gangway: the boarding hall is behind the promenade.', and a faint orange circular touch control near the lower left.)",
+  "shot": "shots-iphone/050-tour-walking.jpg",
+  "steps": [
+   "09:32 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: A hard vertical edge splits the screen, with a differently shaded surface on the right. This suggests geometry",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "09:38",
+  "detail": "Right side, around x=310-340 (the vision model's description of the screen: A nearly all-white, washed-out blurry view with a faint pale panel or wall filling most of the screen, a small caption in the top-left reading 'Welcome to Mariners. Leave by the starboard gangway: the boarding hall is behind the promenade.', and a faint orange circular touch control near the lower left.)",
+  "shot": "shots-iphone/050-tour-walking.jpg",
+  "steps": [
+   "09:32 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome/instruction text is pale tan on a near-white background, so it is very low contrast and hard to re",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:10",
+  "detail": "Top left, the first three lines of text (the vision model's description of the screen: A mostly washed-out, blurry beige/white-grey screen with a faint orange circle at lower left and a small line of low-contrast tan text at the top left reading 'Welcome to Manneris. Leave by the starboard gangway: the boarding hall is behind the promenade.')",
+  "shot": "shots-iphone/052-tour-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "10:07 [tour] route of 28 legs"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome/instruction text is pale orange on a near-white background, so contrast is very low and it is hard",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:28",
+  "detail": "Top left, the 'Welcome to Mariner's...' text (the vision model's description of the screen: A nearly blank, washed-out white/beige blurry view (apparently the camera pressed up against a wall or surface) with faint pale-orange instruction text at the top left reading 'Welcome to Mariner's. Leave by the starboard gangway: the boarding hall is behind the promenade.' and a faint orange circular touch",
+  "shot": "shots-iphone/053-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:28 [tour] not getting closer (10 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome text is pale orange on a near-white background, so contrast is very low and it is hard to read.",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:53",
+  "detail": "top left, the welcome message (the vision model's description of the screen: A mostly blank, washed-out white-grey screen that looks like a close-up of a smooth wall or panel with a vertical seam, with faint pale-orange welcome text at the top left ('Welcome to Manneris. Leave by the starboard gangway: the boarding hall is behind the promenade.') and a faint orange circle on the left side.)",
+  "shot": "shots-iphone/054-tour-walking.jpg",
+  "steps": [
+   "10:48 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The surface texture is smeared and low-resolution, with blurry smudges and a hard vertical seam. This suggests",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:53",
+  "detail": "center and right, along the vertical edge near x=270 (the vision model's description of the screen: A mostly blank, washed-out white-grey screen that looks like a close-up of a smooth wall or panel with a vertical seam, with faint pale-orange welcome text at the top left ('Welcome to Manneris. Leave by the starboard gangway: the boarding hall is behind the promenade.') and a faint orange circle on",
+  "shot": "shots-iphone/054-tour-walking.jpg",
+  "steps": [
+   "10:48 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome text is tan on a pale beige background, so contrast is very low and it is hard to read.",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:59",
+  "detail": "top-left, welcome message (the vision model's description of the screen: A mostly washed-out, blurry beige-gray screen with faint smudgy shapes and a low-contrast welcome message at top-left reading 'Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.', plus a faint tan circular joystick-like control at lower left.)",
+  "shot": "shots-iphone/059-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:59 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The virtual joystick or touch control is a faint tan circle with an almost invisible outline, barely distingui",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "12:59",
+  "detail": "lower left, around (80, 640) (the vision model's description of the screen: A mostly washed-out, blurry beige-gray screen with faint smudgy shapes and a low-contrast welcome message at top-left reading 'Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.', plus a faint tan circular joystick-like control at lower left.)",
+  "shot": "shots-iphone/059-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:59 [tour] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome text is beige on a near-white background, so contrast is very low and it is hard to read.",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:39",
+  "detail": "top-left, the 'Welcome to Manneris...' text block (the vision model's description of the screen: A nearly blank, pale grey-white screen that looks like the camera is pressed up against a white wall or corner, with a faint vertical seam down the middle, a small tan circle at lower left, and low-contrast beige text in the top-left reading 'Welcome to Manneris. Leave by the starboard gangway: the boa",
+  "shot": "shots-iphone/063-tour-walking.jpg",
+  "steps": [
+   "14:33 [tour] jump"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The welcome/instruction text is peach on a near-white background, so it is very low contrast and hard to read.",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:07",
+  "detail": "Top left, the first three lines of text (the vision model's description of the screen: A mostly blank, pale grey-white screen that looks like the camera is pressed up against a wall or corner, with a faint peach-colored welcome message at the top ('Welcome to Mariners. Leave by the starboard gangway; the boarding hall is behind the promenade.') and a translucent peach circular touch control at the",
+  "shot": "shots-iphone/064-tour-walking.jpg",
+  "steps": [
+   "15:03 [tour] sidestep around whatever is in the way"
+  ]
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "id": "s1",
+  "text": "On the night of August fifteenth, 1977, a radio telescope in Ohio recorded something for about seventy two seconds. A few days later, an astronomer circled it on a printout and wrote one word beside it: Wow. Nearly fifty years on, nobody has found it again. This episode keeps three things apart: what was measured, what has been proposed, and what is still open."
+ },
+ {
+  "id": "s2",
+  "text": "The instrument was Big Ear, the radio telescope of Ohio State University, in Delaware, Ohio. It was a fixed design. It could be tilted in altitude, but it could not follow a star. It simply watched while the Earth's rotation carried the sky past, and any point in the sky took seventy two seconds to cross its view. So seventy two seconds is the time a steady source would stay in view."
+ },
+ {
+  "id": "s3",
+  "text": "The data came out as printouts of numbers. Each number is a signal strength, in multiples of the typical background noise: one to nine, then letters. Across the seventy two seconds, the code read six, E, Q, U, J, five. The strength rose, peaked at the letter U, about thirty on that scale, then fell. Six E Q U J five is not a message. It is an intensity record, and its smooth rise and fall is what a steady source drifting through the beam would give."
+ },
+ {
+  "id": "s4",
+  "text": "What else was measured. The signal was narrow: it fell within one channel, ten kilohertz wide. And it sat very near 1420 megahertz, the natural radio frequency of neutral hydrogen, the most common element in the universe. Radio rules reserve that band for astronomy, though interference can never be ruled out entirely. The first published estimate was 1420.4556 megahertz. It changes later."
+ },
+ {
+  "id": "s5",
+  "text": "Where it came from. A patch of sky in the constellation Sagittarius, a few degrees from the star Chi Sagittarii. Big Ear had two feed horns, two horns feeding one switched receiver, looking at slightly different spots of sky. The signal appeared in one of them and not the other, and the records did not preserve which, so there are two possible positions. And that is the first puzzle. A source that kept shining at the same strength should have shown up in both. This one showed up in one.",
+  "say": "Where it came from. A patch of sky in the constellation Sagittarius, a few degrees from the star Kigh Sagittarii. Big Ear had two feed horns, two horns feeding one switched receiver, looking at slightly different spots of sky. The signal appeared in one of them and not the other, and the records did not preserve which, so there are two possible positions. And that is the first puzzle. A source that kept shining at the same strength should have shown up in both. This one showed up in one."
+ },
+ {
+  "id": "s6",
+  "text": "Then people looked again. Ehman and the Big Ear team searched in the following months: nothing. Robert Gray searched with the META array in 1987 and 1989: nothing. In the mid nineteen nineties, Gray used the Very Large Array, much more sensitive than Big Ear: nothing. In 1998 and 1999, Gray and Simon Ellingsen tried six long sessions on another dish: nothing similar. In 2022, Breakthrough Listen searched that region and reported no technosignature candidates. A signal that never repeats is very hard to study.",
+  "say": "Then people looked again. Ehman and the Big Ear team searched in the following months: nothing. Robert Gray searched with the META array in 1987 and 1989: nothing. In the mid nineteen nineties, Gray used the Very Large Array, much more sensitive than Big Ear: nothing. In 1998 and 1999, Gray and Simon Ellingsen tried six long sessions on another dish: nothing similar. In 2022, Breakthrough Listen searched that region and reported no technosignature candidates. A signal that never repeats is very hard to study."
+ },
+ {
+  "id": "s7",
+  "text": "So what could it be? Proposals fall into three groups. Something from Earth or near it. Something natural, far away. Or a transmission from another civilization. Some have proposed that last one. The evidence for it is the signal itself, and nothing else. For the first group, Ehman suggested space debris in 1994, and later judged that much less likely. No specific terrestrial source has been shown to account for it.",
+  "say": "So what could it be? Proposals fall into three groups. Something from Earth or near it. Something natural, far away. Or a transmission from another civilization. Some have proposed that last one. The evidence for it is the signal itself, and nothing else. For the first group, Ehman suggested space debris in 1994, and later judged that much less likely. No specific terrestrial source has been shown to account for it."
+ },
+ {
+  "id": "s8",
+  "text": "The comet idea. In 2017, Antonio Paris, then at St. Petersburg College in Florida, proposed that the source was the cloud of hydrogen around a comet. Comets do carry huge hydrogen clouds. He pointed to two small comets, 266P Christensen and 335P Gibbs, which he said were in that part of the sky in 1977. He reported detecting a signal near the hydrogen frequency while observing 266P Christensen in 2017.",
+  "say": "The comet idea. In 2017, Antonio Paris, then at St. Petersburg College in Florida, proposed that the source was the cloud of hydrogen around a comet. Comets do carry huge hydrogen clouds. He pointed to two small comets, 2 6 6 P Christensen and 3 3 5 P Gibbs, which he said were in that part of the sky in 1977. He reported detecting a signal near the hydrogen frequency while observing 2 6 6 P Christensen in 2017."
+ },
+ {
+  "id": "s9",
+  "text": "That was disputed. Critics, including people from the original Big Ear team, said the comets were not in the telescope's beam at the right time, that comet hydrogen is not known to produce a signal that narrow and that strong, and that the idea does not explain why only one horn saw it. The comet idea remains a proposal, not a finding."
+ },
+ {
+  "id": "s10",
+  "text": "Newer work. In 2022, Alberto Caballero listed three Sun-like stars in the possible patch of sky as places worth a look. A candidate star is not evidence of a transmitter. Then, in 2024, Abel M\u00e9ndez and colleagues, using the Arecibo telescope, proposed a natural flare: a brief burst, such as from a magnetar, lighting up a cold cloud of hydrogen into a narrow beam, like a natural maser. That is a hypothesis. No such flare has been tied to the 1977 event.",
+  "say": "Newer work. In 2022, Alberto Caballero listed three Sun-like stars in the possible patch of sky as places worth a look. A candidate star is not evidence of a transmitter. Then, in 2024, Abel Men-dez and colleagues, using the Arecibo telescope, proposed a natural flare: a brief burst, such as from a magnetar, lighting up a cold cloud of hydrogen into a narrow beam, like a natural maser. That is a hypothesis. No such flare has been tied to the 1977 event."
+ },
+ {
+  "id": "s11",
+  "text": "In 2025, a preprint, not yet peer reviewed when we checked in October 2026, went back to the Big Ear archive. The team digitized more than seventy five thousand pages of old records, and reported a clock offset and an inverted channel order in the original analysis. Their revised numbers: a frequency of 1420.726 megahertz, instead of 1420.4556, and a peak strength of more than 250 janskys, higher than earlier estimates. They conclude a natural hydrogen source is the most likely explanation, and say their results do not show an extraterrestrial signal.",
+  "say": "In 2025, a preprint, not yet peer reviewed when we checked in October 2026, went back to the Big Ear archive. The team digitized more than seventy five thousand pages of old records, and reported a clock offset and an inverted channel order in the original analysis. Their revised numbers: a frequency of 1420.726 megahertz, instead of 1420.4556, and a peak strength of more than 250 janskys, higher than earlier estimates. They conclude a natural hydrogen source is the most likely explanation, and say their results do not show an extraterrestrial signal."
+ },
+ {
+  "id": "s12",
+  "text": "Other scientists stay cautious. Gerry Harp, who worked on the Allen Telescope Array, has said the signal failed even simple tests used to exclude interference. Others argue that a failure to repeat shows only that the event was rare, not what caused it. With one event and no repeat, every explanation is a hypothesis."
+ },
+ {
+  "id": "s13",
+  "text": "What would settle it? A repeat, from the same patch of sky. Independent checks of the 1977 numbers by teams other than the one that reanalyzed them. And a search of the Ohio archive, which logged more than forty thousand narrowband events over the years, for other one-off signals that look like this."
+ },
+ {
+  "id": "s14",
+  "text": "The ledger. Documented: Big Ear recorded a narrow signal near the hydrogen frequency, for the seventy two seconds a source takes to cross its view, peaking about thirty times above the noise. Documented: repeated searches found no repeat. Disputed: the comet idea, and the meaning of the reanalysis. Proposed: a natural flare from a hydrogen cloud. Claimed by some: a message from another civilization, with no evidence beyond the signal itself. Unknown: what it was."
+ },
+ {
+  "id": "s15",
+  "text": "So what was the Wow signal? Not established. Not ruled out. One signal, seen once, nearly fifty years ago. One group argues a natural source fits best. Others are not convinced. An artificial origin is neither shown nor excluded. If it comes again, someone watching this might be the one who catches it."
+ },
+ {
+  "id": "s16",
+  "text": "Still Unknown, from Heartbeat Observatory."
+ }
+]

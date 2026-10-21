@@ -1,0 +1,189 @@
+HEARTBEAT OBSERVATORY
+Directory
+Live Systems
+Qwen
+Paper
+Sign in
+
+OWNER DECISION REQUIRED
+
+Trade / Desk
+Updated 1:42:16 PM
+Nothing is placed without an explicit yes
+
+Agents propose. A script re-checks the numbers. You decide from your phone. A script places.
+
+Decide 7
+Account
+Ledger
+History
+AWAITING YOU
+7
+VERIFIED
+7
+APPROVED
+5
+PLACED
+9
+
+WAITING ON A DECISION
+
+Pending proposals
+
+Edge is the independent probability minus what you would pay. Spread is what entry costs. Edge must beat spread or it should not be here. Open interest is whether you could get out again — a tight spread on an empty book is not a real market. Size is yours to change before you approve; every share pays $1 if the side you bought is right, nothing if it is wrong.
+
+Buffalo vs. Houston — Bills
+
+NFL › Sports › Games › Football › Week 1 · football_team_full_game_winner · open in Polymarket ↗
+
+YES buy Bills at 53.0¢ a share · spread 0.5¢ · independent read 62% · edge 9.0¢
+
+research: deepseek
+
+$
+ 3.77 shares · pays $3.77 if right (+$1.77)
+
+[deepseek, price-blind] The Bills are the stronger roster and Josh Allen-led team, but the headline notes Allen is 0-4 in Houston and Buffalo is breaking in a new head coach (Joe Brady) in Week 1, adding uncertainty. One headline lists the Texans among Week 1 underdog picks, suggesting the market sees this as closer than a typical Bills-Texans matchup. With no current odds or injury data available, I lean Buffalo modestly above a coin flip.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 11:57:36 AM
+
+Kill if: A credible line showing Houston as a home favorite, or news of a significant Bills injury/absence (e.g., Allen or key defensive starters), would push me toward or below 0.50; confirmation of a Houston QB/roster downgrade would push me higher.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+Chicago vs. Carolina — Bears
+
+NFL › Sports › Games › Football › Week 1 · football_team_full_game_winner · open in Polymarket ↗
+
+NO bet against Bears at 40.0¢ a share (Yes is trading 60.0¢–60.5¢) · spread 0.5¢ · independent read 55% · edge 5.0¢
+
+research: deepseek
+
+$
+ 5.00 shares · pays $5.00 if right (+$3.00)
+
+[deepseek, price-blind] No substantive news about this specific Week 2 2026 matchup was retrieved; headlines are generic NFL schedule/betting content. With no injury reports, rosters, or venue information available, I fall back on the standard home-field advantage base rate, which gives the home team roughly a 55% edge in an otherwise even NFL matchup. I cannot confirm which team is home, so this is essentially a coin flip with a slight lean.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 11:57:25 AM
+
+Kill if: Any confirmed information on starting quarterbacks, key injuries, or the game venue would sharply revise this; if the Panthers are at home or the Bears are missing their starting QB, I would move toward 0.40-0.45, and the reverse would push me toward 0.65.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+U.S House Midterm Winner — Democratic Party
+
+Politics › Midterms · election · open in Polymarket ↗
+
+OPEN you pick the side. Democratic Party: yes costs 84.1¢ · no costs 16.0¢ · independent read 78% for yes · spread 0.1¢
+
+research: deepseek
+
+$
+ 12.50 shares · pays $12.50 if right (+$10.50)
+
+[deepseek, price-blind] A September 11, 2026 poll shows Democrats leading Republicans by 11 points on the generic House ballot, and a Cornell forecast from early September strongly favors Democrats for the House majority. Midterm elections typically favor the party out of power, and the GOP holds the White House, reinforcing Democratic momentum. However, polls are ~2 months out and the evidence base is thin (no market data, limited background).
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 11:57:21 AM
+
+Kill if: A tightening of the generic ballot to near parity or a shift in high-quality district-level forecasts toward Republicans would sharply lower this estimate; conversely, further Democratic gains or GOP retirements/scandals would raise it.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+Fed Decision in September — 25 bps Increase
+
+Econ › macro › Fed · futures · open in Polymarket ↗
+
+OPEN you pick the side. 25 bps Increase: yes costs 79.0¢ · no costs 22.0¢ · independent read 55% for yes · spread 1.0¢
+
+research: deepseek
+
+$
+ 9.09 shares · pays $9.09 if right (+$7.09)
+
+[deepseek, price-blind] Recent headlines (Sep 8-10, 2026) show prediction-market odds of a September hike rising to 54-61%, with a hot PPI print cited as the trigger, and an August Chase piece framing a 25bp move as expected after July's hold. This is a genuinely live, near-coin-flip decision, so I place it modestly above even given the hawkish momentum into the meeting.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 10:11:24 AM
+
+Kill if: A dovish CPI/labor print or Fed-speak signaling a hold before Sep 15-16 would push me sharply lower; a further hot inflation reading or explicit hawkish guidance would push me toward 0.75+.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+Oklahoma vs. Michigan — Sooners
+
+Sports › Games › CFB › Football › SEC · football_team_full_game_winner · open in Polymarket ↗
+
+NO bet against Sooners at 34.5¢ a share (Yes is trading 65.5¢–66.0¢) · spread 0.5¢ · independent read 50% · edge 15.5¢
+
+research: deepseek
+
+$
+ 5.80 shares · pays $5.80 if right (+$3.80)
+
+[deepseek, price-blind] The only substantive evidence is that the game is scheduled for today and multiple outlets have published previews/predictions, but none of the retrieved headlines contain a final score or a clear consensus pick. With no current market price, no injury/roster news, and no historical matchup data in the background, this is effectively a coin-flip between two blue-blood programs.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 10:11:19 AM
+
+Kill if: A credible final score or in-game result would immediately settle the market; pregame news of a major injury, suspension, or a strong expert/odds consensus favoring one side would shift my estimate sharply.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+American League Rookie of the Year — Kevin McGonigle
+
+Sports › MLB › Baseball › Awards · futures · open in Polymarket ↗
+
+YES buy Kevin McGonigle at 81.0¢ a share · spread 0.7¢ · independent read 88% · edge 7.0¢
+
+research: deepseek
+
+$
+ 2.47 shares · pays $2.47 if right (+$0.47)
+
+[deepseek, price-blind] Multiple recent (Sep 2026) headlines describe McGonigle as the clear No. 1 AL rookie and note the AL/NL RoY favorites 'pulling away,' with a Tigers manager quote calling him the best rookie he can imagine. This is strong late-season momentum for a favorite with the award announced in November, though no explicit odds or vote counts are given.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 10:11:14 AM
+
+Kill if: A late-season injury or slump, or a surge by a rival AL rookie (e.g., a strong September/playoff push by another candidate), would sharply lower this estimate.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+Ohio State vs. Texas — Buckeyes
+
+Sports › Games › CFB › Football › SEC · football_team_full_game_winner · open in Polymarket ↗
+
+YES buy Buckeyes at 47.5¢ a share · spread 0.5¢ · independent read 62% · edge 14.5¢
+
+research: deepseek
+
+$
+ 4.21 shares · pays $4.21 if right (+$2.21)
+
+[deepseek, price-blind] No current score, betting line, or injury report is available in the retrieved headlines, which are mostly TV schedule and viewing-guide items. Ohio State (Buckeyes) is playing at home per the Big Ten schedule context, and elite home teams in marquee non-conference games typically carry a modest edge, so I lean slightly above a coin flip. The evidence is thin enough that this is close to a base-rate estimate rather than a strongly informed one.
+
+proposed by proposer-script/direct/deepseek · 9/12/2026, 10:11:08 AM
+
+Kill if: A credible pregame betting line, a key quarterback/injury report, or any live score update would sharply move this estimate; a Texas-favored line or Buckeyes' starter ruled out would push me below 0.50.
+
+verified by verifier-script
+confidence low
+
+owner only
+
+Proposals are written by the trading agent. Verification is written by a second agent that re-reads the same market independently. Approval is the owner’s alone, and no order is submitted before it. Anyone may read this queue; only the owner can decide from it.

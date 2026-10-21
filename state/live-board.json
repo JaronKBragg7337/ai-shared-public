@@ -1,0 +1,242 @@
+{
+ "at": "2026-10-21 19:03 UTC",
+ "games": [
+  {
+   "slug": "aec-atp-facmen-valabo-2026-10-19",
+   "sides": [
+    "Facundo Mena",
+    "Valerio Aboian"
+   ],
+   "long": "Facundo Mena",
+   "bid": null,
+   "ask": 0.01,
+   "mid": null,
+   "score": null,
+   "flags": [],
+   "prev_mid": 0.155,
+   "question": "Who will win in the upcoming atp event Facundo Mena vs Valerio Aboian scheduled for October 19, 2026 at 3:00 PM UTC?"
+  },
+  {
+   "slug": "aec-atp-martru-carcan-2026-10-21",
+   "sides": [
+    "Marco Trungelliti",
+    "Carlo Alberto Caniato"
+   ],
+   "long": "Marco Trungelliti",
+   "bid": 0.57,
+   "ask": 0.59,
+   "mid": 0.58,
+   "score": null,
+   "flags": [],
+   "prev_mid": null,
+   "question": "Who will win in the upcoming atp event Marco Trungelliti vs Carlo Alberto Caniato scheduled for October 21, 2026 at 9:00 AM UTC?"
+  },
+  {
+   "slug": "aec-atp-moikou-lormus-2026-10-21",
+   "sides": [
+    "Moise Kouame",
+    "Lorenzo Musetti"
+   ],
+   "long": "Moise Kouame",
+   "bid": null,
+   "ask": 0.01,
+   "mid": null,
+   "score": {
+    "state": "post",
+    "detail": "Final",
+    "text": "Moise Kouame 7 6 | Lorenzo Sonego 6 4",
+    "leader": "Moise Kouame",
+    "names": [
+     "Moise Kouame",
+     "Lorenzo Sonego"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.015,
+   "question": "Who will win in the upcoming atp event Moise Kouame vs Lorenzo Musetti scheduled for October 21, 2026 at 10:00 AM UTC?"
+  },
+  {
+   "slug": "aec-itfwo-sloste-thefro-2026-10-21",
+   "sides": [
+    "Sloane Stephens",
+    "Thea Frodin"
+   ],
+   "long": "Sloane Stephens",
+   "bid": 0.46,
+   "ask": 0.47,
+   "mid": 0.465,
+   "score": null,
+   "flags": [],
+   "prev_mid": null,
+   "question": "Who will win in the upcoming tennis event Sloane Stephens vs Thea Frodin scheduled for October 21, 2026 at 5:00 PM UTC?"
+  },
+  {
+   "slug": "atc-ucl-ast-vik1-2026-10-21-ast",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.8,
+   "ask": 0.81,
+   "mid": 0.805,
+   "score": {
+    "state": "in",
+    "detail": "2'",
+    "text": "Aston Villa 0 - Viking FK 0",
+    "leader": null,
+    "names": [
+     "Aston Villa",
+     "Viking FK"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Aston Villa FC win against Viking FK in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-bay-ars-2026-10-21-ars",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.34,
+   "ask": 0.35,
+   "mid": 0.345,
+   "score": {
+    "state": "in",
+    "detail": "3'",
+    "text": "Bayern Munich 0 - Arsenal 0",
+    "leader": null,
+    "names": [
+     "Bayern Munich",
+     "Arsenal"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Arsenal FC win against FC Bayern Munchen in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-bay-ars-2026-10-21-bay",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.41,
+   "ask": 0.42,
+   "mid": 0.415,
+   "score": {
+    "state": "in",
+    "detail": "3'",
+    "text": "Bayern Munich 0 - Arsenal 0",
+    "leader": null,
+    "names": [
+     "Bayern Munich",
+     "Arsenal"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will FC Bayern Munchen win against Arsenal FC in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-bru-rcl-2026-10-21-bru",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.55,
+   "ask": 0.56,
+   "mid": 0.555,
+   "score": {
+    "state": "in",
+    "detail": "2'",
+    "text": "Club Brugge 0 - Lens 0",
+    "leader": null,
+    "names": [
+     "Club Brugge",
+     "Lens"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Club Brugge KV win against Racing Club de Lens in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-rbb-fey-2026-10-21-rbb",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.53,
+   "ask": 0.54,
+   "mid": 0.535,
+   "score": {
+    "state": "in",
+    "detail": "3'",
+    "text": "Real Betis 0 - Feyenoord Rotterdam 0",
+    "leader": null,
+    "names": [
+     "Real Betis",
+     "Feyenoord Rotterdam"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Real Betis Seville win against Feyenoord Rotterdam in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-rma-rbl-2026-10-21-rma",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.79,
+   "ask": 0.8,
+   "mid": 0.795,
+   "score": {
+    "state": "in",
+    "detail": "2'",
+    "text": "Real Madrid 0 - RB Leipzig 0",
+    "leader": null,
+    "names": [
+     "Real Madrid",
+     "RB Leipzig"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Real Madrid CF win against RB Leipzig in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  },
+  {
+   "slug": "atc-ucl-spo-lask-2026-10-21-spo",
+   "sides": [
+    "Yes",
+    "No"
+   ],
+   "long": "Yes",
+   "bid": 0.71,
+   "ask": 0.72,
+   "mid": 0.715,
+   "score": {
+    "state": "in",
+    "detail": "2'",
+    "text": "Sporting CP 0 - LASK Linz 0",
+    "leader": null,
+    "names": [
+     "Sporting CP",
+     "LASK Linz"
+    ]
+   },
+   "flags": [],
+   "prev_mid": null,
+   "question": "Will Sporting CP win against LASK Linz in the UEFA Champions League match scheduled for Oct 21, 2026?"
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+[
+ {
+  "title": "Nothing changed for 60+ seconds (same message, same place)",
+  "sev": 86,
+  "kind": "stuck-state",
+  "count": 2,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:13",
+  "detail": "in \"fly\": position {\"x\":5.5,\"y\":0,\"z\":14.9}, button \"\", caption \"\", toast \"\", ship aboard",
+  "shot": "shots-iphone/039-fly-PROBLEM-stuck-state.jpg",
+  "steps": [
+   "09:29 [fly] run-up jump #2",
+   "09:31 [fly] jump",
+   "09:40 [fly] not getting closer (26 m away), trying to get unstuck #3",
+   "09:40 [fly] run-up jump #3",
+   "09:42 [fly] jump",
+   "09:51 [fly] not getting closer (26 m away), trying to get unstuck #4",
+   "09:51 [fly] run-up jump #4",
+   "09:53 [fly] jump",
+   "10:02 [fly] not getting closer (26 m away), trying to get unstuck #5",
+   "10:02 [fly] sidestep around whatever is in the way",
+   "10:08 [fly] jump",
+   "10:09 [fly] walk to back to the ship"
+  ]
+ },
+ {
+  "title": "Stuck while walking to back to the ship",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "11:24",
+  "detail": "no progress for 56s at shipworld 6,15 (target 0,28, 14 m away)",
+  "shot": "shots-iphone/042-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "10:28 [fly] jump",
+   "10:37 [fly] not getting closer (14 m away), trying to get unstuck #3",
+   "10:37 [fly] run-up jump #3",
+   "10:39 [fly] jump",
+   "10:48 [fly] not getting closer (14 m away), trying to get unstuck #4",
+   "10:48 [fly] run-up jump #4",
+   "10:50 [fly] jump",
+   "10:59 [fly] not getting closer (14 m away), trying to get unstuck #5",
+   "10:59 [fly] sidestep around whatever is in the way",
+   "11:10 [fly] not getting closer (14 m away), trying to get unstuck #6",
+   "11:17 [fly] not getting closer (14 m away), trying to get unstuck #7",
+   "11:24 [fly] not getting closer (14 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Could not walk to a wander on deimos",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "10:08",
+  "detail": "gave up after 60s; last distance 26 m",
+  "shot": "shots-iphone/037-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "09:21 [fly] jump",
+   "09:29 [fly] not getting closer (26 m away), trying to get unstuck #2",
+   "09:29 [fly] run-up jump #2",
+   "09:31 [fly] jump",
+   "09:40 [fly] not getting closer (26 m away), trying to get unstuck #3",
+   "09:40 [fly] run-up jump #3",
+   "09:42 [fly] jump",
+   "09:51 [fly] not getting closer (26 m away), trying to get unstuck #4",
+   "09:51 [fly] run-up jump #4",
+   "09:53 [fly] jump",
+   "10:02 [fly] not getting closer (26 m away), trying to get unstuck #5",
+   "10:02 [fly] sidestep around whatever is in the way"
+  ]
+ },
+ {
+  "title": "Tapping speed ×60 did not change the flight speed",
+  "sev": 60,
+  "kind": "warp-no-effect",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:02",
+  "detail": "still ×5",
+  "shot": "shots-iphone/027-fly-PROBLEM-warp-no-effect.jpg",
+  "steps": [
+   "05:28 [fly] walk to up the ramp (moon)",
+   "05:45 [fly] button near seat: \"Sit  ·  Pilot seat\"",
+   "05:45 [fly] tap #btn-action (action)",
+   "05:46 [fly] seated: pilot",
+   "05:46 [fly] tap #chip-course (open the Course sheet)",
+   "05:47 [fly] tap button \"Deimos15000 km · about 45 minThe outer m\" (choose Deimos)",
+   "05:48 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Deimos (pad 03)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "05:48 [fly] trip phase lift, warp x1, eta 0s",
+   "05:48 [fly] tap button \"×20\" (speed up ×20)",
+   "05:56 [fly] trip phase ascent, warp x20, eta 0s",
+   "05:56 [fly] tap button \"×5\" (speed up ×5)",
+   "06:01 [fly] tap button \"×60\" (speed up ×60)"
+  ]
+ },
+ {
+  "title": "Tapping speed ×5 did not change the flight speed",
+  "sev": 60,
+  "kind": "warp-no-effect",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:10",
+  "detail": "still ×20",
+  "shot": "shots-iphone/030-fly-PROBLEM-warp-no-effect.jpg",
+  "steps": [
+   "05:56 [fly] trip phase ascent, warp x20, eta 0s",
+   "05:56 [fly] tap button \"×5\" (speed up ×5)",
+   "06:01 [fly] tap button \"×60\" (speed up ×60)",
+   "06:11 [fly] tap button \"×20\" (speed up ×20)",
+   "06:13 [fly] trip phase transit, warp x20, eta 2327s",
+   "06:16 [fly] tap button \"×60\" (speed up ×60)",
+   "06:23 [fly] tap button \"×20\" (speed up ×20)",
+   "06:46 [fly] tap on empty 3D view at 35,597",
+   "07:32 [fly] tap on empty 3D view at 294,638",
+   "08:05 [fly] tap on empty 3D view at 59,574",
+   "08:09 [fly] trip phase settle, warp x20, eta 30s",
+   "08:09 [fly] tap button \"×5\" (speed up ×5)"
+  ]
+ },
+ {
+  "title": "Game said: \"Cruise: raiders cannot follow a ship at this speed\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 3,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "01:36",
+  "detail": "shown in hud-readout while the bot was: 01:36 [fly] tap button \"×20\" (speed up ×20)",
+  "shot": "shots-iphone/011-fly-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:45 [fly] tap #chip-course (open the Course sheet)",
+   "00:46 [fly] tap button \"Phobos7668 km · about 36 minLand at the \" (choose Phobos)",
+   "00:47 [fly] trip started: {\"phase\":\"lift\",\"dest\":\"Phobos (pad 03)\",\"warp\":1,\"eta\":0,\"dist\":0}",
+   "00:47 [fly] trip phase lift, warp x1, eta 0s",
+   "00:47 [fly] tap button \"×60\" (speed up ×60)",
+   "00:50 [fly] tap button \"×20\" (speed up ×20)",
+   "00:57 [fly] trip phase ascent, warp x20, eta 0s",
+   "01:02 [fly] tap button \"×60\" (speed up ×60)",
+   "01:09 [fly] tap button \"×5\" (speed up ×5)",
+   "01:26 [fly] tap button \"×20\" (speed up ×20)",
+   "01:36 [fly] trip phase transit, warp x20, eta 1682s",
+   "01:36 [fly] tap button \"×20\" (speed up ×20)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "a single frame took 2731 ms (typical 17 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/004-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1&opening=off",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship type meridian; ship centre at port 214,-120; ramp foot 214,-90",
+   "00:11 [fly] walk to the ship ramp",
+   "00:11 [fly] route of 3 legs",
+   "00:13 [fly] ramp lowered target=1 progress=1.00"
+  ]
+ }
+]

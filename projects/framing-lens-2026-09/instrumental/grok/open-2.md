@@ -1,0 +1,1 @@
+I'll look up this riddle so the answer matches the usual version.They are sharing one pair of earbuds from the same radio, one earpiece each. The track is a stereo karaoke (multiplex) recording: one channel is the full mix with the singer, and the other channel is the backing track only. Same song, same radio, same volume — each coworker gets a different channel.

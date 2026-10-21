@@ -1,0 +1,196 @@
+[
+ {
+  "title": "Walking up the ramp does not get you aboard",
+  "sev": 88,
+  "kind": "cannot-board",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:56",
+  "detail": "reached the ramp, walked in, still outside (position {\"x\":0,\"y\":0,\"z\":19.3}, ramp {\"progress\":1,\"target\":1,\"angle\":0.4493946484774137})",
+  "shot": "shots-iphone/015-fly-PROBLEM-cannot-board.jpg",
+  "steps": [
+   "00:26 [fly] jump",
+   "00:27 [fly] jump",
+   "00:27 [fly] jump",
+   "00:37 [fly] not getting closer (9 m away), trying to get unstuck #2",
+   "00:37 [fly] jump",
+   "00:37 [fly] jump",
+   "00:38 [fly] jump",
+   "00:39 [fly] jump",
+   "00:39 [fly] jump",
+   "00:40 [fly] jump",
+   "00:48 [fly] not getting closer (10 m away), trying to get unstuck #3",
+   "00:48 [fly] jump"
+  ]
+ },
+ {
+  "title": "Could not walk to up the ramp",
+  "sev": 72,
+  "kind": "cannot-reach",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:54",
+  "detail": "gave up after 40s; last distance 9 m",
+  "shot": "shots-iphone/013-fly-PROBLEM-cannot-reach.jpg",
+  "steps": [
+   "00:26 [fly] jump",
+   "00:27 [fly] jump",
+   "00:27 [fly] jump",
+   "00:37 [fly] not getting closer (9 m away), trying to get unstuck #2",
+   "00:37 [fly] jump",
+   "00:37 [fly] jump",
+   "00:38 [fly] jump",
+   "00:39 [fly] jump",
+   "00:39 [fly] jump",
+   "00:40 [fly] jump",
+   "00:48 [fly] not getting closer (10 m away), trying to get unstuck #3",
+   "00:48 [fly] jump"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "a single frame took 3758 ms (typical 32 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/009-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship centre at port 0,0; ramp foot 0,30",
+   "00:12 [fly] walk to the ship ramp",
+   "00:12 [fly] route of 3 legs"
+  ]
+ },
+ {
+  "title": "Console error",
+  "sev": 55,
+  "kind": "console-error",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "shot": "shots-iphone/002-start-PROBLEM-console-error.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js",
+  "shot": "shots-iphone/001-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1"
+  ]
+ },
+ {
+  "title": "Request returned HTTP 404",
+  "sev": 50,
+  "kind": "http",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js",
+  "shot": "shots-iphone/004-start-PROBLEM-http.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/_vercel/insights/script.js (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:01",
+  "detail": "http://localhost:8461/hb-editor.js (Load request cancelled)",
+  "shot": "shots-iphone/005-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1"
+  ]
+ },
+ {
+  "title": "Game said: \"Offline solo - saved locally\"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 2,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "shown in save-status while the bot was: 00:12 [fly] route of 3 legs",
+  "shot": "shots-iphone/008-fly-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship centre at port 0,0; ramp foot 0,30",
+   "00:12 [fly] walk to the ship ramp",
+   "00:12 [fly] route of 3 legs"
+  ]
+ },
+ {
+  "title": "Button too small for a thumb: #purse \"10,000 marks · 2,500 cr\" 138x11",
+  "sev": 30,
+  "kind": "tiny-button",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:14",
+  "detail": "#purse \"10,000 marks · 2,500 cr\" 138x11 (fly, iphone)",
+  "shot": "shots-iphone/010-fly-PROBLEM-tiny-button.jpg",
+  "steps": [
+   "00:01 [start] open http://localhost:8461/?qa=1&dev=1&opening=off&solo=1",
+   "00:11 [fly] === phase fly starts",
+   "00:11 [fly] ship centre at port 0,0; ramp foot 0,30",
+   "00:12 [fly] walk to the ship ramp",
+   "00:12 [fly] route of 3 legs"
+  ]
+ }
+]

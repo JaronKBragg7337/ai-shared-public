@@ -1,0 +1,2 @@
+<!-- luna rarity-chain run 1 2026-10-08 00:39 7s -->
+**Living matter—especially an ecosystem—**is a strong candidate. Its ingredients are common, and it doesn’t depend on one narrow temperature or pressure range. But nature has to get through a long chain: stable stars and planets, suitable chemistry, the origin of life, and billions of years of evolution. Earth is our only confirmed example, so we can’t know whether it is truly among the rarest materials in the universe; it’s a plausible argument, not an established ranking.

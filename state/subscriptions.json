@@ -1,0 +1,86 @@
+{
+ "note": "What the system costs (Jaron 10/19: Claude $100, Codex $20, Grok $30, Kimi $39, Supabase $25, then DeepSeek API credits). Paid on the web with the X Money card, never Apple; Grok prepaid ~3 months. Split of profit above $400: Control Room row profit_split (50 trade / 30 bills / 20 Jaron, his 20% stays in for now). tools/ai-budget.py reads 'monthly'. Rebuilt 10/19 from the 9/13 copy after Claude overwrote it by mistake - edits between 9/13 and 10/19 may be lost.",
+ "as_of": "2026-10-19",
+ "monthly": [
+  {
+   "name": "Claude (Anthropic)",
+   "plan": "Max $100",
+   "usd": 100,
+   "card": "X Money"
+  },
+  {
+   "name": "ChatGPT / Codex (OpenAI)",
+   "plan": "$20",
+   "usd": 20,
+   "card": "X Money"
+  },
+  {
+   "name": "Grok (xAI)",
+   "plan": "SuperGrok",
+   "usd": 30,
+   "card": "prepaid ~3 months"
+  },
+  {
+   "name": "Kimi",
+   "plan": "$39",
+   "usd": 39,
+   "card": "X Money"
+  },
+  {
+   "name": "Supabase",
+   "plan": "Pro",
+   "usd": 25,
+   "card": "X Money"
+  },
+  {
+   "name": "Postiz (social auto-posting)",
+   "plan": "after trial ends 10/24",
+   "usd": 29,
+   "card": "X Money"
+  },
+  {
+   "name": "X Premium (company @HeartbeatObserv)",
+   "plan": "Premium",
+   "usd": 15,
+   "card": "check"
+  }
+ ],
+ "after_monthly": [
+  {
+   "name": "DeepSeek API credits",
+   "usd": null,
+   "card": "X Money",
+   "role": "topped up after the monthly bills"
+  }
+ ],
+ "one_time": [
+  {
+   "name": "DeepSeek API credit",
+   "usd": 20,
+   "role": "pre-match research for the approved lane",
+   "as_of": "2026-09-13"
+  },
+  {
+   "name": "Bankroll deposited to Polymarket US",
+   "usd": 158,
+   "as_of": "2026-09-11"
+  }
+ ],
+ "free": [
+  "Polymarket US account (fees per trade)",
+  "Vercel",
+  "GitHub",
+  "Windows Task Scheduler"
+ ],
+ "hardware": {
+  "machine": "MSI Vector 16 HX A14VFG",
+  "cpu": "Intel Core i9-14900HX 24C/32T",
+  "ram_gb": 32,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop 8 GB",
+  "disk": "1 TB NVMe",
+  "os": "Windows 11 Home",
+  "cost_usd": 0,
+  "provenance": "Given by his partner (her old school computer), not bought"
+ },
+ "monthly_total_usd": 258
+}

@@ -1,0 +1,186 @@
+[
+ {
+  "id": "a1",
+  "text": "Right now, you are experiencing something. But could anyone else measure it? This is AI Explained: what AI can and cannot do, checked honestly. To ask that about machines, we first ask it about people and animals. Today: can consciousness be measured?",
+  "say": "Right now, you are experiencing something. But could anyone else measure it? This is AI Explained: what AI can and cannot do, checked honestly. To ask that about machines, we first ask it about people and animals. Today: can consciousness be measured?",
+  "disp": [
+   "Right now, you are experiencing something.",
+   "But could anyone else measure it? This is AI Explained: what AI can and cannot do, checked honestly.",
+   "To ask that about machines, we first ask it about people and animals. Today: can consciousness be measured?"
+  ]
+ },
+ {
+  "id": "a2",
+  "text": "Here is the problem. The only consciousness anyone observes directly is their own. For everyone and everything else, we infer it, from reports, behavior and brain activity. So scientists look for signatures in the brain, and check them against people who can report what they experienced.",
+  "say": "Here is the problem. The only consciousness anyone observes directly is their own. For everyone and everything else, we infer it, from reports, behavior and brain activity. So scientists look for signatures in the brain, and check them against people who can report what they experienced.",
+  "disp": [
+   "Here is the problem.",
+   "The only consciousness anyone observes directly is their own.",
+   "For everyone and everything else, we infer it, from reports, behavior and brain activity.",
+   "So scientists look for signatures in the brain, and check them against people who can report what they experienced."
+  ]
+ },
+ {
+  "id": "a3",
+  "text": "The first tool is the perturbational complexity index, or P C I. Researchers send a brief magnetic pulse into the cortex, record the brain's echo with E E G, and measure how complex that echo is. In a 2013 study by Casali, Massimini and colleagues, wakefulness and dreaming gave rich, varied echoes. Deep sleep and anesthesia gave simpler ones.",
+  "say": "The first tool is the perturbational complexity index, or P C I. Researchers send a brief magnetic pulse into the cortex, record the brain's echo with E E G, and measure how complex that echo is. In a twenty thirteen study by Casali, Massimini and colleagues, wakefulness and dreaming gave rich, varied echoes. Deep sleep and anesthesia gave simpler ones.",
+  "disp": [
+   "The first tool is the perturbational complexity index, or P C I.",
+   "Researchers send a brief magnetic pulse into the cortex, record the brain's echo with E E G, and measure how complex that echo is.",
+   "In a 2013 study by Casali, Massimini and colleagues, wakefulness and dreaming gave rich, varied echoes.",
+   "Deep sleep and anesthesia gave simpler ones."
+  ]
+ },
+ {
+  "id": "a4",
+  "text": "In 2016, the same group set a cutoff using 150 people who could report whether they were conscious. In that group, it separated conscious from unconscious perfectly. They then applied it to 81 patients who could not communicate. About 95 percent of the minimally conscious patients scored above the cutoff, and so did 9 of 43 patients diagnosed as vegetative. That suggests some of them may be conscious, but unable to show it.",
+  "say": "In twenty sixteen, the same group set a cutoff using a hundred and fifty people who could report whether they were conscious. In that group, it separated conscious from unconscious perfectly. They then applied it to eighty one patients who could not communicate. About ninety five percent of the minimally conscious patients scored above the cutoff, and so did nine of forty three patients diagnosed as vegetative. That suggests some of them may be conscious, but unable to show it.",
+  "disp": [
+   "In 2016, the same group set a cutoff using 150 people who could report whether they were conscious.",
+   "In that group, it separated conscious from unconscious perfectly.",
+   "They then applied it to 81 patients who could not communicate.",
+   "About 95 percent of the minimally conscious patients scored above the cutoff, and so did 9 of 43 patients diagnosed as vegetative.",
+   "That suggests some of them may be conscious, but unable to show it."
+  ]
+ },
+ {
+  "id": "a5",
+  "text": "Be careful what this means. P C I measures how rich the brain's response is, not what is being experienced. And it was calibrated on people who could report. It is a clue about a level of consciousness, not a window into anyone's mind.",
+  "say": "Be careful what this means. P C I measures how rich the brain's response is, not what is being experienced. And it was calibrated on people who could report. It is a clue about a level of consciousness, not a window into anyone's mind.",
+  "disp": [
+   "Be careful what this means.",
+   "P C I measures how rich the brain's response is, not what is being experienced.",
+   "And it was calibrated on people who could report.",
+   "It is a clue about a level of consciousness, not a window into anyone's mind."
+  ]
+ },
+ {
+  "id": "a6",
+  "text": "A second tool asks patients to imagine something. In 2006, Adrian Owen's team asked a patient diagnosed as vegetative to imagine playing tennis, or walking around her home. Her scan lit up the expected regions, as in healthy volunteers. In 2024, a study of 353 patients found 60 of the 241 with no bedside response to commands still did this kind of task, about one in four.",
+  "say": "A second tool asks patients to imagine something. In two thousand six, Adrian Owen's team asked a patient diagnosed as vegetative to imagine playing tennis, or walking around her home. Her scan lit up the expected regions, as in healthy volunteers. In twenty twenty four, a study of three hundred fifty three patients found sixty of the two hundred forty one with no bedside response to commands still did this kind of task, about one in four.",
+  "disp": [
+   "A second tool asks patients to imagine something.",
+   "In 2006, Adrian Owen's team asked a patient diagnosed as vegetative to imagine playing tennis, or walking around her home.",
+   "Her scan lit up the expected regions, as in healthy volunteers.",
+   "In 2024, a study of 353 patients found 60 of the 241 with no bedside response to commands still did this kind of task, about one in four."
+  ]
+ },
+ {
+  "id": "a7",
+  "text": "But the same study shows the limit. Among patients who did respond at the bedside, only 38 percent passed the scan task. So a pass is informative. A missed signal does not show that no one is home.",
+  "say": "But the same study shows the limit. Among patients who did respond at the bedside, only thirty eight percent passed the scan task. So a pass is informative. A missed signal does not show that no one is home.",
+  "disp": [
+   "But the same study shows the limit.",
+   "Among patients who did respond at the bedside, only 38 percent passed the scan task.",
+   "So a pass is informative.",
+   "A missed signal does not show that no one is home."
+  ]
+ },
+ {
+  "id": "a8",
+  "text": "Behind these tools sit rival theories. Global workspace theory says information becomes conscious when it is broadcast widely across the brain, an event called ignition, often linked to networks in the front of the brain. Integrated information theory says consciousness depends on how a system's parts causally affect each other, and predicts a hot zone in the back of the cortex. They predict different brain activity, so they can be tested against each other.",
+  "say": "Behind these tools sit rival theories. Global workspace theory says information becomes conscious when it is broadcast widely across the brain, an event called ignition, often linked to networks in the front of the brain. Integrated information theory says consciousness depends on how a system's parts causally affect each other, and predicts a hot zone in the back of the cortex. They predict different brain activity, so they can be tested against each other.",
+  "disp": [
+   "Behind these tools sit rival theories.",
+   "Global workspace theory says information becomes conscious when it is broadcast widely across the brain, an event called ignition, often linked to networks in the front of the brain.",
+   "Integrated information theory says consciousness depends on how a system's parts causally affect each other, and predicts a hot zone in the back of the cortex.",
+   "They predict different brain activity, so they can be tested against each other."
+  ]
+ },
+ {
+  "id": "a9",
+  "text": "That is what the Cogitate consortium did, with proponents of both theories agreeing on predictions in advance. It studied 256 people viewing images. The result, published in Nature in April 2025: both theories got some support, and both were challenged. Integrated information theory expected sustained synchronization in the back of the cortex, and it was lacking. Workspace theory expected ignition when an image disappeared, and mostly it was not there.",
+  "say": "That is what the Cogitate consortium did, with proponents of both theories agreeing on predictions in advance. It studied two hundred fifty six people viewing images. The result, published in Nature in April twenty twenty five: both theories got some support, and both were challenged. Integrated information theory expected sustained synchronization in the back of the cortex, and it was lacking. Workspace theory expected ignition when an image disappeared, and mostly it was not there.",
+  "disp": [
+   "That is what the Cogitate consortium did, with proponents of both theories agreeing on predictions in advance.",
+   "It studied 256 people viewing images.",
+   "The result, published in Nature in April 2025: both theories got some support, and both were challenged.",
+   "Integrated information theory expected sustained synchronization in the back of the cortex, and it was lacking.",
+   "Workspace theory expected ignition when an image disappeared, and mostly it was not there."
+  ]
+ },
+ {
+  "id": "a10",
+  "text": "Not everyone accepts the framing. In September 2023, 124 researchers signed a letter calling integrated information theory pseudoscience, saying its claims outrun the evidence. Others, including the philosopher David Chalmers, called that label disproportionate. A 2026 protocol plans similar tests in monkeys and mice. We found no results yet.",
+  "say": "Not everyone accepts the framing. In September twenty twenty three, a hundred and twenty four researchers signed a letter calling integrated information theory pseudoscience, saying its claims outrun the evidence. Others, including the philosopher David Chalmers, called that label disproportionate. A twenty twenty six protocol plans similar tests in monkeys and mice. We found no results yet.",
+  "disp": [
+   "Not everyone accepts the framing.",
+   "In September 2023, 124 researchers signed a letter calling integrated information theory pseudoscience, saying its claims outrun the evidence.",
+   "Others, including the philosopher David Chalmers, called that label disproportionate.",
+   "A 2026 protocol plans similar tests in monkeys and mice. We found no results yet."
+  ]
+ },
+ {
+  "id": "a11",
+  "text": "Now animals. In 1970, Gordon Gallup marked chimpanzees with red dye and gave them a mirror. The chimps touched the marks, which suggests they recognized themselves. The monkeys he tested did not. Since then, magpies in 2008 and, far more disputed, a small fish called the cleaner wrasse in 2019 have been reported to pass. The test probes one narrow thing, mirror-guided behavior toward a mark. Passing or failing it does not by itself settle whether an animal has experience.",
+  "say": "Now animals. In nineteen seventy, Gordon Gallup marked chimpanzees with red dye and gave them a mirror. The chimps touched the marks, which suggests they recognized themselves. The monkeys he tested did not. Since then, magpies in two thousand eight and, far more disputed, a small fish called the cleaner wrasse in twenty nineteen have been reported to pass. The test probes one narrow thing, mirror-guided behavior toward a mark. Passing or failing it does not by itself settle whether an animal has experience.",
+  "disp": [
+   "Now animals.",
+   "In 1970, Gordon Gallup marked chimpanzees with red dye and gave them a mirror.",
+   "The chimps touched the marks, which suggests they recognized themselves.",
+   "The monkeys he tested did not.",
+   "Since then, magpies in 2008 and, far more disputed, a small fish called the cleaner wrasse in 2019 have been reported to pass.",
+   "The test probes one narrow thing, mirror-guided behavior toward a mark.",
+   "Passing or failing it does not by itself settle whether an animal has experience."
+  ]
+ },
+ {
+  "id": "a12",
+  "text": "For animals, researchers weigh many kinds of evidence. In April 2024, scientists and philosophers released the New York Declaration on Animal Consciousness. It cites strong support for consciousness in mammals and birds, and a realistic possibility in all vertebrates and many invertebrates, including octopuses, crabs and insects. That is a judgment about probability, not a measurement.",
+  "say": "For animals, researchers weigh many kinds of evidence. In April twenty twenty four, scientists and philosophers released the New York Declaration on Animal Consciousness. It cites strong support for consciousness in mammals and birds, and a realistic possibility in all vertebrates and many invertebrates, including octopuses, crabs and insects. That is a judgment about probability, not a measurement.",
+  "disp": [
+   "For animals, researchers weigh many kinds of evidence.",
+   "In April 2024, scientists and philosophers released the New York Declaration on Animal Consciousness.",
+   "It cites strong support for consciousness in mammals and birds, and a realistic possibility in all vertebrates and many invertebrates, including octopuses, crabs and insects.",
+   "That is a judgment about probability, not a measurement."
+  ]
+ },
+ {
+  "id": "a13",
+  "text": "This is why behavior alone cannot settle the question. A chatbot trained on human writing can talk fluently about feelings, because humans do. So that talk alone is not a reliable test. In 2023, Patrick Butlin, Robert Long and colleagues took another route. They listed what leading theories say a conscious system would need, and checked AI systems against it.",
+  "say": "This is why behavior alone cannot settle the question. A chatbot trained on human writing can talk fluently about feelings, because humans do. So that talk alone is not a reliable test. In twenty twenty three, Patrick Butlin, Robert Long and colleagues took another route. They listed what leading theories say a conscious system would need, and checked AI systems against it.",
+  "disp": [
+   "This is why behavior alone cannot settle the question.",
+   "A chatbot trained on human writing can talk fluently about feelings, because humans do.",
+   "So that talk alone is not a reliable test.",
+   "In 2023, Patrick Butlin, Robert Long and colleagues took another route.",
+   "They listed what leading theories say a conscious system would need, and checked AI systems against it."
+  ]
+ },
+ {
+  "id": "a14",
+  "text": "Using indicators drawn from the theories, their analysis suggested that no current AI systems are conscious. It also suggested there are no obvious technical barriers to building systems that satisfy the indicators. But the theories disagree. Workspace-style views treat consciousness as a kind of information processing, so a machine with the right design could count. Integrated information theory looks at physical causal structure, so software behavior alone would not settle it.",
+  "say": "Using indicators drawn from the theories, their analysis suggested that no current AI systems are conscious. It also suggested there are no obvious technical barriers to building systems that satisfy the indicators. But the theories disagree. Workspace-style views treat consciousness as a kind of information processing, so a machine with the right design could count. Integrated information theory looks at physical causal structure, so software behavior alone would not settle it.",
+  "disp": [
+   "Using indicators drawn from the theories, their analysis suggested that no current AI systems are conscious.",
+   "It also suggested there are no obvious technical barriers to building systems that satisfy the indicators.",
+   "But the theories disagree.",
+   "Workspace-style views treat consciousness as a kind of information processing, so a machine with the right design could count.",
+   "Integrated information theory looks at physical causal structure, so software behavior alone would not settle it."
+  ]
+ },
+ {
+  "id": "a15",
+  "text": "What is established? Brain measures can track levels of consciousness in people who can report, and some unresponsive patients show hidden awareness. What is disputed? Which theory is right, and how testable they are. What is open? Whether any test can settle if a fish, an octopus or a machine has experience. None does so conclusively yet. Evidence can inform judgments.",
+  "say": "What is established? Brain measures can track levels of consciousness in people who can report, and some unresponsive patients show hidden awareness. What is disputed? Which theory is right, and how testable they are. What is open? Whether any test can settle if a fish, an octopus or a machine has experience. None does so conclusively yet. Evidence can inform judgments.",
+  "disp": [
+   "What is established?",
+   "Brain measures can track levels of consciousness in people who can report, and some unresponsive patients show hidden awareness. What is disputed?",
+   "Which theory is right, and how testable they are. What is open?",
+   "Whether any test can settle if a fish, an octopus or a machine has experience.",
+   "None does so conclusively yet.",
+   "Evidence can inform judgments."
+  ]
+ },
+ {
+  "id": "a16",
+  "text": "What would change that? Tests rival theories accept in advance, results across species, and measures validated beyond people who can talk. Until then: we can measure some brain signatures of consciousness in people. For animals and machines, evidence informs judgments, but no current measure settles it conclusively. The sources are on screen. This was AI Explained.",
+  "say": "What would change that? Tests rival theories accept in advance, results across species, and measures validated beyond people who can talk. Until then: we can measure some brain signatures of consciousness in people. For animals and machines, evidence informs judgments, but no current measure settles it conclusively. The sources are on screen. This was AI Explained.",
+  "disp": [
+   "What would change that?",
+   "Tests rival theories accept in advance, results across species, and measures validated beyond people who can talk. Until then: we can measure some brain signatures of consciousness in people.",
+   "For animals and machines, evidence informs judgments, but no current measure settles it conclusively.",
+   "The sources are on screen. This was AI Explained."
+  ]
+ }
+]

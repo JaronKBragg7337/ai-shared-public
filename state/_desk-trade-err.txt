@@ -1,0 +1,4 @@
+usage: desk-trade.py [-h] --by BY --slug SLUG --side {yes,no} --size SIZE
+                     --why WHY [--kill KILL] [--p P] [--max-size MAX_SIZE]
+                     [--exit] [--dry-run]
+desk-trade.py: error: unrecognized arguments: 4:07 4Q ESPN FAMU WP~81 vs ask0.615 ~20c after comeback takes lead or FAMU WP falls under ask

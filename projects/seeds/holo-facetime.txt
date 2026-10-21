@@ -1,0 +1,33 @@
+Holographic FaceTime calls (V1) 
+
+
+Structure
+	•	Base: A mobile platform (like a robot vacuum but smarter) houses:
+	•	Power supply
+	•	Motors & gyros for smooth movement
+	•	Audio output (for voice/sound)
+	•	AI processor (early brain or tether to VEX Core)
+	•	Particle injection system
+	•	Air circulation & containment ring
+	•	Chamber: Vertical glass or transparent material
+	•	Human height or chest-level (customizable)
+	•	Dome-shaped top
+	•	Fully sealed to allow pressurized airflow and controlled environment
+
+⸻
+
+Function
+	•	Air Jets: Constant circulation like Dyson bladeless fans — creates vertical wind tunnel
+	•	Fine Particles (like ultralight sand, fog mist, or plasma-reactive dust): Suspended in airflow
+	•	Laser Matrix or Holographic Projection:
+	•	Lasers bounce through/around particles
+	•	Light interacts with moving particles to form 3D figures
+	•	Can shift shape, style, color, transparency, all live
+
+⸻
+
+Effect
+	•	The illusion of a floating person or entity made of wind and light
+	•	Voice comes from below, synced with visual face/mouth
+	•	Could also change forms: human, dragon, tech being, animal, etc.
+	•	Can follow you or move autonomously

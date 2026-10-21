@@ -1,0 +1,4 @@
+file 'C:/Users/lilli/AI-Shared/projects/science-channel/ep4-highway-disappears/work/seg00.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/science-channel/ep4-highway-disappears/work/seg01.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/science-channel/ep4-highway-disappears/work/seg02.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/science-channel/ep4-highway-disappears/work/seg03.mp4'

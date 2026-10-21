@@ -1,0 +1,2 @@
+<!-- luna rarity-raw run 2 2026-10-08 00:45 7s -->
+There’s no single agreed answer, because “rarest” depends on what counts as a material and how abundance is measured. If you mean naturally occurring chemical elements, **astatine** is often cited as the rarest on Earth, while short-lived elements such as **francium** are also extraordinarily scarce. Across the cosmos, we can’t confidently name one rarest material: some exotic particles or phases may exist only fleetingly, and much of the universe is unobserved.

@@ -1,0 +1,242 @@
+{
+  "_about": "Heartbeat Observatory company socials (TikTok @heartbeat.observa, YouTube @HeartbeatObservatory, X @HeartbeatObserv). tools/social_daily.py posts ONE show a day from 'shows' (top first, skips platforms already done) and the news headlines short every morning. Edit freely: reorder, delete, add. 'done' is filled by the script. 'not_before' = earliest day (ET) to post. Fact-checked + voice-checked shows only (POSTING-QUEUE.md rule).",
+  "news": {
+    "enabled": true,
+    "platforms": [
+      "tiktok",
+      "youtube",
+      "x"
+    ]
+  },
+  "shows": [
+    {
+      "id": "sn-11.1-mmx",
+      "title": "MMX: ten grams from Phobos",
+      "file": "tv/spacenow/spacenow-ep1-mmx-vertical.mp4",
+      "caption": "Japan is about to launch a spacecraft to a moon of Mars. What for? 🚀\nMMX lifts off Oct 19 (3:41 PM ET) on an H3 rocket, lands on Phobos twice, and brings at least 10 grams home in 2031. Here is what is known, what is planned, and what is still open.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Space Now, Episode 11.1\n#MMX #Phobos #Mars #JAXA #space #spacenow #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-18T22:03:09Z",
+        "youtube": "2026-10-18T22:03:16Z",
+        "x": "2026-10-18T22:03:22Z",
+        "site": "2026-10-18 18:00"
+      },
+      "x_tags": [
+        "#MMX",
+        "#Phobos"
+      ]
+    },
+    {
+      "id": "ea-17.1-oxygen",
+      "title": "The first great extinction was caused by life itself",
+      "file": "tv/earth/earth-ep1-oxygen-vertical.mp4",
+      "caption": "Did life poison its own planet? 🌍\nAbout 2.4 billion years ago, microbes started pumping out oxygen as waste. The rocks show the air changed. How many species died is still unknown, and we say so.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Earth, Episode 17.1\n#earth #geology #oxygen #cyanobacteria #science #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-19T22:03:11Z",
+        "youtube": "2026-10-19T22:03:21Z",
+        "x": "2026-10-19T22:03:30Z",
+        "site": "2026-10-19 18:00"
+      }
+    },
+    {
+      "id": "ae-13.1-consciousness",
+      "title": "Can consciousness be measured?",
+      "file": "tv/aiexplained/aiexplained-ep1-consciousness-vertical.mp4",
+      "caption": "Can consciousness be measured? 🧠\nScientists have real tools, and a 2025 head-to-head test of two leading theories challenged both. For animals and AI, evidence informs judgments, but nothing settles it yet.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · AI Explained, Episode 13.1\n#consciousness #neuroscience #science #aiexplained #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-20T22:04:04Z",
+        "youtube": "2026-10-20T22:04:17Z",
+        "x": "2026-10-20T22:04:27Z",
+        "site": "2026-10-20 18:00"
+      }
+    },
+    {
+      "id": "lp-22.1-gobekli",
+      "title": "Did we build civilization backward?",
+      "file": "tv/lostplaces/lostplaces-ep1-gobekli-vertical.mp4",
+      "caption": "Did we build temples before farms? 🪨\nGobekli Tepe in Turkey is about 11,000 years old, built by people we call hunter-gatherers. New digs found houses and water systems too. Here's what's known, and what isn't.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Lost Places, Episode 22.1\n#gobeklitepe #archaeology #history #ancienthistory #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "su-10.3-vibration-stone",
+      "title": "Can vibration cut stone?",
+      "file": "tv/stillunknown/stillunknown-ep3-vibration-stone-vertical.mp4",
+      "caption": "Can sound cut stone? 🔊\nUltrasonic machines really do cut granite today, with vibration and grit. But the ancient Egyptians did it with copper saws and sand, and 'sound lifting' stays unproven.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Still Unknown, Episode 10.3\n#ancientegypt #engineering #mystery #stillunknown #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-17T13:44:46Z",
+        "youtube": "2026-10-17T13:44:55Z",
+        "x": "2026-10-17T13:45:09Z",
+        "site": "2026-10-17 13:02"
+      }
+    },
+    {
+      "id": "su-10.2-coral-castle",
+      "title": "Coral Castle: one man, 1,100 tons",
+      "file": "tv/stillunknown/stillunknown-ep2-coral-castle-vertical.mp4",
+      "caption": "One man. 1,100 tons of coral rock. No crew. 🪨\nEd Leedskalnin built Coral Castle alone, at night, and never showed anyone how. Here's what the evidence actually says.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Still Unknown, Episode 10.2\n#coralcastle #mystery #history #stillunknown #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-17T22:03:12Z",
+        "youtube": "2026-10-17T22:03:21Z",
+        "x": "2026-10-17T22:03:30Z",
+        "site": "2026-10-17 18:00"
+      }
+    },
+    {
+      "id": "su-10.1-dark-energy",
+      "title": "The energy we can't explain yet",
+      "file": "tv/stillunknown/stillunknown-ep1-dark-energy-vertical.mp4",
+      "caption": "Most of the universe is something we can't explain yet. 🌌\nThe universe's expansion is speeding up, and nobody knows what's pushing it. Scientists call it dark energy.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Still Unknown, Episode 10.1\n#darkenergy #space #universe #stillunknown #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "oq-9.1-sing-before-speak",
+      "title": "Did we sing before we spoke?",
+      "file": "tv/openquestions/openquestions-ep1-sing-before-speak-short-vertical.mp4",
+      "caption": "Did humans sing before we could talk? 🎶\nDarwin thought so. Some scientists still do, others don't. Here's the evidence on both sides.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Open Questions, Episode 9.1\n#music #evolution #language #openquestions #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "hist-7.1-railroads",
+      "title": "What if the railroads never existed?",
+      "file": "tv/history/history-ep1-railroads-vertical.mp4",
+      "caption": "What if America never built the railroads? 🚂\nOne economist did the math and the answer surprised everyone: the country would have been only a little poorer.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · History, Episode 7.1\n#history #railroads #economics #historytok #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "sci-8.4-highway",
+      "title": "How a highway disappears",
+      "file": "tv/science/science-ep4-highway-disappears-vertical.mp4",
+      "caption": "Where does a highway go when it wears out? 🛣️\nThe asphalt under your tires gets ground up and laid down again. It's one of the most recycled materials in America.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.4\n#science #roads #recycling #sciencetok #learnontiktok #AI",
+      "done": {
+        "tiktok": "2026-10-13 (by hand)"
+      }
+    },
+    {
+      "id": "sci-8.6-phobos",
+      "title": "Phobos: the moon that's falling",
+      "file": "tv/science/science-ep6-phobos-vertical.mp4",
+      "not_before": "2026-10-19",
+      "caption": "Mars' moon Phobos is falling. 🌑\nIt laps Mars three times a day, slips 1.8 cm closer every year, and in a few tens of millions of years it becomes a ring or a crater field. Japan's MMX launches Oct 19 (3:41 PM ET) to land on it and bring 10 grams home.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.6\n#Phobos #Mars #MMX #JAXA #space #science #sciencetok #AI",
+      "done": {
+        "tiktok": "2026-10-14 (by hand)"
+      },
+      "x_tags": [
+        "#MMX",
+        "#Phobos"
+      ]
+    },
+    {
+      "id": "shows-2.4-necklace-p1",
+      "title": "The Necklace, episode 1 part 1",
+      "file": "tv/shows/necklace-ep1-part1-vertical.mp4",
+      "caption": "A third grader finds a necklace. Then things start to change. ✨\nThe Necklace, an original story by Jaron Bragg.\n\nWatch free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Shows, Channel 2.4\n#story #animation #thenecklace #AI",
+      "done": {}
+    },
+    {
+      "id": "hist-7.4-pyramids",
+      "title": "How the pyramids were built",
+      "file": "tv/history/history-ep4-pyramids-vertical.mp4",
+      "caption": "How did they really build the Great Pyramid? 🏜️\nWe know a lot: the workers' town, their tombs, a 4,500-year-old logbook from an official who shipped the stone. And some of it is still open, like how the ramps worked.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · History, Episode 7.4\n#pyramids #egypt #history #ancientegypt #AI"
+    },
+    {
+      "id": "sci-8.1-breath",
+      "title": "Turning breath back into air",
+      "file": "tv/science/science-ep1-breath-into-air-vertical.mp4",
+      "caption": "Seal two people in a pod. How long until the air runs out? 🫁\nAnd how did Apollo astronauts turn their own breath back into something safe to breathe? A simulation, with NASA's numbers.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.1\n#science #space #apollo #NASA #AI"
+    },
+    {
+      "id": "hist-7.3-oldest-music",
+      "title": "The oldest music",
+      "file": "tv/history/history-ep3-oldest-music-vertical.mp4",
+      "caption": "The oldest instruments ever found are flutes made of bone, about 40,000 years old. 🦴🎶\nWhat do we actually know about how they sounded, and what is still a guess?\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · History, Episode 7.3\n#history #music #archaeology #prehistory #AI"
+    },
+    {
+      "id": "sci-8.2-perpetual",
+      "title": "Can a machine run forever?",
+      "file": "tv/science/science-ep2-perpetual-motion-vertical.mp4",
+      "caption": "People have tried to build a machine that runs forever for over 800 years. ⚙️\nWe built one in a simulation and counted every bit of energy. Here's where it goes, and the one real open question left.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.2\n#science #physics #perpetualmotion #energy #AI"
+    },
+    {
+      "id": "hist-7.2-broad-street",
+      "title": "The map that beat a theory",
+      "file": "tv/history/history-ep2-broad-street-vertical.mp4",
+      "caption": "In 1854 a doctor drew dots on a map and stopped a cholera outbreak. 🗺️\nEveryone believed bad air caused it. John Snow's map pointed at one water pump.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · History, Episode 7.2\n#history #science #johnsnow #london #AI"
+    },
+    {
+      "id": "sci-8.3-rarest",
+      "title": "The rarest material?",
+      "file": "tv/science/science-ep3-rarest-material-vertical.mp4",
+      "caption": "What's the rarest material in the universe? 🌌\nGold? Something in a lab? Or wood, which we've only ever found on one planet. Two honest ways to answer.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.3\n#science #space #elements #universe #AI"
+    },
+    {
+      "id": "sci-8.5-commercial-roof",
+      "title": "How a commercial roof dies",
+      "file": "tv/science/science-ep5-commercial-roof-vertical.mp4",
+      "caption": "Two roofs on one Indiana warehouse. Fifteen years of sun and rain. 🏭\nWatch how a metal roof and a white membrane roof wear out, where the leaks start, and why the white one runs cooler.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Science, Episode 8.5\n#roofing #construction #science #indiana #AI"
+    },
+    {
+      "id": "an-19.1-death",
+      "title": "Do animals understand death?",
+      "file": "tv/animals/animals-ep1-death-vertical.mp4",
+      "caption": "When an elephant stands over a body for hours, is she mourning? 🐘\nHere is what scientists actually observed in elephants, primates, crows and orcas, what people read into it, and what is still not established.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Animals, Episode 19.1\n#animals #elephants #science #nature #AI",
+      "done": {}
+    },
+    {
+      "id": "su-10.4-voynich",
+      "title": "The book nobody can read",
+      "file": "tv/stillunknown/stillunknown-ep4-voynich-vertical.mp4",
+      "caption": "Why can't anyone read this medieval book? 📖\nThe Voynich manuscript is carbon-dated to the early 1400s, yet no 'solved it' claim has convinced specialists. Here's what's established and what's still open.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Still Unknown, Episode 10.4\n#voynich #mystery #history #stillunknown #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "su-10.5-wow",
+      "title": "72 seconds from somewhere",
+      "file": "tv/stillunknown/stillunknown-ep5-wow-vertical.mp4",
+      "caption": "A radio telescope heard something for 72 seconds in 1977. Nobody has heard it since. 📡\nThe Wow! signal: what was measured, the comet idea and why it was disputed, and what is still open.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Still Unknown, Episode 10.5\n#wowsignal #space #mystery #stillunknown #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "hist-7.5-1816",
+      "title": "The year summer never came",
+      "file": "tv/history/history-ep5-1816-vertical.mp4",
+      "caption": "What if it snowed in June and the whole world felt it? ❄️\nIn 1816 a volcano in Indonesia helped cool the planet. Snow in New England, failed harvests in Europe, and a stormy summer at Lake Geneva that gave us Frankenstein. Here's what's established, and what's still debated.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · History, Episode 7.5\n#yearwithoutasummer #tambora #history #frankenstein #historytok #learnontiktok #AI",
+      "done": {}
+    },
+    {
+      "id": "oq-9.2-no-brain",
+      "title": "Can something learn without a brain?",
+      "file": "tv/openquestions/openquestions-ep2-no-brain-vertical.mp4",
+      "caption": "A slime mold has no brain. So why does it change what it does because of what happened before? 🧫\nLearning, defined only by behavior: published experiments on slime molds, plants and single cells, the pea result that failed a replication, and what scientists still argue about.\n\nFull episode + sources, free: heartbeatobservatory.com\nMade with AI by Heartbeat Observatory · Open Questions, Episode 9.2\n#science #slimemold #biology #learning #AI",
+      "done": {}
+    }
+  ],
+  "news_done": {
+    "2026-10-17": {
+      "tiktok": "2026-10-17T13:49:21Z",
+      "youtube": "2026-10-17T13:49:23Z",
+      "x": "2026-10-17T13:49:25Z",
+      "youtube_full": "2026-10-17T14:48:50Z",
+      "site": "2026-10-17 13:02"
+    },
+    "2026-10-19": {
+      "tiktok": "2026-10-19T12:18:11Z",
+      "youtube": "2026-10-19T12:18:16Z",
+      "x": "2026-10-19T12:18:22Z",
+      "site": "2026-10-19 08:15",
+      "youtube_full": "2026-10-19T12:28:06Z"
+    },
+    "2026-10-20": {
+      "tiktok": "2026-10-20T12:18:09Z",
+      "youtube": "2026-10-20T12:18:12Z",
+      "x": "2026-10-20T12:18:15Z",
+      "site": "2026-10-20 08:15",
+      "youtube_full": "2026-10-20T12:52:37Z"
+    },
+    "2026-10-21": {
+      "tiktok": "2026-10-21T12:18:07Z",
+      "youtube": "2026-10-21T12:18:11Z",
+      "x": "2026-10-21T12:18:15Z",
+      "site": "2026-10-21 08:15",
+      "youtube_full": "2026-10-21T12:18:42Z"
+    }
+  }
+}

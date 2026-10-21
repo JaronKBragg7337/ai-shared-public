@@ -1,0 +1,13 @@
+12 markets with a game in progress (started ≤ now, still open):
+  started 13:30Z  tsc-nfl-phi-jax-2026-10-11-total-43pt5           Will the total in PHI Eagles vs. JAC J 0.4550/0.4600
+  started 13:30Z  tsc-nfl-phi-jax-2026-10-11-total-42pt5           Will the total in PHI Eagles vs. JAC J 0.4800/0.4850
+  started 13:30Z  tsc-nfl-phi-jax-2026-10-11-total-41pt5           Will the total in PHI Eagles vs. JAC J 0.5150/0.5200
+  started 13:30Z  tsc-nfl-phi-jax-2026-10-11-total-38pt5           Will the total in PHI Eagles vs. JAC J 0.6350/0.6400
+  started 13:30Z  asc-nfl-phi-jax-2026-10-11-pos-7pt5              Will the Philadelphia Eagles cover 7.5 0.8800/0.8850
+  started 13:30Z  asc-nfl-phi-jax-2026-10-11-pos-6pt5              Will the Philadelphia Eagles cover 6.5 0.8200/0.8250
+  started 13:30Z  asc-nfl-phi-jax-2026-10-11-pos-14pt5             Will the Philadelphia Eagles cover 14. 0.9650/0.9700
+  started 13:30Z  asc-nfl-phi-jax-2026-10-11-pos-13pt5             Will the Philadelphia Eagles cover 13. 0.9500/0.9550
+  started 13:30Z  asc-nfl-phi-jax-2026-10-11-pos-10pt5             Will the Philadelphia Eagles cover 10. 0.9300/0.9350
+  started 13:30Z  aec-t20icr-india-wie-2026-10-11                  Who will win in the upcoming cricket e 0.6100/0.6400
+  started 13:30Z  aec-nfl-phi-jax-2026-10-11                       Who will win in the upcoming football  0.5450/0.5475
+  started 12:35Z  aec-atp-alefok-fratia-2026-10-11                 Who will win in the upcoming atp event 0.4300/0.4400

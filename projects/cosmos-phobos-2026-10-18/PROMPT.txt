@@ -1,0 +1,9 @@
+Job for The Cosmos, repo folder games/the-cosmos inside this repo (live at heartbeatobservatory.com/games/the-cosmos). Players are mostly on iPhones. On Oct 19-20, 2026 Japan launches its MMX probe to Mars' moon Phobos, so people will search "Phobos" - you can walk on Phobos in this game.
+
+Goal: reaching, landing on and walking on Phobos must look right and work on an iPhone.
+1. Run: node games/the-cosmos/test/phone-check.mjs (Playwright WebKit iPhone + Android, real taps; it starts its own local server). Fix every FAIL.
+2. In the game, go to Phobos. Check: it can be reached, landed on and walked on; Mars looks large in the sky; low gravity feels right; nothing floats, pops or clips; the player isn't stuck. Take screenshots (save under games/the-cosmos/docs/qa/phobos-2026-10-18/).
+3. Fix what you safely can. Real terrain and real scale only - nothing faked. Don't touch other games or pages.
+4. Re-run the phone check until it passes. Bump games/the-cosmos/build.json id if the game's own rules say to.
+5. git add only files under games/the-cosmos/ and commit with a clear message. Do NOT push (the runner pushes only if the phone check passes).
+Write a plain-English report to games/the-cosmos/docs/qa/phobos-2026-10-18/REPORT.md: what was wrong, what you fixed, what you could not fix, and which screenshots show it.

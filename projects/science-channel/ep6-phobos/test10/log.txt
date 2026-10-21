@@ -1,0 +1,17 @@
+00:01.532  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+C:\Users\lilli\AI-Shared\projects\science-channel\ep6-phobos\build.py:146: RuntimeWarning: invalid value encountered in power
+  bowl = np.where(x < 1, -dep * (1 - x * x) ** 1.1, 0.0)
+Phobos grv>0.3: 4414 stk>0.3: 6006
+phobos mesh 163842 verts 1.6s
+Deimos grv>0.3: 0 stk>0.3: 0
+C:\Users\lilli\AI-Shared\projects\science-channel\ep6-phobos\build.py:49: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True; nt = m.node_tree; nt.nodes.clear()
+C2 site: (0.04326757342707858, (-0.9448676705360413, 0.19712717831134796, 0.2614690065383911), 12.5, -3.1, 6.9)
+frames 9216
+00:33.688  render           | Saved: 'C:\Users\lilli\AI-Shared\projects\science-channel\ep6-phobos\test10\t_7801.png'
+STILL 7801 1.3s
+00:34.719  render           | Saved: 'C:\Users\lilli\AI-Shared\projects\science-channel\ep6-phobos\test10\t_8200.png'
+STILL 8200 1.0s
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

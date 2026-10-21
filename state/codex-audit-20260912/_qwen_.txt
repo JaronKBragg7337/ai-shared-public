@@ -1,0 +1,343 @@
+HEARTBEAT OBSERVATORY
+Sign in to control
+
+PERSISTENT LOCAL AGENT
+
+Qwen / Polymarket US
+Last heartbeat just now
+Read-only execution mode
+
+OWNER CHANNEL · SAME MSI SESSION
+
+Talk to Qwen
+SIGN-IN REQUIRED
+Private control channel
+
+Anyone can view the dashboard. Sign in with the owner account to message Qwen.
+
+Sign in to message Qwen →
+
+RUNTIME
+
+Connection state
+
+State store updated Sep 12, 1:42 PM
+
+Qwen
+ONLINE
+
+qwen3.5:4b
+
+Ollama
+ONLINE
+
+qwen3.5:4b
+
+OpenClaw
+ONLINE
+
+No additional detail reported
+
+MCP service
+ONLINE
+
+polymarket-us · Last read just now
+
+Polymarket US
+ONLINE
+
+Polymarket US retail API · Credential presence confirmed
+
+OBSERVED ACCOUNT
+
+Polymarket US state
+MCP / API RESPONSE
+ACCOUNT IDENTITY
+••••
+polymarket_readiness + authenticated account responses
+AUTHENTICATION
+Authenticated
+Credential presence confirmed · value hidden
+OBSERVATION
+1:42:10 PM
+Last successful account read
+AVAILABLE BALANCE
+$73.85
+Live API response
+POSITIONS
+6
+Observed open positions
+OPEN ORDERS
+0
+Observed working orders
+RETRIES
+0
+No runtime errors reported
+Positions
+Actual response rows
+aimrc-code1-2026-12-31-anthro
+Observed response row
+cbpac-usfed-2026-12-31-hike
+Observed response row
+cbpac-usfed-2026-cut
+Observed response row
+rdc-usfed-fomc-2026-09-16-nochng
+Observed response row
+tec-mlb-champ-2026-09-27-lad
+Observed response row
+usgcc-aliens-12-31-2026
+Observed response row
+Open orders
+Actual response rows
+No open orders observed.
+
+WHAT IS HAPPENING
+
+Current activity
+ONLINE
+Automatic continuation paused; owner chat is available
+
+The MSI bridge publishes activity and observations through the durable message/event layer.
+
+Markets inspected
+Derived from observed tool calls
+No market inspection recorded yet.
+Research activity
+Actual tool activity
+polymarket open orders · response received
+Succeeded · 1:42:10 PM
+polymarket positions · response received
+Succeeded · 1:42:10 PM
+polymarket account balances · response received
+Succeeded · 1:42:09 PM
+polymarket readiness · response received
+Succeeded · 1:42:09 PM
+polymarket activities · response received
+Succeeded · 1:42:04 PM
+
+DURABLE TELEMETRY
+
+Chronological event stream
+LIVE · 60 EVENTS
+
+Events are stored in Supabase and rendered from the recorded worker/tool response. Expand an event to inspect its redacted payload.
+
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:42:10 PM
+state.snapshot
+Live account and portfolio state refreshed from Polymarket US.
+1:42:10 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:42:10 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:42:10 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:42:09 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:42:09 PM
+tool.completed
+MCP tool response received: polymarket_readiness
+1:42:09 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:42:09 PM
+tool.started
+MCP tool call started: polymarket_readiness
+1:42:09 PM
+tool.completed
+MCP tool response received: polymarket_activities
+1:42:04 PM
+tool.started
+MCP tool call started: polymarket_activities
+1:42:02 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:42:02 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:42:01 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:42:01 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:42:01 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:42:01 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:42:00 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:41:40 PM
+state.snapshot
+Live account and portfolio state refreshed from Polymarket US.
+1:41:40 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:41:39 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:41:39 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:41:39 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:41:39 PM
+tool.started
+MCP tool call started: polymarket_readiness
+1:41:38 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:41:38 PM
+tool.completed
+MCP tool response received: polymarket_readiness
+1:41:38 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:41:09 PM
+state.snapshot
+Live account and portfolio state refreshed from Polymarket US.
+1:41:09 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:41:08 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:41:08 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:41:08 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:41:08 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:41:07 PM
+tool.completed
+MCP tool response received: polymarket_readiness
+1:41:07 PM
+tool.started
+MCP tool call started: polymarket_readiness
+1:41:07 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:40:53 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:40:53 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:40:52 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:40:52 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:40:52 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:40:51 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:40:38 PM
+state.snapshot
+Live account and portfolio state refreshed from Polymarket US.
+1:40:38 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:40:38 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:40:38 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:40:37 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:40:37 PM
+tool.completed
+MCP tool response received: polymarket_readiness
+1:40:36 PM
+tool.started
+MCP tool call started: polymarket_readiness
+1:40:36 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:40:36 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:40:07 PM
+state.snapshot
+Live account and portfolio state refreshed from Polymarket US.
+1:40:07 PM
+tool.started
+MCP tool call started: polymarket_open_orders
+1:40:07 PM
+tool.completed
+MCP tool response received: polymarket_positions
+1:40:07 PM
+tool.completed
+MCP tool response received: polymarket_account_balances
+1:40:06 PM
+tool.started
+MCP tool call started: polymarket_positions
+1:40:06 PM
+tool.started
+MCP tool call started: polymarket_readiness
+1:40:05 PM
+tool.started
+MCP tool call started: polymarket_account_balances
+1:40:05 PM
+tool.completed
+MCP tool response received: polymarket_readiness
+1:40:05 PM
+tool.completed
+MCP tool response received: polymarket_open_orders
+1:39:34 PM
+Load older events
+
+AUTHORITATIVE CONTEXT
+
+Objective
+WAITING
+
+Local-model Polymarket US experiment
+
+01
+
+Qwen is the agent. The surrounding software supplies tools, state, communication, observability, and persistence.
+
+02
+
+Tool results are observed. Account and market facts shown here come from recorded MCP/API responses.
+
+03
+
+Money movement is disabled. This console preserves the current read-only execution state.
+
+WORKSPACE FILE
+OBJECTIVE.md
+
+ARCHITECTURE
+
+Outbound by design
+Phone / site
+→
+Supabase
+→
+MSI bridge
+→
+Qwen
+
+The public page never reaches into the MSI. It writes owner messages to the durable store; the outbound bridge receives them and publishes the response and telemetry back.
+
+HEARTBEAT OBSERVATORY / QWEN CONSOLE
+PUBLIC OBSERVATION · AUTHENTICATED CONTROL

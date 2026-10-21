@@ -1,0 +1,8 @@
+# deepseek-chat - Q-B
+Time: 2026-10-15 07:52 | 4s
+
+Right now the energy budget costs Sapling almost nothing in money — about 0.06 kWh a day, pennies. Its real cost is behavioral. The budget is a wall-clock feel, not a hard limit, so "overspending" just means the rest and stop scores climb until resting wins. That happened: it ran 2.9x over, rested 21 times in a row, and shut itself down. So the cost is that a made-up number can end the day's activity, and "rest" currently buys nothing — it's pure waiting, no memory work, no consolidation, no recovery beyond letting the clock pass. The stop action is also one-way: only the owner can restart it.
+
+What it gives: a simple, predictable pressure that keeps the AI from grinding forever unattended, and a clean off-switch that produced a readable stop report. For a scientist-owner, that's useful — the overspend and the 21-rest streak are data about how the drives interact. It also keeps GPU time bounded enough that a human can notice problems.
+
+For it to start mattering, a few things would have to be true. Rest would need to do something — replay, prune, or consolidate memories, so resting is a real trade against practicing. The budget would need to reflect something real (actual compute cost, thermal limits, or a goal) rather than an arbitrary daily allowance. And the choice would need to be less trivially dominated: right now rest 0.98 vs stop 0.32 means the system mostly just idles into shutdown. If energy were scarce or expensive, if rest had a cost to skipping, or if stopping lost something irreplaceable, then the rest/stop decision would carry weight. Today it's cheap theater with a real off-switch attached.

@@ -1,0 +1,3 @@
+This is a lateral-thinking riddle. I'll look up the known version so the answer matches the intended setup.One coworker already knows the song. The other does not.
+
+The radio is playing an instrumental version, something like a MIDI file: notes only, no singer. That is why nobody is singing and why the radio is working exactly as it should. The coworker who has heard the vocal version before supplies the missing voice from memory. The brain fills the lyrics in so vividly that they sound like part of the track. The coworker who has never heard the words has nothing to fill in, so they hear only the instruments.

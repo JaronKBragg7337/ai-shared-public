@@ -1,0 +1,620 @@
+[
+ {
+  "title": "Stuck while walking to Shift runner",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "13:06",
+  "detail": "no progress for 56s at port -61,-41 (target -64,-41, 3 m away)",
+  "shot": "shots-iphone/106-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "12:19 [tour] not getting closer (3 m away), trying to get unstuck #3",
+   "12:19 [tour] run-up jump #3",
+   "12:21 [tour] jump",
+   "12:30 [tour] not getting closer (3 m away), trying to get unstuck #4",
+   "12:30 [tour] run-up jump #4",
+   "12:32 [tour] jump",
+   "12:41 [tour] not getting closer (3 m away), trying to get unstuck #5",
+   "12:41 [tour] sidestep around whatever is in the way",
+   "12:45 [tour] route of 3 legs",
+   "12:52 [tour] not getting closer (3 m away), trying to get unstuck #6",
+   "12:59 [tour] not getting closer (3 m away), trying to get unstuck #7",
+   "13:06 [tour] not getting closer (3 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to Lookout at the glass",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "14:22",
+  "detail": "no progress for 56s at port -59,-41 (target -56,-41, 4 m away)",
+  "shot": "shots-iphone/109-tour-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "13:34 [tour] not getting closer (4 m away), trying to get unstuck #3",
+   "13:34 [tour] run-up jump #3",
+   "13:37 [tour] jump",
+   "13:45 [tour] not getting closer (4 m away), trying to get unstuck #4",
+   "13:45 [tour] run-up jump #4",
+   "13:47 [tour] jump",
+   "13:56 [tour] not getting closer (4 m away), trying to get unstuck #5",
+   "13:56 [tour] sidestep around whatever is in the way",
+   "14:00 [tour] route of 3 legs",
+   "14:08 [tour] not getting closer (4 m away), trying to get unstuck #6",
+   "14:15 [tour] not getting closer (4 m away), trying to get unstuck #7",
+   "14:22 [tour] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to candidate Ada Chen 1",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "16:44",
+  "detail": "no progress for 56s at port -55,-34 (target -34,-66, 4 m away)",
+  "shot": "shots-iphone/117-hire-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "15:56 [hire] not getting closer (3 m away), trying to get unstuck #3",
+   "15:56 [hire] run-up jump #3",
+   "15:58 [hire] jump",
+   "16:06 [hire] not getting closer (3 m away), trying to get unstuck #4",
+   "16:06 [hire] run-up jump #4",
+   "16:09 [hire] jump",
+   "16:17 [hire] not getting closer (3 m away), trying to get unstuck #5",
+   "16:17 [hire] sidestep around whatever is in the way",
+   "16:21 [hire] route of 7 legs",
+   "16:30 [hire] not getting closer (4 m away), trying to get unstuck #6",
+   "16:37 [hire] not getting closer (4 m away), trying to get unstuck #7",
+   "16:44 [hire] not getting closer (4 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to candidate Zuri Okafor 1",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "18:07",
+  "detail": "no progress for 56s at port -55,-44 (target -32,-66, 11 m away)",
+  "shot": "shots-iphone/121-hire-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "17:20 [hire] not getting closer (7 m away), trying to get unstuck #3",
+   "17:20 [hire] run-up jump #3",
+   "17:22 [hire] jump",
+   "17:31 [hire] not getting closer (7 m away), trying to get unstuck #4",
+   "17:31 [hire] run-up jump #4",
+   "17:34 [hire] jump",
+   "17:42 [hire] not getting closer (7 m away), trying to get unstuck #5",
+   "17:42 [hire] sidestep around whatever is in the way",
+   "17:46 [hire] route of 4 legs",
+   "17:53 [hire] not getting closer (11 m away), trying to get unstuck #6",
+   "18:00 [hire] not getting closer (11 m away), trying to get unstuck #7",
+   "18:07 [hire] not getting closer (11 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "Stuck while walking to the ship ramp",
+  "sev": 80,
+  "kind": "stuck-walking",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "21:25",
+  "detail": "This is at the port perimeter kerb (a ~0.6 m high concrete wall ring at x = +/-103; walking steps up only 0.35 m, and a jump from a standstill against it goes straight up). no progress for 56s at port 102,-66 (target 214,-108, 8 m away)",
+  "shot": "shots-iphone/143-fly-PROBLEM-stuck-walking.jpg",
+  "steps": [
+   "20:27 [fly] not getting closer (8 m away), trying to get unstuck #3",
+   "20:27 [fly] run-up jump #3",
+   "20:29 [fly] jump",
+   "20:37 [fly] not getting closer (8 m away), trying to get unstuck #4",
+   "20:37 [fly] run-up jump #4",
+   "20:40 [fly] jump",
+   "20:48 [fly] not getting closer (8 m away), trying to get unstuck #5",
+   "20:48 [fly] sidestep around whatever is in the way",
+   "20:52 [fly] route of 21 legs",
+   "21:11 [fly] not getting closer (8 m away), trying to get unstuck #6",
+   "21:18 [fly] not getting closer (8 m away), trying to get unstuck #7",
+   "21:25 [fly] not getting closer (8 m away), trying to get unstuck #8"
+  ]
+ },
+ {
+  "title": "The Dig button never appeared on open ground",
+  "sev": 78,
+  "kind": "cannot-dig",
+  "count": 1,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "18:52",
+  "detail": "button text \"\", standing at {\"x\":-82.1,\"y\":0.1,\"z\":35}, looking down",
+  "shot": "shots-iphone/129-dig-PROBLEM-cannot-dig.jpg",
+  "steps": [
+   "18:43 [dig] tap #btn-action (action)",
+   "18:44 [dig] tap #btn-action (action)",
+   "18:44 [dig] mis-tap beside #btn-action",
+   "18:45 [dig] tap #btn-action (action)",
+   "18:46 [dig] no Dig button (button: \"\"); turning to find ground",
+   "18:47 [dig] tap #btn-action (action)",
+   "18:48 [dig] tap #btn-action (action)",
+   "18:48 [dig] tap #btn-action (action)",
+   "18:49 [dig] tap #btn-action (action)",
+   "18:49 [dig] mis-tap beside #btn-action",
+   "18:50 [dig] tap #btn-action (action)",
+   "18:51 [dig] tap #btn-action (action)"
+  ]
+ },
+ {
+  "title": "A Dig tap in the opening made no cut",
+  "sev": 66,
+  "kind": "dig-tap-lost",
+  "count": 6,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "06:43",
+  "detail": "cuts stayed 4 after tapping \"Dig (E)\"",
+  "shot": "shots-iphone/039-opening-PROBLEM-dig-tap-lost.jpg",
+  "steps": [
+   "06:14 [opening] walk to the cabin exit",
+   "06:16 [opening] tap #opening-action (opening action)",
+   "06:17 [opening] opening stage 3 -> 4 (Something lies beneath the collapsed dust.)",
+   "06:17 [opening] walk to the crate",
+   "06:18 [opening] tap #opening-action (opening action)",
+   "06:20 [opening] tap #opening-action (opening action)",
+   "06:21 [opening] tap #opening-action (opening action)",
+   "06:22 [opening] tap #opening-action (opening action)",
+   "06:23 [opening] REFRESH (mid-dig)",
+   "06:23 [opening] websocket closed (the bot refreshed the page)",
+   "06:24 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "06:41 [opening] tap #opening-action (opening action)"
+  ]
+ },
+ {
+  "title": "Buttons overlap: #btn-close-settings \"✕\" overlaps #set-cinema \"\" by 33%",
+  "sev": 66,
+  "kind": "overlap",
+  "count": 1,
+  "phase": "panels",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:38",
+  "detail": "#btn-close-settings \"✕\" overlaps #set-cinema \"\" by 33% (Settings scrolled, iphone)",
+  "shot": "shots-iphone/052-panels-PROBLEM-overlap.jpg",
+  "steps": [
+   "06:56 [opening] tap #opening-action (opening action)",
+   "06:56 [opening] tap #opening-action (opening action)",
+   "06:58 [opening] opening stage 4 -> 5 (A vehicle is approaching.)",
+   "06:58 [opening] walk to the rescue vehicle",
+   "07:06 [opening] tap #opening-action (opening action)",
+   "07:08 [opening] opening stage 5 -> 6 (DevPort crew. We saw you come down. Everybody saw you come down. It was loud.)",
+   "07:25 [opening] REFRESH (mid-ride)",
+   "07:25 [opening] websocket closed (the bot refreshed the page)",
+   "07:27 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "08:31 [opening] opening finished",
+   "08:36 [panels] === phase panels starts",
+   "08:36 [panels] tap #btn-settings (open Settings)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"opening\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 11,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:29",
+  "detail": "a single frame took 5062 ms (typical 16 ms); 5 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/008-opening-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:13 [start] websocket closed",
+   "00:14 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:29 [opening] === phase opening starts",
+   "00:29 [opening] opening stage -1 -> 0 (WalterForty-one trips on this line, son, and the coffee has never once improved.)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"hire\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 3,
+  "phase": "hire",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "15:24",
+  "detail": "a single frame took 6475 ms (typical 38 ms); 4 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/113-hire-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "14:22 [tour] back down the lift",
+   "14:22 [tour] walk to cab landing",
+   "14:48 [tour] walk to inside the lift (down)",
+   "14:50 [tour] tap #btn-action (action)",
+   "15:03 [tour] REFRESH (refresh after the port tour)",
+   "15:03 [tour] websocket closed (the bot refreshed the page)",
+   "15:04 [tour] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "15:23 [tour] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "15:23 [hire] === phase hire starts",
+   "15:23 [hire] candidates: Jorge(Navigator), Sunita(Gunner (dorsal)), Walter(Gunner (ventral)), Zuri Okafor 1(Captain), Ada Chen 1(Pilot), Aoi Patel 1(Communications officer)",
+   "15:23 [hire] walk to candidate Ada Chen 1",
+   "15:23 [hire] route of 8 legs"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"dig\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "dig",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "19:11",
+  "detail": "a single frame took 3597 ms (typical 16 ms); 2 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/135-dig-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "18:49 [dig] tap #btn-action (action)",
+   "18:49 [dig] mis-tap beside #btn-action",
+   "18:50 [dig] tap #btn-action (action)",
+   "18:51 [dig] tap #btn-action (action)",
+   "18:52 [dig] dug 24 bites; cart 0.0/1054 -> 0.0/1054",
+   "18:52 [dig] walk to the amber weigh bay",
+   "18:52 [dig] route of 2 legs",
+   "18:55 [dig] tap #quest-deliver (deliver the tonne)",
+   "18:57 [dig] delivery: marks 10000 -> 10000",
+   "18:57 [dig] REFRESH (refresh right after digging)",
+   "18:57 [dig] websocket closed (the bot refreshed the page)",
+   "18:59 [dig] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"fly\"",
+  "sev": 62,
+  "kind": "frame-spike",
+  "count": 1,
+  "phase": "fly",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "19:25",
+  "detail": "a single frame took 5530 ms (typical 40 ms); 6 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/138-fly-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "18:52 [dig] walk to the amber weigh bay",
+   "18:52 [dig] route of 2 legs",
+   "18:55 [dig] tap #quest-deliver (deliver the tonne)",
+   "18:57 [dig] delivery: marks 10000 -> 10000",
+   "18:57 [dig] REFRESH (refresh right after digging)",
+   "18:57 [dig] websocket closed (the bot refreshed the page)",
+   "18:59 [dig] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "19:20 [dig] refresh check: moved 0.0 m, marks 10000 -> 10000, aboard false -> false",
+   "19:20 [fly] === phase fly starts",
+   "19:20 [fly] ship type lifeboat; ship centre at port 214,-120; ramp foot 214,-108",
+   "19:20 [fly] walk to the ship ramp",
+   "19:22 [fly] route of 38 legs"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world is not rendered. The whole viewport is black or empty, with no Mars terrain, sky, ships, or peopl",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Entire screen, from the top to just above the bottom buttons (the vision model's description of the screen: An almost entirely black phone-sized screen with only a small dark 'Walk (Q)' button and an empty dark rounded square button at the bottom, and no visible 3D world, HUD, or other content.)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: No start/play button or any interactive control is visible, so the player has no way to begin the game from th",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Whole screen; the area below the tagline text is empty (the vision model's description of the screen: A nearly all-black mobile screen with a centered title 'THE COSMOS' and a small grey tagline reading 'Your ship. Your crew. Real worlds at their real size. Mars is only the first port.' There are no buttons, menus, or 3D scene visible.)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The start screen has no start/play button or any other interactive control, so the player has no visible way t",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Whole screen; the area below the tagline text is empty (the vision model's description of the screen: A nearly black mobile screen shows a centered title 'THE COSMOS' with a small grey tagline below it ('Your ship. Your crew. Real worlds at their real size. Mars is only the first port.'), and nothing else.)",
+  "shot": "shots-iphone/004-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The start screen has no visible start/play button or any other interactive control, so the player has no clear",
+  "sev": 56,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Whole screen; the area below the tagline text is empty (the vision model's description of the screen: A nearly black mobile screen shows the centered title \"THE COSMOS\" with a tagline below it: \"Your ship. Your crew. Real worlds at their real size. Mars is only the first port.\" There are no buttons, menus or 3D scene visible.)",
+  "shot": "shots-iphone/005-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Server connection (websocket) closed",
+  "sev": 50,
+  "kind": "ws-closed",
+  "count": 2,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "The live connection closed while playing: wss://cosmos.heartbeatobservatory.com/",
+  "shot": "shots-iphone/005-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The button on the bottom right is an empty dark rounded square with no label or icon, so its purpose is unclea",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Bottom right corner, around x=354, y=804 (the vision model's description of the screen: An almost entirely black phone-sized screen with only a small dark 'Walk (Q)' button and an empty dark rounded square button at the bottom, and no visible 3D world, HUD, or other content.)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: There is no loading indicator, title, or menu. The screen gives no sign of whether the game is still loading o",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Entire screen (the vision model's description of the screen: An almost entirely black phone-sized screen with only a small dark 'Walk (Q)' button and an empty dark rounded square button at the bottom, and no visible 3D world, HUD, or other content.)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world, stars, or Mars backdrop are absent; the screen is a flat black void behind the text, which could",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Entire background, above and below the centered text (the vision model's description of the screen: A nearly all-black mobile screen with a centered title 'THE COSMOS' and a small grey tagline reading 'Your ship. Your crew. Real worlds at their real size. Mars is only the first port.' There are no buttons, menus, or 3D scene visible.)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: No 3D world, ship, or background is rendered behind the title. The screen is a flat black void, which may mean",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Entire viewport, above and below the centered text (the vision model's description of the screen: A nearly black mobile screen shows a centered title 'THE COSMOS' with a small grey tagline below it ('Your ship. Your crew. Real worlds at their real size. Mars is only the first port.'), and nothing else.)",
+  "shot": "shots-iphone/004-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The screen is almost entirely black with no 3D world, starfield or background art, and no loading indicator or",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:13",
+  "detail": "Entire viewport outside the center text block (the vision model's description of the screen: A nearly black mobile screen shows the centered title \"THE COSMOS\" with a tagline below it: \"Your ship. Your crew. Real worlds at their real size. Mars is only the first port.\" There are no buttons, menus or 3D scene visible.)",
+  "shot": "shots-iphone/005-start-PROBLEM-ws-closed.jpg",
+  "steps": [
+   "00:13 [start] websocket closed"
+  ]
+ },
+ {
+  "title": "Looks wrong in the screenshot: The 3D world is not visible. The whole screen is black apart from the caption and button. This may be intentio",
+  "sev": 49,
+  "kind": "vision",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "05:57",
+  "detail": "Entire viewport, below the top caption row (the vision model's description of the screen: A nearly all-black mobile screen shows a small caption at the top left reading 'Impact. Hold on, the cabin is going dark.' and a 'Skip intro' button at the top right.)",
+  "shot": "shots-iphone/032-opening-opening.jpg",
+  "steps": [
+   "04:48 [opening] opening stage 1 -> 2 (You are aboard the Kestrel. Walk to a window if you like.)"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:11",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/sunita.glb (Load request cancelled)",
+  "shot": "shots-iphone/001-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:11",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/walter.glb (Load request cancelled)",
+  "shot": "shots-iphone/002-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:11",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/aoi.glb (Load request cancelled)",
+  "shot": "shots-iphone/003-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "A request failed to load",
+  "sev": 45,
+  "kind": "request-failed",
+  "count": 1,
+  "phase": "start",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "00:11",
+  "detail": "https://www.heartbeatobservatory.com/homes/people/ada.glb (Load request cancelled)",
+  "shot": "shots-iphone/004-start-PROBLEM-request-failed.jpg",
+  "steps": [
+   "00:01 [start] open https://www.heartbeatobservatory.com/games/the-cosmos/?qa=1&dev=1",
+   "00:02 [start] websocket open wss://cosmos.heartbeatobservatory.com/"
+  ]
+ },
+ {
+  "title": "Game said: \"Welcome to Mars. Follow the amber lights to the big Arrivals sign. If \"",
+  "sev": 42,
+  "kind": "refusal-message",
+  "count": 1,
+  "phase": "opening",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "03:53",
+  "detail": "shown in opening-caption while the bot was: 03:53 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)",
+  "shot": "shots-iphone/022-opening-PROBLEM-refusal-message.jpg",
+  "steps": [
+   "00:32 [opening] tap screen to unlock sound",
+   "00:55 [opening] walk to the boarding hall",
+   "00:56 [opening] walk to the boarding hall",
+   "00:56 [opening] walk to the boarding hall",
+   "01:01 [opening] walk to the boarding hall",
+   "01:02 [opening] in the boarding hall, waiting for the gangway to come down",
+   "01:13 [opening] websocket closed",
+   "01:15 [opening] websocket open wss://cosmos.heartbeatobservatory.com/",
+   "03:48 [opening] walk to down the gangway",
+   "03:49 [opening] walk to down the gangway",
+   "03:50 [opening] walk to down the gangway",
+   "03:53 [opening] opening stage 0 -> 1 (StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken touri)"
+  ]
+ },
+ {
+  "title": "Frame-time spike during \"tour\"",
+  "sev": 38,
+  "kind": "frame-spike",
+  "count": 2,
+  "phase": "tour",
+  "devices": [
+   "iphone"
+  ],
+  "firstAt": "08:58",
+  "detail": "a single frame took 1336 ms (typical 29 ms); 1 frames over 250 ms in that window. (Headless software rendering makes everything slower than a real phone, so judge by how far a spike sticks out.)",
+  "shot": "shots-iphone/059-tour-PROBLEM-frame-spike.jpg",
+  "steps": [
+   "08:40 [panels] tap #btn-close-settings (close Settings)",
+   "08:41 [panels] tap #purse (open Account / purse)",
+   "08:42 [panels] tap #account-panel .account-close (close Account / purse)",
+   "08:42 [panels] mis-tap beside #multiplayer-button",
+   "08:43 [panels] tap #multiplayer-button (open World / crew)",
+   "08:44 [panels] tap #multiplayer-panel button[aria-label*=lose] (close World / crew)",
+   "08:45 [panels] tap #btn-key-controls (open Controls)",
+   "08:46 [panels] tap #btn-key-controls (toggle closed Controls)",
+   "08:46 [tour] === phase tour starts",
+   "08:46 [tour] go talk to Arrival guide",
+   "08:46 [tour] walk to Arrival guide",
+   "08:46 [tour] route of 28 legs"
+  ]
+ }
+]

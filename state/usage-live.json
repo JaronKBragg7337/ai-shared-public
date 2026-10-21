@@ -1,0 +1,279 @@
+{
+ "read_at": "2026-10-21T19:03:58.750024+00:00",
+ "codex": {
+  "read_from": "rollout-2026-10-21T03-00-11-01a15d42-a2f1-71e2-8d6a-e351e1b3c7df.jsonl",
+  "as_of": "2026-10-21T07:07:04.775Z",
+  "five_hour_used_pct": 4.0,
+  "five_hour_resets_at": "2026-10-21T12:00:32+00:00",
+  "weekly_used_pct": 3.0,
+  "weekly_resets_at": "2026-10-27T07:04:52+00:00",
+  "credits": {
+   "has_credits": false,
+   "unlimited": false,
+   "balance": "0"
+  }
+ },
+ "codex_segments": [
+  {
+   "session": "rollout-2026-10-20T07-29-42-01a15913-066b-78a3-8393-0389f0144172.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T11:29:44.262Z",
+     "end": "2026-10-20T11:30:35.956Z",
+     "five_hour_pct": [
+      9.0,
+      9.0
+     ],
+     "weekly_pct": [
+      1.0,
+      1.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T16-54-17-01a15b17-edaf-7270-86d1-2ca2463e0539.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T20:54:21.528Z",
+     "end": "2026-10-20T20:54:52.192Z",
+     "five_hour_pct": [
+      0.0,
+      0.0
+     ],
+     "weekly_pct": [
+      1.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T16-54-17-01a15b17-edaf-71a2-9881-4796e433ec08.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T20:54:21.531Z",
+     "end": "2026-10-20T20:55:16.018Z",
+     "five_hour_pct": [
+      0.0,
+      1.0
+     ],
+     "weekly_pct": [
+      1.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 1.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T16-56-34-01a15b1a-03ff-74b2-b210-abaaef371270.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T20:56:36.858Z",
+     "end": "2026-10-20T20:57:36.833Z",
+     "five_hour_pct": [
+      1.0,
+      1.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T16-56-34-01a15b1a-049d-7f01-891f-e0686f4ec00f.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T20:56:37.269Z",
+     "end": "2026-10-20T20:57:38.302Z",
+     "five_hour_pct": [
+      1.0,
+      1.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T17-10-02-01a15b26-587c-7c30-9863-3696a6ca5835.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T21:10:05.118Z",
+     "end": "2026-10-20T21:10:53.567Z",
+     "five_hour_pct": [
+      1.0,
+      2.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 1.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T17-14-43-01a15b2a-a1ec-7a43-a51f-6fa6731bef2e.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T21:14:47.009Z",
+     "end": "2026-10-20T21:15:33.668Z",
+     "five_hour_pct": [
+      2.0,
+      2.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T17-20-54-01a15b30-4bcb-7721-9974-21aa3de733ab.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T21:21:01.823Z",
+     "end": "2026-10-20T21:22:08.618Z",
+     "five_hour_pct": [
+      2.0,
+      2.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 0.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-20T17-22-43-01a15b31-f70b-7b01-9f67-5363ca686d9e.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-20T21:22:51.834Z",
+     "end": "2026-10-20T21:24:00.494Z",
+     "five_hour_pct": [
+      2.0,
+      3.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 1.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-21T03-00-11-01a15d42-a2f1-7fb3-aacd-79cc7dc36d96.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-21T07:00:25.929Z",
+     "end": "2026-10-21T07:01:13.445Z",
+     "five_hour_pct": [
+      0.0,
+      1.0
+     ],
+     "weekly_pct": [
+      2.0,
+      2.0
+     ],
+     "five_hour_spent_pts": 1.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-21T03-00-11-01a15d42-a2f1-7331-8a92-22d37fb3f05e.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-21T07:00:26.854Z",
+     "end": "2026-10-21T07:11:41.151Z",
+     "five_hour_pct": [
+      0.0,
+      6.0
+     ],
+     "weekly_pct": [
+      2.0,
+      3.0
+     ],
+     "five_hour_spent_pts": 6.0
+    }
+   ],
+   "switched": false
+  },
+  {
+   "session": "rollout-2026-10-21T03-00-11-01a15d42-a2f1-71e2-8d6a-e351e1b3c7df.jsonl",
+   "segments": [
+    {
+     "model": "gpt-6-luna",
+     "start": "2026-10-21T07:00:26.854Z",
+     "end": "2026-10-21T07:07:04.775Z",
+     "five_hour_pct": [
+      0.0,
+      4.0
+     ],
+     "weekly_pct": [
+      2.0,
+      3.0
+     ],
+     "five_hour_spent_pts": 4.0
+    }
+   ],
+   "switched": false
+  }
+ ],
+ "claude": {
+  "note": "Claude's window % is server-side; these are tokens measured from local logs across Chat/Cowork/Code sessions on this machine, and the % is an ESTIMATE calibrated from Jaron's screenshots (state/usage-snapshots.md).",
+  "as_of": "2026-10-21T18:26:58.925000+00:00",
+  "five_hour": {
+   "turns": 37,
+   "work_tokens": 2629064,
+   "output_tokens": 25140,
+   "est_used_pct": 73.0
+  },
+  "week": {
+   "turns": 4121,
+   "work_tokens": 52892397,
+   "output_tokens": 2504298,
+   "est_used_pct": 60.8
+  }
+ },
+ "not_visible": [
+  "grok-bot",
+  "grok-app",
+  "chatgpt-phone"
+ ]
+}
