@@ -1,0 +1,5 @@
+# 2026-10-29 — Sapling status (Terra)
+
+- Built tools/sapling_status.py, state/sapling-status.md and JSON, and an admin-only Supabase table sapling_status; the live /admin/sapling/ Status card reads it. Hidden Windows task Sapling Status runs 8 AM and 8 PM; manual task run returned 0. Live card checked at 375px; anon table query returned no rows.
+- Ledger supplies dated full tick data; name-thread 9/12 is staged, E7L 14/40 and E5 1/7 are gen 1410. GPU spend estimates logged time within the day, excluding unpriced runs and limited by rounded timestamps. Initial training-day buzz said $6.23, including yesterday's portion; corrected status is $2.66. No second buzz, per once daily rule.
+- Existing live page header says heartbeat process is down while status observed the heartbeat process alive; relay endpoint timed out and relay log shows TLS errors. Investigate relay separately. Future scheduled runs and quiet-day/change-day notification behavior have not yet been observed at their actual scheduled times.

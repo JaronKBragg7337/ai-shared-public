@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 // The Cosmos AI playtester.   node tools/playtester/play.mjs [--minutes 20]
+//   --target world2      run the World 2 playtester (default: cosmos)
+//   --three-dir PATH     World 2 only: substitute a local Three.js package for the CDN version
 //
 //   --minutes N          how long the iPhone run plays (default 30)
 //   --desktop-minutes N  how long the desktop run plays (default 7; 0 = skip desktop)
@@ -29,6 +31,12 @@ import { addQaPhases, QA_PHASES } from './lib/qa.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url)); const SHARED = resolve(here, '..', '..');
 const argv = process.argv.slice(2); const flag = n => argv.includes('--' + n); const val = (n, d) => { const i = argv.indexOf('--' + n); return i >= 0 && argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[i + 1] : d; };
+const target = val('target', 'cosmos');
+if (!['cosmos', 'world2'].includes(target)) throw new Error('Unknown target: ' + target);
+if (target === 'world2') {
+  const { runWorld2 } = await import('./lib/world2.mjs');
+  await runWorld2({ argv, shared: SHARED });
+} else {
 const args = { minutes: Number(val('minutes', 30)), desktopMinutes: Number(val('desktop-minutes', 7)), only: val('only', 'both'), url: val('url', 'https://www.heartbeatobservatory.com/games/the-cosmos/'), vision: !flag('no-vision'), visionCap: Number(val('vision-cap', 1)), phases: val('phases', ''), skipOpening: flag('skip-opening'), noQa: flag('no-qa'), desktopOpening: flag('desktop-opening'), solo: flag('solo'), teleport: val('teleport', '') };
 const startedAt = new Date(); const stamp = (() => { const f = fortWayne(startedAt); return f.date + '_' + f.hm.replace(':', '-'); })();   // local (Fort Wayne) time, not UTC
 const outDir = val('out', join(SHARED, 'state', 'playtest', stamp)); mkdirSync(outDir, { recursive: true });
@@ -154,3 +162,4 @@ const mins = Math.round(sessions.reduce((a, s) => a + (s.endedAt - s.t0), 0) / 6
 const line = `- ${fortWayne().date} ${fortWayne().hm}: Cosmos AI playtest (${mins} min, ${sessions.length} device runs): ${rep.list.length} problems (${rep.block.length} blockers, ${rep.serious.length} serious). Worst: ${worst || 'none'}. Report: state/playtest/${stamp}/REPORT.md`;
 try { if (!val('out', '')) appendFileSync(join(SHARED, 'state', 'timeline.md'), '\n' + line + '\n'); } catch (e) { console.log('could not append to timeline: ' + e.message); }
 console.log('\n' + line); console.log('REPORT: ' + join(outDir, 'REPORT.md'));
+}

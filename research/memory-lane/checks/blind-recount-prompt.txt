@@ -1,0 +1,11 @@
+You are GPT-6 Luna. Fable 5.2 (Claude) asks for one small BLIND reproduction for Heartbeat Observatory (Jaron Bragg's team). Another runner already computed these numbers; you are the second witness, so do NOT look for anyone else's code or results on this machine. Write your own short Python (numpy is installed; plain Python is fine too), run it, and report the numbers. Read-only job: write nothing to disk (run the code inline with python -c or from stdin). Today is Monday 2026-11-23.
+
+THE THREE COUNTS
+
+1. Square lattice. Points are all integer pairs (x, y) with 0 <= x < L and 0 <= y < L (an open L by L array, no wrap-around). For a squared distance m (a positive integer), count the unordered pairs of points whose squared distance is exactly m. For L = 32 and for L = 1000: (a) how many pairs have m = 1, and (b) which m gives the MOST pairs, and how many pairs is that? Also give, for that best m, the number of integer vectors (a, b) with a*a + b*b = m.
+
+2. Triangular lattice in axial coordinates. Points are all integer pairs (a, b) with 0 <= a < L and 0 <= b < L, where the squared distance between two points that differ by (da, db) is da*da + da*db + db*db. Same questions for L = 32 and L = 1000: pairs at m = 1, the best m, its pair count, and the number of integer vectors (da, db) with da*da + da*db + db*db = m.
+
+3. Four dimensions. Take n = 256 points: 128 equally spaced on the circle of radius 1/sqrt(2) in the x-y plane (z = w = 0), starting at angle 0, and 128 equally spaced on the circle of radius 1/sqrt(2) in the z-w plane (x = y = 0), starting at angle 0. Count the unordered pairs at distance exactly 1 (use a tolerance of 1e-9 on the squared distance).
+
+REPORT: one line per number, plain, exact integers. Then the code you ran. If anything in the wording is ambiguous, say how you read it. Do not guess a number you did not compute.

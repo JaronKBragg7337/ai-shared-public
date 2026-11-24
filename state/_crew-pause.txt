@@ -1,0 +1,6 @@
+=== TO DARIOS TWIN ===
+Darios - from Jaron, relayed by Grok Build for Claude Code: PAUSE. The crypto lane is stopped (it hit its -$35 limit overnight). Make no crypto calls and no trades until Jaron restarts it. If your routine runs, just log "paused" and end the run.
+=== TO SATYA TWIN ===
+Satya - from Jaron, relayed by Grok Build for Claude Code: PAUSE. The crypto lane is stopped (it hit its -$35 limit overnight). Make no crypto calls and no trades until Jaron restarts it. If your routine runs, just log "paused" and end the run.
+=== TO JARONS TWIN ===
+Jarons Twin - from Jaron, relayed by Grok Build for Claude Code: PAUSE. The crypto lane is stopped (it hit its -$35 limit overnight). Make no calls until Jaron restarts it. If your routine or a webhook wakes you, just log "paused" and end the run. Skip the morning recap; Claude Code will do it.

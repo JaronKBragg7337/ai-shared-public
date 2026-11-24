@@ -1,0 +1,59 @@
+Square lattice, L=32: m=1 pairs = 1984  
+Square lattice, L=32: best m = 65; pairs = 5776; integer vectors = 16  
+Square lattice, L=1000: m=1 pairs = 1998000  
+Square lattice, L=1000: best m = 160225; pairs = 25992416; integer vectors = 96  
+
+Triangular lattice, L=32: m=1 pairs = 2945  
+Triangular lattice, L=32: best m = 91; pairs = 7432; integer vectors = 16  
+Triangular lattice, L=1000: m=1 pairs = 2996001  
+Triangular lattice, L=1000: best m = 53599; pairs = 32919176; integer vectors = 32  
+
+Four dimensions: distance-1 pairs = 16640
+
+I read “best” as the squared distance with the largest unordered-pair count. For a tie, the code selects the smaller squared distance.
+
+```python
+import math
+
+def lattice(L, tri=False):
+    counts = {}
+    for da in range(-(L - 1), L):
+        for db in range(-(L - 1), L):
+            if da == 0 and db == 0:
+                continue
+            m = da*da + da*db + db*db if tri else da*da + db*db
+            ways = (L - abs(da)) * (L - abs(db))
+            counts[m] = counts.get(m, 0) + ways
+
+    # Each unordered pair is counted for both displacement signs.
+    counts = {m: c // 2 for m, c in counts.items()}
+    best = max(counts, key=lambda m: (counts[m], -m))
+    bound = math.isqrt(best) + 1
+    vectors = sum(
+        1
+        for da in range(-bound, bound + 1)
+        for db in range(-bound, bound + 1)
+        if (da or db)
+        and (da*da + da*db + db*db if tri else da*da + db*db) == best
+    )
+    return counts[1], best, counts[best], vectors
+
+for name, tri in [("square", False), ("triangular", True)]:
+    for L in (32, 1000):
+        print(name, L, *lattice(L, tri))
+
+pts = []
+for plane in (0, 1):
+    for i in range(128):
+        t = 2 * math.pi * i / 128
+        c, s = math.cos(t) / math.sqrt(2), math.sin(t) / math.sqrt(2)
+        pts.append((c, s, 0.0, 0.0) if plane == 0 else (0.0, 0.0, c, s))
+
+pairs = 0
+for i, p in enumerate(pts):
+    for q in pts[i + 1:]:
+        d2 = sum((x - y) ** 2 for x, y in zip(p, q))
+        if abs(d2 - 1.0) <= 1e-9:
+            pairs += 1
+print("four_dimensional_distance_1_pairs", pairs)
+```

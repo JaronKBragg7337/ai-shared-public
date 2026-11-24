@@ -1,0 +1,3 @@
+Possible: the song is in stereo with the lead vocals centered in the mix, and the truck’s speakers are wired **out of phase** (or one coworker is sitting in a phase-cancellation “null”).
+
+At one seat, the left and right versions of the centered vocal track cancel out, leaving only the panned instruments — so it sounds like an instrumental. The other seat doesn’t get that cancellation, so the song sounds normal with lyrics. This is the same principle behind old “vocal remover” karaoke tricks.

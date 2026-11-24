@@ -1,0 +1,86 @@
+{
+  "updated": "2026-11-23T19:00:01-05:00",
+  "state": "asleep",
+  "last_action": "stop",
+  "generation": 1688,
+  "ticks_today": 5273,
+  "practice": {
+    "ok": 7734,
+    "total": 7770
+  },
+  "folds_today": 4,
+  "new_facts_today": 0,
+  "loss": [
+    {
+      "generation": 1687,
+      "first": 0.8225,
+      "last": 1.5253
+    },
+    {
+      "generation": 1688,
+      "first": 1.3425,
+      "last": 1.2808
+    }
+  ],
+  "exams": {
+    "E1": {
+      "score": "85/86",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "E2": {
+      "score": "18/24",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "E5": {
+      "score": "7/7",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "E6": {
+      "score": "47/48",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "E7": {
+      "score": "37/40",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "E7L": {
+      "score": "17/40",
+      "date": "2026-11-23T06:38:56",
+      "generation": 1688
+    },
+    "name-thread": {
+      "score": "9/12",
+      "date": "2026-10-29T02:33:30",
+      "generation": 1398,
+      "label": "after balanced conversation - staged"
+    }
+  },
+  "said": [
+    "there was a little girl named ella . ella was at the school workshop during one windy morning , and she was making a model windmill . ella arranged cardboard and pins in front of her and imagined",
+    "was very excited . he wanted to learn how to play with a ball . he looked at the blue ball in the grass . at first , he hoped to play with a good book . then he noticed",
+    "swim ."
+  ],
+  "gpu_spend_estimate": 0.0,
+  "gpu_cost_note": "estimate from logged start and stop times and hourly rates; rounded times and unpriced runs can change the bill",
+  "last_learned": "2026-11-23T06:38-05:00",
+  "last_chat": "2026-11-19T23:15-05:00",
+  "taken_in_today": 695,
+  "stops_today": [
+    {
+      "at": "11:22",
+      "by": "self",
+      "why": "chose stop: {\"practice\": 0.05, \"consolidate\": 0.0, \"explore\": 0.225, \"rest\": 0.98, \"stop\": 0.3}"
+    },
+    {
+      "at": "04:00",
+      "by": "owner",
+      "why": "stop file written by the owner"
+    }
+  ],
+  "training_day": false
+}

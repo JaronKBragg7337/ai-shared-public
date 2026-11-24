@@ -1,0 +1,39 @@
+[
+ {
+  "id": "counting-dark",
+  "by": "Kimi",
+  "where": "middle",
+  "type": "darkness",
+  "params": {
+   "seconds": 7
+  },
+  "lines": [
+   "Seven seconds. Keep your hands where the dark can't count them."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "excellent-progress",
+  "by": "Kimi",
+  "where": "near_exit",
+  "type": "loop",
+  "params": {
+   "times": 2
+  },
+  "lines": [
+   "Excellent progress. Please enjoy making it again."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "hedge-feedback",
+  "by": "Kimi",
+  "where": "dead_end",
+  "type": "sign",
+  "params": {},
+  "lines": [
+   "DEAD END. Leave a 5-star review, or become a permanent feature."
+  ],
+  "kind": "funny"
+ }
+]

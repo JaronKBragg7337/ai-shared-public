@@ -1,0 +1,14 @@
+import json
+S = [
+('s1', "A viewer wondered what railroads would look like if America had kept building. Many people assume we stopped. Rail used to be the way to move, so everyone talked about it. Now there are so many ways to get around that rail just got quieter in the conversation. It never stopped. The noise around everything else got louder. So if you thought America stopped building railroads, you are not alone. Here is what actually happened."),
+('s2', "In nineteen sixteen, America's rail network peaked at about two hundred fifty four thousand miles. Today the freight network is nearly one hundred thirty five thousand miles. The two counts use different definitions, so treat the comparison as rough."),
+('s3', "Why did lines go quiet? In nineteen fifty six, Congress authorized a forty one thousand mile Interstate highway system. Intercity passenger routes fell from about one hundred seven thousand miles in nineteen fifty eight to forty nine thousand in nineteen seventy. Amtrak took over the rest in nineteen seventy one."),
+('s4', "Rules mattered too. The Staggers Act of nineteen eighty let railroads set prices by contract and drop routes that lost money. The industry says inflation adjusted rail rates were forty six percent lower in twenty twenty five than in nineteen eighty one."),
+('s5', "What survived is freight. Railroads still carry about forty percent of America's long distance freight, in ton miles."),
+('s6', "And building has not stopped. Freight railroads invest about twenty five billion dollars a year in their networks. Brightline opened Miami to Orlando service in September twenty twenty three. Brightline West, Las Vegas to Southern California, is under construction, and the company now says late twenty twenty nine. In California, the high speed rail authority reports sixty six structures finished along the first one hundred nineteen miles, with no service date confirmed."),
+('s7', "Other countries kept building, mostly for passengers. Japan opened the first Shinkansen in October nineteen sixty four, and its transport ministry says no passenger has died in a train accident on it. China passed fifty thousand kilometers of high speed rail at the end of twenty twenty five, according to China Railway."),
+('s8', "So, what if America had kept building? We do not know. More track might have carried more people and freight. It might also have sat empty beside highways that were already built. Japan and China have different geography and costs, so their results may not carry over. The real question is not whether America builds rail. It is what kind: freight still strong, passenger far smaller, and whether fast passenger lines come back."),
+('s9', "Sources are on screen. Made with AI by Heartbeat Observatory."),
+]
+json.dump([{'id': i, 'text': t} for i, t in S], open('script.json', 'w'), indent=1)
+print(sum(len(t.split()) for _, t in S))

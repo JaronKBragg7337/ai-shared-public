@@ -17,7 +17,7 @@ import executor as X  # noqa: E402
 import sys as _sys, os as _os
 _sys.path.insert(0, _os.path.dirname(_os.path.realpath(__file__)))
 from settings import setting  # Control Room values (/admin/control/), built-in default if unreachable
-STOP_AT_USD = setting("deepseek_breaker_usd", 10.0)      # Jaron's call; = one day of DeepSeek's budget
+STOP_AT_USD = setting("deepseek_breaker_usd", 10.0)      # Control Room setting; = one day of DeepSeek's budget
 LOOKBACK_DAYS = 7
 TASKS = ["Trade Proposer", "Trade Verifier", "Trade Executor"]
 FLAG = os.path.join(ROOT, "state", "deepseek-breaker.md")

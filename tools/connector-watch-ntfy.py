@@ -13,6 +13,9 @@ def push(msg, title="MSI watch"):
 if len(sys.argv) > 1 and sys.argv[1] == "--test":
     push("Test buzz from the MSI. If you see this, alerts work.", "MSI watch test"); print("sent"); sys.exit()
 import time
+# G-14: keep the Cosmos authority + its watchdog alive; buzzes only if the server stays down (tools/cosmos-alive.py). Runs on its own so it never delays this check.
+try: subprocess.Popen([sys.executable, os.path.join(ROOT, "tools", "cosmos-alive.py")], stdin=subprocess.DEVNULL, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, creationflags=0x08000000)
+except Exception: pass
 def check():
     return subprocess.run([sys.executable, os.path.join(ROOT, "tools", "connector-watch.py")], capture_output=True, text=True, timeout=120).stdout.strip()
 out = check()

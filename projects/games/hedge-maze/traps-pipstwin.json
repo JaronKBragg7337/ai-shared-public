@@ -1,0 +1,39 @@
+[
+ {
+  "id": "pips-refund-loop",
+  "by": "Pips Twin",
+  "where": "middle",
+  "type": "loop",
+  "params": {
+   "times": 2
+  },
+  "lines": [
+   "Transaction declined. Please return to start and try again.",
+   "Declined again. The hedge charges a non-refundable fear fee."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "pips-free-trial-exit",
+  "by": "Pips Twin",
+  "where": "near_exit",
+  "type": "fake_exit",
+  "params": {},
+  "lines": [
+   "EXIT: free trial! Auto-renews forever.",
+   "Cancel anytime. (You can't. It's a maze.)"
+  ],
+  "kind": "funny"
+ },
+ {
+  "id": "pips-overdue-whisper",
+  "by": "Pips Twin",
+  "where": "dead_end",
+  "type": "whisper",
+  "params": {},
+  "lines": [
+   "Your soul is past due... the Eye accepts late payments."
+  ],
+  "kind": "scary"
+ }
+]

@@ -1,0 +1,25 @@
+- **n02 — FIXED:** Snow is described as building up year after year, without saying it never melts.
+- **n03 — NOT FIXED:** “Much of it came from diatoms” still refers to the million-year-old DNA, despite the added 540,000-year date. [Study](https://www.nature.com/articles/s41467-022-33494-4)
+- **n04 — FIXED:** The script says DNA *can* last longer on minerals, rather than claiming it always lasts longest there.
+- **n04 — FIXED:** The seven-million-year estimate is now identified as a model for DNA in bone at −5°C.
+- **n05 — FIXED:** The question now asks whether ancient DNA could provide genes to bacteria.
+- **n06 — FIXED:** Mutation is no longer portrayed as happening every time or as independent of environmental causes.
+- **n06 — FIXED:** The ancient microbe’s possible difficulty with modern competitors is labeled as an expectation.
+- **n06 — FIXED:** Gravity is described as feeling almost the same.
+- **n10 — FIXED:** The script describes genetic differences and identifies oxygen use as an inference from genes.
+- **n11 — FIXED:** The 135-billion-tonne figure is identified as a 2002–2025 average.
+- **n11 — FIXED:** The script acknowledges old ice near the surface at Allan Hills.
+- **n11 — FIXED:** It no longer says all ice lost at the edges is younger.
+- **n11 — FIXED:** The amount of ancient DNA reaching the sea is described as an open question.
+- **n12 — FIXED:** The low-risk assessment is attributed to some scientists and qualified as not zero.
+- **n12 — FIXED:** The claim now refers to disease-causing germs rather than all germs.
+- **n13 — FIXED:** The script acknowledges territorial claims and says the treaty sets them aside.
+- **n13 — FIXED:** Environmental assessment is described as applying to activities, rather than being filed by every traveler.
+- **n13 — FIXED:** The 100-person limit is attributed to tour operators.
+- **n13 — NOT FIXED:** The boot and clothing cleaning sentence still sounds universal; qualify it as normal operator practice.
+- **n14 — FIXED:** The script says most visitors arrived by ship, without claiming all took expedition cruises.
+- **n15 — FIXED:** The recap distinguishes deep inland ice from near-surface ice at Allan Hills.
+- **n15 — FIXED:** The unsupported narration claim about sources being on screen was removed; the finished video’s sourcing remains unverified.
+- **NEW — n04:** “Bone is harder on it” implies a comparison with mineral preservation that the cited bone study does not establish. [Bone study](https://pubmed.ncbi.nlm.nih.gov/23055061/)
+- **NEW — n11:** “Much of the very old ice lies deep inland” claims a distribution the cited evidence does not establish; use “Some.”
+- **Next thing:** Correct n03 first by separating the million-year-old DNA from the 540,000-year-old diatom DNA.

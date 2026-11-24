@@ -45,6 +45,41 @@ Log lines = routine passes + trades written that day; usage = Jaron's reading of
 | Sat 10-17 | 8 | 16 | $68.10 | 8 | +$7.68 |  |
 | Sun 10-18 | 13 | 0 | $0.00 | 1 | +$2.69 |  |
 | Mon 10-19 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Tue 10-20 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Wed 10-21 | 10 | 1 | $1.00 | 1 | +$0.00 |  |
+| Thu 10-22 | 4 | 8 | $31.33 | 0 | -$1.00 |  |
+| Fri 10-23 | 4 | 0 | $0.00 | 0 | -$9.30 |  |
+| Sat 10-24 | 4 | 18 | $96.15 | 5 | +$3.10 |  |
+| Sun 10-25 | 1 | 0 | $0.00 | 0 | +$1.85 |  |
+| Mon 10-26 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Tue 10-27 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Wed 10-28 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Thu 10-29 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Fri 10-30 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sat 10-31 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sun 11-01 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Mon 11-02 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Tue 11-03 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Wed 11-04 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Thu 11-05 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Fri 11-06 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sat 11-07 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sun 11-08 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Mon 11-09 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Tue 11-10 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Wed 11-11 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Thu 11-12 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Fri 11-13 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sat 11-14 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sun 11-15 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Mon 11-16 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Tue 11-17 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Wed 11-18 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Thu 11-19 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Fri 11-20 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sat 11-21 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Sun 11-22 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
+| Mon 11-23 | 0 | 0 | $0.00 | 0 | +$0.00 |  |
 
 | week of (Mon) | settled profit | active days / days | profit per active day |
 |---|---|---|---|
@@ -54,21 +89,27 @@ Log lines = routine passes + trades written that day; usage = Jaron's reading of
 | 09-28 | +$18.35 | 7 / 7 | +$2.62 |
 | 10-05 | -$53.92 | 3 / 7 | -$17.97 |
 | 10-12 | +$4.91 | 4 / 7 | +$1.23 |
-| 10-19 | +$0.00 | 0 / 1 | - |
+| 10-19 | -$5.35 | 5 / 7 | -$1.07 |
+| 10-26 | +$0.00 | 0 / 7 | - |
+| 11-02 | +$0.00 | 0 / 7 | - |
+| 11-09 | +$0.00 | 0 / 7 | - |
+| 11-16 | +$0.00 | 0 / 7 | - |
+| 11-23 | +$0.00 | 0 / 1 | - |
 
 | month | settled profit | active days / days | profit per active day |
 |---|---|---|---|
 | 2026-09 | +$244.82 | 19 / 20 | +$12.89 |
-| 2026-10 | -$27.30 | 11 / 19 | -$2.48 |
+| 2026-10 | -$32.65 | 16 / 31 | -$2.04 |
+| 2026-11 | +$0.00 | 0 / 23 | - |
 
 | system | settled profit | fills | settled trades | days it traded | profit per trading day |
 |---|---|---|---|---|---|
 | Live Wire (v1, until 9/25 22:58Z) | +$44.25 | 45 | 15 | 10 | +$4.42 |
-| Darios Twin (since 9/25 22:58Z) | +$173.27 | 568 | 138 | 16 | +$10.83 |
+| Darios Twin (since 9/25 22:58Z) | +$167.91 | 595 | 144 | 19 | +$8.84 |
 
 | Darios Twin by sport | settled trades | won | profit |
 |---|---|---|---|
-| cfb | 46 | 42 | +$117.20 |
+| cfb | 52 | 49 | +$111.85 |
 | nfl | 13 | 12 | +$69.76 |
 | odicr | 2 | 2 | +$23.51 |
 | mlb | 8 | 5 | +$14.75 |
@@ -89,6 +130,6 @@ Log lines = routine passes + trades written that day; usage = Jaron's reading of
 | wnba | 5 | 3 | -$12.50 |
 | tennis | 39 | 17 | -$44.17 |
 
-All time since 2026-09-11: realized + settlement P&L +$217.52 over 30 active days (+$7.25 per active day).
-Money: profit +$217.52; open value $0.00; cash $68.80 (shared account snapshot 2026-10-19T11:12:02.724285+00:00).
+All time since 2026-09-11: realized + settlement P&L +$212.16 over 35 active days (+$6.06 per active day).
+Money: profit +$212.16; open value $0.00; cash $0.09 (shared account snapshot 2026-11-21T23:27:02.076305+00:00).
 Open value and cash are whole-account figures; profit above is actor-filtered to auto:grok-bot/live-wire.

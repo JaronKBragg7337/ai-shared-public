@@ -1,0 +1,11 @@
+Hi! This is a side-by-side test for Jaron, so he can see what the new kimi can do. The same prompt also went to Claude Opus 5.5, Fable 5.1 and Fable 5.2, so please do the whole thing in one go, your best work.
+
+Build ONE self-contained file: C:\Users\lilli\AI-Shared\scratch\model-faceoff\kimi.html
+
+The scene: a rainy night on a small-town Midwest main street, seen from a person standing on the sidewalk. Brick storefronts with warm lit windows, a few with neon signs, wet pavement that reflects the lights, falling rain, a street lamp glow, puddle ripples, maybe a passing car's headlights. It should feel real and cozy, not cartoony.
+
+Rules: use three.js 0.160.0 from cdnjs (https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js) or plain canvas, nothing else external. It must run by just opening the file, work on a phone (390 px wide) and on a desktop, and stay smooth. Let the viewer look around by dragging (no walking needed).
+
+Before you finish, open it in a headless browser if you can (Playwright is in C:\Users\lilli\AI-Shared\tools\playtester\node_modules) and save a screenshot to C:\Users\lilli\AI-Shared\scratch\model-faceoff\kimi.png at 1280x720. Do not commit anything.
+
+In your final message: your exact model ID, how long it took roughly, and one line on what you're proudest of in the scene.

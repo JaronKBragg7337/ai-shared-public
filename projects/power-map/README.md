@@ -1,0 +1,49 @@
+# Power Map
+
+Jaron's words: "I want to know where my country stands." One connected picture, three layers:
+
+1. **Balance of power** - who holds the seats (House, Senate, governors, state legislatures, Supreme Court by appointing party), and a plain "where it leans" number.
+2. **People by topic** - each official's party, what they push for and what they try to block, per topic (AI, energy, crypto, business, privacy, spending...). Every line is a vote, sponsorship, signature or quoted statement.
+3. **Contradictions** - "Let's find the contradictions." Two kinds:
+   - (a) a law, bill or government order versus what a company has publicly said it will build or offer (this is the market angle);
+   - (b) an official's stated position versus their own vote or action.
+
+Status: **live** at powermap.heartbeatobservatory.com/map (site copy: powermap/index.html in the site repo, first line `<!-- hb:no-phone --><!-- hb:no-editor -->`). Built Nov 3, 2026; election updates Nov 4 morning + evening, PRELIMINARY until certified. Chambers count as flipped when NCSL reports them flipped (the Texas House is flipped per NCSL but not AP-called; AP-only would put the index near 50.1% R).
+
+## How we judge (neutrality and evidence rules; the same box is on the page)
+- Facts only: seat counts, recorded votes, bill text, signed orders, dated quotes. No adjectives, no "good/bad", no predictions.
+- Every number and every claim carries a source link and an "as of" date. No source, not shown.
+- **Overall control, plus each body.** The page leads with one "Overall control" percentage: an equal-weight average of the five bodies' Republican share (Jaron, Nov 3: the bodies work together, and their combined control decides what moves). The five per-body bars sit right under it, and the method is printed next to the number. Supreme Court is counted by appointing president's party, which is not how a justice votes. A "weighted by real decision power" version was skipped: there is no simple, honest set of weights.
+- **A disagreement is not a contradiction.** A card needs a documented statement or plan on one side and a documented vote, action or law on the other.
+- **Every card has a type:** "word vs vote" (an official's statement against their own vote or signature), "policy reversal" (an official or government changing a documented position), or "law vs company plan" (a law, bill or order against a company's public plan). A law that conflicts with a company plan is a market fact, not proof of hypocrisy.
+- **Every card has a confidence:** "verified" = both sides documented with sources; "possible" = one side or the link needs more evidence.
+- **Every card has context:** a short line on why it may not be hypocrisy (a changed bill, new information, a compromise, a procedural choice).
+- **Same standards for every party; counts are not forced equal.** The page reports the per-party count as found. The earlier "balance the sides" idea was dropped (Nov 3 review).
+- **Election results are PRELIMINARY until officially certified,** and each result shows its certification date once known.
+- Quote the official's own words; describe votes with the roll-call result. Anything unverifiable is marked or dropped, never filled in.
+
+## Data sources a real version would use
+| Need | Source |
+|---|---|
+| Members, bills, sponsors, cosponsors, actions | Congress.gov API (api.congress.gov, free key) |
+| Roll-call votes | House Clerk XML (clerk.house.gov/evs), Senate LIS XML (senate.gov/legislative/votes), Congress.gov votes |
+| Vote history, ideology scores, missed votes | GovTrack (bulk data + API) |
+| Member data, statements (ProPublica Congress API was shut down in 2024; use its archived data or the `unitedstates/congress-legislators` GitHub data instead) | ProPublica / @unitedstates project |
+| Money: donors, PACs, spending | FEC API (api.open.fec.gov) |
+| Governors, state legislatures, trifectas, ballot measures | Ballotpedia, NCSL partisan composition tables, MultiState |
+| State bills and votes | OpenStates / Plural API |
+| Supreme Court: justices, cases, votes | supremecourt.gov, Oyez, SCOTUSblog, the Supreme Court Database (scdb.wustl.edu) |
+| Executive orders, agency rules | Federal Register API |
+| Company plans (for type-a contradictions) | SEC EDGAR filings (10-K risk factors, 8-K), company press releases, earnings call transcripts |
+| Official's own statements | Congressional Record (govinfo.gov API), official press pages, verified social accounts |
+
+## How updates would work
+- A scheduled task on the MSI (3-6 AM window for heavy pulls) refreshes seat counts, new roll-call votes and bill actions daily; election nights get an extra run once results are certified/called by the AP.
+- Each data point stores `value`, `source_url`, `as_of`, `fetched_at`. The page shows `as_of`; stale items (older than a set age) get flagged on the page instead of silently shown.
+- Contradiction candidates are generated by matching (official statement on topic X) against (their votes on bills tagged X), and (bill/law text on X) against (company filings mentioning X). A candidate is published as "possible" until a second check confirms both halves from primary sources, then "verified". Every card gets a written context line before it goes up.
+- Election results: tonight's (Nov 3, 2026) results will change every number in layer 1. New results go up marked PRELIMINARY (source: AP calls / state unofficial counts) and switch to certified only when the state certifies, with that date shown. Certification dates differ by state.
+
+## What is real vs placeholder in mockup v0.1
+- Real, sourced: all seat counts (with dates on each), the 5 contradiction cards (4 verified, 1 possible), the 10 people rows. Overall control (56.6% R, equal-weight) is back at the top with the per-body bars under it.
+- Weak spots marked on the page: Senate count's newest dated source is Jul 21, 2026; governors/legislatures source dated Nov 2025 (trifectas Apr 2026); Colorado's 2026 repeal-and-reenact (SB 26-189) from one source only; Warren's final GENIUS Act vote not verified; Coinbase bill status after Jan 2026 not checked.
+- Placeholder: topic tabs for Privacy and Business are labelled "planned".

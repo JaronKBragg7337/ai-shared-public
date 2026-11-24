@@ -1,0 +1,1 @@
+The vocals are mixed much quieter than the instruments. One coworker can hear the singer, while the other has enough hearing loss that only the louder instrumental is audible.

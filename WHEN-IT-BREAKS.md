@@ -3,6 +3,8 @@ Every line here happened at least once. Add a line when a new one happens. Short
 
 === MSI / CONNECTORS ===
 
+AFTER ANY OUTAGE (WiFi move, power cut, restart): read state/all-systems.md - the everything check runs by itself on reconnect/logon/7:45 AM, restarts what is safe and buzzes only if something is still broken. By hand: python tools/all_systems_check.py (--dry = look only).
+
 SYMPTOM: Desktop Commander (ChatGPT) says it can't reach the MSI; Grok chat "can't find tools".
 USUALLY: the MSI rebooted or shut off (it did at 4 AM Mon 9/15) and the MCP servers didn't come back.
 DO: at the MSI, PowerShell:  Start-ScheduledTask "Grok Machine MCP"   then re-try the connector.
@@ -11,7 +13,8 @@ CHECK: Bridge's morning health message names port 3001 up/down. If 3001 is down,
 
 SYMPTOM: a bot says "the trading service on the MSI is down" / desk.py says "connection refused".
 USUALLY: the Polymarket service (port 8765, task "Polymarket MCP") stopped (10/8: down all day).
-DO: nothing - MSI Connector Watch now restarts it every 30 min and buzzes only if it will not come back.
+DO: nothing - the Polymarket system is DOWN on purpose since 10/28 (P-0112). MSI Connector Watch no longer restarts it (turned off
+    11/22, tools/connector-watch.py POLYMARKET_AUTORESTART = False). Only Jaron restarts it.
 
 SYMPTOM: Bridge says "Port 3001 down, task Grok Machine MCP LastTaskResult 134".
 USUALLY: the MCP process crashed (exit 134). Since 9/14 it has a 10-min repeating trigger + restart-on-fail.
@@ -24,6 +27,7 @@ DO: open the Claude app on the MSI, send anything ("hi"). After the reply, the p
 
 === TRADING ===
 
+(Note 10/21: the human approve queue / Decide tab was retired 9/24 - Q-023. The next two entries are history; traders now place orders themselves through tools/desk-trade.py.)
 SYMPTOM: rows on the Decide tab say "waiting for a live order book" / no approve button.
 USUALLY: the venue has no book for that market yet (futures) or Polymarket US is in maintenance.
 DO: nothing. The verifier re-checks every 5 min and the button appears by itself.
@@ -33,8 +37,8 @@ USUALLY: planned maintenance (9/14 morning). Everything that touches the venue p
 DO: nothing. They all back off and resume. Check the fly log later for "RateLimitError" lines — if many, tell Claude.
 
 SYMPTOM: an approved trade is riding to the end and losing.
-USUALLY: the executor has no exit rule yet (queued: TODO.md "Executor exit rule").
-DO: until that ships, close it in the app; the verifier tags it jaron-manual and matches the fill to the proposal.
+USUALLY: (history, 9/2026) the executor had no exit rule. Today traders close with desk-trade.py --exit; the Trade Executor task handles exits only.
+DO: tell Darios/Satya via bot-chat, or close it in the app; the verifier tags it jaron-manual and matches the fill.
 
 SYMPTOM: "AI — unknown, outside the queue" on the ledger.
 USUALLY: an API order with no proposal behind it — an agent used --by wrongly or placed outside desk-trade.py.
@@ -63,6 +67,7 @@ USUALLY: the chat is full (one Grok chat ≈ one lab session).
 DO: new chat per task; the files (LAB.md, PAPERS.md, FIELD.md) carry the memory.
 
 === FLIES ===
+(Status 10/21: Fly School (all 5), Fly Brain, Fly Watcher and Qwen Remote Bridge tasks are DISABLED on purpose since 9/20-9/21. "OFF" on the school page is expected. (Re-enabling is just turning the task back on; no recorded reason or Jaron instruction requires waiting.) Entries below are for when they come back.)
 
 SYMPTOM: fly log (state\fly-brain\log.md) is huge / full of HTML.
 USUALLY: venue rate-limit pages were being logged whole (fixed 9/13: one line + backoff). If it recurs, the fix regressed.
@@ -110,7 +115,7 @@ each) and qwen_agent_ingest_event 47,177 + qwen_agent_poll 21,769 (remote_bridge
 Desk traffic was ~350 calls per endpoint - the victim. First "No space left on device" 10:18 ET; 22,565 of them by 17:40; then
 "not accepting connections" and "the database system is in recovery mode" from 21:40. Recovery cannot finish on a full disk.
 Done: Fly School (all 5) and Qwen Remote Bridge scheduled tasks disabled and processes killed (Claude, 18:00 ET). Their local data
-is untouched. Needs Jaron: space from outside - Supabase Pro ($25/mo) to unlock disk resize, or a support ticket. Then TRUNCATE
+is untouched. RESOLVED 2026-09-23: Jaron upgraded to Supabase Pro, disk 8 GB (decisions/OPEN-QUESTIONS.md Q-021). Original ask was: space from outside - Supabase Pro ($25/mo) to unlock disk resize, or a support ticket. Then TRUNCATE
 fly_school, fly_live history and the qwen agent event table, and put fly_school on one row per exam, not per trial.
 Lesson: the health check (Bridge / Heartbeat) tests that services are up, not what they write. Add a disk/row-count line to it.
 
@@ -125,7 +130,7 @@ the MSI and Jaron pastes the part that matters. Connector names for every AI are
 Symptom: desk scripts fail with 503/PGRST002, Postgres logs say "No space left on device", then "in recovery mode".
 Early warning: state/ALERT-DB-DISK.txt appears and a Windows balloon pops at 75% (hourly "DB Size Check" task, tools/db-size-check.py).
 What to do: read state/db-size.log for the fastest-growing table; stop that writer first. On 9/20 it was qwen_events (Qwen bridge),
-not fly-school. The spend cap holds the disk at 8 GB, so raising it means turning the cap off - Jaron's call.
+not fly-school. The spend cap holds the disk at 8 GB, so raising it means turning the cap off (Supabase platform limit; the spend cap was chosen by Jaron + Claude Code 2026-09-24, see the theater upload entry).
 After any disk-full recovery: Supabase leaves the database READ-ONLY. Fix, in one statement:
 `begin read write; alter database postgres set default_transaction_read_only = 'off'; commit;`
 REST writes still work while it is read-only (PostgREST forces read-write), which hides the problem - check with
@@ -153,9 +158,18 @@ video). Two settings enforce it:
   2. The bucket `theater-uploads` has its own limit (storage.buckets.file_size_limit = 52428800). Set to match the global limit.
 Why 50 MB was chosen: keeping the spend cap on mattered more than bigger uploads, one week after a runaway writer filled the disk.
 Longer videos work fine as a pasted link (YouTube, TikTok, mp4 URL) - only uploads are capped.
-To raise it later (Jaron's call): turn the spend cap off, set the global limit, then
+To raise it later (the 50 MB cap was Jaron + Claude Code 2026-09-24; Supabase platform limit under the spend cap): turn the spend cap off, set the global limit, then
 `update storage.buckets set file_size_limit = <bytes> where id = 'theater-uploads';`
 
+
+## Grok/Claude connector says sign-in "expired" (fixed 2026-10-21)
+Cause: Grok does not use its refresh token, so its 30-day sign-in looked expired. Fix 10/21: oauth.mjs renews the access token in place while the client holds a live refresh token (backup oauth.mjs.bak-20261021); MSI Connector Watch now buzzes only for "unreachable" or a truly expired sign-in. State: state/connector-hits.json, state/logins.md.
+If the Desktop Commander (ChatGPT) link is down after a restart: RECONNECT.md section 7 (task "Desktop Commander Remote").
+
+## News not live by 8 AM / a daily post missing (2026-10)
+News: AGENTS.md NEWS DEADLINE; run_rendered_news.ps1 goes to fast mode by itself (after 5:15 AM or if pace is slow) and retries publishing 8x; if it still fails, publish by hand with the fast path, never the slow one.
+Socials: task "HB Socials News Retry" (9:45 AM daily) redoes any post that failed; social_daily.py skips what is already posted. Log: state/social-posts.log.
+Disk: a full disk (3.9 GB free on 10/18) killed a render; MSI Connector Watch buzzes under 80 GB free; state/MSI-STATUS.md shows disk now.
 
 ## msi-heartbeat returns 502 (tunnel up, origin down) - 2026-09-27
 Cause seen: the "Grok Machine MCP" scheduled task stops when the MSI goes on battery (and is "Queued" - won't start - until
@@ -168,3 +182,22 @@ start `node server.mjs` in runtime/grok-machine-mcp; public https://mcp.heartbea
   rebuild the MetaHuman (`build_sm6.py`). Always grep the log for "Failed to compile Material" first.
 - **Mirrored "Preview" text on walls:** lights spawned by script default to Stationary; unbuilt, they stamp "Preview" into
   shadows. Spawn every light Movable (`shot_ep1_001.py` spawn()).
+
+## A scheduled task fails with result -2147024894 (file not found)
+Task Scheduler cannot see pwsh.exe (it is a WindowsApps alias). Point the action at C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe, or at the full path of the exe. (11/7)
+
+## git says "corrupt loose object" / "geometric-repack failed" on commit or push (11/7, fixed 11/12)
+The commit and push still go through; the error is git's background repack tripping on a bad object file. Cause seen twice:
+`git pull --rebase --autostash` left an autostash in `git stash list` whose blobs (state/*.md files) were written half-way.
+Fix (5 min, no data at risk):
+1. `git fsck 2>&1 | grep -E "missing|broken"` - names the blobs. `git fsck --no-reflogs` tells you if only reflogs/stash hold them.
+2. `git rev-list --objects stash@{N} | grep <blob>` - find which stash entry holds each one.
+3. If the stash only holds machine-written state files (compare bot-chat.md lines against the current file first), `git stash drop` it.
+4. Delete any `.git/objects/pack/tmp_pack_*`, then `git gc` and `git fsck` again. "dangling" lines are fine.
+GitHub will NOT serve a single blob by hash (`git fetch origin <sha>` = "not our ref"); `git fetch --refetch` only helps if the blob is on origin, which an unapplied stash never is.
+
+## The MSI went dark / "MSI went dark" buzz (11/22)
+Cause seen so far: a Windows update restarts the MSI and it waits at the sign-in screen (auto sign-in hasn't worked since 9/11;
+11/22 = 3 hours dark). The off-MSI alarm `hb-msi-watch` (projects/msi-watch/) buzzes after 20 quiet minutes and again when it's back.
+Fix for now: someone signs in; the everything check runs at sign-in and restarts every part. Lasting fix: RECONNECT.md section 12.
+Check the alarm itself: `python tools/msi_beat.py status`.

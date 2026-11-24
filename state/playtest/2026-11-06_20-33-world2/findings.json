@@ -1,0 +1,78 @@
+[
+  {
+    "key": "rf:s://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js",
+    "kind": "request-failed",
+    "sev": 45,
+    "title": "A request failed to load",
+    "detail": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js (SSL connect error)",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/001-load-and-enter-PROBLEM-request-failed.jpg",
+    "steps": [
+      "00:01 [load and enter] === load and enter",
+      "00:01 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: SSL connect error",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: SSL connect error",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/002-load-and-enter-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:01 [load and enter] === load and enter",
+      "00:01 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "boot:World 2 did not finish loading",
+    "kind": "boot",
+    "sev": 90,
+    "title": "World 2 did not finish loading",
+    "detail": "World did not reach its first frames in 45 seconds. Loading text: Still fetching the engine - a slow connection can take a little longer…. External requests may be blocked in this environment.",
+    "count": 1,
+    "firstAt": "00:47",
+    "lastAt": "00:47",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/003-load-and-enter-PROBLEM-boot.jpg",
+    "steps": [
+      "Open the reported URL and wait 45 seconds."
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLProgram: Program Info Log: (N,N-N): warning XN: sum of N.N and -N.Ne-N cannot b",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLProgram: Program Info Log: (221,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 ",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/001-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1",
+      "00:03 [load and enter] QA pass: World loads - First frames in 2.4 seconds."
+    ],
+    "extra": [],
+    "vision": null
+  }
+]

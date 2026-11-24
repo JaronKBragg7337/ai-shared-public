@@ -1,0 +1,110 @@
+[
+ {
+  "id": "n01",
+  "words": 43,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n02",
+  "words": 63,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n03",
+  "words": 86,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n04",
+  "words": 68,
+  "missing": 2,
+  "missing_pct": 2.9,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "poka",
+   "yoke"
+  ]
+ },
+ {
+  "id": "n05",
+  "words": 93,
+  "missing": 2,
+  "missing_pct": 2.2,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "seventies",
+   "leaded"
+  ]
+ },
+ {
+  "id": "n06",
+  "words": 62,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n07",
+  "words": 53,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n08",
+  "words": 42,
+  "missing": 1,
+  "missing_pct": 2.4,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "that"
+  ]
+ },
+ {
+  "id": "n09",
+  "words": 48,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n10",
+  "words": 52,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ }
+]

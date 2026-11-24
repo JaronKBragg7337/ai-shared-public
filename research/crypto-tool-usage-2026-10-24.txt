@@ -1,0 +1,34 @@
+vs open (price move so far)      used 216/334  scored 196 win  95 pnl  +72.99 on $596
+momentum (last 5/15 min)         used  93/334  scored  71 win  44 pnl  +29.78 on $185
+fair chance / options            used 278/334  scored 206 win  90 pnl  +92.75 on $640
+POLY LAGS line                   used  85/334  scored  65 win  15 pnl  -18.25 on $133
+FLOW (real money now)            used 174/334  scored 146 win  60 pnl  +94.68 on $431
+funding (futures crowd)          used  52/334  scored  41 win  17 pnl   -7.29 on $138
+open interest                    used  14/334  scored  13 win   7 pnl   +5.90 on $42
+order book / walls               used 121/334  scored 103 win  48 pnl  +36.01 on $357
+fake move warning                used   0/334  scored   0 win   0 pnl   +0.00 on $0
+scheduled events                 used  10/334  scored   7 win   1 pnl   -6.59 on $14
+headlines / ETF news             used   1/334  scored   1 win   1 pnl   +4.06 on $2
+1-min volatility                 used  19/334  scored  16 win   2 pnl  -20.26 on $34
+ALL scored 242 115 89.95 720.0
+
+price buckets (side bought): n, wins, win%, avg price, pnl
+0.00-0.15:  27   4  14.8%  paid avg 0.08  pnl +35.43
+0.15-0.35:  80  19  23.8%  paid avg 0.25  pnl -19.90
+0.35-0.50:  44  21  47.7%  paid avg 0.42  pnl +38.39
+0.50-0.65:  39  24  61.5%  paid avg 0.56  pnl +18.37
+0.65-0.85:  27  23  85.2%  paid avg 0.74  pnl +15.24
+0.85-1.01:  25  24  96.0%  paid avg 0.94  pnl +2.42
+
+by bot/lens
+('satya-twin', 'fair price') 24 4 -33.82
+(None, None) 65 40 64.25
+('jarons-twin', 'contrarian') 117 48 54.33
+('darios-twin', 'momentum') 36 23 5.19
+bought the cheap side (<50c) 151 44 29% won, paid avg 0.27, pnl +53.92
+bought the favorite (>=50c) 91 71 78% won, paid avg 0.72, pnl +36.03
+
+LIVE placed 61 settled 55 pnl -39.5
+mid 35-65c 9 0 -23.9
+cheap <35c 43 9 -17.77
+fav >65c 3 3 2.17

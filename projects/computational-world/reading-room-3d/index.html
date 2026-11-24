@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d22">
+  <title>The Reading Room</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --dark: #0b0d22;
+      --paper: #fff5e3;
+      --soft-paper: #f3e7cf;
+      --ink: #271c13;
+      --muted: #625044;
+      --line: #cfbea0;
+      --accent: #315948;
+      --light: #956011;
+      --dark-wire: #7e3977;
+      --heading: Georgia, 'Times New Roman', serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; overscroll-behavior: none; }
+    body { background: var(--dark); color: var(--paper); font: 16px/1.45 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+    [hidden] { display: none !important; }
+    h1, h2, p { margin: 0; }
+    h1, h2 { font-family: var(--heading); line-height: 1.13; }
+    h1 { font-size: clamp(18px, 5.4vw, 26px); font-weight: 400; }
+    h2 { font-size: clamp(20px, 5vw, 26px); }
+    p + p { margin-top: .6em; }
+    #view { position: fixed; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; user-select: none; -webkit-touch-callout: none; }
+    #view:active { cursor: grabbing; }
+    .hud, .controls, .reticle { position: fixed; pointer-events: none; user-select: none; }
+    .hud {
+      z-index: 10;
+      top: max(14px, env(safe-area-inset-top));
+      left: max(14px, env(safe-area-inset-left));
+      right: max(14px, env(safe-area-inset-right));
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    .hud h1, .where, .controls span {
+      background: rgb(12 15 36 / 92%);
+      border: 1px solid rgb(255 235 195 / 29%);
+      box-shadow: 0 3px 12px rgb(5 6 18 / 30%);
+    }
+    .hud h1 { padding: 7px 10px 8px; border-radius: 7px; }
+    .where { display: flex; align-items: center; gap: 8px; white-space: nowrap; border-radius: 7px; padding: 8px 10px; font-size: 12px; }
+    #where { font-weight: 700; }
+    #flips { color: #f6dcac; border-left: 1px solid #9e825d; padding-left: 8px; font-variant-numeric: tabular-nums; }
+    .reticle { z-index: 5; top: 50%; left: 50%; width: 7px; height: 7px; margin: -3.5px; border: 1px solid #fff5e3bc; border-radius: 50%; box-shadow: 0 0 2px 1px #1a120ba1; }
+    .reticle.on { background: var(--paper); }
+    .controls {
+      z-index: 9;
+      bottom: max(14px, env(safe-area-inset-bottom));
+      left: max(14px, env(safe-area-inset-left));
+      right: max(14px, env(safe-area-inset-right));
+      text-align: center;
+      font-size: 12px;
+    }
+    .controls span { display: inline-block; border-radius: 6px; padding: 4px 8px; }
+    .controls { transition: opacity .8s ease; }
+    .controls.gone { opacity: 0; }   /* once you have walked and looked, the hints get out of the way */
+    .controls .touch { display: none; }
+    #status {
+      position: fixed;
+      inset: auto 15px 50%;
+      margin: auto;
+      width: fit-content;
+      max-width: calc(100% - 30px);
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: var(--dark);
+      color: var(--paper);
+      text-align: center;
+    }
+    #card {
+      position: fixed;
+      z-index: 12;
+      left: 50%;
+      bottom: calc(64px + env(safe-area-inset-bottom));
+      width: min(400px, calc(100% - 28px));
+      transform: translate(-50%, 12px);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity .17s ease-out, transform .2s ease-out, visibility 0s .2s;
+    }
+    #card[data-visible] { transform: translate(-50%, 0); opacity: 1; visibility: visible; transition-delay: 0s; }
+    .card-content, .sheet, .mind-card {
+      color-scheme: light;
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      box-shadow: 0 10px 36px rgb(30 17 8 / 29%);
+    }
+    .card-content { padding: 11px 14px; border-radius: 10px; font-size: 14px; }
+    .skin-quote { margin: 0 0 5px; color: #574325; font: 600 13px/1.35 ui-monospace, Consolas, monospace; overflow-wrap: anywhere; }
+    .skin-quote q { quotes: "\201c" "\201d"; }
+    .card-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; }
+    #face { flex-shrink: 0; }
+    #words { max-height: min(125px, 19vh); overflow: auto; pointer-events: auto; overscroll-behavior: contain; touch-action: pan-y; }
+    #hint { margin-top: 5px; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .buttons:empty { display: none; }
+    button {
+      font: 700 14px/1.2 system-ui, sans-serif;
+      color: white;
+      min-height: 44px;
+      padding: 8px 12px;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent);
+      cursor: pointer;
+      touch-action: manipulation;
+      pointer-events: auto;
+    }
+    button.quiet { color: var(--accent); background: transparent; }
+    button:hover:not(:disabled) { box-shadow: inset 0 0 0 1px currentColor; }
+    button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+    button:disabled { opacity: .42; cursor: default; }
+    .book-list { display: grid; gap: 5px; }
+    .book-list button { text-align: left; }
+    .roman { display: inline-block; width: 2.2em; color: var(--muted); font-family: var(--heading); }
+    .note { color: var(--muted); font-size: .92em; }
+    .good { color: var(--accent); font-weight: 700; }
+    .face { display: block; width: auto; max-width: 100%; height: 51px; }
+    .face.toggle { height: 40px; }
+    .face .sign { font: 700 24px var(--heading); fill: var(--ink); }
+    .face .from { font: 700 12px system-ui, sans-serif; fill: var(--muted); }
+    .face .sq, .face .arch { color: var(--ink); }
+    .face .wire { color: var(--light); }
+    .face .wire.dark { color: var(--dark-wire); }
+    .face .track { color: var(--line); }
+    .face .track.on { color: var(--light); }
+    .face .knob { fill: var(--paper); stroke: var(--ink); stroke-width: 2; }
+    dialog.sheet {
+      width: min(440px, calc(100% - 28px));
+      max-height: min(650px, calc(100% - 74px - env(safe-area-inset-bottom)));
+      padding: 20px;
+      border-radius: 11px;
+      overflow: auto;
+      overscroll-behavior: contain;
+    }
+    dialog::backdrop { background: rgb(7 8 24 / 72%); }
+    dialog h2 { margin: 0 0 10px; }
+    #book { background: linear-gradient(90deg, #e5d0ad 0, var(--paper) 29px); padding-left: 27px; }
+    #book .face { margin: 6px 0; }
+    #code { max-height: 34vh; overflow: auto; overscroll-behavior: contain; touch-action: pan-y; }
+    #book .page-number { margin-top: 8px; }
+    #same:not(:empty) { margin-top: 8px; }
+    pre { margin: 10px 0; padding: 11px; background: var(--soft-paper); border-radius: 6px; font-size: .82rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+    #raw { user-select: text; -webkit-user-select: text; }
+    #log { border-top: 1px solid var(--line); padding-top: 15px; margin-top: 16px; }
+    table { border-collapse: collapse; width: 100%; font-size: .88rem; margin-bottom: 8px; }
+    th, td { text-align: right; padding: 5px 3px; border-bottom: 1px solid var(--line); }
+    th:first-child, td:first-child { text-align: left; }
+    th { color: var(--muted); font-size: .76rem; vertical-align: bottom; }
+    /* The lantern's chip, under the top bar and clear of both thumbs, and the card it opens. */
+    .chip {
+      position: fixed;
+      z-index: 11;
+      top: calc(max(14px, env(safe-area-inset-top)) + 46px);
+      right: max(14px, env(safe-area-inset-right));
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 40px;
+      padding: 6px 12px 6px 9px;
+      border-radius: 20px;
+      background: rgb(12 15 36 / 92%);
+      border: 1px solid rgb(255 235 195 / 29%);
+      box-shadow: 0 3px 12px rgb(5 6 18 / 30%);
+      color: #f6dcac;
+      font: 700 12px/1.2 system-ui, sans-serif;
+      font-variant-numeric: tabular-nums;
+    }
+    .chip:hover:not(:disabled) { box-shadow: 0 3px 12px rgb(5 6 18 / 30%), inset 0 0 0 1px rgb(255 235 195 / 40%); }
+    .chip .ember { width: 11px; height: 11px; border-radius: 50%; background: radial-gradient(circle at 50% 45%, #e0a25a 0 30%, #8a5326 70%); box-shadow: 0 0 0 1.5px #a37f50; }
+    .chip.awake .ember { background: radial-gradient(circle at 50% 45%, #fff6dc 0 28%, #ffc56e 60%, #d58a32 100%); box-shadow: 0 0 0 1.5px #c9a46a, 0 0 9px 2px rgb(255 196 112 / 55%); }
+    .chip[aria-expanded="true"] { border-color: rgb(255 235 195 / 55%); }
+    .mind-card {
+      position: fixed;
+      z-index: 13;
+      top: calc(max(14px, env(safe-area-inset-top)) + 92px);
+      right: max(14px, env(safe-area-inset-right));
+      width: min(360px, calc(100% - 28px));
+      max-height: min(46vh, calc(100% - 340px - env(safe-area-inset-bottom)));
+      min-height: 160px;
+      overflow: auto;
+      overscroll-behavior: contain;
+      touch-action: pan-y;
+      padding: 10px 14px 12px;
+      border-radius: 10px;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+    .mind-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .mind-head h2 { font-size: 20px; margin: 0; }
+    .mind-head .close { min-height: 36px; padding: 4px 10px; }
+    .mind-card h3 { font: 700 15px/1.2 var(--heading); margin: 10px 0 4px; }
+    .mind-card p { margin: 5px 0 0; }
+    .mind-card .now { color: var(--accent); font-weight: 700; margin-top: 4px; }
+    .mind-card ul { list-style: none; margin: 6px 0 0; padding: 0; }
+    .facts { color: var(--muted); }
+    .facts b { color: var(--ink); }
+    .facts b, .reading b { font-variant-numeric: tabular-nums; }
+    .reading { font-size: 14.5px; }
+    .marks li { display: flex; align-items: flex-start; gap: 7px; margin-top: 3px; }
+    .marks .mark { flex: 0 0 18px; width: 18px; height: 18px; margin-top: 1px; }
+    .mind-card .eyes { margin-top: 10px; padding-top: 8px; border-top: 1px solid var(--line); }
+    @media (pointer: coarse) {
+      .controls .touch { display: inline-block; }
+      .controls .desktop { display: none; }
+      .controls { display: flex; justify-content: space-between; }
+      #card { bottom: calc(116px + env(safe-area-inset-bottom)); }
+    }
+    @media (orientation: landscape) and (max-height: 460px) {
+      #card { left: auto; right: max(10px, env(safe-area-inset-right)); width: min(280px, 46%); bottom: 44px; transform: translateY(12px); }
+      #card[data-visible] { transform: none; }
+      .card-content { padding: 7px 10px; }
+      #words { max-height: 82px; }
+      .chip { top: calc(max(10px, env(safe-area-inset-top)) + 42px); }
+      .mind-card { top: 54px; right: auto; left: max(10px, env(safe-area-inset-left)); width: min(330px, 42%); max-height: calc(100% - 170px); min-height: 0; }
+    }
+    @media (max-width: 335px) {
+      .hud h1 { font-size: 16px; }
+      .where { gap: 5px; padding-inline: 6px; }
+      #flips { padding-left: 5px; }
+    }
+    @media (prefers-reduced-motion: reduce) { #card { transition: none; } }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js",
+        "hb-thumbstick": "./hb-thumbstick.js",
+        "hb-device-tier": "./hb-device-tier.js",
+        "rr-rooms": "../rooms.js",
+        "rr-world": "../world.js",
+        "rr-mind": "../learner/mind.js",
+        "rr-skin": "../skin/skincode.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main>
+    <canvas id="view" aria-label="First-person view of the Reading Room" aria-describedby="controls" tabindex="0"></canvas>
+    <header class="hud">
+      <h1>The Reading Room</h1>
+      <div class="where" aria-live="polite"><span id="where">Room 1 of 4</span><span id="flips">0 flips</span></div>
+    </header>
+    <div class="reticle" aria-hidden="true"></div>
+    <button type="button" id="mind-chip" class="chip" aria-expanded="false" aria-controls="mind"><i class="ember" aria-hidden="true"></i><span>Lantern · asleep</span></button>
+    <section id="mind" class="mind-card" aria-label="What the lantern believes" hidden></section>
+    <section id="card" aria-label="What you face" aria-hidden="true" inert></section>
+    <div class="controls" id="controls">
+      <span class="touch">Drag left side to walk</span><span class="touch">Drag right side to look</span>
+      <span class="desktop">W A S D or arrows to move · Drag to look · E to use</span>
+    </div>
+    <p id="status" role="status">Opening the room…</p>
+    <dialog id="book" class="sheet" aria-labelledby="book-title"></dialog>
+    <dialog id="results" class="sheet" aria-labelledby="results-title"></dialog>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# The bots' real instructions - captured word for word
+# The bots' real instructions - captured word for word (9/25 snapshots, archive: limits inside are the bot-text of that date written by AIs; none is a Jaron wish unless dated in the text)
 
 Jaron, 2026-09-25: "This is the instructions Bridge has outside the files. So basically this is the top key. Files are side things.
 Instructions are the main thing it follows. This is what needs changing if we want the bots to be different. Each AI has their

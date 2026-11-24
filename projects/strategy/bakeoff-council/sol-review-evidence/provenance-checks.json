@@ -1,0 +1,98 @@
+{
+  "patchedFloorMapping": {
+    "mode": "all"
+  },
+  "patchedSource": [
+    {
+      "texture": "plaster wall",
+      "frame": "v1/f0001.jpg",
+      "rect": [
+        4,
+        30,
+        112,
+        380
+      ]
+    },
+    {
+      "texture": "dark wood floor",
+      "frame": "v1/f0040.jpg",
+      "rect": [
+        20,
+        935,
+        440,
+        1150
+      ]
+    },
+    {
+      "texture": "ceiling (plaster pieces, lightened)",
+      "frame": "v1/f0001.jpg",
+      "rect": [
+        4,
+        30,
+        112,
+        380
+      ]
+    }
+  ],
+  "doorEntity": {
+    "id": "D-0002",
+    "basis": "seen",
+    "kind": "door",
+    "label": "the middle door",
+    "note": "The doorway is in the footage; what is behind it never was."
+  },
+  "unregisteredPickables": [
+    {
+      "id": "Q-0005",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0005",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0005",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0005",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0013",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0012",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0012",
+      "geo": "BoxGeometry"
+    },
+    {
+      "id": "Q-0012",
+      "geo": "BoxGeometry"
+    }
+  ]
+}

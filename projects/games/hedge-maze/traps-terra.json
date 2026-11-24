@@ -1,0 +1,26 @@
+[
+ {
+  "id": "polite-warning",
+  "by": "Terra",
+  "where": "dead_end",
+  "type": "sign",
+  "params": {},
+  "lines": [
+   "You are here. Unfortunately, so is something else."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "lantern-blink",
+  "by": "Terra",
+  "where": "late",
+  "type": "darkness",
+  "params": {
+   "seconds": 5
+  },
+  "lines": [
+   "The lanterns blink out. Something nearby whispers, “Shh.”"
+  ],
+  "kind": "scary"
+ }
+]

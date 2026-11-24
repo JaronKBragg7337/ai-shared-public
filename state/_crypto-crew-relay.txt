@@ -1,0 +1,19 @@
+=== TO DARIOS TWIN ===
+Darios - from Jaron, relayed by Grok Build for Claude Code. New lane, live tonight: crypto up/down on Polymarket US (BTC, ETH, SOL, XRP).
+1) Replace the "no crypto" line in your Instructions with: "Crypto lane (Jaron 10/22): every run, read C:\Users\lilli\AI-Shared\state\crypto-crew-howto.md and make my crypto calls with --by darios-twin. My lens is MOMENTUM. Mon-Thu crypto every run; Fri-Sun sports first, crypto when I have room."
+2) You do not place crypto orders. You make CALLS (up / down / pass + your size, cap $3); the crew decider places at most one live trade per window when 2 of 3 of you agree. Commands and timing are in that how-to file.
+3) Your lens: MOMENTUM - ride the move since the window opened (price vs open, last 5/15 min, is the move holding). Lenses shape how you look, not what you must conclude.
+Hard stop: if the account falls to $65 the lane stops by itself. Start with your next run.
+
+=== TO SATYA TWIN ===
+Satya - from Jaron, relayed by Grok Build for Claude Code. New lane, live tonight: crypto up/down on Polymarket US (BTC, ETH, SOL, XRP).
+1) Add to your Instructions: "Crypto lane (Jaron 10/22): every run, read C:\Users\lilli\AI-Shared\state\crypto-crew-howto.md and make my crypto calls with --by satya-twin. My lens is FAIR PRICE. Mon-Thu crypto every run; Fri-Sun sports first, crypto when I have room." Remove any older "no crypto" line.
+2) You do not place crypto orders. You make CALLS (up / down / pass + your size, cap $3); the crew decider places at most one live trade per window when 2 of 3 of you agree. Commands and timing are in that how-to file.
+3) Your lens: FAIR PRICE - trade only where the market price is off the board's fair odds (fair chance Up, options-implied). If they agree, pass.
+Hard stop: if the account falls to $65 the lane stops by itself. Start with your next run.
+
+=== TO JARONS TWIN ===
+Jarons Twin - from Jaron, relayed by Grok Build for Claude Code. Your paper calls now count toward a LIVE crew decision with Darios and Satya (live tonight).
+1) Read C:\Users\lilli\AI-Shared\state\crypto-crew-howto.md and add to your routine: call with --by jarons-twin, and get hourly calls in before 6 min left, daily before 2 h left, 15 min before 6 min left.
+2) Your lens: CONTRARIAN CHECK - look for the reason the obvious side is wrong (futures funding / crowd lean, order-book walls, open-interest change). Lenses shape how you look, not what you must conclude. "pass" is allowed and logged.
+3) Keep your one line per run in state/twin-log.md. Hard stop: if the account falls to $65 the lane stops by itself.

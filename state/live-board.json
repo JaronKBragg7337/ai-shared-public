@@ -1,242 +1,400 @@
 {
- "at": "2026-10-21 19:03 UTC",
+ "at": "2026-11-24 04:03 UTC",
  "games": [
   {
-   "slug": "aec-atp-facmen-valabo-2026-10-19",
+   "slug": "aec-nfl-cin-was-2026-11-23",
    "sides": [
-    "Facundo Mena",
-    "Valerio Aboian"
+    "Bengals",
+    "Commanders"
    ],
-   "long": "Facundo Mena",
-   "bid": null,
-   "ask": 0.01,
-   "mid": null,
-   "score": null,
-   "flags": [],
-   "prev_mid": 0.155,
-   "question": "Who will win in the upcoming atp event Facundo Mena vs Valerio Aboian scheduled for October 19, 2026 at 3:00 PM UTC?"
+   "long": "Bengals",
+   "bid": 0.5675,
+   "ask": 0.57,
+   "mid": 0.569,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [
+    "LEADER UNDER 50c"
+   ],
+   "prev_mid": 0.501,
+   "question": "Who will win in the upcoming football event Cincinnati Bengals vs Washington Commanders scheduled for November 24, 2026 at 1:15 AM UTC?"
   },
   {
-   "slug": "aec-atp-martru-carcan-2026-10-21",
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-5pt5",
    "sides": [
-    "Marco Trungelliti",
-    "Carlo Alberto Caniato"
+    "-5.50",
+    "+5.50"
    ],
-   "long": "Marco Trungelliti",
+   "long": "-5.50",
+   "bid": 0.055,
+   "ask": 0.065,
+   "mid": 0.06,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [
+    "SCORE MOVED, PRICE FLAT"
+   ],
+   "prev_mid": 0.077,
+   "question": "Will the Cincinnati Bengals cover -5.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-6pt5",
+   "sides": [
+    "-6.50",
+    "+6.50"
+   ],
+   "long": "-6.50",
+   "bid": 0.01,
+   "ask": 0.02,
+   "mid": 0.015,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [
+    "SCORE MOVED, PRICE FLAT"
+   ],
+   "prev_mid": 0.033,
+   "question": "Will the Cincinnati Bengals cover -6.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "tsc-nfl-cin-was-2026-11-23-total-37pt5",
+   "sides": [
+    "Over",
+    "Under"
+   ],
+   "long": "Over",
+   "bid": 0.75,
+   "ask": 0.755,
+   "mid": 0.752,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [
+    "SCORE MOVED, PRICE FLAT"
+   ],
+   "prev_mid": 0.75,
+   "question": "Will the total in CIN Bengals vs. WAS Commanders be more than 37.5?"
+  },
+  {
+   "slug": "aec-atp-taisac-chrlan-2026-11-22",
+   "sides": [
+    "Tai Sach",
+    "Christian Langmo"
+   ],
+   "long": "Tai Sach",
+   "bid": 0.35,
+   "ask": 0.36,
+   "mid": 0.355,
+   "score": null,
+   "flags": [],
+   "prev_mid": 0.315,
+   "question": "Who will win in the upcoming atp event Tai Leonard Sach vs Christian Langmo scheduled for November 22, 2026 at 11:30 PM UTC?"
+  },
+  {
+   "slug": "aec-cbb-sea-loych-2026-11-23",
+   "sides": [
+    "Redhawks",
+    "Ramblers"
+   ],
+   "long": "Redhawks",
+   "bid": 0.94,
+   "ask": 0.95,
+   "mid": 0.945,
+   "score": null,
+   "flags": [],
+   "prev_mid": 0.955,
+   "question": "Who will win in the upcoming basketball event Seattle vs Loyola Chicago scheduled for November 23, 2026 at 9:30PM ET?"
+  },
+  {
+   "slug": "aec-cbb-vcu-prov-2026-11-23",
+   "sides": [
+    "Rams",
+    "Friars"
+   ],
+   "long": "Rams",
    "bid": 0.57,
-   "ask": 0.59,
-   "mid": 0.58,
+   "ask": 0.58,
+   "mid": 0.575,
    "score": null,
    "flags": [],
-   "prev_mid": null,
-   "question": "Who will win in the upcoming atp event Marco Trungelliti vs Carlo Alberto Caniato scheduled for October 21, 2026 at 9:00 AM UTC?"
+   "prev_mid": 0.525,
+   "question": "Who will win in the upcoming basketball event VCU vs Providence scheduled for November 23, 2026 at 9:00PM ET?"
   },
   {
-   "slug": "aec-atp-moikou-lormus-2026-10-21",
+   "slug": "aec-nba-sa-sac-2026-11-23",
    "sides": [
-    "Moise Kouame",
-    "Lorenzo Musetti"
+    "Spurs",
+    "Kings"
    ],
-   "long": "Moise Kouame",
-   "bid": null,
-   "ask": 0.01,
-   "mid": null,
-   "score": {
-    "state": "post",
-    "detail": "Final",
-    "text": "Moise Kouame 7 6 | Lorenzo Sonego 6 4",
-    "leader": "Moise Kouame",
-    "names": [
-     "Moise Kouame",
-     "Lorenzo Sonego"
-    ]
-   },
-   "flags": [],
-   "prev_mid": 0.015,
-   "question": "Who will win in the upcoming atp event Moise Kouame vs Lorenzo Musetti scheduled for October 21, 2026 at 10:00 AM UTC?"
-  },
-  {
-   "slug": "aec-itfwo-sloste-thefro-2026-10-21",
-   "sides": [
-    "Sloane Stephens",
-    "Thea Frodin"
-   ],
-   "long": "Sloane Stephens",
-   "bid": 0.46,
-   "ask": 0.47,
-   "mid": 0.465,
-   "score": null,
-   "flags": [],
-   "prev_mid": null,
-   "question": "Who will win in the upcoming tennis event Sloane Stephens vs Thea Frodin scheduled for October 21, 2026 at 5:00 PM UTC?"
-  },
-  {
-   "slug": "atc-ucl-ast-vik1-2026-10-21-ast",
-   "sides": [
-    "Yes",
-    "No"
-   ],
-   "long": "Yes",
-   "bid": 0.8,
-   "ask": 0.81,
-   "mid": 0.805,
+   "long": "Spurs",
+   "bid": 0.84,
+   "ask": 0.85,
+   "mid": 0.845,
    "score": {
     "state": "in",
-    "detail": "2'",
-    "text": "Aston Villa 0 - Viking FK 0",
-    "leader": null,
+    "detail": "2:28 - 2nd Quarter",
+    "text": "Sacramento Kings 45 - San Antonio Spurs 54",
+    "leader": "San Antonio Spurs",
     "names": [
-     "Aston Villa",
-     "Viking FK"
+     "Sacramento Kings",
+     "San Antonio Spurs"
     ]
    },
    "flags": [],
-   "prev_mid": null,
-   "question": "Will Aston Villa FC win against Viking FK in the UEFA Champions League match scheduled for Oct 21, 2026?"
+   "prev_mid": 0.805,
+   "question": "Who will win in the upcoming basketball event SA Spurs vs SAC Kings scheduled for November 24, 2026 at 3:00 AM UTC?"
   },
   {
-   "slug": "atc-ucl-bay-ars-2026-10-21-ars",
+   "slug": "aec-nhl-min-sj-2026-11-23",
    "sides": [
-    "Yes",
-    "No"
+    "Wild",
+    "Sharks"
    ],
-   "long": "Yes",
-   "bid": 0.34,
-   "ask": 0.35,
-   "mid": 0.345,
+   "long": "Wild",
+   "bid": 0.6,
+   "ask": 0.61,
+   "mid": 0.605,
    "score": {
     "state": "in",
-    "detail": "3'",
-    "text": "Bayern Munich 0 - Arsenal 0",
+    "detail": "20:00 - 2nd Period",
+    "text": "San Jose Sharks 2 - Minnesota Wild 2",
     "leader": null,
     "names": [
-     "Bayern Munich",
-     "Arsenal"
+     "San Jose Sharks",
+     "Minnesota Wild"
     ]
    },
    "flags": [],
-   "prev_mid": null,
-   "question": "Will Arsenal FC win against FC Bayern Munchen in the UEFA Champions League match scheduled for Oct 21, 2026?"
+   "prev_mid": 0.605,
+   "question": "Who will win in the upcoming hockey event MIN Wild vs SJS Sharks scheduled for November 24, 2026 at 3:00 AM UTC?"
   },
   {
-   "slug": "atc-ucl-bay-ars-2026-10-21-bay",
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-2pt5",
+   "sides": [
+    "-2.50",
+    "+2.50"
+   ],
+   "long": "-2.50",
+   "bid": 0.185,
+   "ask": 0.195,
+   "mid": 0.19,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.163,
+   "question": "Will the Cincinnati Bengals cover -2.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-3pt5",
+   "sides": [
+    "-3.50",
+    "+3.50"
+   ],
+   "long": "-3.50",
+   "bid": 0.17,
+   "ask": 0.175,
+   "mid": 0.172,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.143,
+   "question": "Will the Cincinnati Bengals cover -3.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-4pt5",
+   "sides": [
+    "-4.50",
+    "+4.50"
+   ],
+   "long": "-4.50",
+   "bid": 0.11,
+   "ask": 0.115,
+   "mid": 0.113,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.087,
+   "question": "Will the Cincinnati Bengals cover -4.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "asc-nfl-cin-was-2026-11-23-neg-7pt5",
+   "sides": [
+    "-7.50",
+    "+7.50"
+   ],
+   "long": "-7.50",
+   "bid": 0.01,
+   "ask": 0.02,
+   "mid": 0.015,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.062,
+   "question": "Will the Cincinnati Bengals cover -7.5 vs the Washington Commanders in CIN Bengals vs. WAS Commanders?"
+  },
+  {
+   "slug": "astatc-nfl-cin-was-2026-11-23-pyd-joebur-gte300",
    "sides": [
     "Yes",
     "No"
    ],
    "long": "Yes",
    "bid": 0.41,
-   "ask": 0.42,
-   "mid": 0.415,
-   "score": {
-    "state": "in",
-    "detail": "3'",
-    "text": "Bayern Munich 0 - Arsenal 0",
-    "leader": null,
-    "names": [
-     "Bayern Munich",
-     "Arsenal"
-    ]
-   },
-   "flags": [],
-   "prev_mid": null,
-   "question": "Will FC Bayern Munchen win against Arsenal FC in the UEFA Champions League match scheduled for Oct 21, 2026?"
-  },
-  {
-   "slug": "atc-ucl-bru-rcl-2026-10-21-bru",
-   "sides": [
-    "Yes",
-    "No"
-   ],
-   "long": "Yes",
-   "bid": 0.55,
-   "ask": 0.56,
-   "mid": 0.555,
-   "score": {
-    "state": "in",
-    "detail": "2'",
-    "text": "Club Brugge 0 - Lens 0",
-    "leader": null,
-    "names": [
-     "Club Brugge",
-     "Lens"
-    ]
-   },
-   "flags": [],
-   "prev_mid": null,
-   "question": "Will Club Brugge KV win against Racing Club de Lens in the UEFA Champions League match scheduled for Oct 21, 2026?"
-  },
-  {
-   "slug": "atc-ucl-rbb-fey-2026-10-21-rbb",
-   "sides": [
-    "Yes",
-    "No"
-   ],
-   "long": "Yes",
-   "bid": 0.53,
    "ask": 0.54,
-   "mid": 0.535,
-   "score": {
-    "state": "in",
-    "detail": "3'",
-    "text": "Real Betis 0 - Feyenoord Rotterdam 0",
-    "leader": null,
-    "names": [
-     "Real Betis",
-     "Feyenoord Rotterdam"
-    ]
-   },
+   "mid": 0.475,
+   "score": null,
    "flags": [],
-   "prev_mid": null,
-   "question": "Will Real Betis Seville win against Feyenoord Rotterdam in the UEFA Champions League match scheduled for Oct 21, 2026?"
+   "prev_mid": 0.515,
+   "question": "Will Joe Burrow record 300+ passing yards?"
   },
   {
-   "slug": "atc-ucl-rma-rbl-2026-10-21-rma",
+   "slug": "astatc-nfl-cin-was-2026-11-23-td-jacha-gte1",
    "sides": [
     "Yes",
     "No"
    ],
    "long": "Yes",
-   "bid": 0.79,
-   "ask": 0.8,
-   "mid": 0.795,
-   "score": {
-    "state": "in",
-    "detail": "2'",
-    "text": "Real Madrid 0 - RB Leipzig 0",
-    "leader": null,
-    "names": [
-     "Real Madrid",
-     "RB Leipzig"
-    ]
-   },
+   "bid": 0.06,
+   "ask": 0.07,
+   "mid": 0.065,
+   "score": null,
    "flags": [],
-   "prev_mid": null,
-   "question": "Will Real Madrid CF win against RB Leipzig in the UEFA Champions League match scheduled for Oct 21, 2026?"
+   "prev_mid": 0.105,
+   "question": "Will Ja'Marr Chase record 1+ touchdowns?"
   },
   {
-   "slug": "atc-ucl-spo-lask-2026-10-21-spo",
+   "slug": "tsc-nfl-cin-was-2026-11-23-total-43pt5",
    "sides": [
-    "Yes",
-    "No"
+    "Over",
+    "Under"
    ],
-   "long": "Yes",
-   "bid": 0.71,
-   "ask": 0.72,
-   "mid": 0.715,
+   "long": "Over",
+   "bid": 0.145,
+   "ask": 0.15,
+   "mid": 0.147,
    "score": {
     "state": "in",
-    "detail": "2'",
-    "text": "Sporting CP 0 - LASK Linz 0",
-    "leader": null,
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
     "names": [
-     "Sporting CP",
-     "LASK Linz"
+     "Washington Commanders",
+     "Cincinnati Bengals"
     ]
    },
    "flags": [],
-   "prev_mid": null,
-   "question": "Will Sporting CP win against LASK Linz in the UEFA Champions League match scheduled for Oct 21, 2026?"
+   "prev_mid": 0.302,
+   "question": "Will the total in CIN Bengals vs. WAS Commanders be more than 43.5?"
+  },
+  {
+   "slug": "tsc-nfl-cin-was-2026-11-23-total-49pt5",
+   "sides": [
+    "Over",
+    "Under"
+   ],
+   "long": "Over",
+   "bid": 0.025,
+   "ask": 0.03,
+   "mid": 0.028,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.138,
+   "question": "Will the total in CIN Bengals vs. WAS Commanders be more than 49.5?"
+  },
+  {
+   "slug": "tsc-nfl-cin-was-2026-11-23-total-54pt5",
+   "sides": [
+    "Over",
+    "Under"
+   ],
+   "long": "Over",
+   "bid": null,
+   "ask": 0.005,
+   "mid": null,
+   "score": {
+    "state": "in",
+    "detail": "2:26 - 4th Quarter",
+    "text": "Washington Commanders 19 - Cincinnati Bengals 17",
+    "leader": "Washington Commanders",
+    "names": [
+     "Washington Commanders",
+     "Cincinnati Bengals"
+    ]
+   },
+   "flags": [],
+   "prev_mid": 0.033,
+   "question": "Will the total in CIN Bengals vs. WAS Commanders be more than 54.5?"
   }
  ]
 }

@@ -362,13 +362,13 @@ SOURCES.md
 Web-checked 2026-10-13 unless marked (knowledge). No GPU used (Pillow + numpy + ffmpeg libx264, Kokoro on CPU). No photographs used: every picture is drawn.
 
 ## Primary document (read in full, OCR of the scanned PDF)
-NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed's Place)" / common name Coral Castle.
+NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend's Place)" / common name Coral Castle.
 Prepared by Maria Temkin / Michael Zimny, Florida Division of Archives, 2 April 1984. Listed 10 May 1984 (ref. 84000840); name changed to Coral Castle 2011 (Florida SHPO letter, 16 Feb 2011, in the same PDF).
 https://npgallery.nps.gov/GetAsset/1ed2ccd0-b692-42dc-b28d-1227c1a23407  (scanned images; our OCR is in the session scratch only)
 Everything below marked "form" comes from it:
 - Born 1887, "Metei, Latvia" (form); engaged "by the age of 26" to Agnes "Scuff[s]" (footnote 2: also "Skuvst"), ten years his junior; she called off the wedding; "Sweet Sixteen" is his name for her.
-- Land: 1923, one acre SW of Florida City from the Mosers for $12.00 (Deed Book 1546 p. 8); ground is oolitic limestone, "coral rock". Site "Ed's Place" at 18900 SW 352nd St.
-- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "Ed Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
+- Land: 1923, one acre SW of Florida City from the Mosers for $12.00 (Deed Book 1546 p. 8); ground is oolitic limestone, "coral rock". Site "a family friend's Place" at 18900 SW 352nd St.
+- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "a family friend Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
 - Ten-acre tract on South Federal Highway. "He sought the aid of ... Bob Biggers ... All Edward Leedskalnin wanted from Mr. Biggers, however, was the use of his truck ... completed by Leedskalnin without any assistance ... worked alone and at night loading and unloading Biggers' truck."
 - Weights (lb, converted to short tons by us): Polaris slab 40,000 lb (20 t), 25 ft tall; each quarter moon 36,000 lb (18 t); full-moon fountain 46,000 lb (23 t); Mars and Saturn 36,000 lb; obelisk 57,000 lb (28.5 t); "thirty ton sculpture" crowning the north wall = heaviest oolitic block at Rock Gate; wall blocks 8 ft x 4 ft x 3 ft, "several tons". "Sculptures weighing up to 30 tons each".
 - Gate: "nine ton gate", 81 in wide, 92 in tall, 21 in thick; single pivot; central vertical shaft with an automobile axle connecting slab to ground and lintel; fits within 1/4 in; pushed open with one finger.
@@ -394,7 +394,7 @@ Everything below marked "form" comes from it:
 
 ## Flags (open items)
 - Origin of the 1,100-ton figure NOT FOUND. Treated as a CLAIM with untraced source. (Search hints at Carroll Lake, Civil Engineering Magazine 1958, in the form's bibliography; not checked.)
-- Photographs: Florida Memory item 328424 ("Ed Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
+- Photographs: Florida Memory item 328424 ("a family friend Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
 - "Floating stone" teen stories: secondhand per thisunexplaineduniverse.com; no primary account read.
 - Billing: the narration says nobody in the form's quotes watched the largest lifts. That is about what the form quotes, not a claim about all history.
 
@@ -417,7 +417,7 @@ Everything below marked "form" comes from it:
  },
  {
   "id": "s5",
-  "text": "In the mid nineteen thirties he bought ten acres in Homestead, about ten miles north, and decided to take his stone with him. Dates vary. The form says 1937. The obelisk is inscribed: moved in 1939. A local man, Bob Biggers, lent his truck. The form says Ed worked alone, at night, loading and unloading it."
+  "text": "In the mid nineteen thirties he bought ten acres in Homestead, about ten miles north, and decided to take his stone with him. Dates vary. The form says 1937. The obelisk is inscribed: moved in 1939. A local man, Bob Biggers, lent his truck. The form says a family friend worked alone, at night, loading and unloading it."
  },
  {
   "id": "s6",
@@ -449,11 +449,11 @@ Everything below marked "form" comes from it:
  },
  {
   "id": "s13",
-  "text": "So what is not documented? In 1955, the castle's new owner collected more than two hundred fifty signed affidavits from local residents, saying Ed did the work alone with simple hand tools. That is a lot of people. But the form quotes no one who watched the largest blocks go up. So the belief is documented. The method of the biggest lifts is not."
+  "text": "So what is not documented? In 1955, the castle's new owner collected more than two hundred fifty signed affidavits from local residents, saying a family friend did the work alone with simple hand tools. That is a lot of people. But the form quotes no one who watched the largest blocks go up. So the belief is documented. The method of the biggest lifts is not."
  },
  {
   "id": "s14",
-  "text": "Now his own words. Asked how, the form says, Ed always gave the same answer: that he understood the methods of the pyramid builders, and the laws of leverage and weight. That is a claim. We found no document where he describes his lifting method. He did publish pamphlets, in 1936 and 1945, including Magnetic Current, about his own ideas on magnets and electricity."
+  "text": "Now his own words. Asked how, the form says, a family friend always gave the same answer: that he understood the methods of the pyramid builders, and the laws of leverage and weight. That is a claim. We found no document where he describes his lifting method. He did publish pamphlets, in 1936 and 1945, including Magnetic Current, about his own ideas on magnets and electricity."
  },
  {
   "id": "s15",
@@ -601,7 +601,7 @@ def sc_site(cv, t, p):
     else: px, py, pw, ph = x0 + 20, y0 + 20, 700, 420
     a = ease(t / 1.2)
     cv.outline((px, py, px + pw, py + ph), mix(CYAN, BG, a), 3)
-    mono(cv, px, py - 28, 'ED\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
+    mono(cv, px, py - 28, 'a family friend\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
     tw = ap(t, 's4', 0.45)
     cv.rect((px + 40, py + 40, px + 200, py + 190), mix(INK2, BG, tw)); cv.outline((px + 40, py + 40, px + 200, py + 190), mix(VIO, BG, tw), 2)
     cv.text((px + 120, py + 115), 'two-story tower', 'mono', 18, TXT, 'mm', tw)
@@ -640,7 +640,7 @@ def sc_move(cv, t, p):
     # date table
     ty = ly + (130 if L else 130)
     rows = [('1936-40', 'accounts differ; about three years of moving', 0.25), ('1937', 'the 1984 NRHP form, section 7', 0.4), ('1939', 'inscribed on the obelisk: "Moved in 1939"', 0.55),
-            ('truck', 'Bob Biggers\' truck, lent to Ed (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
+            ('truck', 'Bob Biggers\' truck, lent to a family friend (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
     for i, (k, v, f) in enumerate(rows):
         aa = ap(t, 's5', f); yy = ty + i * (62 if L else 100)
         if aa <= 0: continue
@@ -852,7 +852,7 @@ def sc_words(cv, t, p):
     qa = ap(t, 's14', 0.1)
     cv.rect((x0, y0 + 10, x0 + 5, y0 + (330 if L else 420)), mix(VIO, BG, qa))
     yy = cv.para(x0 + 30, y0 + 10, '"the methods used by the pyramid builders, the practical knowledge of the laws of leverage and weight"', 'light', 54 if L else 50, TXT, (x1 - x0 - 60) * (0.8 if L else 1), 1.2, 'l', qa)
-    mono(cv, x0 + 30, yy + 10, 'Ed\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
+    mono(cv, x0 + 30, yy + 10, 'a family friend\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
     py0 = y0 + (400 if L else 520)
     mono(cv, x0, py0, 'PAMPHLETS (he sold these)', 22, CYAN, ap(t, 's14', 0.55))
     ps = [('1936', 'A Book in Every Home', 0.62), ('Aug 1945', 'Magnetic Current', 0.76), ('Oct 1945', 'Mineral, Vegetable and Animal Life', 0.88)]
@@ -913,7 +913,7 @@ def sc_close(cv, t, p):
     if L: tripod(cv, 1560, 830, 380, 0.5 * a, 0.2 + 0.1 * math.sin(t * 0.5), math.sin(t * 0.6))
 
 SOURCES = [
-    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
+    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
     'Wikipedia, "Coral Castle" and "Edward Leedskalnin" (read 2026-10-13): 1986 gate repair, 2005 failure, 1,100 short tons (figure unattributed)',
     'coralcastle.com, "The Secrets of Coral Castle" (1,100 tons); rockgatepark.com/the-tools (tool photographs; "no detailed records")',
     'Photographs of the hoists exist: Florida Memory item 328424 (see it there). No photographs are used in this video; every picture is drawn.',
@@ -1054,20 +1054,20 @@ exec
 "C:\\Users\\lilli\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe" -Command 'rg -n "def sc_(move|weights|total|gate|check)|SCENES =|SOURCES =|1936|1937|1939|Biggers|Polaris|gate|affidavit|pamphlet|National Register|1,100|1100|block and tackle|rope segments" ep_body.py script.json SOURCES.md' in C:\Users\lilli\AI-Shared\projects\still-unknown\ep2-coral-castle
  succeeded in 554ms:
 script.json:8:  "text": "Start with the man. Edward Leedskalnin was born in Latvia in 1887. A 1984 National Register nomination form says that at about twenty-six he was engaged to a girl ten years younger, Agnes, who called off the wedding shortly before it. He later called her his Sweet Sixteen. After years of work across North America and illness, he reached Florida City in the early 1920s."
-script.json:20:  "text": "In the mid nineteen thirties he bought ten acres in Homestead, about ten miles north, and decided to take his stone with him. Dates vary. The form says 1937. The obelisk is inscribed: moved in 1939. A local man, Bob Biggers, lent his truck. The form says Ed worked alone, at night, loading and unloading it."
+script.json:20:  "text": "In the mid nineteen thirties he bought ten acres in Homestead, about ten miles north, and decided to take his stone with him. Dates vary. The form says 1937. The obelisk is inscribed: moved in 1939. A local man, Bob Biggers, lent his truck. The form says a family friend worked alone, at night, loading and unloading it."
 script.json:24:  "text": "Now the weights, which the form lists in pounds. The Polaris sighting slab: twenty short tons. Each quarter moon: eighteen. The full moon fountain: twenty three. The obelisk: twenty eight and a half. The heaviest it names: a thirty ton sculpture on the north wall."
 script.json:32:  "text": "The best known piece is the gate. A single slab, eighty one inches wide, ninety two tall, twenty one thick, turning on a central shaft that the form says uses an automobile axle. One finger moves it. The form calls it nine tons. In 1986 it stopped turning. Six men and a fifty ton crane lifted it out, a rusted truck bearing was replaced, and it was reset in July."
 script.json:40:  "text": "What tools did he have? The form says the castle displays his tools, made partly from old car parts: block and tackle, rollers, jacks, wedges, slings, cables, sledges and chisels. Old photographs show tall wooden tripods with chains hanging from the top, and a chain hoist. The castle's archive says no detailed record shows how the rigs were used."
 script.json:44:  "text": "What can that gear do? Take a ten ton block, twenty thousand pounds. A block and tackle with six rope segments cuts the pull to a sixth: about thirty three hundred pounds. Chain two sets together and it is six times six: about five hundred fifty. Add a five to one winch and it is near one hundred ten pounds, which one person can pull. The price is distance: for each foot of lift, one hundred eighty feet of rope. Small force, long time. This is ideal physics, no friction: what is possible, not what he did."
-script.json:52:  "text": "So what is not documented? In 1955, the castle's new owner collected more than two hundred fifty signed affidavits from local residents, saying Ed did the work alone with simple hand tools. That is a lot of people. But the form quotes no one who watched the largest blocks go up. So the belief is documented. The method of the biggest lifts is not."
-script.json:56:  "text": "Now his own words. Asked how, the form says, Ed always gave the same answer: that he understood the methods of the pyramid builders, and the laws of leverage and weight. That is a claim. We found no document where he describes his lifting method. He did publish pamphlets, in 1936 and 1945, including Magnetic Current, about his own ideas on magnets and electricity."
+script.json:52:  "text": "So what is not documented? In 1955, the castle's new owner collected more than two hundred fifty signed affidavits from local residents, saying a family friend did the work alone with simple hand tools. That is a lot of people. But the form quotes no one who watched the largest blocks go up. So the belief is documented. The method of the biggest lifts is not."
+script.json:56:  "text": "Now his own words. Asked how, the form says, a family friend always gave the same answer: that he understood the methods of the pyramid builders, and the laws of leverage and weight. That is a claim. We found no document where he describes his lifting method. He did publish pamphlets, in 1936 and 1945, including Magnetic Current, about his own ideas on magnets and electricity."
 script.json:60:  "text": "Then the popular theories. That he used sound to levitate the stone. That magnetism, as in his pamphlets, cancelled weight. That he had help from beyond Earth, an idea already circulating before the 1984 form. All three are not established. We found no measurement, recording, or physical trace for any of them, and the floating stone stories are secondhand. Absence of evidence is not proof of absence. So: not established, not impossible."
 script.json:64:  "text": "So here is the ledger. Documented: the dates, the form's weights, the move, the tools, the 1986 gate repair. Claimed: that he worked alone, that he knew the pyramid builders' methods, and the eleven hundred ton total. Not settled: the gate's true weight. Unknown: exactly how he raised and set the largest blocks alone."
 ep_body.py:59:    lines = ('coral castle:', 'one man,', '1,100 tons') if PORT else ('coral castle:', 'one man, 1,100 tons')
 ep_body.py:62:    mono(cv, HEAD[0], yy, 'the 1,100 is the castle\'s own figure: we check it', 24, DIM, ease((t - 1.5) / 1.0))
 ep_body.py:147:def sc_move(cv, t, p):
 ep_body.py:168:    rows = [('1936-40', 'accounts differ; about three years of moving', 0.25), ('1937', 'the 1984 NRHP form, section 7', 0.4), ('1939', 'inscribed on the obelisk: "Moved in 1939"', 0.55),
-ep_body.py:169:            ('truck', 'Bob Biggers\' truck, lent to Ed (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
+ep_body.py:169:            ('truck', 'Bob Biggers\' truck, lent to a family friend (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
 ep_body.py:177:def sc_weights(cv, t, p):
 ep_body.py:181:    items = [('Polaris sighting slab', 20, 0.12), ('each quarter moon', 18, 0.28), ('full moon fountain', 23, 0.4), ('obelisk', 28.5, 0.55), ('north-wall sculpture', 30, 0.78)]
 ep_body.py:197:def sc_total(cv, t, p):
@@ -1082,7 +1082,7 @@ ep_body.py:384:    ps = [('1936', 'A Book in Every Home', 0.62), ('Aug 1945', 'M
 ep_body.py:413:          ('CLAIMED', VIO, 'worked alone  /  pyramid builders\' methods  /  1,100 tons', 0.5),
 ep_body.py:414:          ('NOT SETTLED', ROSE, 'the gate\'s true weight', 0.7),
 ep_body.py:441:SOURCES = [
-ep_body.py:442:    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
+ep_body.py:442:    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
 ep_body.py:443:    'Wikipedia, "Coral Castle" and "Edward Leedskalnin" (read 2026-10-13): 1986 gate repair, 2005 failure, 1,100 short tons (figure unattributed)',
 ep_body.py:444:    'coralcastle.com, "The Secrets of Coral Castle" (1,100 tons); rockgatepark.com/the-tools (tool photographs; "no detailed records")',
 ep_body.py:447:    'Our arithmetic (gate volume, density, block and tackle, lever): standard formulas; calcite 2.71 and aragonite 2.93 g/cm3; 30% porosity is assumed']
@@ -1095,8 +1095,8 @@ ep_body.py:473:    ('s11', 'block and tackle', 'Ideal mechanical advantage = rop
 ep_body.py:475:    ('s13', 'what no one has documented', 'NRHP form 1984 quoting the 1955 affidavits', sc_affidavit),
 ep_body.py:476:    ('s14', 'what he said', 'NRHP form 1984 (paraphrase of his reply; pamphlet list)', sc_words),
 SOURCES.md:1:# Still Unknown 10.2 "Coral Castle: one man, 1,100 tons" - sources and flags (Claude Sonnet 5.5, 2026-10-13)
-SOURCES.md:6:NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed's Place)" / common name Coral Castle.
-SOURCES.md:12:- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "Ed Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
+SOURCES.md:6:NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend's Place)" / common name Coral Castle.
+SOURCES.md:12:- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "a family friend Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
 SOURCES.md:13:- Ten-acre tract on South Federal Highway. "He sought the aid of ... Bob Biggers ... All Edward Leedskalnin wanted from Mr. Biggers, however, was the use of his truck ... completed by Leedskalnin without any assistance ... worked alone and at night loading and unloading Biggers' truck."
 SOURCES.md:14:- Weights (lb, converted to short tons by us): Polaris slab 40,000 lb (20 t), 25 ft tall; each quarter moon 36,000 lb (18 t); full-moon fountain 46,000 lb (23 t); Mars and Saturn 36,000 lb; obelisk 57,000 lb (28.5 t); "thirty ton sculpture" crowning the north wall = heaviest oolitic block at Rock Gate; wall blocks 8 ft x 4 ft x 3 ft, "several tons". "Sculptures weighing up to 30 tons each".
 SOURCES.md:15:- Gate: "nine ton gate", 81 in wide, 92 in tall, 21 in thick; single pivot; central vertical shaft with an automobile axle connecting slab to ground and lintel; fits within 1/4 in; pushed open with one finger.
@@ -1109,7 +1109,7 @@ SOURCES.md:26:- coralcastle.com/home/the-secrets-of-coral-castle: "an astonishin
 SOURCES.md:27:- rockgatepark.com/the-tools: photographs of tripods/lifting frame; "no detailed records" of exact configuration, materials or procedures; no weights or dates.
 SOURCES.md:34:- Block and tackle: ideal MA = number of supporting rope segments. 20,000 lb / 6 = 3,333; / 36 = 556; / 180 = 111 lb; 180 ft of rope per 1 ft lift. Friction ignored (labelled). Lever 9:1: 100 lb x 9 ft = 900 lb x 1 ft.
 SOURCES.md:37:- Origin of the 1,100-ton figure NOT FOUND. Treated as a CLAIM with untraced source. (Search hints at Carroll Lake, Civil Engineering Magazine 1958, in the form's bibliography; not checked.)
-SOURCES.md:38:- Photographs: Florida Memory item 328424 ("Ed Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
+SOURCES.md:38:- Photographs: Florida Memory item 328424 ("a family friend Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
 
 codex
 The local inventory shows the central risk clearly: several statements accurately repeat the 1984 nomination, but “documented” sometimes overstates what that later form itself proves. I’m separating “the form says X” from “X is independently established,” especially for the move, solitary work, affidavits, and gate repair.
@@ -1137,7 +1137,7 @@ def sc_site(cv, t, p):
     else: px, py, pw, ph = x0 + 20, y0 + 20, 700, 420
     a = ease(t / 1.2)
     cv.outline((px, py, px + pw, py + ph), mix(CYAN, BG, a), 3)
-    mono(cv, px, py - 28, 'ED\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
+    mono(cv, px, py - 28, 'a family friend\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
     tw = ap(t, 's4', 0.45)
     cv.rect((px + 40, py + 40, px + 200, py + 190), mix(INK2, BG, tw)); cv.outline((px + 40, py + 40, px + 200, py + 190), mix(VIO, BG, tw), 2)
     cv.text((px + 120, py + 115), 'two-story tower', 'mono', 18, TXT, 'mm', tw)
@@ -1176,7 +1176,7 @@ def sc_move(cv, t, p):
     # date table
     ty = ly + (130 if L else 130)
     rows = [('1936-40', 'accounts differ; about three years of moving', 0.25), ('1937', 'the 1984 NRHP form, section 7', 0.4), ('1939', 'inscribed on the obelisk: "Moved in 1939"', 0.55),
-            ('truck', 'Bob Biggers\' truck, lent to Ed (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
+            ('truck', 'Bob Biggers\' truck, lent to a family friend (NRHP form)', 0.72), ('crew', 'worked alone, at night, loading and unloading (form)', 0.88)]
     for i, (k, v, f) in enumerate(rows):
         aa = ap(t, 's5', f); yy = ty + i * (62 if L else 100)
         if aa <= 0: continue
@@ -1388,7 +1388,7 @@ def sc_words(cv, t, p):
     qa = ap(t, 's14', 0.1)
     cv.rect((x0, y0 + 10, x0 + 5, y0 + (330 if L else 420)), mix(VIO, BG, qa))
     yy = cv.para(x0 + 30, y0 + 10, '"the methods used by the pyramid builders, the practical knowledge of the laws of leverage and weight"', 'light', 54 if L else 50, TXT, (x1 - x0 - 60) * (0.8 if L else 1), 1.2, 'l', qa)
-    mono(cv, x0 + 30, yy + 10, 'Ed\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
+    mono(cv, x0 + 30, yy + 10, 'a family friend\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
     py0 = y0 + (400 if L else 520)
     mono(cv, x0, py0, 'PAMPHLETS (he sold these)', 22, CYAN, ap(t, 's14', 0.55))
     ps = [('1936', 'A Book in Every Home', 0.62), ('Aug 1945', 'Magnetic Current', 0.76), ('Oct 1945', 'Mineral, Vegetable and Animal Life', 0.88)]
@@ -1449,7 +1449,7 @@ def sc_close(cv, t, p):
     if L: tripod(cv, 1560, 830, 380, 0.5 * a, 0.2 + 0.1 * math.sin(t * 0.5), math.sin(t * 0.6))
 
 SOURCES = [
-    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
+    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
     'Wikipedia, "Coral Castle" and "Edward Leedskalnin" (read 2026-10-13): 1986 gate repair, 2005 failure, 1,100 short tons (figure unattributed)',
     'coralcastle.com, "The Secrets of Coral Castle" (1,100 tons); rockgatepark.com/the-tools (tool photographs; "no detailed records")',
     'Photographs of the hoists exist: Florida Memory item 328424 (see it there). No photographs are used in this video; every picture is drawn.',
@@ -1550,12 +1550,12 @@ Sources: [official Coral Castle chronology](https://coralcastle.com/home/about-e
 
 | Claim | Status | Finding |
 |---|---|---|
-| Bob Biggers “lent his truck” | **WRONG / materially incomplete** | The nomination says Ed wanted the use of Biggers’s truck, but the castle’s fuller account says Bob came and pulled the loaded trailer between sites. He was therefore the hauling driver/operator, not merely a passive lender. |
-| Ed loaded and unloaded the stones alone and at night | **UNSURE** | This is what the nomination and later oral-history accounts say, but it is not demonstrated by a contemporary eyewitness record reviewed here. |
-| The move was completed “without any assistance” | **WRONG if read literally** | Bob’s transportation role is assistance. The defensible narrower claim is that Ed reportedly loaded and unloaded the trailer without Bob’s help. |
+| Bob Biggers “lent his truck” | **WRONG / materially incomplete** | The nomination says a family friend wanted the use of Biggers’s truck, but the castle’s fuller account says Bob came and pulled the loaded trailer between sites. He was therefore the hauling driver/operator, not merely a passive lender. |
+| a family friend loaded and unloaded the stones alone and at night | **UNSURE** | This is what the nomination and later oral-history accounts say, but it is not demonstrated by a contemporary eyewitness record reviewed here. |
+| The move was completed “without any assistance” | **WRONG if read literally** | Bob’s transportation role is assistance. The defensible narrower claim is that a family friend reportedly loaded and unloaded the trailer without Bob’s help. |
 | Bob Biggers was a local man/farmer | **CONFIRMED** | Consistent across the nomination and castle account. |
 
-Recommended wording: “Bob Biggers hauled the loaded trailer between sites; later accounts say Ed loaded and unloaded the stones alone, usually at night.”
+Recommended wording: “Bob Biggers hauled the loaded trailer between sites; later accounts say a family friend loaded and unloaded the stones alone, usually at night.”
 
 ### Gate repair
 
@@ -1618,7 +1618,7 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 | 20,000 ÷ 6 = 3,333 lb | **CONFIRMED** |
 | Two properly compounded 6:1 systems produce ideal 36:1 | **CONFIRMED conditionally** | They must actually be cascaded so one system pulls the other; merely placing two tackle sets together does not automatically multiply them. |
 | 20,000 ÷ 36 ≈556 lb | **CONFIRMED** |
-| Adding an ideal 5:1 winch gives total 180:1 and ≈111 lb input | **CONFIRMED conditionally** | This is an ideal speed/force-ratio example, not evidence about Ed’s equipment. |
+| Adding an ideal 5:1 winch gives total 180:1 and ≈111 lb input | **CONFIRMED conditionally** | This is an ideal speed/force-ratio example, not evidence about a family friend’s equipment. |
 | “Which one person can pull” | **UNSURE** | A 111-pound sustained pull is substantial; friction, rope stiffness, sheave losses, startup loads, structure stability, and safety margins could raise it greatly. |
 | “180 ft of rope per 1 ft lift” after adding the winch | **WRONG** | The 36:1 tackle requires roughly 36 feet of tackle-rope travel per foot of lift. A 5:1 winch makes the operator’s handle/input travel roughly five times the drum-rope travel—about 180 feet of equivalent input motion—not 180 feet of rope hauled through the tackle. [Pulley-system explanation](https://www.cmcpro.com/pulleys-and-mechanical-advantage-systems/) |
 | Friction is ignored | **CONFIRMED and properly disclosed** |
@@ -1655,12 +1655,12 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 | **s13:** Over 250 affidavits were collected in 1955 | **CONFIRMED** |
 | Julius Levin collected them | **CONFIRMED** | The nomination’s pronoun refers back to Levin. |
 | Levin was the then owner, having purchased in 1953 | **CONFIRMED by the nomination** |
-| Affiants were Homestead-area residents acquainted with Ed | **CONFIRMED** |
+| Affiants were Homestead-area residents acquainted with a family friend | **CONFIRMED** |
 | Affidavits said he worked without other individuals and with simple hand tools | **CONFIRMED as their sworn wording** |
 | They were notarized by Bodil K. Lowe | **CONFIRMED** |
 | The nomination quotes no named witness to a specific largest-block lift | **CONFIRMED** |
 | The affidavits prove every large lift was solo | **UNSURE** | Their generic form language does not identify which work each signer personally observed. |
-| **s14:** “Pyramid builders” and “laws of leverage and weight” | **CONFIRMED as the nomination’s paraphrase** | Correctly not presented as a verbatim Ed quotation. |
+| **s14:** “Pyramid builders” and “laws of leverage and weight” | **CONFIRMED as the nomination’s paraphrase** | Correctly not presented as a verbatim a family friend quotation. |
 | No Leedskalnin-authored document describes the lifting process | **CONFIRMED within the reviewed writings** |
 | *A Book in Every Home* — 1936 | **CONFIRMED** |
 | *Magnetic Current* — August 1945, Franklin Press | **CONFIRMED** | The surviving text itself says copyright August 1945. [Text](https://www.leedskalnin.com/Leedskalnins-Writings-MAGNETIC-CURRENT.html) |
@@ -1687,7 +1687,7 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 
 - **CONFIRMED:** Nomination prepared by Maria Temkin and Michael Zimny on April 2, 1984; listed May 10, 1984; reference 84000840. The 2011 correspondence requests and supports changing the official name from Rock Gate to Coral Castle. [NPS record](https://npgallery.nps.gov/AssetDetail/1ed2ccd0-b692-42dc-b28d-1227c1a23407/)
 
-- **CONFIRMED:** The nomination title fields read historic “Rock Gate (Ed’s Place)” and common “Coral Castle.”
+- **CONFIRMED:** The nomination title fields read historic “Rock Gate (a family friend’s Place)” and common “Coral Castle.”
 
 - **WRONG:** “Wikipedia … 1986 repair, 2005 failure” on the end card makes Wikipedia look like adequate verification. Its exact July-date citation is merely a 2006 YouTube upload, and the 2005 sentence has no separate citation.
 
@@ -1745,12 +1745,12 @@ Sources: [official Coral Castle chronology](https://coralcastle.com/home/about-e
 
 | Claim | Status | Finding |
 |---|---|---|
-| Bob Biggers “lent his truck” | **WRONG / materially incomplete** | The nomination says Ed wanted the use of Biggers’s truck, but the castle’s fuller account says Bob came and pulled the loaded trailer between sites. He was therefore the hauling driver/operator, not merely a passive lender. |
-| Ed loaded and unloaded the stones alone and at night | **UNSURE** | This is what the nomination and later oral-history accounts say, but it is not demonstrated by a contemporary eyewitness record reviewed here. |
-| The move was completed “without any assistance” | **WRONG if read literally** | Bob’s transportation role is assistance. The defensible narrower claim is that Ed reportedly loaded and unloaded the trailer without Bob’s help. |
+| Bob Biggers “lent his truck” | **WRONG / materially incomplete** | The nomination says a family friend wanted the use of Biggers’s truck, but the castle’s fuller account says Bob came and pulled the loaded trailer between sites. He was therefore the hauling driver/operator, not merely a passive lender. |
+| a family friend loaded and unloaded the stones alone and at night | **UNSURE** | This is what the nomination and later oral-history accounts say, but it is not demonstrated by a contemporary eyewitness record reviewed here. |
+| The move was completed “without any assistance” | **WRONG if read literally** | Bob’s transportation role is assistance. The defensible narrower claim is that a family friend reportedly loaded and unloaded the trailer without Bob’s help. |
 | Bob Biggers was a local man/farmer | **CONFIRMED** | Consistent across the nomination and castle account. |
 
-Recommended wording: “Bob Biggers hauled the loaded trailer between sites; later accounts say Ed loaded and unloaded the stones alone, usually at night.”
+Recommended wording: “Bob Biggers hauled the loaded trailer between sites; later accounts say a family friend loaded and unloaded the stones alone, usually at night.”
 
 ### Gate repair
 
@@ -1813,7 +1813,7 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 | 20,000 ÷ 6 = 3,333 lb | **CONFIRMED** |
 | Two properly compounded 6:1 systems produce ideal 36:1 | **CONFIRMED conditionally** | They must actually be cascaded so one system pulls the other; merely placing two tackle sets together does not automatically multiply them. |
 | 20,000 ÷ 36 ≈556 lb | **CONFIRMED** |
-| Adding an ideal 5:1 winch gives total 180:1 and ≈111 lb input | **CONFIRMED conditionally** | This is an ideal speed/force-ratio example, not evidence about Ed’s equipment. |
+| Adding an ideal 5:1 winch gives total 180:1 and ≈111 lb input | **CONFIRMED conditionally** | This is an ideal speed/force-ratio example, not evidence about a family friend’s equipment. |
 | “Which one person can pull” | **UNSURE** | A 111-pound sustained pull is substantial; friction, rope stiffness, sheave losses, startup loads, structure stability, and safety margins could raise it greatly. |
 | “180 ft of rope per 1 ft lift” after adding the winch | **WRONG** | The 36:1 tackle requires roughly 36 feet of tackle-rope travel per foot of lift. A 5:1 winch makes the operator’s handle/input travel roughly five times the drum-rope travel—about 180 feet of equivalent input motion—not 180 feet of rope hauled through the tackle. [Pulley-system explanation](https://www.cmcpro.com/pulleys-and-mechanical-advantage-systems/) |
 | Friction is ignored | **CONFIRMED and properly disclosed** |
@@ -1850,12 +1850,12 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 | **s13:** Over 250 affidavits were collected in 1955 | **CONFIRMED** |
 | Julius Levin collected them | **CONFIRMED** | The nomination’s pronoun refers back to Levin. |
 | Levin was the then owner, having purchased in 1953 | **CONFIRMED by the nomination** |
-| Affiants were Homestead-area residents acquainted with Ed | **CONFIRMED** |
+| Affiants were Homestead-area residents acquainted with a family friend | **CONFIRMED** |
 | Affidavits said he worked without other individuals and with simple hand tools | **CONFIRMED as their sworn wording** |
 | They were notarized by Bodil K. Lowe | **CONFIRMED** |
 | The nomination quotes no named witness to a specific largest-block lift | **CONFIRMED** |
 | The affidavits prove every large lift was solo | **UNSURE** | Their generic form language does not identify which work each signer personally observed. |
-| **s14:** “Pyramid builders” and “laws of leverage and weight” | **CONFIRMED as the nomination’s paraphrase** | Correctly not presented as a verbatim Ed quotation. |
+| **s14:** “Pyramid builders” and “laws of leverage and weight” | **CONFIRMED as the nomination’s paraphrase** | Correctly not presented as a verbatim a family friend quotation. |
 | No Leedskalnin-authored document describes the lifting process | **CONFIRMED within the reviewed writings** |
 | *A Book in Every Home* — 1936 | **CONFIRMED** |
 | *Magnetic Current* — August 1945, Franklin Press | **CONFIRMED** | The surviving text itself says copyright August 1945. [Text](https://www.leedskalnin.com/Leedskalnins-Writings-MAGNETIC-CURRENT.html) |
@@ -1882,7 +1882,7 @@ Best conclusion: **Carroll A. Lake is the earliest quantitative lead located—�
 
 - **CONFIRMED:** Nomination prepared by Maria Temkin and Michael Zimny on April 2, 1984; listed May 10, 1984; reference 84000840. The 2011 correspondence requests and supports changing the official name from Rock Gate to Coral Castle. [NPS record](https://npgallery.nps.gov/AssetDetail/1ed2ccd0-b692-42dc-b28d-1227c1a23407/)
 
-- **CONFIRMED:** The nomination title fields read historic “Rock Gate (Ed’s Place)” and common “Coral Castle.”
+- **CONFIRMED:** The nomination title fields read historic “Rock Gate (a family friend’s Place)” and common “Coral Castle.”
 
 - **WRONG:** “Wikipedia … 1986 repair, 2005 failure” on the end card makes Wikipedia look like adequate verification. Its exact July-date citation is merely a 2006 YouTube upload, and the 2005 sentence has no separate citation.
 

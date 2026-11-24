@@ -1,0 +1,17 @@
+{
+ "when": "2026-11-23T20:58:37.413Z",
+ "model": "gpt-6.2-astra",
+ "tokens": 45570,
+ "gradedTriesReported": 1,
+ "sizes": {
+  "3": 9,
+  "4": 20,
+  "5": 45,
+  "6": 112,
+  "7": 236,
+  "8": 512
+ },
+ "grade": 6,
+ "chars": 733,
+ "note": "Astra says it translated the published FunSearch 512-card construction (Nature 2023, figure 4) into the recipe language; re-graded here by the same exact checker"
+}

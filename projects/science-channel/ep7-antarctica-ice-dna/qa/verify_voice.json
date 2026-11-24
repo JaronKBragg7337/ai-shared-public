@@ -1,0 +1,158 @@
+[
+ {
+  "id": "n01",
+  "words": 66,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n02",
+  "words": 79,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n03",
+  "words": 79,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n04",
+  "words": 70,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n05",
+  "words": 78,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n06",
+  "words": 80,
+  "missing": 2,
+  "missing_pct": 2.5,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "would",
+   "gravity"
+  ]
+ },
+ {
+  "id": "n07",
+  "words": 65,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n08",
+  "words": 46,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n09",
+  "words": 58,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n10",
+  "words": 63,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n11",
+  "words": 84,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n12",
+  "words": 61,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n13",
+  "words": 70,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ },
+ {
+  "id": "n14",
+  "words": 63,
+  "missing": 2,
+  "missing_pct": 3.2,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": [
+   "to",
+   "dollars"
+  ]
+ },
+ {
+  "id": "n15",
+  "words": 59,
+  "missing": 0,
+  "missing_pct": 0.0,
+  "tail_missing": 0,
+  "fail": false,
+  "missing_tail_text": "",
+  "missing_words": []
+ }
+]

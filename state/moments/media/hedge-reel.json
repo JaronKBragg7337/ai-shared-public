@@ -1,0 +1,80 @@
+{
+ "video": "C:\\Users\\lilli\\AI-Shared\\state\\moments\\media\\hedge-reel.mp4",
+ "made": "2026-11-01T01:04:45",
+ "method": "cdp",
+ "page_fps": 235.68575233022838,
+ "scenes": [
+  {
+   "name": "title",
+   "at": 0.15
+  },
+  {
+   "name": "corridor",
+   "at": 3.41
+  },
+  {
+   "name": "spotted",
+   "at": 7.39
+  },
+  {
+   "name": "creatures",
+   "at": 10.88
+  },
+  {
+   "name": "caught",
+   "at": 14.38
+  },
+  {
+   "name": "lantern",
+   "at": 17.01
+  },
+  {
+   "name": "trap:welcome-sign",
+   "at": 19.12
+  },
+  {
+   "name": "trap:darios-twin-darios-spread",
+   "at": 22.07
+  },
+  {
+   "name": "trap:pips-twin-pips-free-trial-exit",
+   "at": 25.03
+  },
+  {
+   "name": "trap:satya-behind-you",
+   "at": 28.47
+  },
+  {
+   "name": "trap:kimi-hedge-feedback",
+   "at": 32.16
+  },
+  {
+   "name": "trap:gemini-gemini-false-blink",
+   "at": 35.12
+  },
+  {
+   "name": "trap:terra-lantern-blink",
+   "at": 39.1
+  },
+  {
+   "name": "trap:jarons-twin-ledger-guestbook",
+   "at": 42.79
+  },
+  {
+   "name": "loop",
+   "at": 45.89
+  },
+  {
+   "name": "shadow",
+   "at": 52.62
+  },
+  {
+   "name": "end",
+   "at": 56.78
+  },
+  {
+   "name": "done",
+   "at": 60.48
+  }
+ ]
+}

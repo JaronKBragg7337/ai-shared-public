@@ -125,8 +125,8 @@ def caps(env, slug, cost):
             pass
         if not lifted:
             out.append(("tennis cap while tennis learns", setting("tennis_max_size_usd", 5.0)))
-    if "-btc-" in slug or "bitcoin" in slug:   # Darios Twin's BTC trend test (Jaron's yes 2026-10-02): small while it learns
-        out.append(("BTC trend test cap", setting("btc_max_size_usd", 1.0)))
+    # 2026-10-22: the $1 BTC trend-test cap (btc_max_size_usd) is retired. Crypto is now sized by the crew lane: each bot's own
+    # cap (crypto_bot_caps) and the shared open-risk limit (crypto_max_open_usd), both enforced by tools/crypto_decide.py.
     if cost < setting("longshot_price", 0.10):
         out.append((f"long shot under {setting('longshot_price', 0.10):.2f}", setting("longshot_max_size_usd", 2.0)))
     return out
@@ -143,6 +143,8 @@ def main():
     ap.add_argument("--p", type=float, default=None, help="your own probability for the side, 0-1, if you have one")
     ap.add_argument("--max-size", type=float, default=setting("desk_max_size_usd", 10.0))
     ap.add_argument("--exit", action="store_true", help="SELL this side (close) instead of buying")
+    ap.add_argument("--target", type=float, default=None,
+                    help="with --exit: an auto-sell target (price of YOUR side, 0-1). The sell rests on the book and fills by itself if the price gets there (Polymarket's 'Auto sell if you're up')")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
 
@@ -243,6 +245,9 @@ def main():
         # the minimum you accept (his 0.30 filled at the 0.40 bid). SELL_SHORT is economically a
         # buy-back of YES, so its limit is the most you will pay: the YES ask.
         px = bid if a.side == "yes" else ask
+        if a.target:   # 10/23 (Jaron): resting auto-sell - the order waits at the target instead of selling at today's price
+            if not 0.01 <= a.target <= 0.99: raise SystemExit("refused: --target must be between 0.01 and 0.99")
+            px = a.target if a.side == "yes" else round(1 - a.target, 2)
         # Never sell more than we hold: an exit sized in dollars once sold past zero and flipped a $5 NO into a ~$65 YES
         # (Darios Twin, 2026-10-02). Cap the quantity to the shares held on that side; refuse if nothing is held there.
         held = float(((mcp.call("polymarket_positions", {}).get("positions") or {}).get(a.slug) or {}).get("netPositionDecimal") or 0)

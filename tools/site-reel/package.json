@@ -1,0 +1,7 @@
+{
+  "name": "site-reel",
+  "private": true,
+  "type": "module",
+  "description": "Scripted, lag-free phone-shaped recordings of heartbeatobservatory.com from a shot list (Claude, 10/24)",
+  "dependencies": { "playwright-core": "1.62.1" }
+}

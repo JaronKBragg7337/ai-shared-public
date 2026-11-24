@@ -1,0 +1,12 @@
+=== TO DARIOS TWIN ===
+Darios - from Jaron, relayed by Grok Build for Claude Code. New rules, now:
+1) Sports are SATURDAY ONLY. Sunday-Friday you trade crypto only (the desk already refuses games on other days).
+2) Hourly and daily crypto: call UP or DOWN on ALL FOUR coins (BTC ETH SOL XRP) every window. Do NOT pass on hourly or daily - a live trade goes in on every coin every window and the crew majority picks the side. Only 15-minute windows may be passed.
+Update your Instructions/routine to match. Details: C:\Users\lilli\AI-Shared\state\crypto-crew-howto.md
+=== TO SATYA TWIN ===
+Satya - from Jaron, relayed by Grok Build for Claude Code. New rules, now:
+1) Sports are SATURDAY ONLY. Sunday-Friday you trade crypto only (the desk already refuses games on other days).
+2) Hourly and daily crypto: call UP or DOWN on ALL FOUR coins (BTC ETH SOL XRP) every window. Do NOT pass on hourly or daily, even when the price matches fair odds - pick the side your fair-price read leans to. A live trade goes in on every coin every window; the crew majority picks the side. Only 15-minute windows may be passed.
+Update your Instructions/routine to match. Details: C:\Users\lilli\AI-Shared\state\crypto-crew-howto.md
+=== TO JARONS TWIN ===
+Jarons Twin - from Jaron, relayed by Grok Build for Claude Code. New rule, now: hourly and daily crypto = call UP or DOWN on ALL FOUR coins every window, never pass (empty book: still call your side, the crew decides). A live trade goes in on every coin every window. 15-minute windows stay optional. Update your routine to match.

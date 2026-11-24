@@ -1,0 +1,3 @@
+The most likely answer is that the radio is playing an instrumental version, and one coworker knows the song so well that their mind fills in the lyrics. The other doesn't know the words, so they hear only the music. The sound reaching both is identical, but what each "hears" differs.
+
+This riddle has no single agreed answer. If you want a purely physical one, some older stereo recordings put the vocals entirely in one channel, so a listener who is deaf in one ear and sitting right next to one speaker could miss most of the vocals.

@@ -1,0 +1,39 @@
+no scheduled event soon (next: FOMC rate decision on Oct 28, 4 days)
+Latest crypto headlines:
+  - no crypto headlines in the last 6 h
+ETF flows:
+  - Ethereum ETFs Have Lost $1.1 Billion in Three Weeks. What Would Bring Buyers Back? (10 h ago)
+  - Ethereum Drops 4.4% Amid ETF Outflows, Technical Breakdown (12 h ago)
+
+BTC  Kraken 80,829.1000 | blended 80,831.3050 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.02% | last 15 min -0.09% | 1-min volatility 0.020%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $147k vs sells $166k (47% buy) -> balanced | biggest print buy $50k on Kraken
+  futures: funding +0.0010%/h, longs paying shorts (crowd leans UP) | open interest 2,677 (-0.00% since 03:37 UTC)
+  options: implied volatility 38.0% a year (Deribit DVOL) = about 0.052% per minute
+  books within 0.2% (Coinbase+Kraken): buyers $17,519,386 vs sellers $17,675,398 -> 50% buy side | biggest: Kraken sell wall $1,213,653 at 80,899.4000
+   1h  11:00 PM ET-12:00 AM ET    21 min left  +0.038% vs open 80,800.5000 -> UP so far | fair chance Up 66% (options-implied: 56%)
+        Up bid 0.5800 / ask 0.5900 | Down costs 0.42 | depth bid 39 / ask 33   cpc-btc-updown-1h-2026-10-25-0300z
+
+ETH  Kraken 2,361.4800 | blended 2,361.4100 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.02% | last 15 min -0.14% | 1-min volatility 0.036%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $18k vs sells $10k (64% buy) -> real money BUYING | biggest print sell $2,243 on Coinbase
+  futures: funding +0.0013%/h, longs paying shorts (crowd leans UP) | open interest 29,216 (-0.00% since 03:37 UTC)
+  options: implied volatility 53.0% a year (Deribit DVOL) = about 0.073% per minute
+  books within 0.2% (Coinbase+Kraken): buyers $7,561,538 vs sellers $7,223,864 -> 51% buy side | biggest: Kraken sell wall $749,999 at 2,365.5700
+   1h  11:00 PM ET-12:00 AM ET    21 min left  -0.052% vs open 2,362.6300 -> DOWN so far | fair chance Up 38% (options-implied: 44%)
+        Up bid 0.2700 / ask 0.2900 | Down costs 0.73 | depth bid 15 / ask 23   cpceth-eth-updown-1h-2026-10-25-0300z
+        >>> POLY LAGS: spot says Up 44%, Poly asks 0.29 for Up -> 15c gap (Up looks cheap)
+
+SOL  Kraken 102.3300 | blended 102.3250 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.07% | last 15 min -0.18% | 1-min volatility 0.035%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $4,869 vs sells $4,410 (52% buy) -> balanced | biggest print sell $3,228 on Coinbase
+  futures: funding -0.0003%/h, shorts paying longs (crowd leans DOWN) | open interest 213,916 (+0.00% since 03:37 UTC)
+  books within 0.2% (Coinbase+Kraken): buyers $2,817,399 vs sellers $2,411,710 -> 54% buy side | biggest: Kraken sell wall $303,847 at 102.4900
+   1h  11:00 PM ET-12:00 AM ET    21 min left  +0.005% vs open 102.3200 -> UP so far | fair chance Up 51%
+        Up bid 0.5000 / ask 0.5700 | Down costs 0.5 | depth bid 10 / ask 14   cpcsol-sol-updown-1h-2026-10-25-0300z
+
+XRP  Kraken 1.3099 | blended 1.3099 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.11% | last 15 min -0.01% | 1-min volatility 0.056%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $6,290 vs sells $3,187 (66% buy) -> real money BUYING | biggest print buy $2,352 on Coinbase
+  futures: funding +0.0015%/h, longs paying shorts (crowd leans UP) | open interest 18,238,202 (+0.02% since 03:37 UTC)
+  books within 0.2% (Coinbase+Kraken): buyers $2,117,651 vs sellers $1,863,194 -> 53% buy side | biggest: Coinbase sell wall $139,690 at 1.3124
+   1h  11:00 PM ET-12:00 AM ET    21 min left  -0.007% vs open 1.3100 -> DOWN so far | fair chance Up 49%
+        Up bid 0.4100 / ask 0.4400 | Down costs 0.59 | depth bid 9 / ask 20   cpcxrp-xrp-updown-1h-2026-10-25-0300z
+
+Settles on CF Benchmarks real-time index; Kraken shown here as a close stand-in. Read only.

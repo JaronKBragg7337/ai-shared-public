@@ -1,4 +1,4 @@
-# What's next - Heartbeat Observatory (Jaron asked 2026-09-28 11:20 PM: "the other future updates and upgrades talked
+# [10/23 note: written 9/28-10/2; the FOCUS and 'next week' blocks below are past. Current focus is in AGENTS.md. 'Jaron's call' lines are decisions Jaron voiced on those dates.] What's next - Heartbeat Observatory (Jaron asked 2026-09-28 11:20 PM: "the other future updates and upgrades talked
 # about... so I have them fresh as memory knowing what to order things in"). Suggested order; he reorders. Keep this current.
 
 ## FOCUS 10/1 - 10/7 (Jaron): the space game. Shows and movies PAUSED; only the daily news keeps running this week.
@@ -38,7 +38,7 @@ World 2 might be removed. Cursor $60 plan: deciding after a week of data (can th
    settled profit per day/week/month next to active days. Add each meter reading to state/grok-usage.md.
 10. Self-paying AI system (projects/ai-budget/PLAN.md): step 1 measuring now (weekly report); step 2 recommends plans in Nov; step 3 pays + switches by late Dec.
 11. Fortitude Fund (P14) application + video - Elons Twin's push this week; find out what its "one move" for Jaron is.
-12. Darios Twin: losing trades exit at 1-7c (nearly the whole stake). Watch; change the rule only with evidence.
+12. Darios Twin: losing trades exit at 1-7c (nearly the whole stake). Watch. ('Change the rule only with evidence' was Claude's note, not a Jaron rule.)
 
 ## Paused - kept, not dropped
 13. The fly brain (the seed for AI from a fly) - paused since 9/21.

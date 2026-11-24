@@ -1,0 +1,1 @@
+They could each be wearing one earbud connected to the same stereo radio. If the song is mixed with vocals in the left channel and only instruments in the right, they’d hear different versions at the same volume.

@@ -1,0 +1,1 @@
+The song could be a high soprano voice over a low bass line. If the singer’s voice is above one coworker’s hearing range, they hear only the bass. The other coworker hears both.

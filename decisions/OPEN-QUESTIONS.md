@@ -41,8 +41,8 @@ change, or unresolved choice belongs to me."*
 - **Resulting action:** `Paper Sync` and `OpenClaw Paper Gateway` tasks stopped and DISABLED by Claude Code 2026-09-11 01:3x. Re-enable with `Enable-ScheduledTask` when paper matters again.
 - **Evidence:** Both agents use qwen3.5:4b at 127.0.0.1:11434. Separate OpenClaw profiles do not isolate model compute or request queues. A continuous paper loop can contend with live requests.
 - **Question:** Allow shared inference capacity for this rehearsal, or require separate compute before it starts?
-- **Answer:** —
-- **Resulting action:** Paper Sync registered and verified independently; autonomous paper loop remains off. See handoffs/2026-09-10-codex-paper-sync-and-compute-boundary.md.
+- **Answer:** "Paper trading can definitely be paused." (Jaron 2026-09-11, see Status; entry sits under OPEN only to keep its number stable.)
+- **Resulting action (earlier, superseded by the pause above):** Paper Sync registered and verified independently; autonomous paper loop remains off. See handoffs/2026-09-10-codex-paper-sync-and-compute-boundary.md.
 
 ### Q-004 — Should `AI-Shared` be a git repo with a private remote?
 - **Asked by:** Claude Code (revenue-desk session) · **2026-09-09**
@@ -61,7 +61,8 @@ change, or unresolved choice belongs to me."*
 - **What this changes:** the secret risk that made this question feel heavier is now handled in
   advance, so a **private** repo is safe to create whenever you want one. Note also that
   "GitHub is public" is not true here — `revenue-desk` is already a private repo of yours.
-- **Status:** **DEFERRED by Jaron, 2026-09-09 — revisit ~2026-09-30**
+- **Status (stale-sweep 2026-10-21):** **DONE 2026-10-21** per state/timeline.md: "2026-10-21 12:10 AI-Shared is now a PRIVATE GitHub repo (JaronKBragg7337/ai-shared): text+code only ... key scan clean" and "2026-10-21 15:12 PUBLIC: github.com/JaronKBragg7337/ai-shared-public (2,116 files, cleaned ...)". Jaron's exact words on the change are not in the timeline; the earlier DEFERRED answer below is history. Marked here by action, not inferred from his silence.
+- **Earlier status:** **DEFERRED by Jaron, 2026-09-09 — revisit ~2026-09-30**
 - **Answer (Jaron):** *"This becoming a repo is only useful if the systems all prove to end up
   actually doing what they are intended to do and actually can bring in revenue. Even if one
   fails making money themselves it's not about that — it's that they also do research for Qwen
@@ -114,6 +115,7 @@ change, or unresolved choice belongs to me."*
   uses now, no ID needed: Chime, Uphold, Kraken, X Money, Robinhood, PayPal, Crypto.com. Cash App is not a rail. So PayPal (this
   question's original subject) is open whenever he wants it; Kraken lane needs only a fresh API key; a Base USDC receive address
   can come from Kraken/Crypto.com/Uphold deposit screens. Stripe and Coinbase remain the two that wait on the replacement ID.
+- **2026-10-11 (timeline 23:35):** "Jaron: Stripe/PayPal off the table until ID arrives (court mail) - tips via X Money handle + wallet addresses instead." 2026-10-13 (timeline 22:41): court mail arrived, "unblocks replacement ID". Still OPEN: no rail chosen.
 - **Answer:** — (not yet; see status)
 - **Resulting action:** —
 
@@ -244,6 +246,8 @@ keep the site current. Claude Code and Codex build the harness; they never press
   apps. Not checked: the Commercial Terms that govern API use, which are a different contract. Open edge, not a decision: the same
   sentence also names 'receive advice about ... derivatives', which touches Claude research that feeds a trade. Jaron's call how to read it.
 
+- **UPDATE 2026-10-21 (stale-sweep):** AGENTS.md now says "Any AI may trade if its own provider allows it; Claude and Codex may trade long/medium-term positions with Jaron's approval step (decided 10/7); short-term stays with Grok Bot." The line above ("OpenAI and Anthropic products never trade") and the `desk-trade.py` refusal for claude/codex/chatgpt are the 9/12 version.
+
 ### Q-014 — Qwen's role
 - **Asked by:** Claude Code · **2026-09-10** (TODO #2)
 - **Type:** OWNER DECISION
@@ -253,6 +257,7 @@ keep the site current. Claude Code and Codex build the harness; they never press
   that may touch money. So the older "not meant to touch money" quote and today's statement disagree; flagged here, not resolved.
   Fact for the decision: the Qwen agent has not taken a turn since 2026-09-10 and has never placed a trade. The 560k "qwen"
   rows in Supabase were the Polymarket MCP's call log, not Qwen (see WHEN-IT-BREAKS.md).
+- **2026-10-21, Jaron:** "I'm not sure. Some projects qwen produces no answers or off the wall answers then other times qwen works so it's complicated." Meanwhile nothing changes: Qwen keeps its nightly news capture + test-subject role. Don't re-ask until there's new data on where it works.
 - **Status:** **OPEN**
 - **Answer:** —
 
@@ -411,6 +416,7 @@ keep the site current. Claude Code and Codex build the harness; they never press
   later: drop back to Free once the DB is under 0.5 GB.
 - **Until then:** Live Wire trades normally; receipts pile up in state/desk-trail-offline.jsonl; the public trades page and the
   approved lane are stale; fly school and Qwen bridge stay off.
+- **Status:** **DONE 2026-09-23** (listed under OPEN only to keep numbering stable).
 - **Answer (Jaron):** decided as above.
 - **Resulting action:** DONE 2026-09-23. Jaron upgraded to Pro (spend cap ON) at ~17:04 ET, then set disk 2 GB -> 8 GB and compute
   Nano -> Micro (free under Pro's $10 compute credit), both +$0.00. Database back at ~17:15 after a 133 s restart. Claude Code then:
@@ -471,7 +477,7 @@ don't delete it.
   that now follows it. One thing does not: `desk_owners` (trade desk and revenue pages, and the database rules on trade_proposals /
   desk_decisions) is Jaron's main account only. It controls money, so it was left alone.
 - **Question:** Should Jaron's second account and his partner be desk owners too? If yes, it is one insert per account; nothing else changes.
-- **Status:** OPEN.
+- **Status:** SUPERSEDED - answered in the next entry (2026-09-24: not needed).
 
 ### Q-024 — Add Jaron's 2nd account and his partner to desk_owners? — ANSWERED 2026-09-24: not needed
 desk_owners controls only (a) approving/declining trade proposals - dead since the queue was retired (Q-023) - and (b) the Revenue
@@ -519,3 +525,17 @@ Desk's approve list (desk_decisions). Left as Jaron's main account only.
   Supabase $25, Cursor $6; today's bills ~$101/mo). Nearest thing found: his paycheck habit (bills first, some to Uphold, the
   rest to X) - personal, not this plan.
 - **ANSWERED 2026-10-19 7:12 AM:** bills = Claude $100, Codex $20, Grok $30, Kimi $39, Supabase $25 ($214/mo) + DeepSeek API credits. Split 50/30/20 agreed. For now his 20% is NOT withdrawn: long-term, bills, or stays in Polymarket. Rows: Control Room `monthly_bills_usd`, `profit_split`.
+
+## Q-027 (10/28 10:08 AM) Does P-0112 (no earning from someone else's loss) cover crypto trading too?
+Jaron: "I'm honestly not sure yet." Polymarket is down. Crypto (Grok bots, twin paper trading) stays as it is until he answers. Don't infer an answer.
+His thinking (10/28 10:11 AM): Polymarket felt like gambling and he almost felt addicted to it, which told him others on the other side may be. Stocks, crypto and Kraken give him "peace of mind": the other side is usually better off, so their loss hurts less (he admits "it's still fucked up"). A possible line to test (Claude's, not decided): earn from value that grows (holding long-term) vs from fast win/lose bets.
+More (10:13 AM): he sees crypto as a bet on the future digital money rails, and thinks the current financial system can't continue as it is. Holding for the rails fits "value that grows". The open part is still the bots' short-term crypto trades.
+Stablecoins and ETFs (10:14 AM): fine for the company, where they can be useful, but he personally thinks they're silly and that they "screwed people" as personal investments.
+
+## Q-028 (10/28 4:12 PM) The creature: what happens after 3 days without deep sleep, food or water?
+Jaron is split (part uneasy, part "do it and see the data"). Options in projects/strategy/CREATURE-NEEDS.md: weak / sick and forgets / hibernation / death in its world with the record archived. His call. Don't infer it.
+
+## Q-029 (10/28 4:42 PM) Is the creature private or public?
+He asked to protect it (4:13 PM), then sensed a later want might need it public like everything else. "I'm not deciding now." Until he decides: files stay out of the public export (easy to undo, since nothing was ever published).
+
+- **[OPEN, 2026-11-19 10:58 PM] Is Sapling an AI for other people, or a Heartbeat Observatory-only independent thing?** Jaron: "that is a very big decision to make so I'm not really sure on it yet." Do not answer for him.

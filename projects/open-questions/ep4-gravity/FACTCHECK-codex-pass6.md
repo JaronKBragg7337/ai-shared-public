@@ -1,0 +1,5 @@
+**s9 — substantively out of date.** The script stops at Saad and Ting’s 2025 result, but by October 2026, Chae and Yoon had reported a similar wide-binary anomaly, while Saad and Ting had published a follow-up finding that the anomaly is sensitive to orbital modeling. That follow-up materially qualifies their earlier result. **Correction:** Add a brief 2026 update noting those conflicting findings and that the wide-binary evidence remains disputed. [Chae & Yoon, 2026](https://arxiv.org/abs/2607.14450), [Saad & Ting, 2026](https://astro.theoj.org/article/172194-high-precision-differential-radial-velocities-of-c3po-wide-binaries-a-test-of-modified-newtonian-dynamics-mond)
+
+I found no other substantive errors or uncertainties on this re-check.
+
+**Verdict: NOT PASS — update s9 for the 2026 results.**

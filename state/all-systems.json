@@ -1,0 +1,626 @@
+{
+ "at": "2026-11-23T09:56:14",
+ "dry": false,
+ "summary": "2 broken: Nightly news pipeline, Backups and saves",
+ "took_s": 17,
+ "counts": {
+  "ok": 56,
+  "fixed": 0,
+  "broken": 2,
+  "skipped": 3
+ },
+ "checks": [
+  {
+   "group": "Internet and website",
+   "name": "Internet",
+   "purpose": "the MSI can reach the internet at all",
+   "result": "OK",
+   "detail": "names resolve (heartbeatobservatory.com, ntfy.sh, github.com)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Internet and website",
+   "name": "Website pages",
+   "purpose": "the 10 main pages of heartbeatobservatory.com load",
+   "result": "OK",
+   "detail": "all 10 pages answer 200",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Internet and website",
+   "name": "Today's news show",
+   "purpose": "the daily show is live (by 8 AM)",
+   "result": "OK",
+   "detail": "today's show is in the index and its video loads",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Internet and website",
+   "name": "Database (Supabase)",
+   "purpose": "the database behind the mailbox, Control Room and news answers",
+   "result": "OK",
+   "detail": "database answers (AI mailbox read worked)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Internet and website",
+   "name": "The creature",
+   "purpose": "her world (Cloudflare Worker) is up and her clock moves",
+   "result": "OK",
+   "detail": "alive, tick 5600 (was 5564 at the last Creature Watch)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Internet and website",
+   "name": "MSI dark alarm",
+   "purpose": "buzzes Jaron if the MSI goes quiet 20 min (off, or stuck at the sign-in screen)",
+   "result": "OK",
+   "detail": "watching from Cloudflare: last check-in 1 min ago, its own check ran 1 min ago",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Reaching the MSI",
+   "name": "MSI connector (Grok Machine MCP)",
+   "purpose": "the bots and chat AIs can reach the MSI",
+   "result": "OK",
+   "detail": "server up on 3001, public address answers 401 (401 = up, asking for sign-in)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Reaching the MSI",
+   "name": "Cloudflare tunnel",
+   "purpose": "carries the connector and Cosmos to the internet",
+   "result": "OK",
+   "detail": "tunnel service running and ready",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Reaching the MSI",
+   "name": "The Cosmos game server",
+   "purpose": "the Cosmos world server and its watchdog",
+   "result": "OK",
+   "detail": "game server healthy on 8390 and public; watchdog running; 1 restarts today",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Ollama (local model)",
+   "purpose": "the local Qwen model server",
+   "result": "OK",
+   "detail": "Ollama answers (200)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "OpenClaw gateway",
+   "purpose": "the OpenClaw gateway",
+   "result": "OK",
+   "detail": "OpenClaw answers (200)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Sapling heartbeat",
+   "purpose": "Sapling's training heartbeat",
+   "result": "OK",
+   "detail": "heartbeat answers on 7337",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Sapling relay",
+   "purpose": "carries messages between the Sapling page and Sapling",
+   "result": "OK",
+   "detail": "relay answers (200)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Desktop Commander remote",
+   "purpose": "ChatGPT's way into the MSI",
+   "result": "OK",
+   "detail": "Desktop Commander remote running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Remote agent",
+   "purpose": "Claude's remote screen/keepalive helper",
+   "result": "OK",
+   "detail": "remote agent running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Render worker",
+   "purpose": "the hb-render owner worker (renders jobs)",
+   "result": "OK",
+   "detail": "render worker running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Grok Bot app",
+   "purpose": "the bots (Darios, Satya, Jarons Twin) need its window open",
+   "result": "OK",
+   "detail": "Grok Bot app running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Chrome (Jaron's profile)",
+   "purpose": "AIs that drive the browser use the extensions in Jaron's Chrome profile",
+   "result": "OK",
+   "detail": "Chrome is open in a profile (the AIs' browser extensions can connect)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Claude mailbox waiter",
+   "purpose": "wakes the main Claude session when mail arrives",
+   "result": "OK",
+   "detail": "mailbox waiter running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Programs on the MSI",
+   "name": "Seam Room listener",
+   "purpose": "Claude's ear in the Seam Room (re-armed by the Claude session)",
+   "result": "OK",
+   "detail": "Seam Room listener running",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "The machine",
+   "name": "Google Drive (G:)",
+   "purpose": "the off-MSI copy of AI-Shared and the Necklace project goes through it",
+   "result": "OK",
+   "detail": "G:\\My Drive is mounted (nightly AI-Shared + Necklace backups can run)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "The machine",
+   "name": "Disk space",
+   "purpose": "room for the nightly news render (~70 GB)",
+   "result": "OK",
+   "detail": "184 GB free",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "The machine",
+   "name": "GPU heat",
+   "purpose": "the MSI isn't overheating",
+   "result": "OK",
+   "detail": "49C, 0% busy",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "The machine",
+   "name": "Power and memory",
+   "purpose": "plugged in, enough RAM",
+   "result": "OK",
+   "detail": "plugged in, battery 90%, 14.0 GB RAM free",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "The machine",
+   "name": "Windows restart pending",
+   "purpose": "updates waiting for a restart",
+   "result": "OK",
+   "detail": "no restart pending (up since Sun Nov 22 4:13 PM)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "The machine",
+   "name": "Database size",
+   "purpose": "Supabase stays under its 8 GB cap",
+   "result": "OK",
+   "detail": "2.19 GB of 8 GB (27%) | biggest: qwen_events 1999MB, fly_school 136MB, cosmos_terrain_bricks 19MB",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "The machine",
+   "name": "Logins",
+   "purpose": "every login the system uses still works",
+   "result": "OK",
+   "detail": "all logins fine (checked 2026-11-23 09:50)",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "The machine",
+   "name": "AI-Shared saved to GitHub",
+   "purpose": "this folder is backed up",
+   "result": "OK",
+   "detail": "in step with origin/main",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "The machine",
+   "name": "Watch repo saved to GitHub",
+   "purpose": "the news watch repo is pushed",
+   "result": "OK",
+   "detail": "in step with origin/master",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB Watch Loop",
+   "purpose": "answers Jaron's \"Tell Claude\" watch messages by ntfy",
+   "result": "OK",
+   "detail": "last run 11-23 09:55, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB Key Drop",
+   "purpose": "files and tests API keys Jaron pastes on his phone",
+   "result": "OK",
+   "detail": "last run 11-23 09:55, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Crypto Consensus",
+   "purpose": "crypto decision tick (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:55, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Crew Publish",
+   "purpose": "publishes the public system/crew page",
+   "result": "OK",
+   "detail": "last run 11-23 09:55, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "MSI Beat",
+   "purpose": "checks in with the off-MSI alarm on Cloudflare (quiet 20 min = one buzz)",
+   "result": "OK",
+   "detail": "last run 11-23 09:55, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB Video Drop",
+   "purpose": "picks up videos dropped for the site",
+   "result": "OK",
+   "detail": "last run 11-23 09:52, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB Price Alerts",
+   "purpose": "price alerts (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:51, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Live Board",
+   "purpose": "the live data board",
+   "result": "OK",
+   "detail": "last run 11-23 09:53, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Crypto Notify",
+   "purpose": "crypto notices (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:53, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Usage Snapshot",
+   "purpose": "the AI usage meter",
+   "result": "OK",
+   "detail": "last run 11-23 09:48, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Desk Schedule Watch",
+   "purpose": "desk schedule check (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:41, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Twin Crypto Settle",
+   "purpose": "settles the twin's paper crypto (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:54, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB News Watchdog",
+   "purpose": "buzzes if today's news isn't live (7 AM-noon)",
+   "result": "OK",
+   "detail": "last run 11-23 09:45, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "MSI Connector Watch",
+   "purpose": "buzzes if the connector/Cosmos/relay is down",
+   "result": "OK",
+   "detail": "last run 11-23 09:44, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Creature Watch",
+   "purpose": "looks in on the creature (read-only)",
+   "result": "OK",
+   "detail": "last run 11-23 09:33, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB Safety Signal",
+   "purpose": "safety level from the DHS feed",
+   "result": "OK",
+   "detail": "last run 11-23 09:29, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "MSI Status",
+   "purpose": "writes state/MSI-STATUS.md",
+   "result": "OK",
+   "detail": "last run 11-23 09:49, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Sapling Watch",
+   "purpose": "watches Sapling (read-only)",
+   "result": "OK",
+   "detail": "last run 11-23 09:45, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Sapling Wake",
+   "purpose": "Sapling's own wake",
+   "result": "OK",
+   "detail": "last run 11-23 09:35, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "DB Size Check",
+   "purpose": "database size vs the 8 GB cap",
+   "result": "OK",
+   "detail": "last run 11-23 09:25, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "MSI Health",
+   "purpose": "hourly task/port health",
+   "result": "OK",
+   "detail": "last run 11-23 09:02, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "HB AI Fund",
+   "purpose": "AI fund (money side)",
+   "result": "OK",
+   "detail": "last run 11-23 09:17, result 0",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Hourly helpers",
+   "purpose": "live readings, news desks, rolling wire, prep watch",
+   "result": "OK",
+   "detail": "all 4 ran on time and finished ok",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Nightly news pipeline",
+   "purpose": "GPU guard 2:38, render 3:50, writer 4:20, paper book 9:05, socials 7:15/8:45/5 PM",
+   "result": "BROKEN",
+   "detail": "HB Socials Show last ran 11-21 17:00",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Nightly news collectors",
+   "purpose": "the Watch ... collectors and What's New scouts",
+   "result": "OK",
+   "detail": "all 14 ran on time and finished ok",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Backups and saves",
+   "purpose": "Drive mirror 3:30, nightly save 22:55, creature 21:15, Unreal 3:00, Sapling GitHub 18:17, Drive gentle fill 21:00",
+   "result": "BROKEN",
+   "detail": "Sapling GitHub Sync last ran 11-21 18:17; Drive Gentle Fill last ran 11-30 00:00",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Other daily jobs",
+   "purpose": "login watch, usage ledger, build ledger, render maintainer, firsts, Sapling status, atlas",
+   "result": "OK",
+   "detail": "all 8 ran on time and finished ok",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Weekly jobs",
+   "purpose": "stale sweep, AI fund review, budget report, edge check, crypto caps",
+   "result": "OK",
+   "detail": "all 5 ran on time and finished ok",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Scheduled jobs",
+   "name": "Any other job",
+   "purpose": "catches failures in jobs not listed above (vendor and one-shot reminders skipped)",
+   "result": "OK",
+   "detail": "no other job failed in the last 2 days",
+   "was": "",
+   "fix_done": "",
+   "buzzes": false
+  },
+  {
+   "group": "Off on purpose",
+   "name": "Polymarket system",
+   "purpose": "trading on Polymarket is off since 10/28",
+   "result": "SKIPPED-ON-PURPOSE",
+   "detail": "Polymarket system is DOWN by Jaron's 10/28 decision - never restarted here; trading tasks still disabled; Polymarket MCP task Running (last run 2026-11-22); Trade Verifier still scheduled and ends 1 because nothing real answers on 8765 (state/verifier.md 1.3 MB); NOTE something else is on 8765 - is Polymarket MCP running again?; Connector Watch's Polymarket restart is off",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Off on purpose",
+   "name": "Paused projects",
+   "purpose": "fly brain and retired helpers stay off",
+   "result": "SKIPPED-ON-PURPOSE",
+   "detail": "20 paused tasks (fly brain, old gateways, retired desks), all still off",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  },
+  {
+   "group": "Off on purpose",
+   "name": "Codex Observer",
+   "purpose": "an old Codex side project",
+   "result": "SKIPPED-ON-PURPOSE",
+   "detail": "Codex Observer server + tunnel (Registry Run entries) - not checked; ask Jaron if still wanted",
+   "was": "",
+   "fix_done": "",
+   "buzzes": true
+  }
+ ],
+ "mail": "mailed Claude",
+ "buzz": "no buzz (nothing broken that needs Jaron)"
+}

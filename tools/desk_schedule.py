@@ -84,7 +84,7 @@ def _in_span(frm, to, wd, minute, days=None):
 def sport_of(slug):
     s = (slug or "").lower()
     if "-btc-" in s or "bitcoin" in s:
-        return "btc"
+        return "btc"   # (cpceth-eth-updown-..., cpcsol-sol-..., cpcxrp-xrp-... already read as eth / sol / xrp below)
     p = s.split("-")
     return p[1] if len(p) > 1 else ""
 
@@ -229,7 +229,7 @@ def rules_text(sched, now_local):
     lines.append("Weekly hours:")
     for ln in sched["lanes"]:
         lines.append(f"  {ln['name']}: {describe_windows(ln)}")
-    lines.append("Anything not listed is off. Other caps (BTC, long shots) still apply. A refusal says why: move on.")
+    lines.append("Anything not listed is off. Other caps (long shots, crypto crew limits) still apply. A refusal says why: move on.")
     # next change anywhere
     best = None
     for ln in sched["lanes"]:

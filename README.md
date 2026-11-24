@@ -1,6 +1,6 @@
 # AI-Shared (public copy)
 
-The working brain of **Heartbeat Observatory** (heartbeatobservatory.com): how one roofer in Fort Wayne, Indiana runs an
+The working brain of **Heartbeat Observatory** (heartbeatobservatory.com): how one builder in Fort Wayne, Indiana runs an
 AI-built company with a crew of AIs (Claude, Grok, Codex, Kimi, DeepSeek, Qwen and his own, Sapling), mostly from one long
 conversation and a laptop at home called the MSI.
 

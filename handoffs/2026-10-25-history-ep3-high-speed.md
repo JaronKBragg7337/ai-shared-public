@@ -1,0 +1,16 @@
+# History 7 (channel 7.7): "What if America had high-speed rail?" - 2026-10-25 (Claude Sonnet 5.5)
+Follow-up to 7.6 for viewer Adam Drelich's clarification ("kept building railroads for travel, high speed like Europe or Asia"). NOT posted anywhere (no social queue entry, no artifacts.json).
+LIVE: heartbeatobservatory.com/tv/?ch=7.7 (166.4 s). Site commit a87549d on main. tv_items id 04398ad8-4bf8-4a56-943e-c3b1559c476b (history, approved, sort 6).
+Vertical 9:16 (1080x1920, 166.4 s): C:\Users\lilli\AI-Shared\projects\history-channel\ep7-high-speed-rail\history-ep7-high-speed-rail-vertical.mp4 (also live at /tv/history/..-vertical.mp4, linked via "Save vertical").
+Built like 7.6: tv-lib (Kokoro bm_george, Pillow, CPU only, no GPU/RunPod). Folder: mk.py (script), ep.py (scenes), build.log. Note: tv_items.note has a length check; keep under ~500 chars.
+## Facts and sources (web-checked 10/25)
+- Shinkansen opened 10/1/1964; 2,951 km, up to 320 km/h (Wikipedia). Tokyo-Osaka 515 km in 2h21 fastest Nozomi (Wikipedia Nozomi; one site says 2h22) -> 320 mi / 2.35 h = ~136 mph average.
+- France TGV: LGV Sud-Est 1981; ~2,800 km (Wikipedia, June 2021). Spain: ~3,966 km (Jul 2024, Wikipedia); 4,091 km (Majorca Daily Bulletin, Nov 2025); shown "~4,000". China: 50,000+ km end 2025 (China Railway via Global Times/ railwaynews.net; ministry said 48,000 mid-2025).
+- Brightline FL: Miami-Orlando 235 mi, avg 69 mph, up to 125 mph Orlando-Cocoa, service began 9/22/2023 (Wikipedia). Acela Avelia Liberty in service 8/28/2025, 160 mph rated, infrastructure limits speed (Wikipedia). Brightline West 218 mi Las Vegas-Rancho Cucamonga, company says late 2029. California: Merced-Bakersfield 2032 target, ~$35-37B (Authority $34.76B; IG $35.7B; Wikipedia $36.7B); Prop 1A SF-LA 2h40; IG called 2026 plan incomplete (KMPH headline). AAR: Amtrak owns 623 route miles, >70% of travel on freight-owned track. Interstates authorized 1956 (from ep 6).
+## Estimate math (marked ESTIMATE on screen)
+distance / speed. At 136 mph (Tokyo-Osaka average): NYC-Chicago 959 mi (Lake Shore Limited route) = 7.05 h; LA-SF ~380 road mi = 2.8 h; Chicago-Fort Wayne-Detroit 158+156 = 314 road mi = 2.3 h (no extra stop time). At 69 mph (Brightline FL average): 13.9 h, 5.5 h, 4.6 h. Amtrak today NYC-Chicago ~19.5-20 h. A real HSR line would be straighter/shorter and need stops; said on screen.
+## Verified
+- Local: verify_voice PASS (worst 3.6% s3); stills checked both orientations (fixed subtitle split on "2.8", a card overflow, a label overlap); 166.4 s both cuts, vertical 1080x1920.
+- Live: 3 files match local byte sizes; /tv/?ch=7.7 at 390px: tunes CH 7.7, video src = new file, duration 166.4, readyState 4, no error, no sideways scroll.
+## Unverified
+- No second-AI (Codex) fact check; many figures from Wikipedia/search summaries not primary docs (Spain length, France 2021, Japan top speed, Acela). Rail miles (959) vs road miles (LA-SF 380, FW legs) are mixed distance types. "Distance and density" and "politics" reasons are argued, not sourced numbers. A 2026 aggregator claimed Brightline Florida going-concern doubt; left out (unconfirmed). Fort Wayne leg is hypothetical, no existing Amtrak routing assumed. Not heard by a human; no real iPhone; vertical not watched end to end. No military content.

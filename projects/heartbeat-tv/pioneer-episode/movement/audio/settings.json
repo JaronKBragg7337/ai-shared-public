@@ -1,0 +1,50 @@
+{
+ "vex": {
+  "engine": "synth",
+  "variant": "m3",
+  "voiceName": "",
+  "pitch": 1,
+  "speed": 1,
+  "volume": 0.95,
+  "size": 1.06,
+  "bass": 2,
+  "treble": 3,
+  "presence": 3,
+  "robot": 0.42,
+  "robotHz": 52,
+  "metal": 0.25,
+  "crush": 0,
+  "radio": 0,
+  "echo": 0.12,
+  "look": {
+   "body": "#d6dbe1",
+   "trim": "#2a2f36",
+   "eyes": "#4fe3ff",
+   "tie": "#c21f2e"
+  }
+ },
+ "joe": {
+  "engine": "show",
+  "variant": "m7",
+  "voiceName": "",
+  "pitch": 0.82,
+  "speed": 0.97,
+  "volume": 1,
+  "size": 0.94,
+  "bass": 3,
+  "treble": 0,
+  "presence": 1,
+  "robot": 0,
+  "robotHz": 30,
+  "metal": 0,
+  "crush": 0,
+  "radio": 0,
+  "echo": 0.06,
+  "look": {
+   "skin": "#8fae8b",
+   "eyes": "#07090b",
+   "suit": "#1e2533",
+   "tie": "#1f4fae"
+  }
+ }
+}

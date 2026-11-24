@@ -1,0 +1,2 @@
+qwen3.5:9b: wrote 220 tokens at 38.4 tokens/second (read the prompt at 52/s; load 29.7 s)
+qwen3.5:4b: wrote 220 tokens at 55.4 tokens/second (read the prompt at 112/s; load 20.5 s)

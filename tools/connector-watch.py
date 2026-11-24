@@ -21,15 +21,20 @@ try:   # keep live-wire.md / bot-chat.md append-only (Darios rewrote live-wire.m
     subprocess.run([__import__('sys').executable, os.path.join(ROOT, 'tools', 'append-guard.py')], timeout=60)
 except Exception:
     pass
-try:   # the Polymarket service desk.py / desk-trade.py talk to (10/8: down all day unnoticed; bots could not trade or see positions)
-    socket.create_connection(("127.0.0.1", 8765), timeout=5).close()
-except OSError:
-    subprocess.run(["schtasks", "/Run", "/TN", "Polymarket MCP"], capture_output=True)   # safe repair: start it, then re-check
-    time.sleep(15)
-    try:
+# The Polymarket service (port 8765, task "Polymarket MCP") is DOWN on purpose since Jaron's 10/28 decision (P-0112, AGENTS.md):
+# this watch no longer restarts it or buzzes about it. Turned off 11/22 by the everything-check review (it had been starting
+# "Polymarket MCP" whenever 8765 was free). Kept, not deleted: set POLYMARKET_AUTORESTART = True only if Jaron restarts it.
+POLYMARKET_AUTORESTART = False
+if POLYMARKET_AUTORESTART:
+    try:   # the Polymarket service desk.py / desk-trade.py talk to (10/8: down all day unnoticed; bots could not trade or see positions)
         socket.create_connection(("127.0.0.1", 8765), timeout=5).close()
     except OSError:
-        problems.append("the Polymarket trading service (port 8765) is down and did not restart - bots cannot trade; tell Claude")
+        subprocess.run(["schtasks", "/Run", "/TN", "Polymarket MCP"], capture_output=True)   # start it, then re-check
+        time.sleep(15)
+        try:
+            socket.create_connection(("127.0.0.1", 8765), timeout=5).close()
+        except OSError:
+            problems.append("the Polymarket trading service (port 8765) is down and did not restart - bots cannot trade; tell Claude")
 now = time.time()
 lw =os.path.join(ROOT, "state", "live-wire.md")
 age_lw = (now - os.path.getmtime(lw)) / 60 if os.path.exists(lw) else 9999

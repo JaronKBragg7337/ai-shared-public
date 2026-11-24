@@ -1,0 +1,15 @@
+{
+ "crypto_stop_account_usd": 30,
+ "crypto_phase2_loss_usd": 10,
+ "crypto_bot_caps": {
+  "satya-twin": 2,
+  "darios-twin": 2,
+  "jarons-twin": 2
+ },
+ "crypto_max_open_usd": 25,
+ "desk_max_size_usd": 10,
+ "longshot_max_size_usd": 2,
+ "btc_max_size_usd": 1,
+ "game_cap_pct": 35,
+ "tennis_max_size_usd": 0
+}

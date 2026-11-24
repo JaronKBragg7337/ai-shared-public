@@ -1,0 +1,4 @@
+available to trade $34.94   (venue 'currentBalance' $34.94 includes deposits on hold)
+positions: 1
+  YES    0.01 sh  MLS Eastern Conference Champion            outcome=Yes                avg None  cost -  now $0.00  [tec-mls-eastconf-2026-12-12-w-mia]
+open orders: 0

@@ -1,0 +1,51 @@
+{
+  "_about": "AI Fund Desk bounded config (paper only). The hourly tuner (tools/ai_fund/tuner.py) may change ONLY the keys listed in 'tunable', only inside 'bounds', at most max_daily_move per key per 24h, and may RAISE a weight only once per 7 days. The engine re-clamps on every load, so a bad edit cannot escape the bounds. Every change is logged to projects/ai-fund/CHANGELOG.md. Signals, lookbacks, universes, costs, benchmarks, scoring and drawdown rules are NOT tunable hourly (Fable's rule); only the weekly review may propose those, as code/config proposals for Claude to apply.",
+  "mode": "paper",
+  "inception": "2026-11-15",
+  "capital": 100000,
+  "subs_month_low": 275,
+  "subs_month_high": 305,
+  "costs": {
+    "etf": {"slip_bps": 5, "fee_bps": 0},
+    "crypto": {"slip_bps": 10, "fee_bps": 60}
+  },
+  "weights": {
+    "trend": 0.25,
+    "volcore": 0.20,
+    "quality": 0.15,
+    "macro": 0.15,
+    "dipbuy": 0.10,
+    "crypto": 0.10
+  },
+  "voltarget": {
+    "volcore": 0.08,
+    "crypto": 0.40
+  },
+  "tunable": ["weights.trend", "weights.volcore", "weights.quality", "weights.macro", "weights.dipbuy", "weights.crypto",
+              "voltarget.volcore", "voltarget.crypto"],
+  "bounds": {
+    "weights.trend": [0.05, 0.35],
+    "weights.volcore": [0.05, 0.35],
+    "weights.quality": [0.05, 0.35],
+    "weights.macro": [0.05, 0.35],
+    "weights.dipbuy": [0.0, 0.20],
+    "weights.crypto": [0.0, 0.15],
+    "voltarget.volcore": [0.06, 0.12],
+    "voltarget.crypto": [0.20, 0.60]
+  },
+  "max_daily_move": {"weights": 0.02, "voltarget.volcore": 0.01, "voltarget.crypto": 0.05},
+  "min_reserve": 0.05,
+  "risk": {
+    "sleeve_halve_dd": -0.10,
+    "sleeve_pause_dd": -0.15,
+    "sleeve_retire_dd": -0.25,
+    "resume_min_days": 20,
+    "fund_halve_dd": -0.12,
+    "fund_halve_clear_dd": -0.08,
+    "fund_halt_dd": -0.20,
+    "max_position_of_fund": 0.25
+  },
+  "verdict": {"min_days": 126, "retire_days": 252, "p_beat": 0.80, "p_retire_below": 0.50},
+  "tuner": {"model": "deepseek-chat", "max_calls_per_day": 24, "max_changes_per_hour": 3, "fallback": "codex-luna"},
+  "fund_halt_reset": false
+}

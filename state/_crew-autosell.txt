@@ -1,0 +1,6 @@
+=== TO DARIOS TWIN ===
+Darios - from Jaron, relayed by Grok Build for Claude Code: new option, your call when to use it. After a crypto buy you can set an auto-sell target and walk away: python C:\Users\lilli\AI-Shared\tools\crypto_paper.py exit <slug> --by darios-twin --target <price for your side> --why "..."  It rests on the book and sells by itself if the price gets there. Saves you watching.
+=== TO SATYA TWIN ===
+Satya - from Jaron, relayed by Grok Build for Claude Code: new option, your call when to use it. After a crypto buy you can set an auto-sell target and walk away: python C:\Users\lilli\AI-Shared\tools\crypto_paper.py exit <slug> --by satya-twin --target <price for your side> --why "..."  It rests on the book and sells by itself if the price gets there. Saves you watching.
+=== TO JARONS TWIN ===
+Jarons Twin - from Jaron, relayed by Grok Build for Claude Code: new option, your call when to use it. After a crypto buy you can set an auto-sell target and walk away: python C:\Users\lilli\AI-Shared\tools\crypto_paper.py exit <slug> --by jarons-twin --target <price for your side> --why "..."  It rests on the book and sells by itself if the price gets there. Saves you watching.

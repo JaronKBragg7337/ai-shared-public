@@ -1,0 +1,242 @@
+{
+  "opening": {
+    "boxes": {
+      "tag": {
+        "text": "AI-generated person (not real)",
+        "display": "block",
+        "x": -57.109375,
+        "y": 213.734375,
+        "w": 158.671875,
+        "h": 20.6875
+      },
+      "madeLabel": {
+        "text": "STUDY - never filmed",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "bottom": {
+        "text": "\n  \n  Tap the man, a footprint, a door, the bed, a lamp. Teal things are made. Tap the middle door to unlock it.\n      Sound: offFollow himPathOverview\n  ExploreGameFilmMusicShow\n  pauseLIVE\n  Room + person made by Grok Imagine, rebuilt by Heartbeat Observatory tools. AI-generated person (not real).",
+        "display": "flex",
+        "x": 0,
+        "y": 565,
+        "w": 375,
+        "h": 247
+      },
+      "sheet": {
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "modepanel": {
+        "text": "Tap the man, a footprint, a door, the bed, a lamp. Teal things are made. Tap the middle door to unlock it.\n      Sound: offFollow himPathOverview",
+        "display": "block",
+        "x": 10,
+        "y": 565,
+        "w": 355,
+        "h": 99
+      },
+      "seg": {
+        "text": "SeenPatchedMadeAll",
+        "display": "flex",
+        "x": 12,
+        "y": 35,
+        "w": 351,
+        "h": 36
+      },
+      "subtitle": {
+        "text": "",
+        "display": "block",
+        "x": 14,
+        "y": 0,
+        "w": 347,
+        "h": 18
+      }
+    },
+    "doors": [
+      {
+        "text": "D1 · NOT SEEN",
+        "display": "block",
+        "rect": {
+          "x": 106.640625,
+          "y": 156.5625,
+          "width": 100.03125,
+          "height": 23.390625,
+          "top": 156.5625,
+          "right": 206.671875,
+          "bottom": 179.953125,
+          "left": 106.640625
+        }
+      },
+      {
+        "text": "D2 · NOT SEEN",
+        "display": "block",
+        "rect": {
+          "x": 41.953125,
+          "y": 173.765625,
+          "width": 100.03125,
+          "height": 23.390625,
+          "top": 173.765625,
+          "right": 141.984375,
+          "bottom": 197.15625,
+          "left": 41.953125
+        }
+      },
+      {
+        "text": "D3 · NOT SEEN",
+        "display": "none",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "width": 375,
+    "scrollWidth": 375
+  },
+  "seen": {
+    "seg": "seen",
+    "seenAlpha": 1,
+    "manVisible": true,
+    "feet": 1,
+    "doors": 4
+  },
+  "patched": {
+    "seg": "patched",
+    "seenAlpha": 1,
+    "manVisible": true,
+    "feet": 1,
+    "doors": 4
+  },
+  "made": {
+    "seg": "made",
+    "seenAlpha": 0.1,
+    "manVisible": true,
+    "feet": 1,
+    "doors": 4
+  },
+  "all": {
+    "seg": "all",
+    "seenAlpha": 1,
+    "manVisible": true,
+    "feet": 1,
+    "doors": 4
+  },
+  "overview": {
+    "boxes": {
+      "tag": {
+        "text": "AI-generated person (not real)",
+        "display": "block",
+        "x": 129.34375,
+        "y": 257.796875,
+        "w": 158.671875,
+        "h": 20.6875
+      },
+      "madeLabel": {
+        "text": "STUDY - never filmed",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "bottom": {
+        "text": "\n  \n  Tap the man, a footprint, a door, the bed, a lamp. Teal things are made. Tap the middle door to unlock it.\n      Sound: offFollow himPathStep inside\n  ExploreGameFilmMusicShow\n  pauseLIVE\n  Room + person made by Grok Imagine, rebuilt by Heartbeat Observatory tools. AI-generated person (not rea",
+        "display": "flex",
+        "x": 0,
+        "y": 565,
+        "w": 375,
+        "h": 247
+      },
+      "sheet": {
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "modepanel": {
+        "text": "Tap the man, a footprint, a door, the bed, a lamp. Teal things are made. Tap the middle door to unlock it.\n      Sound: offFollow himPathStep inside",
+        "display": "block",
+        "x": 10,
+        "y": 565,
+        "w": 355,
+        "h": 99
+      },
+      "seg": {
+        "text": "SeenPatchedMadeAll",
+        "display": "flex",
+        "x": 12,
+        "y": 35,
+        "w": 351,
+        "h": 36
+      },
+      "subtitle": {
+        "text": "",
+        "display": "block",
+        "x": 14,
+        "y": 0,
+        "w": 347,
+        "h": 18
+      }
+    },
+    "doors": [
+      {
+        "text": "D1 · NOT SEEN",
+        "display": "block",
+        "rect": {
+          "x": 213,
+          "y": 156.90625,
+          "width": 100.03125,
+          "height": 23.390625,
+          "top": 156.90625,
+          "right": 313.03125,
+          "bottom": 180.296875,
+          "left": 213
+        }
+      },
+      {
+        "text": "D2 · NOT SEEN",
+        "display": "block",
+        "rect": {
+          "x": 180.109375,
+          "y": 195.515625,
+          "width": 100.03125,
+          "height": 23.390625,
+          "top": 195.515625,
+          "right": 280.140625,
+          "bottom": 218.90625,
+          "left": 180.109375
+        }
+      },
+      {
+        "text": "D3 · NOT SEEN",
+        "display": "block",
+        "rect": {
+          "x": 135.28125,
+          "y": 248.140625,
+          "width": 100.03125,
+          "height": 23.390625,
+          "top": 248.140625,
+          "right": 235.3125,
+          "bottom": 271.53125,
+          "left": 135.28125
+        }
+      }
+    ],
+    "width": 375,
+    "scrollWidth": 375
+  }
+}

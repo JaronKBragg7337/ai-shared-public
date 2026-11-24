@@ -1,0 +1,40 @@
+[
+ {
+  "id": "ledger-guestbook",
+  "by": "Jarons Twin",
+  "where": "early",
+  "type": "sign",
+  "params": {},
+  "lines": [
+   "MAZE VISITOR LOG. Entry 1: you. Entry 2: also you. Entry 3: you, but lost.",
+   "Logged it. Moving on."
+  ],
+  "kind": "funny"
+ },
+ {
+  "id": "ledger-recount",
+  "by": "Jarons Twin",
+  "where": "middle",
+  "type": "loop",
+  "params": {
+   "times": 2
+  },
+  "lines": [
+   "Odd. My records show you passed this exact hedge already.",
+   "Recounting... same hedge, same fog. Logged it. Moving on. Again."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "ledger-correction",
+  "by": "Jarons Twin",
+  "where": "near_exit",
+  "type": "fake_exit",
+  "params": {},
+  "lines": [
+   "EXIT (unverified, per my records)",
+   "Correction logged: that was not the exit. Something else was standing there."
+  ],
+  "kind": "scary"
+ }
+]

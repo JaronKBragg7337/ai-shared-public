@@ -3,13 +3,13 @@
 Web-checked 2026-10-13 unless marked (knowledge). No GPU used (Pillow + numpy + ffmpeg libx264, Kokoro on CPU). No photographs used: every picture is drawn.
 
 ## Primary document (read in full, OCR of the scanned PDF)
-NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed's Place)" / common name Coral Castle.
+NPS Form 10-900, National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend's Place)" / common name Coral Castle.
 Prepared by Maria Temkin / Michael Zimny, Florida Division of Archives, 2 April 1984. Listed 10 May 1984 (ref. 84000840); name changed to Coral Castle 2011 (Florida SHPO letter, 16 Feb 2011, in the same PDF).
 https://npgallery.nps.gov/GetAsset/1ed2ccd0-b692-42dc-b28d-1227c1a23407  (scanned images; our OCR is in the session scratch only)
 Everything below marked "form" comes from it:
 - Born 1887, "Metei, Latvia" (form); engaged "by the age of 26" to Agnes "Scuff[s]" (footnote 2: also "Skuvst"), ten years his junior; she called off the wedding; "Sweet Sixteen" is his name for her.
-- Land: 1923, one acre SW of Florida City from the Mosers for $12.00 (Deed Book 1546 p. 8); ground is oolitic limestone, "coral rock". Site "Ed's Place" at 18900 SW 352nd St.
-- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "Ed Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
+- Land: 1923, one acre SW of Florida City from the Mosers for $12.00 (Deed Book 1546 p. 8); ground is oolitic limestone, "coral rock". Site "a family friend's Place" at 18900 SW 352nd St.
+- Move: "1937" (section 7, "moved date 1937"); obelisk inscribed "Made in 1928. Moved in 1939. Born 1887. Latvia, E.L."; newspaper cited in the bibliography "a family friend Is Doing A Colossal Job of Moving ..." (Aug 1939). Wikipedia says he moved ~1936 and spent ~3 years. Screen says dates vary.
 - Ten-acre tract on South Federal Highway. "He sought the aid of ... Bob Biggers ... All Edward Leedskalnin wanted from Mr. Biggers, however, was the use of his truck ... completed by Leedskalnin without any assistance ... worked alone and at night loading and unloading Biggers' truck."
 - Weights (lb, converted to short tons by us): Polaris slab 40,000 lb (20 t), 25 ft tall; each quarter moon 36,000 lb (18 t); full-moon fountain 46,000 lb (23 t); Mars and Saturn 36,000 lb; obelisk 57,000 lb (28.5 t); "thirty ton sculpture" crowning the north wall = heaviest oolitic block at Rock Gate; wall blocks 8 ft x 4 ft x 3 ft, "several tons". "Sculptures weighing up to 30 tons each".
 - Gate: "nine ton gate", 81 in wide, 92 in tall, 21 in thick; single pivot; central vertical shaft with an automobile axle connecting slab to ground and lintel; fits within 1/4 in; pushed open with one finger.
@@ -34,8 +34,8 @@ Everything below marked "form" comes from it:
 - Block and tackle: ideal MA = number of supporting rope segments. 20,000 lb / 6 = 3,333; / 36 = 556; / 180 = 111 lb; 180 ft of rope per 1 ft lift. Friction ignored (labelled). Lever 9:1: 100 lb x 9 ft = 900 lb x 1 ft.
 
 ## r2 corrections after Codex fact-check (FACTCHECK-codex-r1.md, then FACTCHECK-codex.md)
-- Move: the form says 1937 but also transcribes the obelisk "Moved in 1939"; coralcastle.com/home/about-edward-leedskalnin: decided 1935, bought 10 acres by 1936, land clearing from May 1939, Redland District News July 1939 "Ed Is Doing a Colossal Job of Moving ...". Screen/narration now say the dates conflict; we no longer say "about three years".
-- Bob Biggers: the form says Ed wanted "the use of his truck"; the castle page says Ed hired the farmer, who hauled the stones on a heavy-duty trailer while Ed loaded. Narration: Biggers hauled; Ed loaded and unloaded, at night (accounts), no longer "lent his truck" / "alone".
+- Move: the form says 1937 but also transcribes the obelisk "Moved in 1939"; coralcastle.com/home/about-edward-leedskalnin: decided 1935, bought 10 acres by 1936, land clearing from May 1939, Redland District News July 1939 "a family friend Is Doing a Colossal Job of Moving ...". Screen/narration now say the dates conflict; we no longer say "about three years".
+- Bob Biggers: the form says a family friend wanted "the use of his truck"; the castle page says a family friend hired the farmer, who hauled the stones on a heavy-duty trailer while a family friend loaded. Narration: Biggers hauled; a family friend loaded and unloaded, at night (accounts), no longer "lent his truck" / "alone".
 - Weights: labelled the form's PUBLISHED ESTIMATES; castle page says heaviest "over 21 tons" (form: 30). Lake (1950s): Polaris 28 t, obelisk 28.5 t, north wall block 30 t, gate "nine-ton" and also "ten-ton", gate "nearly seven feet tall, about five feet wide and nearly a yard thick" (differs from the form's 81 x 92 x 21 in).
 - Gate repair is REPORTED, not DOCUMENTED: 1986 (Wikipedia, 1990 Hollywood Sun per Codex) vs 1984 (castle site); six men + 50-ton crane (one account) vs other counts. The July 23 date and the 2005 failure were dropped (single weak source). Gate "turns with one finger" is past tense.
 - Aragonite wording: "even if the whole rectangle were solid aragonite" (not "the densest the rock could be"); metric aside dropped; dry-rock assumption on screen.
@@ -48,6 +48,6 @@ Everything below marked "form" comes from it:
 
 ## Flags (open items)
 - Origin of the exact 1,100-ton figure NOT FOUND. Treated as a CLAIM with untraced source; Lake's 'over 1000 tons' is the earliest quantitative lead.
-- Photographs: Florida Memory item 328424 ("Ed Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
+- Photographs: Florida Memory item 328424 ("a family friend Leedskalnin with hoisting equipment", reported c. 1936 in a search snippet) returned 403 to the fetch; date unverified. Live Science and Mental Floss were only seen as search snippets (they report photographs of pole tripods + block and tackle). The brief's "one grainy photo" is NOT what we found: several photographs exist; none shown here.
 - "Floating stone" teen stories: secondhand per thisunexplaineduniverse.com; no primary account read.
 - Billing: the narration says nobody in the form's quotes watched the largest lifts. That is about what the form quotes, not a claim about all history.

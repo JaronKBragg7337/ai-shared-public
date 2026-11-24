@@ -253,7 +253,7 @@ def sc_site(cv, t, p):
     else: px, py, pw, ph = x0 + 20, y0 + 20, 700, 420
     a = ease(t / 1.2)
     cv.outline((px, py, px + pw, py + ph), mix(CYAN, BG, a), 3)
-    mono(cv, px, py - 28, 'ED\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
+    mono(cv, px, py - 28, 'a family friend\'S PLACE, FLORIDA CITY: schematic, not to scale', 18, DIM, a)
     tw = ap(t, 's4', 0.45)
     cv.rect((px + 40, py + 40, px + 200, py + 190), mix(INK2, BG, tw)); cv.outline((px + 40, py + 40, px + 200, py + 190), mix(VIO, BG, tw), 2)
     cv.text((px + 120, py + 115), 'two-story tower', 'mono', 18, TXT, 'mm', tw)
@@ -292,7 +292,7 @@ def sc_move(cv, t, p):
     # date table
     ty = ly + (130 if L else 130)
     rows = [('by 1936', 'buys 10 acres at Homestead (castle chronology)', 0.2), ('1937', 'the 1984 NRHP form: "moved date 1937"', 0.35), ('1939', 'obelisk: "Moved in 1939"; land clearing from May 1939', 0.5),
-            ('hauling', 'Bob Biggers, a farmer, hauls the stones (form: his truck; castle: a trailer)', 0.7), ('loading', 'Ed loads and unloads alone, at night (form and later accounts)', 0.88)]
+            ('hauling', 'Bob Biggers, a farmer, hauls the stones (form: his truck; castle: a trailer)', 0.7), ('loading', 'a family friend loads and unloads alone, at night (form and later accounts)', 0.88)]
     for i, (k, v, f) in enumerate(rows):
         aa = ap(t, 's5', f); yy = ty + i * (62 if L else 100)
         if aa <= 0: continue
@@ -504,7 +504,7 @@ def sc_words(cv, t, p):
     qa = ap(t, 's14', 0.1)
     cv.rect((x0, y0 + 10, x0 + 5, y0 + (330 if L else 420)), mix(VIO, BG, qa))
     yy = cv.para(x0 + 30, y0 + 10, '"the methods used by the pyramid builders, the practical knowledge of the laws of leverage and weight"', 'light', 54 if L else 50, TXT, (x1 - x0 - 60) * (0.8 if L else 1), 1.2, 'l', qa)
-    mono(cv, x0 + 30, yy + 10, 'Ed\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
+    mono(cv, x0 + 30, yy + 10, 'a family friend\'s reply to how he did it, as paraphrased in the NRHP form, 1984', 20, DIM, qa)
     py0 = y0 + (400 if L else 520)
     mono(cv, x0, py0, 'PAMPHLETS (he sold these)', 22, CYAN, ap(t, 's14', 0.55))
     ps = [('1936', 'A Book in Every Home', 0.62), ('Aug 1945', 'Magnetic Current', 0.76), ('Oct 1945', 'Mineral, Vegetable and Animal Life', 0.88)]
@@ -566,7 +566,7 @@ def sc_close(cv, t, p):
     if L: tripod(cv, 1560, 830, 380, 0.5 * a, 0.2 + 0.1 * math.sin(t * 0.5), math.sin(t * 0.6))
 
 SOURCES = [
-    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (Ed\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
+    'NPS: National Register of Historic Places Inventory-Nomination Form, "Rock Gate (a family friend\'s Place)" / Coral Castle. Florida Division of Archives, 2 Apr 1984; listed 10 May 1984; renamed Coral Castle 2011 (npgallery.nps.gov, asset 1ed2ccd0-b692-42dc-b28d-1227c1a23407)',
     'coralcastle.com: "The Secrets of Coral Castle" (1,100 tons) and "About Edward Leedskalnin" (chronology, Bob Biggers, heaviest piece over 21 tons, gate stopped 1984)',
     'C. A. Lake, Leedskalnin biography (1950s, engineer): "over 1000 tons". Wikipedia "Coral Castle" / "Edward Leedskalnin" (1,100 short tons, unattributed; repair accounts; read 2026-10-13)',
     'rockgatepark.com/the-tools (independent archive, not affiliated with the castle): hoisting-gear photographs; "no detailed records". Also Florida Memory item 328424. No photographs are used here: every picture is drawn.',

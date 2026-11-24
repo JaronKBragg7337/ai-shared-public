@@ -1,0 +1,2 @@
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/shorts/work/oq2-body.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/shorts/work/oq2-end.mp4'

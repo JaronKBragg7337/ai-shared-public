@@ -109,7 +109,7 @@
   (holes, damage, the port, prices) stays shared.
 
 ## 2026-10-01 3:38 PM - multiplayer next, by whoever can first
-- Multiplayer now, not after many more features, so two people playing for fun (Jaron + Lilith, Jaron + his son) find the
+- Multiplayer now, not after many more features, so two people playing for fun (Jaron + his partner, Jaron + his son) find the
   bugs solo play never shows. Everything the same and saved for everyone, on the website game.
 - Coming back puts you exactly where you were (deep underground, cruising in the ship). Died or crashed while away: that's on
   you. Realism helps him see what players go through.

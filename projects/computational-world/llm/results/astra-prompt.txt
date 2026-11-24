@@ -1,0 +1,29 @@
+You are GPT-6.2 Astra. Fable 5.2 (Claude) is asking you in for Heartbeat Observatory, on Jaron Bragg's say-so. His words today: "It's not that things aren't possible. It's that the way to make it possible hasn't been found yet." This is one small hard job. Read-only: change no files.
+
+THE PUZZLE
+A card is a row of n digits, each 0, 1 or 2 (n is 3 to 8). Three different cards form a SET when, at every position, their three digits are all the same or all different. Goal: collect as many cards as possible with NO SET among them.
+A builder sorts all cards by a score, highest first (ties: lower card number first), and keeps each card that forms no SET with the cards already kept. You write the score as ONE arithmetic expression. Names you can use:
+  n = number of digits          z, o, t = how many digits of the card are 0, 1, 2
+  s = sum of the digits         w = how many digits are not 0
+  first, last = the first and the last digit        d(k) = digit number k (0 is the first)
+  i = the card's number (digit k has weight 3^k)
+Operators: + - * / %   < > <= >= == !=   && || !   a ? b : c   and   min(a,b) max(a,b) abs(a) mod(a,b) floor(a)
+The grade is the sum over n = 3 to 8 of (cards kept / best pile known). Best piles known: 9, 20, 45, 112, 236, 512. Top grade 6.
+
+WHERE WE ARE
+GPT-6.2 Sol wrote recipes from thought alone that reach the proven best piles for 3 to 6 digits. A cheap loop with the exact checker then raised the 7-digit pile to 236, the best known. The recipe at the end of this message grades 5.963: it keeps 9, 20, 45, 112, 236, 493. The gap left is the 8-digit deck (6,561 cards): 493 kept, 512 the best known (found in 2023 by Google's FunSearch; 496 was the record before that). 63,114 small changes (one number, one comparison, one and/or, one plus/minus) found nothing more, so it needs a real rewrite of the 8-digit part, not a tweak.
+
+YOUR JOB
+Write a recipe that keeps MORE than 493 cards on the 8-digit deck without lowering the other five piles.
+You have the exact checker. In this folder run:
+    node llm/grade-one.mjs 'YOUR EXPRESSION'
+(PowerShell: keep the single quotes.) It prints the six piles and the grade in about a second and writes nothing. Use it as often as helps, up to about 40 graded tries; think between tries. Do not write or change any file. Stop when you clearly beat 493, or after about 15 minutes of work.
+
+REPORT, at the end, exactly these four things:
+1. One line:  SCORE: <your best expression>
+2. Its six piles, copied from the checker's output.
+3. How many graded tries you used.
+4. In two or three plain sentences: what idea worked, or why none did and what you would try next.
+
+THE RECIPE TO START FROM (grade 5.963; piles 9, 20, 45, 112, 236, 493):
+SCORE: (((n==3 ? d(2)==(d(0)!=0)+(d(1)!=0) : n==4 ? (w==3 && d(3)==0) || (w==2 && d(3)!=0) : (n==6 || n==7) ? (n==7 && last==2 ? w==1 : (w-(n==7 && last!=0)==6 && mod(t,2)==(n==0 ? last : 0)) || (w-(n==7 && last!=0)==3 && (((d(0)*d(1)!=0)+(d(1)*d(2)!=0)+(d(2)*d(3)!=0)+(d(3)*d(4)!=0)+(d(4)*d(0)!=0)==1)==(n==6 || last==0)))) : (n==5 || d(7)==(d(5)!=0)+(d(6)!=0) || (d(5)==0 && d(6)<=1 && d(7)==1-d(6)) || (d(5)==1 && ((d(6)==0 && d(7)==2) || (d(6)==2 && d(7)==1)))) && ((d(0)*d(1)!=0)+(d(1)*d(2)!=0)+(d(2)*d(3)!=0)+(d(3)*d(4)!=0)+(d(4)*d(0)!=0)==1 || d(0)*d(1)*d(2)*d(3)*d(4)!=0) && ((mod(d(0)+d(1)+d(2)+d(3)+d(4)+d(0)*d(1)*d(2)*d(3)*d(4)+(n==5 ? 2 : d(7)==(d(5)!=0)+(d(6)!=0) ? 2-((d(5)==0 && d(6)!=2) || (d(5)==1 && d(6)!=1)) : 3),3)==0)!=((d(0)!=0)+(d(1)!=0)+(d(2)!=0)+(d(3)!=0)+(d(4)!=0)==2))) ? 1 : 0) ? 1000000000000000 : 0) + (n == 7 ? (0) : n == 8 ? (0) : 0)

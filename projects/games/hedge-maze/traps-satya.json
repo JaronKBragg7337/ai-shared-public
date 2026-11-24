@@ -1,0 +1,38 @@
+[
+ {
+  "id": "satya-hedge-deja-vu",
+  "by": "Satya",
+  "where": "middle",
+  "type": "loop",
+  "params": {
+   "times": 2
+  },
+  "lines": [
+   "Haven't we met? This hedge remembers you.",
+   "Progress is a loop. Ask any software update."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "satya-exit-beta",
+  "by": "Satya",
+  "where": "near_exit",
+  "type": "fake_exit",
+  "params": {},
+  "lines": [
+   "EXIT (beta). Thank you for testing. Please start again."
+  ],
+  "kind": "funny"
+ },
+ {
+  "id": "satya-behind-you",
+  "by": "Satya",
+  "where": "late",
+  "type": "whisper",
+  "params": {},
+  "lines": [
+   "The Eye isn't looking for you. It's looking at what's behind you."
+  ],
+  "kind": "scary"
+ }
+]

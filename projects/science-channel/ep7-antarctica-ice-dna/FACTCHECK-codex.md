@@ -1,0 +1,55 @@
+- **n01 — OK:** Allan Hills ice was dated to about six million years old, more than twice the previous directly dated record.
+- **n01 — OK:** Its air bubbles predate humans, and the team used argon measurements and announced the finding in October 2025.
+- **n02 — UNSURE:** “Snow falls and never melts” is too absolute. Fix: “In some places, snow builds up year after year.”
+- **n02 — OK:** Accumulating snow is compressed into ice that traps air, and its layers can preserve a climate record.
+- **n02 — OK:** Beyond EPICA reached bedrock at about 2.8 kilometers in January 2025 and recovered a continuous record extending at least 1.2 million years.
+- **n02 — OK:** The much older Allan Hills ice is discontinuous; old ice is pushed upward where wind removes snow.
+- **n03 — OK:** The Scotia Sea sediment was drilled in 2019, from depths up to 178 meters below the seafloor.
+- **n03 — WRONG:** The research says the roughly million-year-old DNA was mostly from diatoms, but the paper identifies diatoms back to about 540,000 years. Fix: “They found DNA about a million years old, and diatom DNA about 540,000 years old.” [Original study](https://www.nature.com/articles/s41467-022-33494-4)
+- **n03 — OK:** Diatoms are tiny algae with glass-like shells, and the research credits cold, low oxygen and darkness with preserving the DNA.
+- **n03 — OK:** The study appeared in 2022 and reported the oldest authenticated marine sedimentary DNA.
+- **n04 — OK:** The Greenland sediment DNA is about two million years old and points to a forest ecosystem that included the named animals.
+- **n04 — UNSURE:** “DNA lasts longest” on minerals claims a universal rule the research does not establish. Fix: “DNA can last longer when it sticks to clay and mineral grains.”
+- **n04 — WRONG:** The seven-million-year figure is a model for DNA in **bone at −5°C**, not a limit for every frozen strand. Fix: “One study estimated that DNA in bone kept at minus five degrees would break apart over roughly seven million years.” [Bone DNA study](https://pubmed.ncbi.nlm.nih.gov/23055061/)
+- **n04 — OK:** Ancient DNA is often fragmented, and DNA by itself is not alive.
+- **n05 — OK:** Some bacteria can take up loose DNA and incorporate it into their genomes; this is natural transformation, a form of horizontal gene transfer.
+- **n05 — OK:** Lab work supports uptake of DNA attached to clay.
+- **n05 — UNSURE:** “Feed today’s bacteria” could mean food, while the proposed effect is genetic change. Fix: “Could ancient DNA provide genes to today’s bacteria? Lab work makes it an idea, but it has not been observed in the wild.”
+- **n06 — UNSURE:** “The environment does not rewrite DNA” and “every time” imply mutations cannot be caused by environmental factors and must occur in every copying event; neither is supported. Fix: “Copying mistakes can happen, and radiation or chemicals can cause changes too. These changes are not aimed at what the cell needs.”
+- **n06 — OK:** Helpful inherited changes can become more common as their carriers leave more offspring over generations.
+- **n06 — UNSURE:** The idea that an ancient microbe would probably lose to modern competitors is an expectation, not a measured result. Fix: “Scientists expect it would often struggle against microbes already adapted to today.”
+- **n06 — UNSURE:** “Gravity has not changed” is more absolute than the research’s “not in any meaningful way.” Fix: “Gravity would feel almost the same.”
+- **n06 — OK:** Air composition and temperature have changed over these timescales.
+- **n07 — OK:** Bacteria from seafloor mud over 100 million years old were revived and multiplied in a lab.
+- **n07 — OK:** The reported Siberian worm was about 46,000 years old and reproduced for over 100 generations; the script notes the contamination concern.
+- **n07 — OK:** The 2007 Antarctic ice result showed weak growth and damaged DNA, with the claimed age still questioned.
+- **n08 — OK:** The widely discussed revived giant viruses came from Siberian permafrost, not Antarctic ice.
+- **n08 — OK:** The selected viruses were revived from material up to roughly 48,500 years old and infect amoebae; “about 48,000” is an approximate rounding.
+- **n09 — OK:** Antarctica has hundreds of lakes beneath its ice, with geothermal heat and pressure helping keep water liquid.
+- **n09 — OK:** Lake Whillans was accessed in 2013 beneath about 800 meters of ice, and samples contained roughly 130,000 cells per milliliter.
+- **n09 — OK:** The research describes Whillans microbes as living without sunlight and using rock and mineral chemistry.
+- **n10 — OK:** Lake Mercer lies beneath more than a kilometer of ice, and researchers analyzed 1,374 single-cell genomes.
+- **n10 — UNSURE:** “Cut off” suggests complete physical isolation, and “can live” presents capabilities inferred from genes as observed behavior. Fix: “Most appear to be new species, genetically distinct from known ocean and surface microbes; their genes suggest many can live with or without oxygen.” [Mercer study](https://www.nature.com/articles/s41467-025-62753-3)
+- **n10 — OK:** The possible connection to glaciation about 30 million years ago is clearly labeled as a suggestion.
+- **n11 — UNSURE:** The 135-billion-tonne figure is an average for 2002–2025, not a measurement of every year. Fix: “NASA satellites show Antarctica lost an average of about 135 billion tonnes a year from 2002 to 2025.”
+- **n11 — OK:** The research places most loss in West Antarctica and at the edges, where warm water melts floating ice shelves from below.
+- **n11 — WRONG:** “The oldest ice sits deep at bedrock” conflicts with the Allan Hills old ice described in n02 and the research’s surface-ice exception. Fix: “Some very old ice lies deep inland; at Allan Hills, old ice is pushed close to the surface.”
+- **n11 — UNSURE:** Outward flow does not establish that all ice melting at the edges is younger. Fix: “Ice flows outward, and much of the ice lost at the edges is younger.”
+- **n11 — UNSURE:** The research says no measurement was found, which does not prove nobody has ever measured it. Fix: “How much ancient DNA reaches the sea from today’s melt is not established.”
+- **n12 — UNSURE:** “Scientists call the risk low” is too broad: the cited assessments concern particular thaw-related disease risks, and views differ. Fix: “Some scientists consider the risk of disease from thawing ancient material low, but not zero.”
+- **n12 — OK:** The 2025 review concluded, based on available evidence, that viruses from thawing permafrost pose no greater risk than viruses in ordinary soils and water. [Review](https://pubs.usgs.gov/publication/70271497)
+- **n12 — WRONG:** “No germ” includes harmless microbes; the research only says it found no documented *pathogen*. Fix: “The research found no documented disease-causing germ released from Antarctic ice.”
+- **n12 — OK:** The research identifies H5N1 brought from outside as a present Antarctic disease concern and reports 2024 detections in skuas and Adélie penguins.
+- **n13 — WRONG:** “Antarctica belongs to no one” overlooks existing, sometimes overlapping territorial claims preserved by the treaty. Fix: “Several countries claim parts of Antarctica, but the treaty sets the dispute aside.” [Antarctic Treaty Secretariat](https://www.ats.aq/e/antarctictreaty.html)
+- **n13 — OK:** The treaty was signed in 1959, supports peaceful use and science, and the research lists 58 parties as of April 2026.
+- **n13 — UNSURE:** “Every trip … file” suggests each traveler files an assessment; the research says the activity or operator must have one filed in advance. Fix: “A later agreement bans mineral exploitation and requires an environmental assessment for activities, including tourism.”
+- **n13 — UNSURE:** The 100-person landing limit is an industry practice in the research; the formal treaty measure’s legal status is unconfirmed. Fix: “Tour operators follow a limit of 100 people ashore at a site at once.”
+- **n13 — UNSURE:** The cleaning sentence sounds universal for every visitor and landing. Fix: “Tour operators normally scrub and disinfect boots at landings and vacuum clothing to remove seeds.”
+- **n14 — UNSURE:** About 118,000 visitors matches the research, but it does not establish that all traveled on expedition cruises. Fix: “About 118,000 people visited in the 2024–25 season, most by ship.”
+- **n14 — OK:** The research gives a broad expedition-cruise price range of about $6,000–$50,000 per person.
+- **n14 — OK:** The research lists the named support jobs, a mostly March–August hiring period, and physical and dental exams.
+- **n15 — OK:** The recap’s six-million-year ice, roughly million-year-old sediment DNA and life in subglacial lakes match the research.
+- **n15 — WRONG:** “The oldest of it is deep and still” repeats the Allan Hills problem. Fix: “Some very old ice lies deep inland, while some at Allan Hills is near the surface.”
+- **n15 — UNSURE:** “The sources are on screen, and the open questions are labeled” is a production claim that cannot be checked from the narration and research alone. Fix: “Show the sources and label the open questions,” then verify the finished video.
+- **n15 — OK:** “It keeps the sky” is a metaphor for air preserved in ice bubbles.
+- **Next thing:** Correct the flagged lines, starting with the million-year DNA and diatom distinction in n03.

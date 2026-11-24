@@ -1,0 +1,37 @@
+A. FOUR dimensions (Lenz construction: two circles in two perpendicular planes)
+   n   same-distance pairs   n*n/4+n   planar ceiling 1.94*n^(4/3)
+     16          80          80            78
+     64        1088        1088           497
+    256       16640       16640          3153
+   1024      263168      263168         20023
+
+B. The PLANE: plain lattices, open L x L array (exact integer counts)
+   lattice     n        nearest-only pairs   best single distance^2   pairs      avg partners   far-from-edge partners   share of proven ceiling
+   square         1024           1984                 65           5776       11.3             16              0.288
+   square        10000          19800               1105          98176       19.6             32              0.235
+   square        99856         199080               5525        1724224       34.5             48              0.192
+   square      1000000        1998000             160225       25992416       52.0             96              0.134
+   triangular     1024           2945                 91           7432       14.5             24              0.371
+   triangular    10000          29601                637         118394       23.7             36              0.283
+   triangular    99856         298305              12103        1964752       39.4             72              0.219
+   triangular  1000000        2996001              53599       32919176       65.8             96              0.170
+   (for scale: n^0.014 is 1.10 at n=1,000 and 1.21 at n=1,000,000)
+   sanity: hexagon + centre, 7 points -> 12 pairs (known best for 7 points is 12)
+
+C. Toy memory on a 48 x 48 wrap-around array (2304 cells); cells wired only at ONE distance
+   wiring                         partners K   patterns held (recall >= 0.90 from a 10% damaged cue)   per partner   recall with 20% of cells dead at half load
+   square, distance^2 = 1              4              2                                   0.50          0.993
+   square, distance^2 = 5              8              3                                   0.38          1.000
+   square, distance^2 = 25            12              5                                   0.42          0.999
+   square, distance^2 = 65            16              6                                   0.38          0.986
+   square, distance^2 = 325           24              8                                   0.33          0.989
+   triangular, distance^2 = 1          6              2                                   0.33          1.000
+   triangular, distance^2 = 7         12              4                                   0.33          0.998
+   triangular, distance^2 = 49        18              6                                   0.33          0.992
+   triangular, distance^2 = 91        24              8                                   0.33          0.989
+   random wiring (control)             4              2                                   0.50          0.998
+   random wiring (control)             6              2                                   0.33          1.000
+   random wiring (control)             8              3                                   0.38          1.000
+   random wiring (control)            12              4                                   0.33          0.999
+   random wiring (control)            16              6                                   0.38          0.987
+   random wiring (control)            24              8                                   0.33          0.986

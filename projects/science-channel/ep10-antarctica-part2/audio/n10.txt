@@ -1,0 +1,6 @@
+file 'parts/n10_0.wav'
+file 'parts/gap.wav'
+file 'parts/n10_1.wav'
+file 'parts/gap.wav'
+file 'parts/n10_2.wav'
+file 'parts/gap.wav'

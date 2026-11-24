@@ -28,7 +28,9 @@
     {
       "name": "cosmos-sol",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["C:/Users/lilli/Projects/ho-sol/games/the-cosmos/server.js"],
+      "runtimeArgs": [
+        "C:/Users/lilli/Projects/ho-sol/games/the-cosmos/server.js"
+      ],
       "port": 8378
     },
     {
@@ -42,6 +44,34 @@
         "C:/Users/lilli/Projects/the-necklace-show"
       ],
       "port": 4340
+    },
+    {
+      "name": "computational-world",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4361",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "C:/Users/lilli/AI-Shared/projects/computational-world"
+      ],
+      "port": 4361
+    },
+    {
+      "name": "hedge-local",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4352",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "C:/Users/lilli/Projects/heartbeat-observatory"
+      ],
+      "port": 4352
     }
   ]
 }

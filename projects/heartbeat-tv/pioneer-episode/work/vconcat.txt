@@ -1,0 +1,4 @@
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/pioneer-episode/work/vpart0.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/pioneer-episode/work/vpart1.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/pioneer-episode/work/vpart2.mp4'
+file 'C:/Users/lilli/AI-Shared/projects/heartbeat-tv/pioneer-episode/work/vpart3.mp4'

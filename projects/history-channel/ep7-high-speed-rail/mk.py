@@ -1,0 +1,13 @@
+import json
+S = [
+('s1', "A viewer asked a sharper question: not freight, travel. What if America had fast passenger trains, like Europe and Asia? Every trip time here is an estimate, with the math on screen."),
+('s2', "Japan opened the Shinkansen in nineteen sixty four. It now runs about twenty nine hundred fifty kilometers. France's TGV began in nineteen eighty one, on about twenty eight hundred. Spain has Europe's largest network, about four thousand. China has the world's largest, over fifty thousand kilometers at the end of twenty twenty five."),
+('s3', "For a benchmark: Japan's fastest Tokyo to Osaka trains cover about three hundred twenty miles in two hours twenty one minutes, stops included. That averages about one hundred thirty six miles an hour. Brightline in Florida averages about sixty nine."),
+('s4', "Apply that pace to America, as rough estimates. New York to Chicago, nine hundred fifty nine miles by today's train route: about seven hours, against about twenty now. Los Angeles to San Francisco, about three hundred eighty road miles: about two point eight hours. Chicago to Fort Wayne to Detroit, about three hundred fourteen road miles: about two point three. Real routes would differ."),
+('s5', "Why not here? Several reasons are argued. Distance and density: many American city pairs are far apart, though the Northeast is not. Highways and airlines: Congress authorized the Interstates in nineteen fifty six. Cost: California's Merced to Bakersfield segment alone is estimated at thirty five to thirty seven billion dollars. Politics: projects outlast election cycles. And the tracks: Amtrak owns about six hundred twenty three route miles, and over seventy percent of its travel is on freight railroads' track."),
+('s6', "What exists or is coming? Acela got new Avelia Liberty trains in August twenty twenty five, rated for one hundred sixty miles an hour, though the track limits speed. Brightline has run Miami to Orlando since September twenty twenty three. Brightline West plans two hundred eighteen miles, Las Vegas to Rancho Cucamonga, now targeting late twenty twenty nine. California targets twenty thirty two for Merced to Bakersfield, with no date for the full line."),
+('s7', "Known: other countries run trains averaging well over one hundred miles an hour, and America's biggest new project has no riders yet. Not known: whether American demand would fill fast trains, what routes would really cost, and whether these estimates hold with real stops."),
+('s8', "Sources are on screen. Made with AI by Heartbeat Observatory."),
+]
+json.dump([{'id': i, 'text': t} for i, t in S], open('script.json', 'w'), indent=1)
+print(sum(len(t.split()) for _, t in S))

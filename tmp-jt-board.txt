@@ -1,0 +1,42 @@
+no scheduled event soon (next: FOMC rate decision on Oct 28, 5 days)
+Latest crypto headlines:
+  - Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (Cointelegraph, 2 h ago)
+  - IRS plans lower tax disclosure penalties, including for crypto: Forbes (Cointelegraph, 2 h ago)
+  - Initia halts blockchain after exploit reportedly drains over $2.6M (Cointelegraph, 4 h ago)
+  - US senator probes Tether after reported deal with ex-Trump crypto adviser (Cointelegraph, 5 h ago)
+ETF flows:
+  - Bitcoin ETFs shed $635 million as BTC tests their holdings’ estimated $81,500 cost basis (5 h ago)
+  - Zcash Gains 3.1% Amid ETF Inflows and NU7 Upgrade (6 h ago)
+
+BTC  Kraken 80,848.5000 | blended 80,845.7700 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.07% | last 15 min -0.01% | 1-min volatility 0.043%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $1,173k vs sells $523k (69% buy) -> real money BUYING | biggest print sell $167k on Coinbase
+  futures: funding +0.0013%/h, longs paying shorts (crowd leans UP) | open interest 2,612 (-0.01% since 23:03 UTC)
+  options: implied volatility 37.5% a year (Deribit DVOL) = about 0.052% per minute
+  books within 0.2% (Coinbase+Kraken): buyers $13,820,987 vs sellers $18,291,221 -> 43% buy side | biggest: Kraken sell wall $1,213,596 at 80,906.4000
+   1h  7:00 PM ET-8:00 PM ET    54 min left  +0.133% vs open 80,738.0000 -> UP so far | fair chance Up 66% (options-implied: 64%)
+        Up bid 0.7100 / ask 0.7200 | Down costs 0.29 | depth bid 42 / ask 26   cpc-btc-updown-1h-2026-10-23-2300z
+        >>> POLY LAGS: spot says Down 38%, Poly asks 0.29 for Down -> 9c gap (Down looks cheap)
+
+ETH  Kraken 2,369.4500 | blended 2,369.4500 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.12% | last 15 min -0.02% | 1-min volatility 0.083%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $317k vs sells $313k (50% buy) -> balanced | biggest print buy $24k on Coinbase
+  futures: funding +0.0002%/h, longs paying shorts (crowd leans UP) | open interest 27,990 (-0.08% since 23:03 UTC)
+  options: implied volatility 52.1% a year (Deribit DVOL) = about 0.072% per minute
+  books within 0.2% (Coinbase+Kraken): buyers $8,172,027 vs sellers $7,481,500 -> 52% buy side | biggest: Kraken buy wall $750,000 at 2,364.9300
+   1h  7:00 PM ET-8:00 PM ET    54 min left  +0.209% vs open 2,364.5100 -> UP so far | fair chance Up 63% (options-implied: 65%)
+        Up bid 0.7000 / ask 0.7500 | Down costs 0.3 | depth bid 26 / ask 15   cpceth-eth-updown-1h-2026-10-23-2300z
+
+SOL  Kraken 102.3200 | blended 102.3450 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min -0.01% | last 15 min +0.05% | 1-min volatility 0.095%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $47k vs sells $41k (54% buy) -> balanced | biggest print sell $9,154 on Kraken
+  futures: funding -0.0024%/h, shorts paying longs (crowd leans DOWN) | open interest 205,956 (+0.23% since 23:03 UTC)
+  books within 0.2% (Coinbase+Kraken): buyers $1,798,467 vs sellers $2,548,678 -> 41% buy side | biggest: Kraken buy wall $262,716 at 102.1800
+   1h  7:00 PM ET-8:00 PM ET    54 min left  +0.132% vs open 102.2100 -> UP so far | fair chance Up 57%
+        Up bid 0.5700 / ask 0.6500 | Down costs 0.43 | depth bid 27 / ask 11   cpcsol-sol-updown-1h-2026-10-23-2300z
+
+XRP  Kraken 1.2895 | blended 1.2899 (median of Coinbase/Bitstamp/Gemini/Kraken, closer to the settlement index) | last 5 min +0.02% | last 15 min -0.19% | 1-min volatility 0.091%
+  FLOW last 2 min (Coinbase+Kraken taker trades): buys $90k vs sells $348k (21% buy) -> real money SELLING | biggest print sell $285k on Kraken
+  futures: funding +0.0012%/h, longs paying shorts (crowd leans UP) | open interest 17,376,729 (-0.01% since 23:03 UTC)
+  books within 0.2% (Coinbase+Kraken): buyers $1,450,611 vs sellers $2,394,730 -> 38% buy side | biggest: Coinbase sell wall $239,014 at 1.2925
+   1h  7:00 PM ET-8:00 PM ET    54 min left  +0.128% vs open 1.2883 -> UP so far | fair chance Up 58%
+        Up bid 0.6000 / ask 0.6200 | Down costs 0.4 | depth bid 16 / ask 13   cpcxrp-xrp-updown-1h-2026-10-23-2300z
+
+Settles on CF Benchmarks real-time index; Kraken shown here as a close stand-in. Read only.

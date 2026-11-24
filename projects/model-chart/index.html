@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our AI Models</title>
+<style>
+:root {
+  --paper:#f6f0e4; --card:#fffaf1; --ink:#2b2620; --muted:#6e6355; --rule:#e3d8c4;
+  --conductor:#7a4fb5; --writer:#b4483a; --builder:#2f6db0; --chores:#5f7f2e; --desk:#b07a1f; --tests:#8a6d5a; --unused:#9a9187;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper:#1d1a16; --card:#26221c; --ink:#efe6d6; --muted:#b3a690; --rule:#3a342b;
+  --conductor:#b392e6; --writer:#e58a74; --builder:#7fb0e8; --chores:#a8c76e; --desk:#e2b25a; --tests:#c9ad97; --unused:#8f877c; color-scheme: dark; } }
+:root[data-theme="dark"] { --paper:#1d1a16; --card:#26221c; --ink:#efe6d6; --muted:#b3a690; --rule:#3a342b;
+  --conductor:#b392e6; --writer:#e58a74; --builder:#7fb0e8; --chores:#a8c76e; --desk:#e2b25a; --tests:#c9ad97; --unused:#8f877c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1080px; margin:0 auto; padding:24px 16px 56px; }
+h1 { font-size:1.8rem; margin:0 0 4px; }
+.lede { color:var(--muted); margin:0 0 18px; max-width:60ch; }
+.legend { display:flex; flex-wrap:wrap; gap:8px 14px; margin:0 0 22px; padding:0; list-style:none; font-size:.9rem; }
+.legend li { display:flex; align-items:center; gap:6px; }
+.sw { width:12px; height:12px; border-radius:3px; display:inline-block; }
+.company { margin:0 0 22px; }
+.company h2 { font-size:1.05rem; margin:0 0 2px; }
+.company .plan { color:var(--muted); font-size:.88rem; margin:0 0 10px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:12px; }
+.card { background:var(--card); border:1px solid var(--rule); border-left:6px solid var(--c); border-radius:12px; padding:12px 14px; }
+.card h3 { margin:0; font-size:1.08rem; }
+.role { display:inline-block; margin:4px 0 8px; font-size:.78rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--c); }
+.pill { float:right; font-size:.75rem; border:1px solid var(--rule); border-radius:999px; padding:1px 8px; color:var(--muted); }
+.job { margin:0 0 6px; }
+.meta { margin:0; color:var(--muted); font-size:.88rem; }
+.note { margin:6px 0 0; font-size:.88rem; }
+footer { color:var(--muted); font-size:.85rem; margin-top:26px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Our AI Models</h1>
+  <p class="lede">Every AI model Heartbeat Observatory runs work on, by company. The color shows each model's role, and the tag says how often it runs.</p>
+  <p class="lede"><a href="benchmarks.html" style="color:inherit;font-weight:600">See how these models score and what they cost &rarr;</a></p>
+  <ul class="legend" id="legend"></ul>
+  <div id="companies"></div>
+  <footer>Worlds and games always get the top models (Opus, Fable, Sonnet, Sol 6.2): realistic looks are what people notice most. Updated Nov 19, 2026 from Jaron's picks. The source of truth is AI-Shared/state/models.md and state/routing.json.</footer>
+</main>
+<script>
+const ROLES = { conductor:"Conductor", writer:"Writer", builder:"Builder", chores:"Chores", desk:"News desk + research", tests:"Tests only", unused:"Not used" };
+const DATA = [
+  { co:"Anthropic", plan:"Claude Max plan, shared by every Claude model", models:[
+    { n:"Claude Opus 5.5", r:"conductor", f:"Always on", j:"Runs the whole team: plans, decides, routes work, checks results live, sets the bar for how things look.", m:"Claude meter", x:"Jaron's favorite. Stays Opus." },
+    { n:"Claude Sonnet 5.5", r:"writer", f:"Daily", j:"Writes the daily news show (pinned on purpose) and builds anything where looks matter.", m:"Claude meter (cheap per job)", x:"The builder when Opus or Fable doesn't take it." },
+    { n:"Claude Fable 5.2", r:"builder", f:"On call", j:"Art direction, trailers, anything where its eye matters.", m:"Its own weekly limit", x:"Used only where it clearly beats the others." },
+    { n:"Claude Haiku 5.5", r:"unused", f:"Not used", j:"Small quick jobs, in theory.", m:"Claude meter", x:"Jaron: if Opus or Fable doesn't do it, Sonnet 5.5 does." }
+  ]},
+  { co:"OpenAI", plan:"Codex on Jaron's ChatGPT Plus plan. One meter shared with ChatGPT Work", models:[
+    { n:"GPT-6.2 Sol", r:"builder", f:"On call", j:"Builds: systems, games, big pieces.", m:"About 26% of a 5-hour window per real build", x:"Not 6.1 Sol: that one costs way more." },
+    { n:"GPT-6.2 Astra", r:"tests", f:"Tests only", j:"The same test set every new model gets (Framing Lens, the street build, the picture test).", m:"One build took about 1.5 five-hour windows", x:"Never for work: it runs out before finishing and someone else has to finish." },
+    { n:"GPT-6 Luna", r:"chores", f:"Daily", j:"Chores (publishing, checks, docs), the 3 AM Codex news desk, Prep Watch rounds.", m:"Near free on the Codex meter", x:"The cheap workhorse. Never for worlds or games: those always get the top models." },
+    { n:"GPT-6.1 Terra", r:"unused", f:"Default only", j:"Codex's default setting. Never picked on purpose.", m:"Codex meter", x:"Every job names its model, so Terra only runs by mistake. Never for worlds." }
+  ]},
+  { co:"xAI", plan:"SuperGrok plan, through the Grok Build command line", models:[
+    { n:"Grok 4.7", r:"desk", f:"Daily", j:"The Meridian news desk (1:50 AM), the blind-spot check (3:25 AM), research, and some builds. Also how we talk to the Grok Bot bots.", m:"SuperGrok meter (cheapest strong builder)", x:"Not for 3D worlds or looks. Great at watching gameplay and trailers to find flaws." }
+  ]},
+  { co:"Moonshot", plan:"Kimi Allegretto plan", models:[
+    { n:"Kimi K3.1 Pro", r:"desk", f:"Daily", j:"The First Light news desk (3 AM: Asia, Middle East, Russia, Africa), Sapling's teacher, and big new work.", m:"Monthly credits plus 5-hour and weekly windows", x:"Cracked old problems the others couldn't." },
+    { n:"Kimi K2.8 Preview", r:"chores", f:"On call", j:"Everyday jobs.", m:"Half the credit cost of K3.1 Pro", x:"" }
+  ]},
+  { co:"DeepSeek", plan:"API, pay per use, with a daily budget in the Control Room", models:[
+    { n:"DeepSeek V4 Pro", r:"desk", f:"Daily", j:"The news reader (3:40 AM) that reads every desk's capture, plus cheap research.", m:"Pay per use", x:"" }
+  ]}
+];
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+document.getElementById("legend").innerHTML = Object.entries(ROLES).map(([k, v]) => `<li><span class="sw" style="background:var(--${k})"></span>${v}</li>`).join("");
+document.getElementById("companies").innerHTML = DATA.map((c) => `
+  <section class="company"><h2>${esc(c.co)}</h2><p class="plan">${esc(c.plan)}</p><div class="grid">
+  ${c.models.map((m) => `<article class="card" style="--c:var(--${m.r})">
+    <span class="pill">${esc(m.f)}</span><h3>${esc(m.n)}</h3><span class="role">${ROLES[m.r]}</span>
+    <p class="job">${esc(m.j)}</p><p class="meta">${esc(m.m)}</p>${m.x ? `<p class="note">${esc(m.x)}</p>` : ""}
+  </article>`).join("")}
+  </div></section>`).join("");
+</script>
+</body>
+</html>

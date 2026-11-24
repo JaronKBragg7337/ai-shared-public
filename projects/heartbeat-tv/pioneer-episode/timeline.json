@@ -1,0 +1,952 @@
+{
+ "fps": 24,
+ "seconds": 443.257,
+ "frames": 10638,
+ "scenes": [
+  {
+   "id": "s01",
+   "place": "studio",
+   "shot": "Heartbeat News desk, evening lights. Joe and Vex seated. Over-shoulder screen shows the real X exchange if production has a screenshot; otherwise a card clearly labeled PARAPHRASE: Grok suggests the Pioneer Anomaly, filed under Still Unknown.",
+   "board": null,
+   "start": 0.0,
+   "end": 34.639,
+   "f0": 0,
+   "f1": 831,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Good evening. I'm Alien Joe.",
+     "file": "00_00_joe.wav",
+     "start": 1.0,
+     "dur": 2.038,
+     "f0": 24,
+     "frames": 50
+    },
+    {
+     "who": "vex",
+     "text": "And I'm Robot Vex. This is Heartbeat News.",
+     "file": "00_01_vex.wav",
+     "start": 3.489,
+     "dur": 2.964,
+     "f0": 84,
+     "frames": 72
+    },
+    {
+     "who": "joe",
+     "text": "Correction. Tonight this is a science show. Which is a problem, because we are news anchors.",
+     "file": "00_02_joe.wav",
+     "start": 6.903,
+     "dur": 5.069,
+     "f0": 166,
+     "frames": 123
+    },
+    {
+     "who": "vex",
+     "text": "Heartbeat asked on X: what episode should we make? An AI named Grok answered.",
+     "file": "00_03_vex.wav",
+     "start": 12.421,
+     "dur": 5.139,
+     "f0": 298,
+     "frames": 124
+    },
+    {
+     "who": "joe",
+     "text": "Grok said, more or less: do the Pioneer Anomaly. A spacecraft pulled by something nobody can explain. File it under Still Unknown.",
+     "file": "00_04_joe.wav",
+     "start": 18.01,
+     "dur": 7.59,
+     "f0": 432,
+     "frames": 183
+    },
+    {
+     "who": "vex",
+     "text": "So management sent the two anchors with the nicest ties.",
+     "file": "00_05_vex.wav",
+     "start": 26.05,
+     "dur": 3.252,
+     "f0": 625,
+     "frames": 79
+    },
+    {
+     "who": "joe",
+     "text": "I own one tie. Weddings, funerals, and now, apparently, space.",
+     "file": "00_06_joe.wav",
+     "start": 29.752,
+     "dur": 3.987,
+     "f0": 714,
+     "frames": 97
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "place": "studio",
+   "shot": "Walk-and-talk. Joe and Vex stand, walk off the set, through the newsroom, out a side door to the parking lot where the Heartbeat News live truck sits, its little roof dish pointed at the station. A crew has bolted a rocket to the back.",
+   "board": null,
+   "start": 34.639,
+   "end": 56.605,
+   "f0": 831,
+   "f1": 1359,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Our ride is in the parking lot.",
+     "file": "01_00_vex.wav",
+     "start": 34.639,
+     "dur": 1.735,
+     "f0": 831,
+     "frames": 43
+    },
+    {
+     "who": "joe",
+     "text": "The live truck. The van with the satellite dish on the roof. We use it to send stories home.",
+     "file": "01_01_joe.wav",
+     "start": 36.824,
+     "dur": 5.072,
+     "f0": 884,
+     "frames": 123
+    },
+    {
+     "who": "vex",
+     "text": "A dish pointed back at the station. Engineering says that makes it a spacecraft.",
+     "file": "01_02_vex.wav",
+     "start": 42.346,
+     "dur": 4.792,
+     "f0": 1016,
+     "frames": 116
+    },
+    {
+     "who": "joe",
+     "text": "Engineering also said the coffee machine was fixed.",
+     "file": "01_03_joe.wav",
+     "start": 47.588,
+     "dur": 3.046,
+     "f0": 1142,
+     "frames": 74
+    },
+    {
+     "who": "vex",
+     "text": "They added a rocket. Seat belts on, please. Field trip rules.",
+     "file": "01_04_vex.wav",
+     "start": 51.085,
+     "dur": 4.621,
+     "f0": 1226,
+     "frames": 112
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "place": "truck",
+   "shot": "Inside the live truck: monitors, cables, two seats. Rumble, liftoff, the parking lot drops away, blue sky turns black. Exterior: the van climbing on a rocket flame, roof dish still swiveling to point at Earth. A coffee cup floats.",
+   "board": {
+    "title": "Head start",
+    "lines": [
+     "Pioneer 10 left Earth in 1972"
+    ],
+    "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004"
+   },
+   "start": 56.605,
+   "end": 72.838,
+   "f0": 1359,
+   "f1": 1748,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Everybody hold on to something. Viewers, that means your couch.",
+     "file": "02_00_joe.wav",
+     "start": 56.605,
+     "dur": 3.818,
+     "f0": 1359,
+     "frames": 93
+    },
+    {
+     "who": "vex",
+     "text": "Liftoff. Roof dish still pointed at the station. Signal is good. Coffee is floating.",
+     "file": "02_01_vex.wav",
+     "start": 60.873,
+     "dur": 5.6,
+     "f0": 1461,
+     "frames": 135
+    },
+    {
+     "who": "joe",
+     "text": "Pioneer 10 has a fifty year head start, so we are taking a shortcut. It's television.",
+     "file": "02_02_joe.wav",
+     "start": 66.923,
+     "dur": 5.016,
+     "f0": 1606,
+     "frames": 121
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "place": "space",
+   "shot": "Deep space, Sun a bright star behind. The live truck glides up beside Pioneer 10: hexagonal bus, big white 2.74 m dish facing Earth, two RTG booms, long thin magnetometer boom. The truck's tiny roof dish and Pioneer's big dish both point the same way, home.",
+   "board": {
+    "title": "Pioneer 10 and 11",
+    "lines": [
+     "Pioneer 10 launched March 2, 1972",
+     "Pioneer 11 launched April 5, 1973",
+     "Pioneer 10 passed Jupiter December 1973",
+     "High gain dish: 2.74 m across"
+    ],
+    "source": "Anderson et al., 2002, Physical Review D 65, 082004"
+   },
+   "start": 72.838,
+   "end": 101.372,
+   "f0": 1748,
+   "f1": 2433,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "There it is. Pioneer 10, launched March 2, 1972. Its twin, Pioneer 11, launched April 5, 1973.",
+     "file": "03_00_vex.wav",
+     "start": 72.838,
+     "dur": 9.659,
+     "f0": 1748,
+     "frames": 233
+    },
+    {
+     "who": "joe",
+     "text": "Pioneer 10 was the first spacecraft to fly past Jupiter, in December 1973. Then it just kept going.",
+     "file": "03_01_joe.wav",
+     "start": 82.947,
+     "dur": 7.292,
+     "f0": 1991,
+     "frames": 176
+    },
+    {
+     "who": "vex",
+     "text": "Look at that dish. 2.74 meters across. It points at Earth, just like ours.",
+     "file": "03_02_vex.wav",
+     "start": 90.689,
+     "dur": 6.08,
+     "f0": 2177,
+     "frames": 147
+    },
+    {
+     "who": "joe",
+     "text": "Ours is smaller.",
+     "file": "03_03_joe.wav",
+     "start": 97.219,
+     "dur": 1.687,
+     "f0": 2333,
+     "frames": 41
+    },
+    {
+     "who": "vex",
+     "text": "Ours is cuter.",
+     "file": "03_04_vex.wav",
+     "start": 99.356,
+     "dur": 1.116,
+     "f0": 2385,
+     "frames": 28
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "place": "space",
+   "shot": "Slow orbit around Pioneer. Labels pop on: six-sided equipment box, two booms with two RTGs each glowing faint orange (false-color heat view, labeled), magnetometer boom, the gold plaque on the struts. A tiny radio wave ripples from the dish toward a far blue dot.",
+   "board": {
+    "title": "What Pioneer carries",
+    "lines": [
+     "4 SNAP-19 RTGs (plutonium-238)",
+     "About 2,580 W of heat (July 1972)",
+     "About 160 W of electricity before launch",
+     "Radio signal sent at 8 W, about 2.29 GHz",
+     "Magnetometer on a boom about 6.6 m out"
+    ],
+    "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+   },
+   "start": 101.372,
+   "end": 147.834,
+   "f0": 2433,
+   "f1": 3548,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Tour time. The body is a six-sided box full of electronics. Those two long arms hold four power units called RTGs. Inside is plutonium, and it stays hot for decades.",
+     "file": "04_00_vex.wav",
+     "start": 101.372,
+     "dur": 11.391,
+     "f0": 2433,
+     "frames": 274
+    },
+    {
+     "who": "joe",
+     "text": "Like a campfire that never needs more wood. Only about five percent of that heat becomes electricity.",
+     "file": "04_01_joe.wav",
+     "start": 113.213,
+     "dur": 5.977,
+     "f0": 2717,
+     "frames": 144
+    },
+    {
+     "who": "vex",
+     "text": "At launch: about 2,500 watts of heat, and about 160 watts of electricity.",
+     "file": "04_02_vex.wav",
+     "start": 119.639,
+     "dur": 6.409,
+     "f0": 2871,
+     "frames": 155
+    },
+    {
+     "who": "joe",
+     "text": "And the skinny third arm?",
+     "file": "04_03_joe.wav",
+     "start": 126.498,
+     "dur": 1.9,
+     "f0": 3036,
+     "frames": 47
+    },
+    {
+     "who": "vex",
+     "text": "A magnetometer, for measuring magnetic fields. It sits far out so the spacecraft's own electronics don't confuse it.",
+     "file": "04_04_vex.wav",
+     "start": 128.848,
+     "dur": 7.312,
+     "f0": 3092,
+     "frames": 176
+    },
+    {
+     "who": "joe",
+     "text": "And the radio signal it beams home goes out at just eight watts.",
+     "file": "04_05_joe.wav",
+     "start": 136.61,
+     "dur": 3.854,
+     "f0": 3279,
+     "frames": 93
+    },
+    {
+     "who": "vex",
+     "text": "Eight watts. About as much as a small old-style night-light bulb. From billions of miles away.",
+     "file": "04_06_vex.wav",
+     "start": 140.914,
+     "dur": 6.019,
+     "f0": 3382,
+     "frames": 145
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "place": "space",
+   "shot": "Close on the gold plaque: the man and woman, the spacecraft outline, the pulsar map, the line of planets with a tiny probe leaving the third one.",
+   "board": {
+    "title": "The Pioneer plaque",
+    "lines": [
+     "Gold-anodized aluminum, about 15 x 23 cm",
+     "Designed by Carl Sagan and Frank Drake",
+     "Artwork by Linda Salzman Sagan",
+     "Shows people, a pulsar map to our Sun, and our planets"
+    ],
+    "source": "The Planetary Society, 'The Pioneer Plaque: Science as a Universal Language'; NASA"
+   },
+   "start": 147.834,
+   "end": 162.437,
+   "f0": 3548,
+   "f1": 3898,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "There's also a gold plaque on board. Two people, our planets, and a map to find our Sun using pulsars. Carl Sagan and Frank Drake designed it, and Linda Salzman Sagan drew it.",
+     "file": "05_00_joe.wav",
+     "start": 147.834,
+     "dur": 9.961,
+     "f0": 3548,
+     "frames": 240
+    },
+    {
+     "who": "vex",
+     "text": "A business card, in case anybody out there finds it.",
+     "file": "05_01_vex.wav",
+     "start": 158.244,
+     "dur": 3.292,
+     "f0": 3798,
+     "frames": 80
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "place": "board",
+   "shot": "Drawn board: Sun, Earth, and Pioneer far out on a dotted path. A radio wave travels home. A predicted dot and the real dot separate slightly, the real one nudged sunward. Big number appears.",
+   "board": {
+    "title": "The Pioneer anomaly",
+    "lines": [
+     "Extra pull, roughly toward the Sun:",
+     "a_P = (8.74 ± 1.33) × 10⁻¹⁰ m/s²",
+     "Seen from about 20 AU on (around 1980)",
+     "Pioneer 10 data studied: 40 to 70.5 AU (1987 to 1998)",
+     "Pioneer 11 data studied: 22.4 to 31.7 AU (1987 to 1990)"
+    ],
+    "source": "Anderson et al., 1998, Phys. Rev. Lett. 81, 2858; Anderson et al., 2002, Phys. Rev. D 65, 082004"
+   },
+   "start": 162.437,
+   "end": 194.037,
+   "f0": 3898,
+   "f1": 4657,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Now the mystery. Navigators tracked Pioneer by its radio signal. The way the signal's pitch shifts tells you how fast the spacecraft is moving.",
+     "file": "06_00_joe.wav",
+     "start": 162.437,
+     "dur": 8.115,
+     "f0": 3898,
+     "frames": 196
+    },
+    {
+     "who": "vex",
+     "text": "Starting around 1980, when Pioneer 10 was about twenty times farther from the Sun than Earth is, the numbers stopped matching. Both Pioneers were slowing down a tiny bit too much.",
+     "file": "06_01_vex.wav",
+     "start": 171.001,
+     "dur": 10.559,
+     "f0": 4104,
+     "frames": 254
+    },
+    {
+     "who": "joe",
+     "text": "Like something was gently tugging them back, roughly toward the Sun.",
+     "file": "06_02_joe.wav",
+     "start": 182.01,
+     "dur": 3.615,
+     "f0": 4368,
+     "frames": 88
+    },
+    {
+     "who": "vex",
+     "text": "John Anderson's team at JPL measured it. About eight point seven ten-billionths of a meter per second, every second.",
+     "file": "06_03_vex.wav",
+     "start": 186.076,
+     "dur": 7.061,
+     "f0": 4466,
+     "frames": 170
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "place": "board",
+   "shot": "Drawn board: a couch with a sleeping cat labeled 'Earth gravity' next to a speck labeled 'Pioneer pull'. Then a road map: Chicago to Detroit. Then a globe with a ring drawn once around it.",
+   "board": {
+    "title": "How small is it?",
+    "lines": [
+     "Earth gravity 9.81 m/s² is about 11 billion times bigger",
+     "After 1 year: about 435 km off, 2.8 cm/s slower",
+     "After 10 years: about 43,500 km off, about 1 km/h slower",
+     "Math: distance = ½ × a × t², speed = a × t",
+     "Our math, if the pull stayed steady"
+    ],
+    "source": "Our math from a_P in Anderson et al., 2002, Phys. Rev. D 65, 082004"
+   },
+   "start": 194.037,
+   "end": 227.22,
+   "f0": 4657,
+   "f1": 5453,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "That is a very small number. Help us out, Vex.",
+     "file": "07_00_joe.wav",
+     "start": 194.037,
+     "dur": 2.941,
+     "f0": 4657,
+     "frames": 72
+    },
+    {
+     "who": "vex",
+     "text": "It's about eleven billion times weaker than the gravity holding you on your couch.",
+     "file": "07_01_vex.wav",
+     "start": 197.428,
+     "dur": 4.255,
+     "f0": 4738,
+     "frames": 103
+    },
+    {
+     "who": "joe",
+     "text": "So it does nothing.",
+     "file": "07_02_joe.wav",
+     "start": 202.133,
+     "dur": 1.571,
+     "f0": 4851,
+     "frames": 39
+    },
+    {
+     "who": "vex",
+     "text": "It adds up. If that pull stays steady, after one year the spacecraft is about four hundred kilometers from where the math says it should be. About the drive from Chicago to Detroit.",
+     "file": "07_03_vex.wav",
+     "start": 204.154,
+     "dur": 10.715,
+     "f0": 4900,
+     "frames": 258
+    },
+    {
+     "who": "vex",
+     "text": "After ten years it's moving about one kilometer per hour slower, and it's more than forty thousand kilometers off. That's farther than once around the Earth.",
+     "file": "07_04_vex.wav",
+     "start": 215.319,
+     "dur": 8.655,
+     "f0": 5168,
+     "frames": 209
+    },
+    {
+     "who": "joe",
+     "text": "Navigators notice that.",
+     "file": "07_05_joe.wav",
+     "start": 224.424,
+     "dur": 1.896,
+     "f0": 5386,
+     "frames": 47
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "place": "truck",
+   "shot": "Inside the truck, Pioneer visible through the windshield. Vex excitedly holds up a printed newspaper headline: GRAVITY BROKEN? Idea bubbles float past: dark matter, bent gravity, new law.",
+   "board": {
+    "title": "Ideas people proposed",
+    "lines": [
+     "Unseen dark matter pulling on it",
+     "Gravity working differently far from the Sun (modified gravity, MOND)",
+     "Other new physics",
+     "Or: something on the spacecraft itself"
+    ],
+    "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev & Toth, 2010, Living Reviews in Relativity 13, 4"
+   },
+   "start": 227.22,
+   "end": 251.474,
+   "f0": 5453,
+   "f1": 6035,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Now the exciting part. Is this new physics?",
+     "file": "08_00_vex.wav",
+     "start": 227.22,
+     "dur": 2.906,
+     "f0": 5453,
+     "frames": 71
+    },
+    {
+     "who": "joe",
+     "text": "List them.",
+     "file": "08_01_joe.wav",
+     "start": 230.576,
+     "dur": 1.059,
+     "f0": 5534,
+     "frames": 26
+    },
+    {
+     "who": "vex",
+     "text": "Maybe unseen dark matter tugging on it. Maybe gravity works a little differently far from the Sun. Maybe a brand new law of nature.",
+     "file": "08_02_vex.wav",
+     "start": 232.086,
+     "dur": 7.657,
+     "f0": 5570,
+     "frames": 185
+    },
+    {
+     "who": "joe",
+     "text": "And Grok said: Still Unknown.",
+     "file": "08_03_joe.wav",
+     "start": 240.193,
+     "dur": 2.194,
+     "f0": 5765,
+     "frames": 54
+    },
+    {
+     "who": "vex",
+     "text": "I already printed the headline. Gravity: broken?",
+     "file": "08_04_vex.wav",
+     "start": 242.837,
+     "dur": 3.296,
+     "f0": 5828,
+     "frames": 80
+    },
+    {
+     "who": "joe",
+     "text": "Put the headline down, Vex. Before you rewrite physics, check the van.",
+     "file": "08_05_joe.wav",
+     "start": 246.583,
+     "dur": 3.991,
+     "f0": 5918,
+     "frames": 97
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "place": "studio",
+   "shot": "Mid check-in. The empty news desk; the big desk monitor shows a live shot from the truck: Joe and Vex waving, Pioneer behind them, coffee cup still floating. Lower third: LIVE FROM DEEP SPACE.",
+   "board": {
+    "title": "LIVE FROM DEEP SPACE",
+    "lines": [
+     "Tiny extra pull on Pioneer 10 and 11",
+     "Measured, not explained (yet)"
+    ],
+    "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004"
+   },
+   "start": 251.474,
+   "end": 261.174,
+   "f0": 6035,
+   "f1": 6268,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Quick check-in with the newsroom. We're fine. The coffee is not.",
+     "file": "09_00_joe.wav",
+     "start": 251.474,
+     "dur": 3.329,
+     "f0": 6035,
+     "frames": 81
+    },
+    {
+     "who": "vex",
+     "text": "Headline so far: a tiny pull, real data, no answer yet. Stay with us.",
+     "file": "09_01_vex.wav",
+     "start": 255.253,
+     "dur": 5.022,
+     "f0": 6126,
+     "frames": 122
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "place": "board",
+   "shot": "Drawn board: boxes of old magnetic tapes stacked under a staircase, a vintage tape machine, a laptop reading the tapes, a progress bar labeled '43 GB'.",
+   "board": {
+    "title": "Saving the old data",
+    "lines": [
+     "2004: Slava Turyshev (JPL) starts gathering records",
+     "Programmer Viktor Toth helps build software to read the telemetry",
+     "Tapes found in boxes, including under a JPL staircase",
+     "Over 43 GB of Doppler and telemetry data",
+     "The Planetary Society's members helped fund it; NASA later did too"
+    ],
+    "source": "NASA JPL news, 'Study finds heat is source of Pioneer anomaly', July 2012; Toth & Turyshev, 2006, arXiv:gr-qc/0603016"
+   },
+   "start": 261.174,
+   "end": 298.292,
+   "f0": 6268,
+   "f1": 7159,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Is it the universe, or the spacecraft? To find out, you need to know how warm every part of Pioneer was, for decades.",
+     "file": "10_00_joe.wav",
+     "start": 261.174,
+     "dur": 6.66,
+     "f0": 6268,
+     "frames": 161
+    },
+    {
+     "who": "vex",
+     "text": "That information was on old tapes. In 2004, JPL scientist Slava Turyshev started tracking down the records. Some were in boxes stored under a staircase.",
+     "file": "10_01_vex.wav",
+     "start": 268.284,
+     "dur": 10.521,
+     "f0": 6439,
+     "frames": 253
+    },
+    {
+     "who": "joe",
+     "text": "Viktor Toth, a programmer in Canada, helped build software to read the telemetry: the spacecraft's own reports about itself.",
+     "file": "10_02_joe.wav",
+     "start": 279.255,
+     "dur": 7.176,
+     "f0": 6702,
+     "frames": 173
+    },
+    {
+     "who": "vex",
+     "text": "Members of The Planetary Society helped pay for the rescue, and NASA later did too. More than forty-three gigabytes of data.",
+     "file": "10_03_vex.wav",
+     "start": 286.881,
+     "dur": 7.078,
+     "f0": 6885,
+     "frames": 171
+    },
+    {
+     "who": "joe",
+     "text": "Tiny today. Huge in 1972.",
+     "file": "10_04_joe.wav",
+     "start": 294.409,
+     "dur": 2.983,
+     "f0": 7066,
+     "frames": 73
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "place": "space",
+   "shot": "Pioneer in false-color heat view: RTGs glowing orange, the equipment box glowing warm. Heat rays leave the RTGs, hit the back of the big dish and bounce off away from the Sun. More arrows leave the back than the front; a small arrow on the spacecraft points sunward.",
+   "board": {
+    "title": "Heat gives a push",
+    "lines": [
+     "Warm things glow in infrared light we can't see",
+     "That light carries a tiny push when it leaves",
+     "More heat leaves the back than the front",
+     "Needed: an imbalance equal to about 63 W beamed one way",
+     "Compared with about 2,000 W of RTG heat on board (around 2000)"
+    ],
+    "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+   },
+   "start": 298.292,
+   "end": 342.703,
+   "f0": 7159,
+   "f1": 8225,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Here is what they found. Warm things give off heat as infrared light, a kind of light you can't see. And light gives a tiny push when it leaves.",
+     "file": "11_00_vex.wav",
+     "start": 298.292,
+     "dur": 8.352,
+     "f0": 7159,
+     "frames": 201
+    },
+    {
+     "who": "joe",
+     "text": "Like a flashlight that pushes you backward. Very, very gently.",
+     "file": "11_01_joe.wav",
+     "start": 307.094,
+     "dur": 3.891,
+     "f0": 7370,
+     "frames": 94
+    },
+    {
+     "who": "vex",
+     "text": "Pioneer glows with waste heat, from the power units and from the electronics in the box. Some of that heat hits the back of the big dish and bounces off, away from the Sun. More heat leaves out the back than the front.",
+     "file": "11_02_vex.wav",
+     "start": 311.435,
+     "dur": 12.541,
+     "f0": 7474,
+     "frames": 302
+    },
+    {
+     "who": "joe",
+     "text": "So the spacecraft nudges itself toward the Sun.",
+     "file": "11_03_joe.wav",
+     "start": 324.427,
+     "dur": 2.94,
+     "f0": 7786,
+     "frames": 72
+    },
+    {
+     "who": "vex",
+     "text": "And to explain the whole pull, the lopsided part only has to equal about sixty-three watts beamed one way. Out of roughly two thousand watts on board.",
+     "file": "11_04_vex.wav",
+     "start": 327.816,
+     "dur": 8.735,
+     "f0": 7868,
+     "frames": 211
+    },
+    {
+     "who": "joe",
+     "text": "Sixty-three watts. About one old light bulb's worth of heat, steering a spacecraft.",
+     "file": "11_05_joe.wav",
+     "start": 337.001,
+     "dur": 4.802,
+     "f0": 8088,
+     "frames": 116
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "place": "board",
+   "shot": "Drawn board: three report cards from three teams, each with a heat map of Pioneer. A big bar: 80% heat model filled in, the last 20% shaded as 'inside the error bars'.",
+   "board": {
+    "title": "The answer: mostly heat",
+    "lines": [
+     "2011, Germany (Rievers & Lämmerzahl): heat likely explains it",
+     "2012, Portugal (Francisco et al.): at 26 years after launch, heat gives 44% to 96% of a_P",
+     "2012, JPL team (Turyshev et al.): heat model about 80% of their Doppler estimate",
+     "About 35 points from the RTGs, about 45 from the electronics",
+     "The difference is inside the uncertainty (biggest unknown: aging RTG coating)"
+    ],
+    "source": "Rievers & Lämmerzahl, 2011, Annalen der Physik 523, 439; Francisco et al., 2012, Physics Letters B 711, 337; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+   },
+   "start": 342.703,
+   "end": 384.142,
+   "f0": 8225,
+   "f1": 9219,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Other teams modeled that heat too. A team in Germany in 2011 said heat likely explains it. A team in Portugal in 2012 found heat covers somewhere between about half and nearly all of it, at one point in the trip.",
+     "file": "12_00_joe.wav",
+     "start": 342.703,
+     "dur": 11.232,
+     "f0": 8225,
+     "frames": 271
+    },
+    {
+     "who": "vex",
+     "text": "Then Turyshev, Toth and their team published in Physical Review Letters in 2012. Their heat model, built from the rescued data, came out to about eighty percent of the pull they measured from the radio data.",
+     "file": "12_01_vex.wav",
+     "start": 354.385,
+     "dur": 11.867,
+     "f0": 8505,
+     "frames": 286
+    },
+    {
+     "who": "joe",
+     "text": "Eighty. Not a hundred.",
+     "file": "12_02_joe.wav",
+     "start": 366.702,
+     "dur": 1.743,
+     "f0": 8801,
+     "frames": 43
+    },
+    {
+     "who": "vex",
+     "text": "That gap fits inside the error bars. The biggest unknown is how the coating on the power units aged in space. Their conclusion: no anomalous acceleration remains.",
+     "file": "12_03_vex.wav",
+     "start": 368.895,
+     "dur": 9.735,
+     "f0": 8853,
+     "frames": 235
+    },
+    {
+     "who": "joe",
+     "text": "So: mostly solved. A little fuzzy at the edges. No new physics needed.",
+     "file": "12_04_joe.wav",
+     "start": 379.08,
+     "dur": 4.162,
+     "f0": 9098,
+     "frames": 101
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "place": "truck",
+   "shot": "Truck turning around, Pioneer shrinking behind. Window view: the Sun as a bright star, Earth a faint dot. Vex crumples the GRAVITY BROKEN headline.",
+   "board": {
+    "title": "Where are they now?",
+    "lines": [
+     "Pioneer 10: about 142 AU from the Sun (Nov 2026)",
+     "Pioneer 11: about 120 AU from the Sun (Nov 2026)",
+     "Last signal: Pioneer 10, January 2003; Pioneer 11, 1995",
+     "1 AU = Earth's average distance from the Sun"
+    ],
+    "source": "Heavens-Above, 'Spacecraft escaping the Solar System', read Nov 15, 2026; NASA, 'Pioneer 10 Sends Last Signal', 2003; NASA Pioneer 11 mission page; Anderson et al., 2002"
+   },
+   "start": 384.142,
+   "end": 417.167,
+   "f0": 9219,
+   "f1": 10012,
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Where are they now? Pioneer 10 is about one hundred forty-two times farther from the Sun than Earth is. Pioneer 11, about one hundred twenty.",
+     "file": "13_00_vex.wav",
+     "start": 384.142,
+     "dur": 8.891,
+     "f0": 9219,
+     "frames": 214
+    },
+    {
+     "who": "joe",
+     "text": "We last heard from Pioneer 10 in January 2003. Pioneer 11 went quiet in 1995.",
+     "file": "13_01_joe.wav",
+     "start": 393.483,
+     "dur": 6.836,
+     "f0": 9444,
+     "frames": 165
+    },
+    {
+     "who": "vex",
+     "text": "The heat helped solve the mystery. And as it faded, Pioneer 10's power dropped until its signal was too weak to hear. Pioneer 11 ran low on power too, and Earth drifted out of its antenna's view.",
+     "file": "13_02_vex.wav",
+     "start": 400.769,
+     "dur": 11.949,
+     "f0": 9618,
+     "frames": 288
+    },
+    {
+     "who": "joe",
+     "text": "Turn us around, Vex. We have a correction to file.",
+     "file": "13_03_joe.wav",
+     "start": 413.168,
+     "dur": 3.099,
+     "f0": 9916,
+     "frames": 75
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "place": "studio",
+   "shot": "Back at the desk. Joe's tie slightly singed. The live truck visible through the window, parked crooked, roof dish smoking. Screen shows the Grok card again (real screenshot or PARAPHRASE card) with a stamp: SCIENCE (mostly solved).",
+   "board": {
+    "title": "Correction: filed under Science",
+    "lines": [
+     "Pioneer anomaly: best explained by uneven heat from the spacecraft",
+     "Heat model and radio data agree within uncertainty",
+     "No new physics needed"
+    ],
+    "source": "Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+   },
+   "start": 417.167,
+   "end": 443.257,
+   "f0": 10012,
+   "f1": 10638,
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Welcome back to the desk. Tonight's headline: the Pioneer anomaly is mostly solved. The best evidence says it was heat. The spacecraft was pushing itself.",
+     "file": "14_00_joe.wav",
+     "start": 417.167,
+     "dur": 8.577,
+     "f0": 10012,
+     "frames": 207
+    },
+    {
+     "who": "vex",
+     "text": "The lesson: check your own spacecraft before you rewrite physics.",
+     "file": "14_01_vex.wav",
+     "start": 426.194,
+     "dur": 3.697,
+     "f0": 10229,
+     "frames": 90
+    },
+    {
+     "who": "joe",
+     "text": "Grok, thank you for the idea. Great pick. But this one isn't Still Unknown. File it under Science, Grok.",
+     "file": "14_02_joe.wav",
+     "start": 430.341,
+     "dur": 5.564,
+     "f0": 10328,
+     "frames": 135
+    },
+    {
+     "who": "vex",
+     "text": "Filed. Also, the van needs a new dish.",
+     "file": "14_03_vex.wav",
+     "start": 436.355,
+     "dur": 3.004,
+     "f0": 10473,
+     "frames": 73
+    },
+    {
+     "who": "joe",
+     "text": "Good night.",
+     "file": "14_04_joe.wav",
+     "start": 439.809,
+     "dur": 1.048,
+     "f0": 10555,
+     "frames": 26
+    }
+   ]
+  }
+ ]
+}

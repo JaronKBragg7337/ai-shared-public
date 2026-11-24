@@ -1,0 +1,135 @@
+<title>The MSI Years</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column; a vertical "build log" timeline with month markers, two to-scale bar charts up top. */
+:root{
+  --bg:#f6f1e8; --panel:#fffaf1; --fg:#2a2420; --muted:#6f645a; --line:#e3d8c8;
+  --accent:#b8562a; --accent2:#3f6f6a; --bar:#d9a07c; --bar2:#8fb5ae;
+  --display:"Fraunces",Georgia,serif; --body:"Atkinson Hyperlegible",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1d1916; --panel:#26211d; --fg:#efe6da; --muted:#a89a8b; --line:#3a332d;
+  --accent:#e08a5a; --accent2:#7fb3ab; --bar:#b9734b; --bar2:#4f857d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1d1916; --panel:#26211d; --fg:#efe6da; --muted:#a89a8b; --line:#3a332d;
+  --accent:#e08a5a; --accent2:#7fb3ab; --bar:#b9734b; --bar2:#4f857d; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:34px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.15}
+h1{font-size:clamp(2rem,6vw,3rem)}
+h2{font-size:1.45rem}
+.lede{color:var(--muted);max-width:62ch;margin:10px 0 0}
+.eyebrow{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.stat{border-top:2px solid var(--accent);padding-top:8px}
+.stat b{display:block;font-family:var(--display);font-size:1.9rem;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:.9rem}
+.chart{display:grid;gap:6px}
+.row{display:grid;grid-template-columns:70px 1fr 44px;align-items:center;gap:10px;font-family:var(--mono);font-size:.82rem}
+.row .track{height:16px;background:transparent;border-left:1px solid var(--line)}
+.row .fill{height:100%;background:var(--bar);border-radius:0 3px 3px 0}
+.row.c .fill{background:var(--bar2)}
+.row .n{text-align:right;font-variant-numeric:tabular-nums}
+.note{color:var(--muted);font-size:.88rem;margin:0}
+.timeline{display:grid;gap:0;border-left:2px solid var(--line);margin-left:6px}
+.era{position:relative;padding:0 0 26px 22px}
+.era::before{content:"";position:absolute;left:-8px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.era.big::before{background:var(--accent)}
+.era time{font-family:var(--mono);font-size:.78rem;color:var(--accent);letter-spacing:.04em}
+.era h3{font-family:var(--display);font-size:1.15rem;margin:2px 0 6px}
+.era ul{margin:0;padding-left:18px;display:grid;gap:3px}
+.era p{margin:0 0 6px}
+code{font-family:var(--mono);font-size:.85em;background:var(--panel);padding:1px 5px;border-radius:4px;border:1px solid var(--line)}
+.spaces{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.space{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0}
+.space h4{margin:0 0 6px;font-size:.95rem}
+.space ul{margin:0;padding-left:16px;font-family:var(--mono);font-size:.78rem;color:var(--muted);display:grid;gap:2px}
+.merge{border-left:3px solid var(--accent2);padding:4px 0 4px 14px}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Heartbeat Observatory · build history</div>
+    <h1>The MSI Years</h1>
+    <p class="lede">A school laptop, handed over for one job: AI only. This is everything the record on that machine shows, from the first tool installed on June 4, 2026 to tonight.</p>
+  </header>
+
+  <section class="stats" aria-label="Totals">
+    <div class="stat"><b>141</b><span>days since the first tool went on the MSI</span></div>
+    <div class="stat"><b>116</b><span>GitHub repos (9 from before the MSI)</span></div>
+    <div class="stat"><b>~1,390</b><span>saved changes in the projects on the MSI</span></div>
+    <div class="stat"><b>~240</b><span>Claude Code sessions recorded</span></div>
+  </section>
+
+  <section style="display:grid;gap:14px">
+    <h2>New repos per month</h2>
+    <div class="chart" id="repos"></div>
+    <p class="note">Count of repos created on GitHub, by month. July and August are the game-world sprint: a new 3D world almost every day.</p>
+  </section>
+
+  <section style="display:grid;gap:14px">
+    <h2>Saved changes per month (projects on the MSI)</h2>
+    <div class="chart" id="commits"></div>
+    <p class="note">Git commits in the repos cloned on the MSI. August looks quiet only because most of that month's games lived in their own repos that aren't cloned here. October isn't over.</p>
+  </section>
+
+  <section style="display:grid;gap:16px">
+    <h2>The timeline</h2>
+    <div class="timeline">
+      <div class="era"><time>DEC 2025 – MAY 2026 · before the MSI</time><h3>Phone and GitHub</h3>
+        <ul><li>First repos: <code>President-Sim</code>, <code>The-Engine-Of-Division-</code> (Dec 2025)</li>
+        <li>May: the principle papers (<code>memory-as-spatial-arrangement</code>, <code>emergence-structure-that-grows</code>, <code>live-reference-principle</code>) and the first AI workforce tests</li></ul></div>
+      <div class="era big"><time>JUN 4–6, 2026</time><h3>The MSI becomes the AI machine</h3>
+        <ul><li>Jun 4: first developer tool installed (scoop)</li>
+        <li>Jun 6: Node installed and <code>heartbeat-observatory</code> gets its first commit: "Initial commit", then "Add public page", "Add operator cockpit"</li></ul></div>
+      <div class="era"><time>JUNE</time><h3>The site and the first worlds</h3>
+        <ul><li>324 saved changes, most of them the site</li>
+        <li><code>Pieces-Of-My-Life-</code>, <code>The-Last-Theory.-</code> (Jun 12)</li>
+        <li>Jun 18: Unreal (Epic Games) installed; <code>SpaceYouLand</code> begins</li>
+        <li>Jun 20: first Claude Code session on record on the MSI (Kurearthis)</li></ul></div>
+      <div class="era"><time>JULY</time><h3>The world-builder month</h3>
+        <ul><li>28 new repos: Pirate World, New Age Of War, Cyber Trench, Rift Clash, the asset packs, the World Printer Lab</li>
+        <li>Jul 12: Docker installed; <code>Orchestra-Financial-</code>, then <code>orchestra</code> (Jul 18), the start of the news collection</li>
+        <li>Jul 18: <code>the-necklace-show</code>; Jul 29: <code>livi-organism</code></li></ul></div>
+      <div class="era"><time>AUGUST</time><h3>Games every day, and the first local AI</h3>
+        <ul><li>29 new repos: Rustfall, Ashgrove NPC Online, Parkworks Tycoon, The Cosmos, Origin Works, Robot Evolution Lab</li>
+        <li>Aug 16: Ollama installed, the first AI running on the MSI itself</li>
+        <li>Claude sessions every day, one project each, each with its own memory</li></ul></div>
+      <div class="era big"><time>SEP 9</time><h3>One shared brain: AI-Shared</h3>
+        <p>The one long conversation starts (first message 11:20 AM UTC). Every AI now works from the same folder, the same handoffs, the same timeline.</p></div>
+      <div class="era"><time>SEPTEMBER</time><h3>Money, news and the crew</h3>
+        <ul><li>Sep 10: <code>polymarket-us-agent</code>; Grok Bot traders rebuilt as Darios, Sams and Elons Twin</li>
+        <li>Sep 16–18: <code>fly-school</code> and <code>watch</code> (the daily news captures)</li>
+        <li>The LLC filed, Heartbeat TV channels, the daily news show, Control Room, Key Drop</li></ul></div>
+      <div class="era"><time>OCTOBER (so far)</time><h3>Your own AI, your own engine</h3>
+        <ul><li>Oct 2: Demis and Satya join the crew</li>
+        <li>Oct 14: Sapling, your own AI, built; Oct 16: first cloud lesson on an H100</li>
+        <li>Oct 20: <code>hb-render</code> (your own render engine) and <code>key-drop</code> go public</li>
+        <li>Oct 22–23: crypto lane v2, the crypto page, the Grok Bot Vault</li>
+        <li>609 saved changes, the busiest month on record</li></ul></div>
+    </div>
+  </section>
+
+  <section style="display:grid;gap:14px">
+    <h2>A lot of workspaces per AI</h2>
+    <p style="margin:0">Before September each AI had its own corner of the machine. About twenty of them are still there:</p>
+    <div class="spaces">
+      <div class="space"><h4>Desktop</h4><ul><li>Claude Code Tab SLack</li><li>Claude Cowork folder</li><li>Claude CoWork Test Log</li><li>Cowork Team Leader</li><li>Codex Start Here</li><li>Codex Team Manager</li><li>Codex Transcript IMPORTANT</li><li>Kimi AI Workspace</li><li>Kimi Code Computer</li><li>Sim World With Codex</li><li>AI Heartbeat Engine</li><li>Heartbeat world2</li></ul></div>
+      <div class="space"><h4>Google Drive</h4><ul><li>Codex Active</li><li>Codex Claude Dispatch</li><li>Codex Coworker</li><li>Codex Start Here</li><li>AI Workforce System</li><li>AI Workforce Tests</li><li>Assistant Handover</li><li>FOR CLAUDE AND CODEX</li></ul></div>
+      <div class="space"><h4>Home folder</h4><ul><li>Claude</li><li>Claude Code</li><li>Claude active</li><li>Projects</li><li>AI-Shared</li></ul></div>
+    </div>
+    <p class="merge">Since Sep 9 they all point at one place, <code>AI-Shared</code>. The old folders are kept as history, not used for new work.</p>
+  </section>
+
+  <footer>Built Oct 23, 2026 from what's on the MSI: install dates, git history of every project, GitHub repo dates and the saved Claude Code sessions. Counts are approximate where noted. Sessions before June 20 and anything done only on the phone aren't in the MSI's record.</footer>
+</div>
+
+<script>
+const repos=[["Dec '25",9],["Jan",1],["Feb",2],["Mar",5],["Apr",1],["May",10],["Jun",13],["Jul",28],["Aug",29],["Sep",14],["Oct",4]];
+const commits=[["Jun",324],["Jul",113],["Aug",47],["Sep",299],["Oct",609]];
+function draw(id,data,cls){const el=document.getElementById(id);const max=Math.max(...data.map(d=>d[1]));
+  el.innerHTML=data.map(([m,n])=>`<div class="row ${cls}"><span>${m}</span><div class="track"><div class="fill" style="width:${(n/max*100).toFixed(1)}%"></div></div><span class="n">${n}</span></div>`).join("");}
+draw("repos",repos,"");draw("commits",commits,"c");
+</script>

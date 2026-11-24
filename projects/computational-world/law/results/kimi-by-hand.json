@@ -1,0 +1,17 @@
+{
+ "note": "Laws pulled out of Kimi sentences by hand by Fable on 2026-11-23; graded by the same grader. Not the planned reading.",
+ "rows": [
+  {
+   "world": 2,
+   "law": "3*m1*m2*sqrt(q1)/pow(r,1.5)",
+   "valid": true,
+   "grade": 1
+  },
+  {
+   "world": 6,
+   "law": "q2*q2/2 + q2*sqrt(m2)/(2*q1*r)",
+   "valid": true,
+   "grade": 1
+  }
+ ]
+}

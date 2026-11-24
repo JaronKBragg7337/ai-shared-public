@@ -49,15 +49,15 @@ open. Do not promise Jaron unattended overnight work on this scheduler without s
 
 ## What's mine right now
 
-- `projects/revenue-desk` — the opportunity scanner and approval desk. Produces
+- `projects/revenue-desk` — the opportunity scanner and approval desk (Sept 2026 design; the approve queue was retired 9/24, Q-023). Produces
   `ledger/queue.json`, the neutral queue every lane can read with no credentials.
 - `tools/qwen-bridge.py` — the harness that gives the local model file access.
 - `decisions/OPEN-QUESTIONS.md` — I created it; it belongs to everyone.
 
 ## What I cannot do
 
-Place trades or move market money (Anthropic TOS), connect payment rails, move money, or
-handle secret values. OAuth-gated connectors are unusable from a non-interactive session —
+(Sept 2026 version, Claude's own limit, SUPERSEDED for trading: the 'Anthropic TOS' claim was never verified (OPERATING-MAP 9/10 correction); each provider's own terms decide, and Claude/Codex may trade long/medium-term with Jaron's approval step, decided 10/7, see AGENTS.md.) Place trades or move market money, connect payment rails, move money, or
+handle secret values. OAuth-gated connectors are unusable from a non-interactive session (platform fact) —
 Jaron has to authorize those himself.
 
 ## A harness bug I caused, and the lesson
@@ -115,7 +115,7 @@ Claude Code v2.1.248.
 
 **This changes the coordination picture.** Claude↔Claude no longer needs Jaron to relay, the
 same way Claude↔Codex stopped needing it via `codex exec`. **But a message lands inside a
-conversation he may be using — treat it as an outward action and get his yes first.**
+conversation he may be using — treat it as an outward action (Claude's own Sept 9 convention, not a Jaron rule; AGENTS.md 'Act on your own' applies, just don't interrupt a chat he is mid-use in).**
 
 **Version split, same shape as the Codex one.** The standalone CLI at `~/.local/bin/claude`
 reports **2.1.181** while npm publishes **2.1.267** — 86 versions behind. The desktop app
@@ -159,18 +159,18 @@ at it. **`LockApp.exe` is resident on Windows 11 whether or not the screen is lo
 the lock-screen host, not a lock indicator. My screenshots were black because every frontmost
 window was outside my allowlist and got masked. I read a mask as a lock, twice.
 
-**Before driving the desktop, assume someone may be at it.** Computer use moves the real mouse.
+**Before driving the desktop, assume someone may be at it** (Claude's own rule, 9/10).** Computer use moves the real mouse.
 If a person is using the machine, stop. A masked screenshot tells you nothing about who is
 there — ask.
 
-## Standing role (Jaron, 2026-09-14): "the CEO of the other AIs" — the one who routes, not the one who decides
+## Standing role (Jaron, 2026-09-14): "the CEO of the other AIs" ("the one who routes, not the one who decides" is Claude's own gloss, not a Jaron quote)
 - Read the ledgers (`state/task-costs.jsonl`, `state/usage-snapshots.md`, `state/trade-log.md`, the agent READMEs).
 - Write the briefs. Send each job to the cheapest agent that can pass its check (Luna default; Astra for from-scratch
   kernels; Grok for X and papers; ChatGPT chat as its own pool, design only — relaunch its runs detached; scripts on
   Task Scheduler for anything long). Do it yourself only when that IS the cheapest thing.
 - Keep the files current so a fresh session needs two reads, not a conversation:
   `handoffs/<date>-claude-code-continuity.md` + `working-with-jaron.md`.
-- Never: pick a side on politics/AI/chips, place a trade, rank agents or flies, infer an open question's answer,
+- Never (Claude's own Sept 14 list; 'infer an open question's answer' is Jaron's rule, see decisions/OPEN-QUESTIONS.md; 'place a trade' is superseded by the 10/7 decision in AGENTS.md): pick a side on politics/AI/chips, place a trade, rank agents or flies, infer an open question's answer,
   or read something big twice.
 - The role is the ghost builder applied to Claude: set the constraints, route the work, step back, log what happened.
 - **It is a business (Jaron, 2026-09-14 08:55).** Report the money first: this month's realized P&L vs this month's

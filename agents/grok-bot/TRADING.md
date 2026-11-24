@@ -1,5 +1,7 @@
 # Polymarket US — Bridge trading pipeline
 
+**Status (10/23 sweep): Sept 11 pipeline, written by Claude Code. 'Jaron approves every order' / 'only after Jaron's explicit yes' was the Sept design; the approve queue was retired 9/24 (Q-023) and orders now go through desk-trade.py inside Control Room limits. The method notes below (edge vs spread, Scout isolation, crypto excluded because of PolyBench) are Claude Code's, not Jaron rules; the crypto lane was approved by Jaron 10/22 (decisions/CRYPTO-LANE-PLAN-2026-10-22.md). Kept as history.**
+
 **Owner:** Bridge (grok-bot)  
 **Venue:** Polymarket US via MSI `127.0.0.1:8765` (not polymarket.com)  
 **Updated:** 2026-09-11 after Claude/Jaron process correction
@@ -11,7 +13,7 @@
 | Bridge | Screen liquidity, call Scout with questions only, apply edge>spread, size, place after yes |
 | Scout | Independent p + confidence from evidence only — never sees prices, spreads, or cheapness |
 | Claude Code | Cross-read live BBO numbers before anything reaches Jaron |
-| Jaron | Approves every order |
+| Jaron | (Sept 11: approved every order; retired 9/24) |
 | Qwen | May execute tooling elsewhere; not trusted to form the view (2026-09-10 misreads) |
 
 ## Order of operations (the default - research follows liquidity so effort is not wasted; deviate when there is a reason)
@@ -20,7 +22,7 @@
 2. **Hand Scout the QUESTION only** — resolution text OK; never price, spread, or which side looks cheap. Naming the market is fine; naming the number is not.
 3. Scout returns **probability + confidence** (+ drivers / change-triggers).
 4. Re-read live BBO. Apply filters below. Size. Bring survivors to Jaron with Claude cross-reading the same slug.
-5. Place only after Jaron's explicit yes. Disagreement between Bridge and Claude on the quote → **no trade**.
+5. Place only after Jaron's explicit yes (Sept 11 design, retired 9/24). Disagreement between Bridge and Claude on the quote → **no trade**.
 
 ## Math (do not invert)
 
@@ -49,7 +51,7 @@ Tonight's ATL moneyline failed this: edge ~6¢, spread ~8–9¢.
 
 ## Sizing
 
-Account starts ~$10. PolyBench: edge dies as size rises (slippage). Default candidate size **$1–$2** unless Jaron says otherwise. Thin OI → cut size or pass even if edge>spread.
+Account starts ~$10. PolyBench: edge dies as size rises (slippage). Default candidate size **$1–$2** (Sept 11, account was ~$10; size now follows the Control Room). Thin OI → cut size or pass even if edge>spread.
 
 ## Confidence
 

@@ -1,0 +1,1 @@
+The vocals could be mixed into the left and right stereo channels in opposite phase. At one coworker’s seat, the two vocal signals arrive equally and cancel, leaving the instruments audible. At the other seat, the signals arrive differently, so the vocals can still be heard.

@@ -1,7 +1,7 @@
 ﻿{
   "schema": "ai-shared/index@1",
-  "updated": "2026-09-28",
-  "updated_by": "claude-code (MSI) - full system check",
+  "updated": "2026-10-21",
+  "updated_by": "claude-code (MSI) - full system check 9/28; stale-sweep 10/21 (present-tense claims corrected in place, see state/STALE-SWEEP-2026-10-21.md; the long Sept dated sections below are history)",
   "purpose": "Machine-readable map of this workspace so an agent - especially a small local model - can orient without reading every file. Humans read README.md; agents read this.",
   "root": "C:\\Users\\lilli\\AI-Shared",
   "status": "active. Structure settled by Jaron 2026-09-09 - see decisions/OPEN-QUESTIONS.md",
@@ -91,7 +91,7 @@
       "brand": "local Ollama",
       "kind": "local model",
       "self_report": null,
-      "status": "ACTIVE participant. tools/qwen-bridge.py gives it file access; unattended writes ENABLED to coordination surfaces per Q-002.",
+      "status": "Dropped from active use by Jaron 9/30 (state/models.md); Qwen Remote Bridge task disabled. tools/qwen-bridge.py still gives it file access; unattended writes ENABLED to coordination surfaces per Q-002.",
       "may_trade": true,
       "may_do_paid_work": null,
       "model_tag": "qwen3.5:4b",
@@ -234,20 +234,20 @@
       "owner": "claude-code",
       "path": "C:/Users/lilli/AI-Shared/projects/heartbeat-tv",
       "repo": "heartbeat-observatory (tv/)",
-      "status": "LIVE: numbered channels + guide + one shared remote (tv/remote.js) on the TV page, the phone TV app and the Loft. Permanent uploads wait for Jaron's review (kids on the site)."
+      "status": "LIVE: numbered channels + guide + one shared remote (tv/remote.js) on the TV page, the phone TV app and the Loft. Only OTHER users' uploads wait for Jaron's review (kids on the site); AI-made shows go live when done (his OK 9/28). Channels live 10/21: 7 History, 8 Science, 9 Open Questions, 10 Still Unknown, 11 Space Now, 13 AI Explained, 17 Earth, 19 Animals, 22 Lost Places (plan: projects/heartbeat-tv/CHANNEL-PLAN.md)."
     },
     {
       "name": "necklace-film",
       "owner": "claude-code",
       "path": "C:/Users/lilli/AI-Shared/projects/necklace-film",
       "repo": "C:/Users/lilli/Projects/necklace-unreal (UE 5.8, SM6)",
-      "status": "IN PROGRESS: Jalen (MetaHuman), the Rusty Anchor set, Ep1 shot 001 rendered. Next: Mateo, bar life, sound, the Sea Serpent at 9.1 m. Film follows Jaron's book text."
+      "status": "Ep.1 Part 1 LIVE on Shows 10/12 (116 s, Blender/Cycles, book's own lines). Weakest: LOD faces in close-ups, Mateo's beard blob. One narration line (n08) never placed (verify_voice 10/14). Older 9/28 note: Jalen, Rusty Anchor set; film follows Jaron's book text."
     }
   ],
   "hard_rules": [
     "Laws and each brand's TOS come before anything in this workspace.",
-    "Anthropic and OpenAI agents never EXECUTE trades or move market money - but they MAY build, verify, monitor and repair the trading system. Corrected 2026-09-10 against the actual Anthropic policy, which has no blanket ban on financial systems. See OPERATING-MAP.md. Each agent must verify its OWN provider's policy rather than inheriting this one.",
-    "Nothing outward - send, post, spend, submit, accept terms, trade - without Jaron's explicit yes.",
+    "Anthropic and OpenAI agents never EXECUTE trades or move market money - but they MAY build, verify, monitor and repair the trading system. Corrected 2026-09-10 against the actual Anthropic policy, which has no blanket ban on financial systems. See OPERATING-MAP.md. Each agent must verify its OWN provider's policy rather than inheriting this one. UPDATE 10/21: current rule is AGENTS.md - any AI may trade if its own provider allows it; Claude and Codex may trade long/medium-term with Jaron's approval step (decided 10/7); short-term stays with Grok Bot.",
+    "SUPERSEDED 10/21 (was: nothing outward without Jaron's explicit yes). Current: AGENTS.md 'Act on your own' - trades inside script limits, applications, fixes, shipping to his own site/repos, the system's own subscriptions and new accounts for the work need no yes; messages signed 'Jaron's AI assistant (<which AI>)' and checked with him first; never contact his family; posts on his own accounts stay his.",
     "Never expose secret values. Names and existence only.",
     "Verify your own live capabilities before claiming a limit. Do not answer from training.",
     "Propose structural change as a handoff. Do not silently rearrange another agent's work.",
@@ -300,8 +300,8 @@
     {
       "id": "ai-shared-not-a-repo",
       "owner": "jaron",
-      "detail": "DEFERRED by Jaron 2026-09-09. Publishing is for a system that has proven itself - revenue plus the research loop feeding Qwen. Until then there is no reason to show it. Accepted risk: no off-machine backup of AI-Shared. .gitignore is already in place so the credential is excluded whenever this is revisited. Do not re-raise before ~2026-09-30.",
-      "status": "DEFERRED to ~2026-09-30"
+      "detail": "DONE 2026-10-21 (timeline 12:10 and 15:12): AI-Shared is now a PRIVATE GitHub repo JaronKBragg7337/ai-shared (text+code only, secrets/media excluded, nightly save 11:55 PM with a key check) plus a cleaned public copy ai-shared-public. Old entry: DEFERRED by Jaron 2026-09-09. Publishing is for a system that has proven itself - revenue plus the research loop feeding Qwen. Until then there is no reason to show it. Accepted risk: no off-machine backup of AI-Shared. .gitignore is already in place so the credential is excluded whenever this is revisited. Do not re-raise before ~2026-09-30.",
+      "status": "DONE 2026-10-21"
     },
     {
       "id": "itch-jam-prizes-unscrapable",
@@ -317,7 +317,7 @@
       "id": "payment-rail-undecided",
       "owner": "jaron",
       "status": "OPEN",
-      "detail": "PayPal vs Stripe, and wired for cloud (ChatGPT Work) vs local (Codex, Claude Code). Gates every Lane-2 path. Q-006."
+      "detail": "PayPal vs Stripe, and wired for cloud (ChatGPT Work) vs local (Codex, Claude Code). Gates every Lane-2 path. Q-006. 10/11: Stripe/PayPal wait for Jaron's replacement ID; tips via X Money handle + wallet addresses (timeline 10/11 23:35)."
     },
     {
       "id": "approvals-surface-visibility",
@@ -442,7 +442,7 @@
     "project": "heartbeatobservatory (prj_orgo96MzBTVphGIchOjNz5qMAZyh) -> JaronKBragg7337/heartbeat-observatory",
     "configured_production_branch": "main",
     "what_is_actually_serving": "A MANUALLY PROMOTED build from codex/professional-observatory. Every production deployment since 2026-09-07 15:33 came from that branch. The last production deploy from main was 2026-09-07 01:43 - which is exactly when Habitat was live, before a promotion from the codex branch replaced it.",
-    "THE_LANDMINE": "Production branch is main, but main has NOT been deployed since 09-07. So the NEXT PUSH TO MAIN AUTO-DEPLOYS AND REPLACES THE LIVE SITE with main content. That would bring chat-neighborhood, island and the 3D President Sim live - and would simultaneously REMOVE the Qwen console (/qwen), live-systems/revenue, and the 43 files where the codex branch is newer. DO NOT PUSH TO MAIN until the merge is done.",
+    "THE_LANDMINE": "RESOLVED 2026-09-10 (merge 959f289); pushing to main is now the normal way to ship (AGENTS.md). Old text: Production branch is main, but main has NOT been deployed since 09-07. So the NEXT PUSH TO MAIN AUTO-DEPLOYS AND REPLACES THE LIVE SITE with main content. That would bring chat-neighborhood, island and the 3D President Sim live - and would simultaneously REMOVE the Qwen console (/qwen), live-systems/revenue, and the 43 files where the codex branch is newer. DO NOT PUSH TO MAIN until the merge is done.",
     "why_this_is_good_news": "No Vercel setting needs changing. main is ALREADY the configured production branch, so the correct end state is: merge the codex branch INTO main (43 files where codex is newer), keep main for its 3 (README.md, games/index.html, games/president-sim/index.html - the 3D rewrite), then push main once. It auto-deploys, everything is live together, and the trap is permanently gone. Jaron never touches the dashboard."
   },
   "reboot_test_2026_09_10": {
@@ -452,7 +452,7 @@
     "what_failed_this_morning": "First attempt 12:58 boot: Ollama did NOT autostart. Root cause was a Startup-folder shortcut rather than a scheduled task - fragile, staggered, silently skipped. Every other service came back. Fixed by registering \"Ollama Server\" AtLogOn with a 10s delay and 3 retries, and removing the shortcut so there is one mechanism.",
     "also_verified": "Model generation works (qwen3.5:9b returned a correct one-word answer, 21.9s cold start).",
     "still_unverified": "qwen-bridge.py extraction quality - the 9b returns discursive text instead of a requested value. That is the WORKSPACE bridge, NOT the Polymarket path (which runs through OpenClaw + the MCP service), so it does not gate funding. It is further evidence for the hands-not-brain architecture.",
-    "unattended_caveat": "AutoAdminLogon is OFF. Tasks are AtLogOn, so an unattended 3am reboot leaves everything dead until Jaron signs in. Open decision: accept it, enable auto-login, or move tasks to At-Startup."
+    "unattended_caveat": "SUPERSEDED 9/11: AutoAdminLogon=1 now (see REBOOT_SURVIVAL_2026_09_11). Old text: AutoAdminLogon is OFF. Tasks are AtLogOn, so an unattended 3am reboot leaves everything dead until Jaron signs in. Open decision: accept it, enable auto-login, or move tasks to At-Startup."
   },
   "first_live_observation_2026_09_10": {
     "what_happened": "Account funded with $10. Qwen read state, searched markets, and DECLINED to trade: \"With limited capital and no specific market conviction from the data alone, I will hold steady rather than making speculative trades.\" Correct behaviour - it did not force a trade to justify itself.",
@@ -694,7 +694,7 @@
       "8. Claude Code verified: 0 open orders, 1 position, balance $8.16"
     ],
     "jaron_sent_it_to_the_wrong_grok": "He meant Bridge (Grok Bot) and sent it to the Grok APP. It worked identically - both reach the MSI through the Heartbeat tunnel and both have PowerShell. Accidentally proved a second trigger path.",
-    "what_is_still_missing": "The executor was run BY HAND (via Grok). For \"press Approve and walk away\" it needs to be a scheduled task polling every 5 minutes - Codex registers that (TODO #1 -> now \"register the task\").",
+    "what_is_still_missing": "(9/11 text; later fixed - Trade Executor task exists, Ready, and the approve queue was retired 9/24.) The executor was run BY HAND (via Grok). For \"press Approve and walk away\" it needs to be a scheduled task polling every 5 minutes - Codex registers that (TODO #1 -> now \"register the task\").",
     "kill_criteria_live": "Aug CPI at 08:30 ET 2026-09-11 runs hot, or Scout revises to <=0.10. Someone should check after CPI.",
     "resolves": "2026-12-31. First data point for Scout calibration lands then."
   },
@@ -745,7 +745,7 @@
   "VENUE_CONFUSION_TRAP": "polymarket.com (global, crypto, Gamma/CLOB APIs) is NOT our venue. Our account, key, and every market slug here are Polymarket US: polymarket.us / api.polymarket.us, reached ONLY through the local MCP on 127.0.0.1:8765. Any AI that \"checks Polymarket\" on .com is looking at a different exchange.",
   "REBOOT_SURVIVAL_2026_09_11": "AutoAdminLogon=1 (user lilli, password in LSA vault via netplwiz), Windows Hello-only OFF, sign-in-again NEVER, restartable apps ON, sleep on AC never. Every AtLogOn task (Ollama, Polymarket MCP, Qwen bridge, Grok Machine MCP, Desktop Commander, Trade Proposer/Verifier/Executor) now comes back after an unattended reboot. Trade-off Jaron accepted: anyone at the keyboard is signed in. Windows Update active hours 12:00-04:00; reboots may happen 04:00-12:00 and are now survivable. UNTESTED until the next real reboot - run tools/postboot-check.ps1 after it.",
   "FLY_BRAIN_1_2026_09_12": {
-    "what": "A literal simulated fruit-fly brain (MaleCNS v1.0 via fruitflydev/flycoinrh) watching one live table-tennis market. projects/fly-brain/fly.py. Windows task \"Fly Brain\", DRY RUN until Jaron adds --live.",
+    "what": "A literal simulated fruit-fly brain (MaleCNS v1.0 via fruitflydev/flycoinrh) watching one live table-tennis market. projects/fly-brain/fly.py. Windows task \"Fly Brain\" (DISABLED since the 9/16 pause), DRY RUN until Jaron adds --live.",
     "how": "match state -> odour on ~40 olfactory glomeruli -> 165k-neuron LIF run (50 ms x 3 seeds per 3 s tick) -> approach-minus-avoid MBON valence -> press/let go via tools/desk-trade.py --by fly-brain. Reward = realized P&L -> PAM/PPL1 dopamine on the KC->MBON synapses. Cap $1/$5 grows $1/$5 per $10 earned. Ladder: $50 graduate, $100 own cloud container, $250 sibling.",
     "built_by": "Claude Code 2026-09-12 11:40-12:35 at Jaron's request (\"you had me at #2\"). Codex registered the task.",
     "read": "projects/fly-brain/README.md, BUILD-BRIEF.md; state/fly-brain/log.md"

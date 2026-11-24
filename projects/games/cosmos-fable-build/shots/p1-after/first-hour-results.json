@@ -1,0 +1,2029 @@
+{
+ "passed": false,
+ "failed": 1,
+ "checks": [
+  {
+   "name": "beat liner-first-seconds",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat liner-how-to-move",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat liner-walk-about",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: liner",
+   "ok": true,
+   "detail": "stage 0 -> 0"
+  },
+  {
+   "name": "beat liner-coming-in",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat liner-landed-doors-open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat liner-gangway",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat port-just-off-the-liner",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat port-after-a-minute-lost",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat port-at-the-board",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: port",
+   "ok": true,
+   "detail": "stage 1 -> 1"
+  },
+  {
+   "name": "beat board-open",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat board-ceres-picked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat port-after-choosing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat port-kestrel-gate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "boarding reaches the flight",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat kestrel-seated",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat kestrel-climb",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat kestrel-space",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: flight",
+   "ok": true,
+   "detail": "stage 2 -> 2"
+  },
+  {
+   "name": "beat kestrel-trouble",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat kestrel-going-down",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the crash reaches the wreck",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat wreck-wake",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat wreck-how-to-move",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: wreck",
+   "ok": true,
+   "detail": "stage 3 -> 3"
+  },
+  {
+   "name": "beat wreck-at-locker",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat wreck-locker-note",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat wreck-hatch",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "climbing out reaches the dig",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat dig-outside-first-look",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat dig-at-crate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat dig-halfway",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat dig-cleared",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: dig",
+   "ok": true,
+   "detail": "stage 4 -> 4"
+  },
+  {
+   "name": "carrying the crate calls the ride",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat contact-waiting",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat contact-driver-here",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat contact-at-the-truck",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the ride starts",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat ride-talk",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refresh keeps the place: ride",
+   "ok": true,
+   "detail": "stage 6 -> 6"
+  },
+  {
+   "name": "beat ride-port-in-sight",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the opening ends at the home port",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat home-arrival",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat home-what-now",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat home-after-refresh",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "after a refresh the opening does not start again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat android-liner",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers opening the board",
+   "ok": true,
+   "detail": "7 started"
+  },
+  {
+   "name": "beat android-board",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers choosing a world",
+   "ok": true,
+   "detail": "3 started"
+  },
+  {
+   "name": "beat android-kestrel-window",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers the crash",
+   "ok": true,
+   "detail": "3 started"
+  },
+  {
+   "name": "android: the crash reaches the wreck",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat android-dig",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers a shovel bite",
+   "ok": true,
+   "detail": "9 started"
+  },
+  {
+   "name": "android: a sound answers lifting the crate",
+   "ok": true,
+   "detail": "3 started"
+  },
+  {
+   "name": "android: carrying the crate calls the ride",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "beat android-truck",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers climbing in",
+   "ok": true,
+   "detail": "4 started"
+  },
+  {
+   "name": "android: the ride starts",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the opening ends at the home port",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: a sound answers arriving home",
+   "ok": false,
+   "detail": "0 started"
+  },
+  {
+   "name": "beat android-home",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no errors in the whole run",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "beats": [
+  {
+   "name": "liner-first-seconds",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "WalterForty-one trips on this line, son, and the coffee has never once improved.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Tap the screen once to turn on sound.",
+     "box": [
+      10,
+      12,
+      231,
+      40
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "liner-how-to-move",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "CaptainGood morning, passengers. This is your captain. We are on schedule, on course, and on speaking terms with the weather.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Tap the screen once to turn on sound.",
+     "box": [
+      10,
+      12,
+      231,
+      40
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "liner-walk-about",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "CaptainOff the port side, the escort cutter Very Sorry About The Paperwork and the liner Tharsis Promise. Off the starboard, the Quick Receipt and the Elysium Overdraft. Yes, those are their real names. No, we did not ge",
+     "box": [
+      15,
+      580,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb. Walk the ship. Talk to people by walking up to them.",
+     "box": [
+      10,
+      12,
+      243,
+      73
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "liner-coming-in",
+   "stage": 0,
+   "words": {
+    "hint": {
+     "text": "Landing now.",
+     "box": [
+      10,
+      12,
+      101,
+      40
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "liner-landed-doors-open",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "CaptainTouchdown at Marineris Port. Welcome to Mars. Local time is whatever the tower clock says. Please use the boarding gangway on the starboard side. Mind the step. It is three metres.",
+     "box": [
+      15,
+      599,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "liner-gangway",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "CaptainTouchdown at Marineris Port. Welcome to Mars. Local time is whatever the tower clock says. Please use the boarding gangway on the starboard side. Mind the step. It is three metres.",
+     "box": [
+      15,
+      599,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Welcome to Marineris. Leave by the starboard gangway: the boarding hall is behind the promenade.",
+     "box": [
+      10,
+      12,
+      243,
+      73
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "port-just-off-the-liner",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "StewardWelcome to Mars. Follow the amber lights to the big Arrivals sign. If you reach a fuel tank, you have taken tourism too far.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "port-after-a-minute-lost",
+   "stage": 1,
+   "words": {
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "port-at-the-board",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "GuideWelcome to Marineris. Everything here is neutral: the dust, the coffee, the staff. Especially the staff.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Read the board",
+     "box": [
+      238,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "board-open",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "GuideThe board shows every world and who runs it. Read it, pick a world, pick a side or pick none, then walk to Pad 01. The Kestrel is waiting.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Read the board",
+     "box": [
+      238,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    },
+    {
+     "id": "ob-close",
+     "text": "Close",
+     "box": [
+      287,
+      14,
+      359,
+      62
+     ]
+    },
+    {
+     "id": "",
+     "text": "MarsOPEN",
+     "box": [
+      16,
+      116,
+      85,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "TranquilityCOMING",
+     "box": [
+      93,
+      116,
+      197,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "CeresOPEN",
+     "box": [
+      205,
+      116,
+      280,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "EarthOPEN",
+     "box": [
+      288,
+      116,
+      359,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "CallistoOPEN",
+     "box": [
+      16,
+      180,
+      359,
+      235
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "board-ceres-picked",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "GuideThe board shows every world and who runs it. Read it, pick a world, pick a side or pick none, then walk to Pad 01. The Kestrel is waiting.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Read the board",
+     "box": [
+      238,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    },
+    {
+     "id": "ob-primary",
+     "text": "Fly the Kestrel to Ceres with Greenhaven",
+     "box": [
+      16,
+      698,
+      359,
+      746
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "port-after-choosing",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "GuideGood choice. Or a choice. They are all choices. The gate is Pad 01. Do not stand under anything.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk to the Kestrel on Pad 01.",
+     "box": [
+      10,
+      12,
+      192,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Read the board",
+     "box": [
+      238,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "port-kestrel-gate",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "Gate agentKestrel to Ceres. Boarding now. Seats are unassigned and so are the safety briefings. Please sign here, here, and here. Yes, the long one.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk to the Kestrel on Pad 01.",
+     "box": [
+      10,
+      12,
+      192,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Board the Kestrel to Ceres",
+     "box": [
+      179,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "kestrel-seated",
+   "stage": 2,
+   "words": {
+    "caption": {
+     "text": "PilotWelcome aboard the Kestrel. Flight time is about a minute. We have never needed more.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "kestrel-climb",
+   "stage": 2,
+   "words": {
+    "caption": {
+     "text": "PilotWe are climbing out of the port now. Please keep your hands inside the ship and your regrets inside yourselves.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "kestrel-space",
+   "stage": 2,
+   "words": {
+    "caption": {
+     "text": "PilotControl says a solar storm is building. The Sun has not apologised.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "kestrel-trouble",
+   "stage": 2,
+   "words": {
+    "caption": {
+     "text": "PilotComms just died. So did guidance. Everything is down, and so soon we will be. Brace for impact.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "kestrel-going-down",
+   "stage": 2,
+   "words": {
+    "hint": {
+     "text": "Impact. Hold on, the cabin is going dark.",
+     "box": [
+      10,
+      12,
+      243,
+      56
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "wreck-wake",
+   "stage": 3,
+   "words": {
+    "caption": {
+     "text": "ShipEmergency power engaged. Please remain calm. Calm is an option.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb",
+     "box": [
+      10,
+      12,
+      222,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "wreck-how-to-move",
+   "stage": 3,
+   "words": {
+    "caption": {
+     "text": "ShipComms are down. The storm is still up. The storm does not care about either fact.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb",
+     "box": [
+      10,
+      12,
+      222,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "wreck-at-locker",
+   "stage": 3,
+   "words": {
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb",
+     "box": [
+      10,
+      12,
+      222,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Open the crew locker",
+     "box": [
+      205,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "wreck-locker-note",
+   "stage": 3,
+   "words": {
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb",
+     "box": [
+      10,
+      12,
+      222,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Open the crew locker",
+     "box": [
+      205,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    },
+    {
+     "id": "",
+     "text": "Close the locker",
+     "box": [
+      49,
+      460,
+      167,
+      504
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "wreck-hatch",
+   "stage": 3,
+   "words": {
+    "hint": {
+     "text": "Move: left thumb · Look: right thumb",
+     "box": [
+      10,
+      12,
+      222,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Climb out",
+     "box": [
+      265,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "dig-outside-first-look",
+   "stage": 4,
+   "words": {
+    "caption": {
+     "text": "Something lies beneath the collapsed dust.",
+     "box": [
+      15,
+      673,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk · Look · tap the button to use",
+     "box": [
+      10,
+      12,
+      213,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "dig-at-crate",
+   "stage": 4,
+   "words": {
+    "caption": {
+     "text": "Aim the shovel at the dust around the crate.",
+     "box": [
+      15,
+      673,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk · Look · tap the button to use",
+     "box": [
+      10,
+      12,
+      213,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Dig",
+     "box": [
+      298,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "dig-halfway",
+   "stage": 4,
+   "words": {
+    "caption": {
+     "text": "Aim the shovel at the dust around the crate.",
+     "box": [
+      15,
+      673,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk · Look · tap the button to use",
+     "box": [
+      10,
+      12,
+      213,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Dig",
+     "box": [
+      298,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "dig-cleared",
+   "stage": 4,
+   "words": {
+    "caption": {
+     "text": "Lift the cleared supply crate.",
+     "box": [
+      15,
+      673,
+      360,
+      712
+     ]
+    },
+    "hint": {
+     "text": "Walk · Look · tap the button to use",
+     "box": [
+      10,
+      12,
+      213,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Carry",
+     "box": [
+      287,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "contact-waiting",
+   "stage": 5,
+   "words": {
+    "caption": {
+     "text": "A vehicle is approaching.",
+     "box": [
+      15,
+      673,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "contact-driver-here",
+   "stage": 5,
+   "words": {
+    "caption": {
+     "text": "Doctor RothThere is a blanket behind the seat. It is a nice blanket. It was grown. Well, the wool was.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-walk",
+     "text": "Walk",
+     "box": [
+      130,
+      740,
+      195,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "contact-at-the-truck",
+   "stage": 5,
+   "words": {
+    "caption": {
+     "text": "Doctor RothThere is a blanket behind the seat. It is a nice blanket. It was grown. Well, the wool was.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Ride",
+     "box": [
+      292,
+      740,
+      355,
+      788
+     ]
+    },
+    {
+     "id": "opening-walk",
+     "text": "Walk",
+     "box": [
+      130,
+      740,
+      195,
+      788
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "ride-talk",
+   "stage": 6,
+   "words": {
+    "caption": {
+     "text": "Doctor RothWe grow food under glass in the dark, and we take it very seriously. Fresh tomatoes. On a dwarf planet. Think about that.",
+     "box": [
+      15,
+      619,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "ride-port-in-sight",
+   "stage": 6,
+   "words": {
+    "caption": {
+     "text": "Doctor RothThat is Occator Works. You will be fine. People usually are, once the shaking stops.",
+     "box": [
+      15,
+      638,
+      360,
+      712
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      267,
+      14,
+      357,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "home-arrival",
+   "stage": 7,
+   "words": {
+    "next": {
+     "text": "NEXT This lifeboat is yours, but it has no power. Step 1 of 3: buy a power cell (300 marks) from Marta Voss, the foundry foreman. Follow the arrow, then use the button when you reach them.",
+     "box": [
+      22,
+      121,
+      255,
+      223
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "purse",
+     "text": "10,000 marks · 2,500 cr",
+     "box": [
+      22,
+      207,
+      188,
+      253
+     ]
+    },
+    {
+     "id": "btn-settings",
+     "text": "Settings",
+     "box": [
+      289,
+      10,
+      365,
+      50
+     ]
+    },
+    {
+     "id": "btn-key-controls",
+     "text": "Controls",
+     "box": [
+      12,
+      744,
+      108,
+      792
+     ]
+    },
+    {
+     "id": "multiplayer-button",
+     "text": "World / crew",
+     "box": [
+      12,
+      688,
+      108,
+      736
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "home-what-now",
+   "stage": 7,
+   "words": {
+    "goal": {
+     "text": "Marta Voss · 298 m",
+     "box": [
+      8,
+      400,
+      126,
+      423
+     ]
+    },
+    "next": {
+     "text": "NEXT This lifeboat is yours, but it has no power. Step 1 of 3: buy a power cell (300 marks) from Marta Voss, the foundry foreman. Follow the arrow, then use the button when you reach them.",
+     "box": [
+      22,
+      121,
+      255,
+      223
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "purse",
+     "text": "10,000 marks · 2,500 cr",
+     "box": [
+      22,
+      207,
+      188,
+      253
+     ]
+    },
+    {
+     "id": "btn-settings",
+     "text": "Settings",
+     "box": [
+      289,
+      10,
+      365,
+      50
+     ]
+    },
+    {
+     "id": "btn-key-controls",
+     "text": "Controls",
+     "box": [
+      12,
+      744,
+      108,
+      792
+     ]
+    },
+    {
+     "id": "multiplayer-button",
+     "text": "World / crew",
+     "box": [
+      12,
+      688,
+      108,
+      736
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "home-after-refresh",
+   "stage": 7,
+   "words": {
+    "next": {
+     "text": "NEXT This lifeboat is yours, but it has no power. Step 1 of 3: buy a power cell (300 marks) from Marta Voss, the foundry foreman. Follow the arrow, then use the button when you reach them.",
+     "box": [
+      22,
+      121,
+      255,
+      223
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "purse",
+     "text": "10,000 marks · 2,500 cr",
+     "box": [
+      22,
+      207,
+      188,
+      253
+     ]
+    },
+    {
+     "id": "btn-settings",
+     "text": "Settings",
+     "box": [
+      289,
+      10,
+      365,
+      50
+     ]
+    },
+    {
+     "id": "btn-key-controls",
+     "text": "Controls",
+     "box": [
+      12,
+      744,
+      108,
+      792
+     ]
+    },
+    {
+     "id": "multiplayer-button",
+     "text": "World / crew",
+     "box": [
+      12,
+      688,
+      108,
+      736
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "android-liner",
+   "stage": 0,
+   "words": {
+    "caption": {
+     "text": "WalterForty-one trips on this line, son, and the coffee has never once improved.",
+     "box": [
+      14,
+      606,
+      346,
+      680
+     ]
+    },
+    "hint": {
+     "text": "Tap the screen once to turn on sound.",
+     "box": [
+      10,
+      12,
+      230,
+      40
+     ]
+    }
+   },
+   "buttons": [],
+   "bad": []
+  },
+  {
+   "name": "android-board",
+   "stage": 1,
+   "words": {
+    "caption": {
+     "text": "GuideThe board shows every world and who runs it. Read it, pick a world, pick a side or pick none, then walk to Pad 01. The Kestrel is waiting.",
+     "box": [
+      14,
+      587,
+      346,
+      680
+     ]
+    },
+    "hint": {
+     "text": "Walk the port to the arrivals hall and read the board. Lit posts mark the way.",
+     "box": [
+      10,
+      12,
+      233,
+      73
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Read the board",
+     "box": [
+      214,
+      708,
+      340,
+      756
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      249,
+      14,
+      342,
+      62
+     ]
+    },
+    {
+     "id": "ob-close",
+     "text": "Close",
+     "box": [
+      274,
+      14,
+      344,
+      62
+     ]
+    },
+    {
+     "id": "",
+     "text": "MarsOPEN",
+     "box": [
+      16,
+      116,
+      82,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "TranquilityCOMING",
+     "box": [
+      90,
+      116,
+      191,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "CeresOPEN",
+     "box": [
+      199,
+      116,
+      269,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "EarthOPEN",
+     "box": [
+      277,
+      116,
+      344,
+      172
+     ]
+    },
+    {
+     "id": "",
+     "text": "CallistoOPEN",
+     "box": [
+      16,
+      180,
+      344,
+      235
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "android-kestrel-window",
+   "stage": 2,
+   "words": {},
+   "buttons": [
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      249,
+      14,
+      342,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "android-dig",
+   "stage": 4,
+   "words": {
+    "caption": {
+     "text": "Aim the shovel at the dust around the crate.",
+     "box": [
+      14,
+      641,
+      346,
+      680
+     ]
+    },
+    "hint": {
+     "text": "Walk · Look · tap the button to use",
+     "box": [
+      10,
+      12,
+      212,
+      40
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Dig",
+     "box": [
+      282,
+      708,
+      340,
+      756
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      249,
+      14,
+      342,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "android-truck",
+   "stage": 5,
+   "words": {
+    "caption": {
+     "text": "HanrahanClimb in. Mind the salt. It gets everywhere. I found some in my sandwich last Tuesday.",
+     "box": [
+      14,
+      606,
+      346,
+      680
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "opening-action",
+     "text": "Ride",
+     "box": [
+      277,
+      708,
+      340,
+      756
+     ]
+    },
+    {
+     "id": "opening-walk",
+     "text": "Walk",
+     "box": [
+      114,
+      708,
+      180,
+      756
+     ]
+    },
+    {
+     "id": "opening-skip",
+     "text": "Skip intro",
+     "box": [
+      249,
+      14,
+      342,
+      62
+     ]
+    }
+   ],
+   "bad": []
+  },
+  {
+   "name": "android-home",
+   "stage": 7,
+   "words": {
+    "goal": {
+     "text": "Marta Voss · 380 m",
+     "box": [
+      8,
+      386,
+      130,
+      410
+     ]
+    },
+    "next": {
+     "text": "NEXT This lifeboat is yours, but it has no power. Step 1 of 3: buy a power cell (300 marks) from Marta Voss, the foundry foreman. Follow the arrow, then use the button when you reach them.",
+     "box": [
+      22,
+      121,
+      240,
+      241
+     ]
+    }
+   },
+   "buttons": [
+    {
+     "id": "purse",
+     "text": "10,000 marks · 2,500 cr",
+     "box": [
+      22,
+      225,
+      174,
+      271
+     ]
+    },
+    {
+     "id": "btn-settings",
+     "text": "Settings",
+     "box": [
+      274,
+      10,
+      350,
+      50
+     ]
+    },
+    {
+     "id": "btn-key-controls",
+     "text": "Controls",
+     "box": [
+      12,
+      712,
+      108,
+      760
+     ]
+    },
+    {
+     "id": "multiplayer-button",
+     "text": "World / crew",
+     "box": [
+      12,
+      656,
+      108,
+      704
+     ]
+    }
+   ],
+   "bad": []
+  }
+ ],
+ "errors": []
+}

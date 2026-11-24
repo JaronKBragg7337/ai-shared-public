@@ -43,7 +43,7 @@ def claude_jobs():
     tok = keys().get("CLAUDE_CODE_OAUTH_TOKEN")
     if not tok:
         return False, "no token saved"
-    rc, out = sh(["claude", "-p", "Reply with just: ok"], {"CLAUDE_CODE_OAUTH_TOKEN": tok}, 120)
+    rc, out = sh(["claude", "--model", "haiku", "-p", "Reply with just: ok"], {"CLAUDE_CODE_OAUTH_TOKEN": tok}, 120)
     return ("ok" in out.lower() and "error" not in out.lower()), "answered" if "ok" in out.lower() else out[:120]
 
 

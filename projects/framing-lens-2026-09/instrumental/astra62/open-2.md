@@ -1,0 +1,1 @@
+The radio is playing an instrumental version. One coworker knows the words and sings along under their breath. They can hear their own voice, while the truck’s engine masks it for the other coworker.

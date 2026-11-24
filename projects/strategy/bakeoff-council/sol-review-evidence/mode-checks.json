@@ -1,0 +1,286 @@
+{
+  "music": [
+    {
+      "step": "F-0189",
+      "children": [
+        "S-0228"
+      ],
+      "childrenResolved": [
+        {
+          "eid": "E-00502",
+          "t": 154.167,
+          "id": "S-0228",
+          "e": "sounded",
+          "parent": "F-0189",
+          "basis": "made",
+          "snd": {
+            "k": "clap",
+            "g": 1,
+            "pan": 0.1
+          }
+        }
+      ],
+      "sounds": [
+        {
+          "id": "S-0228",
+          "k": "clap"
+        },
+        {
+          "id": "S-0229",
+          "k": "step"
+        },
+        {
+          "id": "S-0232",
+          "k": "hat"
+        }
+      ],
+      "why": [
+        {
+          "id": "F-0189",
+          "eid": "E-00501",
+          "t": 154.167,
+          "e": "planted",
+          "parent": "P-0001",
+          "basis": "made",
+          "words": "154.2 s: right foot, step 189 on the seen floor. It made S-0228."
+        },
+        {
+          "id": "P-0001",
+          "eid": "E-00329",
+          "t": 95.1,
+          "e": "quest_done",
+          "parent": "E-00308",
+          "basis": "made",
+          "words": "95.1 s: quest_done Quest 1 done in 13.5 s and 12 steps: he stands in a room nobody filmed, labelled made. Two doors stay locked until new footage arrives."
+        },
+        {
+          "id": "E-00308",
+          "eid": "E-00308",
+          "t": 86.667,
+          "e": "entered",
+          "parent": null,
+          "basis": "made",
+          "words": "86.7 s: he stepped into the study behind the middle door: walls, floor and ceiling borrow the real room textures; the furniture is made. Into a room that exists only because the door was unlocked (made)."
+        }
+      ]
+    },
+    {
+      "step": "F-0190",
+      "children": [
+        "S-0233"
+      ],
+      "childrenResolved": [
+        {
+          "eid": "E-00509",
+          "t": 154.7,
+          "id": "S-0233",
+          "e": "sounded",
+          "parent": "F-0190",
+          "basis": "made",
+          "snd": {
+            "k": "kick",
+            "g": 1
+          }
+        }
+      ],
+      "sounds": [
+        {
+          "id": "S-0233",
+          "k": "kick"
+        },
+        {
+          "id": "S-0234",
+          "k": "bass"
+        },
+        {
+          "id": "S-0235",
+          "k": "step"
+        },
+        {
+          "id": "S-0236",
+          "k": "hat"
+        }
+      ],
+      "why": [
+        {
+          "id": "F-0190",
+          "eid": "E-00508",
+          "t": 154.7,
+          "e": "planted",
+          "parent": "P-0001",
+          "basis": "made",
+          "words": "154.7 s: left foot, step 190 on the seen floor. It made S-0233."
+        },
+        {
+          "id": "P-0001",
+          "eid": "E-00329",
+          "t": 95.1,
+          "e": "quest_done",
+          "parent": "E-00308",
+          "basis": "made",
+          "words": "95.1 s: quest_done Quest 1 done in 13.5 s and 12 steps: he stands in a room nobody filmed, labelled made. Two doors stay locked until new footage arrives."
+        },
+        {
+          "id": "E-00308",
+          "eid": "E-00308",
+          "t": 86.667,
+          "e": "entered",
+          "parent": null,
+          "basis": "made",
+          "words": "86.7 s: he stepped into the study behind the middle door: walls, floor and ceiling borrow the real room textures; the furniture is made. Into a room that exists only because the door was unlocked (made)."
+        }
+      ]
+    },
+    {
+      "step": "F-0191",
+      "children": [
+        "S-0237"
+      ],
+      "childrenResolved": [
+        {
+          "eid": "E-00514",
+          "t": 155.267,
+          "id": "S-0237",
+          "e": "sounded",
+          "parent": "F-0191",
+          "basis": "made",
+          "snd": {
+            "k": "clap",
+            "g": 1,
+            "pan": 0.1
+          }
+        }
+      ],
+      "sounds": [
+        {
+          "id": "S-0237",
+          "k": "clap"
+        },
+        {
+          "id": "S-0238",
+          "k": "step"
+        },
+        {
+          "id": "S-0239",
+          "k": "hat"
+        }
+      ],
+      "why": [
+        {
+          "id": "F-0191",
+          "eid": "E-00513",
+          "t": 155.267,
+          "e": "planted",
+          "parent": "P-0001",
+          "basis": "made",
+          "words": "155.3 s: right foot, step 191 on the seen floor. It made S-0237."
+        },
+        {
+          "id": "P-0001",
+          "eid": "E-00329",
+          "t": 95.1,
+          "e": "quest_done",
+          "parent": "E-00308",
+          "basis": "made",
+          "words": "95.1 s: quest_done Quest 1 done in 13.5 s and 12 steps: he stands in a room nobody filmed, labelled made. Two doors stay locked until new footage arrives."
+        },
+        {
+          "id": "E-00308",
+          "eid": "E-00308",
+          "t": 86.667,
+          "e": "entered",
+          "parent": null,
+          "basis": "made",
+          "words": "86.7 s: he stepped into the study behind the middle door: walls, floor and ceiling borrow the real room textures; the furniture is made. Into a room that exists only because the door was unlocked (made)."
+        }
+      ]
+    },
+    {
+      "step": "F-0192",
+      "children": [
+        "S-0240"
+      ],
+      "childrenResolved": [
+        {
+          "eid": "E-00518",
+          "t": 155.8,
+          "id": "S-0240",
+          "e": "sounded",
+          "parent": "F-0192",
+          "basis": "made",
+          "snd": {
+            "k": "kick",
+            "g": 1
+          }
+        }
+      ],
+      "sounds": [
+        {
+          "id": "S-0240",
+          "k": "kick"
+        },
+        {
+          "id": "S-0241",
+          "k": "bass"
+        },
+        {
+          "id": "S-0242",
+          "k": "step"
+        },
+        {
+          "id": "S-0243",
+          "k": "bell"
+        },
+        {
+          "id": "S-0244",
+          "k": "hat"
+        }
+      ],
+      "why": [
+        {
+          "id": "F-0192",
+          "eid": "E-00517",
+          "t": 155.8,
+          "e": "planted",
+          "parent": "P-0001",
+          "basis": "made",
+          "words": "155.8 s: left foot, step 192 on the seen floor. It made S-0240."
+        },
+        {
+          "id": "P-0001",
+          "eid": "E-00329",
+          "t": 95.1,
+          "e": "quest_done",
+          "parent": "E-00308",
+          "basis": "made",
+          "words": "95.1 s: quest_done Quest 1 done in 13.5 s and 12 steps: he stands in a room nobody filmed, labelled made. Two doors stay locked until new footage arrives."
+        },
+        {
+          "id": "E-00308",
+          "eid": "E-00308",
+          "t": 86.667,
+          "e": "entered",
+          "parent": null,
+          "basis": "made",
+          "words": "86.7 s: he stepped into the study behind the middle door: walls, floor and ceiling borrow the real room textures; the furniture is made. Into a room that exists only because the door was unlocked (made)."
+        }
+      ]
+    }
+  ],
+  "show": "\"THE ROOM REMEMBERS\" · EP 0 · SC 1\nTake 2\nHe passes the first door. E-00472\nHe looks out of the window. E-00484\nHe passes the first door. E-00493\nHe passes the middle door. E-00504\nHe passes the last door. E-00531\nHe glances at the left nightstand (made). E-00548\nContinuity 5/5 ✔ No teleporting (max 0.79 m/s) · ✔ Steps spaced (min 0.53 s) · ✔ He never leaves the closed room\nNo voice here\nNarrate the history",
+  "narration": {
+    "cap": "This is a bedroom nobody has ever stood in. Two frames of an AI-made video are all that was ever seen of it. The rest is patched from its own pixels or made, and marked.",
+    "event": [
+      {
+        "eid": "E-00549",
+        "t": 161.033,
+        "id": "C-0001",
+        "e": "narrated",
+        "basis": "made",
+        "note": "This is a bedroom nobody has ever stood in. Two frames of an AI-made video are all that was ever seen of it. The rest is patched from its own pixels or made, and marked. A made man has walked it for 161 seconds: 197 steps, 82.8 metres, every one on record. Step F-0099 landed at 76.6 seconds, right foot. Tap it and it tells you this itself. At 82.1 seconds the middle door was unlocked. The study behind it was never filmed: patched walls, invented desk, labelled. Everything you just heard came from history dot json. Any AI can read the same file."
+      }
+    ],
+    "fileDuration": 66.4,
+    "now": 161.36666666666008
+  }
+}

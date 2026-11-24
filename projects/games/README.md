@@ -42,8 +42,31 @@ inventory: what's built vs planned vs in files but never shown. Also point the p
 Town Square and World 2 (it has only ever covered The Cosmos, last run 10/10). Ashgrove's daily clock was fixed 10/18.
 Jaron 10/18 5:30 PM: order when games return = Ashgrove first (missing the most). World 2 = remake or remove ("too fake looking",
 "a weird grrrr about world 2"). Other worlds after.
+Read WORLDS-MODEL.md first (11/5: shared buildings in every world, one account across worlds).
 World 2 remake plan (Jaron 10/18 7:40 PM: "you filled all the ideas I had plus more"): make it THE REAL CITY (Ashgrove = green
 town). Real buildings (ledges, roofs, entrances, signs, depth - not boxes with painted windows), street life (sidewalks, curbs,
 lamps, cars, benches, storefronts), downtown blocks + riverfront/subway, possibly modeled on a real place (e.g. Fort Wayne-style
 downtown, real street names/landmarks/history), and things to DO: jobs, shops, the theater, the news studio (Vex + Joe). Keep:
 sky/day-night, MetaHuman people, multiplayer, doors to site pages, plots. Phone budget from WORLD2-PLAN.md still applies.
+
+## BUILD ORDER (Jaron 11/4/2026 11:20 PM): the next big focus
+1. **World 2 remake** (the 10/18 'real city' plan above + Jarons Twin's 10/28 notes). This is the next build.
+2. **Ashgrove (world3) + the roofs** (the building inspector above: roofs with gaps, blocked rooms, bad stairs).
+3. **The Cosmos** (the game).
+These are the big, big things for the website.
+
+## When games resume (paused 10/17 for ~1 week)
+- **Cosmos: Phobos walking clip** (Jaron 10/21: moved here from the open list). Fix the walking and the ground-level look on Phobos
+  first (plus the other tweaks Jaron noticed), then record a short walk and post it whenever we want - this week's MMX drift,
+  the next MMX milestone (Mars arrival ~2027, samples home ~2031), or any other Phobos story. Caption draft:
+  projects/heartbeat-tv/POSTING-QUEUE.md.
+
+World 2 tester notes (Jarons Twin, guest, 10/28): research/site-tester/2026-10-28-jarons-twin.md. First load sat blank 40 s+ (needs a
+loading screen); it reads as one cluster of identical boxy towers on an empty lawn with no streets, shops, signs, cars or people;
+repeated trees/rocks; tiny cut-off plot label; double-click to walk; no minimap/signposts; the promised doors weren't found; night
+is too dark. KEEP the day/night, lit windows, lamps and fireflies. It confirms the 10/18 "real city" remake plan.
+
+
+## Oct 31 - Nov 1 builds (see handoffs/2026-11-01-games-night.md)
+- **Rocket** (games/rocket/): kid Kerbal for phones, Anthropic/Opus only. **The Hedge** (games/hedge-maze/): Halloween maze; traps are data in traps.json (TRAPS.md) so any AI can add one.
+- **Trailers:** a game with a `?director=1` mode can film itself: `python tools/game_reel.py` (headed browser on the MSI GPU; never 2:40-7:30 AM).

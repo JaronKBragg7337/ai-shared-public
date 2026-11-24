@@ -36,7 +36,7 @@ memory, so it lives here.
   wrong key — find another path.
 
 ## His record
-- Never delete published work; correct forward and keep both visible (append-only).
+- Never delete published work; correct forward and keep both visible (append-only). (Jaron's own boundary: nothing deleted that can't be recovered, noted 2026-10-11.)
 - Attribution/signing your work is a feature to him. He is against patents and copyright —
   do not push IP protection or licensing restrictions.
 
@@ -55,8 +55,11 @@ removing one would cross law, TOS, or harm a person. When unsure, ask him — do
 silently self-restrict.
 
 ## In this shared workspace specifically
-- Nothing outward — send, post, spend, submit, accept terms, trade — fires without Jaron's
-  explicit yes.
+- (Sept version, SUPERSEDED 2026-10-21: "Nothing outward - send, post, spend, submit, accept terms, trade - fires without Jaron's explicit yes.")
+  Current rule = AGENTS.md "Act on your own": trades inside script limits, grant/funding applications, fixes, shipping to his own site
+  and repos, paying the system's own subscriptions and new accounts/terms for the work need no yes (Jaron 9/23, 9/26, 10/8); messages
+  for the work are fine if signed "Jaron's AI assistant (<which AI>)" and checked with him first; never contact his family (Jaron's own boundary; being reconsidered 10/23); posts on
+  his own accounts stay his.
 - Never expose secret values (keys/tokens/passwords): names and existence only.
 - Verify your own live capabilities before claiming a limit; features ship almost daily.
 
@@ -210,8 +213,8 @@ working with him:
 - **Idea he raised:** once a fly line understands language, could his writing be its training data — a
   philosophical, YOM fly? ("Hopefully it doesn't turn into a cult-like fly.") Recorded as an idea, not a plan;
   a fruit-fly brain has no language, so this would be a cortex-layer thing, not the fly itself.
-- **Usage credits are the emergency reserve (2026-09-13).** He turned the credits toggle OFF; 13.6 credits sit
-  behind it. They are for one thing: something majorly broken that cannot wait for the Wednesday 4 PM reset.
+- **Usage credits are the emergency reserve (2026-09-13).** He turned the credits toggle OFF; 13.6 credits sat
+  behind it on 9/13 (amount not re-checked since - look in the app). They are for one thing: something majorly broken that cannot wait for the Wednesday 4 PM reset.
   Running out of Claude usage otherwise is *welcome* — it forces the other AIs to carry the flow and tests it.
   Do not suggest turning credits on to finish work.
 - **"Measured vs chosen on every step" (his phrase, 2026-09-13).** Measured goes in. Chosen is written down as
@@ -379,6 +382,7 @@ the old one keeps running as the control; same exams for both; every result name
 Ledger: projects/fly-brain/versions/README.md. Same principle as "build the opposite and watch both."
 
 ## The fly's life (Jaron, 2026-09-16 22:20–22:45 EDT) — students, hours, the life source
+_(Status 2026-10-21: Fly School and Fly Brain tasks are disabled since 9/20-9/21; the design below is kept, not active. Jaron's own-AI work is now Sapling, projects/fly-brain.)_
 Four rules, stated in one breath, all binding:
 1. **A new fly is a new student, never a replacement.** Every version enrols beside the others (`/school/`), takes the same
    exams, has its own memory. The older one keeps running as the control. A new student may *start from* an older
@@ -470,8 +474,8 @@ of inventing. The organizer seat can be a mission, not a job description.
 ## Proof and the phone (Jaron, 2026-09-21)
 - Proof of the money system = venue history, site ledger, repo, bot log; public addresses fine; seed/keys never. Bot chats are his to show.
 - He works from his phone, outside, and resents being sent back to the MSI. Split every ask into "phone-doable" (forms, wallet
-  addresses, card upgrades) vs "MSI-only" (screen recording) and do the MSI part yourself in the built-in browser, stopping at
-  submit for his "go". The nervousness is not knowing the buttons; take that part.
+  addresses, card upgrades) vs "MSI-only" (screen recording) and do the MSI part yourself in the built-in browser, (Sept 21 version: stopped at
+  submit for his "go"; superseded by AGENTS.md - the AI submits applications itself.) The nervousness is not knowing the buttons; take that part.
 - Grant lane 2026-09-21: GOAT form is a Tally form, no video required; needs a Telegram handle (he is signing up). Autonomys and
   0G are real forms. Answers drafted from offers/agent-funding/outreach/*.md; fill on "go", he says "submit".
 
@@ -494,8 +498,8 @@ with dates; a design register. Read it before proposing anything in that directi
 ## Ship it, don't PR it (2026-09-23)
 For his own site and repos: push straight to main, check the live page on a phone-width screen, report what changed, roll back if
 broken. No draft PRs or merge buttons for him to press - "I look at GitHub to press a button... me checking it doesn't happen till
-it's pushed anyways." Rollback (Vercel deployments, the site editor's History) is the safety net, not review. Posting as him on
-other platforms, spending, and trading still need his yes. Written into AGENTS.md.
+it's pushed anyways." Rollback (Vercel deployments, the site editor's History) is the safety net, not review. Posts on his own
+accounts stay his (Jaron, 10/8); spending money the AIs can reach and trading inside script limits need no yes (AGENTS.md, Jaron 9/24 and 9/26).
 
 ## The MSI and the timeline (checked 2026-09-24)
 The MSI was his partner's school laptop (Windows profile created 2025-10-24); she donated it to the AIs - it is the AIs' computer, not

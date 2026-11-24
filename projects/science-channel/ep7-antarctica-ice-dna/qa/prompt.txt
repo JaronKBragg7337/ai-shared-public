@@ -1,0 +1,9 @@
+Watch the video file science-ep7-antarctica-ice.mp4 in this folder (an 8.5-minute science TV episode about Antarctica's old ice, ancient DNA and life under the ice, made by AI). Watch it with sound, start to finish. List every problem you notice, with the timestamp:
+- narration cut off mid-sentence, words missing, or names said wrong
+- captions that don't match what is said, or overlap other text
+- visuals that don't match what the narrator is saying
+- text overlapping, unreadable, or off-screen
+- awkward silences, sudden audio jumps, music too loud over voice
+- 3D shots that look wrong (floating, clipping, popping, blank or broken frames)
+- any em dash or en dash in on-screen text
+Then give a short verdict: ready to promote, or fix first. Write your answer to grok-qa.md in this folder and stop. Do not edit any other file.

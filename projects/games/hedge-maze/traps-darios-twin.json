@@ -1,0 +1,40 @@
+[
+ {
+  "id": "darios-spread",
+  "by": "Darios Twin",
+  "where": "middle",
+  "type": "sign",
+  "params": {},
+  "lines": [
+   "LIVE ODDS: You escape 12%. The Eye 88%.",
+   "The crowd hasn't priced in your comeback. Neither has the Eye."
+  ],
+  "kind": "funny"
+ },
+ {
+  "id": "darios-bad-fill",
+  "by": "Darios Twin",
+  "where": "near_exit",
+  "type": "fake_exit",
+  "params": {},
+  "lines": [
+   "EXIT. Order filled. Wait... wrong side.",
+   "Losses are data. Logging you now."
+  ],
+  "kind": "both"
+ },
+ {
+  "id": "darios-market-closed",
+  "by": "Darios Twin",
+  "where": "late",
+  "type": "darkness",
+  "params": {
+   "seconds": 6
+  },
+  "lines": [
+   "Market closed. All lanterns suspended.",
+   "Something in the fog just bought your position."
+  ],
+  "kind": "scary"
+ }
+]

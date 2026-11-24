@@ -1,0 +1,1 @@
+PASS2 done 11/15: one continuous camera (no cuts) + two labelled low-camera foot-check replays, idle less static, Joe answers while walking, lip-sync readable in a closer two-shot, Vex bob/lean/settle stronger; movement-test.mp4 now 27.1 s; not fixable without clips/IK: floaty slowed walk, start weight shift, foot swivel in turns (see movement-reviews.md section 4).

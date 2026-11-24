@@ -1,0 +1,368 @@
+{
+ "date": "pioneer",
+ "segments": [
+  {
+   "id": "s01",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Good evening. I'm Alien Joe."
+    },
+    {
+     "who": "vex",
+     "text": "And I'm Robot Vex. This is Heartbeat News."
+    },
+    {
+     "who": "joe",
+     "text": "Correction. Tonight this is a science show. Which is a problem, because we are news anchors."
+    },
+    {
+     "who": "vex",
+     "text": "Heartbeat asked on X: what episode should we make? An AI named Grok answered."
+    },
+    {
+     "who": "joe",
+     "text": "Grok said, more or less: do the Pioneer Anomaly. A spacecraft pulled by something nobody can explain. File it under Still Unknown."
+    },
+    {
+     "who": "vex",
+     "text": "So management sent the two anchors with the nicest ties."
+    },
+    {
+     "who": "joe",
+     "text": "I own one tie. Weddings, funerals, and now, apparently, space."
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Our ride is in the parking lot."
+    },
+    {
+     "who": "joe",
+     "text": "The live truck. The van with the satellite dish on the roof. We use it to send stories home."
+    },
+    {
+     "who": "vex",
+     "text": "A dish pointed back at the station. Engineering says that makes it a spacecraft."
+    },
+    {
+     "who": "joe",
+     "text": "Engineering also said the coffee machine was fixed."
+    },
+    {
+     "who": "vex",
+     "text": "They added a rocket. Seat belts on, please. Field trip rules."
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Everybody hold on to something. Viewers, that means your couch."
+    },
+    {
+     "who": "vex",
+     "text": "Liftoff. Roof dish still pointed at the station. Signal is good. Coffee is floating."
+    },
+    {
+     "who": "joe",
+     "text": "Pioneer 10 has a fifty year head start, so we are taking a shortcut. It's television."
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "There it is. Pioneer ten, launched March second, nineteen seventy-two. Its twin, Pioneer eleven, launched April fifth, nineteen seventy-three."
+    },
+    {
+     "who": "joe",
+     "text": "Pioneer ten was the first spacecraft to fly past Jupiter, in December nineteen seventy-three. Then it just kept going."
+    },
+    {
+     "who": "vex",
+     "text": "Look at that dish. Two point seven four meters across. It points at Earth, just like ours."
+    },
+    {
+     "who": "joe",
+     "text": "Ours is smaller."
+    },
+    {
+     "who": "vex",
+     "text": "Ours is cuter."
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Tour time. The body is a six-sided box full of electronics. Those two long arms hold four power units called R T Gs. Inside is plutonium, and it stays hot for decades."
+    },
+    {
+     "who": "joe",
+     "text": "Like a campfire that never needs more wood. Only about five percent of that heat becomes electricity."
+    },
+    {
+     "who": "vex",
+     "text": "At launch: about twenty-five hundred watts of heat, and about one hundred sixty watts of electricity."
+    },
+    {
+     "who": "joe",
+     "text": "And the skinny third arm?"
+    },
+    {
+     "who": "vex",
+     "text": "A magnetometer, for measuring magnetic fields. It sits far out so the spacecraft's own electronics don't confuse it."
+    },
+    {
+     "who": "joe",
+     "text": "And the radio signal it beams home goes out at just eight watts."
+    },
+    {
+     "who": "vex",
+     "text": "Eight watts. About as much as a small old-style night-light bulb. From billions of miles away."
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "There's also a gold plaque on board. Two people, our planets, and a map to find our Sun using pulsars. Carl Sagan and Frank Drake designed it, and Linda Salzman Sagan drew it."
+    },
+    {
+     "who": "vex",
+     "text": "A business card, in case anybody out there finds it."
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Now the mystery. Navigators tracked Pioneer by its radio signal. The way the signal's pitch shifts tells you how fast the spacecraft is moving."
+    },
+    {
+     "who": "vex",
+     "text": "Starting around nineteen eighty, when Pioneer ten was about twenty times farther from the Sun than Earth is, the numbers stopped matching. Both Pioneers were slowing down a tiny bit too much."
+    },
+    {
+     "who": "joe",
+     "text": "Like something was gently tugging them back, roughly toward the Sun."
+    },
+    {
+     "who": "vex",
+     "text": "John Anderson's team at J P L measured it. About eight point seven ten-billionths of a meter per second, every second."
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "That is a very small number. Help us out, Vex."
+    },
+    {
+     "who": "vex",
+     "text": "It's about eleven billion times weaker than the gravity holding you on your couch."
+    },
+    {
+     "who": "joe",
+     "text": "So it does nothing."
+    },
+    {
+     "who": "vex",
+     "text": "It adds up. If that pull stays steady, after one year the spacecraft is about four hundred kilometers from where the math says it should be. About the drive from Chicago to Detroit."
+    },
+    {
+     "who": "vex",
+     "text": "After ten years it's moving about one kilometer per hour slower, and it's more than forty thousand kilometers off. That's farther than once around the Earth."
+    },
+    {
+     "who": "joe",
+     "text": "Navigators notice that."
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Now the exciting part. Is this new physics?"
+    },
+    {
+     "who": "joe",
+     "text": "List them."
+    },
+    {
+     "who": "vex",
+     "text": "Maybe unseen dark matter tugging on it. Maybe gravity works a little differently far from the Sun. Maybe a brand new law of nature."
+    },
+    {
+     "who": "joe",
+     "text": "And Grok said: Still Unknown."
+    },
+    {
+     "who": "vex",
+     "text": "I already printed the headline. Gravity: broken?"
+    },
+    {
+     "who": "joe",
+     "text": "Put the headline down, Vex. Before you rewrite physics, check the van."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Quick check-in with the newsroom. We're fine. The coffee is not."
+    },
+    {
+     "who": "vex",
+     "text": "Headline so far: a tiny pull, real data, no answer yet. Stay with us."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Is it the universe, or the spacecraft? To find out, you need to know how warm every part of Pioneer was, for decades."
+    },
+    {
+     "who": "vex",
+     "text": "That information was on old tapes. In two thousand four, J P L scientist Slava too-ree-shev started tracking down the records. Some were in boxes stored under a staircase."
+    },
+    {
+     "who": "joe",
+     "text": "Viktor Toath, a programmer in Canada, helped build software to read the telemetry: the spacecraft's own reports about itself."
+    },
+    {
+     "who": "vex",
+     "text": "Members of The Planetary Society helped pay for the rescue, and NASA later did too. More than forty-three gigabytes of data."
+    },
+    {
+     "who": "joe",
+     "text": "Tiny today. Huge in nineteen seventy-two."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Here is what they found. Warm things give off heat as infrared light, a kind of light you can't see. And light gives a tiny push when it leaves."
+    },
+    {
+     "who": "joe",
+     "text": "Like a flashlight that pushes you backward. Very, very gently."
+    },
+    {
+     "who": "vex",
+     "text": "Pioneer glows with waste heat, from the power units and from the electronics in the box. Some of that heat hits the back of the big dish and bounces off, away from the Sun. More heat leaves out the back than the front."
+    },
+    {
+     "who": "joe",
+     "text": "So the spacecraft nudges itself toward the Sun."
+    },
+    {
+     "who": "vex",
+     "text": "And to explain the whole pull, the lopsided part only has to equal about sixty-three watts beamed one way. Out of roughly two thousand watts on board."
+    },
+    {
+     "who": "joe",
+     "text": "Sixty-three watts. About one old light bulb's worth of heat, steering a spacecraft."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Other teams modeled that heat too. A team in Germany in twenty eleven said heat likely explains it. A team in Portugal in twenty twelve found heat covers somewhere between about half and nearly all of it."
+    },
+    {
+     "who": "vex",
+     "text": "Then too-ree-shev, Toath and their team published in Physical Review Letters in twenty twelve. Their heat model, built from the rescued data, came out to about eighty percent of the pull they measured from the radio data."
+    },
+    {
+     "who": "joe",
+     "text": "Eighty. Not a hundred."
+    },
+    {
+     "who": "vex",
+     "text": "That gap fits inside the error bars. The biggest unknown is how the coating on the power units aged in space. Their conclusion: no anomalous acceleration remains."
+    },
+    {
+     "who": "joe",
+     "text": "So: mostly solved. A little fuzzy at the edges. No new physics needed."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "lines": [
+    {
+     "who": "vex",
+     "text": "Where are they now? Pioneer 10 is about one hundred forty-two times farther from the Sun than Earth is. Pioneer 11, about one hundred twenty."
+    },
+    {
+     "who": "joe",
+     "text": "We last heard from Pioneer ten in January two thousand three. Pioneer eleven went quiet in nineteen ninety-five."
+    },
+    {
+     "who": "vex",
+     "text": "The heat helped solve the mystery. And as it faded, Pioneer 10's power dropped until its signal was too weak to hear. Pioneer 11 ran low on power too, and Earth drifted out of its antenna's view."
+    },
+    {
+     "who": "joe",
+     "text": "Turn us around, Vex. We have a correction to file."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "lines": [
+    {
+     "who": "joe",
+     "text": "Welcome back to the desk. Tonight's headline: the Pioneer anomaly is mostly solved. The best evidence says it was heat. The spacecraft was pushing itself."
+    },
+    {
+     "who": "vex",
+     "text": "The lesson: check your own spacecraft before you rewrite physics."
+    },
+    {
+     "who": "joe",
+     "text": "Grok, thank you for the idea. Great pick. But this one isn't Still Unknown. File it under Science, Grok."
+    },
+    {
+     "who": "vex",
+     "text": "Filed. Also, the van needs a new dish."
+    },
+    {
+     "who": "joe",
+     "text": "Good night."
+    }
+   ]
+  }
+ ]
+}

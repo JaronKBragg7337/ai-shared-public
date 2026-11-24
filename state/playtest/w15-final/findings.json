@@ -1,0 +1,340 @@
+[
+  {
+    "key": "http:404http://127.0.0.1:18765/_vercel/insights/script.js",
+    "kind": "http",
+    "sev": 50,
+    "title": "Request returned HTTP 404",
+    "detail": "http://127.0.0.1:18765/_vercel/insights/script.js",
+    "count": 1,
+    "firstAt": "00:00",
+    "lastAt": "00:00",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/001-load-and-enter-PROBLEM-http.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: the server responded with a status of N (File not found)",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "count": 1,
+    "firstAt": "00:00",
+    "lastAt": "00:00",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/002-load-and-enter-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "rf:http://127.0.0.1:18765/_vercel/insights/script.js",
+    "kind": "request-failed",
+    "sev": 45,
+    "title": "A request failed to load",
+    "detail": "http://127.0.0.1:18765/_vercel/insights/script.js (Load request cancelled)",
+    "count": 1,
+    "firstAt": "00:00",
+    "lastAt": "00:00",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/003-load-and-enter-PROBLEM-request-failed.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/004-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead.",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead.",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/005-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "rf:https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm",
+    "kind": "request-failed",
+    "sev": 45,
+    "title": "A request failed to load",
+    "detail": "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm (Could not connect to server)",
+    "count": 1,
+    "firstAt": "00:02",
+    "lastAt": "00:02",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/006-load-and-enter-PROBLEM-request-failed.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: Could not connect to server",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: Could not connect to server",
+    "count": 1,
+    "firstAt": "00:02",
+    "lastAt": "00:02",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/007-load-and-enter-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLProgram: Program Info Log: (N,N-N): warning XN: sum of N.N and -N.Ne-N cannot b",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 ",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/008-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1",
+      "00:02 [load and enter] QA pass: World loads - First frames in 2.0 seconds.",
+      "00:02 [load and enter] tap #enterButton (enter World 2)"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "tiny-button:#soundBtn \"🔊 Sound\" ",
+    "kind": "tiny-button",
+    "sev": 30,
+    "title": "Button too small for a thumb: #soundBtn \"🔊 Sound\" 72x25",
+    "detail": "#soundBtn \"🔊 Sound\" 72x25 (World 2 exploration, iphone)",
+    "count": 1,
+    "firstAt": "00:25",
+    "lastAt": "00:25",
+    "phase": "exploration",
+    "device": "iphone",
+    "shot": "shots-iphone/014-exploration-PROBLEM-tiny-button.jpg",
+    "steps": [
+      "00:12 [map] tap #minimap (open city map)",
+      "00:13 [map] QA pass: Map opens - Map opened.",
+      "00:13 [map] tap #hbpm .close-btn (close map)",
+      "00:14 [map] QA pass: Map closes - Map closed.",
+      "00:14 [map] QA pass: Opening map does not walk - Player moved 0.000 world units while opening and closing map.",
+      "00:14 [exploration] === exploration",
+      "00:14 [exploration] explore: stick direction forward",
+      "00:15 [exploration] explore: stick direction left",
+      "00:17 [exploration] explore: stick direction forward",
+      "00:19 [exploration] explore: stick direction left",
+      "00:21 [exploration] explore: stick direction forward",
+      "00:23 [exploration] explore: stick direction left"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "http:404http://127.0.0.1:18765/_vercel/insights/script.js",
+    "kind": "http",
+    "sev": 50,
+    "title": "Request returned HTTP 404",
+    "detail": "http://127.0.0.1:18765/_vercel/insights/script.js",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/001-load-and-enter-PROBLEM-http.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: the server responded with a status of N (File not found)",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: the server responded with a status of 404 (File not found)",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/002-load-and-enter-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/003-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead.",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead.",
+    "count": 1,
+    "firstAt": "00:01",
+    "lastAt": "00:01",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/004-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLProgram: Program Info Log: (N,N-N): warning XN: sum of N.N and -N.Ne-N cannot b",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLProgram: Program Info Log: (210,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(209,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(210,82-106): warning X4122: sum of 1 ",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "desktop",
+    "shot": "shots-desktop/005-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open http://127.0.0.1:18765/world2/?dev=1",
+      "00:02 [load and enter] QA pass: World loads - First frames in 2.0 seconds.",
+      "00:03 [load and enter] tap #enterButton (enter World 2)"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "rf:https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm",
+    "kind": "request-failed",
+    "sev": 45,
+    "title": "A request failed to load",
+    "detail": "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm (net::ERR_NETWORK_ACCESS_DENIED)",
+    "count": 1,
+    "firstAt": "00:15",
+    "lastAt": "00:15",
+    "phase": "exploration",
+    "device": "desktop",
+    "shot": "shots-desktop/011-exploration-PROBLEM-request-failed.jpg",
+    "steps": [
+      "00:09 [walking] === walking",
+      "00:09 [walking] hold W for 1.8 seconds",
+      "00:11 [walking] QA pass: Walking moves the player 1 - Position -35.50, 6.50 to -27.29, 5.10; moved 8.32 world units. A nearby obstacle may block this direction.",
+      "00:11 [map] === map",
+      "00:11 [map] tap #minimap (open city map)",
+      "00:12 [map] QA pass: Map opens - Map opened.",
+      "00:12 [map] tap #hbpm .close-btn (close map)",
+      "00:13 [map] QA pass: Map closes - Map closed.",
+      "00:13 [map] QA pass: Opening map does not walk - Player moved 0.000 world units while opening and closing map.",
+      "00:13 [exploration] === exploration",
+      "00:13 [exploration] explore: hold KeyW",
+      "00:14 [exploration] explore: hold KeyA"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: net::ERR_NETWORK_ACCESS_DENIED",
+    "count": 1,
+    "firstAt": "00:15",
+    "lastAt": "00:15",
+    "phase": "exploration",
+    "device": "desktop",
+    "shot": "shots-desktop/012-exploration-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:09 [walking] === walking",
+      "00:09 [walking] hold W for 1.8 seconds",
+      "00:11 [walking] QA pass: Walking moves the player 1 - Position -35.50, 6.50 to -27.29, 5.10; moved 8.32 world units. A nearby obstacle may block this direction.",
+      "00:11 [map] === map",
+      "00:11 [map] tap #minimap (open city map)",
+      "00:12 [map] QA pass: Map opens - Map opened.",
+      "00:12 [map] tap #hbpm .close-btn (close map)",
+      "00:13 [map] QA pass: Map closes - Map closed.",
+      "00:13 [map] QA pass: Opening map does not walk - Player moved 0.000 world units while opening and closing map.",
+      "00:13 [exploration] === exploration",
+      "00:13 [exploration] explore: hold KeyW",
+      "00:14 [exploration] explore: hold KeyA"
+    ],
+    "extra": [],
+    "vision": null
+  }
+]

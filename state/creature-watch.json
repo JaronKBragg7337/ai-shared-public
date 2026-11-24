@@ -1,0 +1,11 @@
+{
+ "at": "2026-11-23T22:33:02",
+ "tick": 6800,
+ "low_last_check": false,
+ "fired": [],
+ "mood": {
+  "hunger": 0.16199999999999998,
+  "curiosity": 0,
+  "energy": 0.7599999999999973
+ }
+}

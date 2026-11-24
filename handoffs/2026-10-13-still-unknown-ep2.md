@@ -13,7 +13,7 @@ Scenes: man, Agnes (as told, name disputed), 1923 site, the move, weights, the 1
 - Primary source: 1984 National Register nomination form (scanned PDF; I OCR'd it). It gives NO total tonnage, lists pieces up to 30 tons, says Bob Biggers' truck, worked alone at night.
 - The "9-ton" gate (81 x 92 x 21 in = 90.6 ft3) cannot weigh 9 tons even if solid aragonite (8.3 t); porous oolite ~5.4-5.8 t. Labelled OUR ARITHMETIC / NOT SETTLED. An engineer's 1950s book (C. A. Lake) gives different gate dimensions.
 - 1,100 tons: castle website + Wikipedia (unattributed). Earliest number found: Lake, "over 1000 tons" (his own sums ~1,050 for walls + tower, plus furniture). First use of exactly 1,100 not found.
-- Move date conflict: form 1937 vs obelisk "Moved in 1939" vs castle chronology (land clearing May 1939). Biggers hauled on a trailer; Ed loaded/unloaded (accounts).
+- Move date conflict: form 1937 vs obelisk "Moved in 1939" vs castle chronology (land clearing May 1939). Biggers hauled on a trailer; a family friend loaded/unloaded (accounts).
 - Brief said "one grainy photo of his tripod": not what I found - several photographs of tripods/hoists exist (Rock Gate Park, Florida Memory 328424); none shown here (rights unchecked).
 
 ## Codex fact-check

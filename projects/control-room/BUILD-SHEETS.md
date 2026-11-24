@@ -39,7 +39,7 @@ Tennis is off (script cap 0). Read C:\Users\lilli\AI-Shared\state\game-intel.md 
 ```
 
 **Routine name:** live-game watch  
-_Routine text is fixed once created in the Grok Bot app (only its schedule can change; Jaron 9/28). The log file keeps the name live-wire.md - it is only a path, the bot is Darios Twin._
+_Routine text is fixed once created in the Grok Bot app (only its schedule can change - Grok Bot app limit, seen 9/28). The log file keeps the name live-wire.md - it is only a path, the bot is Darios Twin._
 _Jaron 10/2: the Instructions box is the live text, including what was spoken the same day (tennis off, read game-intel.md, no self-pause). The page prefers state/crew/darios-twin.md when that file is newer. The bot still reuses the live-wire trade tag._
 **Schedule:** every 30 minutes, all days
 **Routine Instruction (the real fixed text in the app, created 9/25 from NEW-INSTRUCTIONS-DRAFT.md - it cannot be edited):**

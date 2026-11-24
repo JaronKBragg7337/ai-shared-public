@@ -17,3 +17,5 @@ Approximate on purpose: retries, bugs and sign-in loops also use usage. Target (
 | 2026-10-20 22:28 | week 79%, Fable 76%, session 91% (resets 10:40) - round 4 builder just started |
 | 2026-10-20 23:31 | (no new screenshot) temp tunnel + phone server stopped |
 | 2026-10-21 11:49 | week 85% all models, Fable 81%, session 5%, context 89% (886k/1M). Resets 4 PM. Final reading of the week ~85% (target <=10% left: met) |
+- 2026-10-21 9:54 PM usage (Jaron screenshot): 5-hr session 93% (resets ~12:40 AM), week 19%, Fable 33%. Fable rounds 5-9 + owner-lane requests share the same 5-hr window. Round 9 may stop at the limit and finish after the reset.
+2026-10-22 12:38 PM ET (Jaron screenshots): Claude 5-hr 29% (resets ~3:40 PM), week 28%, Fable 47% (resets Wed 4 PM). SuperGrok 52% (Build 40%, resets Fri 2:58 AM); Grok Bot 43% (resets today 6:34 PM) - Twin's 15-min routine is light on it.

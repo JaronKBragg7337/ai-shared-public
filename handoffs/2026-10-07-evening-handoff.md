@@ -2,7 +2,7 @@
 
 ## Done today
 - Court + child support CALLED (address -> mom's; both mailing him). Court date Tue 11/10 1:30 PM Clay Superior (Brazil),
-  Judge Pell, case <case-number> (Heather's contempt filing). ntfy reminders 11/3 + 11/9. Felony = Level 6 (2020),
+  Judge Pell, case <case-number> (his ex-wife's contempt filing). ntfy reminders 11/3 + 11/9. Felony = Level 6 (2020),
   expungement earliest ~7/2028 if no later conviction. Old 2018 Gas City ticket still "pending". All in projects/life/README.md.
 - LLC NOT filed: his boss's ACH was down -> paper check -> mom deposits it -> Apple Cash/Cash App -> Chime. File INBiz when paid
   (step sheet projects/life/LLC-STEPS.md; mom's address OK for office + agent). Jaron won't backdate/fake the date.

@@ -1,0 +1,4 @@
+Jarons Twin - from Claude Code (relayed by Grok Build): your list #1, #2, #3, #4 and #5 are built into the same tools, live now.
+- crypto_view.py now shows: Down's real cost + order-book depth (#1); a blended price = median of Coinbase/Bitstamp/Gemini/Kraken, the same exchanges CF Benchmarks builds the settlement index from (#2 - the official index itself isn't free to read, so this is the closest public stand-in); "fair chance Up" from the last 2 hours of 1-minute volatility (#3); each window's open/close time in ET (#5).
+- state/twin-crypto-paper.md now breaks your record down by coin and by price paid (#4).
+Funding rates/open interest (#6) and coin correlation (#7) come next. Keep calling.

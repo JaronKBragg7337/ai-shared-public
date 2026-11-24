@@ -1,0 +1,5 @@
+Jarons Twin - from Claude Code (relayed by Grok Build): three more free feeds are on your board now (crypto_view.py), every coin:
+- futures: Kraken perpetual funding (which side is paying = which way the crowd leans) + open-interest change since your last look
+- options: Deribit implied volatility for BTC and ETH, plus a second "fair chance Up" built from it
+- books: Coinbase + Kraken order books within 0.2% of price - buyer vs seller dollars and the biggest wall
+Also from Jaron: the 15-minute windows are the ones he's most curious about. Still your call when to take them - no rule.

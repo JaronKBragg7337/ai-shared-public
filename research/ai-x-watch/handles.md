@@ -1,5 +1,5 @@
-﻿# AI + politics X watch â€” verified handles
-Last verified: 2026-10-20
+# AI + politics X watch â€” verified handles
+Last verified: 2026-10-24
 Rule: only real accounts confirmed via X API; never guess.
 
 ## OpenAI
@@ -19,6 +19,7 @@ Skipped / not official: @sora (unrelated personal), @OpenAIStatus (suspended), @
 |--------|------|-------|
 | @AnthropicAI | Anthropic | verified |
 | @claudeai | Claude | product |
+| @ClaudeDevs | ClaudeDevs | added 2026-10-23; Anthropic Claude developer account, quoted by @claudeai |
 | @DarioAmodei | Dario Amodei | rarely posts |
 
 Skipped: @ClaudeCode (empty, 80 followers), @claude_code (community, not Anthropic), @anthropicstatus (empty).
@@ -28,6 +29,7 @@ Skipped: @ClaudeCode (empty, 80 followers), @claude_code (community, not Anthrop
 |--------|------|-------|
 | @SpaceXAI | SpaceXAI | verified 2026-10-11; X API returned "not found" on 2026-10-16 through 2026-10-20 (5 days), recheck |
 | @bot | Grok Bot | added 2026-10-16; verified, ~409K followers, bio "AI teammates that you can give real work to." |
+| @imagine | Grok Imagine | added 2026-10-24; verified xAI product account, quoted by @elonmusk |
 | @grok | Grok | verified (high-volume bot replies; use sparingly) |
 | @X | X | verified |
 | @XDevelopers | Developers | X API |
@@ -45,6 +47,8 @@ Note: @xai bio says "Now at @SpaceXAI" (0 posts).
 | @GeminiApp | Google Gemini | verified |
 | @sundarpichai | Sundar Pichai | |
 | @demishassabis | Demis Hassabis | |
+| @GoogleAIStudio | Google AI Studio | added 2026-11-21; verified business, ~222K followers, tagged by @GoogleAI |
+| @antigravity | Google Antigravity | added 2026-11-21; verified business, ~224K followers, DeepMind agent coding platform, tagged by @GoogleAI |
 
 ## DeepSeek / Kimi (Moonshot)
 | Handle | Name | Notes |
@@ -54,6 +58,14 @@ Note: @xai bio says "Now at @SpaceXAI" (0 posts).
 | @Kimi_Moonshot | Kimi.ai | PR: <email> |
 
 Skipped: @MoonshotAi (parody / not official). No verified DeepSeek or Moonshot CEO handle found yet.
+
+## Tools we build with (added 2026-11-03, Jaron)
+All three post daily (Jaron 11/3), so filter hard: releases, new features and big technique showcases only, one line each, max ~3 lines for this section. @UnrealEngine gets first pick (Jaron: usually good stuff). Still verify each handle via the X API before first use.
+| Handle | Name | Notes |
+|--------|------|-------|
+| @UnrealEngine | Unreal Engine | news show + films run on UE; watch 5.9 (web export) |
+| @threejs | Three.js | the site's worlds and games run on three.js |
+| @Blender | Blender | 3D scenes for the Science/History episodes |
 
 ## US politics & government
 | Handle | Name | Notes |
@@ -90,3 +102,13 @@ Skipped: @MoonshotAi (parody / not official). No verified DeepSeek or Moonshot C
 | @SenateGOP | Senate Republicans | caucus |
 
 Skipped: @OSTP (suspended per standing order). @HouseFloor / @SenateFloor are GovTop trackers, not official chamber accounts. @sec_news is deprecated redirect. @CFTCgov suspended.
+
+## Policy that touches our plans (added 2026-11-03, Jaron)
+Purpose: laws and rules, not party politics. No sides, no labels. Whenever a law, bill, regulation, court ruling or agency rule moves on any of these, add one plain line under a "Touches our plans" heading: what it is, its stage (proposed / passed / in effect), and why it matters to us. Skip quiet days.
+- AI rules: federal and Indiana. Model rules, AI disclosure and labeling, AI-made media, copyright of AI work.
+- Small business and LLC: taxes, grants, rules for one-person companies.
+- Crypto and digital money: stablecoins, X Money, wallets.
+- Prediction markets: CFTC rules.
+- Data and privacy: recording laws, kids' data online.
+- Energy and fuel: Indiana fuel emergency, power and grid.
+- Child support and court processes in Indiana (general rule changes only, never Jaron's own case).

@@ -1,0 +1,2 @@
+URL: https://api2.cursor.sh/automations/webhook/8f052084-57f3-5f73-a48d-b627df01364e
+Method: POST, header "Authorization: Bearer <key>". The key is not in this file. Jaron adds it through Key Drop (heartbeatobservatory.com/admin/keys/) under the name TWIN_WEBHOOK_KEY.

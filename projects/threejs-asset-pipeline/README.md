@@ -39,3 +39,6 @@ Side project. Jaron's order of work: the money system first, then a full baselin
 system costs to run, then spend what is left on projects like this. When it comes back, the first real question is where the
 object's identity and history live between pages (it cannot be localStorage alone if it must survive a page change from one
 visitor to another), and that should be decided before any scene is built - same lesson as Ashgrove's D6.
+
+## 2026-11-01: first step built - the Seam Room
+Jaron brought it back as a room split in two: each half a real URL, walk across = page switch, see both sides. v1 at heartbeatobservatory.com/lab/seam-room/ (a/ + b/): a log carried A->B keeps its asset ID and history, shaped into a chair on B. seam.js is the reusable switch. Next open step = the one named above: identity/history server-side.

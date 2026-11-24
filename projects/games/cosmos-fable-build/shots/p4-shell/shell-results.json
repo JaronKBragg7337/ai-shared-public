@@ -1,0 +1,211 @@
+{
+ "passed": true,
+ "checks": [
+  {
+   "name": "a phone starts on Fast, a desktop on Full detail",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the player's saved choice wins over the guess",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "an address with ?tier= wins over the saved choice; safe graphics wins over all",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the choice is remembered, and Auto forgets it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the frame-rate reading ignores the odd long hitch",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the home-screen app opens the game itself, full screen, any way up",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: with the server down the first screen says so in plain words",
+   "ok": true,
+   "detail": "The shared world is not answering. Trying again…"
+  },
+  {
+   "name": "iphone: and offers a button big enough for a thumb",
+   "ok": true,
+   "detail": "{\"x\":75.234375,\"y\":430.390625,\"width\":224.515625,\"height\":48}"
+  },
+  {
+   "name": "iphone: the server-down screen fits the phone",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the button starts a solo game",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: when the server answers again the solo game offers the way back",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the offer fits the screen",
+   "ok": true,
+   "detail": "{\"x\":15,\"y\":64,\"width\":345,\"height\":126.59375}"
+  },
+  {
+   "name": "iphone: \"Stay solo\" puts the offer away",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the opening is running",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: Settings opens during the opening and keeps to the screen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: Settings says which quality is on",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the quality control is a thumb-sized target inside the screen",
+   "ok": true,
+   "detail": "{\"x\":247,\"y\":263,\"width\":103,\"height\":44}"
+  },
+  {
+   "name": "iphone: Settings has the action-sounds switch, on by default",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: choosing Full detail reloads into it and remembers it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the address keeps no ?tier= after the change",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: nothing scrolls sideways",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "iphone: the page carries its own home-screen app tags",
+   "ok": true,
+   "detail": "{\"man\":\"./manifest.webmanifest\",\"cap\":\"yes\",\"title\":\"The Cosmos\",\"vp\":\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"}"
+  },
+  {
+   "name": "iphone: and the manifest is served",
+   "ok": true,
+   "detail": "The Cosmos"
+  },
+  {
+   "name": "android: with the server down the first screen says so in plain words",
+   "ok": true,
+   "detail": "The shared world is not answering. Trying again…"
+  },
+  {
+   "name": "android: and offers a button big enough for a thumb",
+   "ok": true,
+   "detail": "{\"x\":71.46875,\"y\":424.578125,\"width\":217.046875,\"height\":48}"
+  },
+  {
+   "name": "android: the server-down screen fits the phone",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the button starts a solo game",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: when the server answers again the solo game offers the way back",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the offer fits the screen",
+   "ok": true,
+   "detail": "{\"x\":14.40625,\"y\":64,\"width\":331.1875,\"height\":132.59375}"
+  },
+  {
+   "name": "android: \"Stay solo\" puts the offer away",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the opening is running",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: Settings opens during the opening and keeps to the screen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: Settings says which quality is on",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the quality control is a thumb-sized target inside the screen",
+   "ok": true,
+   "detail": "{\"x\":232,\"y\":263,\"width\":103,\"height\":44}"
+  },
+  {
+   "name": "android: Settings has the action-sounds switch, on by default",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: choosing Full detail reloads into it and remembers it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the address keeps no ?tier= after the change",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: nothing scrolls sideways",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "android: the page carries its own home-screen app tags",
+   "ok": true,
+   "detail": "{\"man\":\"./manifest.webmanifest\",\"cap\":\"yes\",\"title\":\"The Cosmos\",\"vp\":\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\"}"
+  },
+  {
+   "name": "android: and the manifest is served",
+   "ok": true,
+   "detail": "The Cosmos"
+  },
+  {
+   "name": "no errors in either browser",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "errors": []
+}

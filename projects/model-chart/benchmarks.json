@@ -1,0 +1,72 @@
+{
+"checked":"2026-11-19",
+"benchmarks":[
+{"id":"aa_index","name":"Artificial Analysis Intelligence Index (with cost per task)","source":"https://artificialanalysis.ai/leaderboards/models","higher_is_better":true,"unit":"index points","what_it_measures":"A combined score of many independent tests of reasoning, knowledge, coding and agent work, run by a third party; the page also lists a Cost per Task in USD (page gives no definition or index version/date, models shown at max/xhigh effort)."},
+{"id":"terminal_bench","name":"Terminal-Bench 4.1","source":"https://www.tbench.ai/leaderboard","higher_is_better":true,"unit":"% accuracy","what_it_measures":"How often an AI agent finishes real command-line tasks correctly; the 'cost' column is the total dollars for the whole benchmark run, not per task."},
+{"id":"ale_v1_1","name":"Agents' Last Exam v1.1 (Snorkel AI)","source":"https://snorkel.ai/leaderboard/agents-last-exam/","higher_is_better":true,"unit":"% pass rate (score % also recorded)","what_it_measures":"How often an AI agent fully completes 122 realistic professional-job tasks across 55 sub-industries; the page shows runtime and output tokens but NO dollar cost."}
+],
+"models":[
+{"name":"Claude Opus 5.5","company":"Anthropic","price_in":4.0,"price_out":20.0,"price_source":"https://platform.claude.com/docs/en/about-claude/pricing","scores":{
+ "aa_index":{"value":59,"cost_usd":10.04,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":65.8,"cost_usd":4700,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":43.4,"score_pct":71.6,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Max effort. ALE harness Claude Code, 177h runtime, 21.5M output tokens. Terminal-Bench cost is rounded ($4.7k) whole-run total. OpenAI chart as reported by a secondary outlet (unverified) shows Opus 5.5 63.2% at $8.82/task."},
+{"name":"Claude Sonnet 5.5","company":"Anthropic","price_in":2.0,"price_out":10.0,"price_source":"https://platform.claude.com/docs/en/about-claude/pricing","scores":{
+ "aa_index":{"value":55,"cost_usd":10.02,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":63.9,"cost_usd":7300,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":null},
+ "notes":"ale_v1_1: not listed on Snorkel leaderboard."},
+{"name":"Claude Fable 5.2","company":"Anthropic","price_in":8.0,"price_out":40.0,"price_source":"https://platform.claude.com/docs/en/about-claude/pricing","scores":{
+ "aa_index":{"value":65,"cost_usd":26.54,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":65.8,"cost_usd":16500,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":46.9,"score_pct":72.8,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Max effort. ALE result excludes 9 downgraded tasks (averaged over the rest), 227h runtime, 28.2M output tokens. Highest AA index of the 12."},
+{"name":"Claude Haiku 5.5","company":"Anthropic","price_in":0.10,"price_out":0.50,"price_source":"https://platform.claude.com/docs/en/about-claude/pricing","scores":{
+ "aa_index":{"value":36,"cost_usd":0.41,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":40.0,"cost_usd":1000,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":null},
+ "notes":"Price is for prompts up to 100k tokens; over 100k is $0.50 in / $2.50 out. ale_v1_1: not listed."},
+{"name":"GPT-6.2 Sol","company":"OpenAI","price_in":2.0,"price_out":10.0,"price_source":"https://developers.openai.com/api/docs/pricing","scores":{
+ "aa_index":{"value":57,"cost_usd":1.01,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":61.5,"cost_usd":300,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":41.8,"score_pct":72.5,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Standard tier, prompts up to 272K tokens. Batch is half price. ALE harness Codex, 31h40m, 3.1M output tokens."},
+{"name":"GPT-6.2 Astra","company":"OpenAI","price_in":8.0,"price_out":40.0,"price_source":"https://developers.openai.com/api/docs/pricing","scores":{
+ "aa_index":{"value":62,"cost_usd":4.00,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":62.1,"cost_usd":1400,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":47.5,"score_pct":78.3,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Rank 1 on ALE v1.1 (Codex, 29h7m, 2.6M output tokens; page lists several effort levels without saying which was scored). Standard tier, prompts up to 272K; batch is half price."},
+{"name":"GPT-6 Luna","company":"OpenAI","price_in":0.10,"price_out":0.50,"price_source":"https://developers.openai.com/api/docs/pricing","scores":{
+ "aa_index":{"value":28,"cost_usd":0.15,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":15.2,"cost_usd":100,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":null},
+ "notes":"ale_v1_1: GPT-6 Luna not listed (only GPT-5.6 Luna, 5.7% pass, which is a different model, not used)."},
+{"name":"GPT-6.1 Terra","company":"OpenAI","price_in":1.0,"price_out":5.0,"price_source":"https://developers.openai.com/api/docs/pricing","scores":{
+ "aa_index":{"value":51,"cost_usd":0.96,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":53.3,"cost_usd":900,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":41.8,"score_pct":69.8,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Standard tier, prompts up to 272K tokens. ALE harness Codex, 124h36m, 5.5M output tokens. A secondary outlet (unverified) reports an OpenAI chart of Terra 60.0% at $1.01/task."},
+{"name":"Grok 4.7","company":"xAI","price_in":2.0,"price_out":6.0,"price_source":"https://docs.x.ai/docs/models","scores":{
+ "aa_index":{"value":35,"cost_usd":7.77,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":38.8,"cost_usd":3700,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":null},
+ "notes":"Price is for prompts under 200k tokens; 200k+ is $4 in / $12 out. AA ran it at xhigh effort. ale_v1_1: not listed."},
+{"name":"Kimi K3.1 Pro","company":"Moonshot","price_in":2.0,"price_out":10.0,"price_source":"https://developer.puter.com/tutorials/kimi-api-pricing/","scores":{
+ "aa_index":{"value":46,"cost_usd":3.68,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":59.7,"cost_usd":1100,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":{"value":43.4,"score_pct":74.4,"cost_usd":null,"source":"https://snorkel.ai/leaderboard/agents-last-exam/","vendor_reported":false}},
+ "notes":"Price is from third-party aggregators (several agree: $2 in / $10 out, $0.20 cached); Moonshot's own pricing page tables did not load (https://platform.kimi.ai/docs/pricing/chat). Snorkel lists it as 'Kimi 3.1 Pro', Kimi Code harness, 61h26m, 8.5M output tokens."},
+{"name":"Kimi K2.8 Preview","company":"Moonshot","price_in":1.0,"price_out":4.0,"price_source":"https://llmgateway.io/models/kimi-k2.8-preview","scores":{
+ "aa_index":null,"terminal_bench":null,"ale_v1_1":null},
+ "notes":"No benchmark data: not listed on Artificial Analysis, Terminal-Bench or Snorkel ALE. Price is a reseller rate (LLM Gateway / Tencent Cloud), no official Moonshot price found. Moonshot says K2 models close to new users Oct 31 2026 and retire by end of Dec 2026 (https://platform.kimi.ai/docs/pricing/chat)."},
+{"name":"DeepSeek V4 Pro","company":"DeepSeek","price_in":1.32,"price_out":3.96,"price_source":"https://api-docs.deepseek.com/quick_start/pricing","scores":{
+ "aa_index":{"value":23,"cost_usd":1.77,"source":"https://artificialanalysis.ai/leaderboards/models","vendor_reported":false},
+ "terminal_bench":{"value":6.7,"cost_usd":700,"source":"https://www.tbench.ai/leaderboard","vendor_reported":false},
+ "ale_v1_1":null},
+ "notes":"Price is the peak rate; off-peak (half) is $0.66 in / $1.98 out. Both leaderboards list the 0813 snapshot. Snorkel lists only 'DeepSeek V4.1 Flash (1017)', a different model, not used."}
+],
+"ale_context":{
+ "note":"Agents' Last Exam v1.1 on Snorkel (checked 2026-11-19) lists GPT-6.2 Astra 47.5% pass / 78.3% score, Fable 5.2 46.9/72.8, Gemini 4 Carbon 45.9/77.4, Opus 5.5 43.4/71.6, GPT-6 Astra 42.6/73.1, GPT-6.2 Sol 41.8/72.5. The page has no dollar cost column. OpenAI's own score-vs-cost chart data was not found on a primary source; a secondary outlet's cost-per-task numbers (Opus 5.5 $8.82, Terra $1.01, GPT-6 Astra $7.24) are unverified.",
+ "source":"https://snorkel.ai/leaderboard/agents-last-exam/"},
+"caveats":["AA 'Cost per Task' has no definition on the page; its numbers are not consistent with token prices (e.g. Sonnet 5.5 $10.02 vs Opus 5.5 $10.04), likely reflecting token usage at max effort.","Terminal-Bench cost is rounded to $0.1k for the whole benchmark run.","Terminal-Bench 4.1 page gives no evaluation date; AA page gives no index version/date."]
+}

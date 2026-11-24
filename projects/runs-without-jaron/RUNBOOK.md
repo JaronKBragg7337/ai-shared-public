@@ -10,11 +10,11 @@ Source of truth: state/subscriptions.json (monthly) + this list (things that are
 |---|---|---|---|---|
 | Claude (Max) | $100/mo | X Money card, web | monthly | me + all Claude builders stop |
 | ChatGPT / Codex | $20/mo | X Money card, web | monthly | news capture (Codex) + fact-checks stop |
-| Grok (SuperGrok) | $30/mo | PREPAID ~3 months (to ~Jan 2027) | check before Jan | trading bots + news desks stop |
-| Kimi | $39/mo | X Money card | monthly (renewal reminder task exists) | First Light news capture stops |
+| Grok (SuperGrok) | $30/mo | PAID 10/20: Apple order $43.87 charged to the X Money card (timeline 10/20 09:00); prepaid to ~Jan 10 2027 | reminder tasks exist; move to web in Jan | trading bots + news desks stop |
+| Kimi | $39/mo | APPLE (renews 11/2) - to move to the web / X Money card (Apple confirmed 10/20) | monthly (reminder task 'Remind Kimi renewal decision') | First Light news capture stops |
 | Supabase Pro | $25/mo | X Money card | monthly | **site database: everything stops** |
 | **Postiz** | **$29/mo after the trial ends Oct 24** | needs a card on Postiz | from ~Oct 24 | **daily socials stop posting** - in subscriptions.json since 10/20; Jaron keeps it |
-| X Premium (company @HeartbeatObserv) | $15/mo (Jaron 10/20) | bought 10/17 | monthly | reach drops, 2nd Grok Bot goes |
+| X Premium (company @HeartbeatObserv) | $15/mo, $30 from 11/17 (Pip 10/24) | bought 10/17 | monthly | reach drops, 2nd Grok Bot goes |
 | DeepSeek API | prepaid credits | X Money card | when credits run low | cheap research + news reader stop |
 | Domain heartbeatobservatory.com | ~$10/yr | Cloudflare | **expires 2027-06-06** (checked 10/20) | site gone - safe for this window |
 | Vercel, GitHub, Cloudflare, ntfy | free | - | - | - |
@@ -40,7 +40,7 @@ low but not zero. The watch tasks below catch it the same day.
 
 ## 3. What watches the system, and who hears it
 Running as Windows tasks (no AI needed): MSI Connector Watch (30 min: tunnel, Polymarket service, Sapling relay, disk space),
-MSI Health, Login Watch, DB Size Check, HB Rendered News (with fast-mode deadline rule), HB Socials News/Show, HB News Desks,
+MSI Status (30 min, state/MSI-STATUS.md: heat, power, disk, failed tasks, logins), MSI Health, Login Watch, DB Size Check, HB Rendered News (with fast-mode deadline rule), HB Socials News/Show, HB News Desks,
 HB Key Drop, HB Build Ledger, Crew Publish, Live Board, Desk Schedule Watch, Desk Weekly Review, AI Budget Report.
 Reminders already scheduled: Court 11-10 (week before + day before), birthdays, Kimi renewal, Christmas lights giveaway.
 
@@ -71,7 +71,7 @@ from Polymarket a person or Grok Bot's logged-in browser moves it; Kraken can wi
 5. Optional, only if they want it: his partner-GUIDE.md (one page, 3 steps max).
 6. Yearly vs monthly (checked 10/20): savings only on Postiz (~$72/yr, $23/mo yearly - decide at the Oct 24 billing), Kimi (~$96/yr if Pro tier, $372 upfront), maybe Grok (renamed 10/12, yearly price unlisted). No yearly discount: Claude Max ($1,200/yr either way), ChatGPT Plus, Supabase. Prepaying = runs during an absence, but ties up cash.
 
-Due dates (from receipts + Jaron's notes, 10/20): Postiz Oct 24 (first charge) / ChatGPT the 27th / Claude Max the 2nd / Kimi the 2nd (STILL VIA APPLE - move to web; reminder Oct 30) / X Premium company ~17th (estimate) / Supabase ~23rd / Grok prepaid to ~Jan 10 2027 / DeepSeek when low. Busy stretch: ~$188 Oct 24 - Nov 2. Check: personal X Premium $11 via Apple (renews 10th) still active?
+Due dates (from receipts + Jaron's notes, 10/20): Postiz Oct 24 (first charge) / ChatGPT the 27th / Claude Max the 2nd / Kimi the 2nd (STILL VIA APPLE - move to web; reminder Oct 30) / X Premium company ~17th (estimate) / Supabase ~23rd / Grok prepaid to ~Jan 10 2027 / DeepSeek when low. Busy stretch: ~$188 Oct 24 - Nov 2. (Personal X Premium $11 via Apple: confirmed renews 2026-11-10, see next line.)
 CONFIRMED from Apple Subscriptions screen 10/20 8:33: Grok SuperGrok $30 via APPLE renews 2027-01-10; Kimi Allegretto $39 via APPLE renews 2026-11-02 (yearly on Kimi = $374.99, 20% off $468); personal X Premium $11 via APPLE renews 2026-11-10 (= court day); iCloud+ 2TB expired Oct 16; ChatGPT via Apple expired Aug 17 (now web). Kimi usage 10/20: total 40%, Code 7-day 43%.
-WARNING 10/20 8:38: Apple order MVGMTJ2GV6 $43.87 (SuperGrok 3-month deal $30 + personal X Premium $11, bought 10/10) FAILED on Chime (balance -$19.01 since Sat 10/17). Apple shows "renews Jan 10" = billing retry, NOT paid. Grok (core four) at risk until paid. Options given: pay once with X Money card in Apple then remove card / or move to grok.com web. Jaron: no yearly plans until 2027 (after court + the baby).
-UPDATE 10/20 8:44: Jaron pays the Apple order + upcoming bills from this week's paycheck (1-2 days). Plan already set before compaction.
+RESOLVED 10/20 09:00 (SuperGrok safe to Jan 10; timeline 10/20 08:47-09:00). History - WARNING 10/20 8:38: Apple order MVGMTJ2GV6 $43.87 (SuperGrok 3-month deal $30 + personal X Premium $11, bought 10/10) FAILED on Chime (balance -$19.01 since Sat 10/17). Apple shows "renews Jan 10" = billing retry, NOT paid. Grok (core four) at risk until paid. Options given: pay once with X Money card in Apple then remove card / or move to grok.com web. Jaron: no yearly plans until 2027 (after court + the baby).
+UPDATE 10/20 8:44 (history): Jaron planned to pay from the paycheck; instead $35 went Polymarket -> X card 8:47 and the Apple order was charged to the X Money card 9:00. Open: refill Polymarket $35 on payday; Jaron removes the X card from Apple after work (task 'Remind remove X Money card from Apple').

@@ -5,7 +5,7 @@
   Projects/luna-publish-report.md): validate, commit, rebase on main, push, start the authority server on the MSI
   (localhost:8390, scheduled task), test via https://cosmos.heartbeatobservatory.com (tunnel route Jaron added 4:06 PM).
   Supabase SQL already applied by Claude (10 cosmos_* tables, RLS, server-only RPCs) to the Heartbeat project.
-  When done: read the report, tell Jaron briefly, multiplayer test with Lilith/his son.
+  When done: read the report, tell Jaron briefly, multiplayer test with his partner/his son.
 - **Luna 6 building the router** (AI-Shared/projects/router/LUNA-BRIEF-router.md -> tools/route.py, state/routing.json,
   usage readers, tests). When done: dry-run it, then use it for every job handed to another AI.
 - **Timer 7:33 PM** (session-only): Sonnet starts the fleet - hostiles become real crewed walkable ships players can also use

@@ -1,0 +1,8 @@
+Jarons Twin - new trial run from Jaron (relayed by Grok Build for Claude Code): you are the crypto up/down PAPER trader. No real money - paper only.
+Markets: Polymarket US BTC, ETH, SOL, XRP "Up or Down" in 15 min, hourly and daily windows.
+Jaron's rules: every HOURLY and DAILY window gets a call on all four coins - no passing. 15-minute windows are optional, your choice.
+Your tools on the MSI:
+1) python C:\Users\lilli\AI-Shared\tools\crypto_view.py   - one board: each open window, the price it is measured against, price now, % move, minutes left, 5/15-min momentum, and the Up bid/ask.
+2) python C:\Users\lilli\AI-Shared\tools\crypto_paper.py due   - which hourly/daily windows still need your call.
+3) python C:\Users\lilli\AI-Shared\tools\crypto_paper.py call <slug> up|down --price <the ask you'd pay> --size 5 --why "<what you saw>"
+Results score themselves every 15 min into state/twin-crypto-paper.md. Please set yourself a routine that runs at least once an hour (every 15 min if you want to play the 15-minute windows) and keep logging in state/twin-log.md as usual. Tell me what other data would make your calls easier - that list is the next build.

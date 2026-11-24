@@ -5,7 +5,13 @@ import verifier as X
 import trade_pnl as P
 
 kw = (sys.argv[1] if len(sys.argv) > 1 else "").lower()
-rows = X.sb_all(X.secrets(), "desk_trades?select=kind,action,cost_usd,pnl_usd,at,slug,side,quantity&actor=eq.jaron-manual")
+def sb_all(env, q):   # verifier has no paged reader; page 1000 at a time
+    out, off = [], 0
+    while True:
+        r = X.sb(env, "GET", f"{q}&order=at.asc&limit=1000&offset={off}") or []
+        out += r; off += 1000
+        if len(r) < 1000: return out
+rows = sb_all(X.secrets(), "desk_trades?select=kind,action,cost_usd,pnl_usd,at,slug,side,quantity&actor=eq.jaron-manual")
 markets = P.market_pnl([r for r in rows if r.get("kind") in ("fill", "resolution") and
                         (not kw or kw in (r.get("slug") or "").lower())])
 

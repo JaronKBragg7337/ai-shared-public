@@ -3,7 +3,7 @@ Why: court Nov 10 (outcome unknown), the baby due Dec 9. Everything should keep 
 ## Decided (Jaron 10/19)
 - Bills: THE SYSTEM PAYS (goal). his partner = backup only, and NOT expected: she's 19, a first-time mom; she could, but he won't
   put that on her. So: design for zero human steps; anything his partner-only must be optional, tiny and written step by step.
-## To build (next session)
+## To build (next session) - STATUS 10/21: items 1-4 BUILT as RUNBOOK.md on 10/20 (timeline 10/20 07:40); item 5 his partner-GUIDE.md exists (optional); see RUNBOOK.md section 6 for what is still open
 1. Inventory: every recurring bill/subscription (state/subscriptions.json), renewal date, card, and whether it auto-renews from
    money the system controls. Gap list = what still needs a human.
 2. Everything that needs a login/reconnect (RECONNECT.md) - which can AIs redo themselves, which can't.
@@ -17,10 +17,10 @@ Why: court Nov 10 (outcome unknown), the baby due Dec 9. Everything should keep 
   out); jail with no purge path gets reversed on appeal; one Indiana example = 30 days stayed if payments kept; one guide says
   contempt can reach up to 180 days (unverified). -> plan for 1 month, cushion for up to 6.
 - Polymarket: needs an API key that can WITHDRAW, so the system can move profit to the bill card on its own. Check what
-  Polymarket US's API allows (withdrawals may need his login/2FA) - next session.
+  Polymarket US's API allows (withdrawals may need his login/2FA) - next session. [ANSWERED 10/19 18:50: retail keys can't withdraw by API; withdrawals stay in the app - see 'Who can move money out' below.]
 ## Jaron 7:01 AM (in the truck to Indy)
 - All system bills on the X Money card, except Grok: prepaid ~3 months (cancel offer: pay 1 month, get 2 free).
-- Polymarket: he'll make a new API key WITH withdrawal enabled (other people's systems do this; his old caution came from AIs
+- [Result 10/19: polymarket.us gave no permission choices; retail keys cannot withdraw. New keys installed via Key Drop.] Polymarket: he'll make a new API key WITH withdrawal enabled (other people's systems do this; his old caution came from AIs
   treating money withdrawals cautiously - not his own rule). Then the system can move money to the X card itself.
 - 1-6 months away would be "easy" for him personally; the one hard part is missing the baby's first months. That's the real stake.
 - Withdrawal cap: Jaron 10/19 7:04 AM = NO cap. He trusts the AIs to move bigger amounts when something calls for it (e.g. several subscriptions due the same day). Log every withdrawal with its reason (visible on the crew page as yellow 'bill paid').

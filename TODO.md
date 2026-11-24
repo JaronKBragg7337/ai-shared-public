@@ -35,7 +35,7 @@ WATCH.md. Codex resets 05:03; Grok via connector or Claude Code can do it sooner
 ## FLY #1 BUILT 2026-09-12 12:35 — dry run running as task `Fly Brain`
 Real MaleCNS brain, 165,122 neurons, on the MSI. Watches live table tennis, smells the match, presses
 through desk-trade.py. `projects/fly-brain/README.md`. **Next:** let it watch 3 Setka Cup matches
-overnight (dry), read `state/fly-brain/log.md` in the morning, then Jaron decides `--live`.
+overnight (dry), read `state/fly-brain/log.md` in the morning, then `--live` is decided (Sept 12 plan; whether to go live follows Jaron's tests and the Control Room, not a standing Jaron gate).
 Open: serving as a sense (feed lacks it); cloud container at the $100 milestone.
 
 ## AT-THE-MSI SESSION 2026-09-11 19:00–20:05 — everything on the list DONE
@@ -60,7 +60,7 @@ within 8h (was showing NFL 2027 futures as "started").
 - `tools/score-estimates.py` + task `Scout Scorer` (daily 06:30): grades every estimate by method
   against the market price at the time. 35 on file, 0 resolved yet. First real read ~Sep 16 (FOMC).
 - `AI-Shared Mirror` task: nightly robocopy of the workspace to G: (secrets excluded). First backup.
-- Still needs Jaron at the MSI: Live Wire paste + MCP; Bridge step 8; DEEPSEEK key; CoworkVMService fix.
+- Still needed Jaron at the MSI (all DONE 9/11 19:00, see the AT-THE-MSI entry above): Live Wire paste + MCP; Bridge step 8; DEEPSEEK key; CoworkVMService fix.
 
 ## PROPOSER METHOD — `both` since 2026-09-11 08:35
 Overnight the strict split (03:57, 05:57, 07:57 runs) proposed **nothing** in 18 candidates: with no
@@ -109,7 +109,7 @@ label is the venue's trail, not an inference. Anything else shows as *unknown* �
 - Grok/X sentiment channel: proposer writes `inbox/sentiment-requests.json`; Bridge's routine step 8
   (agents/grok-bot/HEALTH.md) answers into `state/sentiment/<slug>.json`. **Bridge's routine text
   in the Grok Bot app still needs the step pasted in** — computer use was masked again.
-- Live Wire: setup doc ready (`agents/grok-bot/LIVE-WIRE.md`); Jaron pastes Instructions + Routine,
+- Live Wire: setup doc ready (`agents/grok-bot/LIVE-WIRE.md`); Jaron pastes Instructions + Routine (done 9/11),
   connects Heartbeat MCP. He confirmed the MCP route beats the browser login (passkey prompt never came).
 
 ### Site cleanup — PARTLY DONE 2026-09-11 03:36
@@ -137,11 +137,11 @@ PowerShell on the MSI.
 
 ### 2. Qwen has done nothing since $10 landed
 **Symptom:** Qwen held twice (correctly) and has not been asked to do anything since.
-**Reality:** Qwen is no longer the decision-maker — Scout researches, Bridge decides, Jaron
+**Reality (Sept 11 design):** Qwen is no longer the decision-maker — Scout researches, Bridge decides, Jaron
 approves. Qwen's remaining job is undefined. Either give it one (cheap local retrieval, file
 consult, first-pass screening) or say plainly it is idle. Idle-by-design is fine; idle-by-neglect
 is not.
-**Who:** Jaron decides the role. **Status:** OPEN
+**Who:** Jaron decides the role (Sept 11; 'Jaron approves' above was the Sept design, retired 9/24). **Status:** OPEN
 **Jaron 2026-09-11:** fly brain, scripts, Qwen and Bridge are all DIFFERENT things to him, and
 "all of which things aren't meant to touch money and do trades" except scripts + fly brain. Needs
 its own back-and-forth conversation. Withdrawn: the Qwen-as-fly-brain proposal. Qwen's role stays OPEN.
@@ -202,7 +202,7 @@ Spread filter exists; open-interest floor does not. Oakland market had 1c spread
 
 ---
 
-## JARON ONLY — needs an Administrator PowerShell on the MSI, can wait
+## NEEDS AN ADMINISTRATOR POWERSHELL on the MSI (Windows elevation fact, not a Jaron-only rule; any elevated session can), can wait
 
 Saved in his notes 2026-09-10. Not vital. System runs without them.
 
@@ -220,7 +220,7 @@ Saved in his notes 2026-09-10. Not vital. System runs without them.
 - Hosting as a revenue lane — CANCELLED, Q-011
 - Grok Bot admin rights — see above
 - AI-Shared as a git repo — DEFERRED to ~2026-09-30, Q-004
-- Habitat iPhone 3D fix — ChatGPT Chat's deliberately, do not touch
+- Habitat iPhone 3D fix — ChatGPT Chat's deliberately (Sept 10 ownership split, who works on what; not a safety limit and not a Jaron rule)
 
 ---
 

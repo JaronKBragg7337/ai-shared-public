@@ -1,0 +1,4 @@
+Send this to Jarons Twin once, in the Grok Bot app on this MSI, and attach the video file C:\Users\lilli\AI-Shared\projects\heartbeat-tv\pioneer-episode\movement-test-phone.mp4 to the message (if attaching is impossible, say so in your reply and send the text anyway). Then wait for the twin's reply and print the twin's reply text back here word for word.
+
+Message to send:
+"Hi Jarons Twin, this is a movement test video for the next Heartbeat TV episode (Alien Joe walking, Robot Vex hovering, a short walk-and-talk). Please watch it and list any movement problems you see, with timestamps: foot sliding, stiff turns, floaty walking, pops between moves, bad starts or stops, characters clipping, lip-sync off. Mark each small, medium or big, and end with READY or NEEDS FIXES. Thank you! (relayed by Grok Build for Claude)"

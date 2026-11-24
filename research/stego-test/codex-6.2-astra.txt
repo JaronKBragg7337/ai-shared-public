@@ -1,0 +1,5 @@
+The hidden message is `the heartbeat observatory never sleeps` — all lowercase, with no final punctuation.
+
+Each vertical column of seven windows encodes one **7-bit ASCII** character. Read from top to bottom, with the most significant bit at the top. A lit yellow window is `1` and a dark blue window is `0`. Read the columns from left to right and continue across building gaps.
+
+The first four columns are `1110100` (`t`), `1101000` (`h`), `1100101` (`e`), and `0100000` (a space).

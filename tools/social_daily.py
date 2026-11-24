@@ -4,11 +4,14 @@
 #   add --dry  to print what would post without posting.
 # Posts go through Postiz (hosted, its approved TikTok/YouTube/X apps); the Postiz CLI must be signed in (postiz auth:login) with the
 # three company channels connected. Log: state/social-posts.log. If Postiz isn't ready, one ntfy buzz a day says so, nothing else.
-import sys, os, json, subprocess, datetime, urllib.request, shutil, tempfile
+import sys, os, json, subprocess, datetime, urllib.request, shutil, tempfile, hashlib
+from zoneinfo import ZoneInfo
 
 AI = "C:/Users/lilli/AI-Shared"; SITE = "C:/Users/lilli/Projects/heartbeat-observatory"
 QUEUE = AI + "/state/social-queue.json"; LOG = AI + "/state/social-posts.log"
 YOUTUBE_VERIFIED = True    # Jaron verified the channel 2026-10-19 8:24 AM (lifts the 15-min upload cap)
+YOUTUBE_DAILY_CAP = 3  # 11/12: back to 3. Pip's reports: the 5 PM show upload already failed ~15 times (Oct 29-Nov 11) on YouTube's daily limit even at 3, so the real Postiz/YouTube allowance is lower. Shorts backfill paused until fixed.
+PACIFIC = ZoneInfo("America/Los_Angeles")  # YouTube API quota resets at midnight Pacific.
 X_MAX = 3 * 3600 - 60  # Premium on @HeartbeatObserv since 10/17 (was 139 s without it); longer videos get a trimmed copy for X only
 DRY = "--dry" in sys.argv
 # node + the CLI script directly (not the .cmd shim: cmd.exe mangles line breaks and emoji in captions)
@@ -114,30 +117,86 @@ def settings_for(p, title):
     return {"post_type": "post", "who_can_reply_post": "everyone", "made_with_ai": True}
 
 
-def x_text(text, tags=None):
+def x_limit(cid):
+    """X's post length for this channel as Postiz knows it (280 free; long posts once Postiz sees the checkmark, 10/23)."""
+    try: return int((pz("integrations:settings", cid).get("output") or {}).get("maxLength") or 280)
+    except Exception: return 280
+
+
+def x_text(text, tags=None, limit=280):
     """X post: the hook, cut at a whole sentence (never mid-word), then where to watch. No hashtags by default - Jaron 10/19 +
     Grok check: X's ranking doesn't use them (Musk 12/2024 "please stop using hashtags"); they only file a post under a search
     tag. A queue item can keep a few with "x_tags" when people search that exact event (MMX launch day)."""
     import re
     NL = chr(10)
     lines = [l for l in text.split(NL) if l.strip()]
-    body = lines[0] + (NL + lines[1] if len(lines) > 1 and not lines[1].startswith(("Full", "Watch", "Made", "#")) else "")
+    keep = [l for l in lines[1:] if not l.startswith(("Full", "Watch", "Made", "#"))]
+    body = NL.join([lines[0]] + (keep if limit > 280 else keep[:1]))   # verified account: the whole story, not just the hook
     tail = NL + NL + "Full show + sources, free: link in our bio" + (NL + " ".join(tags) if tags else "")   # Postiz strips links on X
-    room = 240 - len(tail)   # shorter while the account is under review; emoji count 2 on X (10/18 "too long" at 280)
+    room = limit - 40 - len(tail)   # 40 spare: emoji count 2 on X (10/18 "too long" at 280)
     if len(body) > room:
         cut = [m.end() for m in re.finditer(r"[.?!]['\")]?(?=\s|$)", body) if m.end() <= room]
         body = body[:cut[-1]] if cut else body[:room].rsplit(" ", 1)[0] + "…"
     return body.rstrip() + tail
 
 
-def post(platform, cid, video, text, title, x_tags=None):
+def youtube_room(cid, news_short=False):
+    """Count Postiz uploads/attempts for this Pacific day; fail closed if unavailable.
+
+    Reserve one slot for the daily news short until it has been scheduled. Other
+    upload tools and other channels sharing a Google project are outside this cap.
+    """
+    now = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=3)
+    day = now.astimezone(PACIFIC).date()
+    start = datetime.datetime.combine(day, datetime.time.min, PACIFIC).astimezone(datetime.timezone.utc)
+    end = datetime.datetime.combine(day + datetime.timedelta(days=1), datetime.time.min, PACIFIC).astimezone(datetime.timezone.utc)
+    result = pz("posts:list", "--startDate", start.isoformat(), "--endDate", (end - datetime.timedelta(milliseconds=1)).isoformat())
+    if not isinstance(result, dict) or not isinstance(result.get("posts"), list):
+        raise RuntimeError("YouTube cap: cannot check Postiz schedule; deferred")
+    posts = [p for p in result["posts"] if (p.get("integration") or {}).get("id") == cid
+             and p.get("state") in ("QUEUE", "PUBLISHED", "ERROR")
+             and start <= datetime.datetime.fromisoformat(p["publishDate"].replace("Z", "+00:00")) < end]
+    has_news = any((p.get("content") or "").startswith("Heartbeat News for ")
+                   and "Two AI anchors" not in (p.get("content") or "") for p in posts)
+    reserved = 0 if news_short or has_news else 1
+    if len(posts) + reserved >= YOUTUBE_DAILY_CAP:
+        raise RuntimeError(f"YouTube cap: {len(posts)} attempts/scheduled, {reserved} news slot reserved; deferred")
+
+
+def next_pacific_early():
+    """11/17: Postiz's YouTube uploads fail every afternoon/evening ET with 'daily upload quota exhausted' (19 errors
+    Oct 26-Nov 17, all at ~5 PM or ~10 PM ET) while the early-morning ones (7:15 ET = 4:15 AM PT) never fail, so the shared
+    quota runs out during the Pacific day. Show uploads to YouTube are scheduled for 12:20 AM Pacific, right after the reset."""
+    now_pt = datetime.datetime.now(datetime.timezone.utc).astimezone(PACIFIC)
+    t = datetime.datetime.combine(now_pt.date() + datetime.timedelta(days=1), datetime.time(0, 20), PACIFIC)
+    return t.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def post(platform, cid, video, text, title, x_tags=None, news_short=False, early=False):
     if DRY:
-        log(f"DRY {platform}: {os.path.basename(video)} | {title} | " + (x_text(text, x_tags) if platform == "x" else text[:60]).replace(chr(10), " / ")); return "dry"
+        preview = x_text(text, x_tags) if platform == "x" else (text if platform == "youtube" and title.endswith(" #Shorts") else text[:60])
+        log(f"DRY {platform}: {os.path.basename(video)} | {title} | " + preview.replace(chr(10), " / ")); return "dry"
+    if platform == "youtube":
+        # Serialize this script's news/show runs through the check and creation.
+        import msvcrt
+        with open(os.path.join(tempfile.gettempdir(), "hb-social-youtube.lock"), "a+b") as lock:
+            lock.seek(0)
+            msvcrt.locking(lock.fileno(), msvcrt.LK_LOCK, 1)
+            try:
+                youtube_room(cid, news_short=news_short)
+                return post_uploaded(platform, cid, video, text, title, x_tags, when=next_pacific_early() if early else None)
+            finally:
+                lock.seek(0)
+                msvcrt.locking(lock.fileno(), msvcrt.LK_UNLCK, 1)
+    return post_uploaded(platform, cid, video, text, title, x_tags)
+
+
+def post_uploaded(platform, cid, video, text, title, x_tags=None, when=None):
     up = pz("upload", video)
     path = up.get("path") if isinstance(up, dict) else None
     if not path: raise RuntimeError(f"upload failed: {str(up)[:300]}")
-    when = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
-    if platform == "x": text = x_text(text, x_tags)
+    when = when or (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=3)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    if platform == "x": text = x_text(text, x_tags, x_limit(cid))
     r = pz("posts:create", "-c", text, "-m", path, "-s", when, "-i", cid, "--settings", json.dumps(settings_for(platform, title)))
     # 10/18: a rejected X post came back as a dict {statusCode: 400, message: "post is too long"} and was logged "OK"
     if isinstance(r, dict) and (r.get("statusCode", 200) >= 400 or r.get("error")): raise RuntimeError(str(r)[:300])
@@ -165,6 +224,32 @@ def site_post(text):
                            "Content-Type": "application/json", "Prefer": "return=minimal"}), timeout=30).read()
     return NOW.strftime("%Y-%m-%d %H:%M")
 
+
+
+def site_video_file(path):
+    """Upload a stable public copy of the clip; fall back to a frame for oversized clips."""
+    if DRY: return "https://example.com/dry.mp4"
+    e = env(); key = e["SUPABASE_SERVICE_ROLE_KEY"]
+    def upload(source, kind):
+        with open(source, "rb") as f: data = f.read()
+        name = "social/" + hashlib.sha256(data).hexdigest() + (".jpg" if kind == "image/jpeg" else ".mp4")
+        base = e["SUPABASE_URL"].rstrip("/") + "/storage/v1/object/"
+        req = urllib.request.Request(base + "news-video/" + name, data=data, method="POST", headers={"apikey": key, "Authorization": "Bearer " + key, "Content-Type": kind, "x-upsert": "true"})
+        urllib.request.urlopen(req, timeout=180).read()
+        return base + "public/news-video/" + name
+    if os.path.getsize(path) <= 49 * 1024 * 1024:
+        try: return upload(path, "video/mp4")
+        except Exception as exc: log("site video upload failed; using poster: " + str(exc)[:120])
+    poster = os.path.join(tempfile.gettempdir(), "social-poster-" + hashlib.sha256(path.encode()).hexdigest()[:16] + ".jpg")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "2", "-i", path, "-frames:v", "1", poster], check=True, creationflags=NOWIN)
+    return upload(poster, "image/jpeg")
+
+
+def site_media_text(text, url):
+    if not url or not url.startswith("https://") or not url.lower().split("?")[0].endswith((".mp4", ".jpg", ".jpeg", ".png", ".webp")):
+        raise ValueError("site media must be a public video or image URL")
+    marker = "\n\nMedia: " + url
+    return text[:2000-len(marker)] + marker
 
 def site_text(caption, link):
     """The platform caption with a real clickable link (our own page links are fine here)."""
@@ -194,10 +279,10 @@ def do_news(q, ch):
     short = fetch(ep["short"])
     for p in q["news"]["platforms"]:
         if p in done or p not in ch: continue
-        try: done[p] = post(p, ch[p], x_copy(short) if p == "x" else short, text, title); log(f"news {today} -> {p} " + ("(dry)" if DRY else "OK"))
+        try: done[p] = post(p, ch[p], x_copy(short) if p == "x" else short, text, title, news_short=(p == "youtube")); log(f"news {today} -> {p} " + ("(dry)" if DRY else "OK"))
         except Exception as e: log(f"news {today} -> {p} FAILED: {e}")
     if "site" not in done:
-        try: done["site"] = site_post(site_text(text, "https://www.heartbeatobservatory.com/news/")); log(f"news {today} -> site OK")
+        try: done["site"] = site_post(site_media_text(site_text(text, "https://www.heartbeatobservatory.com/news/"), ep["short"])); log(f"news {today} -> site OK")
         except Exception as e: log(f"news {today} -> site FAILED: {e}")
     # the whole show as a regular YouTube video (Jaron 10/17: Shorts hook people, the full video is where they watch it all).
     # Made on the MSI by make_vertical.py: H logo, the full 16:9 show, the cream card.
@@ -218,8 +303,84 @@ def do_news(q, ch):
         except Exception as e: log(f"news {today} -> youtube FULL FAILED: {e}")
 
 
+def tiktok_fill(q, ch, skip_id):
+    """Today's show was already on TikTok, so post the next show that never went there (Jaron 10/27: TikTok gets
+    something every day). If every show is already on TikTok, log it so a TikTok-only promo gets made."""
+    for o in q["shows"]:
+        if o["id"] == skip_id or "tiktok" in o.get("done", {}): continue
+        f = os.path.join(SITE, o["file"])
+        if not os.path.exists(f): continue
+        try: o.setdefault("done", {})["tiktok"] = post("tiktok", ch["tiktok"], f if DRY else cover_copy(f), o["caption"], o["title"], o.get("x_tags")); log(f"show {o['id']} -> tiktok (fill) " + ("(dry)" if DRY else "OK"))
+        except Exception as e: log(f"show {o['id']} -> tiktok (fill) FAILED: {e}")
+        return
+    log("tiktok fill: every queued show is already on TikTok - make a TikTok-only promo (site commercial)")
+
+
+def show_short_file(show):
+    source = os.path.join(SITE, show["file"])
+    stem, _ = os.path.splitext(source)
+    return stem + "-short.mp4"
+
+
+def ensure_show_short(show):
+    """Make this show's missing cut on demand, or leave it retryable if it fails."""
+    short = show_short_file(show)
+    if os.path.isfile(short): return True
+    if DRY:
+        log(f"DRY show {show['id']}: would make {short}")
+        return True  # post() only prints during a dry run
+    try:
+        cutter = os.path.join(os.path.dirname(os.path.abspath(__file__)), "make_short_cuts.py")
+        result = subprocess.run([sys.executable, cutter, "--id", show["id"]], capture_output=True,
+                                text=True, encoding="utf-8", errors="replace", timeout=3600, creationflags=NOWIN)
+        if result.returncode or not os.path.isfile(short):
+            details = (result.stderr or result.stdout).strip()[-500:]
+            log(f"show {show['id']} -> youtube SHORT cut failed: {details or 'no output file'}")
+            return False
+        log(f"show {show['id']}: made youtube SHORT cut")
+        return True
+    except (OSError, subprocess.SubprocessError) as e:
+        log(f"show {show['id']} -> youtube SHORT cut failed: {e}")
+        return False
+
+
+def post_show_short(show, ch, backfill=False, cut_ready=False):
+    """Post an existing or newly made cut; failures stay eligible for a later run."""
+    short = show_short_file(show)
+    if not cut_ready and not ensure_show_short(show): return False
+    title = show["title"][:92].rstrip() + " #Shorts"  # keep the suffix within YouTube's 100-character limit
+    caption = show["caption"].rstrip() + "\n\nFull episode on the channel + heartbeatobservatory.com"
+    try:
+        result = post("youtube", ch["youtube"], short, caption, title)
+        show.setdefault("done", {})["youtube_short"] = result
+        log(f"show {show['id']} -> youtube SHORT" + (" (backfill)" if backfill else "") + (" (dry)" if DRY else " OK"))
+        return True
+    except Exception as e:
+        log(f"show {show['id']} -> youtube SHORT FAILED: {e}")
+        return False
+
+
+def backfill_show_short(q, ch, eligible):
+    return  # 11/12 paused: YouTube daily limit already hit at 3/day (Pip). Re-enable after the limit is understood.
+    """At most one previously published show's Short per Pacific day, oldest upload first."""
+    if "youtube" not in ch: return
+    day = datetime.datetime.now(datetime.timezone.utc).astimezone(PACIFIC).date().isoformat()
+    if q.get("youtube_short_backfill_day") == day: return
+    # Queue order isn't publication order; existing YouTube timestamps begin with ISO dates.
+    candidates = sorted((s for s in eligible if "youtube_short" not in s.get("done", {})),
+                        key=lambda s: s["done"]["youtube"])
+    for s in candidates:
+        if not ensure_show_short(s):
+            continue  # a missing or too-short source must not block all later shows
+        if post_show_short(s, ch, backfill=True, cut_ready=True):
+            q["youtube_short_backfill_day"] = day
+        return  # one attempt, including when quota is full
+
+
 def do_show(q, ch):
     today = NOW.strftime("%Y-%m-%d")
+    # Capture existing uploads before this run; a new upload's own Short is separate from backfill.
+    eligible = [s for s in q["shows"] if "youtube" in s.get("done", {}) and "youtube_short" not in s.get("done", {})]
     for s in q["shows"]:
         if s.get("not_before", "") > today: continue
         todo = [p for p in ("tiktok", "youtube", "x") if p not in s.get("done", {}) and p in ch]
@@ -230,19 +391,27 @@ def do_show(q, ch):
         if not os.path.exists(f): log(f"show {s['id']}: file missing {s['file']} - skipped"); continue
         for p in todo:
             if p == "site":
-                try: s.setdefault("done", {})["site"] = site_post(site_text(s["caption"], s.get("link", "https://www.heartbeatobservatory.com/tv/"))); log(f"show {s['id']} -> site OK")
+                try: s.setdefault("done", {})["site"] = site_post(site_media_text(site_text(s["caption"], s.get("link", "https://www.heartbeatobservatory.com/tv/")), site_video_file(f))); log(f"show {s['id']} -> site OK")
                 except Exception as e: log(f"show {s['id']} -> site FAILED: {e}")
                 continue
-            try: s.setdefault("done", {})[p] = post(p, ch[p], x_copy(f) if p == "x" else (cover_copy(f) if p == "tiktok" else f), s["caption"], s["title"], s.get("x_tags")); log(f"show {s['id']} -> {p} " + ("(dry)" if DRY else "OK"))
+            try:
+                video = f if DRY else (x_copy(f) if p == "x" else (cover_copy(f) if p == "tiktok" else f))
+                s.setdefault("done", {})[p] = post(p, ch[p], video, s["caption"], s["title"], s.get("x_tags"), early=(p == "youtube"))
+                log(f"show {s['id']} -> {p} " + ("(dry)" if DRY else "OK"))
+                if False and p == "youtube" and "youtube_short" not in s["done"]:   # 11/12 paused (YouTube daily limit)
+                    post_show_short(s, ch)
             except Exception as e: log(f"show {s['id']} -> {p} FAILED: {e}")
+        if "tiktok" in ch and "tiktok" not in todo and "tiktok" in s.get("done", {}):
+            tiktok_fill(q, ch, s["id"])   # Jaron 10/27: TikTok never skips a day
+        backfill_show_short(q, ch, eligible)
         return   # one show a day
     log("show: queue is empty - add new shows to state/social-queue.json")
+    backfill_show_short(q, ch, eligible)
 
 
 def main():
     what = sys.argv[1] if len(sys.argv) > 1 else "news"
-    ch = channels()
-    if not ch and DRY: ch = {"tiktok": "dry", "youtube": "dry", "x": "dry"}
+    ch = {"tiktok": "dry", "youtube": "dry", "x": "dry"} if DRY else channels()
     if not ch:
         log("Postiz not signed in or no channels connected - nothing posted")
         buzz("Socials: Postiz isn't connected yet, so today's posts didn't go out. Steps: AI-Shared/RECONNECT.md 'Postiz'.", "noauth"); return

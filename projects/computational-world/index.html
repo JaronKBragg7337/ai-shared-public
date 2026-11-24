@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computational World Zero</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* layout: one column. The board comes first; every panel under it reports what the board just did. */
+  --paper: #f5efe3; --panel: #fffaf0; --ink: #29251f; --muted: #6d6558; --rule: #d8cfbd;
+  --accent: #1c6b58; --alarm: #b03a28; --ok: #2f7d4f;
+  --c0: #1c7a8c; --c1: #8c3f7d; --c2: #b97f12;
+  --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { color-scheme: dark;
+    --paper: #1e1b17; --panel: #29251f; --ink: #ede6d8; --muted: #a79e8e; --rule: #433c31;
+    --accent: #63c2a8; --alarm: #e37662; --ok: #7fcf9c; --c0: #58b9cc; --c1: #cf86c0; --c2: #e0b04a; }
+}
+:root[data-theme="dark"] { color-scheme: dark;
+  --paper: #1e1b17; --panel: #29251f; --ink: #ede6d8; --muted: #a79e8e; --rule: #433c31;
+  --accent: #63c2a8; --alarm: #e37662; --ok: #7fcf9c; --c0: #58b9cc; --c1: #cf86c0; --c2: #e0b04a; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.45; }
+main { max-width: 460px; margin: 0 auto; padding: 18px 16px 40px; display: flex; flex-direction: column; gap: 16px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: 1.7rem; line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.08rem; margin: 0 0 8px; text-wrap: balance; }
+p { margin: 0; }
+.lede { color: var(--muted); }
+.num { font-variant-numeric: tabular-nums; }
+#board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; }
+.block { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3px; }
+.card { appearance: none; border: 1.5px solid var(--rule); background: var(--panel); border-radius: 6px; padding: 0; aspect-ratio: 1; cursor: pointer; min-width: 0;
+  display: block; transition: opacity .18s, box-shadow .18s, background .18s; -webkit-tap-highlight-color: transparent; }
+.card svg { display: block; width: 100%; height: 100%; }
+.card:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.card.in { border-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); background: color-mix(in srgb, var(--accent) 16%, var(--panel)); }
+.card.blocked { opacity: .26; background: repeating-linear-gradient(135deg, var(--panel) 0 4px, var(--rule) 4px 6px); }
+.card.hit { border-color: var(--alarm); box-shadow: inset 0 0 0 2.5px var(--alarm); background: color-mix(in srgb, var(--alarm) 18%, var(--panel)); opacity: 1; }
+.card.flash { opacity: .8; box-shadow: 0 0 0 2px var(--c2); }
+.card.chosen { outline: 3px dashed var(--c1); outline-offset: -4px; opacity: 1; }
+.mine { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 8px 0; border-top: 1px solid var(--rule); }
+.mine .say { flex: 1 1 12em; min-width: 0; }
+.stepper { display: flex; align-items: center; gap: 10px; }
+.stepper b { min-width: 1.5em; text-align: center; font-size: 1.15rem; font-variant-numeric: tabular-nums; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { border: 1px solid var(--rule); background: var(--panel); border-radius: 999px; padding: 5px 12px; font-size: .92rem; }
+.chip b { font-variant-numeric: tabular-nums; }
+.chip.lamp { border-color: var(--ok); color: var(--ok); font-weight: 700; }
+.chip.lamp.on { border-color: var(--alarm); color: var(--panel); background: var(--alarm); }
+.row { display: flex; flex-wrap: wrap; gap: 8px; }
+button.act { font: inherit; font-weight: 700; color: var(--panel); background: var(--accent); border: 0; border-radius: 8px; padding: 10px 14px; cursor: pointer; }
+button.act.quiet { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent); }
+button.act:disabled { opacity: .5; cursor: default; }
+button.act:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+section { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 14px; }
+.way { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: baseline; padding: 7px 0; border-top: 1px solid var(--rule); }
+.way:first-of-type { border-top: 0; }
+.way .name { font-weight: 700; }
+.way .what { grid-column: 1 / -1; color: var(--muted); font-size: .88rem; }
+.way .n { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; text-align: right; }
+.way .unit { grid-column: 1 / -1; color: var(--muted); font-size: .88rem; text-align: right; margin-top: -4px; }
+.bar { grid-column: 1 / -1; height: 7px; border-radius: 4px; background: var(--rule); overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 4px; transition: width .25s; }
+.way.slow .bar i { background: var(--alarm); }
+.note { color: var(--muted); font-size: .9rem; margin-top: 8px; }
+.good { color: var(--ok); font-weight: 700; } .bad { color: var(--alarm); font-weight: 700; }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+th, td { text-align: right; padding: 6px 6px; border-top: 1px solid var(--rule); font-variant-numeric: tabular-nums; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; white-space: normal; }
+thead th { border-top: 0; color: var(--muted); font-weight: 400; }
+pre { margin: 8px 0 0; padding: 10px; background: var(--paper); border-radius: 8px; font-size: .78rem; white-space: pre-wrap; word-break: break-word; }
+ol { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
+footer { color: var(--muted); font-size: .85rem; }
+@media (prefers-reduced-motion: reduce) { .card, .bar i { transition: none; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Computational World Zero</h1>
+    <p class="lede">A small world that does a real job three different ways. Tap cards into a pile. The job: say whether the pile holds a set.</p>
+  </header>
+
+  <div id="board" aria-label="81 cards"></div>
+
+  <div class="chips">
+    <span class="chip">Pile <b id="k">0</b> of a possible 20</span>
+    <span class="chip">Free cards <b id="free">81</b></span>
+    <span class="chip lamp" id="lamp">No set</span>
+  </div>
+  <div class="row">
+    <button class="act" id="build">Build a pile for me</button>
+    <button class="act quiet" id="clear">Clear</button>
+  </div>
+
+  <section>
+    <h2>What that tap cost</h2>
+    <div class="way" id="w-soft"><span class="name">A plain program</span><span class="n num">0</span><span class="unit">steps</span><span class="what">Checks every pair of cards in the pile again.</span><div class="bar"><i></i></div></div>
+    <div class="way slow" id="w-gate"><span class="name">The Minecraft way</span><span class="n num">0</span><span class="unit">steps</span><span class="what">3,239 little AND and OR gates, every one of them every tick.</span><div class="bar"><i></i></div></div>
+    <div class="way" id="w-own"><span class="name">This world's own parts</span><span class="n num">0</span><span class="unit">steps</span><span class="what">Only the 40 sets that card belongs to hear about it.</span><div class="bar"><i></i></div></div>
+    <p class="note" id="agree">Tap a card. All three run, and a separate checker confirms the answer.</p>
+  </section>
+
+  <section>
+    <h2>Memory: every change is kept</h2>
+    <p><span class="num" id="hist">0</span> changes kept. Chain mark <span class="num" id="chain">none yet</span>.</p>
+    <div class="row" style="margin-top:10px"><button class="act quiet" id="replay">Replay the history on a fresh world</button></div>
+    <p class="note" id="replayed">Replaying rebuilds the world from the list of changes alone. It has to land on the same state.</p>
+  </section>
+
+  <section>
+    <h2>Make a part of your own</h2>
+    <p class="lede">The whole world runs on one rule: a part adds up what its links bring in, and lights when the total reaches its mark. Make one and wire it to any cards.</p>
+    <div class="row" style="margin-top:10px"><button class="act quiet" id="pick">1. Choose its cards</button><span class="chip">chosen <b id="picked">0</b></span></div>
+    <div class="row stepper" style="margin-top:10px"><span>2. Its mark</span><button class="act quiet" id="less" aria-label="lower the mark">&minus;</button><b id="markv">1</b><button class="act quiet" id="more" aria-label="raise the mark">+</button></div>
+    <p class="note" id="markwhat">It will light when at least 1 of its cards is in the pile.</p>
+    <div class="row" style="margin-top:10px"><button class="act" id="addpart">3. Add the part</button></div>
+    <div id="parts"></div>
+  </section>
+
+  <section>
+    <h2>Measure this device</h2>
+    <p class="lede">Runs the same job thousands of times, each way, on the chip in your hand. About ten seconds.</p>
+    <div class="row" style="margin-top:10px"><button class="act" id="measure">Run the measurement</button><button class="act quiet" id="copy" hidden>Copy the results</button></div>
+    <p class="note" id="progress"></p>
+    <div class="scroll" id="results"></div>
+    <pre id="raw" hidden></pre>
+  </section>
+
+  <section>
+    <h2>The three ways</h2>
+    <ol>
+      <li><b>A plain program.</b> Ordinary code. It looks at the whole pile again after every change.</li>
+      <li><b>The Minecraft way.</b> The same answer built out of tiny logic gates, like a redstone computer. Every gate updates on every tick, whether anything near it changed or not.</li>
+      <li><b>This world's own parts.</b> Parts made for the job: one counter for each set. A change travels only along its own links, and everything else stays quiet.</li>
+    </ol>
+    <p class="note">The first number is not time. It is how many small steps each way had to take for your last tap. A world never beats a plain program doing the same steps on the same chip. What a world can change is how many steps there are.</p>
+  </section>
+
+  <footer>Prototype 0. Heartbeat Observatory, 11/23/2026. Public domain (CC0).</footer>
+</main>
+
+<script type="module">
+import { geometry, withLines, buildGateCheck, buildNativeCheck, buildNativeSearch, Builder, EventEngine, Chronicle, stateMark, findSet } from './world.js';
+import * as Y from './ways.js';
+
+const $ = (id) => document.getElementById(id), fmt = (x) => Math.round(x).toLocaleString('en-US');
+const G = withLines(geometry(4)), gate = buildGateCheck(G), nat = buildNativeCheck(G), srch = buildNativeSearch(G);
+const soft = Y.waySoftNaive(G), gates = Y.wayWorld(G, gate, 'tick', 'gates'), own = Y.wayWorld(G, nat, 'event', 'own');
+let S = new EventEngine(srch), chron = new Chronicle(), busy = false;
+const inPile = () => { const p = []; for (let c = 0; c < G.N; c++) if (S.out[c]) p.push(c); return p; };
+
+// ---- the board: 81 cards, four features each (colour, shape, how many, filling)
+const X = { 1: [18], 2: [11.5, 24.5], 3: [7, 18, 29] };
+function face(c) {
+  const d = [c % 3, ((c / 3) | 0) % 3, ((c / 9) | 0) % 3, ((c / 27) | 0) % 3], col = `var(--c${d[0]})`, r = 4.6;
+  const paint = d[3] === 0 ? `fill="${col}"` : d[3] === 1 ? `fill="none" stroke="${col}" stroke-width="1.7"` : `fill="${col}" fill-opacity=".32" stroke="${col}" stroke-width="1.7"`;
+  return `<svg viewBox="0 0 36 36" aria-hidden="true">` + X[d[2] + 1].map((x) =>
+    d[1] === 0 ? `<circle cx="${x}" cy="18" r="${r}" ${paint}/>` :
+    d[1] === 1 ? `<rect x="${x - r}" y="${18 - r}" width="${r * 2}" height="${r * 2}" rx="1" ${paint}/>` :
+    `<polygon points="${x},${18 - r - 0.6} ${x + r + 0.4},${18 + r} ${x - r - 0.4},${18 + r}" ${paint}/>`).join('') + `</svg>`;
+}
+const cardEl = new Array(G.N), board = $('board');
+for (let big = 0; big < 9; big++) {
+  const block = document.createElement('div'); block.className = 'block';
+  for (let small = 0; small < 9; small++) {
+    const c = small + 9 * big, b = document.createElement('button');
+    b.className = 'card'; b.type = 'button'; b.id = 'card' + c; b.innerHTML = face(c); b.setAttribute('aria-label', 'card ' + (c + 1)); b.setAttribute('aria-pressed', 'false');
+    b.addEventListener('click', () => { if (busy) return; if (picking) choose(c); else tap(c); });
+    cardEl[c] = b; block.appendChild(b);
+  }
+  board.appendChild(block);
+}
+
+// ---- one tap: every way does the job, the Verifier checks them
+function tap(c, quiet) {
+  const wasBlocked = new Uint8Array(G.N); for (let x = 0; x < G.N; x++) wasBlocked[x] = !S.out[x] && !S.out[srch.free0 + x];
+  const v = S.out[c] ^ 1; S.set(c, v); chron.add(c, v); if (mineEngine) mineEngine.set(c, v);
+  const a0 = soft.work(), g0 = gates.work(), t0 = gates.ticks(), o0 = own.work();
+  soft.toggle(c); gates.toggle(c); own.toggle(c);
+  const ans = [soft.answer(), gates.answer(), own.answer(), S.out[srch.alarm]], pile = inPile(), truth = findSet(G, pile) ? 1 : 0;
+  const cost = { soft: soft.work() - a0, gate: gates.work() - g0, ticks: gates.ticks() - t0, own: own.work() - o0 };
+  if (!quiet) { render(wasBlocked); showCost(cost, ans.every((x) => x === truth), truth); }
+  return truth;
+}
+function render(wasBlocked) {
+  const hit = new Uint8Array(G.N);
+  for (let l = 0; l < G.L; l++) { const a = G.lines[l * 3], b = G.lines[l * 3 + 1], c = G.lines[l * 3 + 2]; if (S.out[a] && S.out[b] && S.out[c]) hit[a] = hit[b] = hit[c] = 1; }
+  let k = 0;
+  for (let c = 0; c < G.N; c++) {
+    const on = S.out[c] === 1, blocked = !on && !S.out[srch.free0 + c], el = cardEl[c]; k += on;
+    el.classList.toggle('in', on); el.classList.toggle('blocked', blocked); el.classList.toggle('hit', hit[c] === 1); el.setAttribute('aria-pressed', on);
+    if (wasBlocked && blocked && !wasBlocked[c]) { el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 520); }
+  }
+  $('k').textContent = k; $('free').textContent = S.acc[srch.tally];
+  const alarm = S.out[srch.alarm] === 1; $('lamp').textContent = alarm ? 'A set is in the pile' : 'No set'; $('lamp').classList.toggle('on', alarm);
+  $('hist').textContent = fmt(chron.n); $('chain').textContent = (chron.chain >>> 0).toString(16).padStart(8, '0');
+  renderMine();
+}
+
+// ---- parts you make yourself: the same one rule, wired to the cards you choose
+let picking = false, mark = 1, mineEngine = null; const chosen = new Set(), mine = [];
+function choose(c) { if (chosen.has(c)) chosen.delete(c); else chosen.add(c); cardEl[c].classList.toggle('chosen', chosen.has(c)); showMark(); }
+function showMark() {
+  mark = Math.max(1, Math.min(mark, Math.max(1, chosen.size)));
+  $('picked').textContent = chosen.size; $('markv').textContent = mark;
+  $('markwhat').textContent = chosen.size === 0 ? 'Choose some cards first.' : mark === chosen.size && mark > 1 ? `It will light only when all ${mark} of its cards are in the pile.` : `It will light when at least ${mark} of its ${chosen.size} ${chosen.size === 1 ? 'card is' : 'cards are'} in the pile.`;
+}
+function rebuildMine() {
+  if (!mine.length) { mineEngine = null; return; }
+  const B = new Builder(); for (let c = 0; c < G.N; c++) B.input('card');
+  for (const p of mine) { p.id = B.part(p.mark, 'mine'); for (const c of p.cards) B.link(c, p.id); }
+  mineEngine = new EventEngine(B.done()); for (const c of inPile()) mineEngine.set(c, 1);
+}
+function renderMine() {
+  const box = $('parts'); box.innerHTML = '';
+  mine.forEach((p, k) => {
+    const on = mineEngine.out[p.id] === 1, row = document.createElement('div'); row.className = 'mine';
+    row.innerHTML = `<span class="say"><b>Part ${k + 1}.</b> Lights at ${p.mark} of its ${p.cards.length} cards. <span class="num">${mineEngine.acc[p.id]}</span> in now.</span><span class="chip lamp${on ? ' on' : ''}">${on ? 'Lit' : 'Dark'}</span>`;
+    const rm = document.createElement('button'); rm.className = 'act quiet'; rm.type = 'button'; rm.textContent = 'Remove'; rm.id = 'rm' + k;
+    rm.addEventListener('click', () => { mine.splice(k, 1); rebuildMine(); renderMine(); });
+    row.appendChild(rm); box.appendChild(row);
+  });
+}
+$('pick').addEventListener('click', () => { picking = !picking; $('pick').textContent = picking ? 'Done choosing' : '1. Choose its cards'; $('pick').classList.toggle('quiet', !picking); });
+$('less').addEventListener('click', () => { mark--; showMark(); });
+$('more').addEventListener('click', () => { mark++; showMark(); });
+$('addpart').addEventListener('click', () => {
+  if (!chosen.size) { $('markwhat').textContent = 'Choose some cards first: tap "1. Choose its cards", then tap cards on the board.'; return; }
+  mine.push({ cards: [...chosen], mark }); for (const c of chosen) cardEl[c].classList.remove('chosen'); chosen.clear();
+  picking = false; $('pick').textContent = '1. Choose its cards'; $('pick').classList.add('quiet'); mark = 1; showMark(); rebuildMine(); renderMine();
+});
+function showCost(cost, agree, truth) {
+  const top = Math.log10(Math.max(cost.gate, 10));
+  for (const [id, n, unit] of [['w-soft', cost.soft, cost.soft === 1 ? 'pair check' : 'pair checks'], ['w-gate', cost.gate, `gate updates, in ${cost.ticks} ticks`], ['w-own', cost.own, 'messages']]) {
+    const el = $(id); el.querySelector('.n').textContent = fmt(n); el.querySelector('.unit').textContent = unit;
+    el.querySelector('.bar i').style.width = Math.max(2, (Math.log10(Math.max(n, 1)) / top) * 100) + '%';
+  }
+  const times = cost.own ? Math.round(cost.gate / cost.own) : 0;
+  $('agree').innerHTML = (agree ? '<span class="good">All three agree, and the separate checker confirms it.</span> ' : '<span class="bad">The ways disagree. That is a bug.</span> ') +
+    (times ? `The Minecraft way took ${fmt(times)} times the steps of the world's own parts.` : '');
+}
+
+// ---- buttons
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+$('clear').addEventListener('click', () => { if (busy) return; for (const c of inPile()) tap(c, true); render(); $('agree').textContent = 'Cleared. Every card that left the pile went into the history too.'; });
+$('build').addEventListener('click', async () => {
+  if (busy) return; busy = true; $('build').disabled = true;
+  for (const c of inPile()) tap(c, true); render();
+  const order = Y.shuffled(G.N, (Math.random() * 1e9) | 0);
+  for (;;) {                                           // look ahead one card: keep the card that leaves the most cards free
+    let best = -1, left = -1;
+    for (const c of order) { if (!S.out[srch.free0 + c]) continue; S.set(c, 1); const f = S.acc[srch.tally]; S.set(c, 0); if (f > left) { left = f; best = c; } }
+    if (best < 0) break;
+    tap(best); await sleep(140);
+  }
+  busy = false; $('build').disabled = false;
+});
+$('replay').addEventListener('click', () => {
+  const fresh = new EventEngine(srch), t = performance.now();
+  chron.replay((card, value) => fresh.set(card, value));
+  const ms = performance.now() - t, same = stateMark(fresh.out) === stateMark(S.out) && Chronicle.chainOf(chron.buf, chron.n) === chron.chain;
+  $('replayed').innerHTML = same ? `<span class="good">Same state.</span> ${fmt(chron.n)} changes replayed on a fresh world in ${ms < 1 ? 'under 1' : ms.toFixed(1)} ms.` : '<span class="bad">The replay landed somewhere else. That is a bug.</span>';
+});
+
+// ---- measure this device: the bench the MSI runs, cut down to about ten seconds
+const HOVER = { 4: 8, 5: 12 }, FAST = 20000, TICK = { 4: 300, 5: 40 };
+const tns = (ns) => (ns >= 1e6 ? (ns / 1e6).toFixed(2) + ' ms' : ns >= 1e3 ? (ns / 1e3).toFixed(1) + ' µs' : Math.round(ns) + ' ns');
+let lastText = '';
+$('measure').addEventListener('click', async () => {
+  if (busy) return; busy = true; $('measure').disabled = true; $('results').innerHTML = ''; $('raw').hidden = true; $('copy').hidden = true;
+  const out = {}, names = [['soft', 'Plain program'], ['hand', 'Hand-written counters'], ['tick', 'Minecraft way'], ['gev', 'Gates, changes only'], ['own', "World's own parts"]];
+  let allOk = true;
+  try {
+    for (const n of [4, 5]) {
+      $('progress').textContent = `Building the ${3 ** n}-card world...`; await sleep(30);
+      const g = n === 4 ? G : withLines(geometry(n)), gw = n === 4 ? gate : buildGateCheck(g), nw = n === 4 ? nat : buildNativeCheck(g);
+      const small = Y.makeStream(g, 1000 + n, FAST, HOVER[n]), T = Y.makeTryStream(g, 1500 + n, FAST / 4), none = new Uint16Array(0);
+      for (const [key, lay, seq] of [['small', none, small], ['big', T.seq.subarray(0, T.start), T.seq.subarray(T.start)]]) {
+        const prep = (w) => { w.clear(); for (let i = 0; i < lay.length; i++) w.toggle(lay[i]); };   // lay the starting pile first; only the moves are timed
+        const ref = new Uint8Array(seq.length); { const w = Y.waySoftNaive(g); prep(w); Y.runStream(w, seq, seq.length, ref); }
+        const ways = { soft: Y.waySoftNaive(g), hand: Y.waySoftCounters(g), tick: Y.wayWorld(g, gw, 'tick', ''), gev: Y.wayWorld(g, gw, 'event', ''), own: Y.wayWorld(g, nw, 'event', '') };
+        for (const [w, label] of names) {
+          $('progress').textContent = `${3 ** n} cards, ${key} pile: ${label}...`; await sleep(15);
+          const steps = Math.min(seq.length, w === 'tick' ? TICK[n] : FAST), ans = new Uint8Array(steps), way = ways[w];
+          prep(way); Y.runStream(way, seq, Math.min(steps, 2000), ans);
+          let passes = 0, spent = 0;                                       // phone clocks tick once a millisecond: keep going until a quarter second of timed work
+          do { prep(way); const t = performance.now(); Y.runStream(way, seq, steps, ans); spent += performance.now() - t; passes++; } while (spent < 250);
+          const ok = Y.sameAnswers(ans, ref, steps); allOk = allOk && ok;
+          out[`${n}${key}${w}`] = (spent * 1e6) / (passes * steps);
+        }
+      }
+    }
+    const col = (n, key) => names.map(([w]) => out[`${n}${key}${w}`]);
+    let html = '<table><thead><tr><th>Time for one change</th><th>81 cards</th><th>243 cards</th><th>243, big pile</th></tr></thead><tbody>';
+    names.forEach(([w, label], i) => { html += `<tr><td>${label}</td><td>${tns(col(4, 'small')[i])}</td><td>${tns(col(5, 'small')[i])}</td><td>${tns(col(5, 'big')[i])}</td></tr>`; });
+    $('results').innerHTML = html + '</tbody></table>';
+    const x = Math.round(out['5bigtick'] / out['5bigown']);
+    $('progress').innerHTML = (allOk ? '<span class="good">Every answer matched.</span> ' : '<span class="bad">Some answers did not match.</span> ') + `On this device the Minecraft way is ${fmt(x)} times slower than the world's own parts on the 243-card world.`;
+    lastText = 'CW0 ' + new Date().toISOString().slice(0, 16) + ' | ' + Object.entries(out).map(([k, v]) => k + '=' + Math.round(v)).join(' ') + ' | ok=' + allOk + ' | cores=' + (navigator.hardwareConcurrency || '?') + ' | ' + navigator.userAgent;
+    $('raw').textContent = lastText; $('raw').hidden = false; $('copy').hidden = false;
+  } catch (err) { $('progress').innerHTML = '<span class="bad">The measurement stopped: ' + String(err.message || err) + '</span>'; }
+  busy = false; $('measure').disabled = false;
+});
+$('copy').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(lastText); $('copy').textContent = 'Copied'; } catch { $('copy').textContent = 'Copy did not work here: select the text below'; }
+});
+
+render();
+window.cw0 = { tap, inPile, state: () => ({ k: inPile().length, free: S.acc[srch.tally], alarm: S.out[srch.alarm], history: chron.n, mine: mine.map((p) => mineEngine.out[p.id]) }) };
+</script>
+</body>
+</html>

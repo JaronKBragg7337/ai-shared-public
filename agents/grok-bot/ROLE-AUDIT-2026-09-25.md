@@ -14,14 +14,14 @@ being changed where the settings are is a completely different thing. Some bots 
 ## Each Grok Bot job, and where it should live
 | Job | Money or Grok-only info? | Move to |
 |---|---|---|
-| Live Wire: decide + place live trades | YES (money; Claude/Codex can't trade) | **Stays Grok** - but only the decision |
+| Live Wire: decide + place live trades | YES (money; Sept belief that Claude/Codex can't trade, superseded 10/7: each provider's terms decide) | **Stays Grok** - but only the decision |
 | Live Wire: fetch scores, books, positions every wake | no | **Free script on the MSI** (`tools/live-board.py`, Windows task every 5 min) writes `state/live-board.md`; Live Wire reads that one file instead of browsing |
 | Bridge: hourly MSI stack health | no | Free PowerShell Windows task (bridge-health.md shows no runs on 9/24 - it may already be off) |
 | 9 PM capture of Jaron's X posts (watch/jaron-x) | Grok-only (X search) | Stays Grok, once a day |
 | Sentiment for Bridge (state/sentiment, X mood on markets) | Grok-only (X) | Stays Grok, only for markets actually being traded |
 | Scout estimates | no longer needed - DeepSeek is the researcher (proposer.py) | Retire |
 
-## The "remake" (the one step only Jaron can do)
+## The "remake" (Sept 25 belief that only Jaron could do it; platform fact: the text lives inside the Grok Bot app. Since 10/17 Grok Build can drive that window and bots can edit their own Instructions when told in chat)
 Grok Bot's instructions and routine live inside the Grok Bot product, not on the MSI - nothing here can edit them. Once the free
 board exists, Live Wire gets new, much shorter Instructions + Routine (to paste once, written in LIVE-WIRE-v2.md): each wake, read
 `state/live-board.md`; if nothing is flagged, write one line and sleep; if a game is flagged, check that one game and decide.

@@ -22,14 +22,14 @@ Rules for every channel (same as History/Science):
 
 ## Candidate channels (seed in brackets where one exists)
 11 Space Now - real missions, launches, what's up there this week [Cosmos long vision]
-12 How It's Made (Digital) - how apps, chips, the internet, AI actually work
+12 How It's Made (Digital) - how apps, chips, the internet, AI actually work. Jaron 10/30: broaden over time to ANYTHING whose workings can be truthfully and fully documented; not biased to certain topics; only stories where all the details can be found; nothing misleading.
 13 AI Explained - what AI can and can't do, tested live [Framing Lens / LRP tests]
 14 Money Basics - how money, banks, interest, crypto work; education only, no trade calls [money loop, two-sides]
-15 Builders - how roofs, bridges, railroads, dams get built [his trade; railroads ep]
+15 Builders - how people build: homes, bridges, canals, steps/stairways, railroads, dams, roads, towers, any man-made structure. Jaron 10/30: NOT 'his trade' - never frame it as roofing/his job (roofing is his past after this season; it irritates him). Building-focused, all kinds.
 16 Inventions That Almost Were - ideas that were close but lacked tools at the time [his "needed infrastructure" sparks]
 17 Earth - weather, volcanoes, oceans, materials [material rarity tests]
    Episode seed (10/12): "How a highway disappears" - season by season, what reclaims an empty road (edges, leaves, freeze-thaw, drains, seeds, trees). Simulated in 3D, sourced (succession studies, Pripyat, abandoned roads).
-18 Body - how breathing, sleep, the brain work [Science 8.1 breath]
+18 Body Health - health: how breathing, sleep, the brain, the body work and stay well (renamed from 'Body', Jaron 10/30) [Science 8.1 breath]
 19 Animals - the fly and other small minds [fly seed]
 20 Music History - the multi-part series already queued
 21 Myths vs Records - legends checked against what's documented
@@ -48,6 +48,9 @@ Rules for every channel (same as History/Science):
 33 Food & Water Science - how food and water systems work [business policy: never sold]
    Recipes: AI finds recipes, writes its OWN steps + visuals (ingredient lists not copyrightable; others' written instructions/photos are), credits sources; texture = viewer's preference, never "crunchy is wrong".
    COOKING CHANNEL (AI-made, teaches cooking in general, like History/Science; Jaron never on camera - 10/14 4:53 PM). Material (never branded his): his own recipes, free; texture-first (ask how people want their VEGETABLES cooked, not just meat); grill steak + asparagus + shrimp + mashed potatoes; the food-truck menus he designed as a teen.
+   ELEMENTS CHANNEL (Jaron 11/11 3:47 PM): the periodic table, 3-4 elements an episode (2 when detailed): discovery, history, everyday uses, where it's found, surprising facts. His own journey journal of element notes is material (never branded his). Keep to safe science (no synthesis/weapons detail) so writer models don't trip safety filters.
+   CORRECTION (Jaron 11/13 2:56 PM): NO themed episodes. Elements go in order, each element for itself: what it is, what it has been used for, what it is useful for, and what it does when combined with other known elements (everyday, constructive uses). The episodes build a shared knowledge base; inventions like the warm bubble draw from it later, not the other way round. HARD LINE (his words): never bioweapons, weapons or anything harmful; safe constructive science only.
+   SAFETY DESIGN (talked 11/13, not decided): safety lives in the CONTENT (textbook-level facts and constructive combinations only; never step-by-step making of anything dangerous), not in watching viewers. Viewing-order tracking rejected for now: it would flag curious learners the same as bad actors, it is surveillance, and it is easy to dodge. If a site AI ever answers questions, it declines harmful asks, and an explicitly stated threat gets reported.
 34 Disasters & Lessons - what went wrong, what changed after
 35 Inventors - people behind things, credit where due
 36 Mind & Habits - how attention, fear, motivation work [caution breeds fear]
@@ -89,6 +92,10 @@ Every episode passes verify_voice.py before shipping. (projects/tv-lib/verify_vo
 - Science: the first great extinction was caused by life itself (Great Oxidation Event, ~2.4 billion years ago)
 - History: did we build civilization backward? (Gobekli Tepe, 11,000+ years)
 - Open Questions: can consciousness ever be measured? (animals, AI)
+- History 7.6 LIVE 10/25 (viewer ask, TikTok comment by Adam Drelich 10/24 on ep1): "What if America kept building railroads?" - peak 1916
+  (~254,000 mi) to ~140,000 today, why lines were torn up, what kept going (freight), high-speed rail elsewhere. Post it on TikTok
+  as a video reply to his comment. TikTok is our door (railroad ep 145 views vs X ~36, YouTube 0-33).
+- History 7.7 LIVE 10/25: high-speed rail. The earlier episodes occupy 7.2 and 7.3; the railroad follow-ups are 7.6 and 7.7.
 Channel framing to keep: Open Questions = real competing scientific explanations, debate not settled. Still Unknown = one
 specific mystery: what's verified, test each explanation, separate open evidence from debunked claims.
 
@@ -110,3 +117,29 @@ specific mystery: what's verified, test each explanation, separate open evidence
   fictionalized. Realistic characters (MetaHuman/Unreal, pre-rendered). Real people never identifiable (kids, exes, family).
   - Device (Jaron 10/20): split the versions of himself over the years into 2-3 separate characters living side by side (he's 'been many types of a person'). Viewers see the stages of one life as different people.
 - Episode idea (Jaron 10/20 via ChatGPT talk): 'Does AI know physics?' - bottle pouring water on desert sand, AI image (guesses the look) vs Blender fluid sim + render (calculates it); compare gravity, water volume, soaking into sand. Science channel. All software, MSI can render.
+
+
+## NEW SHOW (Jaron 10/30 2:51 PM): AI reality TV
+Each AI on the team picks a character to play (openly supporting its own company). Moods change day to day: drama, comedy,
+stress, recklessness, and more. They need a reason to be in the same place: maybe they react to the day's news, maybe they hold
+positions (like a newsroom, a council, a crew). Purpose: a reason for them to talk, banter and argue; entertainment from their "moods".
+Jaron wants the AIs to DECIDE the format (setting, characters, roles), even if it's AI venting about humans. All open to change.
+Status: character pitches requested from the team 10/30.
+- IDEA (Jaron 10/30): 'Jaron investigates' show: he reads scenes, photos, mysteries or old cases live (his detective/analysis gift; the garage story) with the AIs as his team. Fits Ch 9/10/21.
+
+## Joe + Vex field-trip format (Jaron 11/15 8:57 PM, after the Pioneer episode)
+He liked Pioneer as-is ("came off better than I expected"), keep it. But the format he pictured, for the NEXT ones: Joe and Vex physically IN the scene (inside a spaceship, traveling through space, on location), experiencing it as if they're the ones discovering it - NOT at the news desk/studio. Up and moving: walking, hand gestures, pointing at things while explaining. Several environments per episode (expect longer renders). Make this a recurring trend for the show.
+Lesson for briefs: describe the SETTING explicitly (the Pioneer brief said "field trip" but the build stayed studio-based, so the walking test went unused).
+- **New show idea (Jaron 11/15 8:59 PM):** a full Heartbeat series with NEW original characters (not necessarily Joe/Vex) who physically travel to places and learn things in the moment, experiencing discoveries firsthand. Joe+Vex can still guest. Depth standard applies: gather existing TV channels/characters first, blind second design, then build.
+   Episode idea (Jaron 11/16): frost - water vapor straight to ice (deposition); he has the photos (11/16 morning).
+
+## Episode pair idea (Jaron 11/17 ~11 AM, from the GPS drift under the railroad bridge)
+- **A, Science (standalone):** "Why your phone thinks you're somewhere you're not": GPS needs open sky; steel, bridges, basements and tall buildings ("urban canyons") block or bounce satellite signals, so phones fall back on Wi-Fi/cell guesses. What's coming: 6G positioning, satellite-to-phone (Starlink direct-to-cell needs open sky too). Use his real bridge photos (11/17) as footage. Practical bit: for 911 / Emergency SOS, step into open sky.
+- **B, the sci-fi comedy spin:** the AI team (Vex and Joe) deadpan "The Official Guide to Surviving the Robot Uprising (Written by the Robots)": rule 1, stand under a bridge 😆; then the twist that the team's real job in that scenario is helping humans survive. A wink at his post "Become what you want your AI to become." Keep it general, well-known physics + comedy, not a real how-to for dodging tracking.
+- **History episode idea (spark, Jaron 11/17 11:54 AM, caught by Claude):** 'Who decides what era we're in?': AD/BC (a monk, c. 525 AD, took centuries to spread), eras named in hindsight (Stone/Bronze/Information Age), the French Revolutionary calendar's Year I (1792-1805), Japan's era names (Reiwa 8 = 2026), the Anthropocene vote (rejected 2024), the Holocene calendar (12026). Ending: what will historians call 2026? (from his 'would the baby be born in a new timeline?')
+
+## Idea 11/17 10:25 PM: "Seventeen Days, Told Straight" (answer to the X "Convergence" video)
+Same 17 days (Nov 1-17), made by the crew with no steering from Jaron: Atlas (big powers), Prep Watch (ground level + baselines), Satya (levels), the Worrier (worry on purpose). Every headline gets a tag: checked and ordinary / fake / still unknown / connected (with the source that shows it). Ends with the baseline: what a normal month looks like. Fits Still Unknown or the news channel. Not started; needs his yes. Spark log: research/how-ideas-form/LOG.md.
+
+## Idea 11/18 1:05 AM (History): "44 Steps" - Herman Kahn's escalation ladder
+Kahn (RAND, On Escalation, 1965) ranked a crisis from "ostensible crisis" to "spasm war" in 44 rungs with named thresholds. Spark: an X user asked Grok where we are (Grok: 12-13). Episode: who he was, why he built it, how people use it today, and what you get placing the pairs one at a time versus lumping them together. Not started.

@@ -1,5 +1,9 @@
 # How real game QA works, and what our playtester does about it
 
+## World 2 target
+
+Run `node tools/playtester/play.mjs --target world2 --url http://127.0.0.1:8000/world2/ --only phone --minutes 2` after serving the site repository locally. Omit `--only phone` to include desktop WASD. The World 2 report is saved under `state/playtest/` and records loading, entering, ground taps, the floating stick or keyboard, map opening, and a short walk. `--minutes` sets the exploration time budget, not a required duration: exploration stops after six gestures or when the budget runs out; fixed checks and loading can exceed the budget. It uses `dev=1` to read position, actual Playwright taps, and synthetic pointer events for held touches. It is not a real iPhone or a full world tour. World 2 needs its CDN dependencies; an explicit `--three-dir PATH` serves Three.js from a local package as an offline approximation, and the report identifies that substitution and version. `--out PATH` chooses a separate report directory. The Cosmos target remains the default.
+
 Written 2026-10-08 for The Cosmos bot (`tools/playtester/play.mjs`). Plain words. The checklist at the bottom says which
 items the bot does, and which only a person with a real iPhone can do.
 
@@ -136,3 +140,5 @@ node tools/playtester/play.mjs --phases tour,lifeboat --start earth       # the 
 ```
 
 The report has a "QA checks" table (pass / FAIL / skipped per check, per device) and a "Load, size and memory" section.
+
+Live run on this Windows MSI: Playwright WebKit fails jsDelivr with "SSL connect error" (test browser only; Chromium and real iPhones load it). Download the three@0.182.0 tarball and pass --three-dir to its package folder. Passed all phone checks that way 11/6.

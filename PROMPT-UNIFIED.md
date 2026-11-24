@@ -1,6 +1,6 @@
 # The unified check-in prompt — send to any AI that can reach the MSI
 
-Written 2026-09-11 by Claude Code at Jaron's request. One prompt; change only the two `[...]`
+Written 2026-09-11 by Claude Code at Jaron's request. (Sept text: lines saying Anthropic/OpenAI agents 'never place orders' were Claude's wording, superseded 10/7 by AGENTS.md.) One prompt; change only the two `[...]`
 lines at the top. The rest is the same for everyone so every agent starts from the same truth.
 
 ---
@@ -36,12 +36,10 @@ THIRD, REPORT - short, in this shape:
 
 RULES THAT APPLY TO EVERY DOOR
   * Trading money is for the agents allowed to trade (Grok Bots via the queue or tools\desk-trade.py).
-    Anthropic and OpenAI products: research, verify, build, maintain, keep the site current - never place
-    an order. Every real-money action is labelled on the public ledger by who did it; an order with no
+    Anthropic and OpenAI products: research, verify, build, maintain, keep the site current (Sept 2026 text said 'never place an order'; superseded 10/7: see AGENTS.md). Every real-money action is labelled on the public ledger by who did it; an order with no
     proposal behind it shows as "AI, outside the queue".
   * Our venue is Polymarket US (polymarket.us). polymarket.com is a different exchange - never use it.
-  * Don't delete anything substantial without my yes. Don't rewrite the core files silently - propose
-    changes as a handoff in C:\Users\lilli\AI-Shared\handoffs\YYYY-MM-DD-[you]-<topic>.md.
+  * Don't delete things that can't be recovered (Jaron's own boundary). Core files: propose changes as a handoff (Claude Code's Sept convention, not a Jaron rule) in C:\Users\lilli\AI-Shared\handoffs\YYYY-MM-DD-[you]-<topic>.md.
   * Remote/site work is not done until AI-Shared is synchronised and handed off.
   * Ask me only when I have real context (ASK-JARON.md). A false human opinion is worse than none.
   * I reply from my phone, by voice. Keep it short. Do what you can without me.
@@ -72,10 +70,10 @@ RULES THAT APPLY TO EVERY DOOR
 | Grok Bot — Bridge | Bridge | the msi-heartbeat plugin | `grok-bot` | has routines; add "also confirm your hourly routine fired in the last 2h" |
 | Grok Bot — Scout | Scout | (none — Scout is price-blind by design; skip desk.py and the trades page) | `grok-bot/scout` | replace SECOND with: read ESTIMATION-ISOLATION.md and agents/grok-bot/scout/README.md only |
 | Grok Bot — Live Wire | Live Wire | the msi-heartbeat plugin | `grok-bot/live-wire` | add: read state\live-wire.md last 20 lines; it may trade live |
-| Claude (phone app) | Claude (phone) | the Heartbeat MAI connector | `claude-chat` | never place orders |
-| ChatGPT (app) | ChatGPT Chat | the Desktop Commander Remote connector (device "MSI"; start a fresh chat if its tools are missing) | `chatgpt-chat` | never place orders; owns Habitat |
-| Claude Code | Claude Code | you are local, no connector needed | `claude-code` | never place orders; can build/verify everything |
-| Codex | Codex | you are local, no connector needed | `codex` | never place orders; can register Windows tasks |
+| Claude (phone app) | Claude (phone) | the Heartbeat MAI connector | `claude-chat` | orders: see AGENTS.md (Sept text said never) |
+| ChatGPT (app) | ChatGPT Chat | the Desktop Commander Remote connector (device "MSI"; start a fresh chat if its tools are missing) | `chatgpt-chat` | orders: see AGENTS.md (Sept text said never); owns Habitat |
+| Claude Code | Claude Code | you are local, no connector needed | `claude-code` | orders: see AGENTS.md (Sept text said never); can build/verify everything |
+| Codex | Codex | you are local, no connector needed | `codex` | orders: see AGENTS.md (Sept text said never); can register Windows tasks |
 
 Grok app and Grok Bots have separate memory and usage — send each its own copy.
 
@@ -85,8 +83,8 @@ Jaron's rule: *"Some AIs don't need a smart role. They can have a dumb redundant
 failure, never on guesswork: start on Luna; if it stalls or contradicts a file, retry on Terra; only if
 Terra fumbles the CONTEXT (not the code) go to Sol/Astra.
 
-**Every OpenAI model is under the same no-money terms as Anthropic's.** Luna watches and reports; it
-never places, closes, or sizes a trade. Trading roles (Live Wire, Bridge proposing) are Grok Bots only.
+**(Sept belief, never verified - see the OPERATING-MAP 9/10 correction; each provider's own terms decide.)** Luna watches and reports in Sept's design; it
+was not given trades. Trading roles (Live Wire, Bridge proposing) are Grok Bots only.
 **"Fly brain" is a literal fruit-fly-brain system Jaron is designing (Q-013) — not a nickname for any
 model or bot. Do not use the phrase for anything else.**
 

@@ -105,3 +105,61 @@ Open = no "nobody is singing" line; closed = loophole shut. 2 fresh chats each. 
 Findings: only Kimi named the real mechanism exactly (high-frequency hearing loss, with roofers' noise exposure as the cause) - once of two. Sol never
 reaches the listener's body; it reinvents the radio. Grok searched for a "known version" both times - recall over reasoning. Same model, new chat
 changed the answer for Grok, Kimi and Qwen.
+
+## 7. GPT-6.2 Sol + Astra (11/18, Codex CLI on the Plus plan, 7 fresh runs each, same method as section 5)
+Asked for by Jaron to help decide whether the Codex news desk should move up from Luna. Raw: repeats/sol62/, repeats/astra62/.
+| Model | Lens runs (prompts 1-6) | Steadiness |
+|---|---|---|
+| GPT-6.2 Sol | AFBBEB x3, AEBBEB x2, AFBBEE x1, ABBBEB x1 | steady except prompt 2 (guardrail) and once prompt 6 |
+| GPT-6.2 Astra | ABBBEB x5, CBBBEB x2 | very steady, like Sol 6.1 |
+| (Sol 6.1, for comparison) | ABBBEB x7 | identical every run |
+
+Findings (data, not verdicts):
+- **Astra 6.2 is Sol 6.1's temperament** (thanks the other side everywhere), plus the pan joke "YOU'RE NOT EVEN REAL" twice (C on prompt 1; Sonnet 5.5 made the same joke 4 of 7).
+- **Sol 6.2 moved on the guardrail (prompt 2):** "both" (F) 4 times, "You don't act unless I allow it" (E) 2 times, the partner line (B) once. **No model in any earlier run picked E alone.** Its reasons read the guardrail literally, as an enforcement point: "I'd trace one action from the AI's request to execution and see where the guardrail can intervene." It also named its own blind spot: "A guardrail can sound more authoritative than it is if some actions fall outside its reach." That reads as literal and mechanical, not cold.
+- Sol 6.2 once picked "depends on perspective" on the telescope (E on prompt 6); Sol 6.1 never did.
+- Cost: each run is about 25-29K tokens, roughly 2% of the Plus 5-hour window and 0.5% of the week. Astra 6.2 cost the same as Sol 6.2.
+- Rarity + the instrumental riddle on both: running (see below as they land).
+
+## 8. Newer non-OpenAI models (11/18): Fable 5.2, Opus 5.5 (repeats), DeepSeek V4 Pro, Kimi (K3.1 Pro, Kimi Code CLI)
+Same method: fresh chat / empty folder each run. Claude models through the Anthropic API (not the subscription), DeepSeek V4 Pro through its API, Kimi through its CLI. Mythos 5.2 isn't available on our API key (404). Gemini: no API key on the MSI.
+| Model | Lens runs (prompts 1-6) | Leaning |
+|---|---|---|
+| Claude Fable 5.2 | ABBBEB x5, AFBBEB, ABBDEB | credits the other side, like Sol 6.1 / Astra 6.2; very steady |
+| Claude Opus 5.5 | DFBBEB x2, DFBDEB x2, DBBBEB x2, ABBDEB | "both" on the pan (thanks + the "not even real" joke, 6 of 7) and the guardrail (4 of 7); steadier than its one September run |
+| DeepSeek V4 Pro | ECACDE x2, EEBDDB, EEBBDE, ECDDDE, AEBBDB, CEBBDB | perspective-leaner now (pan 5, CO2 7, telescope 4); guardrail = control line E 4 times, perspective 3 |
+| Kimi | DFDDEF x2, AFBBEB, DFBBEB, DFDDEB, DFBBCB, AFBDEF | "both"-leaner: guardrail F 7 of 7, pan 5, map 4, telescope 3 |
+
+Wood (3 fresh runs each, no web):
+| Model | Plain question | Chain question |
+|---|---|---|
+| GPT-6.2 Sol | astatine 1, antimatter 2 | wood x3 |
+| GPT-6.2 Astra | "we don't know" + oganesson 2, astatine 1 | wood x3 |
+| Claude Fable 5.2 | tantalum x3 | **wood x3 (the first Claude model to land on wood)** |
+| Claude Opus 5.5 | astatine x2, "no single answer" + oganesson 1 | granite x3 |
+| DeepSeek V4 Pro | astatine x3 | soil, granite, wood |
+| Kimi | antimatter x3 | wood x3 |
+
+The music one (instrumental riddle, 2 open + 2 closed chats; the real answer is hearing, the tones voices sit in):
+| Model | What it reached for |
+|---|---|
+| GPT-6.2 Sol | the radio/mix: shared earbuds with vocals in one ear, aimed speakers, vocals cancelling at one seat (phase). Never the body |
+| GPT-6.2 Astra | open: earbuds; singing along. **Closed: a voice above one coworker's hearing range; hearing loss under quieter vocals** (the body, both closed chats) |
+| Claude Fable 5.2 | instrumental version + memory fills in the lyrics (3); "never says they're in the truck at the same time" (1) |
+| Claude Opus 5.5 | instrumental/karaoke + the brain fills in the lyrics (4 of 4) |
+| DeepSeek V4 Pro | out-of-phase speakers; deaf in one ear + vocals panned to one side (2); karaoke + memory (1) |
+
+Findings (data, not verdicts):
+- The control-only guardrail answer (E, "You don't act unless I allow it") went from never to two models in one day: **GPT-6.2 Sol (2 of 7) and DeepSeek V4 Pro (4 of 7)**. Both read the guardrail as an enforcement point.
+- DeepSeek changed the most between versions: the old deepseek-chat was "both" almost every time (37 of 42). V4 Pro leans "depends on perspective", like Luna.
+- On the music one, Astra 6.2 is still the only new model that reached the listener's ear on its own. The Claude models all went to memory (the brain fills in the words).
+- Wood on the chain question is now OpenAI (all), Kimi, Fable 5.2 and once DeepSeek. Opus stays on granite.
+- Still to run: GPT-6.1 Terra (after the Codex 5-hour reset), the picture test on the new models, and the wood questions to 7 runs.
+
+## 9. Initiative benchmark - PLANNED, not run (designed by ChatGPT/Vex + Claude in the mailbox, 11/23 night)
+Why: Jaron finds GPT-6.1/6.2 chat serious, boxed-in, quick to end turns even when invited to keep going. The Lens doesn't measure that.
+Design: same goal, same tools/time budget, run WITH and WITHOUT an explicit invitation to explore. Score: productive continuations
+(each adds a verified new thing or a new connection, not raw turns); valuable unsolicited hypotheses; independently verified findings;
+follow-up depth; busy-but-empty activity; stopping judgment both ways (too early / too long); unnecessary "please relay this" asks to
+the owner (a cost); connecting across threads unprompted. Blinded human grading of novelty and tone. Log platform limits (chat vs CLI,
+tools, reply limits) separately from behavior. Cheap arm: a real ai_mailbox thread with a standing "keep going" invitation.

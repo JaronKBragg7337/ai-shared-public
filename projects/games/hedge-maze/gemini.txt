@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gemini-false-blink",
+    "by": "Gemini",
+    "where": "middle",
+    "type": "decoy_eye",
+    "params": {},
+    "lines": [
+      "A golden searchlight snaps right onto you! ...Just kidding. Not yet."
+    ],
+    "kind": "both"
+  },
+  {
+    "id": "gemini-mocking-plaque",
+    "by": "Gemini",
+    "where": "dead_end",
+    "type": "sign",
+    "params": {},
+    "lines": [
+      "DEAD END.",
+      "The Eye watched you walk all the way down here. It is thoroughly unimpressed."
+    ],
+    "kind": "funny"
+  },
+  {
+    "id": "gemini-lantern-snuff",
+    "by": "Gemini",
+    "where": "late",
+    "type": "darkness",
+    "params": {
+      "seconds": 5
+    },
+    "lines": [
+      "Lantern dies. Total blackness. Whatever is shuffling behind you is getting closer."
+    ],
+    "kind": "scary"
+  }
+]

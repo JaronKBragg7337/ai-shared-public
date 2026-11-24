@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Scores and Cost</title>
+<style>
+:root { --paper:#f6f0e4; --card:#fffaf1; --ink:#2b2620; --muted:#6e6355; --rule:#e3d8c4; --grid:#ece3d2;
+  --Anthropic:#c4622d; --OpenAI:#2f6db0; --xAI:#444; --Moonshot:#7a4fb5; --DeepSeek:#2a8a7a; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper:#1d1a16; --card:#26221c; --ink:#efe6d6; --muted:#b3a690; --rule:#3a342b; --grid:#332d25;
+  --Anthropic:#ee8f5c; --OpenAI:#7fb0e8; --xAI:#d8d2c8; --Moonshot:#b392e6; --DeepSeek:#6fcfbd; color-scheme: dark; } }
+:root[data-theme="dark"] { --paper:#1d1a16; --card:#26221c; --ink:#efe6d6; --muted:#b3a690; --rule:#3a342b; --grid:#332d25;
+  --Anthropic:#ee8f5c; --OpenAI:#7fb0e8; --xAI:#d8d2c8; --Moonshot:#b392e6; --DeepSeek:#6fcfbd; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { max-width:1000px; margin:0 auto; padding:24px 16px 56px; }
+nav a { color:var(--muted); }
+h1 { font-size:1.8rem; margin:8px 0 4px; }
+.lede { color:var(--muted); margin:0 0 14px; max-width:62ch; }
+.legend { display:flex; flex-wrap:wrap; gap:6px 14px; list-style:none; padding:0; margin:0 0 20px; font-size:.9rem; }
+.legend li { display:flex; gap:6px; align-items:center; } .sw { width:12px; height:12px; border-radius:50%; }
+section.card { background:var(--card); border:1px solid var(--rule); border-radius:14px; padding:14px; margin:0 0 20px; }
+h2 { font-size:1.15rem; margin:0; } .what { color:var(--muted); font-size:.9rem; margin:2px 0 10px; }
+svg { width:100%; height:auto; display:block; }
+svg text { fill:var(--ink); font:14px system-ui,sans-serif; } svg .ax { fill:var(--muted); font-size:13px; }
+ol.rank { margin:10px 0 0; padding-left:1.4em; font-size:.92rem; } ol.rank li { margin:2px 0; }
+ol.rank .c { color:var(--muted); } .src { font-size:.82rem; color:var(--muted); margin:8px 0 0; } .src a { color:var(--muted); }
+footer { color:var(--muted); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">&larr; Our AI Models (roles)</a></nav>
+  <h1>Model Scores and Cost</h1>
+  <p class="lede">How the models we use score on independent tests, against what the test cost to run. Higher is better, further left is cheaper. Cost uses a log scale, so cheap models get room instead of piling up on the left edge.</p>
+  <ul class="legend" id="legend"></ul>
+  <div id="charts"></div>
+  <footer id="foot"></footer>
+</main>
+<script>
+const D = /*DATA*/null;
+const COS = ["Anthropic", "OpenAI", "xAI", "Moonshot", "DeepSeek"];
+const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const money = (v) => v >= 1000 ? "$" + (v / 1000).toFixed(v >= 10000 ? 0 : 1) + "k" : v >= 10 ? "$" + Math.round(v) : "$" + v.toFixed(2);
+const short = (n) => n.replace(/^Claude /, "");
+const LABELS = { aa_index: "Cost per task (log scale)", terminal_bench: "Cost of the whole test run (log scale)" };
+document.getElementById("legend").innerHTML = COS.map((c) => `<li><span class="sw" style="background:var(--${c})"></span>${c}</li>`).join("");
+const scored = (b) => D.models.map((m) => ({ m, s: (m.scores || {})[b.id] })).filter((p) => p.s && p.s.value != null);
+
+function scatter(b) {
+  const pts = scored(b).filter((p) => p.s.cost_usd);
+  const W = 760, H = 480, L = 44, R = 20, T = 16, B = 46;
+  const xs = pts.map((p) => Math.log10(p.s.cost_usd)), ys = pts.map((p) => p.s.value);
+  const x0 = Math.floor(Math.min(...xs)), x1 = Math.ceil(Math.max(...xs));
+  const y0 = Math.max(0, Math.floor((Math.min(...ys) - 5) / 10) * 10), y1 = Math.ceil((Math.max(...ys) + 3) / 10) * 10;
+  const X = (v) => L + (Math.log10(v) - x0) / (x1 - x0) * (W - L - R), Y = (v) => T + (1 - (v - y0) / (y1 - y0)) * (H - T - B);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: score versus cost">`;
+  for (let v = y0; v <= y1; v += 10) s += `<line x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--grid)"/><text class="ax" x="${L - 6}" y="${Y(v) + 4}" text-anchor="end">${v}</text>`;
+  for (let e = x0; e <= x1; e++) { const v = Math.pow(10, e); s += `<line x1="${X(v)}" x2="${X(v)}" y1="${T}" y2="${H - B}" stroke="var(--grid)"/><text class="ax" x="${X(v)}" y="${H - B + 18}" text-anchor="middle">${money(v)}</text>`; }
+  s += `<text class="ax" x="${(L + W - R) / 2}" y="${H - 6}" text-anchor="middle">${esc(LABELS[b.id] || "Cost (log scale)")}</text>`;
+  // labels sit beside each dot; nearby labels get pushed apart vertically so none overlap
+  const lab = pts.map((p) => ({ p, x: X(p.s.cost_usd), y: Y(p.s.value), ly: Y(p.s.value) + 5 })).sort((a, c) => a.ly - c.ly);
+  for (let pass = 0; pass < 60; pass++) for (let i = 1; i < lab.length; i++) for (let j = 0; j < i; j++) {
+    const a = lab[j], c = lab[i];
+    if (Math.abs(a.x - c.x) < 175 && Math.abs(c.ly - a.ly) < 18) { const d = (18 - Math.abs(c.ly - a.ly)) / 2 + 0.1, up = a.ly <= c.ly; a.ly += up ? -d : d; c.ly += up ? d : -d; }
+  }
+  lab.forEach((l) => {
+    const left = l.x > W - R - 165, tx = left ? l.x - 11 : l.x + 11, col = `var(--${l.p.m.company})`;
+    if (Math.abs(l.ly - 5 - l.y) > 4) s += `<line x1="${l.x}" y1="${l.y}" x2="${tx}" y2="${l.ly - 5}" stroke="${col}" stroke-width="1" opacity=".55"/>`;
+    s += `<circle cx="${l.x}" cy="${l.y}" r="6.5" fill="${col}"/><text x="${tx}" y="${l.ly}" text-anchor="${left ? "end" : "start"}">${esc(short(l.p.m.name))} <tspan class="ax">${l.p.s.value}</tspan></text>`;
+  });
+  return s + "</svg>";
+}
+function bars(b) {
+  const pts = scored(b).sort((a, c) => c.s.value - a.s.value);
+  const W = 760, row = 32, L = 150, H = pts.length * row + 10, max = Math.max(...pts.map((p) => p.s.value)) * 1.12;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)} scores">`;
+  pts.forEach((p, i) => { const y = 6 + i * row, w = (p.s.value / max) * (W - L - 60);
+    s += `<text x="${L - 8}" y="${y + 18}" text-anchor="end">${esc(short(p.m.name))}</text><rect x="${L}" y="${y + 5}" width="${w}" height="19" rx="4" fill="var(--${p.m.company})"/><text x="${L + w + 6}" y="${y + 18}">${p.s.value}</text>`; });
+  return s + "</svg>";
+}
+function rank(b) {
+  const pts = scored(b).sort((a, c) => c.s.value - a.s.value), pct = (b.unit || "").includes("%") ? "%" : "";
+  const none = D.models.filter((m) => !(((m.scores || {})[b.id]) || {}).value).map((m) => short(m.name));
+  return `<ol class="rank">${pts.map((p) => `<li><b>${esc(short(p.m.name))}</b> ${p.s.value}${pct}${p.s.cost_usd ? ` <span class="c">· ${money(p.s.cost_usd)}</span>` : ""}${p.s.vendor_reported ? ` <span class="c">(maker's own number)</span>` : ""}</li>`).join("")}</ol>`
+    + (none.length ? `<p class="src">Not on this test: ${esc(none.join(", "))}.</p>` : "");
+}
+document.getElementById("charts").innerHTML = D.benchmarks.map((b) => {
+  const hasCost = scored(b).some((p) => p.s.cost_usd);
+  return `<section class="card"><h2>${esc(b.name)}</h2><p class="what">${esc(b.what_it_measures)}</p>${hasCost ? scatter(b) : bars(b)}${rank(b)}
+    <p class="src">Source: <a href="${esc(b.source)}">${esc(b.source.replace(/^https?:\/\//, ""))}</a>${hasCost ? "" : ". No cost is listed for this test, so it's shown as a ranking."}</p></section>`;
+}).join("");
+document.getElementById("foot").textContent = `Numbers as each leaderboard lists them, looked up ${D.checked}; every number's source is saved with the data. Kimi K2.8 Preview isn't on any of these tests yet. Leaderboards change, and a test score isn't the same as how a model does on our own work: our own tests (Framing Lens, the Model Museum streets) are separate.`;
+</script>
+</body>
+</html>

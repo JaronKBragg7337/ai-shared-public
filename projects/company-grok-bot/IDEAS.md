@@ -14,3 +14,4 @@ Not started. Each line = his idea + what was checked.
    selfie); nothing found allowing an LLC. Check their help center / ask support before planning on it.
    Today the Polymarket + Kraken API keys are his PERSONAL accounts only; no company accounts exist on either yet.
 5. Keep a running list of what Grok Bot + the other AIs can newly do (he saw a Claude news post on X 10/17, went to look).
+6. (Jaron 10/24 10:14 PM) Run it as a whole second bot TEAM. First job: send the approved Fort Wayne site emails from <email>, signed as Jaron's AI assistant, and handle replies (projects/fw-sites/). Postal address still to pick (LLC address or PO box).

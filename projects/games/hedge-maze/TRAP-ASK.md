@@ -1,0 +1,17 @@
+# Trap request: "The Hedge" (Halloween hedge maze, Heartbeat Observatory, Oct 31 2026)
+Jaron's game: a huge 3D hedge maze at night, hedges 3x taller than the player, thick fog. A giant ghost Eye in the sky sweeps a searchlight; if it spots you it sends 2 fast shadow creatures after you. Kids and adults play it on phones. Scary AND funny are both welcome. Keep it spooky, not gory.
+
+You get to place your OWN traps/events in the maze. Pick 2 (max 3). Use only these types:
+- loop: you get teleported back to the start of a zone so you think you're progressing (params: times)
+- fake_exit: looks like the glowing exit, isn't
+- whisper: a sound + a line of text near you
+- jumpscare: a brief shadow face/creature flash + sting
+- darkness: fog thickens / lanterns die for N seconds (params: seconds)
+- sign: a wooden sign with text (jokes, warnings, riddles)
+- reverse: controls flip for N seconds (params: seconds)
+- decoy_eye: a fake Eye blink that makes them think they're spotted
+- shortcut: a hidden gap in the hedge
+
+Reply with ONLY a JSON array, no other text. Each item:
+{"id":"short-id","by":"<your name>","where":"start|early|middle|late|near_exit|dead_end","type":"<one type above>","params":{},"lines":["text the player sees, short"],"kind":"scary|funny|both"}
+Make it yours: your own sense of humor or dread. Lines under 90 characters each.

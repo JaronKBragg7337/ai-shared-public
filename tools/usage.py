@@ -23,6 +23,7 @@ from __future__ import annotations
 import glob
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -53,9 +54,144 @@ def tail_lines(path, nbytes=400_000):
         return fh.read().decode("utf-8", "replace").splitlines()
 
 
+def codex_session_files(home=HOME):
+    """Shared discovery for the live meter and the daily ledger, oldest first."""
+    found = []
+    for path in (Path(home) / ".codex" / "sessions").rglob("rollout-*.jsonl"):
+        try:
+            found.append((path.stat().st_mtime_ns, path))
+        except OSError:
+            continue
+    return [path for _, path in sorted(found)]
+
+
+def _codex_counts(value):
+    """Read only token fields; missing input/output means usage is unknown."""
+    if not isinstance(value, dict):
+        return None
+    keys = ("input_tokens", "cached_input_tokens", "output_tokens", "reasoning_output_tokens")
+    counts = {}
+    for key in keys:
+        number = value.get(key)
+        counts[key] = number if isinstance(number, int) and not isinstance(number, bool) and number >= 0 else None
+    return counts if counts["input_tokens"] is not None and counts["output_tokens"] is not None else None
+
+
+def codex_ledger_event(obj, state):
+    """Normalize one rollout line for usage_ledger.py; state is safe to cache.
+
+    Input includes cached tokens, and output includes reasoning tokens. Both
+    token_usage_record and token_count describe the same running totals: emit
+    only their increase, never add the last usage on top of a cumulative total.
+    Raw prompt text is returned transiently, never retained in state. The caller
+    must turn it into a safe label before writing reports or a cache.
+    """
+    if not isinstance(obj, dict) or not isinstance(obj.get("payload"), dict):
+        return []
+    payload = obj["payload"]
+    kind = obj.get("type")
+    timestamp = obj.get("timestamp")
+    try:
+        timestamp = datetime.fromisoformat(str(timestamp).replace("Z", "+00:00")).isoformat()
+    except (TypeError, ValueError):
+        timestamp = None
+    events = []
+    if kind == "session_meta":
+        # Fork files include another session_meta inside copied parent history.
+        if not state.get("session_seen"):
+            state["session_seen"] = True
+            own_id = payload.get("id")
+            if isinstance(own_id, str) and re.fullmatch(r"[0-9a-fA-F-]{32,36}", own_id):
+                state["session_id"] = own_id
+            boundary = payload.get("subagent_history_start_ordinal")
+            if isinstance(boundary, int) and boundary >= 0:
+                state["history_boundary"] = boundary
+            elif payload.get("forked_from_id"):
+                state["fork_baseline_pending"] = True
+            events.append({"type": "session", "timestamp": timestamp, "id": state.get("session_id")})
+        return events
+
+    # The first visible user prompt is useful even in copied fork history. A
+    # later, readable child prompt replaces it; encrypted task bodies stay out.
+    ordinal = obj.get("ordinal")
+    inherited = isinstance(ordinal, int) and ordinal < state.get("history_boundary", 0)
+    if (not state.get("prompt_seen") or state.get("prompt_inherited") and not inherited):
+        text = None
+        if kind == "response_item" and payload.get("type") == "message" and payload.get("role") == "user":
+            content = payload.get("content")
+            if isinstance(content, str):
+                chunks = [content]
+            elif isinstance(content, list):
+                chunks = [block.get("text", "") for block in content if isinstance(block, dict)
+                          and block.get("type") in ("input_text", "text")]
+            else:
+                chunks = []
+            usable = [chunk for chunk in chunks if isinstance(chunk, str) and chunk.strip()
+                      and not chunk.lstrip().startswith(("# AGENTS.md instructions", "<environment_context>",
+                                                         "<permissions instructions>", "<INSTRUCTIONS>"))]
+            text = "\n".join(usable)
+        elif kind == "event_msg" and payload.get("type") == "user_message":
+            text = payload.get("message")
+        if isinstance(text, str) and text.strip():
+            state["prompt_seen"] = True
+            state["prompt_inherited"] = inherited
+            events.append({"type": "prompt", "timestamp": timestamp, "text": text})
+    if inherited:
+        return events
+
+    if kind == "turn_context":
+        model = payload.get("model")
+        if isinstance(model, str) and re.fullmatch(r"(?:gpt-|codex|o[1-9])[a-zA-Z0-9._/-]{0,80}", model):
+            if model != state.get("model"):
+                state["model"] = model
+                events.append({"type": "model", "timestamp": timestamp, "model": model})
+        return events
+
+    total = last = None
+    if kind == "token_usage_record":
+        # Copied records can belong to another thread even in older fork logs.
+        if payload.get("thread_id") and state.get("session_id") and payload["thread_id"] != state["session_id"]:
+            return events
+        total = _codex_counts(payload.get("thread_token_usage"))
+        last = _codex_counts(payload.get("usage"))
+    elif kind == "event_msg" and payload.get("type") == "token_count":
+        info = payload.get("info")
+        if isinstance(info, dict):
+            total = _codex_counts(info.get("total_token_usage"))
+            last = _codex_counts(info.get("last_token_usage"))
+    if total is None:
+        # Without cumulative totals or a response ID, repeat last-usage events
+        # cannot be distinguished safely. Leave them unknown, not invented.
+        return events
+    previous = state.get("totals")
+    state["totals"] = total
+    if state.pop("fork_baseline_pending", False):
+        return events
+    if previous == total:
+        return events
+    if previous is None:
+        delta = total
+    elif any(total[key] < previous[key] for key in ("input_tokens", "output_tokens")):
+        # Compaction/reset can lower counters. Only the logged latest response
+        # is safe to charge here; the new total becomes the next baseline.
+        state["counter_resets"] = state.get("counter_resets", 0) + 1
+        if last is None:
+            return events
+        delta = last
+    else:
+        delta = {key: (max(0, value - previous[key]) if value is not None and previous.get(key) is not None else None)
+                 for key, value in total.items()}
+    if delta["input_tokens"] == 0 and delta["output_tokens"] == 0:
+        return events
+    events.append({"type": "usage", "timestamp": timestamp, "model": state.get("model", "unknown"),
+                   "input_tokens": delta["input_tokens"], "cached_tokens": delta["cached_input_tokens"],
+                   "output_tokens": delta["output_tokens"], "reasoning_tokens": delta["reasoning_output_tokens"],
+                   "tokens_known": True})
+    return events
+
+
 def codex():
-    files = sorted(glob.glob(str(HOME / ".codex" / "sessions" / "**" / "rollout-*.jsonl"), recursive=True),
-                   key=os.path.getmtime)
+    files = codex_session_files()
     best = None
     for f in reversed(files[-8:]):
         for line in reversed(tail_lines(f)):
@@ -76,7 +212,7 @@ def codex():
                         stack.extend(cur.values())
                 elif isinstance(cur, list):
                     stack.extend(cur)
-            if rl:
+            if rl and rl.get("primary"):
                 ts = obj.get("timestamp") or datetime.fromtimestamp(os.path.getmtime(f), timezone.utc).isoformat()
                 best = {"read_from": os.path.basename(f), "as_of": ts,
                         "five_hour_used_pct": (rl.get("primary") or {}).get("used_percent"),
@@ -97,8 +233,7 @@ def codex_segments(max_files=12):
     switch (Astra -> Sol Light, Astra -> Luna) gets its own row in state/task-costs.jsonl without Jaron screenshotting
     the switch. Reads lines as text (some rollout lines are not single JSON objects)."""
     import re
-    files = sorted(glob.glob(str(HOME / ".codex" / "sessions" / "**" / "rollout-*.jsonl"), recursive=True),
-                   key=os.path.getmtime)[-max_files:]
+    files = codex_session_files()[-max_files:]
     out = []
     for f in files:
         segs = []

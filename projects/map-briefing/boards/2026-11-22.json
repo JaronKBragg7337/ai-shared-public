@@ -1,0 +1,580 @@
+{
+ "date": "2026-11-22",
+ "shortDate": "NOV 22, 2026",
+ "longDate": "Sunday, November 22, 2026",
+ "title": "The day's news, by place",
+ "note": "Hand-written storyboard (Fable 5.2, 11/22). Every text line is taken from the 2026-11-22 Heartbeat News episode JSON (graphic stats / anchor lines), with its 'reported / claims / not verified' labels kept. Marker positions are the places the episode names; where it names no exact spot the marker says so.",
+ "stops": [
+  {
+   "id": "hormuz",
+   "seg": "hormuz",
+   "tag": "World · Strait of Hormuz",
+   "headline": "Tankers hit near Hormuz",
+   "sub": "U.K. maritime agency: two outbound tankers hit by an *'unknown projectile'* near Khasab, Oman; no casualties reported",
+   "cam": {
+    "lat": 26.0,
+    "lon": 56.1,
+    "alt": 0.62
+   },
+   "dur": 9.0,
+   "hi": [
+    {
+     "a": "OMN",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Iran",
+     "lat": 28.6,
+     "lon": 56.6
+    },
+    {
+     "text": "Oman",
+     "lat": 22.6,
+     "lon": 57.4
+    },
+    {
+     "text": "U.A.E.",
+     "lat": 23.9,
+     "lon": 54.3,
+     "size": 22
+    },
+    {
+     "text": "Strait of Hormuz",
+     "lat": 26.75,
+     "lon": 56.55,
+     "size": 20,
+     "tone": "amber"
+    }
+   ],
+   "markers": [
+    {
+     "lat": 26.184,
+     "lon": 56.247,
+     "kind": "strike",
+     "ringKm": 60,
+     "label": "Near Khasab, Oman",
+     "sub": "two tankers hit (UKMTO)",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "ship",
+     "kicker": "Iran's navy (via A.P.)",
+     "text": "Says one tanker struck a mine; *accounts not reconciled*",
+     "at": 2.6
+    }
+   ],
+   "sources": "U.K.M.T.O. Warning 215-26, A.P."
+  },
+  {
+   "id": "bahrain",
+   "seg": "hormuz",
+   "tag": "World · Bahrain",
+   "headline": "Bahrain says Iran struck an industrial site",
+   "sub": "Bahrain Interior Ministry: Iranian attack hit a *civilian industrial facility*, fire, no casualties reported",
+   "cam": {
+    "lat": 26.3,
+    "lon": 51.0,
+    "alt": 0.58
+   },
+   "dur": 8.6,
+   "hi": [
+    {
+     "a": "BHR",
+     "tone": "ember"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Iran",
+     "lat": 28.9,
+     "lon": 52.4
+    },
+    {
+     "text": "Saudi Arabia",
+     "lat": 24.6,
+     "lon": 48.6
+    },
+    {
+     "text": "Qatar",
+     "lat": 25.25,
+     "lon": 51.2,
+     "size": 20
+    }
+   ],
+   "markers": [
+    {
+     "lat": 26.07,
+     "lon": 50.55,
+     "kind": "strike",
+     "ringKm": 45,
+     "label": "Bahrain",
+     "sub": "site not named by the ministry",
+     "side": "left",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "target",
+     "kicker": "Iran's Revolutionary Guard · claim",
+     "text": "Claims it struck U.S. positions and two Patriot radars in Bahrain; *not independently verified*",
+     "at": 2.8
+    }
+   ],
+   "sources": "A.F.P., Japan Times, Times of Israel"
+  },
+  {
+   "id": "riyadh",
+   "seg": "gulf",
+   "tag": "Middle East · Saudi Arabia",
+   "headline": "Houthis fire at Riyadh",
+   "sub": "Three missiles fired after a Saudi-coalition *'special operation'* (Times of Israel)",
+   "cam": {
+    "lat": 20.6,
+    "lon": 46.2,
+    "alt": 1.02
+   },
+   "dur": 9.0,
+   "hi": [
+    {
+     "a": "SAU",
+     "tone": "amber"
+    },
+    {
+     "a": "YEM",
+     "tone": "cream"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Saudi Arabia",
+     "lat": 22.6,
+     "lon": 43.2
+    },
+    {
+     "text": "Yemen",
+     "lat": 15.6,
+     "lon": 47.6
+    }
+   ],
+   "arcs": [
+    {
+     "from": [
+      15.9,
+      45.6
+     ],
+     "to": [
+      24.71,
+      46.68
+     ],
+     "at": 0.7,
+     "time": 1.7
+    }
+   ],
+   "markers": [
+    {
+     "lat": 24.71,
+     "lon": 46.68,
+     "kind": "strike",
+     "label": "Riyadh",
+     "side": "right",
+     "at": 1.8
+    }
+   ],
+   "cards": [
+    {
+     "icon": "alert",
+     "kicker": "Saudi emergency alerts",
+     "text": "*Eight in 24 hours* (Arab Times)",
+     "at": 2.0
+    },
+    {
+     "icon": "doc",
+     "kicker": "Houthis' claim",
+     "text": "71 Saudi strikes across eight provinces in 24 hours (Xinhua)",
+     "at": 4.4
+    }
+   ],
+   "sources": "Times of Israel, Arab Times, Xinhua"
+  },
+  {
+   "id": "kryvyi-rih",
+   "seg": "ukraine",
+   "tag": "Ukraine · Kryvyi Rih",
+   "headline": "Missiles hit Zelensky's hometown",
+   "sub": "Ballistic missiles: *two killed, about sixty wounded*; counts vary by outlet (A.B.C., Al Jazeera)",
+   "cam": {
+    "lat": 48.3,
+    "lon": 31.6,
+    "alt": 0.8
+   },
+   "dur": 9.6,
+   "hi": [
+    {
+     "a": "UKR",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Ukraine",
+     "lat": 49.5,
+     "lon": 29.0
+    },
+    {
+     "text": "Russia",
+     "lat": 52.6,
+     "lon": 38.6
+    },
+    {
+     "text": "Black Sea",
+     "lat": 43.6,
+     "lon": 33.6,
+     "size": 20
+    }
+   ],
+   "markers": [
+    {
+     "lat": 47.91,
+     "lon": 33.39,
+     "kind": "strike",
+     "label": "Kryvyi Rih",
+     "side": "right",
+     "at": 0.3
+    },
+    {
+     "lat": 50.58,
+     "lon": 30.49,
+     "kind": "pin",
+     "tone": "ember",
+     "label": "Vyshhorod",
+     "sub": "Sunday strike · still developing",
+     "side": "right",
+     "at": 1.6
+    }
+   ],
+   "cards": [
+    {
+     "type": "quote",
+     "text": "That's not a strong peace. That's a *two-year pause.*",
+     "who": "Volodymyr Zelensky",
+     "role": "President of Ukraine · on security guarantees",
+     "flag": "UA",
+     "at": 2.8
+    }
+   ],
+   "sources": "Al Jazeera, A.B.C., Kyiv Independent"
+  },
+  {
+   "id": "gogland",
+   "seg": "baltic",
+   "tag": "Baltic · Gulf of Finland",
+   "headline": "Russian cargo ship burns",
+   "sub": "Sparta II: sanctioned Russian cargo ship *hit by drones* west of Gogland; drifted into Finnish waters; 16 crew evacuated",
+   "cam": {
+    "lat": 60.0,
+    "lon": 26.2,
+    "alt": 0.6
+   },
+   "dur": 9.4,
+   "hi": [
+    {
+     "a": "FIN",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Finland",
+     "lat": 62.3,
+     "lon": 26.0
+    },
+    {
+     "text": "Estonia",
+     "lat": 58.7,
+     "lon": 25.4,
+     "size": 22
+    },
+    {
+     "text": "Russia",
+     "lat": 58.4,
+     "lon": 31.4,
+     "size": 24
+    }
+   ],
+   "markers": [
+    {
+     "lat": 60.03,
+     "lon": 26.45,
+     "kind": "fire",
+     "ringKm": 45,
+     "label": "West of Gogland",
+     "sub": "accounts differ on where first hit",
+     "side": "right",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "ship",
+     "kicker": "Finnish military spokesman",
+     "text": "'It is likely that Ukraine' was behind it; *Ukraine had not said so* on pages we read",
+     "at": 3.0
+    }
+   ],
+   "sources": "CNN, France 24, B.B.C., Al Jazeera"
+  },
+  {
+   "id": "poland",
+   "seg": "baltic",
+   "tag": "NATO · Poland",
+   "headline": "Missile parts in Poland identified",
+   "sub": "Poland prosecutor: parts at Nowy Lipowiec identified as a *Russian-made CH-101 cruise missile*",
+   "cam": {
+    "lat": 51.6,
+    "lon": 20.2,
+    "alt": 0.74
+   },
+   "dur": 8.8,
+   "hi": [
+    {
+     "a": "POL",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Poland",
+     "lat": 52.6,
+     "lon": 18.6
+    },
+    {
+     "text": "Ukraine",
+     "lat": 49.6,
+     "lon": 27.0,
+     "size": 22
+    },
+    {
+     "text": "Belarus",
+     "lat": 53.4,
+     "lon": 27.4,
+     "size": 22
+    }
+   ],
+   "markers": [
+    {
+     "lat": 50.44,
+     "lon": 22.84,
+     "kind": "strike",
+     "ringKm": 35,
+     "label": "Nowy Lipowiec",
+     "side": "left",
+     "at": 0.3
+    },
+    {
+     "lat": 52.23,
+     "lon": 21.01,
+     "kind": "pin",
+     "label": "Warsaw",
+     "side": "right",
+     "at": 2.2
+    }
+   ],
+   "cards": [
+    {
+     "type": "quote",
+     "text": "NATO will defend *every inch* of Polish territory",
+     "who": "Mark Rutte",
+     "role": "NATO · in Warsaw · no Article 5 invoked",
+     "at": 2.6
+    }
+   ],
+   "sources": "Al Jazeera"
+  },
+  {
+   "id": "fbi",
+   "seg": "cyber",
+   "tag": "Cyber · United States",
+   "headline": "F.B.I. probes apparent database breach",
+   "sub": "A.P.: F.B.I. investigating an *apparent intrusion* into the National Crime Information Center, per an unnamed person familiar",
+   "cam": {
+    "lat": 38.6,
+    "lon": -79.5,
+    "alt": 0.72
+   },
+   "dur": 10.0,
+   "hi": [
+    {
+     "a": "USA",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "United States",
+     "lat": 39.6,
+     "lon": -84.5
+    },
+    {
+     "text": "Canada",
+     "lat": 46.6,
+     "lon": -77.0,
+     "size": 22
+    }
+   ],
+   "markers": [
+    {
+     "lat": 38.895,
+     "lon": -77.025,
+     "kind": "area",
+     "ringKm": 70,
+     "label": "F.B.I.",
+     "sub": "Washington, D.C.",
+     "side": "left",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "shield",
+     "kicker": "F.B.I.",
+     "text": "Declined comment; *scope unclear*",
+     "at": 2.0
+    },
+    {
+     "icon": "lock",
+     "kicker": "The Verge",
+     "text": "Reports F.B.I. and U.S.D.A. systems hacked; *U.S.D.A. not independently established*",
+     "at": 4.4
+    }
+   ],
+   "sources": "A.P., Al Jazeera, The Verge, The Guardian"
+  },
+  {
+   "id": "sinaloa",
+   "seg": "mexico",
+   "tag": "Mexico · Sinaloa",
+   "headline": "Mexico captures 'El Chapo Isidro'",
+   "sub": "Fausto Isidro Meza Flores, on the *F.B.I.'s Ten Most Wanted* list",
+   "cam": {
+    "lat": 24.2,
+    "lon": -105.6,
+    "alt": 0.92
+   },
+   "dur": 8.6,
+   "hi": [
+    {
+     "a": "MEX",
+     "tone": "amber"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Mexico",
+     "lat": 23.6,
+     "lon": -102.4
+    }
+   ],
+   "markers": [
+    {
+     "lat": 25.0,
+     "lon": -107.5,
+     "kind": "area",
+     "ringKm": 170,
+     "label": "Sinaloa",
+     "sub": "exact place not given",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "pin",
+     "kicker": "Where",
+     "text": "Sinaloa, by Mexico's military (Reuters via Devdiscourse)",
+     "at": 1.8
+    },
+    {
+     "icon": "doc",
+     "kicker": "How",
+     "text": "Special forces raid and shoot-out (B.B.C., Guardian)",
+     "at": 3.9
+    }
+   ],
+   "sources": "N.P.R., The Guardian, B.B.C., C.B.S. News"
+  },
+  {
+   "id": "indonesia",
+   "seg": "disasters",
+   "tag": "Disasters · Indonesia",
+   "headline": "Factory fire: three dead, 36 missing",
+   "sub": "Cikande, Indonesia: candy factory fire: *at least 3 dead, 36 unaccounted for*, 15 rescued",
+   "cam": {
+    "lat": -5.0,
+    "lon": 116.6,
+    "alt": 1.44
+   },
+   "dur": 9.6,
+   "hi": [
+    {
+     "a": "IDN",
+     "tone": "amber"
+    },
+    {
+     "a": "TLS",
+     "tone": "cream"
+    }
+   ],
+   "labels": [
+    {
+     "text": "Indonesia",
+     "lat": -1.6,
+     "lon": 113.6
+    },
+    {
+     "text": "Australia",
+     "lat": -17.0,
+     "lon": 127.0,
+     "size": 22
+    }
+   ],
+   "markers": [
+    {
+     "lat": -6.211,
+     "lon": 106.358,
+     "kind": "fire",
+     "label": "Cikande",
+     "sub": "west of Jakarta",
+     "side": "bottom",
+     "at": 0.3
+    },
+    {
+     "lat": -8.8,
+     "lon": 125.9,
+     "kind": "quake",
+     "ringKm": 330,
+     "label": "Timor-Leste",
+     "sub": "magnitude 6.8",
+     "side": "top",
+     "at": 2.0
+    }
+   ],
+   "cards": [
+    {
+     "icon": "pulse",
+     "kicker": "Timor-Leste (U.S.G.S.)",
+     "text": "*Magnitude 6.8 quake*, 132 km deep; felt in Dili and Darwin",
+     "at": 2.4
+    }
+   ],
+   "sources": "B.B.C., The Guardian, Reuters"
+  }
+ ],
+ "intro": 3.2,
+ "end": 4.6
+}

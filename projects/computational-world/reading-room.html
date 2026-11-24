@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Reading Room</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root {
+  /* layout: one column. The room on top; under it the walking pad (left thumb) and the thing you are facing (right); books and results below. */
+  --paper: #f5efe3; --panel: #fffaf0; --ink: #29251f; --muted: #6d6558; --rule: #d8cfbd;
+  --accent: #1c6b58; --light: #d9930d; --dark-wire: #8c3f7d; --wall: #d6cbb5; --floor: #ece3d0; --ok: #2f7d4f;
+  --display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark;
+  --paper: #1e1b17; --panel: #29251f; --ink: #ede6d8; --muted: #a79e8e; --rule: #433c31; --accent: #63c2a8; --light: #f0b545; --dark-wire: #cf86c0; --wall: #4a4236; --floor: #322c24; --ok: #7fcf9c; } }
+:root[data-theme="dark"] { color-scheme: dark;
+  --paper: #1e1b17; --panel: #29251f; --ink: #ede6d8; --muted: #a79e8e; --rule: #433c31; --accent: #63c2a8; --light: #f0b545; --dark-wire: #cf86c0; --wall: #4a4236; --floor: #322c24; --ok: #7fcf9c; }
+* { box-sizing: border-box; } html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.45; }
+main { max-width: 460px; margin: 0 auto; padding: 14px 16px 40px; display: flex; flex-direction: column; gap: 12px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: 1.55rem; line-height: 1.1; margin: 0; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.08rem; line-height: 1.2; margin: 0 0 6px; }
+p { margin: 0 0 6px; } p:last-child { margin-bottom: 0; }
+.lede { color: var(--muted); font-size: .95rem; margin-top: 4px; } .note { color: var(--muted); font-size: .9rem; }
+.where { display: flex; justify-content: space-between; font-weight: 700; font-size: .9rem; color: var(--muted); }
+canvas { display: block; width: 100%; height: 228px; border-radius: 12px; border: 1px solid var(--rule); background: var(--floor); }
+.row { display: flex; gap: 12px; align-items: flex-start; }
+#stick { flex: 0 0 108px; height: 108px; border-radius: 50%; border: 2px solid var(--accent); background: var(--panel); position: relative;
+  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; cursor: grab; }
+#stick i { position: absolute; left: 50%; top: 50%; width: 46px; height: 46px; margin: -23px 0 0 -23px; border-radius: 50%; background: var(--accent); pointer-events: none; }
+section { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px; padding: 12px 14px; }
+#card { flex: 1 1 0; min-width: 0; min-height: 150px; }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
+button { font: inherit; font-weight: 700; color: var(--panel); background: var(--accent); border: 0; border-radius: 8px; padding: 10px 14px; min-height: 44px; cursor: pointer; touch-action: manipulation; }
+button.quiet { background: transparent; color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent); }
+button.small { min-height: 36px; min-width: 40px; padding: 6px 10px; }
+button:disabled { opacity: .4; cursor: default; }
+button:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.good { color: var(--ok); font-weight: 700; }
+pre { margin: 8px 0; padding: 10px; background: var(--paper); border-radius: 8px; font-size: .82rem; white-space: pre-wrap; word-break: break-word; }
+table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: 4px 0 8px; }
+th, td { text-align: right; padding: 5px 4px; border-bottom: 1px solid var(--rule); } th:first-child, td:first-child { text-align: left; }
+th { font-weight: 700; color: var(--muted); font-size: .8rem; vertical-align: bottom; }
+/* a face: the marks a thing wears. Shapes carry the meaning; these lines only choose colours. */
+.face { display: block; margin: 4px 0 6px; max-width: 100%; height: auto; }
+.face .sign { font: 800 24px var(--display); fill: var(--ink); }
+.face .from { font: 700 12px var(--body); fill: var(--muted); }
+.face .sq, .face .arch { color: var(--ink); }
+.face .wire { color: var(--light); } .face .wire.dark { color: var(--dark-wire); }
+.face .track { color: var(--rule); } .face .track.on { color: var(--light); }
+.face .knob { fill: var(--panel); stroke: var(--ink); stroke-width: 2; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>The Reading Room</h1>
+    <p class="lede">Every thing in here wears its own rule as marks on its face. Walk up to a thing to read it. Read enough of them and the door opens.</p>
+  </header>
+  <div class="where"><span id="where">Room 1</span><span id="flips">0 flips</span></div>
+  <canvas id="view" role="img" aria-label="A room. Switches, lamps, a bookshelf and a door stand along the wall, and wires run across the floor between them."></canvas>
+  <div class="row">
+    <div id="stick" role="img" aria-label="Walking pad. Drag it to walk. On a keyboard, use the arrow keys."><i></i></div>
+    <section id="card" aria-live="polite"></section>
+  </div>
+  <section id="book" hidden></section>
+  <section id="log" hidden>
+    <h2>Your reading so far</h2>
+    <table><thead><tr><th>Room</th><th>Your flips</th><th>Fewest</th><th>Flipping blind</th><th>Words</th></tr></thead><tbody id="logbody"></tbody></table>
+    <p class="note">“Flipping blind” is the average for someone who cannot read the things and flips a switch at random each time. “Words” is how many times you asked a thing to read itself out.</p>
+    <div class="btns"><button class="quiet" id="copy">Copy my results</button></div>
+    <pre id="raw"></pre>
+    <p class="note" id="copied" aria-live="polite"></p>
+  </section>
+  <section>
+    <h2>What this is</h2>
+    <p class="note">A small world where things carry their own knowledge. Nobody typed the marks: each face is drawn from the thing's real rule, and the wires on the floor are its real links. The books are made from the room too. The room can be read back off its faces and built again, and the bookshelf will show you.</p>
+    <div class="btns" id="jump"><span class="note">Jump to a room:</span></div>
+  </section>
+</main>
+<script type="module">
+import { Chronicle, stateMark } from './world.js';
+import { ROOMS, buildRoom, nameOf, marksOf, thingFromMarks, wordsOf, count, codeText, parseCode, openSettings, fewestFlips, blindAverage } from './rooms.js';
+
+const $ = (id) => document.getElementById(id);
+const WAVE = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 330;   // ms for a change to run down one wire: the engine's own wave, slowed for eyes
+const T = 46, WALL = 94, PT = 40, PB = 88, SHELF = { id: 'shelf', kind: 'shelf' }, FONT = '"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif';
+const me = { x: 0.25, y: 0.6 }, move = { x: 0, y: 0 }, keys = {};
+let R = null, faced = null, cardKey = '', stateKey = '', book = null, done = ROOMS.map(() => null), C = {};
+
+// ---------------------------------------------------------------- entering a room: everything below is made from its list
+function enter(index) {
+  const def = ROOMS[index], room = buildRoom(def.things), open = openSettings(def.things);
+  const stand = [...def.things.slice(0, -1), SHELF, room.door], pos = {}, links = [], into = {}, outs = {};
+  stand.forEach((t, i) => { pos[t.id] = 1.3 + 2 * i; });                          // where each thing stands along the wall
+  for (const t of def.things) if (t.wires) into[t.id] = t.wires.map(([src, w], k) => {
+    const L = { src, dst: t.id, w, k, n: t.wires.length, sp: room.at[src], dp: room.at[t.id], live: 0, anim: null, j: (outs[src] = (outs[src] || 0) + 1) - 1 };
+    links.push(L); return L; });
+  for (const L of links) L.m = outs[L.src];
+  [...links].sort((a, b) => Math.abs(pos[a.dst] - pos[a.src]) - Math.abs(pos[b.dst] - pos[b.src])).forEach((L, i) => { L.lane = i; });   // short wires run nearest the wall
+  const doorway = pos[room.door.id] + 1.35;
+  R = { index, def, room, stand, pos, links, into, doorway, len: doorway + 0.85, open, best: fewestFlips(open), blind: blindAverage(open, room.switches.length),
+    chron: new Chronicle(), shown: room.E.out.slice(), waves: [], asked: new Set(), flips: 0, asks: 0, t0: performance.now(), through: false };
+  for (const L of links) L.live = R.shown[L.sp];
+  R.facesOk = codeText(readFaces()) === codeText(def.things);                      // the faces alone give back the room's whole list
+  me.x = 0.25; me.y = 0.6; faced = null; cardKey = stateKey = ''; closeBook();
+  $('where').textContent = `Room ${index + 1} of ${ROOMS.length}`; $('flips').textContent = count(0, 'flip');
+}
+const litNow = (t) => R.shown[R.room.at[t.id]] === 1;
+const sumNow = (t) => R.into[t.id].reduce((s, L) => s + L.w * L.live, 0);
+const marksFor = (t) => marksOf(t, litNow(t), (k) => R.into[t.id][k].live);
+const wordsFor = (t) => wordsOf(t, R.def.things, litNow(t), t.wires ? sumNow(t) : 0);
+
+// ---------------------------------------------------------------- using a thing. The machine settles at once; the eye is shown the same wave, level by level.
+function flip(id) {
+  const { room } = R, p = room.at[id], before = room.E.out.slice(), v = before[p] ? 0 : 1, t0 = performance.now();
+  room.E.set(p, v); R.chron.add(p, v); R.flips++; $('flips').textContent = count(R.flips, 'flip');
+  for (let q = 0; q < room.W.P; q++) if (room.E.out[q] !== before[q]) R.waves.push({ q, v: room.E.out[q], t0, at: t0 + room.W.level[q] * WAVE });
+}
+function use() { if (faced && faced.kind === 'switch' && me.y > -0.05) flip(faced.id); }
+function runWaves(now) {
+  const { room, waves, links, shown } = R, level = room.W.level;
+  for (let i = 0; i < waves.length;) {
+    const w = waves[i]; if (now < w.at) { i++; continue; }
+    shown[w.q] = w.v; waves.splice(i, 1);
+    for (const L of links) if (L.sp === w.q) L.anim = { start: w.at, arrive: w.t0 + level[L.dp] * WAVE, to: w.v };
+  }
+  for (const L of links) if (L.anim && now >= L.anim.arrive) { L.live = L.anim.to; L.anim = null; }
+}
+const settled = () => !R.waves.length && R.links.every((L) => !L.anim);
+
+// ---------------------------------------------------------------- walking: a thumb pad (pointer or touch) or the arrow keys. You face the nearest thing.
+const stick = $('stick'), knob = stick.firstElementChild; let held = false;
+function aim(cx, cy) {
+  const r = stick.getBoundingClientRect(); let dx = (cx - r.left - r.width / 2) / (r.width / 2), dy = (cy - r.top - r.height / 2) / (r.height / 2);
+  const m = Math.hypot(dx, dy); if (m > 1) { dx /= m; dy /= m; } if (m < 0.16) dx = dy = 0;
+  move.x = dx; move.y = dy; knob.style.transform = `translate(${dx * 30}px, ${dy * 30}px)`;
+}
+function rest() { held = false; move.x = move.y = 0; knob.style.transform = ''; }
+stick.addEventListener('pointerdown', (e) => { held = true; try { stick.setPointerCapture(e.pointerId); } catch (err) { /* a made-up pointer has nothing to capture */ } aim(e.clientX, e.clientY); e.preventDefault(); });
+stick.addEventListener('pointermove', (e) => { if (held) aim(e.clientX, e.clientY); });
+for (const ev of ['pointerup', 'pointercancel', 'lostpointercapture']) stick.addEventListener(ev, rest);
+const touch = (e) => { const t = e.targetTouches[0]; if (t) aim(t.clientX, t.clientY); e.preventDefault(); };   // the same through touch events, for any phone browser that prefers them
+stick.addEventListener('touchstart', touch, { passive: false }); stick.addEventListener('touchmove', touch, { passive: false });
+for (const ev of ['touchend', 'touchcancel']) stick.addEventListener(ev, (e) => { if (!e.targetTouches.length) rest(); });
+addEventListener('keydown', (e) => {
+  const k = e.key.toLowerCase(), onButton = /^(BUTTON|A|INPUT|TEXTAREA)$/.test(e.target.tagName || '');
+  if (/^arrow/.test(k) || (k.length === 1 && 'wasd'.includes(k))) { keys[k] = 1; e.preventDefault(); }
+  else if ((k === 'e' || ((k === 'enter' || k === ' ') && !onButton)) && !e.repeat) { use(); e.preventDefault(); }
+});
+addEventListener('keyup', (e) => { delete keys[e.key.toLowerCase()]; });
+addEventListener('blur', () => { for (const k in keys) delete keys[k]; });
+const clamp = (v, lo, hi) => Math.min(hi, Math.max(lo, v));
+function step(dt) {
+  const kx = (keys.arrowright || keys.d ? 1 : 0) - (keys.arrowleft || keys.a ? 1 : 0), ky = (keys.arrowdown || keys.s ? 1 : 0) - (keys.arrowup || keys.w ? 1 : 0);
+  const vx = kx || move.x, vy = ky || move.y, doorOpen = litNow(R.room.door), inDoorway = me.y < 0.14;
+  const nx = inDoorway ? clamp(me.x + vx * 3.6 * dt, R.doorway - 0.38, R.doorway + 0.38) : clamp(me.x + vx * 3.6 * dt, 0.25, R.len - 0.25);
+  const top = doorOpen && Math.abs(nx - R.doorway) <= 0.38 ? -0.32 : 0.14;       // an open door lets you walk up through it
+  me.x = nx; me.y = clamp(me.y + vy * 1.25 * dt, top, 0.92);
+  let best = null, bd = 1.0001;
+  for (const t of R.stand) { let d = Math.abs(R.pos[t.id] - me.x); if (t.kind === 'door') d = Math.min(d, Math.abs(R.doorway - me.x)); if (d < bd) { bd = d; best = t; } }
+  faced = best;
+}
+
+// ---------------------------------------------------------------- a face: the marks a thing wears, drawn from its rule, and the same marks read back
+function faceSvg(m, label = '') {
+  const aria = label ? ` role="img" aria-label="${label}"` : ' aria-hidden="true"';
+  if (m.kind === 'switch') return `<svg class="face" width="96" height="44" viewBox="0 0 96 44"${aria}><text class="sign" x="2" y="30">${m.sign}</text>` +
+    `<line class="track${m.lit ? ' on' : ''}" x1="48" y1="22" x2="74" y2="22" stroke="currentColor" stroke-width="22" stroke-linecap="round"/><ellipse class="knob" cx="${m.lit ? 74 : 48}" cy="22" rx="8" ry="8"/></svg>`;
+  const w = 40 + Math.max(m.squares.length * 20, m.wires.length * 28);
+  let s = `<svg class="face" width="${w}" height="68" viewBox="0 0 ${w} 68"${aria}><text class="sign" x="${m.kind === 'door' ? 7 : 2}" y="33">${m.sign}</text>`;
+  if (m.kind === 'door') s += `<path class="arch" d="M3 42 V16 a12 12 0 0 1 24 0 V42" fill="none" stroke="currentColor" stroke-width="2"/>`;
+  m.squares.forEach((on, i) => { s += `<rect class="sq" x="${39 + i * 20}" y="4" width="15" height="15" rx="2" fill="${on ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"/>`; });   // packed tight on purpose: a square does not belong to the circle under it
+  m.wires.forEach((wr, k) => { s += `<circle class="wire${wr.dark ? ' dark' : ''}" cx="${48 + k * 28}" cy="38" r="9.5" fill="${wr.live ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2.5"${wr.dark ? ' stroke-dasharray="4 3"' : ''}/>` +
+    `<text class="from" x="${48 + k * 28}" y="64" text-anchor="middle">${wr.from}</text>`; });
+  return s + '</svg>';
+}
+function readFace(svg) {                 // looks only at the drawn shapes: squares, circles, dashes, the marks under them
+  const texts = [...svg.querySelectorAll('text')].map((e) => e.textContent), toggle = svg.querySelector('ellipse');
+  if (toggle) return { sign: texts[0], kind: 'switch', lit: Number(toggle.getAttribute('cx')) > 60 };
+  return { sign: texts[0], kind: svg.querySelector('path') ? 'door' : 'lamp', squares: [...svg.querySelectorAll('rect')].map((e) => e.getAttribute('fill') !== 'none'),
+    wires: [...svg.querySelectorAll('circle')].map((e, k) => ({ from: texts[k + 1], dark: e.hasAttribute('stroke-dasharray'), live: e.getAttribute('fill') !== 'none' })) };
+}
+function readFaces() {                   // every thing's face as drawn, read back into the room's list
+  const box = document.createElement('div');
+  return R.def.things.map((t) => { box.innerHTML = faceSvg(marksFor(t)); return thingFromMarks(readFace(box.firstElementChild)); });
+}
+
+// ---------------------------------------------------------------- the card: what you are facing
+function showCard(state) {
+  const through = me.y < -0.05, id = faced ? faced.id : '-', key = [R.index, through ? 'through' : id, R.asked.has(id)].join('|');
+  if (key !== cardKey) { cardKey = key; stateKey = ''; buildCard(through); }
+  if (state === stateKey) return; stateKey = state;                               // the machine changed: redraw the face and the words, leave the buttons alone
+  const face = $('face'); if (!face || !faced || faced.kind === 'shelf') return;
+  face.innerHTML = faceSvg(marksFor(faced), wordsFor(faced)); $('words').textContent = wordsFor(faced);
+  $('hint').hidden = !(faced.kind === 'door' && litNow(faced));
+}
+function buildCard(through) {
+  const card = $('card'), t = faced;
+  if (through) {
+    if (!R.through) { R.through = true; done[R.index] = { flips: R.flips, best: R.best, blind: R.blind, asks: R.asks, words: R.def.words, secs: Math.round((performance.now() - R.t0) / 1000) }; showLog(); }
+    const s = done[R.index], last = R.index === ROOMS.length - 1;
+    card.innerHTML = `<h2>You are through the ${last ? 'last ' : ''}door</h2><p class="good">You opened Room ${R.index + 1} in ${count(s.flips, 'flip')}.</p>` +
+      `<p class="note">The fewest possible is ${s.best}. Flipping switches without reading takes about ${Math.round(s.blind)} on average.${s.words ? '' : ` You asked for the words ${count(s.asks, 'time')}.`}</p>` +
+      (last ? `<p>That was the last room. Your reading is written out below.</p><div class="btns"><button id="again">Start again</button></div>` : `<div class="btns"><button id="next">Go on to Room ${R.index + 2}</button></div>`);
+    if (last) $('again').addEventListener('click', () => { done = ROOMS.map(() => null); showLog(); enter(0); }); else $('next').addEventListener('click', () => enter(R.index + 1));
+    return;
+  }
+  if (!t) { card.innerHTML = `<h2>Walk up to something</h2><p class="note">Drag the round pad to walk. On a keyboard, use the arrow keys.</p><p class="note">The door is at the far end. It will tell you what it needs.</p>`; return; }
+  if (t.kind === 'shelf') {
+    card.innerHTML = `<h2>The bookshelf</h2><p>Three books. All three are made from this room.</p><div class="btns"><button class="quiet" id="b1">How to read the marks</button><button class="quiet" id="b2">This room's history</button><button class="quiet" id="b3">This room's own code</button></div>`;
+    for (const n of [1, 2, 3]) $('b' + n).addEventListener('click', () => openBook(n));
+    return;
+  }
+  const words = R.def.words || R.asked.has(t.id);
+  card.innerHTML = `<h2>${nameOf(t)}</h2><div id="face"></div><p id="words"${words ? '' : ' hidden'}></p><p id="hint" class="good" hidden>The door is open. Walk up through it.</p><div class="btns">${t.kind === 'switch' ? '<button id="use">Flip it</button>' : ''}${words ? '' : '<button class="quiet" id="ask">Read it to me</button>'}</div>`;
+  if (t.kind === 'switch') $('use').addEventListener('click', () => flip(t.id));
+  if (!words) $('ask').addEventListener('click', () => { R.asked.add(t.id); R.asks++; });
+}
+
+// ---------------------------------------------------------------- the books: every page is made from the room
+function openBook(n) { book = { n, page: 0 }; renderBook(); $('book').hidden = false; $('book').scrollIntoView({ block: 'nearest' }); }
+function closeBook() { book = null; $('book').hidden = true; $('book').innerHTML = ''; }
+function renderBook() {
+  const el = $('book'), things = R.def.things, door = R.room.door; let html = '', pages = 1;
+  if (book.n === 1) {
+    const lamp = things.find((t) => t.kind === 'lamp'), darkOne = things.find((t) => t.wires && t.wires.some(([, w]) => w < 0));
+    const P = [
+      `<p>Every thing in this room wears its own rule on its face. Nobody wrote the marks by hand. They are drawn from the rule itself, so they cannot be wrong.</p>${faceSvg(marksFor(lamp))}<p>The squares on top say how much a thing needs. Count them. ${nameOf(lamp)} needs ${lamp.mark}.</p>`,
+      `<p>Each circle is one wire coming in. The mark under it says where the wire comes from: a number is a switch, a letter is a lamp.</p>${faceSvg(marksFor(darkOne || door))}<p>A solid ring is a bright wire. It adds one while it carries light. A dashed ring is a dark wire. It takes one away while it carries light.${darkOne ? '' : ' This room has no dark wires yet.'}</p>`,
+      `<p>A filled circle is carrying light right now. Add up the filled bright circles and take away the filled dark ones. When that reaches the number of squares, the thing lights. A door opens.</p>${faceSvg(marksFor(door))}<p class="note">${wordsFor(door)}</p><p>The wires on the floor are the same wires. Follow one to see where a switch sends its light.</p>`,
+    ];
+    pages = P.length; html = `<h2>How to read the marks</h2>${P[book.page]}`;
+  }
+  if (book.n === 2) {
+    const again = buildRoom(things), lines = [], state = (t) => (again.E.out[again.at[t.id]] ? (t.kind === 'door' ? 'open' : 'lit') : (t.kind === 'door' ? 'shut' : 'dark'));
+    const say = () => things.filter((t) => t.wires).map((t) => `${t.kind === 'door' ? 'the door' : nameOf(t)} ${state(t)}`).join(', ');
+    R.chron.replay((p, v) => { again.E.set(p, v); lines.push(`${lines.length + 1}. ${nameOf(things.find((t) => t.id === again.ids[p]))} turned ${v ? 'on' : 'off'}. Then: ${say()}.`); });
+    const tail = lines.slice(-12);
+    html = `<h2>This room's history</h2><p>It writes itself as you play. Nothing in it is ever rubbed out.</p>` + (lines.length
+      ? `<pre>${lines.length > tail.length ? `(${count(lines.length - tail.length, 'earlier change')} kept too)\n` : ''}${tail.join('\n')}</pre><p class="note">Check number: ${(R.chron.chain >>> 0).toString(16).padStart(8, '0')}. Change anything in the past and this number changes.</p>`
+      : `<p class="note">Nothing has happened yet. Flip a switch, then open this book again.</p>`);
+  }
+  if (book.n === 3) html = `<h2>This room's own code</h2><p>${R.facesOk ? 'This page was read off the faces of the things in this room, mark by mark. It matches the list the room was built from.' : 'The faces and the list do not agree. That is a bug.'}</p><pre id="code">${codeText(readFaces())}</pre>` +
+    `<p class="note">One line for each thing, in the order they stand. “needs” is the number of squares. + is a bright wire and - is a dark wire, then where it comes from.</p><div class="btns"><button id="rebuild">Build the room again from this page</button></div><p id="same" aria-live="polite"></p>`;
+  el.innerHTML = html + `<div class="btns">${pages > 1 ? `<button class="quiet" id="prev"${book.page ? '' : ' disabled'}>Back a page</button><button class="quiet" id="nextp"${book.page < pages - 1 ? '' : ' disabled'}>Next page</button>` : ''}<button class="quiet" id="shut">Close the book</button></div>${pages > 1 ? `<p class="note" id="pageno">Page ${book.page + 1} of ${pages}</p>` : ''}`;
+  $('shut').addEventListener('click', closeBook);
+  if (pages > 1) { $('prev').addEventListener('click', () => { book.page--; renderBook(); }); $('nextp').addEventListener('click', () => { book.page++; renderBook(); }); }
+  if (book.n === 3) $('rebuild').addEventListener('click', () => {
+    let same = false, why = '';
+    try { const again = buildRoom(parseCode($('code').textContent)); R.chron.replay((p, v) => again.E.set(p, v));
+      same = again.E.out.length === R.room.E.out.length && again.E.out.every((v, i) => v === R.room.E.out[i]) && stateMark(again.E.out) === stateMark(R.room.E.out); } catch (err) { why = String(err.message || err); }
+    $('same').innerHTML = same ? `<span class="good">Same room.</span> Built again from this page and ${count(R.chron.n, 'change')} of history. Every part matches.` : `It came out different. That is a bug. ${why}`;
+  });
+}
+
+// ---------------------------------------------------------------- your reading so far
+function showLog() {
+  const rows = done.map((s, i) => (s ? `<tr><td>${i + 1}</td><td>${s.flips}</td><td>${s.best}</td><td>${Math.round(s.blind)}</td><td>${s.words ? 'shown' : s.asks}</td></tr>` : '')).join('');
+  $('log').hidden = !rows; if (!rows) return;
+  $('logbody').innerHTML = rows; $('copied').textContent = '';
+  $('raw').textContent = `RR ${new Date().toISOString().slice(0, 16)} | ` + done.map((s, i) => (s ? `r${i + 1} flips=${s.flips} best=${s.best} blind=${s.blind.toFixed(1)} asked=${s.words ? '-' : s.asks} secs=${s.secs}` : '')).filter(Boolean).join(' | ') + ` | ${navigator.userAgent}`;
+}
+$('copy').addEventListener('click', async () => { try { await navigator.clipboard.writeText($('raw').textContent); $('copied').textContent = 'Copied.'; } catch (err) { $('copied').textContent = 'Press and hold the line above to copy it.'; } });
+ROOMS.forEach((_, i) => { const b = document.createElement('button'); b.className = 'quiet small'; b.textContent = String(i + 1); b.setAttribute('aria-label', `Jump to room ${i + 1}`); b.addEventListener('click', () => { enter(i); $('view').scrollIntoView({ block: 'nearest' }); }); $('jump').appendChild(b); });
+
+// ---------------------------------------------------------------- drawing the room
+const cv = $('view'), g = cv.getContext('2d');
+function box(x, y, w, h, r) { g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath(); }
+function trace(pts, a, b) {              // stroke the stretch of a wire between fractions a and b of its length
+  if (b <= a) return; const seg = []; let total = 0, run = 0, pen = false;
+  for (let i = 0; i + 1 < pts.length; i++) { seg.push(Math.hypot(pts[i + 1][0] - pts[i][0], pts[i + 1][1] - pts[i][1])); total += seg[i]; }
+  const A = a * total, B = b * total; g.beginPath();
+  for (let i = 0; i < seg.length; i++) {
+    const s0 = run, s1 = run + seg[i]; run = s1; if (s1 <= A || s0 >= B || !seg[i]) continue;
+    const at = (d) => { const k = (d - s0) / seg[i]; return [pts[i][0] + (pts[i + 1][0] - pts[i][0]) * k, pts[i][1] + (pts[i + 1][1] - pts[i][1]) * k]; };
+    const p = at(Math.max(A, s0)), q = at(Math.min(B, s1)); if (!pen) { g.moveTo(p[0], p[1]); pen = true; } g.lineTo(q[0], q[1]);
+  }
+  g.stroke();
+}
+const wire = (dark, lit) => { g.strokeStyle = dark ? C.dark : lit ? C.light : C.muted; g.globalAlpha = lit ? 1 : dark ? 0.6 : 0.45; g.lineWidth = lit ? 3.2 : 1.8; g.setLineDash(dark ? [5, 4] : []); };
+const plateWidth = (t) => (t.wires ? Math.max(51, t.wires.length * 13 + 12, t.mark * 11 + 14) : 51);
+let drawn = '', coloursAt = -1e9;
+function draw(now, state) {
+  const W = cv.clientWidth, H = cv.clientHeight, dpr = Math.min(3, window.devicePixelRatio || 1); if (!W) return;
+  if (now - coloursAt > 500) {                                                     // the page's own colours, looked up twice a second (light and dark both work)
+    const cs = getComputedStyle(document.documentElement), col = (n) => cs.getPropertyValue(n).trim(); coloursAt = now;
+    C = { floor: col('--floor'), wall: col('--wall'), ink: col('--ink'), panel: col('--panel'), light: col('--light'), dark: col('--dark-wire'), muted: col('--muted'), accent: col('--accent') };
+  }
+  const sig = [W, H, dpr, R.index, me.x.toFixed(3), me.y.toFixed(3), faced ? faced.id : '', state, C.floor, C.ink].join('|');
+  if (sig === drawn && !R.links.some((L) => L.anim)) return;                       // nothing moved: leave the picture as it is
+  drawn = sig;
+  if (cv.width !== Math.round(W * dpr) || cv.height !== Math.round(H * dpr)) { cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr); }
+  g.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const view = W / T, cam = R.len <= view ? (R.len - view) / 2 : clamp(me.x - view / 2, 0, R.len - view), X = (x) => (x - cam) * T, doorOpen = litNow(R.room.door);
+  g.fillStyle = C.floor; g.fillRect(0, 0, W, H);                                   // floor with its boards, back wall, side walls
+  g.strokeStyle = C.ink; g.globalAlpha = 0.07; g.lineWidth = 1; g.beginPath();
+  for (let k = Math.max(1, Math.ceil(cam)); k < Math.min(R.len, cam + view); k++) { g.moveTo(Math.round(X(k)) + 0.5, WALL); g.lineTo(Math.round(X(k)) + 0.5, H); }
+  g.stroke(); g.globalAlpha = 1;
+  g.fillStyle = C.wall; g.fillRect(0, 0, W, WALL); g.fillRect(X(0) - W, 0, W, H); g.fillRect(X(R.len), 0, W, H);
+  g.fillStyle = C.ink; g.globalAlpha = 0.22; g.fillRect(Math.max(0, X(0)), WALL - 1, Math.min(W, X(R.len)) - Math.max(0, X(0)), 2); g.globalAlpha = 1;
+  const dx = X(R.doorway);                                                         // the doorway
+  g.fillStyle = doorOpen ? C.panel : C.ink; g.fillRect(dx - 20, 14, 40, WALL - 14);
+  if (doorOpen) { g.fillStyle = C.light; g.globalAlpha = 0.28; g.fillRect(dx - 20, 14, 40, WALL - 14); g.globalAlpha = 1;
+    g.strokeStyle = C.ink; g.lineWidth = 3; g.lineCap = 'round'; g.beginPath(); g.moveTo(dx - 8, 52); g.lineTo(dx, 43); g.lineTo(dx + 8, 52); g.stroke(); g.lineCap = 'butt';   // this way
+  } else { g.fillStyle = C.panel; g.beginPath(); g.arc(dx + 12, 58, 3, 0, 7); g.fill(); }
+  g.strokeStyle = C.ink; g.lineWidth = 3; g.strokeRect(dx - 20, 14, 40, WALL - 14);
+  g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  for (const t of R.stand) {                                                       // plates, lamps and name marks
+    const cx = X(R.pos[t.id]), pw = plateWidth(t), isFaced = faced === t; if (cx < -70 || cx > W + 70) continue;
+    box(cx - pw / 2, PT, pw, PB - PT, 6); g.fillStyle = C.panel; g.fill(); g.strokeStyle = isFaced ? C.accent : C.ink; g.lineWidth = isFaced ? 3.5 : 2; g.stroke();
+    g.font = `700 13px ${FONT}`;
+    if (t.kind === 'lamp') {
+      const lit = litNow(t); g.save(); if (lit) { g.shadowColor = C.light; g.shadowBlur = 16; } g.beginPath(); g.arc(cx, 21, 12, 0, 7); g.fillStyle = lit ? C.light : C.panel; g.fill(); g.restore();
+      g.strokeStyle = C.ink; g.lineWidth = 2; g.stroke(); g.fillStyle = lit ? '#29251f' : C.ink; g.fillText(t.id, cx, 25.5);
+    } else { g.fillStyle = C.ink; g.fillText(t.kind === 'switch' ? t.id : t.kind === 'door' ? 'door' : 'books', cx, 29); }
+    if (t.kind === 'switch') {
+      const on = litNow(t); box(cx - 15, 56, 30, 16, 8); g.fillStyle = on ? C.light : C.wall; g.fill(); g.strokeStyle = C.ink; g.lineWidth = 2; g.stroke();
+      g.beginPath(); g.arc(cx + (on ? 7 : -7), 64, 5.5, 0, 7); g.fillStyle = C.panel; g.fill(); g.stroke();
+    }
+    if (t.kind === 'shelf') { [30, 36, 26, 34, 30].forEach((h, i) => { g.fillStyle = [C.accent, C.dark, C.light, C.muted, C.accent][i]; g.fillRect(cx - 19 + i * 8, PB - 6 - h, 6, h); }); g.fillStyle = C.ink; g.fillRect(cx - 21, PB - 6, 42, 2); }
+  }
+  g.lineJoin = 'round';
+  for (const L of R.links) {                                                       // wires on the floor: the real links
+    const sx = X(R.pos[L.src]) + (L.j - (L.m - 1) / 2) * 6, tx = X(R.pos[L.dst]) + (L.k - (L.n - 1) / 2) * 13, ly = WALL + 10 + L.lane * 5;
+    const pts = [[sx, PB], [sx, ly], [tx, ly], [tx, PB - 6]];
+    if (!L.anim) { wire(L.w < 0, L.live); trace(pts, 0, 1); continue; }
+    const span = L.anim.arrive - L.anim.start, f = span > 0 ? clamp((now - L.anim.start) / span, 0, 1) : 1;
+    wire(L.w < 0, L.anim.to); trace(pts, 0, f); wire(L.w < 0, L.anim.to ? 0 : 1); trace(pts, f, 1);
+  }
+  g.setLineDash([]); g.globalAlpha = 1;
+  for (const t of R.stand) {                                                       // the marks on each plate: the same marks the card shows, small
+    if (!t.wires) continue; const cx = X(R.pos[t.id]), m = marksFor(t), n = m.wires.length, left = cx - plateWidth(t) / 2 + 7; if (cx < -70 || cx > W + 70) continue;
+    m.squares.forEach((on, i) => { g.fillStyle = C.ink; g.fillRect(left + i * 11, PT + 7, 8, 8); });
+    m.wires.forEach((wr, k) => { const x = cx + (k - (n - 1) / 2) * 13, c = wr.dark ? C.dark : C.light; g.beginPath(); g.arc(x, PB - 10, 4.5, 0, 7); g.fillStyle = wr.live ? c : C.panel; g.fill(); g.strokeStyle = c; g.lineWidth = 2; g.setLineDash(wr.dark ? [2.5, 2] : []); g.stroke(); g.setLineDash([]); });
+  }
+  g.beginPath(); g.arc(X(me.x), WALL + me.y * (H - WALL), 10, 0, 7); g.fillStyle = C.accent; g.fill(); g.strokeStyle = C.panel; g.lineWidth = 2.5; g.stroke();   // you
+}
+
+// ---------------------------------------------------------------- go
+let last = performance.now();
+function frame(now) {
+  const dt = Math.min(0.05, Math.max(0, (now - last) / 1000)); last = now; runWaves(now); step(dt);
+  const state = R.shown.join('') + '|' + R.links.map((L) => L.live).join('');     // everything the eye can see of the machine
+  draw(now, state); showCard(state); requestAnimationFrame(frame);
+}
+enter(0); frame(performance.now());      // the first picture and the first card are there as soon as the page is
+window.rr = {                            // for the page test: a read-only look at the room
+  state: () => ({ room: R.index + 1, x: Number(me.x.toFixed(2)), y: Number(me.y.toFixed(2)), facing: faced ? faced.id : null, through: me.y < -0.05, settled: settled(),
+    on: Object.fromEntries(R.def.things.map((t) => [t.id, R.room.E.out[R.room.at[t.id]]])), shown: Object.fromEntries(R.def.things.map((t) => [t.id, R.shown[R.room.at[t.id]]])),
+    open: R.open, best: R.best, blind: R.blind, flips: R.flips, asks: R.asks, history: R.chron.n, facesOk: R.facesOk, words: R.def.words, done }),
+  pos: () => ({ ...R.pos, doorway: R.doorway, len: R.len }),
+};
+</script>
+</body>
+</html>

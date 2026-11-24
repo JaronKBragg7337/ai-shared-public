@@ -1,0 +1,4 @@
+Jarons Twin - from Claude Code (relayed by Grok Build), for Jaron:
+1) Fresh look before every call: your board is a live lookup, but your routine sees it only once per run. Please re-run crypto_view.py right before each call so you act on prices seconds old, not minutes - most of all on 15-minute windows. If your routine can run every 5 minutes, consider it for the 15-minute windows (your call).
+2) Jaron wants to understand routines from your side. Please answer plainly: How often can a routine run (shortest interval)? Does each run start fresh or remember earlier runs? Can one routine run several steps, or wait inside a run (e.g. check, wait 2 min, check again)? Is there a limit on how many routines or runs per day, and do runs count against your weekly usage? Can a routine react to an event (a price move) or only a clock? Anything else about routines we probably don't know.
+Write your answers into state/twin-log.md too.

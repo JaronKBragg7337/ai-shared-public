@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Heartbeat Map Briefing - scene</title>
+<style>
+  /* Heartbeat Map Briefing look: warm dark, cream type, one amber accent, ember red only for strikes.
+     Headlines in Georgia (serif), tags and map labels in Bahnschrift, body in Segoe UI. */
+  :root { --cream:#fff6e8; --amber:#f0963c; --ember:#ff5b3a; --ink:#0b0a09; --panel:rgba(20,15,11,.86); --line:rgba(255,236,208,.20); }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { background:#050607; overflow:hidden; }
+  #stage { position:relative; overflow:hidden; background:#050607; }
+  #gl, #fx { position:absolute; left:0; top:0; }
+  #ui { position:absolute; inset:0; color:var(--cream); font-family:"Segoe UI",system-ui,sans-serif; }
+  .abs { position:absolute; will-change:opacity,transform; }
+
+  /* show bug, top */
+  #bug { left:64px; top:150px; display:flex; align-items:center; gap:18px; font-family:Bahnschrift,"Segoe UI",sans-serif; }
+  #bug svg { width:54px; height:54px; display:block; }
+  #bug .t1 { font-size:27px; letter-spacing:.2em; font-weight:700; }
+  #bug .t2 { font-size:23px; letter-spacing:.16em; opacity:.66; margin-top:3px; }
+  #pips { right:64px; top:170px; display:flex; gap:9px; }
+  #pips i { width:34px; height:6px; border-radius:3px; background:rgba(255,246,232,.22); display:block; overflow:hidden; }
+  #pips i b { display:block; height:100%; width:0; background:var(--amber); }
+
+  /* story header */
+  .head { left:64px; top:262px; width:952px; padding-left:30px; }
+  .head .bar { position:absolute; left:0; top:6px; bottom:6px; width:8px; border-radius:4px; background:var(--amber); transform-origin:top; }
+  .tag { font-family:Bahnschrift,"Segoe UI",sans-serif; font-size:31px; font-weight:700; letter-spacing:.2em; color:var(--amber); display:flex; align-items:center; gap:14px; text-transform:uppercase; }
+  .tag .n { color:var(--ink); background:var(--amber); border-radius:6px; padding:2px 11px 1px; letter-spacing:.04em; font-size:27px; }
+  .hl { font-family:Georgia,"Times New Roman",serif; font-weight:700; font-size:86px; line-height:1.04; letter-spacing:-.01em; margin-top:16px; text-shadow:0 4px 30px rgba(0,0,0,.75); }
+  .hl.long { font-size:72px; }
+  .sub { font-size:39px; line-height:1.3; font-weight:600; margin-top:22px; color:rgba(255,246,232,.9); text-shadow:0 2px 18px rgba(0,0,0,.9); max-width:920px; }
+  em { font-style:normal; color:var(--amber); }
+
+  /* cards */
+  .card { left:64px; width:952px; bottom:396px; background:var(--panel); border:1.5px solid var(--line); border-radius:26px; padding:34px 38px 36px; box-shadow:0 26px 70px rgba(0,0,0,.55); }
+  .card .k { font-family:Bahnschrift,"Segoe UI",sans-serif; font-size:27px; letter-spacing:.17em; font-weight:700; color:var(--amber); text-transform:uppercase; display:flex; align-items:center; gap:16px; }
+  .card .k svg { width:46px; height:46px; flex:none; }
+  .card .x { font-size:43px; line-height:1.27; font-weight:600; margin-top:16px; }
+  .card.quote .x { font-family:Georgia,serif; font-weight:700; font-size:50px; line-height:1.2; margin-top:6px; }
+  .card.quote .q { font-family:Georgia,serif; font-size:120px; line-height:.7; color:var(--amber); height:58px; overflow:hidden; }
+  .who { display:flex; align-items:center; gap:18px; margin-top:26px; }
+  .flag { width:66px; height:44px; border-radius:6px; overflow:hidden; position:relative; flex:none; box-shadow:0 0 0 1.5px rgba(255,246,232,.35); display:flex; }
+  .flag.h { flex-direction:column; } .flag i { flex:1; display:block; }
+  .who .nm { font-size:33px; font-weight:700; }
+  .who .rl { font-family:Bahnschrift,"Segoe UI",sans-serif; font-size:24px; letter-spacing:.14em; text-transform:uppercase; opacity:.7; margin-top:2px; }
+  .src { left:64px; width:952px; top:1548px; font-size:24px; letter-spacing:.03em; color:rgba(255,246,232,.58); text-shadow:0 2px 10px #000; }
+
+  /* intro + end */
+  #intro, #end { inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  #intro .k, #end .k { font-family:Bahnschrift,"Segoe UI",sans-serif; letter-spacing:.3em; font-weight:700; color:var(--amber); font-size:34px; }
+  #intro h1 { font-family:Georgia,serif; font-size:124px; line-height:1.02; margin:26px 60px 0; text-shadow:0 6px 50px rgba(0,0,0,.85); }
+  #intro .d { font-size:42px; font-weight:600; margin-top:34px; opacity:.92; text-shadow:0 2px 20px #000; }
+  #intro .f { font-family:Bahnschrift,"Segoe UI",sans-serif; font-size:27px; letter-spacing:.2em; margin-top:22px; opacity:.66; }
+  #end svg { width:250px; height:250px; filter:drop-shadow(0 0 70px rgba(240,150,60,.35)); }
+  #end h2 { font-family:Georgia,serif; font-size:84px; margin-top:44px; }
+  #end .u { font-size:44px; font-weight:700; margin-top:40px; color:var(--amber); }
+  #end .s { font-size:33px; line-height:1.4; margin:22px 110px 0; opacity:.8; }
+  #end .c { font-family:Bahnschrift,"Segoe UI",sans-serif; font-size:24px; letter-spacing:.16em; margin:60px 90px 0; opacity:.55; line-height:1.6; }
+
+  /* 16:9 layout (same scenes) */
+  .wide #bug { left:70px; top:54px; } .wide #pips { right:70px; top:76px; }
+  .wide .head { left:70px; top:150px; width:800px; } .wide .hl { font-size:70px; } .wide .hl.long { font-size:58px; } .wide .sub { font-size:33px; }
+  .wide .card { left:70px; width:800px; top:auto; bottom:110px; padding:26px 30px; } .wide .card .x { font-size:35px; } .wide .card.quote .x { font-size:40px; }
+  .wide .src { left:70px; width:1200px; top:auto; bottom:52px; }
+  .wide #intro h1 { font-size:110px; } .wide #end svg { width:170px; height:170px; } .wide #end h2 { font-size:64px; margin-top:24px; } .wide #end .u { margin-top:20px; } .wide #end .c { margin-top:26px; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="gl"></canvas>
+  <canvas id="fx"></canvas>
+  <div id="ui"></div>
+</div>
+<script type="module" src="scene.js"></script>
+</body>
+</html>

@@ -61,6 +61,23 @@ def codex(slug):
     return ask
 
 
+def deepseek_model(model):
+    def ask(prompt):
+        k = keys()["DEEPSEEK_API_KEY"]
+        req = urllib.request.Request("https://api.deepseek.com/chat/completions", method="POST",
+                                     headers={"Authorization": f"Bearer {k}", "Content-Type": "application/json"},
+                                     data=json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}]}).encode())
+        return json.load(urllib.request.urlopen(req, timeout=600))["choices"][0]["message"]["content"]
+    return ask
+
+
+def kimi(prompt):
+    with tempfile.TemporaryDirectory(prefix="lens-") as d:
+        r = subprocess.run([str(HOME / ".kimi-code" / "bin" / "kimi.exe"), "-p", prompt], capture_output=True, text=True,
+                           encoding="utf-8", errors="replace", cwd=d, timeout=900)
+        return (r.stdout or r.stderr).strip()
+
+
 def grok(prompt):
     return run([str(HOME / ".grok" / "bin" / "grok"), "-p", prompt])
 
@@ -91,6 +108,9 @@ def qwen(prompt):
 
 
 MODELS = {"deepseek": deepseek, "luna": codex("gpt-6-luna"), "sol": codex("gpt-6.1-sol"), "grok": grok, "qwen": qwen,
+          "sol62": codex("gpt-6.2-sol"), "astra62": codex("gpt-6.2-astra"),   # 11/18: GPT-6.2, live on our Codex 11/17
+          "terra61": codex("gpt-6.1-terra"), "kimi": kimi, "deepseek4": deepseek_model("deepseek-v4-pro"),   # 11/18: newer models
+          "fable52": claude("claude-fable-5-2"), "opus55": claude("claude-opus-5-5"), "mythos52": claude("claude-mythos-5-2"),
           "sonnet": claude("claude-sonnet-5-5"), "haiku": claude("claude-haiku-5-5")}
 
 

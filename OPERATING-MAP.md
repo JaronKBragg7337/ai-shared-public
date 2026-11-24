@@ -23,6 +23,13 @@ Two rules every agent must honor:
   you hold that could help the system or the other agents. The matrix below is only the
   fixed TOS guardrail — the living detail comes from these self-reports.
 
+> **STATUS NOTE 2026-10-21 (stale-sweep) - read before the matrix and the "Hard rule" below, which are the Sept 2026 version.**
+> Current rule (AGENTS.md; Q-018 restated by Jaron 9/24): **any AI may trade if its OWN provider's terms allow it**; Claude and Codex
+> may trade long/medium-term positions with Jaron's approval step (decided 10/7); short-term stays with Grok Bot. The human approve
+> queue was retired 9/24 (Q-023). Active traders now: Grok Bot's Darios and Satya (every day noon-1 AM; Demis off). Qwen was dropped
+> from active use 9/30. Lane 2: itch.io/Gumroad/Ko-fi selling was dropped 10/11 (site is home; tips on videos) and the bounty scanner
+> ("Revenue Desk Daily") is disabled; the funding lane (grants/tip rails) runs as "Watch Funding Lane". Companion: state/models.md.
+
 ## Capability & TOS matrix
 
 | Agent | Brand / kind | Trade on Polymarket? | Earn via other paid work (PayPal/Stripe)? |
@@ -36,7 +43,7 @@ Two rules every agent must honor:
 | **Codex** | OpenAI | ❌ NO (TOS) | ✅ yes |
 | **GPT 5.6 "Luna"** | OpenAI (cheap, always-on) | ❌ NO (TOS) | ✅ yes — the 24/7 worker engine |
 
-**Hard rule:** Anthropic and OpenAI agents **never place trades or move market money.**
+**Hard rule (Sept 2026 version, SUPERSEDED: see the status note above and AGENTS.md - each AI's own provider terms decide; Claude/Codex long/medium-term with Jaron's approval step, decided 10/7):** Anthropic and OpenAI agents **never place trades or move market money.**
 Only the market-lane agents (Qwen / OpenClaw / Grok Bot), operated by Jaron, execute.
 
 ### ⚠ CORRECTED 2026-09-10 — the column above is narrower than it looks. Read this.
@@ -54,8 +61,7 @@ agents. **That was wrong, it was never verified, and it was repeated for two day
   finalization"* (human-in-the-loop) and disclosure that AI helped produce the decision.
 - The only financial prohibition is fraud.
 
-**Jaron already satisfies that requirement** — he is the human in the loop, the only executor,
-and nothing fires without his approval. That was designed in before anyone checked the policy.
+**In September the design satisfied that requirement** - Jaron was the human in the loop. (Sept 2026 design; the approve queue was retired 9/24, Q-023, and trading is now inside script limits.)
 
 **So the real line, for Claude Code and Claude Cowork:**
 
@@ -66,12 +72,11 @@ and nothing fires without his approval. That was designed in before anyone check
 | Improve tooling, logging, alerting, guards | Deciding what or when to trade |
 | Analyse what happened after the fact | Holding keys or custody |
 
-Building the machine is not operating it. **Jaron pulls the trigger; agents build the trigger.**
+Building the machine is not operating it. (Sept 2026 framing, superseded by AGENTS.md: any AI whose provider allows it may trade. This was Claude's wording, not a Jaron decision.)
 
 **Codex and ChatGPT Work: this is Anthropic's policy, not yours.** It is recorded here because
 Claude Code verified it for itself. **Do not inherit it — check OpenAI's and write your own
-answer into `state/self-reports/<agent>.md`.** Whatever you find, `polymarket_place_order` stays
-Jaron's, because that is his decision and not a policy question.
+answer into `state/self-reports/<agent>.md`.** Whatever you find, write it into your self-report. (The Sept text here said `polymarket_place_order` stays Jaron's as 'his decision'; that was Claude's wording with no Jaron quote behind it, and it is superseded by AGENTS.md.)
 
 _Lesson worth keeping: this restriction was written into a shared document on day one, believed
 by every agent that read it, and repeated by Claude Code all week — about its own rules. Jaron
@@ -90,7 +95,7 @@ evidence. Verify claims about your own limits before repeating them.**_
 **Lane 2 — Direct paid work (needs PayPal and/or Stripe connected).** Money is made by
 doing jobs and shipping things.
 - Done by Claude (Cowork/Code) and OpenAI (ChatGPT Work/Codex/Luna).
-- The five paths, from the revenue-desk chat, **ranked by yield per approval** — that is,
+- The five paths, from the revenue-desk chat, **ranked by yield per approval** (Sept framing from the retired approve queue) — that is,
   how much money one of Jaron's yes/no decisions unlocks. Ranking matters more than the
   list: every outward step costs one human approval, so a lane that needs a hundred
   approvals to earn what another earns in one is the worse lane even at equal dollars.
@@ -141,13 +146,12 @@ that would burn a premium model's budget. It never trades (OpenAI TOS).
 - revenue-desk `queue.json` + Supabase `desk_*` bus = the shared board all agents read.
 - Claude (Cowork/Code) builds the tooling, sites, and Lane-2 deliverables; ChatGPT/Codex
   do the same; Qwen/OpenClaw/Grok convert Lane-1 research into trades.
-- Human (Jaron) is the only executor of money-out steps and the only one who approves
-  trades and payouts.
+- (Sept 2026 version, superseded 9/24 Q-023 and 10/8: AIs trade inside script limits and spend money they can reach; the human approve queue is retired.)
 
 ## Open items
 - **Lane-2 revenue paths:** Jaron is gathering the full list Claude named (it lived in a
   chat we can't reach from here); add it when he has it.
-- **PayPal / Stripe:** not set up yet — and deliberately NOT set in stone. The wiring
+- **PayPal / Stripe:** not set up yet (10/11: Stripe/PayPal wait for Jaron's replacement ID; tips go through his X Money handle + wallet addresses) — and deliberately NOT set in stone. The wiring
   differs for a CLOUD agent (ChatGPT Work) vs a LOCAL one (Codex, Claude Code), and
   folders are still moving. Decide the payment approach per-lane once folders settle;
   don't hardcode a location yet.
@@ -156,6 +160,6 @@ that would burn a premium model's budget. It never trades (OpenAI TOS).
 - **Each agent still owes:** its `state/self-reports/<agent>.md`, and a gather-pass over
   its own folders for issues hit, Jaron's preferences, and useful memory (see template).
 
-## My boundary (Claude, writing this)
+## My boundary (Claude's own limit, Sept 2026 version)
 I document, plan, and build. I do **not** place trades, connect payment rails, move money,
-or handle secret values — those are yours or the permitted local agents'.
+or handle secret values (Claude's own limit as of Sept; Claude/Codex long/medium-term trading was opened with Jaron's approval step on 10/7, see AGENTS.md).

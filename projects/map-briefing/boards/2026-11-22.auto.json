@@ -1,0 +1,318 @@
+{
+ "date": "2026-11-22",
+ "auto": true,
+ "title": "The day's news, by place",
+ "shortDate": "NOV 22, 2026",
+ "longDate": "Sunday, November 22, 2026",
+ "stops": [
+  {
+   "id": "hormuz",
+   "seg": "hormuz",
+   "tag": "IRAN / GULF · Khasab",
+   "headline": "Tankers hit near Hormuz",
+   "sub": "U.K. maritime agency (UKMTO): Two outbound tankers hit by an 'unknown projectile' near Khasab, Oman; no casualties reported",
+   "cam": {
+    "lat": 25.88,
+    "lon": 56.25,
+    "alt": 0.62
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "OMN",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 26.18,
+     "lon": 56.25,
+     "kind": "area",
+     "ringKm": 47,
+     "label": "Khasab",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Iran's navy (via A.P.)",
+     "text": "Says one tanker struck a mine; accounts not reconciled",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "Bahrain Interior Ministry",
+     "text": "Iranian attack hit a civilian industrial facility, fire, no casualties reported",
+     "at": 5
+    }
+   ],
+   "sources": "U.K.M.T.O. Warning 215-26, A.P., A.F.P., Japan Times"
+  },
+  {
+   "id": "gulf",
+   "seg": "gulf",
+   "tag": "MIDDLE EAST · Riyadh",
+   "headline": "Houthis fire at Riyadh",
+   "sub": "Houthi missiles at Riyadh: Three fired after a Saudi-coalition 'special operation' (Times of Israel)",
+   "cam": {
+    "lat": 24.41,
+    "lon": 46.68,
+    "alt": 0.95
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "SAU",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 24.71,
+     "lon": 46.68,
+     "kind": "area",
+     "ringKm": 71,
+     "label": "Riyadh",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Saudi emergency alerts",
+     "text": "Eight in 24 hours (Arab Times)",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "Houthis' claim",
+     "text": "71 Saudi strikes across eight provinces in 24 hours (Xinhua)",
+     "at": 5
+    }
+   ],
+   "sources": "Times of Israel, Arab Times, Al Jazeera"
+  },
+  {
+   "id": "ukraine",
+   "seg": "ukraine",
+   "tag": "UKRAINE · Kryvyi Rih",
+   "headline": "Missiles hit Zelensky's hometown",
+   "sub": "Kryvyi Rih (A.B.C., Al Jazeera): Ballistic missiles: two killed, about sixty wounded; counts vary by outlet",
+   "cam": {
+    "lat": 47.61,
+    "lon": 33.39,
+    "alt": 0.8
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "UKR",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 47.91,
+     "lon": 33.39,
+     "kind": "area",
+     "ringKm": 60,
+     "label": "Kryvyi Rih",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Vyshhorod, Kyiv region (Kyiv Independent)",
+     "text": "Sunday strike: a woman and a child injured; still developing",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "Zelensky",
+     "text": "'That's not a strong peace. That's a two-year pause.'",
+     "at": 5
+    }
+   ],
+   "sources": "Al Jazeera, A.B.C., Kyiv Independent, NBC News"
+  },
+  {
+   "id": "baltic",
+   "seg": "baltic",
+   "tag": "BALTIC / NATO · Gogland",
+   "headline": "Russian-bound ship burns in Gulf of Finland",
+   "sub": "Sparta II: Sanctioned Russian cargo ship hit by drones west of Gogland; drifted into Finnish waters; 16 crew evacuated",
+   "cam": {
+    "lat": 59.760000000000005,
+    "lon": 26.98,
+    "alt": 0.6
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "FIN",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 60.06,
+     "lon": 26.98,
+     "kind": "area",
+     "ringKm": 45,
+     "label": "Gogland",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Finnish military spokesman",
+     "text": "'It is likely that Ukraine' was behind it; Ukraine had not said so on pages we read",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "Poland prosecutor",
+     "text": "Parts at Nowy Lipowiec identified as a Russian-made CH-101 cruise missile",
+     "at": 5
+    }
+   ],
+   "sources": "CNN, France 24, B.B.C., Al Jazeera"
+  },
+  {
+   "id": "nukes",
+   "seg": "nukes",
+   "tag": "IRAN / NUCLEAR · Washington",
+   "headline": "WMD claims: 'dirty bomb' report, Vance, Iran's denial",
+   "sub": "A.B.C. News (sources): Reported possible Iranian plans for a dirty bomb aimed at Washington; intelligence not verified",
+   "cam": {
+    "lat": 38.6,
+    "lon": -77.03,
+    "alt": 0.72
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "USA",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 38.9,
+     "lon": -77.03,
+     "kind": "area",
+     "ringKm": 54,
+     "label": "Washington",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Asia Times",
+     "text": "Calls the report disputed and raises questions about an Israeli role",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "Iran",
+     "text": "Rejects U.S. chemical or biological weapons allegations; compares them to pre-Iraq-war WMD claims",
+     "at": 5
+    }
+   ],
+   "sources": "A.B.C. News live updates, Asia Times, India Today, The Guardian"
+  },
+  {
+   "id": "mexico",
+   "seg": "mexico",
+   "tag": "MEXICO · Sinaloa",
+   "headline": "Mexico captures 'El Chapo Isidro', on F.B.I. Ten Most Wanted",
+   "sub": "Where: Sinaloa, by Mexico's military (Reuters via Devdiscourse)",
+   "cam": {
+    "lat": 24.7,
+    "lon": -107.5,
+    "alt": 0.92
+   },
+   "dur": 11.8,
+   "hi": [
+    {
+     "a": "MEX",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 25,
+     "lon": -107.5,
+     "kind": "area",
+     "ringKm": 69,
+     "label": "Sinaloa",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [
+    {
+     "icon": "doc",
+     "kicker": "Who",
+     "text": "Fausto Isidro Meza Flores, known as 'El Chapo Isidro'",
+     "at": 2.4
+    },
+    {
+     "icon": "alert",
+     "kicker": "How",
+     "text": "Special forces raid and shoot-out (B.B.C., Guardian)",
+     "at": 5
+    }
+   ],
+   "sources": "N.P.R., The Guardian, B.B.C., C.B.S. News"
+  },
+  {
+   "id": "travel",
+   "seg": "travel",
+   "tag": "U.S. · Seattle",
+   "headline": "ICE arrests at Seattle gate",
+   "sub": "Seattle (Al Jazeera, CBS): ICE officers arrested two passengers boarding an Alaska Airlines flight",
+   "cam": {
+    "lat": 47.31,
+    "lon": -122.33,
+    "alt": 0.75
+   },
+   "dur": 7.8,
+   "hi": [
+    {
+     "a": "USA",
+     "tone": "amber"
+    }
+   ],
+   "labels": [],
+   "markers": [
+    {
+     "lat": 47.61,
+     "lon": -122.33,
+     "kind": "area",
+     "ringKm": 56,
+     "label": "Seattle",
+     "side": "bottom",
+     "at": 0.3
+    }
+   ],
+   "cards": [],
+   "sources": "SkyFlashes, Yeshiva World, Al Jazeera, A.P."
+  }
+ ]
+}

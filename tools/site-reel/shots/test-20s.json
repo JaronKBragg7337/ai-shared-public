@@ -1,0 +1,16 @@
+{
+  "base": "https://www.heartbeatobservatory.com",
+  "fps": 30,
+  "hide": [],
+  "shots": [
+    { "card": "What is Heartbeat Observatory?", "sub": "A small company in Fort Wayne, Indiana", "dur": 2.5 },
+    { "goto": "/", "hold": 2 },
+    { "scroll": 900, "dur": 2.5 },
+    { "hold": 1 },
+    { "goto": "/tv/", "hold": 2 },
+    { "scroll": 700, "dur": 2 },
+    { "goto": "/render/anything/", "hold": 2.5 },
+    { "goto": "/news/", "hold": 2 },
+    { "card": "heartbeatobservatory.com", "sub": "Heartbeat Observatory LLC", "dur": 2.5 }
+  ]
+}

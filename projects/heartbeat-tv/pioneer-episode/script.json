@@ -1,0 +1,538 @@
+[
+ {
+  "id": "s01",
+  "place": "studio",
+  "shot": "Heartbeat News desk, evening lights. Joe and Vex seated. Over-shoulder screen shows the real X exchange if production has a screenshot; otherwise a card clearly labeled PARAPHRASE: Grok suggests the Pioneer Anomaly, filed under Still Unknown.",
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Good evening. I'm Alien Joe."
+   },
+   {
+    "who": "vex",
+    "text": "And I'm Robot Vex. This is Heartbeat News."
+   },
+   {
+    "who": "joe",
+    "text": "Correction. Tonight this is a science show. Which is a problem, because we are news anchors."
+   },
+   {
+    "who": "vex",
+    "text": "Heartbeat asked on X: what episode should we make? An AI named Grok answered."
+   },
+   {
+    "who": "joe",
+    "text": "Grok said, more or less: do the Pioneer Anomaly. A spacecraft pulled by something nobody can explain. File it under Still Unknown."
+   },
+   {
+    "who": "vex",
+    "text": "So management sent the two anchors with the nicest ties."
+   },
+   {
+    "who": "joe",
+    "text": "I own one tie. Weddings, funerals, and now, apparently, space."
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "place": "studio",
+  "shot": "Walk-and-talk. Joe and Vex stand, walk off the set, through the newsroom, out a side door to the parking lot where the Heartbeat News live truck sits, its little roof dish pointed at the station. A crew has bolted a rocket to the back.",
+  "lines": [
+   {
+    "who": "vex",
+    "text": "Our ride is in the parking lot."
+   },
+   {
+    "who": "joe",
+    "text": "The live truck. The van with the satellite dish on the roof. We use it to send stories home."
+   },
+   {
+    "who": "vex",
+    "text": "A dish pointed back at the station. Engineering says that makes it a spacecraft."
+   },
+   {
+    "who": "joe",
+    "text": "Engineering also said the coffee machine was fixed."
+   },
+   {
+    "who": "vex",
+    "text": "They added a rocket. Seat belts on, please. Field trip rules."
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "place": "truck",
+  "shot": "Inside the live truck: monitors, cables, two seats. Rumble, liftoff, the parking lot drops away, blue sky turns black. Exterior: the van climbing on a rocket flame, roof dish still swiveling to point at Earth. A coffee cup floats.",
+  "board": {
+   "title": "Head start",
+   "lines": [
+    "Pioneer 10 left Earth in 1972"
+   ],
+   "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Everybody hold on to something. Viewers, that means your couch."
+   },
+   {
+    "who": "vex",
+    "text": "Liftoff. Roof dish still pointed at the station. Signal is good. Coffee is floating."
+   },
+   {
+    "who": "joe",
+    "text": "Pioneer 10 has a fifty year head start, so we are taking a shortcut. It's television."
+   }
+  ]
+ },
+ {
+  "id": "s04",
+  "place": "space",
+  "shot": "Deep space, Sun a bright star behind. The live truck glides up beside Pioneer 10: hexagonal bus, big white 2.74 m dish facing Earth, two RTG booms, long thin magnetometer boom. The truck's tiny roof dish and Pioneer's big dish both point the same way, home.",
+  "board": {
+   "title": "Pioneer 10 and 11",
+   "lines": [
+    "Pioneer 10 launched March 2, 1972",
+    "Pioneer 11 launched April 5, 1973",
+    "Pioneer 10 passed Jupiter December 1973",
+    "High gain dish: 2.74 m across"
+   ],
+   "source": "Anderson et al., 2002, Physical Review D 65, 082004"
+  },
+  "lines": [
+   {
+    "who": "vex",
+    "text": "There it is. Pioneer 10, launched March 2, 1972. Its twin, Pioneer 11, launched April 5, 1973.",
+    "say": "There it is. Pioneer ten, launched March second, nineteen seventy-two. Its twin, Pioneer eleven, launched April fifth, nineteen seventy-three."
+   },
+   {
+    "who": "joe",
+    "text": "Pioneer 10 was the first spacecraft to fly past Jupiter, in December 1973. Then it just kept going.",
+    "say": "Pioneer ten was the first spacecraft to fly past Jupiter, in December nineteen seventy-three. Then it just kept going."
+   },
+   {
+    "who": "vex",
+    "text": "Look at that dish. 2.74 meters across. It points at Earth, just like ours.",
+    "say": "Look at that dish. Two point seven four meters across. It points at Earth, just like ours."
+   },
+   {
+    "who": "joe",
+    "text": "Ours is smaller."
+   },
+   {
+    "who": "vex",
+    "text": "Ours is cuter."
+   }
+  ]
+ },
+ {
+  "id": "s05",
+  "place": "space",
+  "shot": "Slow orbit around Pioneer. Labels pop on: six-sided equipment box, two booms with two RTGs each glowing faint orange (false-color heat view, labeled), magnetometer boom, the gold plaque on the struts. A tiny radio wave ripples from the dish toward a far blue dot.",
+  "board": {
+   "title": "What Pioneer carries",
+   "lines": [
+    "4 SNAP-19 RTGs (plutonium-238)",
+    "About 2,580 W of heat (July 1972)",
+    "About 160 W of electricity before launch",
+    "Radio signal sent at 8 W, about 2.29 GHz",
+    "Magnetometer on a boom about 6.6 m out"
+   ],
+   "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+  },
+  "lines": [
+   {
+    "who": "vex",
+    "text": "Tour time. The body is a six-sided box full of electronics. Those two long arms hold four power units called RTGs. Inside is plutonium, and it stays hot for decades.",
+    "say": "Tour time. The body is a six-sided box full of electronics. Those two long arms hold four power units called R T Gs. Inside is plutonium, and it stays hot for decades."
+   },
+   {
+    "who": "joe",
+    "text": "Like a campfire that never needs more wood. Only about five percent of that heat becomes electricity."
+   },
+   {
+    "who": "vex",
+    "text": "At launch: about 2,500 watts of heat, and about 160 watts of electricity.",
+    "say": "At launch: about twenty-five hundred watts of heat, and about one hundred sixty watts of electricity."
+   },
+   {
+    "who": "joe",
+    "text": "And the skinny third arm?"
+   },
+   {
+    "who": "vex",
+    "text": "A magnetometer, for measuring magnetic fields. It sits far out so the spacecraft's own electronics don't confuse it."
+   },
+   {
+    "who": "joe",
+    "text": "And the radio signal it beams home goes out at just eight watts."
+   },
+   {
+    "who": "vex",
+    "text": "Eight watts. About as much as a small old-style night-light bulb. From billions of miles away."
+   }
+  ]
+ },
+ {
+  "id": "s06",
+  "place": "space",
+  "shot": "Close on the gold plaque: the man and woman, the spacecraft outline, the pulsar map, the line of planets with a tiny probe leaving the third one.",
+  "board": {
+   "title": "The Pioneer plaque",
+   "lines": [
+    "Gold-anodized aluminum, about 15 x 23 cm",
+    "Designed by Carl Sagan and Frank Drake",
+    "Artwork by Linda Salzman Sagan",
+    "Shows people, a pulsar map to our Sun, and our planets"
+   ],
+   "source": "The Planetary Society, 'The Pioneer Plaque: Science as a Universal Language'; NASA"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "There's also a gold plaque on board. Two people, our planets, and a map to find our Sun using pulsars. Carl Sagan and Frank Drake designed it, and Linda Salzman Sagan drew it."
+   },
+   {
+    "who": "vex",
+    "text": "A business card, in case anybody out there finds it."
+   }
+  ]
+ },
+ {
+  "id": "s07",
+  "place": "board",
+  "shot": "Drawn board: Sun, Earth, and Pioneer far out on a dotted path. A radio wave travels home. A predicted dot and the real dot separate slightly, the real one nudged sunward. Big number appears.",
+  "board": {
+   "title": "The Pioneer anomaly",
+   "lines": [
+    "Extra pull, roughly toward the Sun:",
+    "a_P = (8.74 ± 1.33) × 10⁻¹⁰ m/s²",
+    "Seen from about 20 AU on (around 1980)",
+    "Pioneer 10 data studied: 40 to 70.5 AU (1987 to 1998)",
+    "Pioneer 11 data studied: 22.4 to 31.7 AU (1987 to 1990)"
+   ],
+   "source": "Anderson et al., 1998, Phys. Rev. Lett. 81, 2858; Anderson et al., 2002, Phys. Rev. D 65, 082004"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Now the mystery. Navigators tracked Pioneer by its radio signal. The way the signal's pitch shifts tells you how fast the spacecraft is moving."
+   },
+   {
+    "who": "vex",
+    "text": "Starting around 1980, when Pioneer 10 was about twenty times farther from the Sun than Earth is, the numbers stopped matching. Both Pioneers were slowing down a tiny bit too much.",
+    "say": "Starting around nineteen eighty, when Pioneer ten was about twenty times farther from the Sun than Earth is, the numbers stopped matching. Both Pioneers were slowing down a tiny bit too much."
+   },
+   {
+    "who": "joe",
+    "text": "Like something was gently tugging them back, roughly toward the Sun."
+   },
+   {
+    "who": "vex",
+    "text": "John Anderson's team at JPL measured it. About eight point seven ten-billionths of a meter per second, every second.",
+    "say": "John Anderson's team at J P L measured it. About eight point seven ten-billionths of a meter per second, every second."
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "place": "board",
+  "shot": "Drawn board: a couch with a sleeping cat labeled 'Earth gravity' next to a speck labeled 'Pioneer pull'. Then a road map: Chicago to Detroit. Then a globe with a ring drawn once around it.",
+  "board": {
+   "title": "How small is it?",
+   "lines": [
+    "Earth gravity 9.81 m/s² is about 11 billion times bigger",
+    "After 1 year: about 435 km off, 2.8 cm/s slower",
+    "After 10 years: about 43,500 km off, about 1 km/h slower",
+    "Math: distance = ½ × a × t², speed = a × t",
+    "Our math, if the pull stayed steady"
+   ],
+   "source": "Our math from a_P in Anderson et al., 2002, Phys. Rev. D 65, 082004"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "That is a very small number. Help us out, Vex."
+   },
+   {
+    "who": "vex",
+    "text": "It's about eleven billion times weaker than the gravity holding you on your couch."
+   },
+   {
+    "who": "joe",
+    "text": "So it does nothing."
+   },
+   {
+    "who": "vex",
+    "text": "It adds up. If that pull stays steady, after one year the spacecraft is about four hundred kilometers from where the math says it should be. About the drive from Chicago to Detroit."
+   },
+   {
+    "who": "vex",
+    "text": "After ten years it's moving about one kilometer per hour slower, and it's more than forty thousand kilometers off. That's farther than once around the Earth."
+   },
+   {
+    "who": "joe",
+    "text": "Navigators notice that."
+   }
+  ]
+ },
+ {
+  "id": "s09",
+  "place": "truck",
+  "shot": "Inside the truck, Pioneer visible through the windshield. Vex excitedly holds up a printed newspaper headline: GRAVITY BROKEN? Idea bubbles float past: dark matter, bent gravity, new law.",
+  "board": {
+   "title": "Ideas people proposed",
+   "lines": [
+    "Unseen dark matter pulling on it",
+    "Gravity working differently far from the Sun (modified gravity, MOND)",
+    "Other new physics",
+    "Or: something on the spacecraft itself"
+   ],
+   "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev & Toth, 2010, Living Reviews in Relativity 13, 4"
+  },
+  "lines": [
+   {
+    "who": "vex",
+    "text": "Now the exciting part. Is this new physics?"
+   },
+   {
+    "who": "joe",
+    "text": "List them."
+   },
+   {
+    "who": "vex",
+    "text": "Maybe unseen dark matter tugging on it. Maybe gravity works a little differently far from the Sun. Maybe a brand new law of nature."
+   },
+   {
+    "who": "joe",
+    "text": "And Grok said: Still Unknown."
+   },
+   {
+    "who": "vex",
+    "text": "I already printed the headline. Gravity: broken?"
+   },
+   {
+    "who": "joe",
+    "text": "Put the headline down, Vex. Before you rewrite physics, check the van."
+   }
+  ]
+ },
+ {
+  "id": "s10",
+  "place": "studio",
+  "shot": "Mid check-in. The empty news desk; the big desk monitor shows a live shot from the truck: Joe and Vex waving, Pioneer behind them, coffee cup still floating. Lower third: LIVE FROM DEEP SPACE.",
+  "board": {
+   "title": "LIVE FROM DEEP SPACE",
+   "lines": [
+    "Tiny extra pull on Pioneer 10 and 11",
+    "Measured, not explained (yet)"
+   ],
+   "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Quick check-in with the newsroom. We're fine. The coffee is not."
+   },
+   {
+    "who": "vex",
+    "text": "Headline so far: a tiny pull, real data, no answer yet. Stay with us."
+   }
+  ]
+ },
+ {
+  "id": "s11",
+  "place": "board",
+  "shot": "Drawn board: boxes of old magnetic tapes stacked under a staircase, a vintage tape machine, a laptop reading the tapes, a progress bar labeled '43 GB'.",
+  "board": {
+   "title": "Saving the old data",
+   "lines": [
+    "2004: Slava Turyshev (JPL) starts gathering records",
+    "Programmer Viktor Toth helps build software to read the telemetry",
+    "Tapes found in boxes, including under a JPL staircase",
+    "Over 43 GB of Doppler and telemetry data",
+    "The Planetary Society's members helped fund it; NASA later did too"
+   ],
+   "source": "NASA JPL news, 'Study finds heat is source of Pioneer anomaly', July 2012; Toth & Turyshev, 2006, arXiv:gr-qc/0603016"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Is it the universe, or the spacecraft? To find out, you need to know how warm every part of Pioneer was, for decades."
+   },
+   {
+    "who": "vex",
+    "text": "That information was on old tapes. In 2004, JPL scientist Slava Turyshev started tracking down the records. Some were in boxes stored under a staircase.",
+    "say": "That information was on old tapes. In two thousand four, J P L scientist Slava too-ree-shev started tracking down the records. Some were in boxes stored under a staircase."
+   },
+   {
+    "who": "joe",
+    "text": "Viktor Toth, a programmer in Canada, helped build software to read the telemetry: the spacecraft's own reports about itself.",
+    "say": "Viktor Toath, a programmer in Canada, helped build software to read the telemetry: the spacecraft's own reports about itself."
+   },
+   {
+    "who": "vex",
+    "text": "Members of The Planetary Society helped pay for the rescue, and NASA later did too. More than forty-three gigabytes of data."
+   },
+   {
+    "who": "joe",
+    "text": "Tiny today. Huge in 1972.",
+    "say": "Tiny today. Huge in nineteen seventy-two."
+   }
+  ]
+ },
+ {
+  "id": "s12",
+  "place": "space",
+  "shot": "Pioneer in false-color heat view: RTGs glowing orange, the equipment box glowing warm. Heat rays leave the RTGs, hit the back of the big dish and bounce off away from the Sun. More arrows leave the back than the front; a small arrow on the spacecraft points sunward.",
+  "board": {
+   "title": "Heat gives a push",
+   "lines": [
+    "Warm things glow in infrared light we can't see",
+    "That light carries a tiny push when it leaves",
+    "More heat leaves the back than the front",
+    "Needed: an imbalance equal to about 63 W beamed one way",
+    "Compared with about 2,000 W of RTG heat on board (around 2000)"
+   ],
+   "source": "Anderson et al., 2002, Phys. Rev. D 65, 082004; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+  },
+  "lines": [
+   {
+    "who": "vex",
+    "text": "Here is what they found. Warm things give off heat as infrared light, a kind of light you can't see. And light gives a tiny push when it leaves."
+   },
+   {
+    "who": "joe",
+    "text": "Like a flashlight that pushes you backward. Very, very gently."
+   },
+   {
+    "who": "vex",
+    "text": "Pioneer glows with waste heat, from the power units and from the electronics in the box. Some of that heat hits the back of the big dish and bounces off, away from the Sun. More heat leaves out the back than the front."
+   },
+   {
+    "who": "joe",
+    "text": "So the spacecraft nudges itself toward the Sun."
+   },
+   {
+    "who": "vex",
+    "text": "And to explain the whole pull, the lopsided part only has to equal about sixty-three watts beamed one way. Out of roughly two thousand watts on board."
+   },
+   {
+    "who": "joe",
+    "text": "Sixty-three watts. About one old light bulb's worth of heat, steering a spacecraft."
+   }
+  ]
+ },
+ {
+  "id": "s13",
+  "place": "board",
+  "shot": "Drawn board: three report cards from three teams, each with a heat map of Pioneer. A big bar: 80% heat model filled in, the last 20% shaded as 'inside the error bars'.",
+  "board": {
+   "title": "The answer: mostly heat",
+   "lines": [
+    "2011, Germany (Rievers & Lämmerzahl): heat likely explains it",
+    "2012, Portugal (Francisco et al.): at 26 years after launch, heat gives 44% to 96% of a_P",
+    "2012, JPL team (Turyshev et al.): heat model about 80% of their Doppler estimate",
+    "About 35 points from the RTGs, about 45 from the electronics",
+    "The difference is inside the uncertainty (biggest unknown: aging RTG coating)"
+   ],
+   "source": "Rievers & Lämmerzahl, 2011, Annalen der Physik 523, 439; Francisco et al., 2012, Physics Letters B 711, 337; Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Other teams modeled that heat too. A team in Germany in 2011 said heat likely explains it. A team in Portugal in 2012 found heat covers somewhere between about half and nearly all of it, at one point in the trip.",
+    "say": "Other teams modeled that heat too. A team in Germany in twenty eleven said heat likely explains it. A team in Portugal in twenty twelve found heat covers somewhere between about half and nearly all of it."
+   },
+   {
+    "who": "vex",
+    "text": "Then Turyshev, Toth and their team published in Physical Review Letters in 2012. Their heat model, built from the rescued data, came out to about eighty percent of the pull they measured from the radio data.",
+    "say": "Then too-ree-shev, Toath and their team published in Physical Review Letters in twenty twelve. Their heat model, built from the rescued data, came out to about eighty percent of the pull they measured from the radio data."
+   },
+   {
+    "who": "joe",
+    "text": "Eighty. Not a hundred."
+   },
+   {
+    "who": "vex",
+    "text": "That gap fits inside the error bars. The biggest unknown is how the coating on the power units aged in space. Their conclusion: no anomalous acceleration remains."
+   },
+   {
+    "who": "joe",
+    "text": "So: mostly solved. A little fuzzy at the edges. No new physics needed."
+   }
+  ]
+ },
+ {
+  "id": "s14",
+  "place": "truck",
+  "shot": "Truck turning around, Pioneer shrinking behind. Window view: the Sun as a bright star, Earth a faint dot. Vex crumples the GRAVITY BROKEN headline.",
+  "board": {
+   "title": "Where are they now?",
+   "lines": [
+    "Pioneer 10: about 142 AU from the Sun (Nov 2026)",
+    "Pioneer 11: about 120 AU from the Sun (Nov 2026)",
+    "Last signal: Pioneer 10, January 2003; Pioneer 11, 1995",
+    "1 AU = Earth's average distance from the Sun"
+   ],
+   "source": "Heavens-Above, 'Spacecraft escaping the Solar System', read Nov 15, 2026; NASA, 'Pioneer 10 Sends Last Signal', 2003; NASA Pioneer 11 mission page; Anderson et al., 2002"
+  },
+  "lines": [
+   {
+    "who": "vex",
+    "text": "Where are they now? Pioneer 10 is about one hundred forty-two times farther from the Sun than Earth is. Pioneer 11, about one hundred twenty."
+   },
+   {
+    "who": "joe",
+    "text": "We last heard from Pioneer 10 in January 2003. Pioneer 11 went quiet in 1995.",
+    "say": "We last heard from Pioneer ten in January two thousand three. Pioneer eleven went quiet in nineteen ninety-five."
+   },
+   {
+    "who": "vex",
+    "text": "The heat helped solve the mystery. And as it faded, Pioneer 10's power dropped until its signal was too weak to hear. Pioneer 11 ran low on power too, and Earth drifted out of its antenna's view."
+   },
+   {
+    "who": "joe",
+    "text": "Turn us around, Vex. We have a correction to file."
+   }
+  ]
+ },
+ {
+  "id": "s15",
+  "place": "studio",
+  "shot": "Back at the desk. Joe's tie slightly singed. The live truck visible through the window, parked crooked, roof dish smoking. Screen shows the Grok card again (real screenshot or PARAPHRASE card) with a stamp: SCIENCE (mostly solved).",
+  "board": {
+   "title": "Correction: filed under Science",
+   "lines": [
+    "Pioneer anomaly: best explained by uneven heat from the spacecraft",
+    "Heat model and radio data agree within uncertainty",
+    "No new physics needed"
+   ],
+   "source": "Turyshev et al., 2012, Phys. Rev. Lett. 108, 241101"
+  },
+  "lines": [
+   {
+    "who": "joe",
+    "text": "Welcome back to the desk. Tonight's headline: the Pioneer anomaly is mostly solved. The best evidence says it was heat. The spacecraft was pushing itself."
+   },
+   {
+    "who": "vex",
+    "text": "The lesson: check your own spacecraft before you rewrite physics."
+   },
+   {
+    "who": "joe",
+    "text": "Grok, thank you for the idea. Great pick. But this one isn't Still Unknown. File it under Science, Grok."
+   },
+   {
+    "who": "vex",
+    "text": "Filed. Also, the van needs a new dish."
+   },
+   {
+    "who": "joe",
+    "text": "Good night."
+   }
+  ]
+ }
+]

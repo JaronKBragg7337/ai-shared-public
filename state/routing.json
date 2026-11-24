@@ -1,22 +1,178 @@
 {
-  "thresholds": {"used_pct_5h": 85, "used_pct_week": 90},
-  "paused": [],
-  "kinds": {
-    "looks": {"keywords": ["asset", "character", "set", "visual", "ship", "look", "art", "model"], "candidates": ["claude-sonnet", "codex-sol", "grok-build"]},
-    "build": {"keywords": ["system", "multiplayer", "economy", "architecture", "major build"], "candidates": ["codex-sol", "claude-sonnet", "grok-build"]},
-    "chore": {"keywords": ["publish", "check", "docs", "plumbing", "small fix", "data", "verify", "fix", "documentation"], "candidates": ["codex-luna", "grok-fast", "gpt-reserve"]},
-    "research": {"keywords": ["research", "review", "second opinion", "investigate", "compare"], "candidates": ["grok-build", "codex-luna", "claude-haiku"]},
-    "judgment": {"keywords": ["judgment", "orchestrate", "decide", "route"], "candidates": ["claude-opus"]}
+ "thresholds": {
+  "used_pct_5h": 85,
+  "used_pct_week": 90
+ },
+ "paused": [],
+ "kinds": {
+  "looks": {
+   "keywords": [
+    "asset",
+    "character",
+    "set",
+    "visual",
+    "ship",
+    "look",
+    "art",
+    "model"
+   ],
+   "candidates": [
+    "claude-sonnet",
+    "codex-sol"
+   ]
   },
-  "agents": {
-    "claude-opus": {"label": "Claude Opus", "provider": "claude", "model": "opus", "meter": "claude"},
-    "claude-sonnet": {"label": "Claude Sonnet", "provider": "claude", "model": "sonnet", "meter": "claude"},
-    "claude-haiku": {"label": "Claude Haiku", "provider": "claude", "model": "haiku", "meter": "claude"},
-    "fable": {"label": "Fable", "provider": "claude", "model": "fable", "meter": "claude", "blocked": true},
-    "codex-sol": {"label": "GPT-6.1 Sol", "provider": "codex", "model": "gpt-6.1-sol", "meter": "codex"},
-    "codex-luna": {"label": "GPT-6 Luna", "provider": "codex", "model": "gpt-6-luna", "meter": "codex"},
-    "gpt-reserve": {"label": "GPT-Reserve", "provider": "codex", "model": "gpt-reserve", "meter": "reserve"},
-    "grok-build": {"label": "Grok 4.7 Build", "provider": "grok", "model": "grok-4.7", "meter": "grok"},
-    "grok-fast": {"label": "Grok 4.7 Build Fast", "provider": "grok", "model": "grok-4.7-build-fast", "meter": "grok"}
+  "build": {
+   "keywords": [
+    "system",
+    "multiplayer",
+    "economy",
+    "architecture",
+    "major build"
+   ],
+   "candidates": [
+    "codex-sol",
+    "claude-sonnet",
+    "grok-build"
+   ]
+  },
+  "chore": {
+   "keywords": [
+    "publish",
+    "check",
+    "docs",
+    "plumbing",
+    "small fix",
+    "data",
+    "verify",
+    "fix",
+    "documentation"
+   ],
+   "candidates": [
+    "codex-luna",
+    "grok-fast",
+    "gpt-reserve"
+   ]
+  },
+  "research": {
+   "keywords": [
+    "research",
+    "review",
+    "second opinion",
+    "investigate",
+    "compare"
+   ],
+   "candidates": [
+    "grok-build",
+    "codex-luna"
+   ]
+  },
+  "judgment": {
+   "keywords": [
+    "judgment",
+    "orchestrate",
+    "decide",
+    "route"
+   ],
+   "candidates": [
+    "claude-opus"
+   ]
+  },
+  "frontier": {
+   "keywords": [
+    "frontier",
+    "hardest",
+    "hard problem",
+    "stuck",
+    "breakthrough",
+    "no one could solve"
+   ],
+   "candidates": [
+    "claude-opus",
+    "fable"
+   ]
+  },
+  "world": {
+   "keywords": [
+    "world",
+    "game",
+    "3d",
+    "environment",
+    "terrain",
+    "scene",
+    "realistic",
+    "level",
+    "map"
+   ],
+   "candidates": [
+    "claude-opus",
+    "fable",
+    "claude-sonnet",
+    "codex-sol"
+   ],
+   "note": "Jaron 11/19: any world or game gets the TOP models only (never Luna or Terra). Realistic looks in worlds and games get people's attention most."
   }
+ },
+ "agents": {
+  "claude-opus": {
+   "label": "Claude Opus",
+   "provider": "claude",
+   "model": "opus",
+   "meter": "claude"
+  },
+  "claude-sonnet": {
+   "label": "Claude Sonnet",
+   "provider": "claude",
+   "model": "sonnet",
+   "meter": "claude"
+  },
+  "claude-haiku": {
+   "label": "Claude Haiku",
+   "provider": "claude",
+   "model": "haiku",
+   "meter": "claude"
+  },
+  "fable": {
+   "label": "Fable",
+   "provider": "claude",
+   "model": "fable",
+   "meter": "claude"
+  },
+  "codex-sol": {
+   "label": "GPT-6.2 Sol",
+   "provider": "codex",
+   "model": "gpt-6.2-sol",
+   "meter": "codex"
+  },
+  "codex-luna": {
+   "label": "GPT-6 Luna",
+   "provider": "codex",
+   "model": "gpt-6-luna",
+   "meter": "codex"
+  },
+  "gpt-reserve": {
+   "label": "GPT-Reserve",
+   "provider": "codex",
+   "model": "gpt-reserve",
+   "meter": "reserve"
+  },
+  "grok-build": {
+   "label": "Grok 4.7 Build",
+   "provider": "grok",
+   "model": "grok-4.7",
+   "meter": "grok"
+  },
+  "grok-fast": {
+   "label": "Grok 4.7 Build Fast",
+   "provider": "grok",
+   "model": "grok-4.7-build-fast",
+   "meter": "grok"
+  },
+  "codex-astra": {
+   "label": "GPT-6.2 Astra",
+   "provider": "codex",
+   "model": "gpt-6.2-astra",
+   "meter": "codex",
+   "note": "TESTS ONLY (Jaron 11/19): same test set the other models get; not for work, it runs out before finishing and someone else has to finish."
+  }
+ }
 }

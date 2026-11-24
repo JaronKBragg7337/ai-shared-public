@@ -1,0 +1,3 @@
+# Science 8.7 - fixes after Grok QA (2026-11-02 evening)
+Fixed and re-shipped (site c43253d): "Beyond EPICA" re-voiced as "Eppica" (whisper now hears "Epica"); "skuas" re-voiced as "skew-uhs" (now heard as "skewers", close to the real SKYOO-uhz); music bed lowered from 0.15 to 0.10. verify_voice PASS (verify_ignore.txt lists EPICA, skuas, Adélie, flu as names whisper mis-spells). "Whillans" kept: the real name is said "WILL-ənz".
+Not fixed (need new Blender shots): bone-model line over the clay shot; empty shore under the bird-flu line (on purpose: no fake birds); treaty line over icebergs; kitchen line over the station exterior; Mercer cutaway end gap; drill hut on the ice with no visible borehole.

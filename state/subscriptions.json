@@ -1,6 +1,6 @@
 {
- "note": "What the system costs (Jaron 10/19: Claude $100, Codex $20, Grok $30, Kimi $39, Supabase $25, then DeepSeek API credits). Paid on the web with the X Money card, never Apple; Grok prepaid ~3 months. Split of profit above $400: Control Room row profit_split (50 trade / 30 bills / 20 Jaron, his 20% stays in for now). tools/ai-budget.py reads 'monthly'. Rebuilt 10/19 from the 9/13 copy after Claude overwrote it by mistake - edits between 9/13 and 10/19 may be lost.",
- "as_of": "2026-10-19",
+ "note": "What the system costs (Jaron 10/19: Claude $100, Codex $20, Grok $30, Kimi $39, Supabase $25, then DeepSeek API credits). Paid on the web with the X Money card, never Apple; Grok prepaid ~3 months. Split of profit above $400: Control Room row profit_split (50 trade / 30 bills / 20 Jaron, his 20% stays in for now). tools/ai-budget.py reads 'monthly'. Rebuilt 10/19 from the 9/13 copy after Claude overwrote it by mistake - edits between 9/13 and 10/19 may be lost. | 10/28: dates + full history now in projects/life/BILLS.md (the source of truth).",
+ "as_of": "2026-10-28",
  "monthly": [
   {
    "name": "Claude (Anthropic)",
@@ -18,31 +18,36 @@
    "name": "Grok (xAI)",
    "plan": "SuperGrok",
    "usd": 30,
-   "card": "prepaid ~3 months"
+   "card": "Apple (paid 10/20s; move to web before Jan 10)",
+   "next": "2027-01-10"
   },
   {
    "name": "Kimi",
    "plan": "$39",
    "usd": 39,
-   "card": "X Money"
+   "card": "Apple (move to web)",
+   "next": "2026-11-02"
   },
   {
    "name": "Supabase",
    "plan": "Pro",
    "usd": 25,
-   "card": "X Money"
+   "card": "X Money",
+   "next": "2026-11-22"
   },
   {
    "name": "Postiz (social auto-posting)",
-   "plan": "after trial ends 10/24",
+   "plan": "$29/mo",
    "usd": 29,
-   "card": "X Money"
+   "card": "X Money",
+   "next": "~2026-11-24"
   },
   {
    "name": "X Premium (company @HeartbeatObserv)",
    "plan": "Premium",
-   "usd": 15,
-   "card": "check"
+   "usd": 30,
+   "card": "check",
+   "next": "2026-11-17"
   }
  ],
  "after_monthly": [
@@ -82,5 +87,5 @@
   "cost_usd": 0,
   "provenance": "Given by his partner (her old school computer), not bought"
  },
- "monthly_total_usd": 258
+ "monthly_total_usd": 273
 }

@@ -1,4 +1,4 @@
-# Jaron's map — for iPhone Notes (checked 2026-09-23 by Codex; updated 2026-10-17 by Claude Code)
+# Jaron's map — for iPhone Notes (checked 2026-09-23 by Codex; updated 2026-10-17, stale-sweep 2026-10-21 by Claude Code)
 Paste as plain text. Every public URL is complete and on its own line.
 Local C:\ paths will not open on the phone. Ask a connected AI to read them.
 A page loading does not prove its live data or game controls work.
@@ -6,7 +6,7 @@ Jaron's bracket edits are preserved where still current.
 
 === WHERE THINGS ARE ===
 
-AI-SHARED — C:\Users\lilli\AI-Shared — local workspace, not a public repo
+AI-SHARED — C:\Users\lilli\AI-Shared — private GitHub repo JaronKBragg7337/ai-shared (since 10/21, nightly save 11:55 PM with a key check) + a cleaned public copy github.com/JaronKBragg7337/ai-shared-public
   Start here: handoffs\ — read the newest. For Claude chat: handoffs\2026-10-17-claude-code-to-claude-chat.md
   Agent entry: AGENTS.md · folder rule: README.md
   Roles: OPERATING-MAP.md · folder/agent index: INDEX.json
@@ -20,7 +20,7 @@ AI-SHARED — C:\Users\lilli\AI-Shared — local workspace, not a public repo
   Engine of Butter Fuck (parked, not cancelled): projects\engine-of-butter-fuck\README.md
   Games inventory: projects\games\INVENTORY-2026-09-22.md
   What each job cost: state\task-costs.jsonl · usage history: state\usage-snapshots.md
-  Bills: state\subscriptions.json ($95/mo, Supabase Pro bought 9/23)
+  Bills: state\subscriptions.json (~$258/mo since 10/20: Claude $100, Codex $20, Grok $30, Kimi $39, Supabase $25, Postiz $29 from 10/24, X Premium $15, plus DeepSeek credits; details projects\runs-without-jaron\RUNBOOK.md)
   This map: JARONS-MAP.md
   When it breaks: WHEN-IT-BREAKS.md — symptom → cause → what to do
   Reconnect steps (logins, keys): RECONNECT.md · login status: state\logins.md
@@ -125,25 +125,26 @@ CLAUDE CODE — builds the site and system; 3:00 AM news capture (watch-collect,
 CLAUDE CHAT — Heartbeat MAI connector (same server as Grok Machine / msi-heartbeat, port 3001; up 9/28).
 CODEX — daily watch writer uses GPT-6 Luna, the cheap seat. Astra is for hard fly/kernel work.
   MSI Windows task at 03:00 -> watch\codex\. 3:00 AM funding lane.
-GROK BOT — one app, rebuilt 9/26 as "the twins" (updated 2026-09-28):
+GROK BOT — one app, rebuilt 9/26 as "the twins" (updated 2026-09-28; 10/21: Darios (:22) + Satya (:52) trade every day noon-1 AM, Demis is OFF since 10/4, tennis off, Link = X watch, Jarons Twin new 10/21; the lines below are the 9/28 version):
   Darios Twin — the live trader. Trades live games on its own judgement; hard limits live in desk-trade.py. It REUSES the retired Live Wire's tag
     grok-bot/live-wire - trades before 2026-09-25 6:58 PM ET are Live Wire's, after are Darios Twin's. Log: state\live-wire.md (routine text is fixed in the app; the file name is just a path).
   Sams Twin — the X desk (v1 name Bridge). Reads X sentiment for the markets; never trades.
   Elons Twin — Mondays 8:25 AM: scores the system's economy against beating Elon's net worth by Dec 31.
   Scout is retired (DeepSeek does price-blind research now).
 GROK BUILD (CLI on the MSI) — grok-4.7. SEPARATE meter from Grok Bot.
-  Out of its own allowance 9/22. No 08:00 MSI task or runner found 9/23.
+  (9/22-23: was out of allowance, no 08:00 task.) 10/21: working - runs the Meridian desk 2:50 AM, blind-spot check 3:35 AM, and messages the Grok Bot bots; separate meter.
 GROK CHAT — X, papers, quick reads, small builds and tests. Connector: Grok Machine
 GROK ON X — compass icon in the X app. Own history, OWN usage pool. No connector. Third-person / red-team reads.
 CHATGPT CHAT — own usage pool. Designs experiments. Can't keep a process alive. Connector: Desktop Commander
 CHATGPT WORK — shares Codex pool. Roofing scan daily.
 DEEPSEEK — API credits, pennies. Windows task 03:40 -> watch\deepseek\. Reads captures, no web.
 QWEN — local, no TOS, free. tools\qwen-bridge.py. Not meant to touch money.
-KIMI DESKTOP — its own agent runtime, own plan, local gateway on 18679 when the app is open. Fourth writer candidate, not wired.
+KIMI — its own plan ($39/mo via Apple). Kimi Code CLI on the MSI; runs the First Light Eastern-hemisphere news desk daily (live since 10/9) and teaches Sapling. Desktop app has a local gateway on 18679 when open.
 GEMINI — phone only; Google fact checks; READ-ALOUD button. Ask "did you read it?" before trusting a review. Flatters.
 SCRIPTS — proposer / verifier / executor / fly / watcher. Dumb, forever.
 
 === THE DAY, ACTUALLY VERIFIED ===
+UPDATE 10/21 (the schedule below is the 9/23 check; since 10/15 heavy work runs 3-6 AM): Meridian 2:50 (Grok Build) · Codex capture 3:00 (Luna) · Claude capture ~3:05 · funding lane 3:00 · blind-spot check 3:35 · DeepSeek reader 3:40 · cloud writer 3:45 (MSI backup 4:20) · render 3:50 (fast mode after 5:15) · live by 8 AM · socials 8:15 AM short / 6 PM show / 9:45 AM retry · Login Watch 5:50 · First Light 6:30 AM (time not re-checked). Sources: state/timeline.md 10/15, 10/16, 10/18-10/20.
 03:00 Codex writer — scheduled; 9/22 result 0.
 03:40 DeepSeek reader — scheduled; 9/22 result 0.
 08:00 Grok Build writer — NOT registered on this MSI.
@@ -151,7 +152,7 @@ SCRIPTS — proposer / verifier / executor / fly / watcher. Dumb, forever.
 Newest published brief and market feed: 2026-09-18.
 Do not assume today's feed exists. Darios Twin has other inputs;
 a fresh feed to it is unverified.
-Claude writer paused as of 9/22; 9/23 restart unverified.
+Claude writer: paused 9/22; running again (all 5 captures on time 10/16, timeline 10/16 7:12 AM).
 
 === WHAT I SAY ===
 
@@ -176,8 +177,8 @@ Claude Wed ~4 PM ET · Codex/Work Sat ~8:05 AM
 Grok chat Fri ~3 AM · Grok Build Fri ~2:58 AM · Grok Bot ~Fri.
 Check each app for its current balance and reset time.
 Claude emergency credits: toggle OFF by default.
-Claude banked reset was unspent 9/22; expires Oct 22.
-Codex banked reset: one available on 9/23; expires Oct 22.
+Claude: no banked reset on the account (Usage screen 10/21 8 PM: "No resets right now").
+Codex banked resets (checked 10/21): the Oct 22 one was used 10/1; two left, expiring Oct 29 1:21 PM and Nov 6 6:14 PM.
 Rule: the day's profit buys usage. A subscription upgrade is earned, not assumed.
 
 === MODELS, CHECKED 9/23 ===
@@ -201,14 +202,14 @@ https://x.com/HeartbeatObserv
 Social page: cream redesign, Official account, 3 AI news desks.
 https://www.heartbeatobservatory.com/social/
 TV channels 7-10 + The Necklace; watch tally. Sapling (Kimi teaches; Claude paused for Anthropic's answer).
-LLC: EIN + D-U-N-S done; business bank next.
+LLC: ACTIVE (10/9), EIN 10/14, D-U-N-S requested 10/14 (arrival not logged); business bank / Apple Developer next.
 
 === BROKEN RIGHT NOW ===
 Supabase — FIXED: Pro bought 9/23, working (used all day 10/17).
 Grok 08:00 writer — no MSI task or runner found (as of 9/23, not rechecked).
 Organizer — no public brief/feed newer than 9/18 (rechecked 10/17: still only 9/18).
 Grok Build — working (used 10/17).
-My ID — lost, so Stripe and Coinbase are blocked. Working with no new ID: Chime, Uphold, Kraken, X Money, Robinhood, PayPal, Crypto.com.
+My ID — lost, so Stripe and Coinbase are blocked (court mail arrived 10/13 and unblocks the replacement; not yet logged as replaced). Working with no new ID: Chime, Uphold, Kraken, X Money, Robinhood, PayPal, Crypto.com.
 
 === MONEY OUT THE DOOR ===
 P01 GOAT — submitted 9/21, waiting.
@@ -219,15 +220,14 @@ P10 Shieldz tip jar — live. No receipt claimed.
 Current statuses: use the funding ledger link above.
 
 === WAITING ON ME ===
-Q-004 — AI-Shared repo deferred until about 9/30.
+Q-004 — AI-Shared repo: DONE 10/21 (private repo + public cleaned copy; see decisions\OPEN-QUESTIONS.md).
 Q-005 — direct ChatGPT Work desk read, or CI route.
 Q-006 — payment rail and wiring; Stripe/Coinbase wait on ID.
 Q-009 — optional cloud-memory marker test.
 Q-014 — Qwen's long-term role.
 Q-019 — fly chemistry/hunger lead stays open.
 Q-020 — order of remaining fly biology work stays open.
-Q-021 — on roofing payday: Supabase Pro and disk resize,
-  then database repair and offline receipt replay.
+Q-021 — DONE 9/23: Supabase Pro, disk resize, database repair, receipt replay.
 Full wording and any later answers: decisions\OPEN-QUESTIONS.md
 
 THEATER UPLOAD LIMIT: 50 MB (~1 min of phone video), on purpose, because Supabase caps it there while the spend cap is on.

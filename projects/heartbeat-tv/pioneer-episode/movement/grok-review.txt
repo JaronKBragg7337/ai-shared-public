@@ -1,0 +1,30 @@
+I'll watch the movement test as video and mark only what the motion actually shows. First I'm checking the file and how I can play it, then I'll go through the walk, turns, stops, and the walk-and-talk.The file is a real 22.5-second, 24 fps render. One frame a second is only a map of the shot — next I’ll read those, then step through the motion much finer.Speech is only from about 12.1–19.5s; the opening is almost still. I’ll measure cuts frame by frame and look at the walk as consecutive frames so foot contact is visible.I could not play this as a moving picture or hear the audio. I decoded all 540 frames (24 fps), measured frame-to-frame change, and looked through each section in order, including closer crops of the cross, the stop, and the walk-and-talk. Sound is silent until 12.1 s, then present about 12.1–14.1 s, 14.5–16.2 s, and 17.1–19.5 s.
+
+The walk cycle inside each shot is in decent shape. The test is three hard picture jumps.
+
+**4.08 s — BIG.** One frame goes from the wide shot, Joe still a few meters off and walking toward camera, to a close profile cross with him already large on the right. Facing, stride, and distance all change at once. The turn into the cross is skipped.
+
+**6.21 s — BIG.** The close shot still has him large in the left foreground, walking away. The next frame is the wide shot again and he is already small at the far left. Same action, wrong distance.
+
+**11.38 s — MEDIUM.** Another hard cut, wide to a closer angle, while he is walking back toward the desk. The walk direction continues. The picture still pops.
+
+**4.08–6.21 s — MEDIUM.** On the locked wide camera, Vex sits left-of-center on the desk before the close-up and is at the right end of the desk when that wide camera returns. Same height. He does not travel there on screen.
+
+**7.9–9.5 s — SMALL.** The walk-away lands in a neat feet-together stance by about 7.9 s (he is still mid-stride at 7.4 s). He then holds that pose dead still, with no weight shift, until he steps off again around 9.5 s.
+
+**17.5–19.5 s — SMALL.** He is planted by about 17.5 s. Speech continues to about 19.5 s. A rough transcript of the last burst is "I'm the one doing the walking," said after the walk has already stopped. Mouth shapes are too small in frame to time against the words.
+
+Nothing wrong that I could see in these:
+
+- **Foot slide and foot swivel.** The cross (locked camera, 4.2–6.1 s) shows feet lifting and planting, with a small up-and-down bounce once per step. At 7.4 s one foot is clearly off the floor. I do not see a planted foot crawling or spinning.
+- **Float.** That same cross has visible step bounce. It does not read as weightless.
+- **The walking turn at 5.8–6.1 s.** He turns away over a couple of steps. I do not see a one-frame pivot.
+- **Starts.** First step is about 1.8 s after a still hold, and the restart around 9.5 s both ease in. No one-frame launch.
+- **Final stop, 16.2–17.8 s.** He decelerates out of a stride into feet together. That landing looks fine.
+- **Arms.** The profile cross and the walk-away both have opposition swing. No stuck T-pose.
+- **Head and neck.** No seam or gap in the back-of-neck stop or the closer frontal at 17.5 s.
+- **Vex hovering, aside from the station jump.** The base stays at a constant height, clear of the floor, and he does not tip or bob. His glide back toward center from about 9.7–11.2 s is smooth.
+- **Clipping.** Joe passes in front of Vex around 13.8–15.0 s with a visible gap. Vex's base sits in front of the desk, not in it, and not in Joe.
+- **Lip-sync.** I did not hear it. In the frontal frames during the last line his mouth is slightly open, and it is closed in the silent opening. I could not check phoneme timing.
+
+VERDICT: NEEDS FIXES

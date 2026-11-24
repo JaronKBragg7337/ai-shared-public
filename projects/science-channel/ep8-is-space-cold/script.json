@@ -1,0 +1,40 @@
+[
+ {
+  "id": "n01",
+  "text": "Is space cold? Mostly, yes. The faint glow left over from the Big Bang sits at about two point seven degrees above absolute zero. So you would think space is the perfect place to cool things down. It is not. Deep space has a very cold background, but objects in sunlight can get hot, and space is very bad at taking heat away."
+ },
+ {
+  "id": "n02",
+  "text": "On Earth, a hot thing loses heat three ways. It touches cooler things. Air or water flows past and carries heat off. And it glows, giving off invisible infrared light. In the near vacuum of space there is almost nothing to touch and nothing to flow. Across that emptiness, heat travels by the glow, and some systems also carry heat away by releasing material. A thermos uses a layer of vacuum the same way, to slow the other two and keep coffee hot."
+ },
+ {
+  "id": "n03",
+  "text": "How fast does a glow carry heat? The Stefan-Boltzmann law says it grows with the surface area, and with the temperature, counted from absolute zero, multiplied by itself four times. Double that temperature and it gives off sixteen times as much radiation. But at everyday temperatures the numbers are small: a perfect dark surface at room temperature gives off only about four hundred sixty watts per square meter. So spacecraft with a lot of heat often need large radiator surfaces, shielded from sunlight.",
+  "say": "How fast does a glow carry heat? The Steff-un Boltz-mun law says it grows with the surface area, and with the temperature, counted from absolute zero, multiplied by itself four times. Double that temperature and it gives off sixteen times as much radiation. But at everyday temperatures the numbers are small: a perfect dark surface at room temperature gives off only about four hundred sixty watts per square meter. So spacecraft with a lot of heat often need large radiator surfaces, shielded from sunlight."
+ },
+ {
+  "id": "n04",
+  "text": "Look at the International Space Station. Its main cooling system has six large white radiators, each about twenty-three meters long, about the length of a tennis court. Liquid ammonia carries heat out to them. They were built to throw away about seventy kilowatts. And the ammonia freezes at about minus seventy-eight degrees Celsius, so the radiators are turned to shed heat without freezing it."
+ },
+ {
+  "id": "n05",
+  "text": "A spacesuit has the same problem. Your body makes about seventy watts of heat resting, and more than seven hundred working hard. The suit traps much of it, so astronauts need a cooling system. They wear underwear laced with thin tubes of cool water. The water carries the heat to the backpack, where a part called a sublimator lets water freeze and then turn straight into vapor in space, taking the heat with it. One spacewalk can use about three and a half kilograms of water."
+ },
+ {
+  "id": "n06",
+  "text": "Now the big debate. AI computers use huge amounts of power, and nearly all of it ends up as heat. Some companies want data centers in orbit, where solar panels in the right orbit see the Sun almost all the time. Google, in a research project called Suncatcher, says panels there can be up to eight times more productive. A startup, Starcloud, flew one Nvidia chip in twenty twenty-five and says it trained a small AI model in orbit. In twenty twenty-six, SpaceX asked permission for up to one million data center satellites, and Blue Origin filed for more than fifty thousand."
+ },
+ {
+  "id": "n07",
+  "text": "The catch is the heat. One World Economic Forum analysis this year estimated about one thousand six hundred square meters of radiator for every megawatt of computing, for a radiator around twenty degrees Celsius. IEEE Spectrum estimated about one point four square meters for one seven-hundred-watt AI chip at sixty degrees Celsius. Radiators are heavy, and must survive sunlight and tiny debris for years with no repair crew. And one startup's chief executive admitted the economics of launch don't quite work yet.",
+  "say": "The catch is the heat. One World Economic Forum analysis this year estimated about one thousand six hundred square meters of radiator for every megawatt of computing, for a radiator around twenty degrees Celsius. I triple E Spectrum estimated about one point four square meters for one seven-hundred-watt AI chip at sixty degrees Celsius. Radiators are heavy, and must survive sunlight and tiny debris for years with no repair crew. And one startup's chief executive admitted the economics of launch don't quite work yet."
+ },
+ {
+  "id": "n08",
+  "text": "Supporters answer that this is engineering, not a wall. One independent study found radiators were only about fourteen percent of the weight in its model, and said launch cost matters far more. Google and Planet launched one test satellite in October twenty twenty-six, and plan two more for twenty twenty-seven. Whether computing in space will ever beat computing on the ground is not established yet."
+ },
+ {
+  "id": "n09",
+  "text": "So, is space cold? Yes. But cold is not the same as cooling. A vacuum blocks the usual flow of heat through air, so spacecraft mainly cool by glowing, and some systems also release material. That is why the space station wears radiators, why astronauts wear water-cooled underwear, and why, for data centers in orbit, radiators and launch costs may matter as much as the chips. Heartbeat Observatory."
+ }
+]

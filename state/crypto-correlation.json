@@ -1,0 +1,19 @@
+{
+ "at": "2026-10-25T09:55:16+00:00",
+ "window_hours": 24,
+ "source": "Coinbase 1-min",
+ "pairs": {
+  "btc-eth": 0.881,
+  "btc-sol": 0.807,
+  "btc-xrp": 0.747,
+  "eth-sol": 0.821,
+  "eth-xrp": 0.756,
+  "sol-xrp": 0.796
+ },
+ "max_with_others": {
+  "btc": 0.881,
+  "eth": 0.881,
+  "sol": 0.821,
+  "xrp": 0.796
+ }
+}

@@ -38,11 +38,11 @@ Never paste a key or token into a chat. The desktop buttons save them for you an
 2. Send any message ("hi") in the session.
 3. After it answers, the phone works again.
 
-## 5. A new key (Polymarket, Claude API, Kraken...)
-Claude opens the right page on the MSI screen and makes a desktop button named **PASTE ... KEY** / **SAVE ... KEY**.
-1. On the page, press the site's **Copy** button next to the new key.
-2. Tell Claude **"copied"**. Claude saves it, tests it and clears your clipboard.
-   (Or yourself: **Windows key + D** shows the desktop; double-click the icon Claude named, and a box says "Saved".)
+## 5. A new key (Polymarket, Claude API, Kraken...) - Key Drop, from your phone (since 10/19)
+1. On your phone open **heartbeatobservatory.com/admin/keys/** (admin login) and pick the key's name (or "Other").
+2. Paste the key there. It is encrypted in your browser for the MSI only; the MSI task "HB Key Drop" (every 2 min) files it, tests it, wipes it and buzzes you.
+3. Done. The list of keys on the MSI (names + tested status, never values) is state/KEYS.md.
+   (Older way, still works at the MSI: press the site's **Copy** button, tell Claude **"copied"**, or double-click the desktop icon Claude made.)
 
 ## 6. Grok Build login on the MSI
 **Sign it's needed:** the login watch says "Grok Build login" needs you. Renews itself as long as it's used.
@@ -52,7 +52,7 @@ Claude opens the right page on the MSI screen and makes a desktop button named *
 4. The black window says you're signed in. Close it.
 
 ## 7. ChatGPT can't reach the MSI (Desktop Commander)
-**Sign it's needed:** the login watch says Desktop Commander is "not running". It stops every time the MSI restarts.
+**Sign it's needed:** the login watch says Desktop Commander is "not running". **Since 11/16 this should fix itself:** the "Desktop Commander Remote" task (tools/dc_remote_keepalive.ps1) checks at login and every 10 min and restarts it if it's gone (log: scratch/dc-keepalive.log). Only do the steps below if that log says START FAILED.
 1. Open the black window.
 2. Type `npx @wonderwhy-er/desktop-commander@latest remote` and press Enter.
 3. If it asks you to sign in: a browser page opens, enter your email, get the code from your email, type it in.
@@ -90,6 +90,11 @@ Full list with dates: `state/logins.md`.
 | ChatGPT -> MSI (Desktop Commander) | until the MSI restarts or the window closes |
 | GitHub | until revoked |
 | DeepSeek / Claude API keys | until the money runs out |
+| Polymarket / Kraken keys | until revoked (new ones 10/19 via Key Drop) |
+| Postiz channels (TikTok / YouTube / X) | until a platform asks you to sign in again (section 10) |
+
+**The MSI itself going dark (since 11/22):** an alarm that lives on Cloudflare, not on the MSI, buzzes your phone once
+("MSI went dark") if the MSI stops checking in for 20 minutes, and once more ("MSI is back") when it returns. Then follow section 12.
 
 ---
 Not sure which one it is? Tell Claude what you see. If it's a new kind of break, Claude adds a numbered section here the same day.
@@ -100,7 +105,8 @@ Not sure which one it is? Tell Claude what you see. If it's a new kind of break,
 2. Open the link on your phone, sign in to Kimi (the Allegretto account), enter the code, approve.
 3. Claude sees "Logged in" and tests it. Done.
 
-## 10. Postiz (company socials auto-posting) - first setup, then only if a channel drops
+## 10. Postiz (company socials auto-posting) - first setup DONE 10/17; use this only if a channel drops
+(Postiz free trial ends 10/24, then $29/mo; Jaron knows. TikTok, YouTube and X are connected; Claude's CLI is signed in.)
 **Sign it's needed:** ntfy buzz "Socials: Postiz isn't connected yet", or state/social-posts.log says "not signed in".
 First setup (one sitting, ~10 min, on the phone or the MSI):
 1. Open platform.postiz.com > Sign up > **Continue with Google** > pick **<email>**.
@@ -116,3 +122,51 @@ If later one channel shows "disconnected" in Postiz: tap it > Reconnect > sign i
 1. At the MSI, type any short message in the Claude Code conversation (e.g. "back") and send it.
 2. The remote session reconnects; the conversation shows up on your phone again.
 Read-only fallback (untested): Steering > Tools > AI Tests opens a claude.ai link that may bring you back into the conversation to read it.
+
+## Claude Code sign-in on the MSI (hb-render owner lane) - added 2026-10-21
+**UPDATE 10/21 9:40 PM (Claude Code): not needed for the owner lane any more** - the worker now uses CLAUDE_CODE_OAUTH_TOKEN (long-lived, from `claude setup-token`) from keys.env. Only redo this if that token stops working (then: `claude setup-token` on the MSI, paste via Key Drop).
+The owner lane at heartbeatobservatory.com/render/anything/ runs your own "make anything" requests through
+Claude Code on the MSI (your subscription, no API credits). It stopped with "OAuth access token has expired.
+Re-authenticate to continue." - the saved CLI login needs a refresh. One-time, on the MSI:
+1. Open a terminal (Windows key, type "PowerShell", Enter).
+2. Type `claude auth login` and press Enter. A browser window opens on claude.ai.
+3. Sign in with your Claude account (<email>) and press Allow.
+4. Back in the terminal it prints "logged in". Close it. The hidden worker (task "HB Render Owner Worker")
+   picks the next request up by itself within 5 s; nothing else to restart.
+Check: `claude auth status` shows loggedIn true; a request on the page then says "your lane (subscription): working".
+
+## Phone shows "session archived" / "Remote control session is offline" (fixed 10/23)
+Usually the chat is NOT archived on the MSI - only the phone link dropped. Any other Claude Code session on the MSI can fix it, no MSI trip:
+1. Find the chat: session list tool (main thread = the pinned one, running since 9/9).
+2. Send it one short message (wakes it - Remote Control needs an active turn first).
+3. Turn Remote Control on for that session; check it reads "on".
+4. Jaron backs out of the dead screen on his phone and reopens the chat from the list.
+
+## Cloud Claude can't reach a repo ("repo_access_denied" / push 403) - added 11/4/2026
+Cause: the Claude GitHub app is set to "Only select repositories" and the repo isn't on the list (since the Fable repo was added, only that one is).
+1. On your phone, open github.com/settings/installations (signed in as JaronKBragg7337).
+2. Tap **Configure** next to **Claude**.
+3. Under **Repository access**, either pick **All repositories**, or tap **Select repositories** and add **heartbeat-observatory** and **ai-shared** (keep Claude-cloud---fable-).
+4. Tap **Save**. Tell Claude "done" and it relaunches the cloud jobs.
+
+## 12. The MSI is stuck at the sign-in screen after a restart - added 11/22/2026
+**Sign it's needed:** your phone buzzes "MSI went dark", or everything on the MSI stops after a Windows update. The MSI is on
+but shows the sign-in screen (press the power button first if the screen is black).
+**Right now:** sign in on the MSI like normal. Everything comes back by itself within about 5 minutes - the everything check
+runs at every sign-in and restarts each part.
+
+**So it stops happening (one time, about 2 minutes, at the MSI, signed in).** Why: auto sign-in was turned on 9/11, but the
+boot records show it has never worked once since - every restart waited for a person (9/15 1h20m, 9/23 1h30m, 10/11 33 min,
+11/22 3 hours). The saved password most likely doesn't match (the PIN typed instead of the password, or the password changed).
+1. Press the **Windows key + R**, type `netplwiz`, press Enter. Click **Yes** if Windows asks.
+2. Click the account (**lilli**) in the list.
+3. The box **"Users must enter a user name and password to use this computer"**: if it's empty, check it and click **Apply**
+   first. Then uncheck it.
+4. Click **Apply**. A small box asks for the password twice. Type the account **password** (not the PIN), both times.
+   Click **OK**, then **OK**. (Only know the PIN, not the password? Stop and tell Claude - don't guess.)
+5. Open **Settings > Accounts > Sign-in options**, find **"Use my sign-in info to automatically finish setting up after an
+   update"** (under Additional settings) and turn it **On**.
+6. Test it: **Start > Power > Restart**, then walk away. Tell Claude "restarted". Claude watches from the outside; it should
+   come back to the desktop on its own in about 2 minutes. If it stops at the sign-in screen again, tell Claude.
+Nobody else needs to touch the MSI for this. Claude never sees or types the password.
+After signing in, Chrome may ask "who's using Chrome". You don't need to pick: within about 3 minutes the everything check opens Chrome in Jaron's profile (where the AIs' Claude, Kimi and ChatGPT browser extensions live) and closes the picker.

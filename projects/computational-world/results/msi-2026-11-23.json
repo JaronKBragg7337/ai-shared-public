@@ -1,0 +1,1585 @@
+{
+ "machine": {
+  "cpu": "Intel(R) Core(TM) i9-14900HX",
+  "threads": 32,
+  "node": "v24.16.0",
+  "platform": "win32",
+  "when": "2026-11-23T20:08:20.936Z"
+ },
+ "sizes": [
+  4,
+  5,
+  6
+ ],
+ "rows": [
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "ordinary software (re-check)",
+   "steps": 200000,
+   "bytes": 13689,
+   "nsPerOp": 46.96550000000002,
+   "workPerOp": 15.34,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 200000,
+   "bytes": 14607,
+   "nsPerOp": 86.55300000000011,
+   "workPerOp": 40,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 5000,
+   "bytes": 121228,
+   "nsPerOp": 87117.01999999997,
+   "workPerOp": 14246.42,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "gates, one sweep per answer",
+   "steps": 20000,
+   "bytes": 121228,
+   "nsPerOp": 14909.365000000003,
+   "workPerOp": 3239,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "gates, only what changed",
+   "steps": 200000,
+   "bytes": 147844,
+   "nsPerOp": 234.2444999999998,
+   "workPerOp": 45,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "own parts, every tick",
+   "steps": 5000,
+   "bytes": 62962,
+   "nsPerOp": 11598.019999999997,
+   "workPerOp": 1510.81,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 20000,
+   "bytes": 62962,
+   "nsPerOp": 7057.515000000012,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 200000,
+   "bytes": 72270,
+   "nsPerOp": 114.40750000000207,
+   "workPerOp": 40.28,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 4,
+   "way": "the world's own parts + Chronicle",
+   "steps": 200000,
+   "bytes": 1672270,
+   "nsPerOp": 83.73700000000099,
+   "workPerOp": 40.28,
+   "ok": true
+  },
+  {
+   "workload": "replay the Chronicle",
+   "n": 4,
+   "way": "fresh world, same history",
+   "steps": 200000,
+   "bytes": 1600000,
+   "nsPerOp": 94.23600000000079,
+   "workPerOp": 40.28,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "ordinary software (re-check)",
+   "steps": 100000,
+   "bytes": 13689,
+   "nsPerOp": 179.22199999999975,
+   "workPerOp": 91.44,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 100000,
+   "bytes": 14607,
+   "nsPerOp": 94.58200000000033,
+   "workPerOp": 40,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 5000,
+   "bytes": 121228,
+   "nsPerOp": 257742.63999999966,
+   "workPerOp": 44086.03,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "gates, one sweep per answer",
+   "steps": 20000,
+   "bytes": 121228,
+   "nsPerOp": 14724.539999999979,
+   "workPerOp": 3239,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "gates, only what changed",
+   "steps": 100000,
+   "bytes": 147844,
+   "nsPerOp": 406.833999999999,
+   "workPerOp": 63.97,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "own parts, every tick",
+   "steps": 5000,
+   "bytes": 62962,
+   "nsPerOp": 24293.41999999997,
+   "workPerOp": 3243,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 20000,
+   "bytes": 62962,
+   "nsPerOp": 6278.6700000000565,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~17)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 100000,
+   "bytes": 72270,
+   "nsPerOp": 154.67900000001464,
+   "workPerOp": 42.13,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "ordinary software (re-check)",
+   "steps": 20000,
+   "bytes": 13689,
+   "nsPerOp": 112.82000000001062,
+   "workPerOp": 17.54,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 20000,
+   "bytes": 14607,
+   "nsPerOp": 1127.7550000000701,
+   "workPerOp": 640,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 500,
+   "bytes": 121228,
+   "nsPerOp": 238258.00000000163,
+   "workPerOp": 39956.3,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "gates, one sweep per answer",
+   "steps": 2000,
+   "bytes": 121228,
+   "nsPerOp": 14755.599999999504,
+   "workPerOp": 3239,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "gates, only what changed",
+   "steps": 20000,
+   "bytes": 147844,
+   "nsPerOp": 2457.1750000000065,
+   "workPerOp": 673.18,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "own parts, every tick",
+   "steps": 500,
+   "bytes": 62962,
+   "nsPerOp": 19364.000000001397,
+   "workPerOp": 2527.38,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 2000,
+   "bytes": 62962,
+   "nsPerOp": 6855.050000000119,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 8 cards",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 20000,
+   "bytes": 72270,
+   "nsPerOp": 1630.1100000000588,
+   "workPerOp": 641.42,
+   "ok": true
+  },
+  {
+   "workload": "2 cards change at once (2%)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 14607,
+   "nsPerOp": 378.8300000000163,
+   "workPerOp": 80,
+   "ok": true
+  },
+  {
+   "workload": "2 cards change at once (2%)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 72270,
+   "nsPerOp": 540.9899999998743,
+   "workPerOp": 99.59,
+   "ok": true
+  },
+  {
+   "workload": "2 cards change at once (2%)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 10000,
+   "bytes": 62962,
+   "nsPerOp": 7863.270000000012,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "4 cards change at once (5%)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 14607,
+   "nsPerOp": 723.8799999999173,
+   "workPerOp": 160,
+   "ok": true
+  },
+  {
+   "workload": "4 cards change at once (5%)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 72270,
+   "nsPerOp": 1183.3399999999529,
+   "workPerOp": 198.51,
+   "ok": true
+  },
+  {
+   "workload": "4 cards change at once (5%)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 10000,
+   "bytes": 62962,
+   "nsPerOp": 8030.409999999937,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "8 cards change at once (10%)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 14607,
+   "nsPerOp": 1447.7199999999357,
+   "workPerOp": 320,
+   "ok": true
+  },
+  {
+   "workload": "8 cards change at once (10%)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 72270,
+   "nsPerOp": 2431.580000000031,
+   "workPerOp": 393.49,
+   "ok": true
+  },
+  {
+   "workload": "8 cards change at once (10%)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 10000,
+   "bytes": 62962,
+   "nsPerOp": 7965.4599999999855,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "20 cards change at once (25%)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 14607,
+   "nsPerOp": 3524.5000000000796,
+   "workPerOp": 800,
+   "ok": true
+  },
+  {
+   "workload": "20 cards change at once (25%)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 72270,
+   "nsPerOp": 5754.719999999907,
+   "workPerOp": 955.88,
+   "ok": true
+  },
+  {
+   "workload": "20 cards change at once (25%)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 10000,
+   "bytes": 62962,
+   "nsPerOp": 8187.920000000122,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "41 cards change at once (50%)",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 14607,
+   "nsPerOp": 7114.819999999962,
+   "workPerOp": 1640,
+   "ok": true
+  },
+  {
+   "workload": "41 cards change at once (50%)",
+   "n": 4,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 72270,
+   "nsPerOp": 11792.200000000048,
+   "workPerOp": 1879.5,
+   "ok": true
+  },
+  {
+   "workload": "41 cards change at once (50%)",
+   "n": 4,
+   "way": "own parts, one sweep per answer",
+   "steps": 10000,
+   "bytes": 62962,
+   "nsPerOp": 8654.869999999937,
+   "workPerOp": 1081,
+   "ok": true
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 4,
+   "way": "ordinary software (re-check)",
+   "steps": 300,
+   "bytes": 0,
+   "nsPerOp": 12366.333333338844,
+   "workPerOp": 397,
+   "ok": true,
+   "best": 20,
+   "mean": 17.22
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 300,
+   "bytes": 0,
+   "nsPerOp": 12872.999999999593,
+   "workPerOp": 689,
+   "ok": true,
+   "best": 20,
+   "mean": 17.22
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 4,
+   "way": "the world's own parts",
+   "steps": 300,
+   "bytes": 254144,
+   "nsPerOp": 23200.666666659043,
+   "workPerOp": 4608,
+   "ok": true,
+   "best": 20,
+   "mean": 17.22
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 4,
+   "way": "ordinary software (re-check)",
+   "steps": 12,
+   "bytes": 0,
+   "nsPerOp": 997266.6666665949,
+   "workPerOp": 295712,
+   "ok": true,
+   "best": 18,
+   "mean": 17.75
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 4,
+   "way": "hand-written counters",
+   "steps": 12,
+   "bytes": 0,
+   "nsPerOp": 390683.3333333756,
+   "workPerOp": 67843,
+   "ok": true,
+   "best": 18,
+   "mean": 17.75
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 4,
+   "way": "the world's own parts",
+   "steps": 12,
+   "bytes": 254144,
+   "nsPerOp": 810000.000000097,
+   "workPerOp": 226391,
+   "ok": true,
+   "best": 18,
+   "mean": 17.75
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "ordinary software (re-check)",
+   "steps": 100000,
+   "bytes": 119799,
+   "nsPerOp": 80.79399999998714,
+   "workPerOp": 34.79,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 100000,
+   "bytes": 129114,
+   "nsPerOp": 187.8689999999915,
+   "workPerOp": 121,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 1000,
+   "bytes": 1092013,
+   "nsPerOp": 834894.5999999996,
+   "workPerOp": 146010.33,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "gates, one sweep per answer",
+   "steps": 5000,
+   "bytes": 1092013,
+   "nsPerOp": 129807.62000000032,
+   "workPerOp": 29402,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "gates, only what changed",
+   "steps": 100000,
+   "bytes": 1329241,
+   "nsPerOp": 464.57399999999325,
+   "workPerOp": 127.53,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "own parts, every tick",
+   "steps": 1000,
+   "bytes": 562813,
+   "nsPerOp": 100160.89999999895,
+   "workPerOp": 13075.87,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 5000,
+   "bytes": 562813,
+   "nsPerOp": 60646.140000000014,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 100000,
+   "bytes": 643185,
+   "nsPerOp": 293.0750000000262,
+   "workPerOp": 121.24,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 5,
+   "way": "the world's own parts + Chronicle",
+   "steps": 100000,
+   "bytes": 1443185,
+   "nsPerOp": 293.70999999999185,
+   "workPerOp": 121.24,
+   "ok": true
+  },
+  {
+   "workload": "replay the Chronicle",
+   "n": 5,
+   "way": "fresh world, same history",
+   "steps": 100000,
+   "bytes": 800000,
+   "nsPerOp": 295.8139999999912,
+   "workPerOp": 121.24,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "ordinary software (re-check)",
+   "steps": 50000,
+   "bytes": 119799,
+   "nsPerOp": 704.974000000002,
+   "workPerOp": 402.67,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 50000,
+   "bytes": 129114,
+   "nsPerOp": 192.0300000000134,
+   "workPerOp": 121,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 1000,
+   "bytes": 1092013,
+   "nsPerOp": 2704869.1,
+   "workPerOp": 483839.31,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "gates, one sweep per answer",
+   "steps": 5000,
+   "bytes": 1092013,
+   "nsPerOp": 127824.37999999967,
+   "workPerOp": 29402,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "gates, only what changed",
+   "steps": 50000,
+   "bytes": 1329241,
+   "nsPerOp": 940.9920000001148,
+   "workPerOp": 166.84,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "own parts, every tick",
+   "steps": 1000,
+   "bytes": 562813,
+   "nsPerOp": 207658.90000000218,
+   "workPerOp": 29406,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 5000,
+   "bytes": 562813,
+   "nsPerOp": 56125.38000000059,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~36)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 50000,
+   "bytes": 643185,
+   "nsPerOp": 330.2019999999902,
+   "workPerOp": 124.04,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "ordinary software (re-check)",
+   "steps": 10000,
+   "bytes": 119799,
+   "nsPerOp": 188.09000000037486,
+   "workPerOp": 37.1,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 10000,
+   "bytes": 129114,
+   "nsPerOp": 4162.939999999799,
+   "workPerOp": 2904,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 100,
+   "bytes": 1092013,
+   "nsPerOp": 2426275.999999998,
+   "workPerOp": 444852.26,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "gates, one sweep per answer",
+   "steps": 500,
+   "bytes": 1092013,
+   "nsPerOp": 124220.19999999611,
+   "workPerOp": 29402,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "gates, only what changed",
+   "steps": 10000,
+   "bytes": 1329241,
+   "nsPerOp": 8577.279999999882,
+   "workPerOp": 2971.64,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "own parts, every tick",
+   "steps": 100,
+   "bytes": 562813,
+   "nsPerOp": 161830.0000000454,
+   "workPerOp": 23818.86,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 500,
+   "bytes": 562813,
+   "nsPerOp": 57271.80000000226,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 12 cards",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 10000,
+   "bytes": 643185,
+   "nsPerOp": 6144.06999999992,
+   "workPerOp": 2905.84,
+   "ok": true
+  },
+  {
+   "workload": "5 cards change at once (2%)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 2500,
+   "bytes": 129114,
+   "nsPerOp": 2511.559999999008,
+   "workPerOp": 605,
+   "ok": true
+  },
+  {
+   "workload": "5 cards change at once (2%)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 2500,
+   "bytes": 643185,
+   "nsPerOp": 4386.559999999008,
+   "workPerOp": 756.21,
+   "ok": true
+  },
+  {
+   "workload": "5 cards change at once (2%)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 2500,
+   "bytes": 562813,
+   "nsPerOp": 69515.43999999994,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "12 cards change at once (5%)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 2500,
+   "bytes": 129114,
+   "nsPerOp": 5913.759999998729,
+   "workPerOp": 1452,
+   "ok": true
+  },
+  {
+   "workload": "12 cards change at once (5%)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 2500,
+   "bytes": 643185,
+   "nsPerOp": 9823.680000001332,
+   "workPerOp": 1789.31,
+   "ok": true
+  },
+  {
+   "workload": "12 cards change at once (5%)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 2500,
+   "bytes": 562813,
+   "nsPerOp": 70884.20000000042,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "24 cards change at once (10%)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 2500,
+   "bytes": 129114,
+   "nsPerOp": 11919.23999999999,
+   "workPerOp": 2904,
+   "ok": true
+  },
+  {
+   "workload": "24 cards change at once (10%)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 2500,
+   "bytes": 643185,
+   "nsPerOp": 20543.839999998454,
+   "workPerOp": 3571.53,
+   "ok": true
+  },
+  {
+   "workload": "24 cards change at once (10%)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 2500,
+   "bytes": 562813,
+   "nsPerOp": 71702.84000000102,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "61 cards change at once (25%)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 2500,
+   "bytes": 129114,
+   "nsPerOp": 30601.559999998426,
+   "workPerOp": 7381,
+   "ok": true
+  },
+  {
+   "workload": "61 cards change at once (25%)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 2500,
+   "bytes": 643185,
+   "nsPerOp": 52447.56000000052,
+   "workPerOp": 8805.12,
+   "ok": true
+  },
+  {
+   "workload": "61 cards change at once (25%)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 2500,
+   "bytes": 562813,
+   "nsPerOp": 71452.60000000126,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "122 cards change at once (50%)",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 2500,
+   "bytes": 129114,
+   "nsPerOp": 59499.79999999924,
+   "workPerOp": 14762,
+   "ok": true
+  },
+  {
+   "workload": "122 cards change at once (50%)",
+   "n": 5,
+   "way": "the world's own parts, only what changed",
+   "steps": 2500,
+   "bytes": 643185,
+   "nsPerOp": 103618.11999999918,
+   "workPerOp": 16909.5,
+   "ok": true
+  },
+  {
+   "workload": "122 cards change at once (50%)",
+   "n": 5,
+   "way": "own parts, one sweep per answer",
+   "steps": 2500,
+   "bytes": 562813,
+   "nsPerOp": 72374.4399999996,
+   "workPerOp": 9802,
+   "ok": true
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 5,
+   "way": "ordinary software (re-check)",
+   "steps": 60,
+   "bytes": 0,
+   "nsPerOp": 35746.666666697514,
+   "workPerOp": 1992,
+   "ok": true,
+   "best": 38,
+   "mean": 35.57
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 60,
+   "bytes": 0,
+   "nsPerOp": 49635.00000000446,
+   "workPerOp": 4304,
+   "ok": true,
+   "best": 38,
+   "mean": 35.57
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 5,
+   "way": "the world's own parts",
+   "steps": 60,
+   "bytes": 2271314,
+   "nsPerOp": 107266.66666669189,
+   "workPerOp": 27609,
+   "ok": true,
+   "best": 38,
+   "mean": 35.57
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 5,
+   "way": "ordinary software (re-check)",
+   "steps": 3,
+   "bytes": 0,
+   "nsPerOp": 24472333.33333376,
+   "workPerOp": 10314398,
+   "ok": true,
+   "best": 38,
+   "mean": 37.33
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 5,
+   "way": "hand-written counters",
+   "steps": 3,
+   "bytes": 0,
+   "nsPerOp": 4179400.0000008964,
+   "workPerOp": 1219680,
+   "ok": true,
+   "best": 38,
+   "mean": 37.33
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 5,
+   "way": "the world's own parts",
+   "steps": 3,
+   "bytes": 2271314,
+   "nsPerOp": 12019833.333334342,
+   "workPerOp": 3905020,
+   "ok": true,
+   "best": 38,
+   "mean": 37.33
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "ordinary software (re-check)",
+   "steps": 50000,
+   "bytes": 1067985,
+   "nsPerOp": 134.7259999999369,
+   "workPerOp": 74.77,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 50000,
+   "bytes": 1154979,
+   "nsPerOp": 493.0319999999483,
+   "workPerOp": 364,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 300,
+   "bytes": 9830536,
+   "nsPerOp": 5767948.666666659,
+   "workPerOp": 1088840.02,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "gates, one sweep per answer",
+   "steps": 1500,
+   "bytes": 9830536,
+   "nsPerOp": 1096983.1333333326,
+   "workPerOp": 265355,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "gates, only what changed",
+   "steps": 50000,
+   "bytes": 11959288,
+   "nsPerOp": 1107.7060000000347,
+   "workPerOp": 372.62,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "own parts, every tick",
+   "steps": 300,
+   "bytes": 5054182,
+   "nsPerOp": 734946.3333333308,
+   "workPerOp": 106143.6,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 1500,
+   "bytes": 5054182,
+   "nsPerOp": 495052.80000000494,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 50000,
+   "bytes": 5767650,
+   "nsPerOp": 812.4859999999171,
+   "workPerOp": 364.19,
+   "ok": true
+  },
+  {
+   "workload": "one card changes",
+   "n": 6,
+   "way": "the world's own parts + Chronicle",
+   "steps": 50000,
+   "bytes": 6167650,
+   "nsPerOp": 768.4480000002077,
+   "workPerOp": 364.19,
+   "ok": true
+  },
+  {
+   "workload": "replay the Chronicle",
+   "n": 6,
+   "way": "fresh world, same history",
+   "steps": 50000,
+   "bytes": 400000,
+   "nsPerOp": 811.0519999999088,
+   "workPerOp": 364.19,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "ordinary software (re-check)",
+   "steps": 25000,
+   "bytes": 1067985,
+   "nsPerOp": 2392.1319999999832,
+   "workPerOp": 1495.23,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 25000,
+   "bytes": 1154979,
+   "nsPerOp": 490.2759999997215,
+   "workPerOp": 364,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 300,
+   "bytes": 9830536,
+   "nsPerOp": 26482336.33333337,
+   "workPerOp": 5119582.47,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "gates, one sweep per answer",
+   "steps": 1500,
+   "bytes": 9830536,
+   "nsPerOp": 1073535.3333333333,
+   "workPerOp": 265355,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "gates, only what changed",
+   "steps": 25000,
+   "bytes": 11959288,
+   "nsPerOp": 2062.8840000001946,
+   "workPerOp": 437.19,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "own parts, every tick",
+   "steps": 300,
+   "bytes": 5054182,
+   "nsPerOp": 1776365.666666631,
+   "workPerOp": 265359,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 1500,
+   "bytes": 5054182,
+   "nsPerOp": 482217.2666666641,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "one card changes, big pile (~70)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 25000,
+   "bytes": 5767650,
+   "nsPerOp": 841.7399999999908,
+   "workPerOp": 367.68,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "ordinary software (re-check)",
+   "steps": 5000,
+   "bytes": 1067985,
+   "nsPerOp": 278.3999999985099,
+   "workPerOp": 79.5,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 5000,
+   "bytes": 1154979,
+   "nsPerOp": 16379.000000000813,
+   "workPerOp": 13104,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "gates, every tick (the Minecraft way)",
+   "steps": 50,
+   "bytes": 9830536,
+   "nsPerOp": 25142472.000000123,
+   "workPerOp": 4972752.7,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "gates, one sweep per answer",
+   "steps": 150,
+   "bytes": 9830536,
+   "nsPerOp": 1056838.6666665901,
+   "workPerOp": 265355,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "gates, only what changed",
+   "steps": 5000,
+   "bytes": 11959288,
+   "nsPerOp": 34792.22000000009,
+   "workPerOp": 13241.61,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "own parts, every tick",
+   "steps": 50,
+   "bytes": 5054182,
+   "nsPerOp": 1449833.9999999735,
+   "workPerOp": 219363.44,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 150,
+   "bytes": 5054182,
+   "nsPerOp": 477929.33333325584,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "fresh pile of 18 cards",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 5000,
+   "bytes": 5767650,
+   "nsPerOp": 26350.700000001234,
+   "workPerOp": 13106.26,
+   "ok": true
+  },
+  {
+   "workload": "15 cards change at once (2%)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 750,
+   "bytes": 1154979,
+   "nsPerOp": 19501.733333338052,
+   "workPerOp": 5460,
+   "ok": true
+  },
+  {
+   "workload": "15 cards change at once (2%)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 750,
+   "bytes": 5767650,
+   "nsPerOp": 38335.99999999084,
+   "workPerOp": 6739.99,
+   "ok": true
+  },
+  {
+   "workload": "15 cards change at once (2%)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 750,
+   "bytes": 5054182,
+   "nsPerOp": 591717.4666666542,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "36 cards change at once (5%)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 750,
+   "bytes": 1154979,
+   "nsPerOp": 49272.7999999964,
+   "workPerOp": 13104,
+   "ok": true
+  },
+  {
+   "workload": "36 cards change at once (5%)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 750,
+   "bytes": 5767650,
+   "nsPerOp": 92011.46666666804,
+   "workPerOp": 16120.2,
+   "ok": true
+  },
+  {
+   "workload": "36 cards change at once (5%)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 750,
+   "bytes": 5054182,
+   "nsPerOp": 590937.7333333443,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "73 cards change at once (10%)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 750,
+   "bytes": 1154979,
+   "nsPerOp": 100335.86666667058,
+   "workPerOp": 26572,
+   "ok": true
+  },
+  {
+   "workload": "73 cards change at once (10%)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 750,
+   "bytes": 5767650,
+   "nsPerOp": 188598.66666667708,
+   "workPerOp": 32544.78,
+   "ok": true
+  },
+  {
+   "workload": "73 cards change at once (10%)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 750,
+   "bytes": 5054182,
+   "nsPerOp": 590487.8666666725,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "182 cards change at once (25%)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 750,
+   "bytes": 1154979,
+   "nsPerOp": 249871.46666667346,
+   "workPerOp": 66248,
+   "ok": true
+  },
+  {
+   "workload": "182 cards change at once (25%)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 750,
+   "bytes": 5767650,
+   "nsPerOp": 466406.6666666574,
+   "workPerOp": 79035.84,
+   "ok": true
+  },
+  {
+   "workload": "182 cards change at once (25%)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 750,
+   "bytes": 5054182,
+   "nsPerOp": 590472.1333333291,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "365 cards change at once (50%)",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 750,
+   "bytes": 1154979,
+   "nsPerOp": 501165.0666666683,
+   "workPerOp": 132860,
+   "ok": true
+  },
+  {
+   "workload": "365 cards change at once (50%)",
+   "n": 6,
+   "way": "the world's own parts, only what changed",
+   "steps": 750,
+   "bytes": 5767650,
+   "nsPerOp": 904231.7333333193,
+   "workPerOp": 152176.7,
+   "ok": true
+  },
+  {
+   "workload": "365 cards change at once (50%)",
+   "n": 6,
+   "way": "own parts, one sweep per answer",
+   "steps": 750,
+   "bytes": 5054182,
+   "nsPerOp": 591406.1333333375,
+   "workPerOp": 88453,
+   "ok": true
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 6,
+   "way": "ordinary software (re-check)",
+   "steps": 12,
+   "bytes": 0,
+   "nsPerOp": 105116.6666681335,
+   "workPerOp": 9577,
+   "ok": true,
+   "best": 74,
+   "mean": 71.5
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 12,
+   "bytes": 0,
+   "nsPerOp": 178774.999997889,
+   "workPerOp": 26026,
+   "ok": true,
+   "best": 74,
+   "mean": 71.5
+  },
+  {
+   "workload": "take free cards in a random order",
+   "n": 6,
+   "way": "the world's own parts",
+   "steps": 12,
+   "bytes": 20395064,
+   "nsPerOp": 696808.3333316221,
+   "workPerOp": 163384,
+   "ok": true,
+   "best": 74,
+   "mean": 71.5
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 6,
+   "way": "ordinary software (re-check)",
+   "steps": 1,
+   "bytes": 0,
+   "nsPerOp": 740786900.0000064,
+   "workPerOp": 383697719,
+   "ok": true,
+   "best": 80,
+   "mean": 80
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 6,
+   "way": "hand-written counters",
+   "steps": 1,
+   "bytes": 0,
+   "nsPerOp": 62917399.99997662,
+   "workPerOp": 22667008,
+   "ok": true,
+   "best": 80,
+   "mean": 80
+  },
+  {
+   "workload": "look ahead one card",
+   "n": 6,
+   "way": "the world's own parts",
+   "steps": 1,
+   "bytes": 20395064,
+   "nsPerOp": 209024700.00000903,
+   "workPerOp": 70997084,
+   "ok": true,
+   "best": 80,
+   "mean": 80
+  }
+ ],
+ "facts": [
+  "n=4 gates: 3320 parts, 6478 links, 13 deep",
+  "n=4 own parts: 1162 parts, 4320 links, 2 deep",
+  "n=4 own parts + search state: 4484 parts, 14202 links, 3 deep",
+  "n=4 stream: 200000 changes, a set is present after 93792 of them, answers 97b4f3bb",
+  "n=4 stream gates, every tick (the Minecraft way): work per change 14246.42 over 5000",
+  "n=4 stream gates, one sweep per answer: work per change 3239 over 20000",
+  "n=4 stream gates, only what changed: work per change 45 over 200000",
+  "n=4 stream own parts, every tick: work per change 1510.81 over 5000",
+  "n=4 stream own parts, one sweep per answer: work per change 1081 over 20000",
+  "n=4 stream the world's own parts, only what changed: work per change 40.28 over 200000",
+  "n=4 chronicle: 200000 entries, chain 40270e45, replay lands on the same state: true",
+  "n=4 big pile of about 17: 100000 changes, answers 906b0205",
+  "n=4 fresh piles of 8: 20000 piles, answers c6fdf5b8",
+  "n=4 take free cards in a random order: 300 piles, sizes 18 17 18 17 18 16 18 17 18 18 17 17 ..., best 20",
+  "n=4 look ahead one card: 12 piles, sizes 18 18 18 18 18 18 17 17 17 18 18 18, best 18",
+  "n=5 gates: 29645 parts, 58804 links, 16 deep",
+  "n=5 own parts: 10045 parts, 39204 links, 2 deep",
+  "n=5 own parts + search state: 39692 parts, 127899 links, 3 deep",
+  "n=5 stream: 100000 changes, a set is present after 56844 of them, answers 12ac0e85",
+  "n=5 stream gates, every tick (the Minecraft way): work per change 146010.33 over 1000",
+  "n=5 stream gates, one sweep per answer: work per change 29402 over 5000",
+  "n=5 stream gates, only what changed: work per change 127.53 over 100000",
+  "n=5 stream own parts, every tick: work per change 13075.87 over 1000",
+  "n=5 stream own parts, one sweep per answer: work per change 9802 over 5000",
+  "n=5 stream the world's own parts, only what changed: work per change 121.24 over 100000",
+  "n=5 chronicle: 100000 entries, chain 86e5cd05, replay lands on the same state: true",
+  "n=5 big pile of about 36: 50000 changes, answers 4f699be5",
+  "n=5 fresh piles of 12: 10000 piles, answers 907ae215",
+  "n=5 take free cards in a random order: 60 piles, sizes 35 36 36 36 37 36 37 35 35 34 35 37 ..., best 38",
+  "n=5 look ahead one card: 3 piles, sizes 38 37 37, best 38",
+  "n=6 gates: 266084 parts, 530710 links, 19 deep",
+  "n=6 own parts: 89182 parts, 353808 links, 2 deep",
+  "n=6 own parts + search state: 355268 parts, 1151334 links, 3 deep",
+  "n=6 stream: 50000 changes, a set is present after 33047 of them, answers 0b346a60",
+  "n=6 stream gates, every tick (the Minecraft way): work per change 1088840.02 over 300",
+  "n=6 stream gates, one sweep per answer: work per change 265355 over 1500",
+  "n=6 stream gates, only what changed: work per change 372.62 over 50000",
+  "n=6 stream own parts, every tick: work per change 106143.6 over 300",
+  "n=6 stream own parts, one sweep per answer: work per change 88453 over 1500",
+  "n=6 stream the world's own parts, only what changed: work per change 364.19 over 50000",
+  "n=6 chronicle: 50000 entries, chain 8f9dc519, replay lands on the same state: true",
+  "n=6 big pile of about 70: 25000 changes, answers 36eaafd5",
+  "n=6 fresh piles of 18: 5000 piles, answers 5bcce815",
+  "n=6 take free cards in a random order: 12 piles, sizes 74 73 73 73 69 68 73 71 72 73 71 68, best 74",
+  "n=6 look ahead one card: 1 piles, sizes 80, best 80"
+ ],
+ "factsMark": "65e84cd1",
+ "energy": {
+  "idleWatts": 5.3,
+  "blocks": [
+   {
+    "name": "n=4 ordinary software (re-check)",
+    "watts": 27.1,
+    "ops": 122000000,
+    "microJoulePerOp": 1.111,
+    "aboveIdleMicroJoulePerOp": 0.893
+   },
+   {
+    "name": "n=4 hand-written counters",
+    "watts": 24.4,
+    "ops": 69800000,
+    "microJoulePerOp": 1.749,
+    "aboveIdleMicroJoulePerOp": 1.368
+   },
+   {
+    "name": "n=4 the world's own parts, only what changed",
+    "watts": 26,
+    "ops": 50200000,
+    "microJoulePerOp": 2.594,
+    "aboveIdleMicroJoulePerOp": 2.064
+   },
+   {
+    "name": "n=4 gates, only what changed",
+    "watts": 32.3,
+    "ops": 25400000,
+    "microJoulePerOp": 6.403,
+    "aboveIdleMicroJoulePerOp": 5.349
+   },
+   {
+    "name": "n=4 gates, every tick (the Minecraft way)",
+    "watts": 25.1,
+    "ops": 75000,
+    "microJoulePerOp": 1791.166,
+    "aboveIdleMicroJoulePerOp": 1412.162
+   },
+   {
+    "name": "n=6 ordinary software (re-check)",
+    "watts": 26,
+    "ops": 38550000,
+    "microJoulePerOp": 3.368,
+    "aboveIdleMicroJoulePerOp": 2.678
+   },
+   {
+    "name": "n=6 hand-written counters",
+    "watts": 25.5,
+    "ops": 11150000,
+    "microJoulePerOp": 11.49,
+    "aboveIdleMicroJoulePerOp": 9.097
+   },
+   {
+    "name": "n=6 the world's own parts, only what changed",
+    "watts": 29.1,
+    "ops": 6500000,
+    "microJoulePerOp": 22.522,
+    "aboveIdleMicroJoulePerOp": 18.413
+   },
+   {
+    "name": "n=6 gates, only what changed",
+    "watts": 34,
+    "ops": 4600000,
+    "microJoulePerOp": 37.21,
+    "aboveIdleMicroJoulePerOp": 31.386
+   },
+   {
+    "name": "n=6 gates, every tick (the Minecraft way)",
+    "watts": 24.6,
+    "ops": 1200,
+    "microJoulePerOp": 134423.968,
+    "aboveIdleMicroJoulePerOp": 105375.774
+   }
+  ]
+ }
+}

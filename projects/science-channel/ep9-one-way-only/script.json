@@ -1,0 +1,43 @@
+[
+ {
+  "id": "n01",
+  "text": "Look at the nozzle on a diesel pump, then the one for regular gas. Diesel nozzles are often wider than gasoline nozzles, partly to prevent fueling mistakes. A lot of things that only go in one way are designed to prevent mistakes people could make."
+ },
+ {
+  "id": "n02",
+  "text": "Start with a famous one. In nineteen forty-nine, at an air base in the California desert now called Edwards, an Air Force doctor named John Paul Stapp was riding rocket sleds, to learn how much sudden stopping a human body can survive. An engineer named Edward Murphy brought sensors to measure the forces. On one run, the story goes, the sensors read zero. They had been wired backwards."
+ },
+ {
+  "id": "n03",
+  "text": "One story connects that mishap to what became known as Murphy's Law: if anything can go wrong, it will. But the details are disputed. Accounts differ on how many sensors there were, who wired them, even who was riding. George Nichols, a member of the project team, said the team named it, partly to tease Murphy. Murphy's son says it came from his father. Similar sayings were around before nineteen forty-nine. What the tellings share is the lesson Stapp made famous: assume it will go wrong, and plan for it."
+ },
+ {
+  "id": "n04",
+  "text": "In Japan, an engineer named Shigeo Shingo, who trained and advised factories including Toyota, developed a related idea. He called it poka-yoke: mistake-proofing. In one early case, from nineteen sixty-one, workers sometimes forgot one of two small springs in a switch. The fix: count two springs into a little dish first. If one is still in the dish, you missed it. Don't blame the worker. Change the job so the mistake can't slip through.",
+  "say": "In Japan, an engineer named Shigeo Shingo, who trained and advised factories including Toyota, developed a related idea. He called it poh-kah yoh-keh: mistake-proofing. In one early case, from nineteen sixty-one, workers sometimes forgot one of two small springs in a switch. The fix: count two springs into a little dish first. If one is still in the dish, you missed it. Don't blame the worker. Change the job so the mistake can't slip through."
+ },
+ {
+  "id": "n05",
+  "text": "Back to the pump. In the nineteen seventies, new cars got catalytic converters that leaded gas would ruin. So in the United States, the unleaded nozzle was made thinner, no wider than about eight tenths of an inch, and those cars got narrow filler necks the fatter leaded nozzle couldn't enter. Leaded gas is gone from cars, but diesel nozzles are usually wider still, so they often won't fit a gas car. The honest part: it only works one way. A gas nozzle can still fit many diesel tanks, though some diesels have guards to stop it."
+ },
+ {
+  "id": "n06",
+  "text": "Your car has another one. U.S. cars and light trucks made since September twenty ten, with an automatic transmission and a Park position, must have a brake transmission shift interlock. You can't move the shifter out of Park unless your foot is on the brake. A law passed in two thousand eight, aimed at keeping children safe around cars, made it required. Automakers had already agreed to do it."
+ },
+ {
+  "id": "n07",
+  "text": "Open a microwave in the middle of cooking, and it stops. United States rules require microwave ovens to have at least two safety interlocks on the door, built so one broken part can't defeat them all. At least one is protected against fingers and a standard test probe, and a monitor disables the oven if a monitored interlock fails."
+ },
+ {
+  "id": "n08",
+  "text": "That cut corner on your SIM card helps in a similar way. It helps line up the card in its tray, so the gold contacts face the right way. SIM cards shrank from mini to micro to nano, and the cut corner stayed."
+ },
+ {
+  "id": "n09",
+  "text": "But there is a second way to fix a mistake. Instead of making the wrong way impossible, make every way right. That is USB-C, finished in August twenty fourteen. The plug is the same upside down, so it goes in either way. No more flipping it over and trying again."
+ },
+ {
+  "id": "n10",
+  "text": "So when the world seems perfectly designed, look closer. The nozzle, the brake, the door, the corner, the plug. Some are safeguards against mistakes people could make; others make the right way easier. The world looks well built partly because people keep designing for the mistakes they can see coming. Heartbeat Observatory."
+ }
+]

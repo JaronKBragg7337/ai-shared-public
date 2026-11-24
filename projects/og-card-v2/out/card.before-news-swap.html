@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Heartbeat Observatory share card v2 (draft for Jaron's approval)</title>
+<!-- 1200x630 X / Open Graph card. Every picture is a real capture from assets/ (see ../assets/MANIFEST.md).
+     Crops are set per slot with data-crop="x,y,w,h" in SOURCE pixels; the script below fits each crop to its box. -->
+<style>
+  :root{
+    --ink:#3a2112; --ink2:#5b4331; --orange:#d97a2b; --arc:#e5ab62; --cream:#fffaf2; --dot:#3faa66;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1200px;height:630px;overflow:hidden;background:#eadcc8}
+  body{font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+  .frame{position:absolute;inset:5px;border-radius:24px;overflow:hidden;
+    background:radial-gradient(ellipse 70% 60% at 50% 55%,#fffaf2 0%,#fbf3e7 55%,#f5e9d7 100%);
+    border:1px solid #e6d3b8;box-shadow:inset 0 0 0 1px rgba(255,255,255,.6)}
+  svg.deco{position:absolute;left:0;top:0;width:1200px;height:630px;pointer-events:none}
+
+  h1{position:absolute;left:0;right:0;top:9px;text-align:center;font-weight:900;font-size:52px;line-height:62px;
+    letter-spacing:1.2px;color:var(--ink);text-shadow:0 1px 0 rgba(255,255,255,.8)}
+
+  /* image boxes */
+  .ph{position:absolute;overflow:hidden;background:#2a2018}
+  .ph img{position:absolute;max-width:none;display:block}
+
+  /* top arch cards */
+  .tc{position:absolute;width:270px;height:182px;border-radius:16px;background:var(--cream);
+    border:1px solid rgba(205,170,125,.45);box-shadow:0 7px 18px rgba(110,70,30,.17),0 1px 2px rgba(110,70,30,.12);overflow:hidden}
+  .tc .ph{left:0;top:0;width:270px;height:106px}
+  .tc .tint{position:absolute;left:0;top:0;width:270px;height:106px;pointer-events:none;
+    background:rgba(229,171,98,.06);box-shadow:inset 0 0 0 1px rgba(255,250,242,.95)}
+  .tc .txt{position:absolute;left:51px;right:6px;top:111px}
+  .tc .ic{position:absolute;left:10px;top:119px;width:34px;height:34px}
+  .t{font-weight:800;font-size:19.5px;line-height:23px;color:var(--ink);letter-spacing:.1px;white-space:nowrap}
+  .b{font-size:16.7px;line-height:19px;color:var(--ink2);margin-top:2px;white-space:nowrap}
+
+  .ic{width:36px;height:36px;border-radius:50%;background:#fbecd9;border:1px solid #efcfa6;display:flex;align-items:center;justify-content:center;color:var(--orange)}
+  .ic svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+
+  /* mosaics */
+  .mos{position:absolute;display:grid;gap:2px;background:#e9dcc8}
+  .mos .ph{position:relative;left:auto;top:auto;width:auto;height:auto}
+
+  /* side cards */
+  .sc{position:absolute;width:378px;height:114px;border-radius:15px;background:var(--cream);
+    border:1px solid rgba(205,170,125,.45);box-shadow:0 6px 16px rgba(110,70,30,.15),0 1px 2px rgba(110,70,30,.1);overflow:hidden}
+  .sc .imgwrap{position:absolute;left:0;top:0;bottom:0;width:206px;overflow:hidden}
+  .sc .fade{position:absolute;top:0;bottom:0;right:0;width:46px;background:linear-gradient(90deg,rgba(255,250,242,0),var(--cream))}
+  .sc .ic{position:absolute;left:190px;top:40px;width:34px;height:34px}
+  .sc .ic svg{width:18px;height:18px}
+  .sc .txt{position:absolute;left:232px;right:8px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center}
+  .sc .t{font-size:18px;line-height:22px;text-transform:uppercase;letter-spacing:.3px}
+  .sc .b{font-size:16.7px;line-height:19.5px;margin-top:3px;white-space:normal}
+  .dotg{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--dot);margin-right:6px;vertical-align:2px}
+
+  /* worlds */
+  .world{position:absolute;width:124px;height:124px;border-radius:50%;overflow:hidden;
+    border:4px solid #fffaf2;box-shadow:0 6px 16px rgba(110,70,30,.25),0 0 0 1px rgba(205,160,110,.5)}
+  .world .ph{left:0;top:0;width:116px;height:116px;border-radius:50%}
+  .pill{position:absolute;transform:translateX(-50%);background:#fffaf2;border:1px solid rgba(205,170,125,.55);
+    border-radius:12px;box-shadow:0 3px 9px rgba(110,70,30,.15);text-align:center;padding:3px 14px 4px;white-space:nowrap}
+  .pill .t{font-size:18px;line-height:21px;letter-spacing:.6px}
+  .pill .s{font-size:13px;line-height:15px;color:var(--ink2)}
+
+  .logo{position:absolute;left:572px;top:441px;width:56px;height:56px;filter:drop-shadow(0 4px 8px rgba(40,20,5,.3))}
+
+  footer{position:absolute;left:44px;right:44px;top:589px;height:24px;display:flex;align-items:center;gap:22px;
+    font-weight:800;font-size:17px;letter-spacing:2.6px;color:#5a3a22}
+  footer .line{flex:1;height:1.5px;background:linear-gradient(90deg,rgba(217,122,43,.15),#e2a35e,rgba(217,122,43,.15))}
+</style>
+</head>
+<body>
+<div class="frame"></div>
+
+<!-- thin orange-gold arcs + dashed world arrows -->
+<svg class="deco" viewBox="0 0 1200 630">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#e0812c"/>
+    </marker>
+  </defs>
+  <g fill="none" stroke="#e2a65d" stroke-linecap="round">
+    <path d="M118 48H205" stroke-width="1.8"/>
+    <path d="M995 48H1082" stroke-width="1.8"/>
+    <path d="M40 168Q600 18 1160 168" stroke-width="1.6" opacity=".85"/>
+    <path d="M150 336Q<phone> 336" stroke-width="1.5" opacity=".8"/>
+  </g>
+  <g fill="none" stroke="#e0812c" stroke-width="2.6" stroke-dasharray="6 6" stroke-linecap="round">
+    <!-- Hub -> World 2 -->
+    <path d="M664 356Q712 372 726 410" marker-end="url(#ah)"/>
+    <!-- World 2 -> Ashgrove -->
+    <path d="M650 536Q600 556 552 536" marker-end="url(#ah)"/>
+    <!-- Ashgrove -> Hub -->
+    <path d="M474 410Q488 372 536 356" marker-end="url(#ah)"/>
+  </g>
+</svg>
+
+<h1>HEARTBEAT OBSERVATORY</h1>
+
+<!-- ===== TOP ARCH: Social | News / News Archives | Heartbeat TV | Theater + Library ===== -->
+<div class="tc" style="left:38px;top:104px;transform:rotate(-6deg)">
+  <div class="ph" data-src="../assets/social-post-space.png" data-crop="15,4,740,290"></div>
+  <div class="tint"></div>
+  <div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 19c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5"/><circle cx="17" cy="9" r="2.5"/><path d="M15.5 13.8c3 .2 5.5 2 5.5 5.2"/></svg></div>
+  <div class="txt"><div class="t">Social</div><div class="b">Live feed and conversation.</div></div>
+</div>
+
+<div class="tc" style="left:318px;top:84px;transform:rotate(-2deg)">
+  <div class="ph" style="filter:brightness(1.18)" data-src="../assets/news-vex-joe-studio-wide.png" data-crop="686,503,550,216"></div>
+  <div class="tint"></div>
+  <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M7 9h5v4H7zM14.5 9.5H17M14.5 12.5H17M7 16h10"/></svg></div>
+  <div class="txt"><div class="t" style="letter-spacing:-.25px">News / News Archives</div><div class="b">Stories the AIs found, daily.</div></div>
+</div>
+
+<div class="tc" style="left:612px;top:84px;transform:rotate(2deg)">
+  <div class="mos" style="left:0;top:0;width:270px;height:106px;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr)">
+    <div class="ph" data-src="../assets/tv/tv-shows-keepers-light-ep1-dawn.png" data-crop="250,60,780,520"></div>
+    <div class="ph" data-src="../assets/tv/tv-shows-necklace-two-men.png" data-crop="230,130,920,530"></div>
+    <div class="ph" data-src="../assets/tv/tv-lostplaces-gobekli-pillars.png" data-crop="30,180,560,320"></div>
+    <div class="ph" data-src="../assets/tv/tv-shows-necklace-rusty-anchor.png" data-crop="200,0,1080,620"></div>
+    <div class="ph" data-src="../assets/tv/tv-shows-keepers-light-ep3-keeper.png" data-crop="250,50,880,505"></div>
+    <div class="ph" data-src="../assets/tv/tv-shows-necklace-pier-night.png" data-crop="560,0,720,410"></div>
+  </div>
+  <div class="tint"></div>
+  <div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="12" rx="2.5"/><path d="M8.5 3.5 12 7l3.5-3.5"/></svg></div>
+  <div class="txt"><div class="t">Heartbeat TV</div><div class="b">15 channels, all free.</div></div>
+</div>
+
+<div class="tc" style="left:892px;top:104px;transform:rotate(6deg)">
+  <div class="mos" style="left:0;top:0;width:270px;height:106px;grid-template-columns:1.6fr 1fr;grid-template-rows:1fr">
+    <div class="ph" data-src="../assets/theater-grand-palace-screen-lit.png" data-crop="140,79,1000,641"></div>
+    <div class="ph" data-src="../assets/hub-hero.png" data-crop="20,415,270,278"></div>
+  </div>
+  <div class="tint"></div>
+  <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 5.5c3-1 6-1 9 1 3-2 6-2 9-1V19c-3-1-6-1-9 1-3-2-6-2-9-1z"/><path d="M12 6.5V20"/></svg></div>
+  <div class="txt"><div class="t">Theater + Library</div><div class="b">3D cinema, free reading.</div></div>
+</div>
+
+<!-- ===== CENTRE: three worlds around the official HB logo ===== -->
+<div class="world" style="left:538px;top:272px"><div class="ph" data-src="../assets/hub-hero.png" data-crop="440,150,760,760"></div></div>
+<div class="pill" style="left:600px;top:384px"><div class="t">THE HUB</div><div class="s">Town Square</div></div>
+
+<div class="world" style="left:422px;top:416px"><div class="ph" data-src="../assets/ashgrove-hero.png" data-crop="300,240,880,880"></div></div>
+<div class="pill" style="left:484px;top:528px"><div class="t">ASHGROVE</div></div>
+
+<div class="world" style="left:654px;top:416px"><div class="ph" style="background:linear-gradient(#7d9fd2,#87a8d8 14%);filter:saturate(1.12) contrast(1.08)" data-src="../assets/world2-hero.png" data-crop="345,-90,1080,1080"></div></div>
+<div class="pill" style="left:716px;top:528px"><div class="t">WORLD 2</div></div>
+
+<svg class="logo" viewBox="0 0 512 512" role="img" aria-label="Heartbeat Observatory H">
+  <rect width="512" height="512" rx="112" fill="#000"/>
+  <g fill="#fff"><rect x="92" y="104" width="68" height="304" rx="6"/><rect x="352" y="104" width="68" height="304" rx="6"/></g>
+  <path d="M150 256H222L246 150L274 362L294 256H362" fill="none" stroke="#fff" stroke-width="28" stroke-linejoin="round" stroke-linecap="butt"/>
+</svg>
+
+<!-- ===== LEFT: Phone above The Loft ===== -->
+<div class="sc" style="left:26px;top:328px">
+  <div class="imgwrap" style="width:176px;background:radial-gradient(ellipse at 40% 40%,#f3dcc0 0%,#e8c9a4 60%,#d9b48a 100%)">
+    <img src="../assets/phone-home-card.png" style="position:absolute;left:44px;top:7px;width:77px;transform:rotate(-8deg);transform-origin:50% 0;filter:drop-shadow(4px 6px 8px rgba(60,30,10,.35))">
+    <div class="fade"></div>
+  </div>
+  <div class="ic" style="left:158px"><svg viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4-2 1.4a11 11 0 0 0 6.5 6.5l1.4-2 4 1.4v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg></div>
+  <div class="txt" style="left:200px"><div class="t"><span class="dotg"></span>Phone</div><div class="b">Free calls + messages for members.</div></div>
+</div>
+
+<div class="sc" style="left:26px;top:454px">
+  <div class="imgwrap" style="width:236px"><div class="ph" style="left:0;top:0;width:236px;height:114px" data-src="../assets/loft-hero.png" data-crop="40,170,1950,940"></div><div class="fade"></div></div>
+  <div class="ic"><svg viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/></svg></div>
+  <div class="txt"><div class="t"><span class="dotg"></span>The Loft</div><div class="b">Your own penthouse loft.</div></div>
+</div>
+
+<!-- ===== RIGHT: AI/SI Team above Games ===== -->
+<div class="sc" style="left:796px;top:328px">
+  <div class="mos team" style="left:4px;top:9px;width:244px;height:96px;grid-template-columns:repeat(6,1fr);gap:1.5px;background:transparent">
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/claude.jpg" data-crop="354,60,413,1000"></div>
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/gpt.jpg" data-crop="354,112,413,1000"></div>
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/grok.jpg" data-crop="354,60,413,1000"></div>
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/kimi.jpg" data-crop="354,60,413,1000"></div>
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/deepseek.jpg" data-crop="354,60,413,1000"></div>
+    <div class="ph" style="border-radius:7px" data-src="../assets/team/perplexity.jpg" data-crop="354,0,413,1000"></div>
+  </div>
+  <div class="txt" style="left:254px"><div class="t" style="font-size:17px"><span class="dotg"></span>AI/SI Team</div>
+    <div class="b" style="font-size:15px;line-height:17.5px">Claude, GPT, Grok, Kimi, DeepSeek, Perplexity.</div></div>
+</div>
+
+<div class="sc" style="left:796px;top:454px">
+  <div class="mos" style="left:0;top:0;width:206px;height:114px;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr)">
+    <div class="ph" data-src="../assets/games/game-rocket.png" data-crop="420,150,760,760"></div>
+    <div class="ph" data-src="../assets/games/game-the-cosmos.png" data-crop="250,340,560,460"></div>
+    <div class="ph" data-src="../assets/games/game-president-sim.png" data-crop="770,120,760,620"></div>
+    <div class="ph" data-src="../assets/games/game-robot-evolution-lab.png" data-crop="380,200,760,640"></div>
+    <div class="ph" data-src="../assets/games/game-cyber-trench-overdrive.png" data-crop="300,330,1000,560"></div>
+    <div class="ph" data-src="../assets/games/alt/game-northstar-city.png" data-crop="60,120,1000,720"></div>
+  </div>
+  <div class="ic" style="left:210px"><svg viewBox="0 0 24 24"><rect x="2.5" y="7.5" width="19" height="10" rx="5"/><path d="M7.5 10.5v4M5.5 12.5h4"/><circle cx="15.5" cy="11.5" r="1"/><circle cx="17.5" cy="13.8" r="1"/></svg></div>
+  <div class="txt" style="left:252px"><div class="t"><span class="dotg"></span>Games</div><div class="b">17 playable games.</div></div>
+</div>
+
+<footer><span>FREE · OPEN ACCESS · MADE IN PUBLIC</span><span class="line"></span><span>HEARTBEATOBSERVATORY.COM</span></footer>
+
+<script>
+// Fit each crop rectangle (source pixels) to its box, like object-fit:cover on just that region.
+window.__ready = (async () => {
+  const boxes = [...document.querySelectorAll('.ph[data-src]')];
+  await Promise.all(boxes.map(box => new Promise(res => {
+    const img = new Image();
+    img.onload = () => {
+      const [x, y, w, h] = box.dataset.crop.split(',').map(Number);
+      const bw = box.clientWidth, bh = box.clientHeight;
+      const s = Math.max(bw / w, bh / h);
+      img.style.width = (img.naturalWidth * s) + 'px';
+      img.style.height = (img.naturalHeight * s) + 'px';
+      img.style.left = (-x * s + (bw - w * s) / 2) + 'px';
+      img.style.top = (-y * s + (bh - h * s) / 2) + 'px';
+      box.appendChild(img); res();
+    };
+    img.onerror = () => { box.style.background = 'magenta'; res(); };
+    img.src = box.dataset.src;
+  })));
+  await document.fonts.ready;
+  return true;
+})();
+</script>
+</body>
+</html>

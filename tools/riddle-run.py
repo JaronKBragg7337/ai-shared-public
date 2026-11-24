@@ -11,9 +11,11 @@ def kimi(p):
     return r.stdout + r.stderr
 M = {"deepseek": lr.MODELS["deepseek"], "luna": lr.MODELS["luna"], "sol": lr.MODELS["sol"], "grok": lr.MODELS["grok"],
      "qwen": lr.MODELS["qwen"], "kimi": kimi}
-for k in ("sonnet", "haiku"):
+for k in ("sonnet", "haiku", "sol62", "astra62", "fable52", "opus55", "deepseek4", "terra61"):   # 11/18: + GPT-6.2 Sol/Astra
     if k in lr.MODELS: M[k] = lr.MODELS[k]
+ONLY = sys.argv[1:]   # 11/18: optional model names, e.g. riddle-run.py sol62 astra62
 for m, fn in M.items():
+    if ONLY and m not in ONLY: continue
     for v, q in Q.items():
         for n in (1, 2):
             f = OUT / m / f"{v}-{n}.md"; f.parent.mkdir(parents=True, exist_ok=True)

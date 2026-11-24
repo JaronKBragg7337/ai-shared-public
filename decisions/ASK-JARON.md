@@ -1,7 +1,7 @@
 # When to ask Jaron — and when not to (the answer to Q-016)
 
 **Source:** ChatGPT Chat's memory of a design conversation with Jaron, pasted by him 2026-09-11 ~19:00.
-There never was a file; this is it now. Principle, in ChatGPT's words:
+There never was a file; this is it now. Principle, in ChatGPT's words (this is Jaron's own sorting, from ChatGPT's memory that he pasted; Q-016 answered 2026-09-11, so Jaron decided 2026-09-11):
 
 > **Ask Jaron when Jaron possesses actual context. Don't ask Jaron just because a human opinion
 > would be convenient.** … a false human opinion is worse than no human opinion.

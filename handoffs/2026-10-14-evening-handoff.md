@@ -1,7 +1,7 @@
 # Handoff 2026-10-14 ~6:25 PM (Claude Code, before compaction) - READ THIS FIRST after a compaction
 
 ## Done 10/12-10/14
-- EIN 43-2421814 (10/14 10:38 AM, online). D-U-N-S requested 10/14 4:27 PM (watch <email>, ~5 business days).
+- EIN <EIN> (10/14 10:38 AM, online). D-U-N-S requested 10/14 4:27 PM (watch <email>, ~5 business days).
   Next: BMV ID Thu (court + child-support mail at Mom's), then Apple Developer as the LLC ($99/yr, WEB + X Money card) + Google Play.
   Apple Small Business Program = 15% cut. Livi planned at $0.99.
 - Company socials: X @HeartbeatObserv, TikTok @heartbeat.observa, YouTube @HeartbeatObservatory. Cream banner + C2 share card live.
@@ -24,6 +24,6 @@
 
 ## Open / next
 - iPhone Notes -> MSI via a Shortcut into iCloud Drive "Heartbeat Inbox/Notes" (he said it sounds like a mission; not started).
-  Photos must NOT sync (kids/Heather). iCloud for Windows is on the MSI (Drive only).
+  Photos must NOT sync (kids/his ex-wife). iCloud for Windows is on the MSI (Drive only).
 - Gemini 4 Argon: test later on one fact-check + his tests once public API is open.
 - Video calls in the app: add video + a TURN relay (APP-STORES-PLAN.md).

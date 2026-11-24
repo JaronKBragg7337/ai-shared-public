@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skin is code: the wall that is built from its own paint</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #070818; color: #e9e2d0; font: 13px/1.45 system-ui, -apple-system, 'Segoe UI', sans-serif; overflow: hidden; }
+  canvas { position: fixed; inset: 0; width: 100%; height: 100%; display: block; }
+  #read { position: fixed; left: 12px; right: 12px; bottom: 10px; color: #cfc6ad; background: rgb(7 8 24 / 80%); border: 1px solid rgb(255 214 122 / 28%); border-radius: 8px; padding: 8px 11px; }
+  #read b { color: #ffd67a; font-weight: 600; }
+</style>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.182.0/build/three.module.js" } }</script>
+</head>
+<body>
+<canvas id="view" aria-label="A wall that is built only from what is painted on its things"></canvas>
+<div id="read" role="status"></div>
+<script type="module">
+// A study, not the room yet. One wall of Room 2 where the paint is the SOURCE, not a print.
+//   THE MAKER decides the things, paints each one's code on its own surface, and hands over the painted surfaces. Nothing else.
+//   THE WORLD is given those surfaces and which levers are up. It reads every surface (skincode.js: it finds the windows
+//   itself) and builds only what it read, where the paint says. Repaint a thing and the thing changes. Spoil every tower
+//   on a thing and the world no longer knows it is there.
+import * as THREE from 'three';
+import { Builder, EventEngine, stateMark } from '../world.js';
+import { ROOMS, buildRoom, codeText, parseCode } from '../rooms.js';
+import { paintSurface, readSurface, toFloors, windowRect } from './skincode.js';
+
+// ---------------------------------------------------------------- the book of kinds: what maker and reader both know
+const KINDS = { switch: { size: [0.3, 0.47, 0.1], wear: 'front', px: [252, 392] }, lamp: { size: [0.3, 1.07, 0.3], wear: 'sides', px: [252, 896] },
+  door: { size: [1, 2.3, 0.07], wear: 'front', px: [252, 580] }, wall: { wear: 'big' }, floor: { wear: 'top' } };
+const LOOK = {
+  wall: { cell: 15, lit: '#8f6d33', dim: '#1b2147', base: '#0e1230', stagger: 9 },     // the wall's own code as wallpaper, kept low so things stand out
+  floor: { cell: 22, lit: '#3d4573', dim: '#161a36', base: '#0b0d22' },
+  glow: { cell: 18, lit: '#ffd67a', dim: '#3b4066', base: '#20253f' },                   // a thing that is on: its code shines
+  rest: { cell: 18, lit: '#a07f47', dim: '#2a2f52', base: '#1c2038' },                   // the same code, unlit
+  dead: { cell: 18, lit: '#5b5568', dim: '#232741', base: '#171a2e' },                   // readable, but it cannot work (something it needs is missing)
+};
+const lookFor = (kind, state) => (kind === 'wall' ? LOOK.wall : kind === 'floor' ? LOOK.floor : state === 'dead' ? LOOK.dead : state ? LOOK.glow : LOOK.rest);
+const num = (v) => String(Number(v.toFixed(2)));
+
+// what a surface's text means: "<what it is> at x y z" and, for walls and floors, "size w h d"
+function parse(text) {
+  const m = /^(.*?) at (-?[\d.]+) (-?[\d.]+) (-?[\d.]+)(?: size ([\d.]+) ([\d.]+) ([\d.]+))?$/.exec(text || ''); if (!m) return null;
+  const head = m[1], at = [Number(m[2]), Number(m[3]), Number(m[4])];
+  if (head === 'wall' || head === 'floor') return m[5] ? { kind: head, id: `${head} ${m[2]} ${m[4]}`, at, size: [Number(m[5]), Number(m[6]), Number(m[7])], text } : null;
+  let rule; try { rule = parseCode(head)[0]; } catch (error) { return null; }
+  return rule ? { kind: rule.kind, id: rule.id, rule, line: head, at, size: KINDS[rule.kind].size, text } : null;
+}
+function canvasSize(thing) {
+  if (thing.kind === 'floor') return [Math.round(thing.size[0] * 128), Math.round(thing.size[2] * 128)];
+  if (thing.kind === 'wall') return [Math.round(Math.max(thing.size[0], thing.size[2]) * 256), Math.round(thing.size[1] * 256)];
+  return KINDS[thing.kind].px;
+}
+
+// ---------------------------------------------------------------- THE MAKER
+const def = ROOMS[1];
+const SPOTS = { 1: [-3.25, 1.25, -4.94], 2: [-2.63, 1.25, -4.94], 3: [-2.01, 1.25, -4.94], A: [-1.3, 1.98, -4.74], B: [1.3, 1.98, -4.74], D: [0, 1.15, -4.95] };
+const truth = [                                                   // the maker's own numbers, kept ONLY to check the world against afterwards
+  ...def.things.map((t) => ({ kind: t.kind, id: t.id, line: codeText([t]), at: SPOTS[t.id], size: KINDS[t.kind].size })),
+  { kind: 'wall', at: [0, 1.7, -5.01], size: [8, 3.4, 0.02] }, { kind: 'wall', at: [4.01, 1.7, -2.5], size: [0.02, 3.4, 5] },
+  { kind: 'wall', at: [-4.01, 1.7, -2.5], size: [0.02, 3.4, 5] }, { kind: 'floor', at: [0, -0.01, -2.5], size: [8, 0.02, 5] },
+];
+const textOf = (t) => (t.line ? `${t.line} at ${t.at.map(num).join(' ')}` : `${t.kind} at ${t.at.map(num).join(' ')} size ${t.size.map(num).join(' ')}`);
+const made = truth.map((t) => {
+  const text = textOf(t), [w, h] = canvasSize(t), canvas = document.createElement('canvas'); canvas.width = w; canvas.height = h;
+  const ink = canvas.getContext('2d', { willReadFrequently: true }), info = paintSurface(ink, w, h, text, lookFor(t.kind, 0));
+  return { surface: { canvas, ink, w, h }, wrote: text, info, truth: t };
+});
+const surfaces = made.map((m) => m.surface);                     // all the world ever gets
+
+// ---------------------------------------------------------------- THE WORLD
+function readWorld(given, levers) {
+  const things = [], unread = [];
+  for (const surface of given) { const got = readSurface(surface.ink, surface.w, surface.h), thing = got && got.text ? parse(got.text) : null; if (thing) things.push({ ...thing, surface, tower: got.tower, towers: got.towers }); else unread.push({ surface, conflict: !!(got && got.conflict) }); }
+  // the machine, from what was read: levers, then anything whose wires all come from things already standing
+  const B = new Builder(), at = {}, stuck = [], waiting = things.filter((t) => t.rule && t.kind !== 'switch');
+  for (const t of things.filter((o) => o.kind === 'switch').sort((a, b) => (a.id < b.id ? -1 : 1))) at[t.id] = B.input(t.id);
+  for (let moved = true; moved;) { moved = false;
+    for (let i = 0; i < waiting.length; i++) { const t = waiting[i]; if (!t.rule.wires.every(([source]) => source in at)) continue;
+      at[t.id] = B.part(t.rule.mark, t.kind); for (const [source, weight] of t.rule.wires) B.link(at[source], at[t.id], weight); waiting.splice(i--, 1); moved = true; } }
+  for (const t of waiting) stuck.push({ id: t.id, needs: t.rule.wires.map(([source]) => source).filter((source) => !(source in at)) });
+  const W = B.done(), E = new EventEngine(W);
+  for (const id in levers) if (levers[id] && id in at) E.set(at[id], 1);
+  const on = (t) => (t.id in at ? E.out[at[t.id]] === 1 : false);
+  for (const t of things) {                                         // the world lights or rests each thing's windows. The pattern is whatever it read.
+    t.state = t.rule && !(t.id in at) ? 'dead' : on(t) ? 1 : 0;
+    paintSurface(t.surface.ink, t.surface.w, t.surface.h, t.text, lookFor(t.kind, t.state));
+  }
+  return { things, unread, stuck, mark: stateMark(E.out), on: Object.fromEntries(things.filter((t) => t.rule).map((t) => [t.id, t.state])) };
+}
+
+// ---------------------------------------------------------------- drawing what the world built
+const haloCanvas = document.createElement('canvas'); haloCanvas.width = haloCanvas.height = 128;
+{ const ink = haloCanvas.getContext('2d'), g = ink.createRadialGradient(64, 64, 0, 64, 64, 64); g.addColorStop(0, '#ffffff'); g.addColorStop(0.3, '#8a8a8a'); g.addColorStop(0.65, '#262626'); g.addColorStop(1, '#000000'); ink.fillStyle = g; ink.fillRect(0, 0, 128, 128); }
+const flat = (color) => new THREE.MeshBasicMaterial({ color });
+function draw(things) {
+  const scene = new THREE.Scene(); scene.background = new THREE.Color(0x070818); scene.fog = new THREE.Fog(0x070818, 7, 17);
+  const haloMap = new THREE.CanvasTexture(haloCanvas), dark = flat(0x141831), brass = flat(0x6b5733), frame = flat(0x2a2f55);
+  const add = (mesh, x, y, z) => { mesh.position.set(x, y, z); scene.add(mesh); return mesh; };
+  const halo = (x, y, z, size, strength, onFloor) => { const m = add(new THREE.Mesh(new THREE.PlaneGeometry(size, size), new THREE.MeshBasicMaterial({ map: haloMap, color: 0xffb65c, transparent: true, opacity: strength, blending: THREE.AdditiveBlending, depthWrite: false, fog: false })), x, y, z); if (onFloor) m.rotation.x = -Math.PI / 2; };
+  add(new THREE.Mesh(new THREE.PlaneGeometry(8, 5), flat(0x090b1d)), 0, 3.4, -2.5).rotation.x = Math.PI / 2;                  // the ceiling wears nothing
+  for (const t of things) {
+    const map = new THREE.CanvasTexture(t.surface.canvas); map.colorSpace = THREE.SRGBColorSpace; map.anisotropy = 8;
+    const skin = new THREE.MeshBasicMaterial({ map }), [w, h, d] = t.size, [x, y, z] = t.at, wear = KINDS[t.kind].wear;
+    const sides = wear === 'front' ? [dark, dark, dark, dark, skin, dark] : wear === 'sides' ? [skin, skin, brass, brass, skin, skin] : wear === 'top' ? [dark, dark, skin, dark, dark, dark]
+      : d < w ? [dark, dark, dark, dark, skin, skin] : [skin, skin, dark, dark, dark, dark];
+    const body = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), sides);
+    if (t.kind === 'door') {                                        // a door that is on stands open, and light comes through
+      add(new THREE.Mesh(new THREE.PlaneGeometry(w, h), flat(t.state === 1 ? 0xffe2a6 : 0x05060f)), x, y, z - 0.03);
+      const hinge = new THREE.Group(); hinge.position.set(x - w / 2, y, z); body.position.set(w / 2, 0, 0); hinge.add(body); hinge.rotation.y = t.state === 1 ? -1.25 : 0; scene.add(hinge);
+      for (const side of [-1, 1]) add(new THREE.Mesh(new THREE.BoxGeometry(0.09, h + 0.14, 0.11), frame), x + side * (w / 2 + 0.045), y + 0.07, z + 0.01);
+      add(new THREE.Mesh(new THREE.BoxGeometry(w + 0.18, 0.1, 0.11), frame), x, y + h / 2 + 0.09, z + 0.01);
+      if (t.state === 1) { halo(x, y, z + 0.02, 3.6, 0.55); halo(x, 0.006, z + 1.1, 3.4, 0.4, true); }
+    } else add(body, x, y, z);
+    if (t.kind === 'lamp') {
+      for (const end of [-1, 1]) add(new THREE.Mesh(new THREE.BoxGeometry(w + 0.06, 0.05, d + 0.06), brass), x, y + end * (h / 2 + 0.02), z);
+      add(new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.06, 0.14), brass), x, y + h / 2 + 0.02, z - 0.19);
+      if (t.state === 1) { halo(x, y, z - 0.25, 3.4, 0.5); halo(x, 0.006, z + 0.64, 3.2, 0.3, true); }
+    }
+    if (t.kind === 'switch') {
+      const up = t.state === 1, handle = add(new THREE.Mesh(new THREE.CylinderGeometry(0.022, 0.022, 0.24, 12), brass), x, y - 0.31, z + 0.1); handle.rotation.x = up ? -0.9 : 0.9;
+      add(new THREE.Mesh(new THREE.SphereGeometry(0.04, 16, 12), brass), x, y + (up ? -0.25 : -0.37), z + 0.19);
+      if (up) halo(x, y, z - 0.05, 1.3, 0.3);
+    }
+  }
+  return scene;
+}
+
+// ---------------------------------------------------------------- looking at it, and checking it
+const canvas = document.getElementById('view'), renderer = new THREE.WebGLRenderer({ canvas, antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(2, devicePixelRatio || 1)); renderer.outputColorSpace = THREE.SRGBColorSpace;
+const camera = new THREE.PerspectiveCamera(60, 1, 0.05, 40);
+const VIEWS = [{ pos: [-1.9, 1.62, 1.1], at: [0.45, 1.5, -5], wide: 60, tall: 82 }, { pos: [2.5, 1.62, -2.3], at: [0.75, 1.62, -5], wide: 58, tall: 80 }, { pos: [-2.3, 1.5, -3.2], at: [-2.65, 1.3, -5], wide: 52, tall: 72 }];
+let scene = null, shown = 0;
+function show(what = scene, n = shown) {
+  const v = VIEWS[n], w = canvas.clientWidth, h = canvas.clientHeight; shown = n;
+  renderer.setSize(w, h, false); camera.aspect = w / h; camera.fov = w < h ? v.tall : v.wide; camera.updateProjectionMatrix();
+  camera.position.set(...v.pos); camera.lookAt(...v.at); renderer.render(what, camera);
+  return canvas.toDataURL();
+}
+const levers = { 1: 1, 2: 1, 3: 1 };                               // every lever up
+const same = (a, b) => a.length === b.length && a.every((v, i) => Math.abs(v - b[i]) < 1e-9);
+function run(note = '') {
+  const world = readWorld(surfaces, levers);
+  // check 1: every property the world read, against the maker's own numbers
+  const props = truth.map((t) => { const got = world.things.find((o) => o.kind === t.kind && same(o.at, t.at)); return !!got && same(got.size, t.size) && (!t.line || (got.line === t.line && got.id === t.id)); });
+  // check 2: picture against picture. The same wall drawn from the maker's numbers, and drawn from what the world read.
+  const fromNumbers = truth.map((t, i) => ({ ...t, surface: made[i].surface, state: t.line ? (world.on[t.id] ?? 0) : 0 }));
+  const pictureA = show(draw(fromNumbers)), pictureB = show(scene = draw(world.things));
+  const report = { read: world.things.length, unread: world.unread.length, conflicts: world.unread.filter((u) => u.conflict).length, of: surfaces.length, propsRight: props.filter(Boolean).length, propsOf: props.length, pictureSame: pictureA === pictureB,
+    on: world.on, stuck: world.stuck, mark: world.mark, texts: world.things.map((t) => t.text), towersUsed: Object.fromEntries(world.things.filter((t) => t.rule).map((t) => [t.id, t.tower])) };
+  const blank = world.unread.length - report.conflicts;
+  const gone = (blank ? ` <b>${blank} surface${blank > 1 ? 's' : ''} could not be read, so the world does not know that thing is there.</b>` : '') +
+    (report.conflicts ? ` <b>${report.conflicts} surface has towers that say different things. The world will not guess which is true, so that thing is not built.</b>` : '');
+  const dead = world.stuck.map((s) => ` <b>${s.id === 'D' ? 'The door' : 'Lamp ' + s.id} cannot work: it asks for ${s.needs.join(' and ')}, and nothing readable here is ${s.needs.join(' or ')}.</b>`).join('');
+  document.getElementById('read').innerHTML = `<b>This wall is built only from what is painted on it.</b> ${report.read} of ${report.of} surfaces read. ` +
+    (report.unread || world.stuck.length || note ? '' : `Every thing is where and what the maker meant (${report.propsRight} of ${report.propsOf}), and the picture is the same, dot for dot: ${report.pictureSame ? 'yes' : 'NO'}. `) + note + gone + dead;
+  return report;
+}
+
+// ---------------------------------------------------------------- hands that change the paint (they touch paint only, never the world)
+const pick = (id) => made.find((m) => m.truth.id === id);
+function repaint(id, line) {                                       // paint a different rule on a thing, as carefully as the maker would
+  const m = pick(id), was = toFloors(m.wrote), text = `${line} at ${m.truth.at.map(num).join(' ')}`, now = toFloors(text);
+  m.info = paintSurface(m.surface.ink, m.surface.w, m.surface.h, text, LOOK.rest); m.wrote = text;
+  let changed = 0; for (let i = 0; i < Math.max(was.length, now.length); i++) { let x = (was[i] ?? 0) ^ (now[i] ?? 0); while (x) { changed += x & 1; x >>= 1; } }
+  return changed;                                                  // windows that differ in one tower
+}
+function spoil(id, which) {                                        // black out one lit window of the count floor: in one tower, or in every tower
+  const m = pick(id), floors = toFloors(m.wrote), bit = 7 - Math.floor(Math.log2(floors[1]));
+  for (let t = 0; t < m.info.towers; t++) { if (which === 'one' && t > 0) break; m.surface.ink.fillStyle = '#000000'; m.surface.ink.fillRect(...windowRect(m.info, t, m.info.shifts[t] + 1, bit)); }
+}
+function repaintOne(id, line) {                                   // a careless or sly hand: a different, perfectly valid code on ONE tower only
+  const m = pick(id), copy = document.createElement('canvas'); copy.width = m.surface.w; copy.height = m.surface.h;
+  const info = paintSurface(copy.getContext('2d'), copy.width, copy.height, `${line} at ${m.truth.at.map(num).join(' ')}`, LOOK.rest);
+  m.surface.ink.drawImage(copy, info.x0, info.c, 8 * info.c, copy.height - info.c, info.x0, info.c, 8 * info.c, copy.height - info.c);
+}
+const peek = (id) => { const s = pick(id).surface; return readSurface(s.ink, s.w, s.h); };
+
+const first = run();
+addEventListener('resize', () => show());
+window.study = { first, run, repaint, repaintOne, spoil, peek, view: (n) => { show(scene, n); }, wholeRoom: () => { const again = buildRoom(parseCode(first.texts.filter((t) => !/^(wall|floor) /.test(t)).map((t) => t.split(' at ')[0]).sort((a, b) => 'sld'.indexOf(a.split(' ')[1][0]) - 'sld'.indexOf(b.split(' ')[1][0]) || (a < b ? -1 : 1)).join('\n'))); for (const lever of again.switches) again.E.set(again.at[lever.id], 1); return stateMark(again.E.out) === first.mark; } };
+</script>
+</body>
+</html>

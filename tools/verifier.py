@@ -396,7 +396,7 @@ def run_once(env):
 import sys as _sys, os as _os
 _sys.path.insert(0, _os.path.dirname(_os.path.realpath(__file__)))
 from settings import setting  # Control Room values (/admin/control/), built-in default if unreachable
-DEEPSEEK_DAILY_BUDGET_USD = setting("deepseek_daily_budget_usd", 10.0)   # change freely; Jaron's call
+DEEPSEEK_DAILY_BUDGET_USD = setting("deepseek_daily_budget_usd", 10.0)   # change freely (Control Room setting; DeepSeek trading allowed 2026-09-24, set to 0 on 2026-10-01 by Jaron)
 
 
 MAX_DAYS_TO_SETTLE = setting("max_days_to_settle", 14)   # Jaron 2026-09-25; same number as desk-trade.py and proposer.py

@@ -120,7 +120,7 @@ atlas.save(os.path.join(D, "walls", "atlas.png"))
 if "--walls-only" in sys.argv: sys.exit(0)
 
 # ---- timing, cameras, audio
-man = {m["file"]: m for w in ("vex", "joe") for m in json.load(open(os.path.join(D, "manifest_%s.json" % w)))}
+man = {m["file"]: m for w in ("vex", "joe") for m in json.load(open(os.path.join(D, "manifest_%s.json" % w), encoding="utf-8"))}
 def read_wav(p):
     w = wave.open(p); n = w.getnframes(); sr = w.getframerate(); ch = w.getnchannels(); raw = w.readframes(n); w.close()
     s = struct.unpack("<%dh" % (n * ch), raw)[::ch]
@@ -134,6 +134,7 @@ for k, (i, s) in enumerate(segs):
         f = "%02d_%02d_%s.wav" % (i, li, l["who"]); samples = read_wav(os.path.join(D, f))
         dur = len(samples) / RATE
         cam = l.get("shot") or (("wide" if s.get("kind") in ("ad", "weather") else "two") if li == 0 else l["who"])   # commercials + weather open on the wall, like the live show
+        if cam not in ("joe", "vex", "two", "wide"): cam = "wide"   # 11/12: writer asked for a "wall" shot; Unreal only has these 4 cameras (KeyError killed the render)
         lev = []
         if l["who"] == "vex":
             hop = RATE // FPS

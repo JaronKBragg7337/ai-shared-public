@@ -1,0 +1,4 @@
+{
+ "iphone-webkit": "CW0 2026-11-23T20:08 | 4smallsoft=38 4smallhand=44 4smalltick=47963 4smallgev=220 4smallown=102 4bigsoft=162 4bighand=61 4bigtick=148333 4biggev=415 4bigown=134 5smallsoft=75 5smallhand=191 5smalltick=545833 5smallgev=463 5smallown=261 5bigsoft=697 5bighand=214 5bigtick=1612500 5biggev=977 5bigown=313 | ok=true | cores=8 | Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+ "edge": "CW0 2026-11-23T20:08 | 4smallsoft=40 4smallhand=55 4smalltick=93333 4smallgev=227 4smallown=120 4bigsoft=146 4bighand=83 4bigtick=281556 4biggev=427 4bigown=146 5smallsoft=75 5smallhand=186 5smalltick=1053333 5smallgev=477 5smallown=294 5bigsoft=533 5bighand=201 5bigtick=3100833 5biggev=1054 5bigown=343 | ok=true | cores=32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+}

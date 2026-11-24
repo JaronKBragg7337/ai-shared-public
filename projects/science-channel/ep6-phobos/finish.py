@@ -275,7 +275,8 @@ for i, ((kind, fa, fb, nout), sh) in enumerate(zip(segs, SHOTS)):
              "-c:v", "libx264", "-preset", "medium", "-crf", "16", "-frames:v", str(fb - fa + 1), out])
 cat = os.path.join(W0, "cat.txt")
 with open(cat, "w") as fh:
-    for p in parts: fh.write("file '%s'\n" % p.replace("\\", "/"))
+    for p, sg in zip(parts, segs):   # exact durations (frame count / 24): Blender segments carry a longer last packet, which drifted the picture late (ep10 fix, applied 11/6)
+        fh.write("file '%s'\nduration %.6f\n" % (p.replace("\\", "/"), sg[3] / FPS))
 full = os.path.join(W0, "full.mp4")
 run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", cat, "-c", "copy", full])
 print("full", dur(full))

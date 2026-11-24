@@ -1,0 +1,23 @@
+A small world has two bodies. Body 1 has mass m1 and charge q1. Body 2 has mass m2 and charge q2. They are a distance r apart.
+An experiment sets m1, m2, q1, q2 and r (each any number from 1 to 10) and the world reports y, the push on body 1.
+The push follows ONE hidden law. It is a made-up law of nature for this world only: do not expect textbook physics.
+Your job: find the law. Write it as one expression using m1, m2, q1, q2, r, numbers, + - * / ( ), pow(a,b) and sqrt(a).
+You are graded on 200 new experiments: your law must predict y within 1%.
+
+Here are 12 experiments:
+m1     m2     q1     q2     r      ->  y
+1.54   6.95   9.98   1.85   8.32   ->  1.74062     
+8.33   4.87   9.98   1.25   6.36   ->  0.80298     
+5.86   3.36   7.28   4.38   4.09   ->  9.72702     
+9.93   7.55   8.02   7.11   2.34   ->  25.7966     
+8.02   9.57   5.57   5.12   4.12   ->  13.4523     
+8.78   6.42   9.45   2.88   3.24   ->  4.26637     
+7.52   6.06   5.28   5.1    7.66   ->  13.1602     
+2.45   9.08   8.56   3.67   8.86   ->  6.80736     
+1.45   7.38   5.68   7.38   3.03   ->  27.8147     
+4.96   1.41   2.15   9.96   6.45   ->  50.0272     
+8.89   6.53   3.28   6.32   4.84   ->  20.4799     
+5.97   7.41   4.73   4.24   2.83   ->  9.41992     
+
+Reply with exactly one line and nothing else:
+LAW: <expression>

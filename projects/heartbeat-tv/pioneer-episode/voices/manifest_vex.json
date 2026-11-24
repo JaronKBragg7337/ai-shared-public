@@ -1,0 +1,282 @@
+[
+ {
+  "seg": "s01",
+  "line": 1,
+  "who": "vex",
+  "text": "And I'm Robot Vex. This is Heartbeat News.",
+  "file": "00_01_vex.wav",
+  "seconds": 3.746
+ },
+ {
+  "seg": "s01",
+  "line": 3,
+  "who": "vex",
+  "text": "Heartbeat asked on X: what episode should we make? An AI named Grok answered.",
+  "file": "00_03_vex.wav",
+  "seconds": 5.942
+ },
+ {
+  "seg": "s01",
+  "line": 5,
+  "who": "vex",
+  "text": "So management sent the two anchors with the nicest ties.",
+  "file": "00_05_vex.wav",
+  "seconds": 4.034
+ },
+ {
+  "seg": "s02",
+  "line": 0,
+  "who": "vex",
+  "text": "Our ride is in the parking lot.",
+  "file": "01_00_vex.wav",
+  "seconds": 2.492
+ },
+ {
+  "seg": "s02",
+  "line": 2,
+  "who": "vex",
+  "text": "A dish pointed back at the station. Engineering says that makes it a spacecraft.",
+  "file": "01_02_vex.wav",
+  "seconds": 5.537
+ },
+ {
+  "seg": "s02",
+  "line": 4,
+  "who": "vex",
+  "text": "They added a rocket. Seat belts on, please. Field trip rules.",
+  "file": "01_04_vex.wav",
+  "seconds": 5.417
+ },
+ {
+  "seg": "s03",
+  "line": 1,
+  "who": "vex",
+  "text": "Liftoff. Roof dish still pointed at the station. Signal is good. Coffee is floating.",
+  "file": "02_01_vex.wav",
+  "seconds": 6.354
+ },
+ {
+  "seg": "s04",
+  "line": 0,
+  "who": "vex",
+  "text": "There it is. Pioneer ten, launched March second, nineteen seventy-two. Its twin, Pioneer eleven, launched April fifth, nineteen seventy-three.",
+  "file": "03_00_vex.wav",
+  "seconds": 10.401
+ },
+ {
+  "seg": "s04",
+  "line": 2,
+  "who": "vex",
+  "text": "Look at that dish. Two point seven four meters across. It points at Earth, just like ours.",
+  "file": "03_02_vex.wav",
+  "seconds": 6.861
+ },
+ {
+  "seg": "s04",
+  "line": 4,
+  "who": "vex",
+  "text": "Ours is cuter.",
+  "file": "03_04_vex.wav",
+  "seconds": 1.847
+ },
+ {
+  "seg": "s05",
+  "line": 0,
+  "who": "vex",
+  "text": "Tour time. The body is a six-sided box full of electronics. Those two long arms hold four power units called R T Gs. Inside is plutonium, and it stays hot for decades.",
+  "file": "04_00_vex.wav",
+  "seconds": 12.273
+ },
+ {
+  "seg": "s05",
+  "line": 2,
+  "who": "vex",
+  "text": "At launch: about twenty-five hundred watts of heat, and about one hundred sixty watts of electricity.",
+  "file": "04_02_vex.wav",
+  "seconds": 7.162
+ },
+ {
+  "seg": "s05",
+  "line": 4,
+  "who": "vex",
+  "text": "A magnetometer, for measuring magnetic fields. It sits far out so the spacecraft's own electronics don't confuse it.",
+  "file": "04_04_vex.wav",
+  "seconds": 8.06
+ },
+ {
+  "seg": "s05",
+  "line": 6,
+  "who": "vex",
+  "text": "Eight watts. About as much as a small old-style night-light bulb. From billions of miles away.",
+  "file": "04_06_vex.wav",
+  "seconds": 6.762
+ },
+ {
+  "seg": "s06",
+  "line": 1,
+  "who": "vex",
+  "text": "A business card, in case anybody out there finds it.",
+  "file": "05_01_vex.wav",
+  "seconds": 4.035
+ },
+ {
+  "seg": "s07",
+  "line": 1,
+  "who": "vex",
+  "text": "Starting around nineteen eighty, when Pioneer ten was about twenty times farther from the Sun than Earth is, the numbers stopped matching. Both Pioneers were slowing down a tiny bit too much.",
+  "file": "06_01_vex.wav",
+  "seconds": 11.301
+ },
+ {
+  "seg": "s07",
+  "line": 3,
+  "who": "vex",
+  "text": "John Anderson's team at J P L measured it. About eight point seven ten-billionths of a meter per second, every second.",
+  "file": "06_03_vex.wav",
+  "seconds": 7.839
+ },
+ {
+  "seg": "s08",
+  "line": 1,
+  "who": "vex",
+  "text": "It's about eleven billion times weaker than the gravity holding you on your couch.",
+  "file": "07_01_vex.wav",
+  "seconds": 5.001
+ },
+ {
+  "seg": "s08",
+  "line": 3,
+  "who": "vex",
+  "text": "It adds up. If that pull stays steady, after one year the spacecraft is about four hundred kilometers from where the math says it should be. About the drive from Chicago to Detroit.",
+  "file": "07_03_vex.wav",
+  "seconds": 11.545
+ },
+ {
+  "seg": "s08",
+  "line": 4,
+  "who": "vex",
+  "text": "After ten years it's moving about one kilometer per hour slower, and it's more than forty thousand kilometers off. That's farther than once around the Earth.",
+  "file": "07_04_vex.wav",
+  "seconds": 9.482
+ },
+ {
+  "seg": "s09",
+  "line": 0,
+  "who": "vex",
+  "text": "Now the exciting part. Is this new physics?",
+  "file": "08_00_vex.wav",
+  "seconds": 3.652
+ },
+ {
+  "seg": "s09",
+  "line": 2,
+  "who": "vex",
+  "text": "Maybe unseen dark matter tugging on it. Maybe gravity works a little differently far from the Sun. Maybe a brand new law of nature.",
+  "file": "08_02_vex.wav",
+  "seconds": 8.399
+ },
+ {
+  "seg": "s09",
+  "line": 4,
+  "who": "vex",
+  "text": "I already printed the headline. Gravity: broken?",
+  "file": "08_04_vex.wav",
+  "seconds": 4.046
+ },
+ {
+  "seg": "s10",
+  "line": 1,
+  "who": "vex",
+  "text": "Headline so far: a tiny pull, real data, no answer yet. Stay with us.",
+  "file": "09_01_vex.wav",
+  "seconds": 5.841
+ },
+ {
+  "seg": "s11",
+  "line": 1,
+  "who": "vex",
+  "text": "That information was on old tapes. In two thousand four, J P L scientist Slava too-ree-shev started tracking down the records. Some were in boxes stored under a staircase.",
+  "file": "10_01_vex.wav",
+  "seconds": 11.287
+ },
+ {
+  "seg": "s11",
+  "line": 3,
+  "who": "vex",
+  "text": "Members of The Planetary Society helped pay for the rescue, and NASA later did too. More than forty-three gigabytes of data.",
+  "file": "10_03_vex.wav",
+  "seconds": 7.909
+ },
+ {
+  "seg": "s12",
+  "line": 0,
+  "who": "vex",
+  "text": "Here is what they found. Warm things give off heat as infrared light, a kind of light you can't see. And light gives a tiny push when it leaves.",
+  "file": "11_00_vex.wav",
+  "seconds": 9.239
+ },
+ {
+  "seg": "s12",
+  "line": 2,
+  "who": "vex",
+  "text": "Pioneer glows with waste heat, from the power units and from the electronics in the box. Some of that heat hits the back of the big dish and bounces off, away from the Sun. More heat leaves out the back than the front.",
+  "file": "11_02_vex.wav",
+  "seconds": 13.359
+ },
+ {
+  "seg": "s12",
+  "line": 4,
+  "who": "vex",
+  "text": "And to explain the whole pull, the lopsided part only has to equal about sixty-three watts beamed one way. Out of roughly two thousand watts on board.",
+  "file": "11_04_vex.wav",
+  "seconds": 9.538
+ },
+ {
+  "seg": "s13",
+  "line": 1,
+  "who": "vex",
+  "text": "Then too-ree-shev, Toath and their team published in Physical Review Letters in twenty twelve. Their heat model, built from the rescued data, came out to about eighty percent of the pull they measured from the radio data.",
+  "file": "12_01_vex.wav",
+  "seconds": 12.612
+ },
+ {
+  "seg": "s13",
+  "line": 3,
+  "who": "vex",
+  "text": "That gap fits inside the error bars. The biggest unknown is how the coating on the power units aged in space. Their conclusion: no anomalous acceleration remains.",
+  "file": "12_03_vex.wav",
+  "seconds": 10.507
+ },
+ {
+  "seg": "s14",
+  "line": 0,
+  "who": "vex",
+  "text": "Where are they now? Pioneer 10 is about one hundred forty-two times farther from the Sun than Earth is. Pioneer 11, about one hundred twenty.",
+  "file": "13_00_vex.wav",
+  "seconds": 9.634
+ },
+ {
+  "seg": "s14",
+  "line": 2,
+  "who": "vex",
+  "text": "The heat helped solve the mystery. And as it faded, Pioneer 10's power dropped until its signal was too weak to hear. Pioneer 11 ran low on power too, and Earth drifted out of its antenna's view.",
+  "file": "13_02_vex.wav",
+  "seconds": 12.681
+ },
+ {
+  "seg": "s15",
+  "line": 1,
+  "who": "vex",
+  "text": "The lesson: check your own spacecraft before you rewrite physics.",
+  "file": "14_01_vex.wav",
+  "seconds": 4.43
+ },
+ {
+  "seg": "s15",
+  "line": 3,
+  "who": "vex",
+  "text": "Filed. Also, the van needs a new dish.",
+  "file": "14_03_vex.wav",
+  "seconds": 3.732
+ }
+]

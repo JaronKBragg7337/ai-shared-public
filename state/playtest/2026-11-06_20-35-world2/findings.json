@@ -1,0 +1,94 @@
+[
+  {
+    "key": "rf:https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm",
+    "kind": "request-failed",
+    "sev": 45,
+    "title": "A request failed to load",
+    "detail": "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm (SSL connect error)",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/001-load-and-enter-PROBLEM-request-failed.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1",
+      "00:02 [load and enter] QA pass: World loads - First frames in 2.0 seconds.",
+      "00:02 [load and enter] tap #enterButton (enter World 2)"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "ce:Failed to load resource: SSL connect error",
+    "kind": "console-error",
+    "sev": 55,
+    "title": "Console error",
+    "detail": "Failed to load resource: SSL connect error",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/002-load-and-enter-PROBLEM-console-error.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1",
+      "00:02 [load and enter] QA pass: World loads - First frames in 2.0 seconds.",
+      "00:02 [load and enter] tap #enterButton (enter World 2)"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "cw:THREE.WebGLProgram: Program Info Log: (N,N-N): warning XN: sum of N.N and -N.Ne-N cannot b",
+    "kind": "console-warning",
+    "sev": 20,
+    "title": "Console warning",
+    "detail": "THREE.WebGLProgram: Program Info Log: (221,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 ",
+    "count": 1,
+    "firstAt": "00:03",
+    "lastAt": "00:03",
+    "phase": "load and enter",
+    "device": "iphone",
+    "shot": "shots-iphone/003-load-and-enter-PROBLEM-console-warning.jpg",
+    "steps": [
+      "00:00 [load and enter] === load and enter",
+      "00:00 [load and enter] open https://www.heartbeatobservatory.com/world2/?dev=1",
+      "00:02 [load and enter] QA pass: World loads - First frames in 2.0 seconds.",
+      "00:02 [load and enter] tap #enterButton (enter World 2)"
+    ],
+    "extra": [],
+    "vision": null
+  },
+  {
+    "key": "tiny-button:#soundBtn \"🔊 Sound\" ",
+    "kind": "tiny-button",
+    "sev": 30,
+    "title": "Button too small for a thumb: #soundBtn \"🔊 Sound\" 72x25",
+    "detail": "#soundBtn \"🔊 Sound\" 72x25 (World 2 exploration, iphone)",
+    "count": 1,
+    "firstAt": "00:26",
+    "lastAt": "00:26",
+    "phase": "exploration",
+    "device": "iphone",
+    "shot": "shots-iphone/009-exploration-PROBLEM-tiny-button.jpg",
+    "steps": [
+      "00:14 [map] tap #minimap (open city map)",
+      "00:14 [map] QA pass: Map opens - Map opened.",
+      "00:14 [map] tap #hbpm .close-btn (close map)",
+      "00:15 [map] QA pass: Map closes - Map closed.",
+      "00:15 [map] QA pass: Opening map does not walk - Player moved 0.000 world units while opening and closing map.",
+      "00:15 [exploration] === exploration",
+      "00:15 [exploration] explore: stick direction forward",
+      "00:17 [exploration] explore: stick direction left",
+      "00:19 [exploration] explore: stick direction forward",
+      "00:20 [exploration] explore: stick direction left",
+      "00:22 [exploration] explore: stick direction forward",
+      "00:24 [exploration] explore: stick direction left"
+    ],
+    "extra": [],
+    "vision": null
+  }
+]

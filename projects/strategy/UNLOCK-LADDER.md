@@ -43,3 +43,5 @@ see money-three-numbers). Review this page on the 1st of each month and move ite
 | Vibration stone-cutting test | 2 | 10/11 |
 | Own 3D printer (water harvesters etc.) | 2 | 10/11 |
 | Downtown give-back with printed items | 3 | 10/11 |
+- 2026-10-26 (Jaron): a separate NONPROFIT business someday (Heartbeat stays the LLC). Fits the free CC0 tools / free learning / never charging for food, water, land. Unlocks Claude for Nonprofits (discounts + fundraising/marketing/hiring skills). Needs: his ID, a board, state + IRS 501(c)(3) filing.
+- 2027 building (Jaron 10/30): leased space for AI-designed 3D printing + a public makerspace + VR demo corner. Unlocks after steady monthly revenue covers rent + utilities + insurance.

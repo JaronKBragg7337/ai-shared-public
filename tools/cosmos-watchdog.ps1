@@ -100,7 +100,7 @@ function Get-PortStopNote {
 
 function Start-AuthorityHidden {
     # Same PowerShell that is running this watchdog. WindowsApps often fails Test-Path.
-    $shell = Join-Path $PSHOME 'pwsh.exe'
+    $shell = Join-Path $PSHOME 'pwsh.exe'; if (-not (Test-Path -LiteralPath $shell)) { $shell = (Get-Command pwsh.exe -ErrorAction SilentlyContinue).Source }; if (-not $shell) { $shell = Join-Path $PSHOME 'powershell.exe' }   # 10/26: started from Windows PowerShell, PSHOME has no pwsh.exe -> launch failed
     $null = Start-Process -FilePath $shell -ArgumentList @(
         '-NoProfile',
         '-WindowStyle', 'Hidden',

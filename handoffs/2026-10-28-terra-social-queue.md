@@ -1,0 +1,6 @@
+# 2026-10-28 — social queue (Terra)
+
+- Before additions 14 show entries had unposted platforms and existing video files, enough for Oct 28–Nov 10 at one daily successful run. Added three CPU-encoded 42-second portrait Keeper’s Light clips; 17 entries now run provisionally Oct 28–Nov 13. New clips are in the local site checkout under tv/shows/keepers-light-ep[1-3]-social-vertical.mp4; local scheduler uploads them directly. They are uncommitted.
+- Oct 29 cutoff was likely the separate 17 YouTube Shorts batch described in handoffs/2026-10-25-youtube-shorts-cuts.md. Some subjects overlap the daily show queue. Daily dates are estimates, not Postiz reservations; failures and missing integrations change order.
+- ffprobe confirmed video streams for all pending entries; new clips also have audio and decode without errors. One frame from episode 2 viewed. Dry run selected pyramids on all three platforms; TikTok settings specify DIRECT_POST. News pulls each day’s fresh short and cannot be verified in advance.
+- Oct 28 news TikTok upload failed with Postiz 502; retry scheduled 9:45 AM. YouTube and X were logged OK. Confirm retry and actual publication. The automation also posts text-only copies to the site social feed; the video requirement was verified only for the three Postiz platforms, not those site copies. No GPU or RunPod used.

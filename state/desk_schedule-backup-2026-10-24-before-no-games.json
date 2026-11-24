@@ -1,0 +1,184 @@
+{
+ "tz": "America/Indiana/Indianapolis",
+ "note": "2026-10-11 loosened (Jaron go): no blackout, every lane open all day, no lane caps; per-game cap + tennis_max_size_usd still apply. Old copy: AI-Shared/state/desk_schedule-backup-2026-10-11-before-loosen.json | 2026-10-22: crypto lane (btc/eth/sol/xrp, all days, all hours) replaces the Bitcoin lane - Jaron approved the crypto lane 6:30 PM; live start 2026-10-26. Old copy: AI-Shared/state/desk_schedule-backup-2026-10-22-before-crypto.json | 2026-10-23 12:15 AM (Jaron): sports lanes SATURDAY ONLY; crypto 24/7. Previous copy: AI-Shared/state/desk_schedule-backup-2026-10-23-before-saturday.json",
+ "lanes": [
+  {
+   "name": "college football",
+   "remind": true,
+   "sports": [
+    "cfb"
+   ],
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "sat"
+     ],
+     "from": "00:00",
+     "cap_usd": null
+    }
+   ],
+   "original_caps_usd": [
+    null
+   ]
+  },
+  {
+   "name": "NFL",
+   "remind": true,
+   "sports": [
+    "nfl"
+   ],
+   "benched": true,
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "sat"
+     ],
+     "from": "00:00",
+     "cap_usd": 1
+    }
+   ],
+   "bench_open": false,
+   "bench_weeks": 0,
+   "bench_reason": "21-day net below -$15",
+   "benched_date": "2026-10-19",
+   "bench_windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "00:00",
+     "cap_usd": null
+    }
+   ],
+   "original_caps_usd": [
+    null
+   ],
+   "bench_retest_last_week": false
+  },
+  {
+   "name": "basketball (test)",
+   "remind": false,
+   "sports": [
+    "nba",
+    "wnba",
+    "cbb",
+    "ncaab"
+   ],
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "sat"
+     ],
+     "from": "00:00",
+     "cap_usd": null
+    }
+   ],
+   "original_caps_usd": [
+    null
+   ]
+  },
+  {
+   "name": "soccer (test)",
+   "remind": false,
+   "sports": [
+    "epl",
+    "mls",
+    "ucl",
+    "uel",
+    "lal",
+    "bun",
+    "sea",
+    "lg1",
+    "unl",
+    "cop",
+    "acle",
+    "lmx",
+    "lpa",
+    "ekst",
+    "afcq",
+    "intf",
+    "cnl",
+    "ncaams",
+    "ncaaws"
+   ],
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "sat"
+     ],
+     "from": "00:00",
+     "cap_usd": null
+    }
+   ],
+   "original_caps_usd": [
+    null
+   ]
+  },
+  {
+   "name": "ATP (test)",
+   "remind": false,
+   "sports": [
+    "atp"
+   ],
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "sat"
+     ],
+     "from": "00:00",
+     "cap_usd": 1
+    }
+   ],
+   "new_test": true,
+   "original_caps_usd": [
+    1
+   ]
+  },
+  {
+   "name": "crypto",
+   "remind": false,
+   "sports": [
+    "btc",
+    "eth",
+    "sol",
+    "xrp"
+   ],
+   "windows": [
+    {
+     "to": "24:00",
+     "days": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+     ],
+     "from": "00:00",
+     "cap_usd": null
+    }
+   ],
+   "original_caps_usd": [
+    null
+   ]
+  }
+ ],
+ "quiet": {
+  "to": "07:00",
+  "from": "00:00"
+ },
+ "evening_report": "21:00"
+}

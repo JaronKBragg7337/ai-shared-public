@@ -1,0 +1,69 @@
+{
+ "made": "2026-11-23T23:07:56.161Z",
+ "rooms": [
+  {
+   "room": 1,
+   "switches": 2,
+   "wordsShown": true,
+   "opensWith": [
+    "1, 2 on"
+   ],
+   "fewestFlips": 2,
+   "blindAverageWorkedOut": 4,
+   "blindAveragePlayedOut": 3.993,
+   "tryEverySettingWorstCase": 3,
+   "turningEverythingOnOpensIt": true
+  },
+  {
+   "room": 2,
+   "switches": 3,
+   "wordsShown": true,
+   "opensWith": [
+    "2, 3 on"
+   ],
+   "fewestFlips": 2,
+   "blindAverageWorkedOut": 9,
+   "blindAveragePlayedOut": 9.043,
+   "tryEverySettingWorstCase": 7,
+   "turningEverythingOnOpensIt": false
+  },
+  {
+   "room": 3,
+   "switches": 4,
+   "wordsShown": false,
+   "opensWith": [
+    "1, 2, 4 on"
+   ],
+   "fewestFlips": 3,
+   "blindAverageWorkedOut": 20.333,
+   "blindAveragePlayedOut": 20.307,
+   "tryEverySettingWorstCase": 15,
+   "turningEverythingOnOpensIt": false
+  },
+  {
+   "room": 4,
+   "switches": 5,
+   "wordsShown": false,
+   "opensWith": [
+    "1, 3, 4, 5 on"
+   ],
+   "fewestFlips": 4,
+   "blindAverageWorkedOut": 41.667,
+   "blindAveragePlayedOut": 41.5,
+   "tryEverySettingWorstCase": 31,
+   "turningEverythingOnOpensIt": false
+  }
+ ],
+ "browsers": {
+  "iphone-webkit": "RR 2026-11-23T23:08 | r1 flips=2 best=2 blind=4.0 asked=- secs=7 | r2 flips=4 best=2 blind=9.0 asked=- secs=14 | r3 flips=5 best=3 blind=20.3 asked=1 secs=13 | r4 flips=4 best=4 blind=41.7 asked=0 secs=15 | Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+  "edge": "RR 2026-11-23T23:09 | r1 flips=2 best=2 blind=4.0 asked=- secs=8 | r2 flips=4 best=2 blind=9.0 asked=- secs=14 | r3 flips=5 best=3 blind=20.3 asked=1 secs=13 | r4 flips=4 best=4 blind=41.7 asked=0 secs=15 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36 Edg/158.0.0.0"
+ },
+ "checks": {
+  "passed": 106,
+  "failed": 0,
+  "browsers": [
+   "iphone-webkit",
+   "edge"
+  ]
+ }
+}

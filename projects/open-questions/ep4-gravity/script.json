@@ -1,0 +1,187 @@
+[
+ {
+  "id": "s1",
+  "text": "What if gravity isn't the full story? In many galaxies, observed motions are faster than standard gravity predicts from the matter we can see. Either there is unseen mass, called dark matter, or gravity behaves differently than we thought. That the mismatch exists is well established. Which answer is right is not. This is Open Questions, episode four. Every study on screen is a published paper or a posted preprint, and its source is on screen too.",
+  "say": "What if gravity isn't the full story? In many galaxies, observed motions are faster than standard gravity predicts from the matter we can see. Either there is unseen mass, called dark matter, or gravity behaves differently than we thought. That the mismatch exists is well established. Which answer is right is not. This is Open Questions, episode four. Every study on screen is a published paper or a posted preprint, and its source is on screen too.",
+  "disp": [
+   "What if gravity isn't the full story?",
+   "In many galaxies, observed motions are faster than standard gravity predicts from the matter we can see.",
+   "Either there is unseen mass, called dark matter, or gravity behaves differently than we thought.",
+   "That the mismatch exists is well established.",
+   "Which answer is right is not.",
+   "This is Open Questions, episode four.",
+   "Every study on screen is a published paper or a posted preprint, and its source is on screen too."
+  ]
+ },
+ {
+  "id": "s2",
+  "text": "First, the mismatch. In nineteen thirty-three, Fritz Zwicky found that galaxies in the Coma Cluster move faster than their visible mass can explain. In nineteen seventy, Vera Rubin and Kent Ford measured gas motions in the Andromeda galaxy. Later work, with Norbert Thonnard, extended rotation measurements to many spiral galaxies. Far from the center, speeds often stay roughly flat, instead of falling as the visible mass predicts under Newtonian gravity.",
+  "say": "First, the mismatch. In nineteen thirty-three, Fritz Zwih-key found that galaxies in the Coma Cluster move faster than their visible mass can explain. In nineteen seventy, Vera Rubin and Kent Ford measured gas motions in the Andromeda galaxy. Later work, with Norbert Tho-nard, extended rotation measurements to many spiral galaxies. Far from the center, speeds often stay roughly flat, instead of falling as the visible mass predicts under Newtonian gravity.",
+  "disp": [
+   "First, the mismatch.",
+   "In nineteen thirty-three, Fritz Zwicky found that galaxies in the Coma Cluster move faster than",
+   "their visible mass can explain.",
+   "In nineteen seventy, Vera Rubin and Kent Ford measured gas motions in the Andromeda galaxy.",
+   "Later work, with Norbert Thonnard, extended rotation measurements to many spiral galaxies.",
+   "Far from the center, speeds often stay roughly flat,",
+   "instead of falling as the visible mass predicts under Newtonian gravity."
+  ]
+ },
+ {
+  "id": "s3",
+  "text": "The first explanation is dark matter: extra mass that gives off no light, forming a halo around each galaxy. Its gravity would keep outer stars moving fast. Dark matter is not one observation. It is part of the standard cosmological model, called lambda C D M, which also includes ordinary matter and dark energy and has to fit many observations at once. But no dark matter particle has been confirmed. Underground experiments such as Lux Zeppelin have searched for years and reported no confirmed detection. In twenty twenty-six, Lux Zeppelin reported one candidate event, with a global significance of about two point six sigma. That is well short of a discovery, and it could be background.",
+  "say": "The first explanation is dark matter: extra mass that gives off no light, forming a halo around each galaxy. Its gravity would keep outer stars moving fast. Dark matter is not one observation. It is part of the standard cosmological model, called lambda C D M, which also includes ordinary matter and dark energy and has to fit many observations at once. But no dark matter particle has been confirmed. Underground experiments such as Lux Zep-uh-lin have searched for years and reported no confirmed detection. In twenty twenty-six, Lux Zep-uh-lin reported one candidate event, with a global significance of about two point six sigma. That is well short of a discovery, and it could be background.",
+  "disp": [
+   "The first explanation is dark matter: extra mass that gives off no light,",
+   "forming a halo around each galaxy.",
+   "Its gravity would keep outer stars moving fast.",
+   "Dark matter is not one observation.",
+   "It is part of the standard cosmological model, called lambda C D M,",
+   "which also includes ordinary matter and dark energy and has to fit many observations at once.",
+   "But no dark matter particle has been confirmed.",
+   "Underground experiments such as Lux Zeppelin have searched for years and reported no confirmed detection.",
+   "In twenty twenty-six, Lux Zeppelin reported one candidate event,",
+   "with a global significance of about two point six sigma.",
+   "That is well short of a discovery, and it could be background."
+  ]
+ },
+ {
+  "id": "s4",
+  "text": "The second explanation is to modify Newtonian dynamics, often described as changing gravity. In nineteen eighty-three, Mordehai Milgrom proposed Mond, modified Newtonian dynamics. Below a very small acceleration, in gravity-based versions, gravity would be stronger than Newton's law says. Using one acceleration constant and the visible matter, Mond reproduces the rotation of many galaxies, including a tight relation between the acceleration galaxies show and the acceleration expected from their visible matter, reported by Stacy McGaugh and colleagues in twenty sixteen. Both Mond and dark matter models have been used to account for that relation, with different explanations, and researchers disagree over which does it better.",
+  "say": "The second explanation is to modify Newtonian dynamics, often described as changing gravity. In nineteen eighty-three, Mor-deh-high Mill-grom proposed Mawnd, modified Newtonian dynamics. Below a very small acceleration, in gravity-based versions, gravity would be stronger than Newton's law says. Using one acceleration constant and the visible matter, Mawnd reproduces the rotation of many galaxies, including a tight relation between the acceleration galaxies show and the acceleration expected from their visible matter, reported by Stacy Muh-Gaw and colleagues in twenty sixteen. Both Mawnd and dark matter models have been used to account for that relation, with different explanations, and researchers disagree over which does it better.",
+  "disp": [
+   "The second explanation is to modify Newtonian dynamics, often described as changing gravity.",
+   "In nineteen eighty-three, Mordehai Milgrom proposed Mond, modified Newtonian dynamics.",
+   "Below a very small acceleration, in gravity-based versions,",
+   "gravity would be stronger than Newton's law says.",
+   "Using one acceleration constant and the visible matter,",
+   "Mond reproduces the rotation of many galaxies,",
+   "including a tight relation between the acceleration galaxies show and the acceleration expected",
+   "from their visible matter, reported by Stacy McGaugh and colleagues in twenty sixteen.",
+   "Both Mond and dark matter models have been used to account for that relation,",
+   "with different explanations, and researchers disagree over which does it better."
+  ]
+ },
+ {
+  "id": "s5",
+  "text": "Mond began as a rule, not a full theory of gravity. Later versions tried to be one: Jacob Bekenstein's in two thousand four, and a relativistic theory by Constantinos Skordis and Tom Zlosnik in twenty twenty-one. But galaxy clusters still show a large mass discrepancy under Mond, one that Mond alone has not resolved.",
+  "say": "Mawnd began as a rule, not a full theory of gravity. Later versions tried to be one: Jacob Beck-en-stine's in two thousand four, and a relativistic theory by Kon-stan-tee-nos Skor-dis and Tom Zloze-nick in twenty twenty-one. But galaxy clusters still show a large mass discrepancy under Mawnd, one that Mawnd alone has not resolved.",
+  "disp": [
+   "Mond began as a rule, not a full theory of gravity.",
+   "Later versions tried to be one: Jacob Bekenstein's in two thousand four,",
+   "and a relativistic theory by Constantinos Skordis and Tom Zlosnik in twenty twenty-one.",
+   "But galaxy clusters still show a large mass discrepancy under Mond, one that Mond alone has not resolved."
+  ]
+ },
+ {
+  "id": "s6",
+  "text": "The best-known test is the Bullet Cluster, two galaxy clusters that collided. Hot gas, which holds most of the ordinary matter, was slowed by the collision and glows in X-rays. In two thousand six, Douglas Clowe and colleagues used gravitational lensing to map the mass, and found most of it apart from the gas, near the galaxies. That is strong evidence for mass that does not follow the gas, and it is hard for gravity-only changes to explain. Mond supporters note that clusters show a remaining discrepancy even in Mond, so those models add some unseen matter, and researchers disagree on what that implies.",
+  "say": "The best-known test is the Bullet Cluster, two galaxy clusters that collided. Hot gas, which holds most of the ordinary matter, was slowed by the collision and glows in X-rays. In two thousand six, Douglas Cloh and colleagues used gravitational lensing to map the mass, and found most of it apart from the gas, near the galaxies. That is strong evidence for mass that does not follow the gas, and it is hard for gravity-only changes to explain. Mawnd supporters note that clusters show a remaining discrepancy even in Mawnd, so those models add some unseen matter, and researchers disagree on what that implies.",
+  "disp": [
+   "The best-known test is the Bullet Cluster, two galaxy clusters that collided.",
+   "Hot gas, which holds most of the ordinary matter, was slowed by the collision and glows in X-rays.",
+   "In two thousand six, Douglas Clowe and colleagues used gravitational lensing to map the mass,",
+   "and found most of it apart from the gas, near the galaxies.",
+   "That is strong evidence for mass that does not follow the gas,",
+   "and it is hard for gravity-only changes to explain.",
+   "Mond supporters note that clusters show a remaining discrepancy even in Mond,",
+   "so those models add some unseen matter, and researchers disagree on what that implies."
+  ]
+ },
+ {
+  "id": "s7",
+  "text": "The cosmic microwave background, the oldest light we can see, has a pattern of hot and cold spots. In twenty eighteen, the Planck team reported that standard cosmology with dark matter fits that pattern very precisely, with about five times more dark matter than ordinary matter. Gravity-only alternatives have found it hard to match, though its authors report that the twenty twenty-one relativistic theory agrees with the pattern on large scales. Whether it fits all the data is open. Dark energy, a separate puzzle, is part of the standard model and is not covered here.",
+  "say": "The cosmic microwave background, the oldest light we can see, has a pattern of hot and cold spots. In twenty eighteen, the Plank team reported that standard cosmology with dark matter fits that pattern very precisely, with about five times more dark matter than ordinary matter. Gravity-only alternatives have found it hard to match, though its authors report that the twenty twenty-one relativistic theory agrees with the pattern on large scales. Whether it fits all the data is open. Dark energy, a separate puzzle, is part of the standard model and is not covered here.",
+  "disp": [
+   "The cosmic microwave background, the oldest light we can see, has a pattern of hot and cold spots.",
+   "In twenty eighteen, the Planck team reported that standard cosmology with dark matter fits that",
+   "pattern very precisely, with about five times more dark matter than ordinary matter.",
+   "Gravity-only alternatives have found it hard to match,",
+   "though its authors report that the twenty twenty-one relativistic theory agrees with the pattern on",
+   "large scales.",
+   "Whether it fits all the data is open.",
+   "Dark energy, a separate puzzle, is part of the standard model and is not covered here."
+  ]
+ },
+ {
+  "id": "s8",
+  "text": "Now a newer test: wide binaries. These are pairs of stars thousands of times farther apart than the Earth and the Sun, orbiting slowly. Their pull on each other is so weak that Mond predicts, at the widest separations, faster orbits than Newtonian gravity says, by an amount that depends on the model. The Gaia space telescope has measured many such pairs.",
+  "say": "Now a newer test: wide binaries. These are pairs of stars thousands of times farther apart than the Earth and the Sun, orbiting slowly. Their pull on each other is so weak that Mawnd predicts, at the widest separations, faster orbits than Newtonian gravity says, by an amount that depends on the model. The Guy-uh space telescope has measured many such pairs.",
+  "disp": [
+   "Now a newer test: wide binaries.",
+   "These are pairs of stars thousands of times farther apart than the Earth and the Sun, orbiting slowly.",
+   "Their pull on each other is so weak that Mond predicts, at the widest separations,",
+   "faster orbits than Newtonian gravity says, by an amount that depends on the model.",
+   "The Gaia space telescope has measured many such pairs."
+  ]
+ },
+ {
+  "id": "s9",
+  "text": "In twenty twenty-three, Kyu-Hyun Chae reported an apparent speed excess in Gaia wide binaries, consistent with Mond. In twenty twenty-four, Indranil Banik and colleagues analyzed Gaia pairs too, and found no such effect, favoring Newtonian gravity. The analyses differ in how pairs are selected, how hidden third stars are handled, and how orbits are modeled. Saad and Ting measured radial velocities for eighty-five pairs and analyzed fifty-seven bound systems, published in October twenty twenty-six, and report some tension with Mond, depending on how Mond's formula and the Galaxy's outside pull are treated. In July twenty twenty-six, Chae and Yoon argued in a preprint that changes to quality control or multiple-star modeling do not remove the anomaly. Researchers still disagree. This is open.",
+  "say": "In twenty twenty-three, Kyoo-Hyun Chay reported an apparent speed excess in Guy-uh wide binaries, consistent with Mawnd. In twenty twenty-four, In-dra-neel Bah-nik and colleagues analyzed Guy-uh pairs too, and found no such effect, favoring Newtonian gravity. The analyses differ in how pairs are selected, how hidden third stars are handled, and how orbits are modeled. Sah-ad and Ting measured radial velocities for eighty-five pairs and analyzed fifty-seven bound systems, published in October twenty twenty-six, and report some tension with Mawnd, depending on how Mawnd's formula and the Galaxy's outside pull are treated. In July twenty twenty-six, Chae and Yoon argued in a preprint that changes to quality control or multiple-star modeling do not remove the anomaly. Researchers still disagree. This is open.",
+  "disp": [
+   "In twenty twenty-three, Kyu-Hyun Chae reported an apparent speed excess in Gaia wide binaries,",
+   "consistent with Mond.",
+   "In twenty twenty-four, Indranil Banik and colleagues analyzed Gaia pairs too,",
+   "and found no such effect, favoring Newtonian gravity.",
+   "The analyses differ in how pairs are selected, how hidden third stars are handled,",
+   "and how orbits are modeled.",
+   "Saad and Ting measured radial velocities for eighty-five pairs and analyzed fifty-seven bound",
+   "systems, published in October twenty twenty-six, and report some tension with Mond,",
+   "depending on how Mond's formula and the Galaxy's outside pull are treated.",
+   "In July twenty twenty-six, Chae and Yoon argued in a preprint that changes to quality control or",
+   "multiple-star modeling do not remove the anomaly.",
+   "Researchers still disagree.",
+   "This is open."
+  ]
+ },
+ {
+  "id": "s10",
+  "text": "What would settle it? Detecting a dark matter particle in an experiment would be strong evidence for dark matter, and ever more sensitive searches narrow the options, while Lux Zeppelin's unconfirmed candidate awaits more data. Gaia's next data release, planned for December twenty twenty-six, may allow cleaner wide-binary samples. Radial-velocity measurements of individual pairs can check for hidden companions. And more collisions like the Bullet Cluster test where the mass sits.",
+  "say": "What would settle it? Detecting a dark matter particle in an experiment would be strong evidence for dark matter, and ever more sensitive searches narrow the options, while Lux Zep-uh-lin's unconfirmed candidate awaits more data. Guy-uh's next data release, planned for December twenty twenty-six, may allow cleaner wide-binary samples. Radial-velocity measurements of individual pairs can check for hidden companions. And more collisions like the Bullet Cluster test where the mass sits.",
+  "disp": [
+   "What would settle it?",
+   "Detecting a dark matter particle in an experiment would be strong evidence for dark matter,",
+   "and ever more sensitive searches narrow the options,",
+   "while Lux Zeppelin's unconfirmed candidate awaits more data.",
+   "Gaia's next data release, planned for December twenty twenty-six, may allow cleaner wide-binary samples.",
+   "Radial-velocity measurements of individual pairs can check for hidden companions.",
+   "And more collisions like the Bullet Cluster test where the mass sits."
+  ]
+ },
+ {
+  "id": "s11",
+  "text": "So what does this show? Established: visible matter alone cannot explain these motions under standard gravity, and the dark matter model fits many observations, including the microwave background and cluster collisions. A Mond-style rule also matches many galaxy rotation curves. Not established: what dark matter is, whether any modified gravity can fit galaxies, clusters and the microwave background together, and whether wide binaries depart from Newtonian gravity. Scientists disagree on each.",
+  "say": "So what does this show? Established: visible matter alone cannot explain these motions under standard gravity, and the dark matter model fits many observations, including the microwave background and cluster collisions. A Mawnd-style rule also matches many galaxy rotation curves. Not established: what dark matter is, whether any modified gravity can fit galaxies, clusters and the microwave background together, and whether wide binaries depart from Newtonian gravity. Scientists disagree on each.",
+  "disp": [
+   "So what does this show?",
+   "Established: visible matter alone cannot explain these motions under standard gravity,",
+   "and the dark matter model fits many observations,",
+   "including the microwave background and cluster collisions.",
+   "A Mond-style rule also matches many galaxy rotation curves.",
+   "Not established: what dark matter is, whether any modified gravity can fit galaxies,",
+   "clusters and the microwave background together, and whether wide binaries depart from Newtonian gravity.",
+   "Scientists disagree on each."
+  ]
+ },
+ {
+  "id": "s12",
+  "text": "This does not settle what gravity does, or what the universe contains. The mismatch is real. The answer could be new matter, new gravity, or something not yet proposed.",
+  "say": "This does not settle what gravity does, or what the universe contains. The mismatch is real. The answer could be new matter, new gravity, or something not yet proposed.",
+  "disp": [
+   "This does not settle what gravity does, or what the universe contains.",
+   "The mismatch is real.",
+   "The answer could be new matter, new gravity, or something not yet proposed."
+  ]
+ },
+ {
+  "id": "s13",
+  "text": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "say": "Sources are on screen. Made with AI by Heartbeat Observatory. Find the full list at heartbeatobservatory.com.",
+  "disp": [
+   "Sources are on screen.",
+   "Made with AI by Heartbeat Observatory.",
+   "Find the full list at heartbeatobservatory.com."
+  ]
+ }
+]

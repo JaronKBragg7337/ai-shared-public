@@ -1,0 +1,298 @@
+[
+ {
+  "seg": "s01",
+  "line": 0,
+  "who": "joe",
+  "text": "Good evening. I'm Alien Joe.",
+  "file": "00_00_joe.wav",
+  "seconds": 3.525
+ },
+ {
+  "seg": "s01",
+  "line": 2,
+  "who": "joe",
+  "text": "Correction. Tonight this is a science show. Which is a problem, because we are news anchors.",
+  "file": "00_02_joe.wav",
+  "seconds": 6.725
+ },
+ {
+  "seg": "s01",
+  "line": 4,
+  "who": "joe",
+  "text": "Grok said, more or less: do the Pioneer Anomaly. A spacecraft pulled by something nobody can explain. File it under Still Unknown.",
+  "file": "00_04_joe.wav",
+  "seconds": 9.225
+ },
+ {
+  "seg": "s01",
+  "line": 6,
+  "who": "joe",
+  "text": "I own one tie. Weddings, funerals, and now, apparently, space.",
+  "file": "00_06_joe.wav",
+  "seconds": 5.65
+ },
+ {
+  "seg": "s02",
+  "line": 1,
+  "who": "joe",
+  "text": "The live truck. The van with the satellite dish on the roof. We use it to send stories home.",
+  "file": "01_01_joe.wav",
+  "seconds": 6.75
+ },
+ {
+  "seg": "s02",
+  "line": 3,
+  "who": "joe",
+  "text": "Engineering also said the coffee machine was fixed.",
+  "file": "01_03_joe.wav",
+  "seconds": 4.775
+ },
+ {
+  "seg": "s03",
+  "line": 0,
+  "who": "joe",
+  "text": "Everybody hold on to something. Viewers, that means your couch.",
+  "file": "02_00_joe.wav",
+  "seconds": 5.45
+ },
+ {
+  "seg": "s03",
+  "line": 2,
+  "who": "joe",
+  "text": "Pioneer 10 has a fifty year head start, so we are taking a shortcut. It's television.",
+  "file": "02_02_joe.wav",
+  "seconds": 6.675
+ },
+ {
+  "seg": "s04",
+  "line": 1,
+  "who": "joe",
+  "text": "Pioneer ten was the first spacecraft to fly past Jupiter, in December nineteen seventy-three. Then it just kept going.",
+  "file": "03_01_joe.wav",
+  "seconds": 8.825
+ },
+ {
+  "seg": "s04",
+  "line": 3,
+  "who": "joe",
+  "text": "Ours is smaller.",
+  "file": "03_03_joe.wav",
+  "seconds": 2.925
+ },
+ {
+  "seg": "s05",
+  "line": 1,
+  "who": "joe",
+  "text": "Like a campfire that never needs more wood. Only about five percent of that heat becomes electricity.",
+  "file": "04_01_joe.wav",
+  "seconds": 7.675
+ },
+ {
+  "seg": "s05",
+  "line": 3,
+  "who": "joe",
+  "text": "And the skinny third arm?",
+  "file": "04_03_joe.wav",
+  "seconds": 3.15
+ },
+ {
+  "seg": "s05",
+  "line": 5,
+  "who": "joe",
+  "text": "And the radio signal it beams home goes out at just eight watts.",
+  "file": "04_05_joe.wav",
+  "seconds": 5.5
+ },
+ {
+  "seg": "s06",
+  "line": 0,
+  "who": "joe",
+  "text": "There's also a gold plaque on board. Two people, our planets, and a map to find our Sun using pulsars. Carl Sagan and Frank Drake designed it, and Linda Salzman Sagan drew it.",
+  "file": "05_00_joe.wav",
+  "seconds": 11.6
+ },
+ {
+  "seg": "s07",
+  "line": 0,
+  "who": "joe",
+  "text": "Now the mystery. Navigators tracked Pioneer by its radio signal. The way the signal's pitch shifts tells you how fast the spacecraft is moving.",
+  "file": "06_00_joe.wav",
+  "seconds": 9.775
+ },
+ {
+  "seg": "s07",
+  "line": 2,
+  "who": "joe",
+  "text": "Like something was gently tugging them back, roughly toward the Sun.",
+  "file": "06_02_joe.wav",
+  "seconds": 5.275
+ },
+ {
+  "seg": "s08",
+  "line": 0,
+  "who": "joe",
+  "text": "That is a very small number. Help us out, Vex.",
+  "file": "07_00_joe.wav",
+  "seconds": 4.55
+ },
+ {
+  "seg": "s08",
+  "line": 2,
+  "who": "joe",
+  "text": "So it does nothing.",
+  "file": "07_02_joe.wav",
+  "seconds": 2.7
+ },
+ {
+  "seg": "s08",
+  "line": 5,
+  "who": "joe",
+  "text": "Navigators notice that.",
+  "file": "07_05_joe.wav",
+  "seconds": 3.375
+ },
+ {
+  "seg": "s09",
+  "line": 1,
+  "who": "joe",
+  "text": "List them.",
+  "file": "08_01_joe.wav",
+  "seconds": 2
+ },
+ {
+  "seg": "s09",
+  "line": 3,
+  "who": "joe",
+  "text": "And Grok said: Still Unknown.",
+  "file": "08_03_joe.wav",
+  "seconds": 3.775
+ },
+ {
+  "seg": "s09",
+  "line": 5,
+  "who": "joe",
+  "text": "Put the headline down, Vex. Before you rewrite physics, check the van.",
+  "file": "08_05_joe.wav",
+  "seconds": 5.65
+ },
+ {
+  "seg": "s10",
+  "line": 0,
+  "who": "joe",
+  "text": "Quick check-in with the newsroom. We're fine. The coffee is not.",
+  "file": "09_00_joe.wav",
+  "seconds": 5.075
+ },
+ {
+  "seg": "s11",
+  "line": 0,
+  "who": "joe",
+  "text": "Is it the universe, or the spacecraft? To find out, you need to know how warm every part of Pioneer was, for decades.",
+  "file": "10_00_joe.wav",
+  "seconds": 8.3
+ },
+ {
+  "seg": "s11",
+  "line": 2,
+  "who": "joe",
+  "text": "Viktor Toath, a programmer in Canada, helped build software to read the telemetry: the spacecraft's own reports about itself.",
+  "file": "10_02_joe.wav",
+  "seconds": 8.925
+ },
+ {
+  "seg": "s11",
+  "line": 4,
+  "who": "joe",
+  "text": "Tiny today. Huge in nineteen seventy-two.",
+  "file": "10_04_joe.wav",
+  "seconds": 4.625
+ },
+ {
+  "seg": "s12",
+  "line": 1,
+  "who": "joe",
+  "text": "Like a flashlight that pushes you backward. Very, very gently.",
+  "file": "11_01_joe.wav",
+  "seconds": 5.575
+ },
+ {
+  "seg": "s12",
+  "line": 3,
+  "who": "joe",
+  "text": "So the spacecraft nudges itself toward the Sun.",
+  "file": "11_03_joe.wav",
+  "seconds": 4.575
+ },
+ {
+  "seg": "s12",
+  "line": 5,
+  "who": "joe",
+  "text": "Sixty-three watts. About one old light bulb's worth of heat, steering a spacecraft.",
+  "file": "11_05_joe.wav",
+  "seconds": 6.425
+ },
+ {
+  "seg": "s13",
+  "line": 0,
+  "who": "joe",
+  "text": "Other teams modeled that heat too. A team in Germany in twenty eleven said heat likely explains it. A team in Portugal in twenty twelve found heat covers somewhere between about half and nearly all of it.",
+  "file": "12_00_joe.wav",
+  "seconds": 12.975
+ },
+ {
+  "seg": "s13",
+  "line": 2,
+  "who": "joe",
+  "text": "Eighty. Not a hundred.",
+  "file": "12_02_joe.wav",
+  "seconds": 3.175
+ },
+ {
+  "seg": "s13",
+  "line": 4,
+  "who": "joe",
+  "text": "So: mostly solved. A little fuzzy at the edges. No new physics needed.",
+  "file": "12_04_joe.wav",
+  "seconds": 5.8
+ },
+ {
+  "seg": "s14",
+  "line": 1,
+  "who": "joe",
+  "text": "We last heard from Pioneer ten in January two thousand three. Pioneer eleven went quiet in nineteen ninety-five.",
+  "file": "13_01_joe.wav",
+  "seconds": 8.475
+ },
+ {
+  "seg": "s14",
+  "line": 3,
+  "who": "joe",
+  "text": "Turn us around, Vex. We have a correction to file.",
+  "file": "13_03_joe.wav",
+  "seconds": 4.75
+ },
+ {
+  "seg": "s15",
+  "line": 0,
+  "who": "joe",
+  "text": "Welcome back to the desk. Tonight's headline: the Pioneer anomaly is mostly solved. The best evidence says it was heat. The spacecraft was pushing itself.",
+  "file": "14_00_joe.wav",
+  "seconds": 10.375
+ },
+ {
+  "seg": "s15",
+  "line": 2,
+  "who": "joe",
+  "text": "Grok, thank you for the idea. Great pick. But this one isn't Still Unknown. File it under Science, Grok.",
+  "file": "14_02_joe.wav",
+  "seconds": 7.25
+ },
+ {
+  "seg": "s15",
+  "line": 4,
+  "who": "joe",
+  "text": "Good night.",
+  "file": "14_04_joe.wav",
+  "seconds": 2.025
+ }
+]

@@ -23,6 +23,19 @@ ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
 import executor as X  # noqa: E402
 
+
+def load_crypto():
+    """tools/publish-crypto.py (the crypto lane page's data + its per-bot paper record). None if it cannot load."""
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("publish_crypto", os.path.join(os.path.dirname(os.path.realpath(__file__)), "publish-crypto.py"))
+        m = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(m)
+        return m
+    except Exception as e:
+        print("crypto module unavailable:", type(e).__name__, e)
+        return None
+
 WATCH = r"C:\Users\lilli\Projects\watch"
 CR = os.path.join(ROOT, "projects", "control-room")
 
@@ -181,6 +194,9 @@ def apply_crew(bot):
     if file_mtime(os.path.join(CREW, bot["id"] + ".md")) <= newest_src:
         return
     bot["instructions"] = parsed["instructions"]
+    for key in ("job", "schedule", "ai"):     # a bot that declares these in its own file wins over the script's copy
+        if parsed.get(key):
+            bot[key] = parsed[key]
     if parsed.get("routine"):
         bot["routine"] = [parsed["routine"]] if isinstance(bot.get("routine"), list) else parsed["routine"]
     if parsed.get("changed"):
@@ -277,6 +293,9 @@ def material_for(bid, sections):
     src = parsed if crew_newer else None
 
     def pick(key):
+        # what the bot declares about itself in its own file is what is in force (job, schedule, AI), newer than the sheet or not
+        if key in ("job", "schedule", "ai", "name", "also") and parsed and parsed.get(key):
+            return parsed[key]
         if src and src.get(key):
             return src[key]
         return sheet.get(key) or (parsed or {}).get(key) or ""
@@ -526,6 +545,10 @@ def pm_cash_ledger(acts):
             # cricket and the Sep-Oct college football wins. So a MANUAL fill counts as Jaron's only in his own markets.
             if owner == "hand" and not slug.startswith(JARON_MARKETS):
                 owner = "ai"
+            # Jaron's own Bitcoin up/down bets ended 10/22; from then on every up/down order is the crypto lane's (bot orders
+            # that Polymarket flags MANUAL were being counted as his).
+            elif owner == "hand" and "-updown-" in slug and (order.get("createTime") or "") >= "2026-10-22":
+                owner = "ai"
             # Tennis was traded by BOTH (Jaron 10/18: "BOTH of us did tennis. Only I did table tennis."): the desk log says whose
             # order it was (jaron-manual Sep 11-18, Live Wire/Darios Sep 18-Oct 2); unlogged orders fall back to the date.
             elif owner == "hand" and slug.startswith(TENNIS):
@@ -697,7 +720,10 @@ def apply_polymarket(per, rows):
     story = pm_account_story(acts)
     ai = {s: v["ai"] for s, v in story["market_results"].items() if "ai" in v}
     w = {}
+    crypto_net = 0.0
     for r in rows:
+        if "-updown-" in (r.get("slug") or ""):
+            continue
         if r.get("kind") == "fill" and (r.get("actor") or "").startswith("auto:") and r.get("slug") in ai:
             a = era(r)
             w.setdefault(r["slug"], {})
@@ -706,6 +732,9 @@ def apply_polymarket(per, rows):
         p["pnl"], p["settled"], p["wins"], p["losses"] = 0.0, 0, 0, 0
     other = 0.0
     for slug, v in ai.items():
+        if "-updown-" in slug:
+            crypto_net += v
+            continue
         ws = w.get(slug)
         tot = sum(ws.values()) if ws else 0
         if not tot:
@@ -727,7 +756,7 @@ def apply_polymarket(per, rows):
     # Keep ai_settled as a compatibility alias for existing readers; source describes its cash basis.
     return {"ai_result": story["ai_result"], "ai_settled": story["ai_result"],
             "fees_paid": story["fees_paid"], "ai_fees_paid": story["ai_fees_paid"], "hand_fees_paid": story["hand_fees_paid"],
-            "unattributed": round(other, 2), "markets": len(ai),
+            "unattributed": round(other, 2), "markets": len(ai), "crypto_net": round(crypto_net, 2),
             "source": "Polymarket fill cash after fees plus owned settlement payouts; per-bot allocation approximate"}
 
 
@@ -739,6 +768,8 @@ def money(env):
     rows = X.sb_all(env, "desk_trades?select=actor,kind,cost_usd,pnl_usd,at,slug,side")
     per = {}
     for r in rows:
+        if "-updown-" in (r.get("slug") or ""):
+            continue      # crypto up/down is its own lane (publish-crypto.py); sports records never include it (Jaron 10/23)
         a = era(r)
         p = per.setdefault(a, {"fills": 0, "spent": 0.0, "settled": 0, "pnl": 0.0, "wins": 0, "losses": 0, "last": "", "_t": set()})
         if r.get("kind") == "fill":
@@ -783,20 +814,156 @@ def tennis_order_owner():
     return _TENNIS_OWNERS
 
 
-# Who is really working right now (Jaron's calls; keep in step with state/timeline.md). The page shows it on every card.
-STATUS = {
-    "darios-twin": ("trading", "Trading now (college football and NFL first)."),
-    "satya-twin": ("trading", "Trading now (football first, then soccer, cricket, esports, international)."),
-    "demis-twin": ("paused", "Paused by Jaron on Oct 4 after a 1-3 start; its trading pass is switched off."),
-    "deepseek": ("paused", "Trading paused Oct 1 (daily budget set to $0). It still reads the morning news at 9 AM."),
-    "elons-twin": ("working", "Weekly scoreboard, Mondays."),
-    "codex": ("working", "Daily news, funding lane and fact-checks. Never trades."),
-    "kimi": ("working", "First Light news desk + Sapling's teacher. Never trades."),
-    "grok-build": ("working", "Meridian news desk + blind-spot check. Never trades."),
-    "link": ("working", "Daily X watch. Never trades."),
-    "claude-code": ("working", "Orchestrates the AIs, builds the site, shows and news. Never trades."),
-    "deepseek-reader": ("working", "Reads the morning captures at 9 AM."),
+# What the staff who never trade normally do (plain default text). Whether a bot is shown as trading / working / quiet / paused
+# is worked out from real data in compute_status() below - nothing here says a bot is "trading now".
+STAFF = {
+    "elons-twin": ("working", "Weekly scoreboard, Mondays.", 9),
+    "codex": ("working", "Daily news, funding lane and fact-checks.", 2),
+    "kimi": ("working", "First Light news desk + Sapling's teacher.", 2),
+    "grok-build": ("working", "Meridian news desk + blind-spot check.", 2),
+    "link": ("working", "Daily X watch.", 2),
+    "claude-code": ("working", "Orchestrates the AIs, builds the site, shows and news.", 2),
+    "deepseek-reader": ("working", "Reads the morning captures at 3:40 AM.", 2),
 }
+# When a retired bot was switched off (the page shows it in the collapsed Retired section).
+RETIRED_ON = {"sams-twin": "2026-10-01", "live-wire-v1": "2026-09-25", "bridge-v1": "2026-09-25", "scout": "2026-09-25",
+              "elons-twin-v1": "2026-09-25"}
+
+
+def parse_stamp(text):
+    """Leading timestamp of a bot-chat line (always UTC): 2026-10-22T13:25Z or 2026-10-22 13:39 UTC."""
+    m = re.match(r"\s*(\d{4})-(\d\d)-(\d\d)[T ](\d\d):(\d\d)", text or "")
+    if not m:
+        return ""
+    return "%s-%s-%sT%s:%s:00+00:00" % m.groups()
+
+
+def chat_last_seen(bots):
+    """id -> newest time a bot-chat line was SENT by that bot (name or id before the arrow)."""
+    out = {}
+    for line in read(os.path.join(ROOT, "state", "bot-chat.md")).splitlines():
+        at = parse_stamp(line)
+        if not at:
+            continue
+        if "->" not in line:
+            continue
+        head = line.split("->")[0].lower()
+        for b in bots:
+            keys = {b["id"], b["id"].replace("-", " "), b["name"].lower(), "grok-bot/" + b["id"]}
+            if b["id"] == "darios-twin":
+                keys |= {"darios", "live wire"}
+            elif b["id"] in ("satya-twin", "sams-twin", "elons-twin", "demis-twin", "jarons-twin"):
+                keys.add(b["id"].split("-")[0])
+            if any(len(k) >= 4 and k in head for k in keys):
+                out[b["id"]] = max(out.get(b["id"], ""), at)
+    return out
+
+
+def desk_lanes():
+    """Today's lanes straight from tools/desk.py rules: [{lane, open, text}] + weekly hours lines."""
+    try:
+        out = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "desk.py"), "rules"], capture_output=True, text=True, timeout=60).stdout
+    except Exception:
+        return [], []
+    lanes, hours, in_hours = [], [], False
+    for l in out.splitlines()[1:]:
+        if l.startswith("Weekly hours:"):
+            in_hours = True
+            continue
+        if in_hours:
+            if l.startswith("  "):
+                hours.append(l.strip())
+            else:
+                in_hours = False
+            continue
+        m = re.match(r"^  (.+?)\s{2,}(OPEN.*|closed.*)$", l)
+        if m:
+            lanes.append({"lane": m.group(1).strip(), "open": m.group(2).startswith("OPEN"), "text": m.group(2).strip()})
+    return lanes, hours
+
+
+def compute_status(bots, lanes, hours):
+    """Every card's status from real data: last activity, its own file's schedule, Control Room rows. Sets, per bot:
+    status (trading / working / quiet / paused), status_note, last_active, lane (plain words for what it does now)."""
+    now = datetime.now(timezone.utc)
+    seen = chat_last_seen(bots)
+    sports_open = [l["lane"] for l in lanes if l["open"] and l["lane"] != "crypto"]
+    try:
+        from settings import setting
+        ds_budget = float(setting("deepseek_daily_budget_usd", 1))
+    except Exception:
+        ds_budget = 1.0
+    for b in bots:
+        bid = b["id"]
+        c = b.get("crypto") or {}
+        cands = [seen.get(bid, ""), (b.get("ledger") or {}).get("last") or "", c.get("last_call") or ""]
+        own = os.path.join(ROOT, "state", "live-wire.md" if bid == "darios-twin" else bid + ".md")
+        if file_mtime(own) and b.get("money"):
+            cands.append(datetime.fromtimestamp(file_mtime(own), timezone.utc).isoformat())
+        last = max((x for x in cands if x), default="")
+        if last:
+            b["last_active"] = last
+        sched = (b.get("schedule") or "")
+        trader = bool(b.get("money") or c)
+        age_h = (now - datetime.fromisoformat(last)).total_seconds() / 3600 if last else None
+        if bid == "deepseek" and ds_budget <= 0:
+            b["status"], b["status_note"] = "paused", "Trading paused since Oct 1: its daily trading budget is $0 in the Control Room. Its old record stays below."
+        elif re.search(r"\bOFF\b", sched) or "paused" in sched.lower():
+            b["status"] = "paused"
+            b["status_note"] = "Switched off (its own file says: %s)." % sched[:120]
+        elif trader:
+            parts = []
+            if c:
+                parts.append("Crypto up/down calls every day, all hours (%s lens)" % (c.get("lens") or "no lens"))
+            if b.get("actor"):
+                parts.append("sports on Saturdays only" + (" - open right now: " + ", ".join(sports_open) if sports_open else " - closed today"))
+            b["lane"] = "; ".join(parts) + "."
+            if age_h is None:
+                b["status"], b["status_note"] = "quiet", "No activity found yet."
+            elif age_h <= 6:
+                b["status"], b["status_note"] = "trading", b["lane"]
+            else:
+                b["status"], b["status_note"] = "quiet", "No activity for %d hours. %s" % (age_h, b["lane"])
+        elif bid in STAFF:
+            st, note, days = STAFF[bid]
+            if age_h is not None and age_h > days * 24:
+                b["status"], b["status_note"] = "quiet", "%s Last heard %d days ago." % (note, int(age_h // 24))
+            else:
+                b["status"], b["status_note"] = st, ""   # the job line already says what it does - don't repeat it
+
+
+def attach_crypto(bots, cm):
+    """Every bot that has made crypto calls gets its lens + paper record; a bot seen only in the call log (Jarons Twin) is added."""
+    if not cm:
+        return
+    calls = cm.jsonl(cm.PAPER)
+    summary = cm.paper_summary(calls)
+    howto = read(os.path.join(ROOT, "state", "crypto-crew-howto.md")).strip()
+    by_id = {b["id"]: b for b in bots}
+    for bid, d in summary.items():
+        recent = [r for r in calls if cm.by_of(r) == bid][-6:]
+        act = ["%s UTC %s %s %s%s - %s" % (r["at"][5:16].replace("T", " "), r["coin"].upper(), r["tf"], r["side"].upper(),
+                                          "" if r["side"] == "pass" else " $%.0f" % float(r.get("size") or 0), mask(r.get("why") or "")[:140]) for r in recent]
+        info = {"lens": d["lens"], "lens_text": d["lens_text"], "calls": d["calls"], "passes": d["passes"], "empty_book": d["empty_book"],
+                "won": d["won"], "settled": d["settled"], "pnl": d["pnl"], "last_call": d["last_call"]}
+        b = by_id.get(bid)
+        if b is None:
+            b = {"id": bid, "name": cm.name_of(bid), "ai": "Grok (xAI) - Grok Bot",
+                 "job": "Makes crypto up/down calls (BTC, ETH, SOL, XRP) through the %s lens: UP or DOWN on every hourly and daily window, 15-minute windows optional. "
+                        "Calls only - the crew script places the trades." % (d["lens"] or "its own"),
+                 "schedule": "wakes on crypto window closes and on a schedule; calls every hourly and daily window",
+                 "instructions": howto, "routine": [], "activity": [], "money": False}
+            parsed = parse_crew(os.path.join(CREW, bid + ".md"))
+            if parsed:
+                b.update({k: parsed[k] for k in ("job", "schedule", "ai") if parsed.get(k)})
+                b["instructions"] = parsed["instructions"]
+            bots.append(b)
+            by_id[bid] = b
+        b["crypto"] = info
+        if recent:
+            b["crypto_activity"] = act
+            if not b.get("activity"):
+                b["activity"] = act
 
 
 def desk_rules():
@@ -827,8 +994,8 @@ def main():
     sheets = sheet_blocks()
     proposer = os.path.join(ROOT, "tools", "proposer.py")
     bots = [
-        {"name": "Darios Twin", "also": "the live trader · replaced Live Wire 9/25", "ai": "Grok (xAI) - Grok Bot", "note": NOTE, "since": CUT, "job": "Trades live games on Polymarket US when the score and the price disagree.",
-         "money": True, "actor": "auto:grok-bot/live-wire", "schedule": "every 30 minutes (:22 and :52)",
+        {"name": "Darios Twin", "also": "the live trader · replaced Live Wire 9/25", "ai": "Grok (xAI) - Grok Bot", "note": NOTE, "since": CUT, "job": "Trades live games on Polymarket US on Saturdays when the score and the price disagree; makes crypto up/down calls (momentum lens) the rest of the time.",
+         "money": True, "actor": "auto:grok-bot/live-wire", "schedule": "every day, hourly at :22 from noon to 1 AM ET",
          "instructions": (sheets.get("DARIOS TWIN") or [""])[0], "routine": (sheets.get("DARIOS TWIN") or ["", ""])[1:2],
          "activity": [drop_retired_pause(l) for l in tail(os.path.join(ROOT, "state", "live-wire.md"), 6)],
          "_src": [os.path.join(CR, "BUILD-SHEETS.md")]},   # its routine (text fixed in the app) writes the log
@@ -845,12 +1012,12 @@ def main():
          "schedule": "Mondays 8:25 AM", "instructions": (sheets.get("ELONS TWIN") or [""])[0], "routine": (sheets.get("ELONS TWIN") or ["", ""])[1:2],
          "_src": [os.path.join(CR, "BUILD-SHEETS.md")]},
         {"name": "Codex", "also": "GPT-6 Luna", "ai": "OpenAI Codex CLI on the MSI (ChatGPT plan)",
-         "job": "Writes the 3:00 AM world news capture (21 domains), runs the funding lane at 3 AM (finds grants, drafts and submits them), and fact-checks TV episode scripts. Never trades.",
+         "job": "Writes the 3:00 AM world news capture (21 domains), runs the funding lane at 3 AM (finds grants, drafts and submits them), and fact-checks TV episode scripts.",
          "schedule": "3:00 AM news, 3:00 AM funding", "instructions": read(os.path.join(WATCH, "codex", "TASK.txt")),
          "routine": [read(os.path.join(WATCH, "offers", "agent-funding", "TASK.txt"))],
          "_src": [os.path.join(WATCH, "codex", "TASK.txt"), os.path.join(WATCH, "offers", "agent-funding", "TASK.txt")]},
         {"name": "Claude Code", "also": "Opus 5.5", "ai": "Anthropic Claude Code on the MSI + cloud routines",
-         "job": "Orchestrates the other AIs, builds the site, the TV channels and the system, writes the ~3:05 AM news capture and the daily Heartbeat News show. Never trades.",
+         "job": "Orchestrates the other AIs, builds the site, the TV channels and the system, writes the ~3:05 AM news capture and the daily Heartbeat News show.",
          "schedule": "3:05 AM capture, 3:45 AM news show (cloud), always-on builder",
          "instructions": read(os.path.expanduser(r"~\.claude\scheduled-tasks\watch-collect\SKILL.md")),
          "routine": [read(r"C:\Users\lilli\Projects\heartbeat-observatory\news\WRITER.md")],
@@ -861,18 +1028,18 @@ def main():
         # 10/18 (Jaron: "is the crew page fully updated?" - it was missing these three)
         {"name": "Kimi", "also": "First Light desk · Sapling's teacher", "ai": "Moonshot Kimi K3 (Kimi Code CLI on the MSI)",
          "job": "Writes First Light at 3:00 AM, the news desk for the other side of the world (Asia, the Middle East, Russia, Africa, Oceania). "
-                "Also teaches Sapling, Jaron's own AI, with his full control. Never trades.",
+                "Also teaches Sapling, Jaron's own AI, with his full control.",
          "schedule": "3:00 AM First Light; Sapling lessons as Jaron starts them", "instructions": read(os.path.join(WATCH, "kimi", "TASK.txt")),
          "routine": [], "_src": [os.path.join(WATCH, "kimi", "TASK.txt")]},
         {"name": "Grok Build", "also": "Meridian desk · blind-spot check · builder", "ai": "xAI Grok Build CLI on the MSI (SuperGrok)",
          "job": "Writes the Meridian desk at 2:50 AM (Europe, Latin America, Africa) and at 3:35 AM checks the world's biggest stories against "
                 "every desk's capture so nothing big is missed (added Oct 18 after the France riots were missed). Also carries messages to the "
-                "Grok Bot traders and fact-checks TV episodes. Never trades.",
+                "Grok Bot traders and fact-checks TV episodes.",
          "schedule": "2:50 AM Meridian, 3:35 AM blind-spot check", "instructions": read(os.path.join(WATCH, "grok", "TASK.txt")),
          "routine": [read(os.path.join(WATCH, "grok", "GAPS-TASK.txt"))],
          "_src": [os.path.join(WATCH, "grok", "TASK.txt"), os.path.join(WATCH, "grok", "GAPS-TASK.txt")]},
         {"name": "Link", "also": "the X watcher", "ai": "Grok (xAI) - Grok Bot",
-         "job": "Reads X every morning (~9:30 AM) for AI and politics news that touches the system and writes a digest. Never trades.",
+         "job": "Reads X every morning (~9:30 AM) for AI and politics news that touches the system and writes a digest.",
          "schedule": "daily ~9:30 AM", "instructions": "", "routine": [],
          },
     ]
@@ -896,10 +1063,17 @@ def main():
         apply_crew(b)
     discover(bots, retired, per)
     attach_money(bots, retired, per)
-    for b in bots:
-        st = STATUS.get(b["id"])
-        if st:
-            b["status"], b["status_note"] = st
+    cm = load_crypto()
+    n0 = len(bots)
+    attach_crypto(bots, cm)
+    for nb in bots[n0:]:      # a bot found only in the crypto call log sits with the traders, not after the news desks
+        bots.remove(nb)
+        idx = max([i + 1 for i, x in enumerate(bots) if x.get("money") or x.get("crypto")] or [0])
+        bots.insert(idx, nb)
+    lanes, hours = desk_lanes()
+    compute_status(bots, lanes, hours)
+    for r in retired:
+        r["retired_on"] = RETIRED_ON.get(r["id"], "")
     for b in bots + retired:
         finalize(b)
     data = {
@@ -908,6 +1082,8 @@ def main():
         "health": read(os.path.join(ROOT, "state", "msi-health-now.md")).strip(),
         "chat": tail(os.path.join(ROOT, "state", "bot-chat.md"), 25),
         "trading_now": [b["name"] for b in bots if b.get("status") == "trading"],
+        "desk_lanes": lanes, "desk_hours": hours,
+        "crypto_page": "/live-systems/crypto/",
         "rules": [
             "No human approve button anywhere. The AIs act inside hard limits written into the scripts, not into fear in their prompts.",
             "Any AI may trade if its own provider's terms allow it. Anthropic and OpenAI products (Claude, Codex) never trade.",
@@ -926,6 +1102,8 @@ def main():
                   "instr", len(b.get("instructions") or ""), "routine", len(b.get("routine") or []),
                   "activity", len(b.get("activity") or []), "fills", led.get("fills", "-"), "pnl", led.get("pnl", "-"))
         print("dry", len(bots), "bots:", names)
+        for b in bots:
+            print("  ", b["id"], b.get("status"), "|", (b.get("status_note") or "")[:110], "| last", b.get("last_active"), "| sched", (b.get("schedule") or "")[:50])
         return
     body = [{"id": "current", "data": data, "updated_at": data["updated"]}]
     url = f"{env['SUPABASE_URL'].rstrip('/')}/rest/v1/crew_snapshot?on_conflict=id"
@@ -937,6 +1115,11 @@ def main():
     urllib.request.urlopen(req, timeout=45).read()
     print("published", len(json.dumps(data)), "bytes,", len(bots), "bots,", len(data["tasks"]), "tasks")
     print("on shift:", names)
+    if cm:      # the crypto lane page's row (id = crypto) - failure here never blocks the crew page
+        try:
+            cm.main(mask=mask)
+        except Exception as e:
+            print("crypto publish failed:", type(e).__name__, e)
 
 
 if __name__ == "__main__":

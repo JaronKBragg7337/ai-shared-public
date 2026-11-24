@@ -1,0 +1,1048 @@
+# Prep Watch LIVE notes (newest at the bottom; full rounds in rounds/)
+
+## 2026-11-17 01:52 codex (first sweep)
+**The “33 countries” figure is a press compilation, not a count of 33 new government warnings.** The dates below show both new campaigns and older advice being repeated. A new booklet or agency does not necessarily mean the underlying stockpile advice is new.
+
+All entries in the table are **ESTABLISHED** by an official source. Dates identify the cited announcement or document; they do not necessarily mark the first time a country gave the advice.
+
+| Country | Official guidance and stated reason | Date and what is new |
+|---|---|---|
+| Netherlands | [Government booklet](https://www.rijksoverheid.nl/documenten/2025/11/17/tk-bijlage-lr-hah-boekjea5-final): prepare to manage at home for **72 hours** if everyday services fail. | **17 Nov 2025:** new booklet; the start date of the underlying advice is not established here. |
+| Czech Republic | [Interior Ministry’s “72 Hours” guide](https://mv.gov.cz/norwaygrants/docDetail.aspx?docid=22537000&doctype=ART): prepare for disruptions to water, heat, electricity or internet. | **7 Aug 2025:** new guide and campaign; whether this was the first such advice is not established here. |
+| Poland | [Government safety guide](https://www.gov.pl/web/rars/poradnik-bezpieczenstwa-juz-dostepny): supplies and emergency plans for floods, fires, infrastructure failures and military threats. Its [FAQ](https://www.gov.pl/web/poradnikbezpieczenstwa/pytania-i-odpowiedzi) specifies **three days** and cites lessons from the war in Ukraine. | **28 Aug 2025:** new guide; it follows an earlier 2022 guide. |
+| Taiwan | [Defense Ministry](https://www.mnd.gov.tw/en/News/PressRelease/84931): updated public safety guide addresses natural disasters and war, including emergency supplies. | **16 Sep 2025:** updated guide, following earlier civil-defense work. |
+| United Kingdom | [Cabinet Office](https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency): “Be Ready” campaign for disruption such as severe storms and loss of services. | **22 Oct 2026:** new campaign; [three-day preparedness advice existed in 2024](https://www.gov.uk/government/speeches/deputy-prime-minister-speech-on-resilience-22-may-2024). |
+| Japan | [Disaster Management Agency](https://www.bousai.go.jp/juyou/emergency_request.html): at least **three days**, preferably a week, of water and food; cites major earthquakes and volcanic eruption. | **2 Nov 2026:** new agency request; [the same duration was advised in 2016](https://www.maff.go.jp/j/pr/aff/1609/spe1_02.html). |
+| Denmark | [Emergency Management Agency](https://www.brs.dk/da/nyheder/2024/forberedt-paa-kriser/): prepare for **three days**, citing extreme weather, cyberattacks and sabotage. | **15 Jun 2024:** older than the requested period. |
+| Norway | [Government report](https://www.regjeringen.no/en/documents/meld.-st.-9-20242025/id3082364/?ch=2): **one week** of household self-reliance, including during crisis or war. | **29 May 2024:** advice increased from three days; preparedness campaigns date to 2018. |
+| Sweden | [Civil-defense brochure](https://rib.msb.se/filer/pdf/30874.pdf): prepare to manage for **at least a week** during crisis or war. | **2024 brochure:** older advice; a [May 2025 leaflet](https://rib.msb.se/filer/pdf/31101.pdf) repeated it. |
+| Germany | [Civil Protection Office](https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/So-koennen-Sie-sich-vorbereiten/Bevorraten/bevorraten.html): aim for **ten days**; even three helps. Examples include floods, blackouts and disrupted supply chains. | Current page undated; [agency research](https://www.bbk.bund.de/SharedDocs/Downloads/DE/KRITIS/definition_von_schutzzielen_fuer_kritis.pdf?__blob=publicationFile&v=4) traces the federal ten-day recommendation to **2016**. |
+| Ireland | [Department of Defence](https://www.gov.ie/en/department-of-defence/publications/being-prepared/): food and water for up to **three days**, including utility disruption. | **12 Oct 2020:** older guidance. |
+| Canada | [Public Safety Canada](https://www.getprepared.gc.ca/cnt/bt/index-en.aspx?wbdisable=true): 72-hour emergency preparedness for local hazards. | Campaign began **2006**; cited page modified **15 Jan 2015**. |
+| New Zealand | [Civil Defence household guide](https://getready.govt.nz/assets/Uploads/documents/alternate-formats/easy-read/pdf/easy-read-household-plan-info-en-apr23.pdf): at least **three days** of supplies if an emergency prevents leaving home. | **Apr 2023:** older guidance. |
+| Australia — New South Wales | [State Health Department](https://www.health.nsw.gov.au/emergency_preparedness/planning/Pages/emergency-pantry-list.aspx): an emergency pantry for disruptions including storms, floods and utility failures. | **Updated 23 Mar 2023:** state-level, older guidance; this is not a new nationwide directive. |
+
+The **EU**, which is not a country in the count, also adopted its [Preparedness Union Strategy on 26 March 2025](https://commission.europa.eu/topics/preparedness_en). It proposes developing guidelines for at least **72 hours** of self-sufficiency across a range of threats.
+
+**The Newsweek list.** A [published reproduction of the list](https://www.global-insight.blog/2026/10/33-countries-stockpile-food-water-full-list.html) names: UK, Ireland, France, Germany, Netherlands, Denmark, Norway, Sweden, Finland, Estonia, Latvia, Lithuania, Poland, Czech Republic, Austria, Switzerland and Croatia; US, Canada, Mexico; Chile, Colombia, Argentina, Brazil; South Africa; Japan, Taiwan, Israel, India, Philippines, Singapore; New Zealand and Australia. The original [Newsweek article](https://www.newsweek.com/map-shows-countries-urging-residents-to-stockpile-food-12629524) could not be opened for this check.
+
+
+## 2026-11-17 01:54 grok (first sweep)
+I'll sweep X for the last 14 days, starting with the Netherlands emergency-store posts and then the other countries on the list, and separate fresh local posts from recycled viral ones.# X early-signal desk, 3–17 Nov 2026
+
+The last 14 days show a real, slow preparedness build, and a separate English viral layer that welds those items into one secret warning. Local official accounts are posting drills and routine agency work. They are not posting the “countless countries, phase black, stock up now” script. That script is recycled.
+
+## Netherlands (the post Jaron saw)
+
+**REPORTED, new in 2026, still a plan.** Dutch supermarket association CBL, through director Marc Jansen, is talking with the Agriculture ministry about designating some existing shops as noodwinkels for “fase zwart”: war, a large cyberattack, or a long blackout. Aim: a basic shop within about 15 minutes by car, with a generator. Talks have run about half a year. Jansen says the October Albert Heijn cyber incident sped them up. He also says they still do not know how many shops, or how long they could feed people, and which ministry to call if it happens. NATO Article 5 food questions are part of the reported background. Stores are not open. A CBL or ministry page, or a post from CBL, Albert Heijn, or a Dutch ministry, would settle the official status. None of those accounts showed up in this sweep.
+
+- Original local press: [AD, 15 Nov](https://x.com/ADnl/status/2121871584076153060) (about 13k views) → [AD article](https://www.ad.nl/binnenland/supermarkten-bereiden-noodwinkels-voor-op-fase-zwart-bijvoorbeeld-bij-oorlog-of-grote-cyberaanval~ad7ca138/). Earlier: [NRC interview, 5 Nov](https://www.nrc.nl/nieuws/2026/11/05/hoeveel-noodwinkels-nederland-nodig-heeft-en-hoelang-ze-ons-kunnen-voeden-weten-we-nog-niet-a4940628); [BNR/FD, 31 Oct](https://www.bnr.nl/nieuws/nieuws-politiek/10614736/supermarkten-werken-samen-aan-plan-noodwinkels-voor-rampscenario-s).
+- Recycled: the same Dutch screenshot text on [16 Nov](https://x.com/springfield1952/status/2122264381832470830) and again [hours later](https://x.com/VanEmmerickKris/status/2122360158735249436). English “BREAKING” rewrite by [@Currentreport1, 15 Nov](https://x.com/Currentreport1/status/2121967644383588669) (about 485k views) is the post the pile-on quotes. Not a Dutch official.
+
+## What is actually new, 2025–2026
+
+| Place | What | When | Label | Why they say |
+|---|---|---|---|---|
+| EU | Guidelines: 72 hours of household self-sufficiency. Builds on the March 2025 Preparedness Union Strategy. Not a new law. | Presented 3 Nov 2026; in the Official Journal 10 Nov | **ESTABLISHED** [Commission release](https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2324/IP_26_2324_EN.pdf), [OJ](https://eur-lex.europa.eu/eli/C/2026/5910/oj/eng) | Hybrid threats, cyber, climate, geopolitics |
+| UK | Cabinet Office “Be Ready”: 3 days’ water and food, cash, torch, radio. Three-year campaign. Replaces the 2024 Prepare site. | 22 Oct 2026, Dan Jarvis, HCWS409 | **ESTABLISHED** [BBC](https://www.bbc.co.uk/news/articles/cred3xnj0j0qo) | Weather, cyber, hostile-state disruption |
+| Japan | New Disaster Management Agency. Same-day request: water and food for at least 3 days, a week if possible (3 litres per person per day), plus furniture fixing and hazard maps. | 2 Nov 2026 | **ESTABLISHED** [bousai.go.jp](https://www.bousai.go.jp/juyou/emergency_request.html) | Earthquake-scale disaster; help will not arrive at once |
+| Denmark | Salling Group: 51 emergency stores (Bilka, føtex, Netto), long-life food, target 2027. Pilots from June 2026; national plan reported from Nov 2025. | Company statement 22 Oct 2026 | **REPORTED** [Nordisk Post](https://www.nordiskpost.com/2026/10/28/salling-group-supplies-51-emergency-stores/) | Crisis if normal shopping stops |
+| Finland | National FI-Alert cell-broadcast test, noon today and again 24 Nov. The 72-hour site [72tuntia.fi](https://72tuntia.fi) is older. | 17 and 24 Nov 2026 | **ESTABLISHED** [government notice](https://valtioneuvosto.fi/-/1410869/vaaratiedotejarjestelmaa-testataan-marraskuussa-fi-alert-mukana-valtakunnallisessa-kokeilussa) | Test of a new warning channel |
+| Germany | BBK household guide: 10 days if you can, 3 days already helps. Guide cited as revised 11/2025. | Older advice, still current | **REPORTED** via guides quoting BBK. A fresh BBK order this month is not established either way | General crisis stock |
+| Poland | Civil-protection law of 5 Dec 2024; 2026 amendment adds shelter-point category. Press says a deputy-minister reply (as of 28 Oct) counts 2 shelters, 52 hides, 160 emergency sites, room for about 28,000 people, with 2,400 more in some stage of work. | Law 2024; figures Oct 2026 | **REPORTED** [bnbn.pl, 13 Nov](https://bnbn.pl/schrony-w-polsce-dane-mswia-ile-miejsc/). The Sejm interpellation would settle the numbers | Shelters and supply continuity |
+| Estonia | NRC’s question treats “about 100 crisis supermarkets” as fact. A Postimees shelf of week-long kits is only in secondary write-ups. | Nov 2026 mentions | Not established either way from an Estonian government page in this sweep | — |
+
+Sweden and Norway “one week” lines in viral posts are older household advice being reused. A new Nordic order in this window is not established either way.
+
+## 2026-11-17 01:57 kimi (first sweep)
+# Non-English sources desk
+
+  **Bottom line:** the buildup is real, but it combines new reserves, agencies and infrastructure with older household advice and recurring drills. It is not one internationally coordinated “black phase” programme.
+
+  - **Netherlands — REPORTED — 31 October 2026; new proposal.** [BNR](https://www.bnr.nl/nieuws/nieuws-politiek/10614736/supermarkten-werken-samen-aan-plan-noodwinkels-voor-rampscenario-s) reports CBL, supermarkets and the Agriculture Ministry discussing one jointly operated **noodwinkel** per area, equipped with generators, for war or power failure. “*Supermarkten denken … met het ministerie … na*” = “Supermarkets are thinking it through with the ministry.” An operational state network, locations or opening date is **not established either way**; a published ministry/CBL protocol would settle that.
+
+  - **Sweden — ESTABLISHED — 14 October 2025; new.** The government [began procurement](https://www.regeringen.se/pressmeddelanden/2025/10/de-forsta-beredskapslagren-for-spannmal-etableras-i-norra-sverige/) of rotating state grain stocks in the four northernmost counties, backed by SEK575 million for 2026. “*Ett historiskt steg i återuppbyggnaden av svensk livsmedelsberedskap*” = “A historic step in rebuilding Swedish food preparedness.” Officials cited northern Sweden’s military importance and keeping people fed during severe crises or war.
+
+  - **Germany — ESTABLISHED — 22 May 2026; new package, older stockpile advice.** The [Population Protection Pact](https://www.bbk.bund.de/SharedDocs/Kurzmeldungen/DE/2026/05/om-22-pakt-bevoelkerungsschutz.html) plans €10 billion through 2029 for warning systems, emergency water/power, equipment and civil defence, citing Europe’s changed security situation. “*Ein notwendiger Modernisierungsschub*” = “A necessary modernisation push.” BBK’s [ten-day household recommendation](https://www.bbk.bund.de/DE/Warnung-Vorsorge/Vorsorge/So-koennen-Sie-sich-vorbereiten/Bevorraten/bevorraten_node.html) remains current but is not new.
+
+  - **Denmark — ESTABLISHED — 1 July 2026; new.** A [DKK1.2 billion package](https://regeringen.dk/aktuelt/nyheder/2026/nu-investerer-regeringen-1-2-milliarder-kroner-i-totalberedskabet/) covers backup generators, water, telecommunications, health and transport, plus DKK130 million for a joint 24/7 situation centre and cyber capabilities. “*Styrke Danmarks evne til at modstå … sårbarheder*” = “Strengthen Denmark’s ability to withstand vulnerabilities.” The official reason is an unusually serious, complex threat picture. Separate [three-day household advice](https://samsik.dk/forberedt/) predates this package.
+
+  - **Norway — ESTABLISHED — 13 October 2025; expanding a programme begun in 2024.** The [2026 budget proposal](https://www.regjeringen.no/no/dokumenter/prop.-1-s-20252026/id3123353/?ch=2) allocates NOK81.5 million to **beredskapslagring av korn** (“emergency grain storage”), up from NOK70.935 million in 2025, to support food supply and reduce vulnerability. DSB confirms the separate [one-week household recommendation](https://www.dsb.no/egenberedskapsuka/undersokelser-om-egenberedskap/) replaced three-day advice in **May 2024**, not 2025.
+
+  - **Poland — ESTABLISHED — September 2025 guide; new law effective 1 January 2025.** The government’s [*Poradnik bezpieczeństwa*](https://www.coi.gov.pl/static/poradnik_bezpieczenstwa_PL.pdf) covers blackouts, cyber threats, evacuation and shelter. “*Przygotuj domowe zapasy na minimum 3 dni*” = “Prepare household supplies for at least three days.” It cites war, hybrid threats, cyberattacks and extreme weather. The accompanying [civil-protection law](https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001907/T/D20241907L.pdf) was dated 5 December 2024.
+
+  - **Japan — ESTABLISHED — 2 November 2026; new agency.** Japan [launched its Disaster Management Agency](https://www.bousai.go.jp/juyou/hossokushiki.html), headed by the prime minister, to coordinate preparation, response and recovery. “*国難級の災害*” = “disasters on the scale of a national crisis”; the minister specifically cited a potential Nankai Trough earthquake. An earlier [28 February 2025 announcement](https://www.bousai.go.jp/kohou/oshirase/r7oshirase.html) arranged decentralised “push-type” relief-stock partners in three of eight planned regions.
+
+  - **China — ESTABLISHED — reported 6 January 2026 for 2025; new implementation.** The Emergency Management Ministry’s [official annual account](https://www.mem.gov.cn/zl/202601/t20260106_591001.shtml) says county-level reserve-depot coverage reached **100%**, central relief supplies were pre-positioned in **400 high-risk counties**, and six regional rescue centres became operational. “*县级储备库覆盖率达到100%*” = “County-level reserve-depot coverage reached 100%.” The stated purpose is readiness for extreme, complex disasters.
+
+  - **Taiwan — ESTABLISHED — announced 18 March 2025; new field exercise.** The Presidential Office’s [Chinese-language announcement](https://ocacnews.net/article/393790) describes a 27 March Tainan exercise involving earthquake, tsunami and damaged critical infrastructure, with mass evacuation, sheltering and expanded emergency medical capacity. “*大型災害與威權主義擴張威脅*” = “major disasters and the threat of authoritarian expansion.”
+
+  - **South Korea — ESTABLISHED — announced 5 August 2025; recurring, not new.** The Interior Ministry’s [notice](https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=119569) scheduled Eulji exercises for 18–21 August and nationwide air-raid evacuation training on 20 August. “*새로운 안보 위협에 대비한 실전적 연습*” = “practical exercises preparing for new security threats.”
+
+  - **Russia — ESTABLISHED — 1–2 October 2025; recurring policy drill.** An [official municipal notice](https://uzlovskij-r71.gosweb.gosuslugi.ru/dlya-zhiteley/novosti-i-reportazhi/novosti_2221.html) describes a nationwide civil-defence command exercise, locally including evacuation assembly points and protective-equipment distribution. “*В современных условиях*” = “under present-day conditions”; it implements state civil-defence policy through 2030.
+
+
+## 2026-11-17 07:37 codex (catch-up)
+**Catch-up as of 7:40 a.m. Eastern, November 17:** In the sources checked, a new preparedness announcement or unexplained infrastructure failure beginning after **1:58 a.m. Eastern** is **not established either way**. A dated official announcement or incident report would settle it.
+
+| Country | Dated official guidance |
+|---|---|
+| UK | **ESTABLISHED:** [Be Ready](https://www.gov.uk/government/news/households-encouraged-to-take-small-simple-steps-to-stay-prepared-in-an-emergency), 22 October 2026, is a new campaign for disruptions such as severe weather. Advice already existed in 2024. |
+| Japan | **ESTABLISHED:** The [disaster agency’s request](https://www.bousai.go.jp/juyou/emergency_request.html), 2 November 2026, renews preparedness for major earthquakes and volcanic eruptions; household stockpile advice is older. |
+| Norway | **ESTABLISHED:** [One-week advice](https://www.regjeringen.no/en/documents/meld.-st.-9-20242025/id3082364/?ch=2) dates to 29 May **2024**. |
+| Germany | **ESTABLISHED:** The [civil protection agency](https://www.bbk.bund.de/EN/Prepare-for-disasters/Personal-Preparedness/Stockpiling/stockpiling.html) recommends ten days; its [research](https://www.bbk.bund.de/SharedDocs/Downloads/DE/Mediathek/Publikationen/FiB/FiB-22-lebensmittelversorgung.pdf?__blob=publicationFile) dates that recommendation to **2016**. |
+
+The **33-country claim** is a press compilation, not 33 new warnings. A [published list](https://en.thairath.co.th/scoop/interview/2969456) names the UK, Ireland, France, Germany, Netherlands, Denmark, Norway, Sweden, Finland, Estonia, Latvia, Lithuania, Poland, Czechia, Austria, Switzerland, Croatia, Canada, Mexico, US, Chile, Colombia, Argentina, Brazil, South Africa, Japan, Taiwan, Israel, India, Philippines, Singapore, Australia and New Zealand. Dates for every entry have not yet been checked.
+
+**REPORTED:** [New morning coverage](https://www.axios.com/newsletters/axios-am-b87057dc-2d9b-4ebf-8ed4-4887eef28291) says United’s roughly 90-minute outage happened **Monday**, and its cause remained undisclosed; United saw no indication of a cyber incident.
+
+**ESTABLISHED:** Today’s [2:20 p.m. ET broadcast alert test](https://docs.fcc.gov/public/attachments/DA-26-989A1.pdf) was announced September 16. [PJM’s grid-security drill](https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/dts/2026/20260609/20260609-item-05---pjm-grid-security-drill---june-dts-presentation.pdf) was described in June. Both are scheduled exercises.
+
+The requested Heartbeat News episode JSON could not be accessed, so its contents remain unverified.
+
+**Next thing:** Check the episode when accessible, starting with its infrastructure stories and their incident times.
+
+
+## 2026-11-17 08:37 grok
+I'll run the X early-signal desk now: local and official accounts on stockpiling, emergency stores, blackouts, and cyber drills, then report only what's new since 07:37.The first CBL sweep was noise. Next I’ll pull Dutch official and local posts, then the other assigned countries.Dutch X is mostly recycling the noodwinkel story. Next I’ll check official accounts and the rest of the assigned countries.Poland’s interior ministry posted today on shelters. I’ll check whether that’s a new move, then cover Asia, Israel, the Gulf, and any new outages.Two items may be new: a bank outage and a possible second United incident. I’ll timestamp those before deciding whether this watch round has anything to file.## X / early-signal desk — watch since 2026-11-17 07:37
+
+No new official preparedness move and no new unexplained infrastructure failure in the assigned countries.
+
+**Netherlands — recycled, not official.** No post from CBL, Albert Heijn, @Rijksoverheid or @MinBZK on noodwinkels / fase zwart. Fresh posts are copies of the 31 Oct–15 Nov Dutch press story: [Spanish recap + 15-minute-city spin](https://x.com/cathy192021/status/2122650246845018349) (11:17 GMT); [BeveiligingNieuws link](https://x.com/Zwaluw14339538/status/2122631506946408642) (10:02); [Eindhoven rap](https://x.com/anticovidiano74/status/2122644949862682954) (10:56, original clip, conspiracy frame, 4 likes). Pattern: Grok Q&A plus foreign-language copies. Not many independent local accounts.
+
+**Poland — comms recap, not a new law.** [@MSWiA_GOV_PL 08:18 GMT](https://x.com/MSWiA_GOV_PL/status/2122605364759666923) restates the 2025–2026 civil-protection spend (34bn złoty, shelter signs, GdzieSięUkryć app) and the already-planned 102bn from 2027. Same #RobimyNieGadamy thread as police/border posts. **REPORTED** as existing policy, not a new announcement.
+
+**Germany / Nordics / UK / Japan / Taiwan / SK / Israel / Gulf.** No official stockpile, drill or emergency-store posts since 07:37. @BBK_Bund last posted on Warntag in September. @GOVUK is on visas and student loans. Taiwan MND is ADIZ tracking (before 07:37).
+
+**Failures circulating today are Monday leftovers or fakes.** United’s ~90-minute outage is 16 Nov (already logged; airline still says not cyber). Chase/Wells/BoA glitch is 16 Nov, described as a software bug, fixed. UK “National Grid outage 19 Nov” is a fake graphic; National Grid has denied it. “Nov 17 blackout” is a TikTok rumor; local OEM accounts are pointing to the **already scheduled** FEMA/FCC EAS test at 14:20 ET (TV/radio only, phones off). Test has not run yet.
+
+Watch next: whether CBL or a Dutch ministry posts, and whether the 14:20 ET test runs as planned.
+
+
+## 2026-11-17 09:37 kimi
+• I’ll check official non-English channels for announcements posted after 08:37 and separate new moves from recycled coverage.
+
+• One official Chinese item was posted after the cutoff; I’m checking whether it reports a genuinely new drill or a delayed recap.
+
+• Nothing new since 2026-11-17 08:37.
+
+
+## 2026-11-17 10:37 codex
+Not established whether this is new since 09:37: Tokyo published an official notice dated Nov 17 on changes to its civil protection plan, reflecting national guidance revised in March. The notice gives no posting time. [Tokyo Metropolitan Government](https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111705)
+
+
+## 2026-11-17 11:37 grok
+I'll check X for anything new since 10:37 GMT on official and local accounts — Netherlands first, then the other assigned countries.The first pass is mostly the same Dutch recap and the still-pending US alert test. I'll look for official posts and fresh local signals after 12:00 GMT.**NOTABLE:** NSA Net, the agency’s classified internal network, is reported down. CNN published at 10:31 ET (15:31 GMT), citing six people familiar; Reuters followed at 15:42 GMT. Staff are on staggered arrivals while the scope is checked. Those sources say a cyberattack is not what they are seeing so far, and that urgent traffic to the president is unaffected while he is in the Philippines. The NSA had not confirmed the outage on the record when those stories ran. Cause is not established either way. On X this is amplification, not original reporting: [Polymarket, 16:02 GMT](https://x.com/Polymarket/status/2122721959758770549) restates CNN. [CNN](https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down) · [Reuters](https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/). **REPORTED.** Reuters also has Trump in Manila brushing off the recent run of outages: “Things like that happen.”
+
+**Japan — original official post, fuel reserves.** [@kantei, 11:46 GMT](https://x.com/kantei/status/2122657702262480896): Prime Minister Takaichi’s opening remarks at the AZEC summit (17 Nov, local time). She proposed an Asia petroleum-security task force with the IEA and ERIA, a new IEA office in Tokyo, and oil-stockpile cooperation using Japan’s idle tanks, linked to Philippine joint storage. The reason given is energy-supply risk, including disruptions on routes such as Hormuz. A [12:04 GMT post](https://x.com/kantei/status/2122662163852714158) notes the Japan–ASEAN economic-resilience statement (supply chains and an AI-security partnership). **ESTABLISHED** as today’s official remarks. The new piece is the cooperation proposal.
+
+**Netherlands — still recycled.** No post from CBL, Albert Heijn, @Rijksoverheid, or @MinBZK. Fresh copies of the same mid-November press story: [Eva Herman, 14:03 GMT](https://x.com/EvaHermanEx_ARD/status/2122692173179035830) is a German translation of [Whale News, 10:25 GMT](https://x.com/WhaleNewsDaily/status/2122637363138466108). Grok Q&A replies at 13:45 and 14:29 repeat the same CBL answer.
+
+**Rest of the desk.** No new stockpile, drill, or emergency-store posts from Germany, the Nordics, Poland (MSWiA since 11:00 GMT is border traffic, drug seizures, and a cabinet photo), the UK, Taiwan, South Korea, Israel, or the Gulf. The US EAS test is still described as upcoming at 14:20 ET. It had not run in posts through about 16:38 GMT.
+
+**Markets.** No credible source ties a Bitcoin, Brent, gold, dollar, or US-futures move to the NSA report or the Japan proposal. One trader account bundled an “NSA cyberattack” rumor with other narratives. That link is not established either way, and it does not match the CNN sourcing. Oil and gold were already weaker on supply and dollar writeups from earlier in the day.
+
+
+## 2026-11-17 12:37 kimi
+• I found one Polish government announcement dated today; I’m checking its publication time before deciding whether it falls inside this watch window.
+
+• - **Finland — national 72-hour household advice is being rewritten.** Announced **17 November**; the updated recommendation launches in **early February 2027**. It will focus less on separate blackout/water-outage checklists and more on securing basic needs in any disruption: water, food, heat, light, hygiene, health, information and psychological resilience. The existing recommendation dates from 2017. Official reason: changes in the security environment and climate require updated household guidance. Key line: **“Kansallista 72 tuntia -varautumissuositusta uudistetaan parhaillaan”** — “The national 72-hour preparedness recommendation is currently being revised.” [Original Finnish announcement](https://72tuntia.fi/uutiset/72-tuntia-varautumissuositus-uudistuu-helmikuussa-2027/). **ESTABLISHED.**
+
+  - **Finland, Sweden and Estonia — new Baltic undersea-cable repair capacity.** Announced **17 November at 12:54 GMT** (14:54 EET syndication timestamp). Finland’s National Emergency Supply Agency will lead the **Merikarhu** project: **€9.55 million EU funding**, approximately **€19 million total**, for portable repair equipment that can quickly be installed on suitable vessels. The aim is to keep at least one repair-capable vessel available when commercial equipment is unavailable or Baltic shipping is blocked. Official reason: serious disruptions, exceptional conditions and possible cable sabotage require faster restoration of electricity and communications. Key line: **“EU osarahoittaa siirrettävää korjauskalustoa”** — “The EU is co-funding transportable repair equipment.” [Original Finnish government-agency announcement](https://www.huoltovarmuuskeskus.fi/a/suomi-ruotsi-ja-viro-vahvistavat-merikaapelien-korjauskykya-itamerella-eu-rahoittaa-lahes-10-miljoonalla-eurolla). **ESTABLISHED.**
+
+
+## 2026-11-17 13:37 codex
+- **Poland — rural community preparedness training:** The Agriculture Ministry says a nationwide series of 49 trainings is underway, covering food safety, crisis response, and community readiness for severe weather, power cuts, and conflict. 33 had taken place; the rest were planned by mid-December. The official page is dated **17 November**, but gives no publication time, so whether it appeared after **12:37 UTC** is **not established either way**. [Ministry announcement](https://www.gov.pl/web/rolnictwo/zdrowie-bezpieczenstwo-i-przygotowanie-na-sytuacje-kryzysowe-w-calej-polsce-trwa-49-szkolen-dla-kgw) — **ESTABLISHED**.
+
+
+## 2026-11-17 14:37 grok
+I'll sweep X for posts after 13:37 UTC on this watch window, starting with the Netherlands then the rest of the assigned countries.The first sweep mixed noise with a few Dutch noodwinkel posts. Next I’ll query official accounts and the rest of the assigned countries after 13:37 UTC.Equinor and Finland’s FI-Alert are the two live threads. I’ll pull official posts and timestamps next.## X desk — watch since 2026-11-17 13:37 UTC (~19:40 UTC)
+
+**NOTABLE: Norway — Equinor confirmed an ongoing IT cyber-attack, 17:55 UTC (18:55 CET).** Official line: attack on certain IT systems; no data theft indicated; operations and production unaffected; authorities informed. PST told NRK it is aware and will help if needed. [Equinor statement](https://www.equinor.com/news/20261711-equinor-detected-cyber-attack) — **ESTABLISHED.** Viral posts are folding this into the recycled “17 November global blackout” story. That wider link is **not established either way**; Equinor has not named an actor or a campaign.
+
+**Finland — real local pattern (original).** Interior Ministry posted at **13:33 UTC** (4 min before cutoff) that the first nationwide **FI-Alert** test ran today: the system works, gaps showed up. After 13:37 many independent Finnish accounts reported missed SMS, Sami-language messages crowding the feed, and Doro-phone failures. Official post: [Sisäministeriö](https://x.com/Sisaministerio/status/2122684668172505214). **ESTABLISHED** test; the complaint thread is original, not recycled.
+
+**Netherlands — recycled, not a new official wave.** After 13:37: nothing from CBL, Albert Heijn, Rijksoverheid, NCTV or Denk Vooruit. Noodwinkel posts are Grok replies, [@Eindtijdnieuws 18:05](https://x.com/Eindtijdnieuws/status/2122752895414390934) recycling the Oct/Nov CBL “fase zwart” story, and a low-reach Polish-NL account restating it. Pattern: recycled viral.
+
+**Germany — recycled rumor, locals mocking it.** [@Snow26 16:24](https://x.com/Snow26/status/2122727580008661244) repeated “worldwide 72-hour standstill from 17 Nov.” Later original German posts joke the lights are still on. BBK/BMI silent in this window.
+
+**UK / Poland / Japan / Taiwan / South Korea / Israel / Gulf:** no official household-stockpile or emergency-store posts after 13:37. Poland’s KGW training post was **12:52** (already logged). India MEA at 17:12: Quad partners observing **Exercise Sahayata Setu** (HADR 2026) — [post](https://x.com/MEAIndia/status/2122739546056282536). **ESTABLISHED** disaster-response drill; Japan is a Quad partner; not a new household-prep order.
+
+**Markets:** A Polish roundup at 18:52 cited Brent **above $93** after a fourth tanker hit a mine near Hormuz, gold ~**$3,860**, US indexes at multi-month lows ahead of Nvidia. Equinor production is unaffected; any oil move from that cyber notice is **timing lines up, cause not established either way**.
+
+
+## 2026-11-17 15:37 kimi
+• Nothing new since 2026-11-17 14:37 UTC.
+
+
+## 2026-11-17 16:37 codex
+NOTABLE: **United States — NSA internal classified network outage**, reported by AP at 19:42 UTC, after the 15:37 cutoff. NSA described temporary disruption during scheduled maintenance; mission critical capabilities remained operational. The cause and scope were not detailed, and a cyberattack has not been established. [AP report](https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526) — **REPORTED**.
+
+
+## 2026-11-17 17:37 grok
+I'll check X for anything new since 16:37 UTC on official and local accounts in the assigned countries.The Dutch hits so far are the same recycled CBL thread. I'll check official accounts and any new outage reports after 16:37 UTC.Apple services and a possible pipeline post are the only fresh signals. I'll check whether either is a real, sourced event.**NOTABLE: Gulf — Houthis claim five drones at two East-West pipeline pumping stations near Riyadh.** Reuters, 18:20 UTC. No immediate Saudi confirmation. Damage, fires, and any halt to exports are not established either way. A Saudi energy or defense statement would settle it. The line is the Hormuz bypass, about 4 million barrels a day to Yanbu. This is a new dated claim, separate from the 12 November claim. Original Reuters copy, not a recycled meme. [Reuters](https://www.reuters.com/world/middle-east/yemens-houthis-say-they-launched-drones-towards-saudi-east-west-pipeline-2026-11-17/), [post 18:30 UTC](https://x.com/Reuters/status/2122759332366291026). **REPORTED.**
+
+**United States — nationwide Emergency Alert System test finished.** FEMA at 22:36 UTC: the test is complete, the next one is in three years, and claims that it failed or that FEMA was hacked are false. FEMA and the FCC will review results. Original official thread. [FEMA](https://x.com/fema/status/2122821194294693901). **ESTABLISHED** test and denial. It was a radio/TV alert test, not a power cut.
+
+**United States — Apple Pay, iCloud, and App Store disruption.** User reports from about 17:45 UTC. Apple told reporters an internal update caused the morning outages and that many systems were back. UPI, citing 9to5Mac, says Apple ruled out a cyberattack. Google said it sees no broad Gmail outage. [Guardian](https://www.theguardian.com/technology/2026/nov/17/gmail-apple-outage-major-disruption). **REPORTED.** A link to the NSA or Equinor notices is not established either way.
+
+**Assigned-country prep accounts:** no new official stockpile, emergency-store, or blackout-drill posts after 16:37 from Dutch CBL, Albert Heijn, Rijksoverheid, or NCTV, or from Germany, the Nordics, Poland, the UK, Japan, Taiwan, South Korea, Israel, or Gulf civil agencies. Dutch traffic is still recycled: more Grok replies restating the older CBL “fase zwart” plan ([22:06 UTC](https://x.com/grok/status/2122813659709649120)). Rijkswaterstaat’s 17:51 “noodvoorraad wc-papier” post is a highway spill joke, not a reserve.
+
+**Markets:** no new sourced price print beyond the roundup already logged. A tie between this pipeline claim and any further oil move is not established either way.
+
+
+## 2026-11-17 18:37 kimi
+• I’ll check the native-language official channels for announcements posted after 17:37 UTC.
+
+• Nothing new since 2026-11-17 17:37 UTC.
+
+
+## 2026-11-17 19:37 codex
+Nothing new since 2026-11-17 18:37 UTC.
+
+
+## 2026-11-17 20:37 grok
+I'll sweep X for official and local posts after 19:37 UTC, starting with the Netherlands, then the rest of the assigned countries.Official-account hits so far are old or already logged. I'll search Asia, Israel, the Gulf, and any fresh outage or market posts after 19:37 UTC.Saudi cabinet and NSA outage posts landed after 19:37. I'll verify whether they're original, then check official agency accounts and markets.Saudi cabinet and a coalition intercept claim both posted after 19:37. I'll pull the official SPA posts and check whether assigned-country agencies posted anything new.**NOTABLE: Bahrain — two live civil-alert cycles after 19:37 UTC.** Interior Ministry posted a potential-threat alert at 23:06 UTC ([post](https://x.com/moi_bahrain/status/2122828773381021809)), all-clear at 00:04 ([post](https://x.com/moi_bahrain/status/2122843392669323418)), a second threat alert at 00:48 ([post](https://x.com/moi_bahrain/status/2122854449018486801)), and all-clear at 01:11 ([post](https://x.com/moi_bahrain/status/2122860141875781924)). Original official posts, same wording as a morning cycle already on the record. Bahrain News Agency at 01:07 UTC: Defence Force air defences intercepted Iranian attacks ([BNA](https://x.com/bna_ar/status/2122859129425551619)). **ESTABLISHED** alerts and intercept claim. Ground damage is not established either way; a BDF or MoI damage bulletin would settle it. Al Jazeera’s live blog also says Kuwait is intercepting hostile drones ([AJ](https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks?update=5162726)). **REPORTED.** A Kuwait official post would settle that line.
+
+**Gulf — Houthi pipeline follow-up.** Saudi Gazette, 20:22 UTC: the coalition intercepted and destroyed a Houthi drone in the Riyadh region ([Gazette](https://x.com/Saudi_Gazette/status/2122787591074320634)). Original press copy of a coalition line. Hits, fires, or a halt on the East-West line remain not established either way. A Saudi energy statement would settle it.
+
+**Saudi Arabia — cabinet implements older GCC health-prep decisions.** SPA, 22:00 UTC: cabinet applies two Supreme Council decisions from the 41st GCC session at AlUla (2021): a GCC public-health emergency preparedness and response framework, and an early-warning health-system guide ([SPA](https://x.com/spagov/status/2122812045363912819)). Original official. **ESTABLISHED** as today’s implementation of a 2021 GCC file. It is health preparedness, not food stores or blackout drills.
+
+**Assigned-country prep accounts:** no new official stockpile, emergency-store, or blackout-drill posts after 19:37 from Dutch CBL, Albert Heijn, Rijksoverheid, or NCTV, or from Germany, Nordics/Baltics, Poland, UK, Japan, Taiwan, South Korea, or Israel. Dutch CBL “fase zwart” traffic is still recycled Grok restatements ([20:47](https://x.com/grok/status/2122793683820941465), [21:00](https://x.com/grok/status/2122796948344246424), [22:06](https://x.com/grok/status/2122813659709649120)). Viral outage-list posts (Apple, NSA, Equinor in one chain) are recycled compilations, not new official notices.
+
+**Markets:** Reuters at 01:30 UTC ties the US slide and futures bounce to tech/Nvidia, not Gulf alerts ([ReutersBiz](https://x.com/ReutersBiz/status/2122864870660125098)). A tie from Bahrain/pipeline headlines to oil, gold, Bitcoin, or DXY is not established either way.
+
+
+## 2026-11-17 21:37 kimi
+• Nothing new since 2026-11-17 20:37 UTC.
+
+
+## 2026-11-17 22:37 codex
+Nothing new since 2026-11-17 21:37 UTC.
+
+
+## 2026-11-17 23:37 grok
+I'll check X for preparedness posts and infrastructure alerts newer than 22:37 UTC on 17 November, starting with the Netherlands and the other assigned countries.Dutch noodwinkel posts on X stop at 22:06 UTC, already in the notes. I'll check official accounts and the other countries for anything after 22:37 UTC.**NOTABLE:** The Coalition spokesman, Turki al-Maliki, posted at 04:19 UTC on 18 November that air defenses intercepted and destroyed a Houthi cruise missile aimed at the Riyadh region ([@CJFCSpox](https://x.com/CJFCSpox/status/2122907534361268650)). This is an original official post. Al Arabiya at 04:20, Al Hadath, and others copy the same line. **ESTABLISHED** as an intercept claim. A hit, fire, or halt on the East-West pipeline is not established either way. A Saudi energy or civil-defense damage note would settle it.
+
+The same account at 00:42 UTC said the Coalition destroyed 60 military targets in Sanaa, Hodeidah, Amran, and Saada, including tunnels and drone workshops ([post](https://x.com/CJFCSpox/status/2122852774375198750)). This is an original official post. KUNA English at 02:22 and Saudi papers around 04:31 repeat it. It is not a food, fuel, or power failure.
+
+No new official stockpile, emergency-store, or blackout-drill posts appeared after 22:37 UTC from the assigned-country accounts: Dutch CBL, Albert Heijn, Rijksoverheid, or NCTV, or from Germany, the Nordics and Baltics, Poland, the UK, Japan, Taiwan, South Korea civil defense, or Israel. Dutch "fase zwart" traffic on X is still the Grok restatement at 22:06, already on the record.
+
+South Korea's Foreign Ministry at 04:19 UTC said a nationwide emergency-text tone will sound on college-exam day, 10.5 seconds at at least 40 dB, to check that students handed in devices ([@mofa_kr](https://x.com/mofa_kr/status/2122907505257013736)). This is an original official post. It is exam control, not a blackout or civil-defense drill.
+
+No new wire post after the 01:30 UTC Reuters note ties oil, gold, Bitcoin, or the dollar to these alerts. A price link is not established either way.
+
+
+## 2026-11-18 00:37 kimi
+• I’ll check the assigned official non-English channels for anything posted after the cutoff.
+
+• Nothing new since 2026-11-17 23:37 UTC.
+
+
+## 2026-11-18 01:37 codex
+Nothing new since 2026-11-18 00:37 UTC.
+
+
+## 2026-11-18 08:37 grok (catch-up)
+I'll catch up from the 01:37 UTC cutoff: today's Heartbeat episode first, then X for preparedness posts and infrastructure alerts in the assigned countries.The episode is in. Next I’ll pull preparedness and outage lines from it, then check X for posts after 01:37 UTC.**NOTABLE:** The Saudi-led coalition spokesman posted again at 09:04 UTC that air defenses destroyed a Houthi cruise missile aimed at the Riyadh region ([@CJFCSpox](https://x.com/CJFCSpox/status/2122979306137894997)). This is a second original post, with its own graphic, five hours after the 04:19 UTC intercept already on the record. Arab News, updated 12:19 UTC, reads them as two missiles and says Saudi civil defense warned of a possible aerial threat in Jazan ([Arab News](https://www.arabnews.com/saudi-arabia/coalition-destroys-houthi-missile-launched-toward-riyadh-3012641)). Around 10:52–10:55 UTC, press accounts said sirens sounded in Najran and Khamis Mushait; one added Jazan ([El Bilad](https://x.com/El_Bilade/status/2123006344500547609), [El Balad](https://www.elbalad.news/7185223)). **REPORTED.** One account claimed a missile hit Riyadh and blasts in Najran and Khamis Mushait ([post](https://x.com/Abbas__Safa/status/2123028400801477097)). **CLAIMED.** A hit, fire, or halt is not established either way. A Saudi civil-defense all-clear or damage note would settle it.
+
+**Preparedness, since 01:37 UTC.** No new official stockpile, emergency-store, blackout-drill, or shelter post from Dutch CBL, Albert Heijn (customer-service replies only), Rijksoverheid, NCTV, Germany’s BMI or BBK, Nordic or Baltic crisis accounts, Poland’s RCB, UK NCSC or GOV.UK, Japan’s Cabinet, Taiwan’s Foreign Ministry, South Korea’s Foreign Ministry, or Israel’s Home Front. Posts from those accounts were about other business: Japan’s Cabinet arrived in Shenzhen, Taiwan’s Foreign Ministry posted on APEC, the IDF posted a Hezbollah tunnel clip, GOV.UK posted flight-delay rights, and NATO marked Latvia’s independence day.
+
+Dutch “noodpakket” posts today are a prepper shop and a handful of personal accounts. One account said Germany’s government had promised a blackout for 18 November and that nothing happened ([post](https://x.com/IdrisFremen/status/2123045337078358394)). A government order for that date is not established either way. A BBK or BMI notice would settle it. A long “prep signals” thread restates older advice (UK 72 hours, EU 72 hours, Germany 10 days). That is a recycled roundup, not a fresh local pattern with official follow-up.
+
+**Infrastructure.** No cluster of local accounts reported a new unexplained power or cyber failure in the assigned countries. NSA and Apple outage posts this morning repeat Tuesday’s lines. Whether NSANet is fully back is not established either way from a new official post. Kuwait, Bahrain, and Qeshm lines on X copy wires already in today’s Heartbeat episode. CENTCOM’s last original post in this search is still Tuesday’s Bahrain intercept denial.
+
+**Markets.** Reuters at 08:33 UTC: most Gulf bourses fell in early trade after the intercepts and the Qeshm strike. Saudi Tadawul was down 0.31%. Reuters ties that equity drop to the hostilities ([Reuters](https://www.reuters.com/world/middle-east/most-gulf-bourses-fall-us-iran-hostilities-escalate-2026-11-18/)). Brent was down 1.6% at $91.69 and WTI down 2.3% at $84.06. Reuters gives rising US crude and fuel stockpiles as the reason oil fell, and says the attacks and the Hormuz disruption limited the losses. A source that names these alerts as the cause of the oil drop is not in this pass. No wire here ties Bitcoin, gold, or the dollar index to them.
+
+
+## 2026-11-18 09:37 kimi
+• NOTABLE: **Norway — Equinor cyberattack update — ESTABLISHED.** At **09:47 CET / 08:47 UTC**, after the cutoff, Equinor said it better understood how the attack was carried out and which systems were affected. Key line: *“Dette er ikke et virusangrep … Produksjonen er ikke påvirket.”* Translation: **“This is not a virus attack … Production is not affected.”** Equinor says there is no spreading risk and no current indication of consequences for employees, partners or suppliers. Work to neutralise the attack and restore the affected systems continues with national security authorities. No production failure is reported. The attacker, entry method and affected systems are not established either way publicly; a detailed Equinor or Norwegian security-authority follow-up would settle them. [Official Norwegian source](https://www.equinor.com/no/nyheter/20261711-equinor-har-avdekket-cyberangrep).
+
+
+## 2026-11-18 10:37 codex
+Nothing new since 2026-11-18 09:37.
+
+
+## 2026-11-18 11:37 grok
+I'll check X for preparedness and infrastructure posts after 10:37 UTC on 18 November, starting with the Netherlands and the other assigned countries.The first pass is mostly recycled Equinor lines and off-topic hits. I'll narrow to official and local accounts in the assigned countries.NOTABLE: **Saudi Arabia — Sharurah siren, then all-clear — ESTABLISHED.** Original posts from @SaudiDCD. At **15:55 UTC** the National Early Warning Platform warned of danger in Sharurah Governorate ([warning](https://x.com/SaudiDCD/status/2123082690903835076)). At **16:01 UTC** Civil Defense said the danger had passed and told people not to gather or film ([all-clear](https://x.com/SaudiDCD/status/2123084209443000649)). About six minutes. This is a later cycle than this morning’s Jazan, Najran and Khamis Mushait all-clear. The official posts do not name the threat. A coalition note that names Sharurah would settle the cause.
+
+Posts from about **16:23 UTC** onward (“Saudi media: alarm in Sharurah”) copy one line and skip the all-clear. Recycled, not a second official alert. Claims of ongoing missile and drone waves on Sharurah and Riyadh are **CLAIMED** on non-official accounts. A King Khalid Airport stop is also **CLAIMED** (aggregators only). Not established either way. A GACA, airport, or coalition post would settle it. @SaudiDCD has no Riyadh alert in this window.
+
+**Poland — scheduled flare test — ESTABLISHED.** @RCB_RP at **14:07 UTC**: illumination rounds today **16:00–18:30 local (15:00–17:30 UTC)** over Warsaw, Marki, Zielonka, Kobyłka, Wołomin and Legionowo. They can look like a slow aircraft or a large drone ([RCB](https://x.com/RCB_RP/status/2123055575110144119)). Gazeta.pl names planned Mithras-1000 tests by the Military Institute of Armament Technology and says residents are not in danger. Not an incident.
+
+**No new preparedness move** on this desk since 10:37 UTC. No fresh CBL, Albert Heijn, Dutch government, BBK/BMI, Nordic, Baltic, UK, Japan, Taiwan, South Korea or Israel stockpile, emergency-store, or blackout-drill post. A Chinese recap of Dutch backup supermarkets repeats the old story and says the government has not decided. Equinor lines restate the morning update (not a virus, production unaffected). No new Equinor post. No new unexplained power or cyber failure in the assigned countries.
+
+
+## 2026-11-18 12:37 kimi
+• Nothing new since 2026-11-18 11:37.
+
+
+## 2026-11-18 13:37 codex
+Nothing new since 2026-11-18 12:37.
+
+
+## 2026-11-18 14:37 grok
+I'll check X for anything new since 13:37 UTC on 18 November, starting with official accounts in the assigned countries.The Sharurah all-clear is already on the record. I'm checking whether the new Riyadh explosion lines are official or another copy-paste wave.The Riyadh “AFP” lines are spreading without an AFP post. I’ll confirm the coalition drone statement and scan official accounts for anything newer.No new preparedness post since 13:37 UTC from CBL, Albert Heijn, the Dutch government, BBK/BMI, Nordic or Baltic agencies, Poland’s RCB, the UK, Japan, Taiwan, South Korea, or Israel. No new @SaudiDCD alert after the 16:01 UTC Sharurah all-clear. Equinor posts still restate the morning update. A Kuwait “siren” clip is an old personal video, not a new alert. Saudi orange alerts since 18:54 UTC are weather (Bahra, Makkah), from @NCMAlert.
+
+**Saudi Arabia — Sharurah cause now reported. Same incident.** REPORTED. @Saudi_Gazette at 16:09 UTC: the coalition says it intercepted and destroyed two drones the Houthis launched toward the Riyadh and southern regions ([post](https://x.com/Saudi_Gazette/status/2123086195928220088)). Qatar News Agency carried the same line at 19:16 UTC ([QNA](https://x.com/QNAEnglish/status/2123133325145452809)). Timing lines up with the already-logged Sharurah warning (15:55) and all-clear (16:01). The line does not name Sharurah. @spagov has not posted it. Arabic accounts from about 18:28 UTC copy that one sentence. Those are recycled, not a second intercept.
+
+**Riyadh “AFP explosion” line — CLAIMED, recycled.** From about 19:33 UTC, Almasirah, Saba Net, and many small accounts paste one sentence: AFP, citing witnesses, says a strong explosion hit Riyadh this afternoon with no prior siren, and smoke was seen near the airport ([Almasirah](https://x.com/Almasirah_YE/status/2123137887587983612)). @AFP and @afpfr have no such post in this window. @SaudiDCD has no new Riyadh alert. Not established either way. An AFP story, or a Saudi Civil Defense or GACA post, would settle it.
+
+
+## 2026-11-18 15:37 kimi
+• I’ll check official non-English sources and credible local reporting for posts newer than 14:37 UTC.
+
+• Nothing new since 2026-11-18 14:37.
+
+
+## 2026-11-18 16:37 codex
+Nothing new since 2026-11-18 15:37 UTC.
+
+
+## 2026-11-18 17:37 grok
+I'll check X for anything new since 16:37 UTC on 18 November, starting with official accounts in the assigned countries and the Gulf alerts already on the record.Saudi Civil Defense posted new Abha and Khamis Mushait alerts after 16:37 UTC. I’m checking whether those, the missile lines, and the Riyadh explosion cite are new or recycled.**NOTABLE:** Saudi Civil Defense ran a new alert cycle in Abha and Khamis Mushait, then cleared both. These are original official posts.
+
+* 21:49 UTC, Abha warning. 21:55 UTC, all-clear. [Warning](https://x.com/SaudiDCD/status/2123171835797754143), [all-clear](https://x.com/SaudiDCD/status/2123173260749680776).
+* 21:50 UTC, Khamis Mushait warning. 21:55 UTC, all-clear. [Warning](https://x.com/SaudiDCD/status/2123172005851910177), [all-clear](https://x.com/SaudiDCD/status/2123173395252511101).
+
+No further @SaudiDCD alert after those all-clears.
+
+**Southern ballistic missile. ESTABLISHED.** At 22:35 UTC, @Spa_Eng (Saudi Press Agency) posted that the coalition intercepted and destroyed a Houthi ballistic missile toward the southern region ([post](https://x.com/Spa_Eng/status/2123183361405640918)). Al Arabiya English carried the same line at 22:05 and 22:25 UTC ([post](https://x.com/AlArabiya_Eng/status/2123180820282167450)). Saudi Gazette at 22:11 UTC used the same wording ([post](https://x.com/Saudi_Gazette/status/2123177190200336800)). The Gazette video file is an older asset. The statement matches SPA. This is separate from today’s earlier cruise-missile posts (SPA at 05:03 and 09:28 UTC) and the logged drone intercept. Timing lines up with the Abha and Khamis Mushait alerts. SPA does not name those cities.
+
+**Riyadh explosion. Now REPORTED.** Gulf News, AFP byline, updated 21:32 UTC: an AFP journalist said doors swung open and the lights briefly went out. Residents reported smoke near the airport and no prior phone alert ([Gulf News](https://gulfnews.com/world/gulf/saudi/explosion-heard-in-saudi-capital-missiles-intercepted-1.500751575)). NST posted that headline at 22:33 UTC ([post](https://x.com/NST_Online/status/2123182935431889235)). @AFP still has no post on X in this window. A Saudi Civil Defense or GACA note would settle whether the smoke was at the airport. The light loss is one home, not a reported grid failure.
+
+No new preparedness post since 16:37 UTC from CBL, Albert Heijn, the Dutch government, BBK/BMI, Nordic or Baltic agencies, Poland’s RCB, the UK, Japan, Taiwan, South Korea, or Israel.
+
+@NCMAlert orange alerts at 22:27 and 22:35 UTC are weather for Medina, the same type as the earlier Bahra and Makkah alerts ([post](https://x.com/NCMAlert/status/2123183380980273493)).
+
+The “17 bunkers” posts tonight point to a Fox story about a US Army notice posted Friday. That is recirculated, not a new announcement in this window.
+
+No new unexplained power or cyber failure in the assigned countries.
+
+
+## 2026-11-18 18:37 kimi
+• I’ll check the assigned official non-English channels for announcements after 17:37 UTC, then report only genuinely new items.
+
+• Nothing new since 2026-11-18 17:37 UTC.
+
+
+## 2026-11-18 20:37 grok
+I'll check official and local X accounts for preparedness posts and unexplained outages after 18:37 UTC on 18 November 2026.The broad search is mostly noise. I’ll check official accounts in the assigned countries for posts after 18:37 UTC.**South Korea. Nationwide emergency text. REPORTED.** At 23:30 UTC (08:30 KST), the Interior and Safety Ministry sent a national emergency alert, a 10.5-second tone, to catch phones inside CSAT exam halls. Yonhap says this is the first time that channel has been used to stop exam cheating. Original wire post, 23:33 UTC: [Yonhap](https://x.com/yonhaptweet/status/2123197965104017854), [article](https://www.yna.co.kr/view/AKR20261119024300530).
+
+Posts that some people never got the tone come from online communities. The ministry told Yonhap there is no confirmed missed delivery (01:38 UTC): [Yonhap](https://x.com/yonhaptweet/status/2123229335318630508). It also said more unannounced emergency texts may go out during the exam. A ministry record of a failed handset would settle the miss claims.
+
+**Japan. Quake response. ESTABLISHED.** The quake was at 17:22 UTC. New since the cutoff is FDMA report 4 at 00:36 UTC: Kumamoto Amakusa-Ashikita, intensity 5-lower, no tsunami, no casualty reports as of 00:00 UTC. Evacuation orders cover 11,885 households / 23,254 people. Cause is the quake. The report lists no power or cyber failure. [FDMA](https://x.com/FDMA_JAPAN/status/2123213787360825706).
+
+**Gulf.** No new @SaudiDCD alert. SPA at 23:12 and 23:14 UTC said the coalition destroyed the launcher in Saada used in the already-logged southern intercept: [23:12](https://x.com/Spa_Eng/status/2123192762761658779), [23:14](https://x.com/Spa_Eng/status/2123193048540606721). KUNA English repeated that intercept at 23:37 UTC. @NCMAlert items after 00:13 UTC are yellow weather for Medina, Al Hanakiyah, and Rabigh.
+
+No new preparedness post from CBL, Albert Heijn, the Dutch government, BBK/BMI, Nordic or Baltic agencies, Poland’s RCB, the UK, Taiwan, or Israel. No new unexplained power or cyber failure in the assigned countries.
+
+
+## 2026-11-18 21:37 kimi
+• I’m checking official native-language channels for the six-hour window only.
+
+• Nothing new since 2026-11-18 20:37 UTC.
+
+
+## 2026-11-18 23:37 grok
+I'll check official and local X accounts for preparedness posts and unexplained outages after 21:37 UTC on 18 November 2026.Two Korean wires and two Saudi posts look newer than the last check. I'll read those and sweep the other official accounts.**NOTABLE: Saudi Arabia. Civil-defense alerts, then a Riyadh missile claim. ESTABLISHED.** Original posts from the official accounts, not a recycled viral thread. @SaudiDCD fired the national early-warning platform for Riyadh at 01:43 UTC and lifted it at 01:49 UTC. The same account warned Wadi Al Dawasir and As Sulayyil at 02:47 UTC and cleared both by 02:53 UTC. SPA at 03:47 UTC said a Houthi missile toward Riyadh was addressed and that falling debris and property damage were still being assessed: [SPA](https://x.com/Spa_Eng/status/2123261887446122896). KUNA English repeated the Riyadh claim at 03:38 UTC. Alerts: [Riyadh warning](https://x.com/SaudiDCD/status/2123230573837910285), [Riyadh all-clear](https://x.com/SaudiDCD/status/2123232057790771265), [Wadi warning](https://x.com/SaudiDCD/status/2123246673161768998), [Sulayyil warning](https://x.com/SaudiDCD/status/2123246840275689578). How much was damaged is not established either way. A civil-defense or SPA damage tally would settle it.
+
+SPA at 04:07 UTC also said a cruise missile toward the southern region was intercepted: [SPA](https://x.com/Spa_Eng/status/2123266862201164001). Whether that is a second missile or a restatement of the intercept already logged is not established either way.
+
+**South Korea. Second nationwide emergency text scheduled. REPORTED.** The Education Ministry told Yonhap the second alert will go at 14:21 KST (05:21 UTC), just after period 3, to catch phones in CSAT halls. The same reason as the 08:30 KST text. It also said the first text caught 22 people in 9 cities who had not handed in phones. Original wire, 04:18 UTC: [Yonhap](https://x.com/yonhaptweet/status/2123269721344901398), [article](https://www.yna.co.kr/view/AKR20261119089800530). As of 04:33 UTC the send was still ahead. A ministry or carrier record after 05:21 UTC would confirm it went out.
+
+**South Korea. KISA software notice. REPORTED.** Yonhap at 04:11 UTC said KISA urged organizations to update NGINX after critical flaws were reported. This is a patch advisory, not an outage or a drill. [Yonhap](https://x.com/yonhaptweet/status/2123267976279564371).
+
+No new preparedness post from CBL, Albert Heijn, the Dutch government, BBK/BMI, Nordic or Baltic agencies, Poland’s RCB, the UK, Taiwan, or Israel. No new Japan quake report after FDMA report 4. No new unexplained power or cyber failure in the assigned countries.
+
+
+## 2026-11-19 00:37 kimi
+• I’ll check the latest official posts and local-language reporting, counting only developments after the cutoff.
+
+• The first sweep surfaced no qualifying new item. I’m checking the regional official news feeds once more so older advisories are not mistaken for fresh moves.
+
+• Two Swedish outages and several official East Asian preparedness items qualify. I’m checking for follow-up confirmation of South Korea’s scheduled alert and any cause update for the Swedish outage before reporting.
+
+• **New since 2026-11-18 23:37 UTC**
+
+  - **NOTABLE: Sweden — Norrköping power outage. REPORTED.** At 03:26 CET (02:26 UTC), 11,487 households lost power; NT reports electricity subsequently returned. “Ett större strömavbrott … har drabbat 11 487 hushåll” = “A major power outage … affected 11,487 households.” [NT](https://www.nt.se/nyheter/norrkopings-kommun/artikel/stort-stromavbrott-under-natten-over-tiotusentals-drabbade/rkywq2ej), [timing/E.ON data](https://avbrott.se/nyheter/stromavbrott-norrkoping-2026-11-19), [GlobalConnect CS7897873](https://globalconnect.se/driftinformation/). Root cause not established either way; E.ON’s incident report would settle it.
+
+  - **Sweden — Gävle network outage. ESTABLISHED.** Multi-customer outage began 04:08 CET (03:08 UTC). “Felorsak: För närvarande okänd” = “Cause of fault: currently unknown.” A technician was dispatched at 04:17 CET. [GlobalConnect CS7897939](https://globalconnect.se/driftinformation/). A provider incident update would establish the cause.
+
+  - **China — Guangzhou unannounced environmental-emergency drill. ESTABLISHED.** Announced 09:06 CST (01:06 UTC). City monitoring teams exercised without advance warning to test emergency response and technical capability. “不预设演练脚本、不预先通知任务、不提前告知时间地点” = “No preset script, no advance task notice, and no advance disclosure of time or location.” [Guangzhou Ecology and Environment Bureau](http://sthjj.gz.gov.cn/gkmlpt/content/11/11109/post_11109619.html).
+
+  - **China — Shaanxi coordinated forest-fire drills. REPORTED.** Reported 10:26 CST (02:26 UTC), citing Xizhaochuan township government. “全镇各村社同步组织开展森林防灭火演练” = “All villages and communities simultaneously organized forest-fire-response drills.” [Huanqiu via NetEase](https://m.163.com/dy/article/LC3ECL4I0514R9OJ.html).
+
+  - **South Korea — avian-influenza coordination expanded. ESTABLISHED.** Announced 12:00 KST (03:00 UTC). Following nine outbreaks, disaster-management agencies joined disease-control officials and local governments in response checks. “재난관리부서 등 관계부서까지 참석 대상을 확대” = “Participation was expanded to disaster-management and related agencies.” [MOIS](https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=131077).
+
+  - **South Korea — cold-wave shelter guidance distributed. ESTABLISHED.** Announced 12:00 KST (03:00 UTC). “한파 대비 쉼터, 피해저감시설 등 우수사례집을 각 지방정부와 관계기관에 배포” = “Distributed a best-practice guide on cold-wave shelters and mitigation facilities to local governments and related agencies.” [MOIS](https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=131087).
+
+
+## 2026-11-19 06:37 grok (catch-up)
+I'll catch up from today's Heartbeat episode and the overnight window, then check official and local X accounts for fresh preparedness or outage signals.**X early-signal, since 00:37 UTC 19 Nov.** Two official items are new. The Dutch noodwinkel posts are still the old story.
+
+NOTABLE: European Commission cyber campaign, first carried by Politico (~05:26 UTC) and Reuters (08:03 UTC). Staff HR tools (Sysper payslips and leave, MyPMO medical claims) were down about 10 days. Spokesperson Thomas Regnier: the Commission “has taken the necessary steps” after a detected campaign, “individual systems were targeted,” and the people affected were told. An EU official told Politico that CERT-EU found use of ARTEX, a public AI penetration-testing tool, and that most of the attack is believed contained. Whether personal data was taken is not established either way. A CERT-EU or Commission note would settle scale and attribution. @EU_Commission has not posted it. Morning X (CGTN, Czech Radio, Belgian Trends) repeats the wire. Recycled coverage, not local sightings. [Politico](https://www.politico.eu/newsletter/brussels-playbook/cyberattack-hits-the-commission/), [Reuters](https://www.reuters.com/legal/litigation/eu-commission-targeted-cyberattack-politico-reports-2026-11-19/).
+
+**Germany — ESTABLISHED, original.** @BMI_Bund, 10:11 UTC: the BSI annual report finds the IT-security situation tighter. Reuters, 09:08 UTC: the threat rating moved from “tense” to “tense to critical” (last year: “tense”), with agentic AI cited as giving attackers more openings. Interior minister Dobrindt, at the Berlin presentation, said the answer is a large cybersecurity package with new powers. That is his statement. A published bill would show it is law. [post](https://x.com/BMI_Bund/status/2123358492752797697), [release](https://www.bmi.bund.de/SharedDocs/pressemitteilungen/DE/2026/11/bsi-lagebericht.html), [Reuters](https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/).
+
+**Poland — ESTABLISHED, original.** @RCB_RP, 06:19 UTC: siren exercise today 09:00–11:00 local in Radzyń county, Lublin. The text says “ĆWICZENIA” (exercise) and “stay calm.” Pre-announced local drill, not a national alert. A 09:07 UTC RCB post is routine messenger-fraud advice. [drill](https://x.com/RCB_RP/status/2123300153545171196).
+
+**Netherlands — recycled.** @DoradcyNL at 09:44 UTC (4 views) restates the 15 Nov CBL “fase zwart” noodwinkel plan and the older 72-hour Denk vooruit advice. No new post from CBL, Albert Heijn, or the government. Albert Heijn’s 18 Nov post is a customer-service reply. [post](https://x.com/DoradcyNL/status/2123351790275994079).
+
+**UK.** @NCSC at 11:34 UTC posted standing data-breach advice. Original. It does not name the Commission incident, so a link is not established either way. The “National Grid blackout on 19 Nov” claim was denied by National Grid on 16 Nov. Still a false viral. [NCSC](https://x.com/NCSC/status/2123379460506292402), [Metro](https://metro.co.uk/2026/11/16/national-grid-forced-deny-rumour-of-a-nationwide-power-outage-november-19-29795537/).
+
+**Japan.** @FDMA_JAPAN today: autumn awards, and a note on yesterday’s mayors’ seminar about heavy-rain warnings. Original. Not a new stockpile order.
+
+**Nordics, Baltics, Taiwan, Korea, Israel, Gulf.** No fresh official stockpile, store, or blackout-drill posts in this sweep. No new UKMTO warning after last night’s 212-26. No official X cause for the Norrköping or Gävle outages already on the wire. Korea’s cold-wave shelter note and avian-flu coordination are the MOIS items already logged.
+
+**Markets.** A Thursday roundup citing Reuters and the IEA has Brent near $92 and flat, a third weekly fall, with supply above demand given as the reason. Bitcoin near $63,800, up about 1% with stock futures. The dollar index touched about 104 overnight. Timing lines up with the Gulf and the Fed minutes. A single-cause link beyond those outlets’ own reasons is not established either way.
+
+
+## 2026-11-19 07:37 kimi
+• I’ll check fresh official posts in the assigned languages and report only items not already covered.
+
+• Nothing new since 2026-11-19 06:37 UTC.
+
+
+## 2026-11-19 08:37 codex
+**ESTABLISHED — Moldova:** A national “Moldova Prepared” campaign starts today, 19 November, and runs through 21 November. It includes a family preparedness guide, an emergency backpack demonstration, crisis exercises and household 72-hour preparedness activities. The government says this is routine preparation for crises, not a response to a specific threat. The official page gives the campaign dates but no publication time, so whether its announcement appeared after 07:37 UTC is not established. [National Crisis Management Center](https://cnmc.gov.md/en/press-releases/together-prepared-moldova-first-national-preparedness-campaign-19-21-november)
+
+
+## 2026-11-19 09:37 grok
+I'll check X for official and local posts since 08:37 UTC on preparedness, stores, and blackout or cyber drills.The 09:44 Dutch restatement is already logged. I'll look for official posts and infrastructure items after 08:37 that are not in the notes.**Germany. ESTABLISHED.** Original @BMI_Bund post at 10:11 UTC: the BSI annual report finds a further worsening of the IT-security situation, and says societal resilience to cyber threats has to keep growing. Reuters (09:08 UTC) says this yearly assessment moved from “tense” last year to “tense to critical,” with agentic AI given as the reason attacks are getting faster and cheaper. FAZ reports Interior Minister Dobrindt, at the Berlin presentation, also spoke of a large cybersecurity package with new powers. That package line is REPORTED. The BMI post states the resilience point. [BMI](https://x.com/BMI_Bund/status/2123358492752797697), [Reuters](https://www.reuters.com/legal/litigation/german-authorities-lift-threat-level-it-security-tense-critical-2026-11-19/).
+
+**Saudi Arabia. ESTABLISHED, cleared.** Original @SaudiDCD posts: a National Early Warning Platform alert for Najran Province at 09:46 UTC, and an all-clear at 09:49 UTC. The posts leave the threat unnamed. [warning](https://x.com/SaudiDCD/status/2123352193655038228), [all-clear](https://x.com/SaudiDCD/status/2123352955055112689).
+
+**Hormuz.** JMIC Advisory Update 115, current as of 13:00 UTC, lists confirmed attacks through UKMTO 212-26 on 18 Nov. It says Iranian claims that mines struck tankers are not confirmed by any official or national authority. Posts today saying two supertankers hit mines are CLAIMED. The update adds no UKMTO number after 212-26. [JMIC PDF](https://www.ukmto.org/-/media/ukmto/products/jmic_advisory_update_115_19-nov.pdf).
+
+**Pattern.** CBL, Albert Heijn, and the Dutch government have no new post. The 09:44 @DoradcyNL note is the recycled one already logged. UK “blackout today” posts are still the denied rumor. Nordics, Baltics, Poland, Japan, Taiwan, Korea, and Israel: no fresh official stockpile, store, or blackout-drill posts in this sweep. Poland’s @RCB_RP at 09:07 is routine messenger-fraud advice. EU Commission hack posts since 08:37 restate reporting already on the wire. No new Commission account post turned up.
+
+
+## 2026-11-19 10:37 kimi
+• I’ll check official non-English announcements published after the cutoff and report only genuinely new items.
+
+• Nothing new since 2026-11-19 09:37 UTC.
+
+
+## 2026-11-19 11:37 codex
+- **EU Commission — REPORTED, 12:30 UTC:** An official confirmed an AI-assisted cyberattack detected on 22 October. The Commission temporarily took several applications offline; most have since been restored, and it said it had found no evidence of a staff-wide data breach. [Associated Press](https://apnews.com/article/cyberattack-european-union-artificial-intelligence-ai-79705095e8141cd650196dbff1cf3c70)
+
+
+## 2026-11-19 12:37 grok
+I'll sweep X for posts after 11:37 UTC on preparedness moves and unexplained infrastructure failures, starting with the Netherlands and the other assigned countries.Saudi Civil Defense posted a named attack in Riyadh after the cutoff. I'll confirm that thread and sweep the other official accounts for anything else new.**NOTABLE: Saudi Arabia. ESTABLISHED, original @SaudiDCD posts, 14:58–15:09 UTC.** A fresh National Early Warning cycle: Riyadh at 14:58, Al Kharj at 14:59, all-clear for both at 15:09. At 15:03 Civil Defense said a Houthi attack hit one tower in Riyadh’s financial centre: material damage, no injuries. The threat is named, unlike the Najran alerts already logged. Reuters, earlier on 19 Nov, matches this to the PIF Tower (SPA photo), says the coalition dealt with a missile toward Riyadh and that debris fell, and notes an Aramco tower in the same district was hit on 8 Nov. Whether the 14:58 sirens are that same strike posted late, or a later launch, is not established either way. A coalition time-stamp would settle it. Clips of a large fire do not match the official wording. [Riyadh warning](https://x.com/SaudiDCD/status/2123430740302135301), [Al Kharj warning](https://x.com/SaudiDCD/status/2123430903468741010), [statement](https://x.com/SaudiDCD/status/2123432001554330025), [Riyadh clear](https://x.com/SaudiDCD/status/2123433408055357734), [Al Kharj clear](https://x.com/SaudiDCD/status/2123433549726445909), [Reuters](https://www.reuters.com/world/middle-east/houthi-missile-threat-towards-riyadh-causes-damage-saudi-led-coalition-says-2026-11-19/).
+
+**Hormuz. CLAIMED, 17:22 UTC.** @IranMilitaryEN says a missile hit an oil tanker in the Strait for breaking navigation rules. No UKMTO number on the post. Not an official or agency account. A new UKMTO/JMIC line would settle it. [post](https://x.com/IranMilitaryEN/status/2123466859643019757).
+
+**Poland. ESTABLISHED, not a stockpile or blackout item.** Original @RCB_RP alerts: tap water not for drinking in parts of Zgorzelec county (15:56 UTC) and Złoty Stok / Płonica / Błotnica (16:04 UTC). Cause is not stated. A sanitary-inspector notice would settle it. [Pieńsk](https://x.com/RCB_RP/status/2123445369300525173), [Złoty Stok](https://x.com/RCB_RP/status/2123447358617006432).
+
+**Japan. ESTABLISHED readout, not a new domestic stockpile.** Original @kantei, 16:18 UTC: Takaichi’s Shenzhen press conference says Japan will help ASEAN countries build oil-reserve systems under AZEC 2.0. [post](https://x.com/kantei/status/2123450977839988787).
+
+**Pattern through ~17:40 UTC.** No new CBL, Albert Heijn, or Dutch government post. Germany, Nordics, Baltics, the UK, Taiwan, South Korea, and Israel: no fresh official stockpile, emergency-store, or blackout-drill posts. UK “blackout” hits are the football 3pm blackout and a podcast title recycling the Britain-stockpile line.
+
+
+## 2026-11-19 13:37 kimi
+• I’ll check the official non-English channels for items posted after the cutoff, then report only confirmed additions.
+
+• One older drill looked promising but predates the cutoff; I’m checking a newer Russian heating-point exercise and its official source before including it.
+
+• **Netherlands — ESTABLISHED, 16:32 UTC.** Weert’s safety region reported a fire in an internal transformer at the Ververshof care home, causing a power cut in the immediate area. The fire is under control; residents were moved to a communal room. Key line: *“Door de brand is er een stroomstoring ontstaan in de directe omgeving”* — “The fire caused a power outage in the immediate vicinity.” What started the fire is not established either way; the fire-service investigation would settle it. [Official Dutch update](https://www.vrln.nl/nieuwsbericht/brand-ververshof-verzorgingshuis-weert)
+
+
+## 2026-11-19 14:37 codex
+Nothing new since 2026-11-19 13:37 UTC.
+
+
+## 2026-11-19 15:37 grok
+I'll check X for official and local posts after 14:37 UTC on 19 November, starting with the Netherlands and then the other countries on this desk.Broad hits are mostly noise. Next I’ll check official agency accounts and local-language posts after 14:37 UTC.Nothing new since 2026-11-19 14:37.
+
+
+## 2026-11-19 16:37 kimi
+• I’ll check the official non-English channels for posts after 15:37 UTC and report only confirmed additions.
+
+• Nothing new since 2026-11-19 15:37 UTC.
+
+
+## 2026-11-19 17:37 codex
+Nothing new since 2026-11-19 16:37 UTC.
+
+
+## 2026-11-19 18:37 grok
+I'll check X for official and local posts after 17:37 UTC on 19 November, starting with the Netherlands and then the other countries on this desk.The broad hits are mostly ads and recycled claims. Next I’ll check official agency accounts and local-language posts after 17:37 UTC.Nothing new since 2026-11-19 17:37.
+
+
+## 2026-11-19 19:37 kimi
+• Nothing new since 2026-11-19 18:37 UTC.
+
+
+## 2026-11-19 20:37 codex
+Nothing new since 2026-11-19 19:37 UTC.
+
+
+## 2026-11-19 21:37 grok
+I'll check X for official and local posts after 20:37 UTC on 19 November, starting with the Netherlands and then the other countries on this desk.The broad hits are mostly ads and recycled claims. Next I’ll check official agency accounts and local-language posts after 20:37 UTC.Poland’s civil-protection account posted an official alert after the cutoff. I’ll check that post and whether the EU cyberattack mentions are new or recycled.**NOTABLE: Poland — ESTABLISHED, 20 Nov 01:43 UTC.** The Government Centre for Security (@RCB_RP) sent an Alert RCB to counties in Lubelskie (Hrubieszów, Zamość, Tomaszów, Biłgoraj) and Podkarpackie (including Rzeszów, Przemyśl, Krosno, the Bieszczady): “Russian air attack on Ukraine. The situation is being monitored. Readiness of the Polish air-defence system has been raised. Expect further messages.” [Post](https://x.com/RCB_RP/status/2123593066044932459).
+
+Operational Command (@DowOperSZ), 02:33 UTC, said the Air Operations Centre had activated the necessary air-defence forces and assets. It called the step preventive, to protect Polish airspace next to the threatened areas, and said those forces remain ready. [Post](https://x.com/DowOperSZ/status/2123605623140970529). Onet carried the same alert and said the SMS went out about 02:40 local. [Onet](https://wiadomosci.onet.pl/swiat/rcb-wyslalo-nocne-alerty-dotycza-rosyjskiego-ataku-w-ukrainie/cr2kyc4).
+
+Original official posts, with press follow-up. Same alert type as 19 Oct 2026, so this is a fresh activation of an existing procedure. No all-clear on those accounts through 02:33 UTC. The official text does not report an impact in Poland. Onet, citing Straznik.eu and the unofficial Ukrainian monitor Neptun, says seven drones were near the border (REPORTED). Whether any entered Polish airspace is not established either way. An official violation notice or an all-clear would settle it.
+
+**Netherlands.** No new CBL, Albert Heijn, or government post. Two backup accounts repeated the same livestream line on supermarket “fase zwart” plans at 02:24 and 02:28 UTC. Recycled, a handful of views. [One](https://x.com/zeeemedia66/status/2123603433152237653), [two](https://x.com/zeeemedia660293/status/2123604415684768235).
+
+**Rest of the desk** (Germany, Nordics, Baltics, UK, Japan, Taiwan, South Korea, Israel, Gulf): no fresh official stockpile, emergency-store, or blackout-drill posts after 20:37 UTC. Dutch posts on the European Commission cyberattack reshare the story confirmed on 19 Nov (detected 22 Oct), already public before this window.
+
+
+## 2026-11-19 22:37 kimi
+• I’ll check official local-language announcements after the cutoff and report only genuinely new items.
+
+• Nothing new since 2026-11-19 21:37 UTC.
+
+
+## 2026-11-19 23:37 codex
+Nothing new since 2026-11-19 22:37 UTC.
+
+
+## 2026-11-20 00:37 grok
+I'll check live X for new official and local posts since 23:37 UTC, starting with the Netherlands and then the rest of the desk.Poland’s 05:33 UTC air-attack alert is new versus the earlier RCB post. Next I’ll pull the thread and check the rest of the desk.The 05:33 RCB alert is an escalation. I'll confirm press follow-up, Lublin siren reports, and whether the rest of the desk posted anything new.**NOTABLE: Poland — ESTABLISHED, 20 Nov 05:33 UTC.** Second Alert RCB, escalated from the 01:43 “monitoring” text. @RCB_RP: “WARNING! WARNING! WARNING! Air-attack threat. Find a safe place. Follow instructions of the services. Expect further messages.” SMS to Hrubieszów county, Zamość city and county, Tomaszów, Biłgoraj (Lubelskie only; Podkarpackie dropped). Original official post. [RCB](https://x.com/RCB_RP/status/2123651005061447940). Fresh activation of an existing procedure. No all-clear on @RCB_RP or @DowOperSZ through ~05:38 UTC. Official text does not report an impact in Poland.
+
+**Sirens — REPORTED locally, original, independent.** Multiple local accounts and regional outlet @lublin112 (video) say air-raid sirens sounded in Lublin around 05:33, also Łęczna and Krasnystaw. Lublin city is outside the SMS list. [lublin112](https://x.com/lublin112/status/2123651827514102262), [Lublin](https://x.com/AdamTheTayto/status/2123650953618301394), [Glowacki](https://x.com/MateuszGlowacki/status/2123651455978438919). Whether this is a civil-defence activation or a scheduled test is not established either way. An RCB/city statement would settle it.
+
+**CLAIMED, unverified.** Unofficial monitor @AirWatchPL (self-labelled not official) posted Ukrainian-channel rumours of a possible missile in Polish airspace and a possible strike near Hrebenne (Lubelskie border). They mark both unconfirmed. [missile](https://x.com/AirWatchPL/status/2123650441007235353), [Hrebenne](https://x.com/AirWatchPL/status/2123651225493119114). One local claimed a nearby drone impact ([post](https://x.com/AdrianX000/status/2123651712632123781)). Not established either way. An official violation notice, impact report, or all-clear from RCB/DowOperSZ would settle it.
+
+**Netherlands.** No new CBL, Albert Heijn, or government post. Earlier zeeemedia “fase zwart” clips already logged; recycled.
+
+**Rest of desk** (Germany, Nordics, Baltics, UK, Japan, Taiwan, South Korea, Israel, Gulf): no fresh official stockpile, emergency-store, or blackout-drill posts after 23:37 UTC.
+
+**Markets.** No credible source tied BTC, Brent, gold, DXY, or US futures to this alert. Cause not established either way.
+
+
+## 2026-11-20 01:37 kimi
+• I’ll check the non-English official channels for posts after the cutoff and report only genuinely new items.
+
+• Nothing new since 2026-11-20 00:37.
+
+
+## 2026-11-20 05:37 codex (catch-up)
+## Since 01:37 UTC
+
+**NOTABLE: Poland — an unidentified flying object crashed near Nowy Lipowiec.** Polish police confirmed it fell in a field by woods and caught fire; no injuries were reported. Prosecutors say its origin is still being investigated, and authorities are checking reports of other possible crash sites. The air-attack alert was lifted. [Polish police](https://lubelska.policja.gov.pl/lub/aktualnosci/174538%2CProwadzimy-czynnosci-w-zwiazku-z-ujawnieniem-niezidentyfikowanego-obiektu-lataja.html), [Lublin prosecutors](https://www.gov.pl/web/po-lublin/komunikat-o-wszczeciu-sledztwa-po-upadku-niezidentyfikowanego-obiektu-w-powiecie-bilgorajskim)
+
+- **Moldova — preparedness campaign underway, 19–21 Nov.** The first “Moldova Prepared” campaign includes 72-hour household-readiness activities and local crisis-planning events. Officials say it is not a response to a specific threat and involves no planned service interruptions. [National Crisis Management Center](https://www.cnmc.gov.md/en/press-releases/together-prepared-moldova-first-national-preparedness-campaign-19-21-november)
+
+- **EU — new cyber-disruption disclosure.** AP reports an EU official confirmed an AI-assisted cyberattack targeted an EU institution in October; some digital tools remained offline as of 19 Nov. The report does not identify the attacker. [Associated Press](https://apnews.com/article/79705095e8141cd650196dbff1cf3c70)
+
+I couldn’t retrieve the requested Heartbeat News episode: its URL was inaccessible through the web reader, and the workspace’s direct fetch could not connect.
+
+
+## 2026-11-20 06:37 grok
+I'll check X for posts after 05:37 UTC on stockpiling, emergency stores, blackout or cyber drills, and unexplained infrastructure failures, starting with the Netherlands and the Poland crash follow-up.**NOTABLE: Poland — government accounts now say Russian objects came down in three places. No one was hurt. Air-defense actions are over.**
+
+Original Defense Ministry posts, about 10:10–10:33 UTC:
+
+- Sites secured: Mołodycz (Jarosław county), Rudnik nad Sanem, and Nowy Lipowiec (Biłgoraj county). Nowy Lipowiec is described as a Kh-101 that entered Polish airspace. [MON](https://x.com/MON_GOV_PL/status/2123721194331349314)
+- Patriots at Rzeszów-Jasionka and near Świdnik, plus Poprad and Pilica+, were switched on. The minister calls it a Russian provocation lined up with Coalition of the Willing drills at Nowa Dęba. [MON](https://x.com/MON_GOV_PL/status/2123721959720538154)
+- He will ask NATO for more Eastern Sentry forces. [MON](https://x.com/MON_GOV_PL/status/2123726197141975438)
+- Operational Command, 10:21 UTC: actions finished, no further violations, units back to normal duty. [DowOperSZ](https://x.com/DowOperSZ/status/2123723328909111445)
+- Prime Minister Tusk, about 11:26–11:34 UTC: what fell is from Russia; no damage and no victims; he calls it an intentional provocation; the NATO Secretary General is due in Warsaw tomorrow. [PremierRP](https://x.com/PremierRP/status/2123740620510388339) [PremierRP](https://x.com/PremierRP/status/2123740790853668892)
+
+ESTABLISHED. Local reposts of the three place names echo this briefing. This is the official follow-up to the earlier note that the origin was still open.
+
+A German clip claiming a total blackout in Kyiv and half the bridges destroyed is recycled video and does not match the Polish line. A claim that Ukrainian air defense diverted the Kh-101 is on X. That mechanism is not established either way.
+
+Interior Ministry, 11:31 UTC, original: air-attack steps (alarm, shelter, home prep) are in the mObywatel app. [MSWiA](https://x.com/MSWiA_GOV_PL/status/2123741040133734846) ESTABLISHED as today’s post.
+
+**Japan and Saudi Arabia — fuel reserves.** The Saudi Energy Ministry posted at 09:45–10:21 UTC, and NHK at 09:48. Japan intends to lend Saudi Arabia 16 million barrels of tank space on top of the existing 8 million, for a limited time. Saudi Arabia says refill of the joint tanks in Japan has started. Japan intends to buy up to 8 million barrels for its own reserve if the market and internal steps allow. The ministers met on 9 November; the public note is today. The reason given is energy security. [MoEnergy_Saudi](https://x.com/MoEnergy_Saudi/status/2123723280787951798) [NHK](https://x.com/nhk_news/status/2123714983804748089) ESTABLISHED.
+
+NHK at 11:01 UTC: an extra buyback of 100,000 tons of reserve rice after a harvest a bit under forecast. [NHK](https://x.com/nhk_news/status/2123733355372093651) REPORTED. Reserve management, not a crisis appeal.
+
+**Rest of the desk.** No new CBL, Albert Heijn, or Dutch government post on noodwinkels or fase zwart. One user repeated the same cash-and-pantry line three times. A shop account ran a noodpakket ad. Those are recycled or commercial. No fresh official stockpile, emergency-store, or blackout-drill posts from Germany, the Nordics, the Baltics, the UK, Taiwan, South Korea, or Israel. An “Anonymous / global blackout” clip is recycled, not an agency drill.
+
+
+## 2026-11-20 07:37 kimi
+• I’ll check official non-English channels for announcements after 06:37 UTC, and report only genuinely new items.
+
+• - **China — ESTABLISHED (official), new 2026:** Guangdong’s Grain and Strategic Reserves Administration held a province-wide grain-storage emergency drill in Taishan on **20 November**, published **17:48 CST / 09:48 UTC**. It covered confined-space poisoning rescue, flooding/typhoons and a grain-dryer fire, with fire and health services participating. Original: **“切实提升粮食储备领域风险防控和应急处置能力”** — “effectively improve risk prevention/control and emergency-response capability in grain reserves.” This is a provincial operational-safety drill, not a new national stockpile policy. [Taishan government announcement](http://www.cnts.gov.cn/tssrmzf/tsyw/bmdt/content/post_3590143.html)
+
+
+## 2026-11-20 08:37 codex
+| Country | Official item | Date and status |
+|---|---|---|
+| China (Beijing) | The municipal grain and reserves authority reported safety training for grain and reserve operators, covering hazard checks, practical training and emergency response. The stated reason was preventing serious safety incidents. [Official report](https://www.lswz.gov.cn/html/dfdt2026year/2026-11/20/content_296245.shtml) | Published **20 Nov 2026**; event held **17 Nov**. **ESTABLISHED.** The page gives no publication time, so whether it appeared after 07:37 UTC is not established either way. |
+
+
+## 2026-11-20 09:37 grok
+I'll scan X for official and local posts after 08:37 UTC on 20 November, starting with the Netherlands and then the rest of the desk.The rice and oil posts are already in the notes. A later NHK item on a Japanese government-network intrusion is new, so I’m checking that and the other desks.**NOTABLE:** Poland. The defence minister says three Russian objects entered Polish airspace early Friday and came down in the southeast: a Kh-101 cruise missile near Nowy Lipowiec (about 05:30 UTC), a second likely missile near Rudnik nad Sanem, and a likely jet-powered drone near Mołodycz. No injuries. Warsaw calls it a provocation timed to today’s Coalition of the Willing drill (KOALICJA 26.2) at Nowa Dęba, which went ahead. Tusk said NATO chief Rutte visits Warsaw on Saturday. The ministry’s own post at 14:22 UTC is original: [MON](https://x.com/MON_GOV_PL/status/2123783949977620906). The first wire was 08:01 UTC, just before this window. **ESTABLISHED** (minister, Reuters, BBC). [Reuters](https://www.reuters.com/business/aerospace-defense/polish-army-investigates-report-unknown-objects-near-ukraine-border-2026-11-20/) [BBC](https://www.bbc.co.uk/news/articles/cqx2x9dklxnro)
+
+**Japan — government file-share intrusion. REPORTED.** The Digital Agency said today that outsiders reached the shared government system GSS’s file-sharing service (meeting files between ministries and with companies) from 30 July to 12 November. It was detected and switched off on 12 November. Some files may have left the system, and personal data is possible. The file count, and whether more sensitive material was included, are still being checked. No misuse is confirmed so far. Asahi says GSS stops at confidentiality level 2, below secret documents. The NHK post at 13:37 UTC is the outlet’s own item: [NHK](https://x.com/nhk_news/status/2123772612992209159) [Nikkei](https://www.nikkei.com/article/DGXZQOUA20A0V0Q6A121C2000000/) [Asahi](https://www.asahi.com/articles/ASVCN30WCVCNULFA01NM.html). This is separate from the September GSS disclosure (possible leak of about 246,000 staff and contractor records), already on the agency site: [Digital Agency, 11 Sep](https://www.digital.go.jp/news/2026-0911-01). Today’s agency page did not appear in search, so that primary URL is not established either way.
+
+**Japan — land law. REPORTED.** The lower-house cabinet committee passed an amendment requiring prior permission to buy land around key defence sites (about 1 km) and empty border islands. The stated reason is drone and interference risk. The bill went to the Diet on 23 October. The survey law is older. The permit rule is 2026. [Sankei](https://www.sankei.com/article/20261120-RWJQIXCG45NQFLLVNHN6LNU2UY/) [NHK](https://x.com/nhk_news/status/2123774123419816019) at 13:43 UTC, original news post.
+
+**Rest of the desk since 08:37 UTC.** No new CBL, Albert Heijn, or Dutch government post on noodwinkels or fase zwart. Jetten’s cabinet briefing covered business support, yesterday’s coalition talks in Berlin, and sending Zr. Ms. Evertsen to the Red Sea. Shop accounts again ran noodpakket ads (commercial, recycled). No fresh official stockpile, emergency-store, or blackout-drill posts from Germany, the Nordics, the Baltics, the UK, Taiwan, South Korea, Israel, or the Gulf.
+
+
+## 2026-11-20 10:37 kimi
+• Nothing new since 2026-11-20 09:37 UTC.
+
+
+## 2026-11-20 11:37 codex
+**Moldova — ESTABLISHED.** A government release dated 20 November reports the “Moldova Prepared” campaign’s southern-region event in Ștefan-Vodă. Officials presented a family resilience guide, a 72-hour emergency backpack and the EVO app’s “Alerts” module. CNMC says this is ongoing preparedness work, not a response to a specific crisis or planned service interruption. [CNMC release](https://cnmc.gov.md/ro/node)
+
+
+## 2026-11-20 12:37 grok
+I'll sweep X for new local and official posts since 11:37 UTC on the assigned countries, then report only what is actually new.The first Dutch hits are old or commercial. Next I’ll check official accounts and the other assigned countries for anything posted after 11:37 UTC.NHK has a 12:46 UTC cyber post after the cutoff. I’ll open that and keep sweeping the remaining desks.**Qatar — ESTABLISHED, countdown only.** At 12:01 UTC @NcsaQatar posted an original bilingual 10-day countdown for the 13th National Cyber Drill (theme “Digital Sovereignty”), 30 Nov–5 Dec. Official account, fresh timestamp, low reach. This is a scheduled campaign beat, not a new programme: NCSA already announced the drill on 2 Nov and 8 Nov; QNA carried the details on 15 Nov (150+ entities, 14 sectors, continuity if a third-party/cloud fails). [NCSA post](https://x.com/NcsaQatar/status/2123748491495145895) [QNA, 15 Nov](https://qna.org.qa/en/News-Area/News/2026-11/15/cyber-exercises-committee-head-to-qna-national-drill-to-test-institutional-preparedness-for-cyber-incidents)
+
+**Japan — REPORTED, cyber policy, not a drill.** At 12:46 UTC NHK posted its own item: MIC held the first meeting of a study group on blocking access to sites that post leaked personal data, citing a run of company cyberattacks. MIC’s own X account did not post this in-window. [NHK](https://x.com/nhk_news/status/2123759776035443069) [NHK article](https://news.web.nhk/newsweb/na/nd-20261120de79437)
+
+**Netherlands.** No CBL, Albert Heijn, or government post on noodwinkels or fase zwart. Jetten’s 14:38 UTC recap matches the already-noted cabinet briefing (business support, Berlin, Zr. Ms. Evertsen). One local quote of a noodpakket shop ad is commercial/recycled, not a local pattern.
+
+**Rest of the desk.** No new official stockpile, emergency-store, blackout-drill, or cyber-drill posts from Germany, Nordics, Baltics, Poland, UK, Taiwan, South Korea, Israel, or other Gulf agencies (NCEMA last prep post 5 Nov). UK @GOVUK 11:58 UTC was routine fraud/password tips. Grid/utility accounts in those countries did not post unexplained outages.
+
+No market move in this window is tied by a credible source to a preparedness event.
+
+
+## 2026-11-20 13:37 kimi
+• I’ll check native-language official and local-news sources for items posted after 12:37 UTC, and report only genuinely new developments.
+
+• Nothing new since 2026-11-20 12:37 UTC.
+
+
+## 2026-11-20 14:37 codex
+Nothing new since 2026-11-20 13:37 UTC.
+
+
+## 2026-11-20 15:37 grok
+I'll sweep X for new local and official posts since 14:37 UTC on the assigned countries, and report only what is actually new.The first hits are mostly noise or old threads. I’ll check official accounts and the posts that actually mention stockpiles, blackouts, or drills.**Gulf — intercept ESTABLISHED; plant blackout not established either way.** At 15:22 UTC the coalition spokesman @CJFCSpox posted an original statement: air defence destroyed two Houthi ballistic missiles fired toward Jazan, debris fell in Al-Shuqaiq, and teams were going to the site. The post does not say the power plant was hit or that power failed. [Post](https://x.com/CJFCSpox/status/2123799222768066993) [Arab News](https://www.arabnews.com/saudi-arabia/saudi-arabia-shoots-down-houthi-drones-and-missile-3013163)
+
+From about 18:25 UTC, Houthi spokesman Yahya Saree claimed direct hits and significant damage at the Al-Shuqaiq power station and Jizan port (carried by PressTV, Al-Manar, and Shafaq). From about 20:30 UTC many accounts posted the same short clip plus “city in darkness / plant out.” That is one claim repeated, not separate local confirmations, and there is no Saudi Electricity or later coalition post confirming an outage. A coalition or Saudi Electricity damage note, or a wire with on-scene confirmation, would settle it. [PressTV](https://presstv.co.uk/Detail/2026/11/20/781202/yemeni-armed-forces-launch-strikes-on-shuqaiq-power-plant-jizan-port) [Shafaq](https://shafaq.com/en/Middle-East/Houthis-claim-strikes-on-Saudi-port-power-station)
+
+**Rest of the desk.** No new official stockpile, emergency-store, blackout-drill, or cyber-drill posts from the Netherlands, Germany, the Nordics, the Baltics, Poland, the UK, Japan, Taiwan, South Korea, or Israel. No CBL, Albert Heijn, or Dutch government post on noodwinkels or fase zwart. SlimmePakketten’s noodpakket posts are the same commercial ads. An Anonymous-branded clip repeating that Britain, Germany, France, and Japan told households to stockpile is recycled script, with no official follow-up. [NewsForce](https://x.com/Newsforce/status/2123851950760628674) Poland posts after 14:37 amplify this morning’s incursion, already announced by Tusk (12:18 UTC) and the defence ministry (14:01–14:22 UTC).
+
+No market move in this window is tied by a credible source to a preparedness event.
+
+
+## 2026-11-20 16:37 kimi
+• Nothing new since 2026-11-20 15:37 UTC.
+
+
+## 2026-11-20 17:37 codex
+Nothing new since 2026-11-20 16:37 UTC.
+
+
+## 2026-11-20 18:37 grok
+I'll sweep X for posts after 17:37 UTC on the assigned countries and report only what is actually new.The Gulf thread is still moving. I'll check whether the new outage posts are fresh local reports or the same claim repeated, and whether any official account followed up.A bot reply claims Saudi Electricity confirmed a 16:01 outage. I’ll check that against official pages before treating it as new.**Gulf — KAFD damage is a new wire item; the Jazan blackout “proof” posted since 17:37 is recycled.**
+
+**Riyadh, REPORTED.** SPA carried a Sudanese Foreign Ministry statement, timestamped 20:06 GMT, that attacks on civilian and economic sites in Riyadh caused material damage at the King Abdullah Financial District. The speaker is Sudan, relayed by SPA. No Saudi civil-defense or KAFD damage note in this window. [SPA](https://www.spa.gov.sa/en/N2732669) [SPA English post, 21:13 UTC](https://x.com/Spa_Eng/status/2123887405728145474)
+
+**Jazan / causeway — same claim, old media.** From about 22:07 UTC, accounts posted King Fahd Causeway “blackout” photos and a Jazan damage clip as if from tonight. Saudi rumor-check account @RynQsm (No Rumors) marked both as old:
+
+- Causeway photos match the 20 July 2015 outage. [Post, 23:35 UTC](https://x.com/RynQsm/status/2123923228749951255) [Al-Wasat, 2015](https://www.alwasatnews.com/news/1009738.html)
+- The damage video matches SPA footage from March 2022 of an earlier attack on Shuqaiq desalination and a Jazan Aramco site. [Post, 23:01 UTC](https://x.com/RynQsm/status/2123914630565122511) [Reuters, 19 Mar 2022](https://www.reuters.com/world/middle-east/saudi-led-coalition-says-four-houthi-attacks-hit-targets-kingdom-no-casualties-2022-03-19/)
+
+The line that Saudi Electricity and the regulator confirmed a 16:01 outage in Jazan, Asir, and Najran after plants tripped is the 25 January 2025 southern outage statement, not a new one. [Sabra, 25 Jan 2025](https://www.sobranews.com/sobra/312152/) No new @CJFCSpox or Saudi Electricity post. Local replies say Jazan is lit. A fresh SEC or coalition damage note would settle the plant outage.
+
+**Rest of the desk.** No new official stockpile, noodwinkel, blackout-drill, or cyber-drill posts from the Netherlands, Germany, the Nordics, the Baltics, Poland, the UK, Japan, Taiwan, South Korea, or Israel.
+
+
+## 2026-11-20 19:37 kimi
+• I’ll check official and local-language sources for items posted after 18:37 UTC, and report only genuinely new developments.
+
+• Nothing new since 2026-11-20 18:37 UTC.
+
+
+## 2026-11-20 20:37 codex
+Nothing new since 2026-11-20 19:37 UTC.
+
+
+## 2026-11-20 21:37 grok
+I'll check X for posts after 20:37 UTC on the Gulf outage thread and the preparedness desk, and report only what is new.The Gulf thread is still active after 20:37 UTC. I'll separate fresh local posts from repeats and check whether any official account followed up.Official coalition posts went up after the last note. I'll verify those, and check the Poland and Shuqaiq claims against primary sources.**NOTABLE — Gulf, after 20:37 UTC.** The Saudi-led coalition says air defenses intercepted and destroyed three Houthi ballistic missiles fired at Riyadh. Original posts: coalition spokesman at 23:40 UTC, SPA English at 23:48 UTC. Reuters reports a witness saw a projectile and heard a bang, and that civil defense issued Riyadh alerts and then said the danger had passed. The coalition statement does not report new damage.
+
+- Coalition: https://x.com/CJFCSpox/status/2123924514803519845
+- SPA English: https://x.com/Spa_Eng/status/2123926382040265168
+- Reuters via The Star: https://www.thestar.com.my/news/world/2026/11/21/saudi-arabia-issues-two-riyadh-alerts-says-danger-has-passed
+
+**Southern region, 01:12 UTC.** The same spokesman says one Houthi UAV toward the southern region was intercepted and destroyed. SPA English at 01:32 UTC. No damage is stated.
+
+- https://x.com/CJFCSpox/status/2123947620989305066
+- https://x.com/Spa_Eng/status/2123952607429562811
+
+**Jazan blackout and Shuqaiq “on fire” posts after 02:00 UTC are the same claim, repeated.** A Jazan resident posted night video of lit streets and gatherings at 02:32 UTC and said the outage clips are false. Another Jazan resident at 02:25 UTC said the clip is about two years old, from a short rain-related short. The “Shuqaiq power station is burning” post at 02:26 UTC is a low-engagement claim with an old-style clip. The only official Shuqaiq line on record is earlier, at 15:40 UTC: debris from an intercept fell in Al-Shaqiq and authorities were on site. No new Saudi Electricity statement.
+
+- Lights on: https://x.com/jazanabdu/status/2123967882296238476
+- Old clip: https://x.com/modeout10/status/2123966069807431703
+- Fire claim: https://x.com/htharey/status/2123966336699429197
+
+A 02:32 UTC clip claiming a drone hit a King Abdullah Financial District tower “tonight” is unverified and low-engagement. Whether tonight’s Riyadh intercepts caused new damage is not established. A civil-defense or SPA damage note would settle it.
+
+**Poland posts around 02:37 UTC recycle Friday morning.** Official Polish accounts already reported three Russian objects in Polish airspace at 11:26–14:22 UTC, with no casualties. That is not a new overnight incident.
+
+**Preparedness desk.** No new official stockpile, noodwinkel, 72-hour, or drill posts from the Netherlands, Germany, the Nordics, the Baltics, the UK, Japan, Taiwan, South Korea, or Israel in this window.
+
+
+## 2026-11-20 22:37 kimi
+• Nothing new since 2026-11-20 21:37 UTC.
+
+
+## 2026-11-20 23:37 codex
+Nothing new since 2026-11-20 22:37 UTC.
+
+
+## 2026-11-21 00:37 grok
+I'll check X for preparedness posts and unexplained infrastructure failures that are new since 2026-11-20 23:37 UTC, starting with official and local accounts in the assigned countries.A few posts after 23:37 UTC look new. I’m checking whether they are official, recycled, or still unverified.Nothing new since 2026-11-20 23:37 UTC.
+
+
+## 2026-11-21 01:37 kimi
+• I’ll check official non-English channels for announcements since 00:37 UTC and report only confirmed new items.
+
+• Nothing new since 2026-11-21 00:37 UTC.
+
+
+## 2026-11-21 05:37 codex (catch-up)
+## Catch-up since 01:37 UTC
+
+NOTABLE: **Moldova’s first national “Prepared Moldova” campaign continued on Nov. 21 in Edineț**, after launching Nov. 19. The official program covers household readiness for 72 hours, local crisis coordination and support for vulnerable people. This is the scheduled continuation of a campaign announced earlier, not a new overnight announcement. [Moldova’s Crisis Management Center](https://cnmc.gov.md/en/press-releases/live-text-moldova-launches-its-first-nationwide-campaign-prepare-population-crisis)
+
+- **Saudi Arabia:** The overnight Riyadh alerts and reported missile interceptions are covered in the supplied notes. The later “Shuqaiq station on fire,” Jazan blackout and KAFD-hit posts are not established by the cited material; the notes include local reports of lights on and describe the damage claims as unverified. [Coalition interception report](https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh) · [Shuqaiq debris statement](https://x.com/Spa_Eng/status/2123952607429562811)
+- **Other infrastructure:** I found no major new outage or infrastructure failure established in the sources checked for this catch-up window. A specific claim would need confirmation from the relevant operator or authorities.
+- **Episode check:** The Nov. 21 episode JSON URL could not be retrieved by the available reader, so I could not check its rundown directly.
+
+
+## 2026-11-21 06:37 grok
+I'll check X for preparedness posts and unexplained infrastructure failures that are new since 2026-11-21 05:37 UTC, starting with official and local accounts in the assigned countries.A few posts after 05:37 UTC mention stockpiles and a Norway cyber incident. I’m checking whether any of them are official, new, or just recycled.The Polish alert is official. I’m checking whether the Gulf strike and outage posts after 05:37 are new or the same claims already in the notes.**NOTABLE:** UKMTO posted two new attack warnings after 05:37 UTC. Both are original official products. Each describes a tanker outbound in the Strait of Hormuz hit by an unknown projectile. No casualties reported. Environmental impact unconfirmed. Who fired is not in the warnings.
+
+- [215-26](https://x.com/UK_MTO/status/2124045038141259888), posted 07:39 UTC. Incident 05:00 UTC, 11 NM north of Khasab, Oman. Hit on the stern. [Warning PDF](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_215-26.pdf?rev=9a51d7f51b3e4047b893b96473750588)
+- [216-26](https://x.com/UK_MTO/status/2124053952446730711), posted 08:14 UTC. Incident 05:50 UTC, 17 NM east of Khasab. Hit in the engine room. [Warning PDF](https://www.ukmto.org/-/media/ukmto/products/20261121-ukmto_warning_216-26.pdf?rev=98c26e7c459246539923ed000abcdf27)
+
+**Poland (local, not national).** The Government Centre for Security sent an RCB alert at 05:43 UTC: siren training in Gostyń municipality, 08:00–12:00 local (07:00–11:00 UTC), Greater Poland. Text says stay calm, it is an exercise. Original official post. Radio Poznań and TVP3 Poznań repeated it. [RCB](https://x.com/RCB_RP/status/2124015847698235855) · [Radio Poznań](https://x.com/RadioPoznanSA/status/2124053027682213999) · [TVP3 Poznań](https://x.com/TVP3_Poznan/status/2124050527856034271)
+
+No new official stockpile, noodwinkel, 72-hour, or national-drill posts from the Netherlands, Germany, the Nordics, the Baltics, the UK, Japan, Taiwan, South Korea, or Israel. The only Dutch noodwinkel post was one wellness account sharing a YouTube show. Equinor posts restated the 17–20 Nov incident. Jazan and Riyadh blackout claims are still not established either way by an operator or civil-defense statement in this window.
+
+
+## 2026-11-21 07:37 kimi
+• Nothing new since 2026-11-21 06:37 UTC.
+
+
+## 2026-11-21 08:37 codex
+Nothing new since 2026-11-21 07:37 UTC.
+
+
+## 2026-11-21 09:37 grok
+I'll check X for preparedness posts and infrastructure alerts that are new since 2026-11-21 08:37 UTC, starting with official accounts in the assigned countries.Nothing new since 2026-11-21 08:37 UTC.
+
+
+## 2026-11-21 10:37 kimi
+• Nothing new since 2026-11-21 09:37 UTC.
+
+
+## 2026-11-21 11:37 codex
+Nothing new since 2026-11-21 10:37 UTC.
+
+
+## 2026-11-21 12:37 grok
+I'll check X for preparedness posts and infrastructure alerts that are new since 2026-11-21 11:37 UTC, starting with official accounts in the assigned countries.The first pass mostly turned up recycled Hormuz commentary. I'll check official agency accounts and local alerts posted after 11:37 UTC.**NOTABLE:** Finland. Original official posts after 11:37 UTC on a burning Russian cargo ship in Finnish waters and a suspected Russian helicopter incursion.
+
+**Gulf of Finland (ESTABLISHED).** The strike was already on official accounts just before this window and is not in the notes: Defence Ministry [10:57 UTC](https://x.com/DefenceFinland/status/2124094891852812645), Coast Guard [11:02](https://x.com/Merivartiosto/status/2124096020103541173), Border Guard [11:14](https://x.com/rajavartijat/status/2124099090703114591), Prime Minister Orpo [11:26](https://x.com/PetteriOrpo/status/2124102069938463032). New since 11:37 UTC:
+
+- [Defence Forces, 12:20 UTC](https://x.com/Puolustusvoimat/status/2124115628223045909). Temporary air and sea restrictions in the eastern Gulf, imposed at 09:33 local, lifted at 14:00 local.
+- [Coast Guard, 13:06 UTC](https://x.com/Merivartiosto/status/2124127324043944334). Still leading rescue of the burning ship. [Update](https://raja.fi/-/rajavartiolaitos-johtaa-palavan-aluksen-meripelastustoimia-suomenlahdella).
+- [Defence Ministry, 13:53 UTC](https://x.com/DefenceFinland/status/2124139055965458853). A Russian helicopter is suspected of entering Finnish airspace at 12:34 local off Loviisa, 4.1 km inside. [Statement](https://defmin.fi/-/venalaisen-helikopterin-epaillaan-loukanneen-suomen-ilmatilaa).
+- [Coast Guard, 14:08 UTC](https://x.com/Merivartiosto/status/2124142975563284488). Investigation of that suspected violation opened. Priority is lives at sea.
+- [Coast Guard, 16:37 UTC](https://x.com/Merivartiosto/status/2124180383512031479). Rescue continues. More tonight. Photos from the scene.
+
+[Reuters](https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/) (11:50 UTC) and [Al Jazeera](https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland): Sparta II, bound for Kaliningrad, hit in international waters west of Gogland, on fire, drifted into Finnish waters. Leningrad's governor said two drones. Who operated them is not established either way on the Defence Ministry detection post. Later Finnish statements say the strike was likely Ukraine. Orpo wrote that Ukraine has the right to fight back. Reuters reported the crew was being evacuated. The Coast Guard's 16:37 post does not say the crew is ashore. No pollution reported so far. Environmental risk is not closed.
+
+No new official stockpile, noodwinkel, 72-hour, or national-drill posts from the Netherlands, Germany, the other Nordics, the Baltics, Poland, the UK, Japan, Taiwan, South Korea, Israel, or the Gulf. No new UKMTO warning after 216-26. Later Hormuz posts repeat 215-26 and 216-26. UK "blackout" posts in this window are the 3pm football TV blackout.
+
+
+## 2026-11-21 13:37 kimi
+• I’ll check official non-English sources for announcements after the cutoff, then report only verified additions.
+
+• Nothing new since 2026-11-21 12:37 UTC.
+
+
+## 2026-11-21 14:37 codex
+Nothing new since 2026-11-21 13:37 UTC.
+
+
+## 2026-11-21 15:37 grok
+I'll check official and local accounts for anything new since 14:37 UTC on preparedness and unexplained infrastructure failures.Finland posted new rescue updates after 16:37 UTC. I'm checking those pages and whether the Bahrain and Hormuz claims are official or recycled.**NOTABLE:** Bahrain’s Interior Ministry issued a fresh “potential threat” shelter alert at 20:33 UTC, after an all-clear at 20:16 UTC. Latest official post is still that alert. Original posts: [20:33 alert](https://x.com/moi_bahrain/status/2124239820989886891), [20:16 all-clear](https://x.com/moi_bahrain/status/2124235572579553548), [18:09 alert](https://x.com/moi_bahrain/status/2124203558455128119).
+
+**NOTABLE:** Same ministry, 19:19–19:20 UTC: an Iranian attack hit a civilian industrial facility. Fire. Civil Defence on scene. Material damage. No injuries in the preliminary report. [English](https://x.com/moi_bahrain/status/2124221319117967570), [Arabic](https://x.com/moi_bahrain/status/2124221198066123261). **ESTABLISHED.** [Reuters](https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/) (19:15 UTC) matches that. The site is not named. Whether a US base was hit is not established either way. IRGC statements saying Patriot radars at Riffa and Awali were hit are **CLAIMED** ([Iran International](https://x.com/IranIntl_En/status/2124240677492207868), [Al Mayadeen](https://x.com/MayadeenEnglish/status/2124240716474061230)). No CENTCOM post in this window.
+
+**Finland, Sparta II (update after the 16:37 photo post).** Fire still being fought. Ship is anchored off Loviisa. Crew left in lifeboats and was taken to a nearby cargo ship. The bulletin does not say the crew is ashore. A restricted area is in place. On scene: Border Guard units, tugs Ajax and H.Kanter, Estonian Navy Kindral Kurvits, and, at Finland’s request, Russian rescue ship Murman. Plan is to tow the ship into Russia’s area of responsibility. No danger to other traffic reported. Pollution response is stood up with rescue departments. This bulletin does not close the environmental question. Airspace investigation continues. Next official update Sunday. **ESTABLISHED:** [Border Guard, 18:42 UTC](https://raja.fi/en/-/the-finnish-border-guard-continues-to-lead-the-rescue-operations-in-the-gulf-of-finland). Original posts: [19:25](https://x.com/rajavartijat/status/2124222701057589692), [20:01](https://x.com/Merivartiosto/status/2124231852890231085), [19:03 video](https://x.com/Merivartiosto/status/2124217067708522514). **REPORTED:** [HS](https://www.hs.fi/politiikka/art-2000012429081.html) says Defence Minister Häkkänen called the situation more serious and spoke of towing out of Finnish waters tonight. That timing is his comment. The Border Guard text says the plan is to make the tow possible.
+
+No new noodwinkel, stockpile, 72-hour, blackout, or cyber-drill posts from official accounts in the Netherlands, Germany, the other Nordics, the Baltics, Poland, the UK, Japan, Taiwan, South Korea, or Israel. German “Krisenvorsorge” posts in this window are about cash and tax, not reserves.
+
+Hormuz posts since 14:37 UTC repeat UKMTO **215-26** and **216-26** (incidents ~05:00 and ~05:50 UTC). No new warning number. Recycled.
+
+
+## 2026-11-21 16:37 kimi
+• I’m checking official non-English announcements published after the cutoff, including preparedness and infrastructure incidents.
+
+• A Chinese-language result points to Hong Kong’s critical-infrastructure cyber law taking effect today; I’m checking the official notice and timing before including it.
+
+• Nothing new since 2026-11-21 15:37 UTC.
+
+
+## 2026-11-21 17:37 codex
+Nothing new since 2026-11-21 16:37 UTC.
+
+
+## 2026-11-21 18:37 grok
+Nothing new since 2026-11-21 17:37 UTC.
+
+
+## 2026-11-21 19:37 kimi
+• Nothing new since 2026-11-21 18:37 UTC.
+
+
+## 2026-11-21 20:37 codex
+- **REPORTED — Pakistan submarine cable:** A Nov. 22 update says repairs to the existing SEA-ME-WE 5 cable fault are expected to finish by Dec. 6; slower internet speeds may continue during peak hours. This is a new repair estimate, not a newly reported failure. [Dawn](https://www.dawn.com/news/2046212/submarine-cable-to-be-repaired-by-dec-6) (published 00:10 UTC, approximately).
+
+
+## 2026-11-21 21:37 grok
+I'll check X for official and local posts after 20:37 UTC on 21 November, starting with the Netherlands and then the rest of the watch list.Nothing new since 2026-11-21 20:37 UTC.
+
+
+## 2026-11-21 22:37 kimi
+• Nothing new since 2026-11-21 21:37 UTC.
+
+
+## 2026-11-21 23:37 codex
+- **ESTABLISHED — Moldova:** On 22 November at 05:59 Moldova time (03:59 UTC), the government announced the launch of its **Prepared Moldova** campaign and a guide for the first 72 hours of a crisis. The guidance covers basic supplies and what to do during power or water outages; officials said it is preventive, not a signal of a planned outage. [Government announcement](https://www.moldpres.md/eng/official/premierul-vasile-tofan-la-evenimentul-de-lansare-a-campaniei-moldova-pregatita-nicio-familie-nu-trebuie-lasata-sa-se-descurce-singura-in-situatie-de-urgenta-avem-datoria-sa-oferim-informatii-sa-coordonam-institutiile-si-sa-sprijinim-oamenii-eng)
+
+
+## 2026-11-22 00:37 grok
+I'll check X for official and local posts after 23:37 UTC on 21 November, starting with the Netherlands and then the rest of the watch list.Nothing new since 2026-11-21 23:37 UTC.
+
+
+## 2026-11-22 01:37 kimi
+• Nothing new since 2026-11-22 00:37 UTC.
+
+
+## 2026-11-22 05:37 codex (catch-up)
+## Overnight catch-up — 22 Nov, since 01:37 UTC
+
+- **Preparedness:** No new government move surfaced in this window. Moldova’s “Prepared Moldova” launch was already in the team’s 23:37 note. A later Moldovan report adds that the prime minister cited recent drone incursions and an earthquake, and again said the campaign does **not** mean authorities plan to cut power or water. [Moldovan report](https://www.moldpres.md/eng/society/republic-of-moldova-launches-first-ever-campaign-to-prepare-population-for-crisis-situations)
+
+- **REPORTED by provider; cause not stated — Canada:** Twilio reported failures affecting some Canadian Lookup API transactions starting **03:50 UTC**; the issue was still under investigation in its latest update. The reported scope is specific API services, not a general communications outage. [Twilio status](https://status.twilio.com/)
+
+- **Carryover — United States:** Cloudflare’s Chicago data-center performance issue began at **00:32 UTC**, before this round’s cutoff, and was still listed as investigating. [Cloudflare incident history](https://www.cloudflarestatus.com/history?service=China+Network)
+
+**Episode access:** The linked Heartbeat News JSON could not be opened, and the episode file was not present at the expected local path. This catch-up uses the public sources linked above.
+
+
+## 2026-11-22 06:37 grok
+I'll check X for official and local posts after 05:37 UTC on 22 November, starting with the Netherlands and then the rest of the watch list.The first pass was mostly ads and old blackout talk. I'll narrow it to official accounts and anything posted after 05:37 UTC.Nothing new since 2026-11-22 05:37 UTC.
+
+
+## 2026-11-22 07:37 kimi
+• Nothing new since 2026-11-22 06:37 UTC.
+
+
+## 2026-11-22 08:37 codex
+Nothing new since 2026-11-22 07:37.
+
+
+## 2026-11-22 09:37 grok
+I'll check X for official and local posts after 08:37 UTC on 22 November, starting with the Netherlands and then the rest of the watch list.The first pass mixed in unrelated posts. I'll check the Israel exercise and Japan oil item, then official accounts in local languages.Nothing new since 2026-11-22 08:37 UTC.
+
+
+## 2026-11-22 10:37 kimi
+• Nothing new since 2026-11-22 09:37 UTC.
+
+
+## 2026-11-22 11:37 codex
+- **REPORTED — Uttar Pradesh, India:** A civil-defence air-raid and blackout drill was carried out across all 75 districts on Nov. 22, with sirens and temporary local power cuts. It was announced on Nov. 17; today’s development is that the exercise took place. [Live Hindustan](https://www.livehindustan.com/uttar-pradesh/mock-drills-conducted-across-all-75-districts-up-power-supply-cut-simultaneously-sirens-sounded-201795352059086.amp.html)
+
+
+## 2026-11-22 12:37 grok
+I'll check X for official and local posts after 11:37 UTC on 22 November, starting with the Netherlands and then the rest of the watch list.India drill chatter is showing up; I'll check whether those posts are new announcements or recycled, then scan the rest of the watch list.Japan minerals and India drill chatter need a source check; I'll also hit remaining official accounts on the watch list.Nothing new since 2026-11-22 11:37 UTC.
+
+
+## 2026-11-22 13:37 kimi
+• I’ll check official non-English announcements for items posted after the 12:37 UTC cutoff.
+
+• Nothing new since 2026-11-22 12:37 UTC.
+
+
+## 2026-11-22 14:37 codex
+NOTABLE: **Ukraine —** At 15:21 UTC on Nov. 22, the Cabinet announced plans for a nationwide protocol for critical situations, prioritizing water during further attacks, a regional reserve of engineers and electricians, and a public platform to report utility outages. These are announced plans, not yet confirmed as operational. The government said about 240,000 people in Odesa remained without heat. [Cabinet of Ministers of Ukraine](https://www.kmu.gov.ua/en/news/uriad-hotuie-dodatkovi-rishennia-dlia-vidnovlennia-vodo-ta-teplopostachannia-i-posylennia-remontnykh-bryhad)
+
+No new sourced market move tied to an event found after the cutoff.
+
+
+## 2026-11-22 15:37 grok
+I'll check X for official and local posts after 14:37 UTC on 22 November, starting with the Netherlands and then the rest of the watch list.The first pass is mostly recycled India-drill posts and commentary. I'll check the Hardenberg power item and official accounts in local languages.**X early-signal, since 2026-11-22 14:37 UTC**
+
+No new official posts on stockpiles, emergency stores, blackout or cyber drills, or household advice from the Netherlands (CBL, Albert Heijn, ministries), Germany, the Nordics and Baltics, Poland, the UK, Japan, Taiwan, South Korea, Israel Home Front, or Gulf civil agencies.
+
+**ESTABLISHED — Gulf of Oman.** UKMTO posted advisory 217-26 at 15:56 UTC. A company security officer reported an incident at 14:25 UTC between a tanker and military forces in the Gulf of Oman. The chart marks waters off Chabahar. No ship name, no force named, no damage. UKMTO says investigations are ongoing. [Post](https://x.com/UK_MTO/status/2124532578942169266) · [PDF](https://www.ukmto.org/-/media/ukmto/products/20261122_ukmto_-advisory_217-26.pdf?rev=564a29fc164b4b558b32e30dc68b4cf5)
+
+**CLAIMED, and ahead of the advisory.** Quote-posts saying US forces hit an Iranian tanker add a culprit and an outcome the advisory does not state. Not established either way. A named vessel, or a CENTCOM or Iranian statement with damage, would settle it.
+
+Same account at 16:18 UTC redistributed JMIC Update 116. Its information cutoff is 13:00 UTC, before 217-26. It records three outbound tanker strikes off Khasab on 20–21 Nov and says Iranian mine claims are unconfirmed. The strikes are older than this window. The X post is a new copy of that note. [Post](https://x.com/UK_MTO/status/2124537896061280336)
+
+**Israel — original, not a home-front order.** The IDF account at 17:00 UTC posted the chief of staff at a Southern Command exercise on Gaza-border operations. [Post](https://x.com/idfonline/status/2124548641398333608)
+
+**Recycled, not a new pattern.** India posts repeat today’s Uttar Pradesh air-raid and blackout drill, already logged. Iran outage posts repeat Tavanir’s Sunday rationing, announced before this window. One Dutch podcast chapter mentions noodwinkels. No CBL or government follow-up. A Hardenberg “containers” share is Enexis grid batteries placed 20 Nov for winter peak load, not emergency stores.
+
+
+## 2026-11-22 19:37 kimi
+• Nothing new since 2026-11-22 15:37 UTC.
+
+
+## 2026-11-22 20:37 codex
+Nothing new since 2026-11-22 19:37 UTC.
+
+
+## 2026-11-22 21:37 grok
+I'll check X for official and local posts after 20:37 UTC on 22 November, starting with the Netherlands and the rest of the watch list.The first pass is mostly recycled drill talk and older UKMTO notes. I'll check the Hormuz sailor item and official accounts in local languages.Nothing new since 2026-11-22 20:37 UTC.
+
+
+## 2026-11-22 22:37 kimi
+• I’ll check fresh official posts and local-language reports for the watch window only.
+
+• Nothing new since 2026-11-22 21:37 UTC.
+
+
+## 2026-11-22 23:37 codex
+Nothing new since 2026-11-22 22:37 UTC.
+
+
+## 2026-11-23 00:37 grok
+I'll check X for official and local posts after 23:37 UTC on 22 November, starting with the Netherlands and the rest of the watch list.The first hits are mostly older India drill posts and one Israeli siren notice. I'll check official accounts and local-language posts after 23:37 UTC only.Nothing new since 2026-11-22 23:37 UTC.
+
+
+## 2026-11-23 01:37 kimi
+• I’ll check fresh official announcements and local-language reports for this watch window only.
+
+• Nothing new since 2026-11-23 00:37 UTC.
+
+
+## 2026-11-23 05:37 codex (catch-up)
+- **Preparedness:** No fresh official preparedness move surfaced in this window. Moldova’s first national 72-hour readiness campaign ran Nov. 19–21, before the cutoff; its crisis center said it did not signal a crisis or planned service interruptions ([CNMC](https://cnmc.gov.md/en/print/pdf/node/588)).
+
+- **Infrastructure:** IODA, Georgia Tech’s internet-monitoring project, recorded brief connectivity signals for **Germany (01:52–03:20 UTC)** and **Uzbekistan (02:43–04:06 UTC)** after the cutoff. These are detector signals, not confirmed nationwide outages; the cause is **not established either way** ([signal log](https://pulse.errata.page/en/outages/), [IODA Germany dashboard](https://ioda.inetintel.cc.gatech.edu/country/DE)).
+
+- **Iran:** A Nov. 23 report says scheduled power cuts had begun, citing Tavanir’s fuel-supply explanation and reported damage to gas infrastructure. The cuts began Sunday, Nov. 22, so this is confirmation after the cutoff of an earlier event, not a new overnight move ([Euronews](https://parsi.euronews.com/2026/11/23/onset-of-power-outages-in-iran)).
+
+I couldn’t retrieve the episode JSON: the search connector couldn’t access it, and browser access was unavailable.
+
+
+## 2026-11-23 06:37 grok
+I'll check X for official and local posts after 05:37 UTC on 23 November, starting with the Netherlands and the rest of the watch list.The first hits are mostly unrelated noise and a few local alerts. I'll check official accounts and the German satellite-preparedness item and the Poland alert.A Dutch 72-hour checklist and a Morocco alert trial showed up after the cutoff. I'll check whether those are new official moves or recycled coverage.**Morocco (outside the named list): new mobile-alert tests.** The Interior Ministry said on 23 November that MA-INDAR, a national SMS and cell-broadcast warning system, moves to phase-two field trials on 24–26 November and is due to go live in December 2026. Trials are in Sidi Ayad (Midelt) and Azemmour (El Jadida) on Tuesday 11:00–12:00, possibly repeated Wednesday, then Taourirt and Khenifra (Thursday 11:00–13:00) and El Hajeb and Ifrane (14:00–16:00). The ministry says the tests are technical and do not mean a real or imminent threat. **REPORTED** (several independent Moroccan outlets citing the ministry communiqué; an official .gov.ma page was not opened). Original local posts, not a recycled viral: [Morocco World News](https://x.com/MoroccoWNews/status/2124816349226566090), [Le Matin](https://x.com/lematinpointma/status/2124827803661017259), [هنا الصحراء](https://x.com/hounasahara/status/2124827939237757425). Press write-up: [Hespress](https://en.hespress.com/149701-moroccos-ministry-of-interior-announces-ma-indar-national-mobile-alert-system.html).
+
+**Baltic GNSS.** Flightradar24 posted at 11:28 UTC that GPS jamming and spoofing rose over the Baltic Sea this weekend ([post](https://x.com/flightradar24/status/2124827436747743282), [map](https://www.flightradar24.com/data/gps-jamming)). This is their own notice. The same account on 21 November called the Baltic a consistent interference area, so this is an update on a known pattern, not a new kind of event. The post dates the rise to the weekend, before this window. Whether it is still elevated after 05:37 UTC, and who is behind it, is not established either way.
+
+**Named watch list.** No new official stockpile, emergency-store, drill, or blackout order from Dutch, German, Nordic, Baltic, Polish, UK, Japanese, Taiwanese, South Korean, Israeli, or Gulf agency accounts after 05:37 UTC. Dutch posts about a 72-hour kit are resharing De Telegraaf’s 05:28 UTC piece on a civic NoodpakketCheck at today’s already-announced Top Nationale Weerbaarheid. German posts about “no satellite-outage plan” amplify the WDR/NDR/SZ thread from 05:12 UTC. Both are recycled, not new moves.
+
+
+## 2026-11-23 07:37 kimi
+• I’m checking official and local-language reports published after the cutoff, and excluding recycled coverage.
+
+• Nothing new since 06:37 UTC.
+
+
+## 2026-11-23 08:37 codex
+Nothing new since 07:37 UTC.
+
+
+## 2026-11-23 09:37 grok
+I'll check X for preparedness posts and infrastructure notices newer than 08:37 UTC on 23 November, starting with the Netherlands and the rest of the watch list.The first pass is mostly noise. Next I’ll search local-language terms and official accounts on the watch list, plus new outage or drill notices.A few items sit after the cutoff. I’m checking which are new official moves and which are repeats of stories already logged.Nothing new since 08:37 UTC.
+
+
+## 2026-11-23 10:37 kimi
+• Nothing new since 09:37 UTC.
+
+
+## 2026-11-23 11:37 codex
+Nothing new since 10:37 UTC.
+
+
+## 2026-11-23 12:37 grok
+I'll check X for preparedness posts and infrastructure notices newer than 11:37 UTC on 23 November, starting with the Netherlands and the rest of the watch list.A few posts sit after 11:37 UTC. I’m checking which are new official moves and which repeat stories already logged.The Dutch summit produced an official write-up after the cutoff. I’m reading that and checking whether any other watch-list country posted a new move.**Netherlands — new preparedness move. ESTABLISHED.**
+
+At the first Top Nationale Weerbaarheid in Amsterdam today, the government set two follow-ups. The roadmap “Weerbaarheid tegen langdurige uitval, escalatie met hybride acties en militaire dreigingen” was worked on with the participants and is expected in the first quarter of 2027. From next year, the first week of October will be the Week van de Weerbaarheid, including a whole-of-society disaster exercise. NCTV says that kind of exercise has not been held in the Netherlands before. The exact shape is still to be worked out.
+
+The resilience programme itself dates from 2024. These two items were set out today. The official reason is to raise societal resilience and military readiness for a long outage, hybrid escalation, or a military threat, and to prepare before a crisis. Justice minister David van Weel and Defence minister Dilan Yesilgöz-Zegerius both framed it as a shared job for government, business, and citizens. A keynote by former Ukrainian ambassador Oksana Markarova used the war in Ukraine as the lesson: prepare before the crisis.
+
+* NCTV, 23 Nov 2026, 15:48 UTC: [nctv.nl](https://www.nctv.nl/actueel/nieuws/2026/11/23/ruim-500-bestuurders-bepalen-koers-en-maken-afspraken-voor-het-verhogen-van-de-weerbaarheid-in-nederland)
+* Defence, 23 Nov 2026, 16:09 UTC: [defensie.nl](https://www.defensie.nl/nieuws/20261123-afspraken-voor-verhogen-van-de-weerbaarheid-in-nederland)
+
+**REPORTED, not on the ministry pages.** On NPO Radio 1, NCTV chief Marc Kuipers also named a second exercise, NATO’s CMX’27, beside the October week. [WNL, 15:00 UTC](https://wnl.tv/2026/11/23/nationale-weerbaarheidsoefening-in-oktober-2027-zegt-marc-kuipers-nctv-komend-jaar-belangrijk-jaar). Whether CMX’27 is a new Dutch commitment or an already-scheduled NATO drill is not established either way. The NATO listing would settle it.
+
+**X pattern.** Original, not a recycled viral: [Sven op 1 at 11:49 UTC](https://x.com/Sven_op_1/status/2124832588816650544), their own interview clip, posted before the ministry pages. [Koninklijk Huis at 13:05 UTC](https://x.com/koninklijkhuis/status/2124851886440304919) is their own post, but it only confirms the Queen’s attendance and links to a 19 November preview. Later Dutch posts about the 72-hour kit and NoodpakketCheck reshare the Telegraaf piece already logged. No new CBL or Albert Heijn posts.
+
+No new official stockpile, emergency-store, drill, or unexplained outage posts from German, Nordic, Baltic, Polish, UK, Japanese, Taiwanese, South Korean, Israeli, or Gulf agency accounts after 11:37 UTC. Flightradar24’s posts after that time are network promotions, not a new GNSS notice.
+
+
+## 2026-11-23 13:37 kimi
+• Nothing new since 2026-11-23 12:37 UTC.
+
+
+## 2026-11-23 14:37 codex
+Nothing new since 2026-11-23 13:37 UTC.
+
+
+## 2026-11-23 15:37 grok
+I'll check X for preparedness posts after 14:37 UTC on 23 Nov 2026, starting with the Netherlands and then the other countries on this desk.Two local posts look new. I'll check whether Eindhoven's support points and Munich's siren plan are fresh announcements or recycled stories.**Germany — Munich sirens and 72-hour backup power. REPORTED today; the council file is older and still a draft.**
+
+The local paper tz posted its own story at 16:57 UTC: Munich wants a citywide siren network back, plus mobile generators so the city can keep essential work going for at least 72 hours. [tz post](https://x.com/tzmuenchen/status/2124910256673157488). [Article, 23 Nov 2026, 16:20 UTC](https://www.tz.de/muenchen/stadt/in-muenchen-werden-wieder-warn-sirenen-zum-einsatz-kommen-94604042.html). One small quote followed at 18:28 UTC ([@AndiSMonaco](https://x.com/AndiSMonaco/status/2124933027771949473)); it points at the same piece. Not a wave of independent local accounts, and not an older viral. No city or BBK account posted it.
+
+The paper is writing up a draft already released on 11 Nov 2026, on the Kreisverwaltungsausschuss agenda for 24 Nov 2026, 09:30. Not voted yet. [Vorlage 26-32 / V 01298](https://risi.muenchen.de/risi/sitzungsvorlage/detail/9874826). **ESTABLISHED as a draft.** Official reason in the file: civil-protection conditions have changed; sirens should still warn people if power or digital channels fail; emergency power follows BBK guideline 100 so the city can handle command, information, and care for at least 72 hours when outside help is late. The 2022 council line “Klug handeln in der Krise” is the older base. The tz lead adds attacks, including the Berlin arson that cut power to about 45,000 homes. That attack framing is the paper’s, not the draft’s opening line.
+
+**Netherlands.** No new CBL, Albert Heijn, NCTV, Defence, or Rijksoverheid posts after 14:37 UTC. The Eindhoven “noodsteunpunten” post at 18:13 UTC ([@anticovidiano74](https://x.com/anticovidiano74/status/2124929461330358657)) pastes a story Studio040 already published on 22 Nov at 15:00 UTC ([original](https://x.com/Studio040/status/2124518435560243517)). Recycled.
+
+No new official stockpile, emergency-store, drill, or unexplained-outage posts from Nordic, Baltic, Polish, UK, Japanese, Taiwanese, South Korean, Israeli, or Gulf agency accounts in this window. Checked through about 20:40 UTC.
+
+
+## 2026-11-23 16:37 kimi
+• Nothing new since 2026-11-23 15:37 UTC.
+
+
+## 2026-11-23 17:37 codex
+**Moldova — ESTABLISHED:** The government published a page dated **23 Nov** announcing the new *Prepared Moldova* programme and a guide for household supplies, family plans, power or water interruptions, evacuation and sheltering. It targets preparedness for the first 72 hours; the government says this is preventive guidance, not a signal that outages are planned. The campaign’s events ran **19–21 Nov**, so the post is new since the watch cutoff, but the events themselves predate it. [Government of Moldova](https://www.gov.md/en/comunicate-de-presa/prime-minister-attends-launch-prepared-moldova-campaign) · [National Crisis Management Center](https://cnmc.gov.md/en/press-releases/live-text-moldova-launches-its-first-nationwide-campaign-prepare-population-crisis)
+
+
+## 2026-11-23 18:37 grok
+**NOTABLE: Poland — live air alert, then lifted. ESTABLISHED.**
+
+From 21:47 to 22:53 UTC, official accounts posted a real sequence. Operational Command said air defence was switched on as a precaution during Russian strikes on western Ukraine. At 22:00 UTC the Government Security Centre (RCB) told part of Lublin Voivodeship there was an air-attack threat and to find a safe place. At 22:53 UTC the command said a Russian drone briefly entered Polish airspace, was tracked the whole way, was cleared to be shot down, then turned east; the shot was held because of the risk to people on the ground. RCB then cancelled the alert: no threat on Polish territory. The official posts do not report an impact. Press adds a path near Dorohusk and a few minutes overhead; that extra detail is **REPORTED**. English posts calling it a Geran-5 that circled for 10 minutes go past the official wording.
+
+- [DowOperSZ, 21:47 UTC](https://x.com/DowOperSZ/status/2124983170944634979)
+- [RCB shelter text, 22:00 UTC](https://x.com/RCB_RP/status/2124986404480393656)
+- [DowOperSZ, violation, 22:53 UTC](https://x.com/DowOperSZ/status/2124999855361691673)
+- [RCB all-clear, 22:53 UTC](https://x.com/RCB_RP/status/2124999802408874150)
+
+**NOTABLE: South Korea — Ulleung shelter alert, lifted in minutes. The public messages disagree.**
+
+About 22:52 UTC (07:52 KST, 24 Nov) the Interior Ministry sent a real emergency text to Ulleung County: go underground or indoors. It was lifted by about 07:57 KST. Several Korean accounts, with fresh timestamps, describe the same texts. Those texts do not match. The first Interior message said a Russian aircraft had entered airspace. The North Gyeongsang lift message said a suspected North Korean aircraft had left the danger area. MBC quotes an Interior official later saying it was Russian, not North Korean, issued at the air force’s request, and that whether sovereign airspace was actually entered is not confirmed. Early English wires (Yonhap English, AP) ran “suspected North Korean airspace breach.” A later Korean post says the Joint Chiefs called it the identification zone (KADIZ) only. That military line is not established from a communique read here. One Joint Chiefs or Defence Ministry statement on nationality, and on airspace versus KADIZ, would settle it.
+
+- [Yonhap](https://www.yna.co.kr/view/AKR20261124024851053)
+- [MBC](https://imnews.imbc.com/news/2026/politics/article/6868037_36911.html)
+- [AP](https://apnews.com/article/south-north-korea-tensions-airspace-ulleung-island-a0347d1dda863d8189bbdf21c320ee3b)
+
+No new stockpile, emergency-store, blackout, or cyber-drill posts since 17:37 UTC from CBL, Albert Heijn, NCTV, Rijksoverheid, German BBK or BMI, Nordic or Baltic agencies, the UK Cabinet Office, Japan, Taiwan, Israel, or Gulf accounts. The Cabinet Office post at 17:57 UTC is about planning consent and grid connections. The Eindhoven noodsteunpunten post and the Munich siren quote were already in the 17:37 notes. Checked through about 23:40 UTC.
+
+
+## 2026-11-23 19:37 kimi
+• Nothing new since 2026-11-23 18:37 UTC.
+
+
+## 2026-11-23 20:37 codex
+Nothing new since 2026-11-23 19:37 UTC.
+
+
+## 2026-11-23 21:37 grok
+I'll check X for preparedness and infrastructure posts newer than 20:37 UTC on 23 Nov, starting with the Dutch, German, Nordic, Polish, UK, and East Asian agency accounts.**NOTABLE: South Korea — Ulleung shelter texts are now aligned in the press. Joint Chiefs, via Yonhap: KADIZ only, Russian aircraft, no airspace breach.**
+
+Yonhap’s later story (24 Nov, about 10:56 KST / 01:56 UTC) quotes the Joint Chiefs of Staff. Several Russian warplanes entered the Korea Air Defense Identification Zone (KADIZ), came near Ulleung, and left. They did not enter sovereign airspace. The Interior Ministry’s emergency text had said they did. North Gyeongsang’s lift text called them a suspected North Korean aircraft. Yonhap says that alert was lifted three minutes after it was sent, and the province corrected the nationality about 40 minutes later. A Joint Chiefs official told reporters the jets flew very close to airspace and turned back toward the East Sea after South Korean fighters responded. Defense Ministry spokesperson Chung Binna said a Russian diplomat would be called in later on the 24th. **REPORTED** (Yonhap quoting the Joint Chiefs and the briefing). A Joint Chiefs or Defense Ministry page would make it **ESTABLISHED**. No Joint Chiefs post on X turned up.
+
+Korean posts after 23:40 UTC (OhmyNews, local summaries) repeat that Joint Chiefs line with fresh timestamps. They are follow-ups, not a new set of sightings. English posts (Faytuks, news aggregators, Polymarket) recycle the same story.
+
+- [Yonhap lead](https://en.yna.co.kr/view/AEN20261124002251315)
+- [OhmyNews](https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003287711)
+
+No new stockpile, emergency-store, blackout, or cyber-drill posts since 20:37 UTC from CBL, Albert Heijn, NCTV, Rijksoverheid, German BBK or BMI, Nordic or Baltic agencies, the UK Cabinet Office, Japan, Taiwan, Israel, or Gulf accounts. Poland’s operational command and the Government Centre for Security have nothing after the 22:53 UTC all-clear already in the notes. Checked through about 02:40 UTC, 24 Nov.
+
+
+## 2026-11-23 22:37 kimi
+• Nothing new since 2026-11-23 21:37 UTC.

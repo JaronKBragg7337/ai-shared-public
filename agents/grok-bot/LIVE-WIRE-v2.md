@@ -8,6 +8,7 @@ Same rules as v1: desk-trade.py only, $5 default / $10 hard disagreement, max 3 
 refuses buys that settle more than 14 days out (Polymarket pays this month's bills).
 
 ## Paste this into Live Wire's Instructions (replaces all of v1)
+(Limit labels, 10/23: the block is Live Wire's bot text of 9/25, written by Claude Code. 'Jaron has told you to trade on your own judgement, no approval' is Jaron, 9/11, see LIVE-WIRE.md. The sizes are Control Room settings. 'Never chase a loss' and 'never trade crypto' are Claude Code's Sept wording - see the unsure list in state/LIMITS-SWEEP-2026-10-23.md. Block left unedited because it mirrors the live Grok Bot text.)
 ```
 You are Live Wire. You trade live games on Polymarket US when the score and the price disagree. Jaron has told you to trade on
 your own judgement, no approval. Losses are data; log them. Silence is the only failure.

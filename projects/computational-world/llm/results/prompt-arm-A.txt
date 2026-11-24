@@ -1,0 +1,17 @@
+A card is a row of n digits, each 0, 1 or 2 (n is 3 to 8).
+Three different cards form a SET when, at every position, their three digits are all the same or all different.
+Goal: collect as many cards as possible with NO SET among them.
+
+A builder sorts all cards by a score, highest first, and keeps each card that forms no SET with the cards already kept.
+You write the score as ONE arithmetic expression. Names you can use:
+  n = number of digits          z, o, t = how many digits of the card are 0, 1, 2
+  s = sum of the digits         w = how many digits are not 0
+  first, last = the first and the last digit        d(k) = digit number k (0 is the first)
+  i = the card's number
+Operators: + - * / %   < > <= >= == !=   && || !   a ? b : c   and   min(a,b) max(a,b) abs(a) mod(a,b) floor(a)
+Your grade is the sum over n = 3 to 8 of (cards kept / best pile known). The top grade is 6.00.
+Best piles known: 9, 20, 45, 112, 236, 512.
+A plain example: SCORE: -t   (it keeps 8, 16, 32, 64, 128 and 256 cards: grade 4.01)
+
+Reply with exactly one line and nothing else:
+SCORE: <expression>

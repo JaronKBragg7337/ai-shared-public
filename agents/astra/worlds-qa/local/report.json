@@ -1,0 +1,758 @@
+[
+  {
+    "world": "hub",
+    "mobile": false,
+    "errors": []
+  },
+  {
+    "world": "ashgrove",
+    "mobile": false,
+    "errors": [],
+    "samples": [
+      {
+        "value": "1",
+        "text": "Loaded 1 of 35 town files"
+      },
+      {
+        "value": "1",
+        "text": "Loaded 2 of 35 town files"
+      },
+      {
+        "value": "2",
+        "text": "Loaded 3 of 35 town files"
+      },
+      {
+        "value": "3",
+        "text": "Loaded 4 of 35 town files"
+      },
+      {
+        "value": "4",
+        "text": "Loaded 5 of 35 town files"
+      },
+      {
+        "value": "4",
+        "text": "Loaded 6 of 35 town files"
+      },
+      {
+        "value": "5",
+        "text": "Loaded 7 of 35 town files"
+      },
+      {
+        "value": "6",
+        "text": "Loaded 8 of 35 town files"
+      },
+      {
+        "value": "6",
+        "text": "Loaded 9 of 35 town files"
+      },
+      {
+        "value": "7",
+        "text": "Loaded 10 of 35 town files"
+      },
+      {
+        "value": "8",
+        "text": "Loaded 11 of 35 town files"
+      },
+      {
+        "value": "9",
+        "text": "Loaded 12 of 35 town files"
+      },
+      {
+        "value": "9",
+        "text": "Loaded 13 of 35 town files"
+      },
+      {
+        "value": "10",
+        "text": "Loaded 14 of 35 town files"
+      },
+      {
+        "value": "11",
+        "text": "Loaded 15 of 35 town files"
+      },
+      {
+        "value": "11",
+        "text": "Loaded 16 of 35 town files"
+      },
+      {
+        "value": "12",
+        "text": "Loaded 17 of 35 town files"
+      },
+      {
+        "value": "13",
+        "text": "Loaded 18 of 35 town files"
+      },
+      {
+        "value": "14",
+        "text": "Loaded 19 of 35 town files"
+      },
+      {
+        "value": "14",
+        "text": "Loaded 20 of 35 town files"
+      },
+      {
+        "value": "15",
+        "text": "Loaded 21 of 35 town files"
+      },
+      {
+        "value": "16",
+        "text": "Loaded 22 of 35 town files"
+      },
+      {
+        "value": "16",
+        "text": "Loaded 23 of 35 town files"
+      },
+      {
+        "value": "17",
+        "text": "Loaded 24 of 35 town files"
+      },
+      {
+        "value": "18",
+        "text": "Loaded 25 of 35 town files"
+      },
+      {
+        "value": "19",
+        "text": "Loaded 26 of 35 town files"
+      },
+      {
+        "value": "19",
+        "text": "Loaded 27 of 35 town files"
+      },
+      {
+        "value": "20",
+        "text": "Loaded 28 of 35 town files"
+      },
+      {
+        "value": "21",
+        "text": "Loaded 29 of 35 town files"
+      },
+      {
+        "value": "21",
+        "text": "Loaded 30 of 35 town files"
+      },
+      {
+        "value": "22",
+        "text": "Loaded 31 of 35 town files"
+      },
+      {
+        "value": "23",
+        "text": "Loaded 32 of 35 town files"
+      },
+      {
+        "value": "24",
+        "text": "Loaded 33 of 35 town files"
+      },
+      {
+        "value": "24",
+        "text": "Loaded 34 of 35 town files"
+      },
+      {
+        "value": "25",
+        "text": "Loaded 35 of 35 town files"
+      },
+      {
+        "value": "29",
+        "text": "compiling shaders"
+      },
+      {
+        "value": "36",
+        "text": "generating materials"
+      },
+      {
+        "value": "46",
+        "text": "solving floorplans and raising the town"
+      },
+      {
+        "value": "46",
+        "text": "Building Town Hall B01"
+      },
+      {
+        "value": "47",
+        "text": "Building Fire Station B02"
+      },
+      {
+        "value": "47",
+        "text": "Building Diner B03"
+      },
+      {
+        "value": "48",
+        "text": "Building Chapel B04"
+      },
+      {
+        "value": "48",
+        "text": "Building Library B05"
+      },
+      {
+        "value": "49",
+        "text": "Building Clinic B06"
+      },
+      {
+        "value": "49",
+        "text": "Building Schoolhouse B07"
+      },
+      {
+        "value": "50",
+        "text": "Building General Store B08"
+      },
+      {
+        "value": "50",
+        "text": "Building Barn B09"
+      },
+      {
+        "value": "51",
+        "text": "Building Post Office B10"
+      },
+      {
+        "value": "51",
+        "text": "Building Cottage B11"
+      },
+      {
+        "value": "52",
+        "text": "Building Tudor B12"
+      },
+      {
+        "value": "52",
+        "text": "Building Ranch B13"
+      },
+      {
+        "value": "53",
+        "text": "Building Cottage B14"
+      },
+      {
+        "value": "53",
+        "text": "Building Tudor B15"
+      },
+      {
+        "value": "54",
+        "text": "Building Duplex B16"
+      },
+      {
+        "value": "54",
+        "text": "Building Duplex B17"
+      },
+      {
+        "value": "55",
+        "text": "Building Duplex B18"
+      },
+      {
+        "value": "55",
+        "text": "Building Cottage B19"
+      },
+      {
+        "value": "56",
+        "text": "Building Ranch B20"
+      },
+      {
+        "value": "56",
+        "text": "Building Ranch B21"
+      },
+      {
+        "value": "57",
+        "text": "Building Colonial B22"
+      },
+      {
+        "value": "57",
+        "text": "Building Colonial B23"
+      },
+      {
+        "value": "58",
+        "text": "Building Tudor B24"
+      },
+      {
+        "value": "58",
+        "text": "Building Colonial B25"
+      },
+      {
+        "value": "59",
+        "text": "Building Farmhouse B26"
+      },
+      {
+        "value": "59",
+        "text": "Building Bungalow B27"
+      },
+      {
+        "value": "60",
+        "text": "Building Bungalow B28"
+      },
+      {
+        "value": "60",
+        "text": "Building Bungalow B29"
+      },
+      {
+        "value": "61",
+        "text": "Building Farmhouse B30"
+      },
+      {
+        "value": "61",
+        "text": "Building A-Frame B31"
+      },
+      {
+        "value": "62",
+        "text": "Building Modern B32"
+      },
+      {
+        "value": "62",
+        "text": "Building Modern B33"
+      },
+      {
+        "value": "63",
+        "text": "Building Farmhouse B34"
+      },
+      {
+        "value": "63",
+        "text": "Building Modern B35"
+      },
+      {
+        "value": "64",
+        "text": "Building A-Frame B36"
+      },
+      {
+        "value": "64",
+        "text": "Building A-Frame B37"
+      },
+      {
+        "value": "65",
+        "text": "Building Townhouse B38"
+      },
+      {
+        "value": "65",
+        "text": "Building Cape Cod B39"
+      },
+      {
+        "value": "66",
+        "text": "Building Cape Cod B40"
+      },
+      {
+        "value": "66",
+        "text": "Building Townhouse B41"
+      },
+      {
+        "value": "67",
+        "text": "Building Cape Cod B42"
+      },
+      {
+        "value": "67",
+        "text": "Building Victorian B43"
+      },
+      {
+        "value": "68",
+        "text": "Building Victorian B44"
+      },
+      {
+        "value": "68",
+        "text": "Building Townhouse B45"
+      },
+      {
+        "value": "69",
+        "text": "Building Victorian B46"
+      },
+      {
+        "value": "69",
+        "text": "Building Split Level B47"
+      },
+      {
+        "value": "70",
+        "text": "Building Split Level B48"
+      },
+      {
+        "value": "70",
+        "text": "Building Split Level B49"
+      },
+      {
+        "value": "72",
+        "text": "catching up the world"
+      },
+      {
+        "value": "91",
+        "text": "milling doors"
+      },
+      {
+        "value": "97",
+        "text": "validating"
+      },
+      {
+        "value": "100",
+        "text": "ready"
+      }
+    ],
+    "buildings": 50,
+    "founding": 49
+  },
+  {
+    "world": "hub",
+    "mobile": true,
+    "errors": []
+  },
+  {
+    "world": "ashgrove",
+    "mobile": true,
+    "errors": [],
+    "samples": [
+      {
+        "value": "1",
+        "text": "Loaded 1 of 35 town files"
+      },
+      {
+        "value": "1",
+        "text": "Loaded 2 of 35 town files"
+      },
+      {
+        "value": "2",
+        "text": "Loaded 3 of 35 town files"
+      },
+      {
+        "value": "3",
+        "text": "Loaded 4 of 35 town files"
+      },
+      {
+        "value": "4",
+        "text": "Loaded 5 of 35 town files"
+      },
+      {
+        "value": "4",
+        "text": "Loaded 6 of 35 town files"
+      },
+      {
+        "value": "5",
+        "text": "Loaded 7 of 35 town files"
+      },
+      {
+        "value": "6",
+        "text": "Loaded 8 of 35 town files"
+      },
+      {
+        "value": "6",
+        "text": "Loaded 9 of 35 town files"
+      },
+      {
+        "value": "7",
+        "text": "Loaded 10 of 35 town files"
+      },
+      {
+        "value": "8",
+        "text": "Loaded 11 of 35 town files"
+      },
+      {
+        "value": "9",
+        "text": "Loaded 12 of 35 town files"
+      },
+      {
+        "value": "9",
+        "text": "Loaded 13 of 35 town files"
+      },
+      {
+        "value": "10",
+        "text": "Loaded 14 of 35 town files"
+      },
+      {
+        "value": "11",
+        "text": "Loaded 15 of 35 town files"
+      },
+      {
+        "value": "11",
+        "text": "Loaded 16 of 35 town files"
+      },
+      {
+        "value": "12",
+        "text": "Loaded 17 of 35 town files"
+      },
+      {
+        "value": "13",
+        "text": "Loaded 18 of 35 town files"
+      },
+      {
+        "value": "14",
+        "text": "Loaded 19 of 35 town files"
+      },
+      {
+        "value": "14",
+        "text": "Loaded 20 of 35 town files"
+      },
+      {
+        "value": "15",
+        "text": "Loaded 21 of 35 town files"
+      },
+      {
+        "value": "16",
+        "text": "Loaded 22 of 35 town files"
+      },
+      {
+        "value": "16",
+        "text": "Loaded 23 of 35 town files"
+      },
+      {
+        "value": "17",
+        "text": "Loaded 24 of 35 town files"
+      },
+      {
+        "value": "18",
+        "text": "Loaded 25 of 35 town files"
+      },
+      {
+        "value": "19",
+        "text": "Loaded 26 of 35 town files"
+      },
+      {
+        "value": "19",
+        "text": "Loaded 27 of 35 town files"
+      },
+      {
+        "value": "20",
+        "text": "Loaded 28 of 35 town files"
+      },
+      {
+        "value": "21",
+        "text": "Loaded 29 of 35 town files"
+      },
+      {
+        "value": "21",
+        "text": "Loaded 30 of 35 town files"
+      },
+      {
+        "value": "22",
+        "text": "Loaded 31 of 35 town files"
+      },
+      {
+        "value": "23",
+        "text": "Loaded 32 of 35 town files"
+      },
+      {
+        "value": "24",
+        "text": "Loaded 33 of 35 town files"
+      },
+      {
+        "value": "24",
+        "text": "Loaded 34 of 35 town files"
+      },
+      {
+        "value": "25",
+        "text": "Loaded 35 of 35 town files"
+      },
+      {
+        "value": "29",
+        "text": "compiling shaders"
+      },
+      {
+        "value": "36",
+        "text": "generating materials"
+      },
+      {
+        "value": "46",
+        "text": "solving floorplans and raising the town"
+      },
+      {
+        "value": "46",
+        "text": "Building Town Hall B01"
+      },
+      {
+        "value": "47",
+        "text": "Building Fire Station B02"
+      },
+      {
+        "value": "47",
+        "text": "Building Diner B03"
+      },
+      {
+        "value": "48",
+        "text": "Building Chapel B04"
+      },
+      {
+        "value": "48",
+        "text": "Building Library B05"
+      },
+      {
+        "value": "49",
+        "text": "Building Clinic B06"
+      },
+      {
+        "value": "49",
+        "text": "Building Schoolhouse B07"
+      },
+      {
+        "value": "50",
+        "text": "Building General Store B08"
+      },
+      {
+        "value": "50",
+        "text": "Building Barn B09"
+      },
+      {
+        "value": "51",
+        "text": "Building Post Office B10"
+      },
+      {
+        "value": "51",
+        "text": "Building Cottage B11"
+      },
+      {
+        "value": "52",
+        "text": "Building Tudor B12"
+      },
+      {
+        "value": "52",
+        "text": "Building Ranch B13"
+      },
+      {
+        "value": "53",
+        "text": "Building Cottage B14"
+      },
+      {
+        "value": "53",
+        "text": "Building Tudor B15"
+      },
+      {
+        "value": "54",
+        "text": "Building Duplex B16"
+      },
+      {
+        "value": "54",
+        "text": "Building Duplex B17"
+      },
+      {
+        "value": "55",
+        "text": "Building Duplex B18"
+      },
+      {
+        "value": "55",
+        "text": "Building Cottage B19"
+      },
+      {
+        "value": "56",
+        "text": "Building Ranch B20"
+      },
+      {
+        "value": "56",
+        "text": "Building Ranch B21"
+      },
+      {
+        "value": "57",
+        "text": "Building Colonial B22"
+      },
+      {
+        "value": "57",
+        "text": "Building Colonial B23"
+      },
+      {
+        "value": "58",
+        "text": "Building Tudor B24"
+      },
+      {
+        "value": "58",
+        "text": "Building Colonial B25"
+      },
+      {
+        "value": "59",
+        "text": "Building Farmhouse B26"
+      },
+      {
+        "value": "59",
+        "text": "Building Bungalow B27"
+      },
+      {
+        "value": "60",
+        "text": "Building Bungalow B28"
+      },
+      {
+        "value": "60",
+        "text": "Building Bungalow B29"
+      },
+      {
+        "value": "61",
+        "text": "Building Farmhouse B30"
+      },
+      {
+        "value": "61",
+        "text": "Building A-Frame B31"
+      },
+      {
+        "value": "62",
+        "text": "Building Modern B32"
+      },
+      {
+        "value": "62",
+        "text": "Building Modern B33"
+      },
+      {
+        "value": "63",
+        "text": "Building Farmhouse B34"
+      },
+      {
+        "value": "63",
+        "text": "Building Modern B35"
+      },
+      {
+        "value": "64",
+        "text": "Building A-Frame B36"
+      },
+      {
+        "value": "64",
+        "text": "Building A-Frame B37"
+      },
+      {
+        "value": "65",
+        "text": "Building Townhouse B38"
+      },
+      {
+        "value": "65",
+        "text": "Building Cape Cod B39"
+      },
+      {
+        "value": "66",
+        "text": "Building Cape Cod B40"
+      },
+      {
+        "value": "66",
+        "text": "Building Townhouse B41"
+      },
+      {
+        "value": "67",
+        "text": "Building Cape Cod B42"
+      },
+      {
+        "value": "67",
+        "text": "Building Victorian B43"
+      },
+      {
+        "value": "68",
+        "text": "Building Victorian B44"
+      },
+      {
+        "value": "68",
+        "text": "Building Townhouse B45"
+      },
+      {
+        "value": "69",
+        "text": "Building Victorian B46"
+      },
+      {
+        "value": "69",
+        "text": "Building Split Level B47"
+      },
+      {
+        "value": "70",
+        "text": "Building Split Level B48"
+      },
+      {
+        "value": "70",
+        "text": "Building Split Level B49"
+      },
+      {
+        "value": "72",
+        "text": "catching up the world"
+      },
+      {
+        "value": "91",
+        "text": "milling doors"
+      },
+      {
+        "value": "97",
+        "text": "validating"
+      },
+      {
+        "value": "100",
+        "text": "ready"
+      }
+    ],
+    "buildings": 50,
+    "founding": 49
+  }
+]

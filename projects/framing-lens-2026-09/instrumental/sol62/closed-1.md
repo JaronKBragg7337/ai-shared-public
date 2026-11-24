@@ -1,0 +1,1 @@
+The song could be mixed in stereo with instruments in both channels and vocals in just the left channel. If the truck has directional speakers aimed at the two seats, the coworker on the left hears the full mix and the coworker on the right hears only the instruments. Both channels use the same radio volume setting.

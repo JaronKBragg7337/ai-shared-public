@@ -84,8 +84,8 @@ def meters():
 
 def guess_kind(job, kinds):
     low = job.lower()
-    for kind in ("judgment", "looks", "build", "research", "chore"):
-        if any(word in low for word in kinds[kind].get("keywords", [])):
+    for kind in ("judgment", "world", "frontier", "looks", "build", "research", "chore"):   # frontier added 11/19 (GPT-6.2 Astra)
+        if kind in kinds and any(word in low for word in kinds[kind].get("keywords", [])):
             return kind
     return "chore"
 
@@ -106,8 +106,8 @@ def command(agent, job, workdir, run=False, kind=None):
 
 def available(agent_id, cfg, readings):
     agent = cfg["agents"][agent_id]
-    if agent.get("blocked") or agent_id == "fable":
-        return False, "blocked: Fable requires Jaron's prior approval"
+    if agent.get("blocked"):   # 10/23: Fable's old "needs Jaron's approval" (9/30 Pro-plan rule) removed - replaced 10/2, Jaron
+        return False, "blocked in state/routing.json"
     if agent_id in cfg.get("paused", []):
         return False, "paused in routing.json"
     meter = readings.get(agent.get("meter"), unknown())

@@ -1,0 +1,10 @@
+I'll inspect the image and look for a hidden message in its pixels and file structure.The skyline’s lit windows look like a pattern, so I’ll extract the pixel data and check both the window grid and the usual steganography channels.The columns decode as one sentence. I’ll remove the temporary analysis files.The hidden message is: **the heartbeat observatory never sleeps**
+
+It is encoded in the lit and dark windows on the eight buildings. Each column of seven windows is one ASCII character, read left to right across the skyline.
+
+- A lit window, RGB `(255, 217, 102)`, is a `1`. A dark window, RGB `(27, 36, 71)`, is a `0`.
+- The top window is the high bit (bit 6) and the bottom window is the low bit (bit 0), so the column is a 7-bit ASCII code.
+- Example: the first column is `1110100`, which is `116`, the letter `t`. A space is `0100000` (only the second window from the top is lit).
+- The buildings hold 6, 5, 7, 4, 4, 4, 4, and 4 columns, 38 characters in all.
+
+Nothing else in the file carries a second message. The low bits of the pixels are just the flat illustration colors, and the PNG has no extra chunks.

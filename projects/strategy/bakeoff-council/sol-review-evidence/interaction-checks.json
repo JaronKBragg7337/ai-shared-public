@@ -1,0 +1,52 @@
+{
+  "lampSheet": {
+    "selection": "Q-0008",
+    "sheet": "left lamp: the real lamp, cut out Q-0008 · PATCHEDcloseleft lamp: the real lamp, cut out (Q-0008) is PATCHED: made from pieces the camera did see, placed where it did not.Where these pixels came from (the Necklace for a picture): PATCHED = made from pieces the camera did see, placed where it did notreal lamp + plantframe v1/f0040.jpg, pixels (296,172) to (410,378) = 114 x 206 pxGrabCut cut-out of the real pixels (6 iterations), edge feathered 1 px; placed as an upright billboardWhy?Replay its first moment{ } JSON2 events touch this. Newest first. Tap a line to be there.80.7syou tapped left lamp: the real lamp, cut out. 0.0sleft lamp: the real lamp, cut out was patched together from real frame pixels. cut from the real frames and placed where nobody filmed",
+    "client": 353,
+    "scroll": 353,
+    "close": {
+      "x": 291.640625,
+      "y": 251.203125,
+      "width": 60.359375,
+      "height": 30,
+      "top": 251.203125,
+      "right": 352,
+      "bottom": 281.203125,
+      "left": 291.640625
+    }
+  },
+  "doorPoint": [
+    225.07259580023776,
+    256.1199480848043
+  ],
+  "unlock": {
+    "unlocked": 82.06666666666457,
+    "title": "the middle door D-0002 · seenclose",
+    "view": 82.33333333333123,
+    "sim": 82.33333333333123
+  },
+  "why": "Why this happened\n\nCause to effect, in plain words. Tap any step to replay it.\n\n\nYou tapped left lamp: the real lamp, cut out.\n80.7s · Replay this moment · E-00282\n\nYou unlocked the middle door. The room beyond was never filmed.\n82.1s · Replay this moment · E-00291\n\nThe unlock made a chime.\n82.1s · Replay this moment · E-00292",
+  "entry": {
+    "view": 95.39999999999715,
+    "sim": 95.39999999999715,
+    "entered": [
+      {
+        "eid": "E-00308",
+        "t": 86.667,
+        "id": "P-0001",
+        "e": "entered",
+        "target": "M-0005",
+        "p": [
+          -1.199,
+          0,
+          -0.99
+        ],
+        "basis": "made",
+        "note": "Into a room that exists only because the door was unlocked (made)."
+      }
+    ],
+    "panel": "Quest done: 13.5 s, 12 steps.He stands in a room nobody filmed, and the page says so. Two doors stay locked until new footage arrives. Now the room tests you.Play Witness"
+  },
+  "errors": [],
+  "fails": []
+}

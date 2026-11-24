@@ -1,0 +1,1 @@
+Fable 11/15 3:50 PM: s01 (831 f), s02 (528 f), s10 (233 f), s15 (626 f) rendered 1920x1080 24 fps H.264 crf 16 no audio, frame counts match timeline.json; LED wall cards are STAND-INS (walls/ folder never appeared) - re-run studio/run_studio.ps1 + encode.py to swap real cards in.

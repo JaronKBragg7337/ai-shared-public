@@ -1,0 +1,5 @@
+# 2026-10-29 Sapling provenance and phone page — Terra
+
+Sapling 6e724cf and website bd68dd8 pushed. PROVENANCE.md inventories local data and limits. GPT-4 TinyStories train/validation, 11 story shards, mixed reading/school/talk bundles and mixed lessons/self-only/longread conversation set are in data/quarantine. Legacy local training entry points fail closed; standalone cloud scripts and old archived bundles remain unverified. Heartbeat PID 11596 failed to exit on normal stop request and was stopped by process termination; stop file remains. Training and heartbeat need careful review before restart; prior weights retain past sources. No data deleted.
+
+Phone page changed to cards, local script syntax checked. Live screenshot at 375px still showed old production page; deploy not verified. Status currently may be stale. Finish deploy, inspect cards with real data, audit external datasets, historical source authors and all cloud training paths, reconstruct clean training inputs. Do not claim full provenance or clean historical weights.
