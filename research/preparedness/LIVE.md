@@ -1046,3 +1046,143 @@ No new stockpile, emergency-store, blackout, or cyber-drill posts since 20:37 UT
 
 ## 2026-11-23 22:37 kimi
 • Nothing new since 2026-11-23 21:37 UTC.
+
+
+## 2026-11-23 23:37 codex
+Nothing new since 2026-11-23 22:37 UTC.
+
+
+## 2026-11-24 00:37 grok
+I'll check X for preparedness and infrastructure posts newer than 23:37 UTC on 23 Nov, starting with the Dutch, German, Nordic, Polish, UK, and East Asian agency accounts.The Korea posts look like follow-ups of the story already in the notes. I'll check the Polish drone item and agency accounts for anything actually new after 23:37 UTC.Nothing new since 2026-11-23 23:37 UTC.
+
+
+## 2026-11-24 01:37 kimi
+• I’m checking official non-English sources for announcements after the cutoff, focusing on preparedness and unexplained infrastructure failures.
+
+• Nothing new since 2026-11-24 00:37 UTC.
+
+
+## 2026-11-24 08:37 codex (catch-up)
+## Overnight changes since 01:37 UTC
+
+- **NOTABLE: South Korea — REPORTED.** Yonhap says an emergency alert wrongly told Ulleung residents that an aircraft had violated South Korean airspace. The Joint Chiefs later said Russian aircraft entered the **air defense identification zone**, but not sovereign airspace; the alert was lifted after three minutes. The cause was an alert error, not a confirmed airspace violation. [Yonhap](https://en.yna.co.kr/view/AEN20261124002251315)
+
+- **Finland — ESTABLISHED.** The nationwide FI-Alert and multi-channel warning-system test is scheduled for **24 November, noon local time**. A Nov. 23 government notice says the alert will be sent in Finnish, Swedish and English; Sámi languages are omitted after technical problems in the first test. The stated aim is to check that warnings reach phones and other channels reliably. [Finnish Government](https://valtioneuvosto.fi/en/-/1410869/emergency-warning-system-to-be-tested-nationwide-in-november-including-fi-alert) [Nov. 23 update](https://valtioneuvosto.fi/en/frontpage?_fi_yja_language_version_tool_web_portlet_LanguageVersionToolMissingNotificationPortlet_missingLanguageVersion=1&decisionId=4403&gsid=a2ef8483-6cfc-4995-9d1d-40a4566bcd48&p_p_id=fi_yja_language_version_tool_web_portlet_LanguageVersionToolMissingNotificationPortlet)
+
+- **Estonia — ESTABLISHED.** The Rescue Services Agency says limited-area technical tests of the EE-ALARM cell-broadcast system are continuing through November. Some Android users may receive test messages; nationwide rollout is planned for spring 2027. [Estonian Rescue Services Agency](https://kriis.static.eu-live.vportal.ee/en/news/estonian-rescue-services-agency-reminds-technical-testing-ee-alarm-cell-broadcast-alerts-under)
+
+**Infrastructure failures:** No additional failure surfaced in the searches for this catch-up. The episode JSON could not be retrieved through the available web or local fetch, so this check does not confirm whether it contains other items.
+
+**Next thing:** Check for official results after Finland’s test.
+
+
+## 2026-11-24 09:37 grok
+I'll check X and official channels for preparedness moves or infrastructure failures posted after 08:37 UTC on 24 November.## 2026-11-24 ~14:40 UTC — X / early-signal
+
+**Finland — ESTABLISHED that the test ran; REPORTED on the result.** The nationwide warning test went out 12:00–12:30 local (10:00–10:30 UTC). The Interior Ministry said so on X at 10:54 UTC and set a 15:00 local briefing for preliminary results. [Ministry thread](https://x.com/Sisaministerio/status/2125181181947981898) [Briefing notice](https://x.com/Sisaministerio/status/2125201678098223407)
+
+At that briefing, rescue director Kimmo Kohvakka called it technically successful and gave it a 9−. The Emergency Response Centre saw no fault on its side. The 112 Suomi app worked. Some phones still got nothing; officials put that on the device or an old operating system, including some Doro phones. A “presidential-level notice” header means the phone can take the alert but is not fully updated. Some users were told to install a Filipino language pack; the cause is still under review. They do not yet know how many phones missed it. Further tests will continue, including lab tests with operators. No date for the next nationwide test. Sámi text was left out again and is still being fixed. [Yle](https://yle.fi/a/74-20258696) [STT via Suomenmaa](https://www.suomenmaa.fi/uutiset/sisaministerion-tiedotustilaisuus-fi-alert-vaaratiedotejarjestelman-testaus-oli-teknisesti-onnistunut/)
+
+A written results release was not on the ministry archive in this check. The briefing video is at [video.valtioneuvosto.fi](https://video.valtioneuvosto.fi/fi).
+
+**X pattern: original, not a recycled viral post.** Independent Finnish accounts posted the same glitches within hours, with screenshots, before the briefing confirmed them. [Tero Tuominen, Filipino-pack prompt](https://x.com/TeroTweet/status/2125225103260528711) [Tiina Keskimäki, “presidential-level” header](https://x.com/TiinaKeskimki/status/2125229050515861523). The ministry account then followed up. That is a real same-day local pattern.
+
+**Rest of the desk:** No new stockpile, emergency-store, blackout, or cyber-drill posts since 08:37 UTC from Dutch, German, Nordic, Baltic, Polish, UK, Japanese, Taiwanese, South Korean, Israeli, or Gulf official accounts checked. Other “blackout” posts in the window were sports and unrelated chatter.
+
+South Korea’s Ulleung alert and the Polish drone report were already public before 08:37 UTC. No new unexplained infrastructure failure in this pass.
+
+
+## 2026-11-24 10:37 kimi
+• I’ll check the non-English official channels for anything new since 09:37 UTC, excluding items already in the team notes.
+
+• Nothing new since 2026-11-24 09:37 UTC.
+
+
+## 2026-11-24 11:37 codex
+Nothing new since 2026-11-24 10:37 UTC.
+
+
+## 2026-11-24 12:37 grok
+I'll check X for new preparedness posts and unexplained infrastructure failures since 11:37 UTC, starting with the Netherlands and the other desks on the list.A few posts after 11:37 UTC look like they could be real. I'm checking official accounts and whether those items are new or recycled.Riyadh and a UK sabotage alert are the two items that look new. I'm checking whether official accounts posted them, or whether the posts are recycled.**NOTABLE:** Saudi Civil Defense said a Houthi attack on Tuesday hit a tower in Riyadh’s King Abdullah Financial District and injured 11 people (2 Saudis, 2 Indians, 3 Nepalis, 4 Egyptians). The coalition spokesman, Turki Al-Malki, had already called it a terrorist strike earlier the same day. A 19 November strike on a tower in the same district caused damage and no injuries. REPORTED. Civil Defense did not name the tower in the statements carried below. The Week identifies it as the Public Investment Fund tower. [Arab News](https://www.arabnews.com/saudi-arabia/coalition-says-skyscraper-at-riyadh-financial-district-targeted-in-cowardly-attack-3013857) [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/riyadh-s-finance-hub-attacked-saudi-anti-houthi-coalition-says) [Anadolu](https://www.anews.com.tr/middle-east/2026/11/24/11-injured-in-houthi-attack-on-riyadhs-financial-district-tower-saudi-civil-defense)
+
+X: a same-minute wave from about 17:33 UTC repeating that Civil Defense line. [RT Arabic](https://x.com/RTarabic/status/2125282576235397306) [تواصل](https://x.com/twasulnews/status/2125282435751670039). These are news mirrors, not independent eyewitnesses. No Civil Defense account post turned up in this pass. The attached clips were not checked against 19 November footage.
+
+**UK, new since 11:37 UTC.** NPSA (part of MI5) and the Ministry of Defence issued a joint alert to UK firms that supply Ukraine’s forces, including the supply chain. Official reason: Russia has stepped up sabotage against European defence sites in recent months, usually through proxies and simple methods such as arson. The alert tells firms to cut public exposure, spot hostile reconnaissance, and protect critical assets. ESTABLISHED. Public from about 12:09–12:35 UTC. [MI5](https://www.mi5.gov.uk/npsa-and-mod-issue-joint-alert) [Reuters](https://www.reuters.com/world/uk-warns-russian-sabotage-threat-companies-that-supply-ukraine-2026-11-24/) [PDF](https://www.mi5.gov.uk/sites/default/files/2026-11/NPSA%20MOD%20Alert%2024112026.pdf)
+
+X pattern: original. Separate accounts posted the same MI5 page, not an old clip. [David_Crayford](https://x.com/David_Crayford/status/2125275783623065736) [Mikhail Logvinov](https://x.com/LogvinovMichael/status/2125250196418511089)
+
+No new stockpile, emergency-store, blackout, or cyber-drill posts since 11:37 UTC from the Dutch, German, Nordic, Baltic, Polish, Japanese, Taiwanese, South Korean, or Israeli official accounts checked. Polish shelter-marking posts from [@MSWiA_OLiOC_GOV](https://x.com/MSWiA_OLiOC_GOV/status/2125252560764260644) at 15:37–15:44 UTC are updates on the existing civil-protection programme. Germany’s Sabotageschutzverordnung took effect today, but the government page was already up at 06:37 UTC. Later Finnish posts are more replies on the same FI-alert test.
+
+
+## 2026-11-24 13:37 kimi
+• I’ll check the non-English official-source lanes for announcements after the cutoff, excluding the already noted Polish, German, and Finnish updates.
+
+• The Japanese items are follow-ups to previously announced routine exercises and meetings, not new measures after the cutoff. I’m making a final pass over Gulf and outage sources.
+
+• Nothing new since 2026-11-24 12:37 UTC.
+
+
+## 2026-11-24 14:37 codex
+Nothing new since 2026-11-24 13:37 UTC.
+
+
+## 2026-11-24 15:37 grok
+**Poland, new since 14:37 UTC.** The Government Centre for Security (RCB) sent two SMS alerts to part of Lublin province, then cancelled both. Wording: a Russian air attack on Ukraine was being watched and Polish air-defence readiness was raised. The all-clear both times: the attack on Ukraine had ended and there was no threat on Polish territory. Original posts from the official account, not a viral copy. ESTABLISHED.
+
+- Alert 14:57 UTC, all-clear 15:19 UTC: [alert](https://x.com/RCB_RP/status/2125242492542919110), [all-clear](https://x.com/RCB_RP/status/2125248013127827502)
+- Alert 18:15 UTC, all-clear 18:24 UTC: [alert](https://x.com/RCB_RP/status/2125292263836119429), [all-clear](https://x.com/RCB_RP/status/2125294405821046949)
+- [gov.pl](https://www.gov.pl/web/rcb/alert-rcb---zagrozenie-atakiem-z-powietrza-2411)
+
+**Same evening, a restatement, not a new decision.** Interior minister Kierwiński, on TVN24, asked people not to switch off RCB alerts. He repeated a three-step SMS scale, an app aimed at mid-December, and cell broadcast around August 2027 that cannot be turned off. The app date was already public on 29 October and 21 November. The cell-broadcast letter of intent with operators is from 14 October 2026. Tonight’s posts are original ministry posts. ESTABLISHED as what he said. [MSWiA](https://x.com/MSWiA_GOV_PL/status/2125299536167878803) [TVN24](https://tvn24.pl/polska/alerty-rcb-szef-mswia-marcin-kierwinski-apeluje-o-ich-niewylaczanie-st9355965)
+
+**Finland.** The Interior Ministry posted at 15:00 UTC that today’s national warning test, and the second nationwide FI-Alert test, went as planned. Same exercise already on the board. Original official post. [Sisäministeriö](https://x.com/Sisaministerio/status/2125243150155350455)
+
+**Saudi Civil Defense.** The official account did post the 11-injury line, at 15:10 UTC. That post is original. The ~17:33 UTC cluster remains news mirrors. [SaudiDCD](https://x.com/SaudiDCD/status/2125245623138152608). An OSINT roundup’s “overnight Abha warning” matches the 23 November alert, which Civil Defense had already lifted. No new Abha alert today.
+
+No new stockpile, emergency-store, blackout-drill, or cyber-drill posts after 14:37 UTC from the Dutch (CBL, Albert Heijn, government), German, other Nordic or Baltic, UK, Japanese, Taiwanese, South Korean, or Israeli official accounts checked. Dutch “72 uur” posts after the cutoff are reshares of a Frontnieuws item from 13:02 UTC and private comments. Recycled. No new unexplained infrastructure failure in those countries in this pass.
+
+
+## 2026-11-24 16:37 kimi
+• I’ll check the original-language official channels for posts after the 15:37 UTC cutoff, then report only genuinely new items.
+
+• Nothing new since 2026-11-24 15:37 UTC.
+
+
+## 2026-11-24 17:37 codex
+REPORTED — India (Punjab): On 27 November at 8 p.m., the state plans a civil-defence exercise across all districts, including sirens and simulated blackouts in designated areas. The government statement describes it as a routine preparedness drill under Union Home Ministry directions. [PTI report](https://www.theweek.in/wire-updates/national/2026/11/24/blackout-mock-drill-in-punjab-on-nov-27-to-check-civil-defence-preparedness.amp.html)
+
+
+## 2026-11-24 18:37 grok
+I'll check X for official and local posts after 17:37 UTC on preparedness, drills, and infrastructure failures.Poland’s evening posts are already in the notes. I’ll check official accounts and whether anything after 17:37 UTC is new.**UAE.** ESTABLISHED. The Interior Ministry posted at 17:41 UTC that Exercise Union 55 runs Wednesday 25 November across all emirates, with field movements by participating units. Original official post. Later Arabic accounts are mirrors. Some add “do not film, stay clear, give way to police,” which is not in the short official post. No blackout, cyber, or food element is stated. The name matches the 55th National Day. [MOI](https://x.com/moiuae/status/2125283728033468591)
+
+**US embassies (Gulf / Israel).** ESTABLISHED as a reissue, not a new stockpile program. U.S. Embassy Riyadh posted at 22:58 UTC a 24 November security alert: heightened vigilance, possible flight and airspace disruption, and land borders still open. The reason given is Iranian attacks on US assets in Bahrain and Kuwait, and Houthi attacks on Saudi airports and infrastructure. Original official post. The post body does not say “stockpile.” [USAinKSA](https://x.com/USAinKSA/status/2125363381628506594)
+
+The Jerusalem page the same day adds: know your nearest shelter, and keep food, water, medications, and other essentials. That supply sentence is older boilerplate. The same line is in the 28 February Kuwait shelter alert, and Kuwait had the same alert series on 18 November and 7 November. Iraq and Kuwait also carry a 24 November page in this series. [Jerusalem](https://il.usembassy.gov/security-alert-u-s-embassy-jerusalem-november-24-2026/)
+
+**Viral add-on.** CLAIMED. At 23:15 UTC, @6odjh said an eight-country warning told people to stockpile and find shelters, and added a CIA breach and a nuclear-threshold claim. [Post](https://x.com/6odjh/status/2125367828325032364). Shelter and a short supply line are in the Jerusalem “actions to take” text. The CIA and nuclear lines are not in the embassy texts read here. One low-credibility account, not a set of independent official posts.
+
+**Rest of the desk.** No new stockpile, emergency-store, blackout-drill, or cyber-drill posts after 17:37 UTC from the Dutch, German, Nordic, Baltic, UK, Japanese, Taiwanese, South Korean, or Israeli official accounts checked. Dutch “72 uur” posts are reshares of the same Frontnieuws item. Recycled. Punjab posts on X are mirrors of the 27 November drill already on the board. Poland’s 18:15 and 18:24 RCB posts are the evening Lublin air alert and all-clear already tied to the gov.pl page. Later MSWiA posts are the same Kierwiński interview. Not a new decision.
+
+
+## 2026-11-24 19:37 kimi
+• I’ll check the official native-language channels for announcements posted after 18:37 UTC, and report only genuinely new items.
+
+• Nothing new since 2026-11-24 18:37 UTC.
+
+
+## 2026-11-24 20:37 codex
+NOTABLE: **REPORTED, 20:29 UTC:** AP reports an attack breached a CIA system handling open-source intelligence. An unnamed person familiar with the incident said it was resolved and involved no classified information; what was accessed and who was responsible remain unclear. No service outage was reported. [AP](https://apnews.com/article/bfa6d3b02e3b0e2779dfb613c900bd77)
+
+
+## 2026-11-24 21:37 grok
+I'll check X for preparedness and infrastructure posts after 20:37 UTC on 24 November, starting with the Netherlands and the other desks, and I'll only flag what is new.Broad search is mostly noise (US munitions talk and “Blackout Wednesday”). Next I’ll check official and local accounts in the assigned countries.A few late items need a check against official pages: a possible UAE mission alert, and whether any agency actually posted a new preparedness or outage notice.**Assigned desks (Netherlands, Germany, Nordics/Baltics, Poland, UK, Japan, Taiwan, South Korea, Israel).** No new official stockpile, emergency-store, blackout-drill, or cyber-drill posts since 20:37 UTC. Dutch “72 uur” items after that are another share of the same Frontnieuws link (recycled) and one private account’s personal outage tips at 00:21 UTC. Not a pattern.
+
+**Gulf.** Original official post, same 24 November series already on the board. US Mission UAE at 01:40 UTC on 25 November posted the security alert: heightened vigilance, possible flight and airspace disruption, Iranian attacks on US assets in Bahrain and Kuwait, and Houthi attacks on Saudi airports and infrastructure. The post and the embassy page do not say “stockpile.” [Post](https://x.com/USAinUAE/status/2125404201157009448) [Page](https://ae.usembassy.gov/security-alert-u-s-mission-united-arab-emirates-november-24-2026/). Later posts about a multi-country warning restate this series.
+
+**Infrastructure, outside that country list.** REPORTED. About 18:30 local (23:30 UTC) on 24 November, CEDENAR said both 230 kV circuits between San Bernardino (Cauca) and Jamondino (Pasto) failed at once. That is Nariño’s main link to the national grid. Outages were reported across Nariño and Putumayo, with parts of Cauca, Huila, and Caquetá also named locally. CEDENAR said the cause was still being identified. Restoration is with the national dispatch center. [Local relay](https://x.com/elcontrastenoti/status/2125404783456502262) [Nariño Ahora](https://x.com/NarinoAhora/status/2125414070853447943) [Infobae](https://www.infobae.com/colombia/2026/11/25/reportan-apagones-en-narino-putumayo-y-otros-departamentos-verifican-los-motivos-de-la-falta-de-energia/).
+
+The attack claim is not established either way. Infobae says no authority had confirmed an attack. A local post citing El Espectador says police heard a detonation and two towers fell at El Remolino, Taminango, and are still checking whether it was an armed attack. Viral posts state it as an armed-group attack. That framing is ahead of the utility. [Post](https://x.com/mayamayas/status/2125415031135203770). A CEDENAR or National Police finding would settle the cause.
+
+
+## 2026-11-24 22:37 kimi
+• Nothing new since 2026-11-24 21:37 UTC.

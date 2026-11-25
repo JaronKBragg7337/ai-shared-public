@@ -7,11 +7,16 @@ import social_daily as S
 
 spec = json.load(open(sys.argv[1], encoding="utf-8"))
 if spec.get("posted"): S.log(f"moment {spec['id']}: already posted"); sys.exit(0)
-ch = S.channels()
+ch = S.route(S.channels())   # 11/24: "direct" = our own door (tools/direct_post.py) instead of a Postiz channel
 for p in [c for c in spec.get("channels", []) if c in ch and c != "x"]:   # 10/20: artifacts go to every platform
     try: S.post(p, ch[p], spec["video"], spec.get("caption", spec["x"]), spec.get("title", spec["id"])); S.log(f"moment {spec['id']} -> {p} OK")
     except Exception as e: S.log(f"moment {spec['id']} -> {p} FAILED: {e}")
-if "x" in ch:
+if ch.get("x") == "direct":
+    try:
+        import direct_post as D
+        D.x_post(spec["x"], spec.get("video") or None); S.log(f"moment {spec['id']} -> x OK (our own door)")
+    except Exception as e: S.log(f"moment {spec['id']} -> x FAILED: {e}"); S.buzz(f"Moment post to X failed: {e}"[:200], "moment-" + spec["id"])
+elif "x" in ch:
     try:
         args = ["posts:create", "-c", spec["x"], "-s", (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=1)).strftime("%Y-%m-%dT%H:%M:%SZ"), "-i", ch["x"],
                 "--settings", json.dumps(S.settings_for("x", spec["id"]))]
@@ -21,6 +26,7 @@ if "x" in ch:
         if isinstance(r, dict) and (r.get("statusCode", 200) >= 400 or r.get("error")): raise RuntimeError(str(r)[:300])
         S.log(f"moment {spec['id']} -> x OK")
     except Exception as e: S.log(f"moment {spec['id']} -> x FAILED: {e}"); S.buzz(f"MMX launch post to X failed: {e}"[:200], "moment-" + spec["id"])
+else: S.log(f"moment {spec['id']} -> x SKIPPED: no door for X (Postiz gave us no channel and our own X keys are not on file; RECONNECT.md part 13 B)")
 if spec.get("site"):
     try: S.site_post(spec["site"]); S.log(f"moment {spec['id']} -> site OK")
     except Exception as e: S.log(f"moment {spec['id']} -> site FAILED: {e}")

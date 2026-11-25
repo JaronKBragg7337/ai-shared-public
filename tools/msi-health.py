@@ -14,7 +14,7 @@ NOW_MD = os.path.join(ROOT, "state", "msi-health-now.md")
 LOG_MD = os.path.join(ROOT, "state", "msi-health.md")
 LAST = os.path.join(ROOT, "state", "msi-health-last.json")
 
-PORTS = {11434: "Ollama", 18789: "OpenClaw", 8765: "Polymarket MCP", 3001: "msi-heartbeat connector"}
+PORTS = {11434: "Ollama", 3001: "msi-heartbeat connector"}   # 11/24: OpenClaw + Polymarket MCP off on purpose (Jaron)
 TASKS = ["Watch Codex Writer", "Watch DeepSeek Reader", "Heartbeat News Writer", "Watch Funding Lane", "Live Board",
          "DB Size Check", "Usage Snapshot", "AI-Shared Mirror", "Polymarket MCP", "Grok Machine MCP", "Ollama Server",
          "MSI Health", "Trade Proposer", "Trade Verifier", "Trade Executor"]

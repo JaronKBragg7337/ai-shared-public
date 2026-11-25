@@ -72,7 +72,12 @@ def ass(lines, offset=0.0, end=None, endcard=None, cut=None):
 
 def run(args):
     print(" ".join(args[:6]), "...", flush=True)
-    subprocess.run(args, check=True)
+    # 11/24: ffmpeg sometimes fails reading a just-written PNG ("inflate returned error -3"); the same file reads clean a
+    # moment later (30/30). One retry after a short pause instead of failing the whole cut.
+    if subprocess.run(args).returncode:
+        print("ffmpeg failed - retrying once in 5 s", flush=True)
+        import time; time.sleep(5)
+        subprocess.run(args, check=True)
 
 
 def vf(assfile):

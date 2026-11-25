@@ -3,6 +3,9 @@
 # -> plan (timing, cameras, wall graphics, soundtrack) -> Unreal render (lip-sync, cuts, Vex mouth, walls) -> mp4 -> Supabase Storage.
 # Log: projects/news-show/rendered-runs.log. Run by hand:  powershell -File run_rendered_news.ps1 [-Date 2026-09-27]
 param([string]$Date = (Get-Date -Format "yyyy-MM-dd"), [switch]$RenderOnly, [switch]$Fast)
+# 11/24 (Fable's hunt, state/msi-data-hunt.md): one fast core (logical 10+11 of the i9-14900HX) gives wrong answers at top speed -
+# bad PNG reads, silent video damage. Keep this script and everything it starts (Unreal, ffmpeg, Python) off those two.
+try { (Get-Process -Id $PID).ProcessorAffinity = [IntPtr]4294964223 } catch {}   # FFFFF3FF = all 32 except 10 and 11
 # NEWS DEADLINE RULE (Jaron 10/18): the day's show must be live by 8 AM, never after noon. Running late = use the FASTEST way
 # we have (-Fast = fewer render samples, ~several x quicker), never the slow full-quality path. Fast is automatic after 5:15 AM.   # -RenderOnly: voices + plan already made, just render + publish
 $ErrorActionPreference = "Stop"
@@ -106,7 +109,20 @@ try {
     $env:EP_SPATIAL = "1"; $env:EP_TEMPORAL = "1"
     Get-Process zenserver -ErrorAction SilentlyContinue | Stop-Process -Force   # 11/1: a stale zen server can hang Unreal at startup
     $p = Start-Process $UE -ArgumentList "`"C:\Users\lilli\Projects\necklace-unreal\NecklaceFilm.uproject`" -ExecCmds=`"py C:/Users/lilli/Projects/necklace-unreal/episode_render.py`"" -PassThru
-    $p.WaitForExit(2 * 3600 * 1000) | Out-Null
+    # 11/24: the retry itself hung 55 min at 'Waiting for ZenServer' with 0 frames (it only had the 2 h cap). Same stall rule
+    # as the first attempt: 0 frames after 15 min = restart Unreal + zen ONCE; 0 again = give up so the failure is reported early.
+    $t1 = Get-Date; $relaunched = $false
+    while (-not $p.WaitForExit(60000)) {
+      $rm = ((Get-Date) - $t1).TotalMinutes; $rc = (Get-ChildItem $Frames -Filter "f_*.png" -ErrorAction SilentlyContinue).Count
+      if ($rc -eq 0 -and $rm -gt 15) {
+        Stop-Process -Id $p.Id -Force; Get-Process zenserver -ErrorAction SilentlyContinue | Stop-Process -Force; Start-Sleep -Seconds 10
+        if ($relaunched) { Say "fast retry: 0 frames again after 15 min - giving up"; break }
+        Say "fast retry: 0 frames after 15 min (stall) - restarting Unreal once"
+        $p = Start-Process $UE -ArgumentList "`"C:\Users\lilli\Projects\necklace-unreal\NecklaceFilm.uproject`" -ExecCmds=`"py C:/Users/lilli/Projects/necklace-unreal/episode_render.py`"" -PassThru
+        $t1 = Get-Date; $relaunched = $true; continue
+      }
+      if ($rm -gt 120) { break }
+    }
     # 11/18: if the fast retry is still running after 2 h, end it (by PID) so the auto-resume below never starts a SECOND
     # Unreal next to it on the 8 GB card (it also kills zenserver). The frames on disk are kept; the tail render resumes from them.
     if (-not $p.HasExited) { Say "fast retry still running after 2 h - ending it so the tail render can resume"; Stop-Process -Id $p.Id -Force; Start-Sleep -Seconds 10 }
@@ -121,7 +137,12 @@ try {
     $env:EP_SPATIAL = "1"; $env:EP_TEMPORAL = "1"; $env:EP_START = "$n"
     Get-Process zenserver -ErrorAction SilentlyContinue | Stop-Process -Force
     $p = Start-Process $UE -ArgumentList "`"C:\Users\lilli\Projects\necklace-unreal\NecklaceFilm.uproject`" -ExecCmds=`"py C:/Users/lilli/Projects/necklace-unreal/episode_render.py`"" -PassThru
-    $p.WaitForExit(90 * 60 * 1000) | Out-Null
+    # 11/24: a tail render that adds no frames in 15 min is stuck (zen hang) - end it instead of waiting the full 90 min
+    $t1 = Get-Date
+    while (-not $p.WaitForExit(60000)) {
+      $tm = ((Get-Date) - $t1).TotalMinutes
+      if ($tm -gt 90 -or ($tm -gt 15 -and (Get-ChildItem $Frames -Filter "f_*.png" -ErrorAction SilentlyContinue).Count -le $before)) { break }
+    }
     if (-not $p.HasExited) { Stop-Process -Id $p.Id -Force }
     Remove-Item Env:EP_START -ErrorAction SilentlyContinue
     $n = (Get-ChildItem $Frames -Filter "f_*.png" -ErrorAction SilentlyContinue).Count

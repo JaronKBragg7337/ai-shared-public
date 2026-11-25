@@ -84,7 +84,10 @@ def validate(response, news):
         if isinstance(size, bool) or not isinstance(size, (int, float)) or not math.isfinite(size) or not 0 < size <= 10:
             raise ValueError('size must be above 0 and at most 10 percent')
         if not isinstance(story, str) or len(story.strip()) < 12 or story.strip().lower() not in news.lower():
-            raise ValueError('story must be an exact named excerpt from the news list, at least 12 characters')
+            # 11/24: one misquoted story used to throw away the whole day's calls (and the model repeats itself, so a retry
+            # doesn't help). Drop only that call - nothing with an unquoted story is ever recorded.
+            print('dropped one call: its story is not an exact excerpt of the news list', file=sys.stderr)
+            continue
         if not isinstance(reason, str) or not 10 <= len(reason.strip()) <= 300 or '\n' in reason or '\r' in reason:
             raise ValueError('reason must be a single line of 10 to 300 characters')
         result.append({'etf': symbol, 'direction': direction, 'horizon': horizon, 'size_pct': size,

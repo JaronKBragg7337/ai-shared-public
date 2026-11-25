@@ -9,3 +9,4 @@ machine is not normal: one is a warning, two in different runs means hardware.
 - 2026-11-22 13:36 | **CLEAN** | 6.1 min | 7 workers, normal | RAM 6.0 GB, 302 passes (179 GB checked) | 3504 CPU answers | disk 7.0 GB written+read (uncached) | wrong: 0 (none) | whole-machine CPU 30%
 - 2026-11-22 13:43 | **CLEAN** | 10.1 min | 30 workers, normal | RAM 8.0 GB, 2896 passes (272 GB checked) | 23240 CPU answers | disk 11.2 GB written+read (uncached) | wrong: 0 (none) | whole-machine CPU 97%
 - 2026-11-23 01:15 | **CLEAN** | 30.2 min | 30 workers, below_normal | RAM 8.0 GB, 6020 passes (564 GB checked) | 24064 CPU answers | disk 22.5 GB written+read (uncached) | wrong: 0 (none) | whole-machine CPU 54%
+- 2026-11-24 01:15 | **CLEAN** | 30.2 min | 30 workers, below_normal | RAM 8.0 GB, 5906 passes (554 GB checked) | 23600 CPU answers | disk 22.5 GB written+read (uncached) | wrong: 0 (none) | whole-machine CPU 55%

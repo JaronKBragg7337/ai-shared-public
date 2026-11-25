@@ -1,67 +1,5 @@
 {
  "_last_desk": "watchdesk",
- "2026-11-16": {
-  "gulf": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 07:05"
-  },
-  "yemen": {
-   "desk": "firstlight",
-   "at": "2026-11-16 08:05"
-  },
-  "nvidia": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 09:05"
-  },
-  "faa": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 10:05"
-  },
-  "markets": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 11:05"
-  },
-  "new-orleans": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 12:05"
-  },
-  "crypto": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 13:05"
-  },
-  "ukraine-war": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 14:05"
-  },
-  "science": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 15:05"
-  },
-  "europe": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 16:05"
-  },
-  "tech": {
-   "desk": "wiredesk",
-   "at": "2026-11-16 17:05"
-  },
-  "israel": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 18:05"
-  },
-  "washington": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 19:05"
-  },
-  "asia-summits": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 20:05"
-  },
-  "first-light": {
-   "desk": "watchdesk",
-   "at": "2026-11-16 21:05"
-  }
- },
  "2026-11-17": {
   "dc-plan": {
    "desk": "wiredesk",
@@ -478,6 +416,68 @@
   "health": {
    "desk": "watchdesk",
    "at": "2026-11-23 21:05"
+  }
+ },
+ "2026-11-24": {
+  "nvidia": {
+   "desk": "wiredesk",
+   "at": "2026-11-24 07:05"
+  },
+  "gulf": {
+   "desk": "firstlight",
+   "at": "2026-11-24 08:05"
+  },
+  "space": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 09:05"
+  },
+  "weapons": {
+   "desk": "firstlight",
+   "at": "2026-11-24 10:05"
+  },
+  "politics": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 11:05"
+  },
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-11-24 12:05"
+  },
+  "ice": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 13:05"
+  },
+  "asia": {
+   "desk": "firstlight",
+   "at": "2026-11-24 14:05"
+  },
+  "iowa": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 15:05"
+  },
+  "mideast": {
+   "desk": "firstlight",
+   "at": "2026-11-24 16:05"
+  },
+  "business": {
+   "desk": "wiredesk",
+   "at": "2026-11-24 17:05"
+  },
+  "climate": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 18:05"
+  },
+  "tech": {
+   "desk": "wiredesk",
+   "at": "2026-11-24 19:05"
+  },
+  "europe": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 20:05"
+  },
+  "americas": {
+   "desk": "watchdesk",
+   "at": "2026-11-24 21:05"
   }
  }
 }

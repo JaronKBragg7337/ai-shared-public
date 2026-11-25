@@ -32,6 +32,7 @@ Updated 2026-10-27. One line each. When a plan is added or changes, update its l
 - [SUBDOMAINS.md](SUBDOMAINS.md): front doors for products, plus sites for other people on a Heartbeat subdomain.
 
 ## Money and growth
+- **Our own posting to X and YouTube, replacing Postiz ($29/mo declined 11/24/2026):** built and dry-run tested 11/24 (`tools/direct_post.py`, wired into `tools/social_daily.py`; Postiz stays selectable in `state/social-path.json`). Waiting on Jaron's two one-time sign-ins (RECONNECT.md part 13; YouTube free, X about $5 of credits once). Postiz likely stops around Tue 12/1. TikTok pauses then: no door of our own until TikTok reviews an app of ours (not started).
 - [WHEN-ID-ARRIVES.md](WHEN-ID-ARRIVES.md): the ordered unlock list for the day his ID comes (bank, payments, app stores, grants, Steam/Xbox/PS). Claude raises it that day.
 - [REVENUE-STREAMS.md](REVENUE-STREAMS.md), [GROWTH-MODEL.md](GROWTH-MODEL.md), [UNLOCK-LADDER.md](UNLOCK-LADDER.md) (what each money step unlocks), [PRE-LLC-PROJECTS.md](PRE-LLC-PROJECTS.md).
 - Open ideas (in `state/open-list.md`): Studio beat registry and marketplace, a CFO / money-map AI, a future nonprofit, and the control room as a product.

@@ -19,7 +19,7 @@ if ($mins -gt 180) { Write-Host "  NOTE: that was a while ago - is this actually
 Write-Host ""
 
 Write-Host "1. Services listening" -ForegroundColor Cyan
-foreach ($p in @(@{n='Ollama (the model)';port=11434}, @{n='OpenClaw gateway';port=18789}, @{n='Polymarket MCP';port=8765}, @{n='Heartbeat MCP';port=3001})) {
+foreach ($p in @(@{n='Ollama (the model)';port=11434}, @{n='Heartbeat MCP';port=3001})) {
     if (Get-NetTCPConnection -State Listen -LocalPort $p.port -ErrorAction SilentlyContinue) { Ok "$($p.n) - port $($p.port)" }
     else { Bad "$($p.n) - port $($p.port) NOT listening" }
 }

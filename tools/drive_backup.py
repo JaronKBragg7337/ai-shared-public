@@ -1,4 +1,5 @@
 """drive_backup.py - the two nightly backups into Google Drive (G:), with a guard (built 11/23).
+RETIRED 11/24 (Jaron: "Google Drive has always had issues"): its 3 tasks are disabled; the off-MSI Supabase backup (tools/offsite_backup.py) is the copy now. Kept, not deleted.
 
 The 11/23 investigation (6 agents, research/fact-checks style notes in state/timeline.md 11/23) found that Drive's local index
 goes "corrupt" (SQLite code 11) only inside the running Drive program - every saved copy checks out on disk - and almost always

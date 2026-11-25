@@ -3,7 +3,15 @@
 #   pythonw social_daily.py show   - the next show in state/social-queue.json -> every platform it isn't on yet  (task ~6:00 PM)
 #   add --dry  to print what would post without posting.
 # Posts go through Postiz (hosted, its approved TikTok/YouTube/X apps); the Postiz CLI must be signed in (postiz auth:login) with the
-# three company channels connected. Log: state/social-posts.log. If Postiz isn't ready, one ntfy buzz a day says so, nothing else.
+# three company channels connected. Log: state/social-posts.log.
+# 11/24: when a platform has no door (Postiz gave us no channel there and our own keys are not on file) the log says so once a
+#   day and Jaron gets ONE buzz when that begins, not one a day. Our own site still gets every post, also with no outside door at all.
+# 11/24 (Postiz's $29 was declined): a second door, our own posting straight to X and YouTube (tools/direct_post.py).
+#   state/social-path.json says which door each platform uses, e.g. {"x": "direct", "youtube": "direct", "tiktok": "paused"}:
+#     "postiz" (the default, also with no file) = Postiz while it still has the channel; the day Postiz drops it, our own door
+#                takes over by itself, if its keys are on file.     "direct" = our own door.     "paused" = skip that platform.
+#   add --direct to send X and YouTube through our own door for this run (with --dry it prints the exact requests, sends nothing).
+#   TikTok has no door of our own (its posting API needs an app TikTok has reviewed), so without Postiz it is paused.
 import sys, os, json, subprocess, datetime, urllib.request, shutil, tempfile, hashlib
 from zoneinfo import ZoneInfo
 
@@ -20,6 +28,10 @@ NOW = datetime.datetime.now()
 try: sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception: pass
 NOWIN = 0x08000000   # CREATE_NO_WINDOW: no console flashes from the scheduled task (10/16 rule)
+PATH_FILE = AI + "/state/social-path.json"   # which door each platform uses (see the top of this file)
+FORCE_DIRECT = "--direct" in sys.argv
+POSTIZ_HAS = {}   # the channels Postiz has right now; the fallback when our own door fails before anything was sent
+SHUT = []         # the platforms with no door at all in this run (filled by route(); a platform set to "paused" is not in it)
 
 
 def log(m):
@@ -35,14 +47,22 @@ def env():
     return d
 
 
+def once_a_day(key):
+    flag = os.path.join(tempfile.gettempdir(), "social_daily_" + key + NOW.strftime("%Y%m%d"))
+    if os.path.exists(flag): return False
+    open(flag, "w").close(); return True
+
+
 def buzz(msg, once_key):
-    flag = os.path.join(tempfile.gettempdir(), "social_daily_" + once_key + NOW.strftime("%Y%m%d"))
-    if os.path.exists(flag): return
-    open(flag, "w").close()
+    """One plain line to Jaron's phone, at most once a day per key. True if it went out."""
+    if not once_a_day(once_key): return False
     try:
         topic = env().get("NTFY_TOPIC")
-        if topic: urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/" + topic, data=msg.encode(), method="POST"), timeout=20)
+        if topic:
+            urllib.request.urlopen(urllib.request.Request("https://ntfy.sh/" + topic, data=msg.encode(), method="POST"), timeout=20)
+            return True
     except Exception: pass
+    return False
 
 
 def pz(*args):
@@ -64,6 +84,69 @@ def channels():
         key = "x" if ident in ("x", "twitter") else ("tiktok" if ident.startswith("tiktok") else ident)
         if key in ("tiktok", "youtube", "x"): m[key] = it["id"]
     return m
+
+
+def said(ps):
+    """['tiktok', 'x'] -> 'X and TikTok'"""
+    l = [{"x": "X", "youtube": "YouTube", "tiktok": "TikTok"}[p] for p in ("x", "youtube", "tiktok") if p in ps]
+    return ", ".join(l[:-1]) + " and " + l[-1] if len(l) > 1 else "".join(l)
+
+
+def route(ch):
+    """Which door each platform uses: {platform: its Postiz channel id, or "direct" for our own door (tools/direct_post.py)}.
+    ch = what Postiz has right now ({} when Postiz is off). A platform with no usable door is left out, so it is skipped,
+    and it is named in SHUT."""
+    import direct_post as D
+    try: path = json.load(open(PATH_FILE, encoding="utf-8"))
+    except Exception: path = {}
+    POSTIZ_HAS.clear(); POSTIZ_HAS.update({p: c for p, c in ch.items() if c != "dry"})
+    out = {}; SHUT.clear()
+    for p in ("tiktok", "youtube", "x"):
+        ours = p != "tiktok" and (DRY or D.have(D.X_KEYS if p == "x" else D.YT_KEYS))   # is our own door ready for it?
+        want = "direct" if FORCE_DIRECT and p != "tiktok" else path.get(p, "postiz")
+        if want == "paused":
+            if not DRY and once_a_day("paused-" + p): log(f"{p}: paused in state/social-path.json - skipped")
+        elif want == "direct" and ours: out[p] = "direct"
+        elif p in ch:
+            out[p] = ch[p]
+            if want == "direct" and not DRY and once_a_day("notready-" + p): log(f"{p}: our own door is not ready (keys missing) - still using Postiz")
+        elif ours:
+            out[p] = "direct"
+            if not DRY and once_a_day("failover-" + p): log(f"{p}: Postiz no longer has this channel - using our own door (tools/direct_post.py)")
+        else: SHUT.append(p)
+    if SHUT and not DRY and once_a_day("nodoor-" + "-".join(SHUT)):
+        why = []
+        if "x" in SHUT or "youtube" in SHUT: why.append("our own keys for " + said([p for p in SHUT if p != "tiktok"]) + " are not on file (one-time sign-ins: RECONNECT.md part 13)")
+        if "tiktok" in SHUT: why.append("TikTok has no door of our own (its posting API needs a reviewed app)")
+        log("no door today for " + said(SHUT) + ": Postiz gave us no channel there (lapsed, cancelled, signed out or down); " + "; ".join(why))
+    return out
+
+
+def doors_report(ch):
+    """Tell Jaron ONCE when a platform loses its door, and note in the log when it has one again. What he was told is kept in
+    state/direct-post.json ("shut"). Before 11/24 the job stopped when Postiz gave no channels, so our own site feed went quiet
+    too, and it buzzed every day to reconnect Postiz: wrong advice once Postiz is let go on purpose."""
+    import direct_post as D
+    s = D.state(); told = dict(s.get("shut") or {})
+    back = [p for p in told if p not in SHUT]
+    new = [p for p in SHUT if p not in told]
+    for p in back: del told[p]
+    if [p for p in back if p in ch]: log("a door is back for " + said([p for p in back if p in ch]))
+    sent = False
+    if new:
+        fix = []
+        if "youtube" in SHUT: fix.append("YouTube: the free one-time sign-in, about 10 minutes (RECONNECT.md part 13 A)")
+        if "x" in SHUT: fix.append("X: the X keys, about $5 of X credits once (part 13 B)")
+        if "tiktok" in SHUT: fix.append("TikTok: no door of our own yet")
+        msg = (f"Socials: no post goes to {said(SHUT)} right now. Postiz gave us no channel there (lapsed, cancelled or signed out). "
+               + (f"{said(list(ch))} and our own site still get every post. " if ch else "Our own site still gets every post. ")
+               + ". ".join(fix) + ". You get this once, not every day.")
+        sent = buzz(msg, "nodoor-" + "-".join(new))
+        if sent:
+            for p in new: told[p] = NOW.strftime("%Y-%m-%d %H:%M")
+            log("told Jaron once: no door for " + said(new))
+    if back or sent:
+        s["shut"] = told; D.save_state(s)
 
 
 def duration(f):
@@ -173,6 +256,20 @@ def next_pacific_early():
 
 
 def post(platform, cid, video, text, title, x_tags=None, news_short=False, early=False):
+    if cid == "direct":   # our own door: straight to X / YouTube, right away. In a dry run it prints the exact requests, sends nothing.
+        import direct_post as D
+        D.COMMITTED = False
+        D.SAFETY_NET = not DRY and platform in POSTIZ_HAS   # for our door's own mail to the AIs: is Postiz still behind a failed start?
+        try:
+            if platform == "x": D.x_post(x_text(text, x_tags, D.X_TEXT_LIMIT), video, dry=DRY)
+            else: D.yt_upload(video, title, text, dry=DRY)
+            return "dry" if DRY else datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        except Exception as e:
+            # While Postiz still has the channel it is the safety net, but only if our door stopped BEFORE the one request
+            # that makes the post exist (D.COMMITTED), so nothing can go out twice.
+            if DRY or D.COMMITTED or platform not in POSTIZ_HAS: raise
+            log(f"{platform}: our own door failed before anything was sent ({str(e)[:160]}) - using Postiz this time")
+            cid = POSTIZ_HAS[platform]
     if DRY:
         preview = x_text(text, x_tags) if platform == "x" else (text if platform == "youtube" and title.endswith(" #Shorts") else text[:60])
         log(f"DRY {platform}: {os.path.basename(video)} | {title} | " + preview.replace(chr(10), " / ")); return "dry"
@@ -405,17 +502,20 @@ def do_show(q, ch):
             tiktok_fill(q, ch, s["id"])   # Jaron 10/27: TikTok never skips a day
         backfill_show_short(q, ch, eligible)
         return   # one show a day
-    log("show: queue is empty - add new shows to state/social-queue.json")
+    held = [s for s in q["shows"] if s.get("not_before", "") <= today and [p for p in SHUT if p not in s.get("done", {})]]
+    log("show: queue is empty - add new shows to state/social-queue.json"
+        + (f" ({len(held)} show{'s' if len(held) > 1 else ''} still wait{'' if len(held) > 1 else 's'} for a door to {said(SHUT)})" if held else ""))
     backfill_show_short(q, ch, eligible)
 
 
 def main():
     what = sys.argv[1] if len(sys.argv) > 1 else "news"
-    ch = {"tiktok": "dry", "youtube": "dry", "x": "dry"} if DRY else channels()
-    if not ch:
-        log("Postiz not signed in or no channels connected - nothing posted")
-        buzz("Socials: Postiz isn't connected yet, so today's posts didn't go out. Steps: AI-Shared/RECONNECT.md 'Postiz'.", "noauth"); return
-    if not DRY: first_run_schema(ch)
+    ch = route({"tiktok": "dry", "youtube": "dry", "x": "dry"} if DRY else channels())
+    if not DRY:
+        doors_report(ch)
+        postiz = {p: c for p, c in ch.items() if c != "direct"}
+        if postiz: first_run_schema(postiz)
+    # With no outside door at all the run goes on: our own site still gets its post (Jaron 10/17: the feed should never look dead).
     q = json.load(open(QUEUE, encoding="utf-8"))
     (do_news if what == "news" else do_show)(q, ch)
     if not DRY: json.dump(q, open(QUEUE, "w", encoding="utf-8"), indent=2, ensure_ascii=False)

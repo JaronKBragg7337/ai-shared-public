@@ -148,7 +148,37 @@
    "note": null,
    "python": "3.12.10",
    "numpy": "2.4.6"
+  },
+  {
+   "started": "2026-11-24T01:15:20",
+   "ended": "2026-11-24T01:45:29",
+   "minutes": 30.2,
+   "result": "CLEAN",
+   "inject": false,
+   "workers": 30,
+   "logical_cores": 32,
+   "priority": "below_normal",
+   "affinity": null,
+   "mem_gb_planned": 8.0,
+   "free_ram_gb_start": 12.0,
+   "free_ram_gb_min": 2.5,
+   "mem_passes": 5906,
+   "mem_gb_verified": 553.7,
+   "cpu_checks": 23600,
+   "disk_gb": 22.5,
+   "disk_files": 180,
+   "disk_read_mode": "uncached",
+   "worker_cpu_seconds": 26201.0,
+   "worker_peak_mem_gb_sum": 8.1,
+   "system_cpu_pct": 55,
+   "mismatches": 0,
+   "mismatch_by_kind": {},
+   "details": [],
+   "notes": [],
+   "note": null,
+   "python": "3.12.10",
+   "numpy": "2.4.6"
   }
  ],
- "updated": "2026-11-23T01:45:27"
+ "updated": "2026-11-24T01:45:29"
 }

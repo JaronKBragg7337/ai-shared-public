@@ -361,8 +361,6 @@ def t_sapling(c):
 
 add("Programs on the MSI", "Ollama (local model)", "the local Qwen model server", "GET 127.0.0.1:11434/api/version", t_url("http://127.0.0.1:11434/api/version", "Ollama"),
     fix=fix_task("Ollama Server"), fix_how='schtasks /run "Ollama Server"', wait=20, wait_max=90)
-add("Programs on the MSI", "OpenClaw gateway", "the OpenClaw gateway", "GET 127.0.0.1:18789/", t_url("http://127.0.0.1:18789/", "OpenClaw"),
-    fix=fix_task("OpenClaw Gateway"), fix_how='schtasks /run "OpenClaw Gateway"', wait=20, wait_max=90)
 add("Programs on the MSI", "Sapling heartbeat", "Sapling's training heartbeat", "GET 127.0.0.1:7337/", t_sapling,
     fix=fix_task("Sapling Wake"), fix_how='schtasks /run "Sapling Wake" (Sapling\'s own wake: owner stops stay stopped)', wait=45, wait_max=120, phone=False)
 add("Programs on the MSI", "Sapling relay", "carries messages between the Sapling page and Sapling", "GET 127.0.0.1:7338/", t_url("http://127.0.0.1:7338/", "relay"),
@@ -616,10 +614,22 @@ def f_gdrive(c):
     return f"set Drive's corrupt index aside ({moved} files, kept as .bad-{stamp}) and restarted Drive; the new index held for a minute"
 
 
-add("The machine", "Google Drive (G:)", "the off-MSI copy of AI-Shared and the Necklace project goes through it",
-    r"G:\My Drive exists; if Drive isn't running, start it; if its own corruption marker is there, set the bad index aside first",
-    t_gdrive, fix=f_gdrive, fix_how="start the newest GoogleDriveFS.exe; if Drive marked its index corrupt: stop Drive, rename the live index aside (.bad-<stamp>), start Drive",
-    wait=15, wait_max=120)
+def t_speedcap(c):
+    # 11/24 (Fable, state/msi-data-hunt.md): one fast core of the i9-14900HX gives wrong answers above ~5 GHz. The 4.6 GHz cap on the
+    # fast cores stopped it (0 of 1,368 vs 36 of 948). A Windows or MSI Center update could wipe the setting silently.
+    r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "msi_speed_cap.py"), "status"], capture_output=True, text=True, timeout=60, creationflags=NOWIN, stdin=subprocess.DEVNULL)
+    out = (r.stdout or r.stderr).strip()[:160]
+    return ("OK", out) if r.returncode == 0 else ("BROKEN", "the fast-core speed cap is GONE - wrong answers come back at full speed; "
+                                                           "set it again: python tools/msi_speed_cap.py set 4600 (" + out + ")")
+
+
+def f_speedcap(c):
+    r = subprocess.run([sys.executable, os.path.join(ROOT, "tools", "msi_speed_cap.py"), "set", "4600"], capture_output=True, text=True, timeout=60, creationflags=NOWIN, stdin=subprocess.DEVNULL)
+    return "set the fast-core cap back to 4.6 GHz" if r.returncode == 0 else None
+
+
+add("The machine", "Processor speed cap", "keeps the worn fast core below the speed where it makes mistakes (11/24)",
+    "tools/msi_speed_cap.py status (exit 0 = cap set)", t_speedcap, fix=f_speedcap, fix_how="python tools/msi_speed_cap.py set 4600")
 add("The machine", "Disk space", "room for the nightly news render (~70 GB)", "shutil.disk_usage C:, wants >= 80 GB", t_disk)
 add("The machine", "GPU heat", "the MSI isn't overheating", "nvidia-smi temperature, wants < 87C", t_gpu)
 add("The machine", "Power and memory", "plugged in, enough RAM", "PowerStatus + Win32_OperatingSystem free memory", t_power)
@@ -671,16 +681,11 @@ def f_next_tick(c):
 JOBS = [
     ("HB Watch Loop", 1, "rerun", "answers Jaron's \"Tell Claude\" watch messages by ntfy"),
     ("HB Key Drop", 1, "rerun", "files and tests API keys Jaron pastes on his phone"),
-    ("Crypto Consensus", 1, "tick", "crypto decision tick (money side)"),
     ("Crew Publish", 5, "rerun", "publishes the public system/crew page"),
     ("MSI Beat", 5, "rerun", "checks in with the off-MSI alarm on Cloudflare (quiet 20 min = one buzz)"),
     ("HB Video Drop", 5, "rerun", "picks up videos dropped for the site"),
     ("HB Price Alerts", 5, "tick", "price alerts (money side)"),
-    ("Live Board", 5, "tick", "the live data board"),
-    ("Crypto Notify", 10, "report", "crypto notices (money side)"),
     ("Usage Snapshot", 15, "rerun", "the AI usage meter"),
-    ("Desk Schedule Watch", 15, "report", "desk schedule check (money side)"),
-    ("Twin Crypto Settle", 15, "report", "settles the twin's paper crypto (money side)"),
     ("HB News Watchdog", 15, "rerun", "buzzes if today's news isn't live (7 AM-noon)"),
     ("MSI Connector Watch", 30, "rerun-guarded", "buzzes if the connector/Cosmos/relay is down"),
     ("Creature Watch", 30, "rerun", "looks in on the creature (read-only)"),
@@ -701,16 +706,20 @@ GROUPS = [   # (row name, purpose, every N minutes, [tasks])
      ["Watch Claude Desk", "Watch Codex Writer", "Watch Funding Lane", "Watch MSI Reader", "Watch Kimi First Light", "Watch Grok Meridian",
       "Watch Grok Blind Spots", "Watch DeepSeek Reader", "Watch Perplexity Scout", "Watch Missed Story Check", "Watch Source Gate",
       "Watch Source Gate Final", "Watch Top Stories", "Whats New Scouts"]),
-    ("Backups and saves", "Drive mirror 3:30, nightly save 22:55, creature 21:15, Unreal 3:00, Sapling GitHub 18:17, Drive gentle fill 21:00", 1560,
-     ["AI-Shared Mirror", "AI-Shared Nightly Save", "Creature Backup", "Necklace Unreal Backup", "Sapling GitHub Sync", "Drive Gentle Fill"]),
+    ("Backups and saves", "nightly save 22:55, creature 21:15, off-MSI backup 21:30, Sapling GitHub 18:17", 1560,
+     ["AI-Shared Nightly Save", "Creature Backup", "Offsite Backup", "Sapling GitHub Sync"]),
+    ("Weekly Drive copy", "one AI-Shared file into Google Drive, Sunday 21:00 (a skipped week is fine)", 8 * 1440, ["Drive Weekly Copy"]),
+    ("Processor yardstick", "daily 2-minute wrong-answer test on every core, 11:30 (ended 1 = wrong answers: lower the cap with msi_speed_cap.py set 4300; ended 2 = cores never reached full speed, not a fair test)", 1560, ["MSI Core Yardstick"]),
     ("Other daily jobs", "login watch, usage ledger, build ledger, render maintainer, firsts, Sapling status, atlas", 1560,
      ["Login Watch", "HB Usage Ledger", "HB Build Ledger", "HB Render Maintainer", "Firsts Roundup", "Sapling Status", "HB Atlas Convergence", "Sapling Quiet Switch"]),
     ("Weekly jobs", "stale sweep, AI fund review, budget report, edge check, crypto caps", 8 * 1440,
-     ["Stale Sweep", "HB AI Fund Weekly Review", "AI Budget Report", "Edge Check", "Crypto Weekly Caps"]),
+     ["Stale Sweep", "HB AI Fund Weekly Review", "AI Budget Report", "Edge Check"]),
 ]
-OFF_POLY = ["Trade Executor", "Trade Proposer", "Polymarket Watchdog", "Crypto Wake", "Scout Scorer"]
+OFF_POLY = ["Trade Executor", "Trade Proposer", "Polymarket Watchdog", "Crypto Wake", "Scout Scorer",
+            # 11/24 12:59 PM Jaron: the crypto lane + the Polymarket leftovers are paused too ("anything running still for it is noise")
+            "Polymarket MCP", "Crypto Consensus", "Crypto Notify", "Crypto Weekly Caps", "Twin Crypto Settle", "Desk Schedule Watch", "Live Board"]
 OFF_PAUSED = ["Fly Brain", "Fly Watcher", "Fly School", "Fly School school-2", "Fly School school-3", "Fly School school-4", "Fly School school-5",
-              "AgentWorkbench-Scheduler", "AgentWorkbench-Server", "Qwen Remote Bridge", "OpenClaw Paper Gateway", "Paper Sync",
+              "AgentWorkbench-Scheduler", "AgentWorkbench-Server", "Qwen Remote Bridge", "OpenClaw Paper Gateway", "OpenClaw Gateway", "Paper Sync",
               "Revenue Desk Daily", "Desk Weekly Review", "HB Fog Book Research", "MachineManager", "Unfinished Island - hourly world worker",
               "Heartbeat Courier", "Postiz Trial Check 10-23", "HB Socials Outage Retry"]
 KNOWN_ELSEWHERE = {"Grok Machine MCP", "Ollama Server", "OpenClaw Gateway", "Sapling Heartbeat", "Sapling Relay", "Desktop Commander Remote",
@@ -789,11 +798,18 @@ def t_paused(c):
 
 
 def t_codex_observer(c):
-    return "SKIPPED-ON-PURPOSE", "Codex Observer server + tunnel (Registry Run entries) - not checked; ask Jaron if still wanted"
+    return "SKIPPED-ON-PURPOSE", "Codex Observer retired 11/24 (Jaron: old = noise): its 2 dead startup entries were removed; values kept in state/removed-startup-entries-2026-11-24.txt"
 
 
 add("Off on purpose", "Polymarket system", "trading on Polymarket is off since 10/28", "task states of " + ", ".join(OFF_POLY) + ", Polymarket MCP, Trade Verifier", t_poly)
 add("Off on purpose", "Paused projects", "fly brain and retired helpers stay off", "task states of the paused list", t_paused)
+def t_gdrive_off(c):
+    on = [n for n in ("Necklace Unreal Backup", "AI-Shared Mirror", "Drive Gentle Fill") if (task(n) or {}).get("s") not in (None, "Disabled")]
+    return "SKIPPED-ON-PURPOSE", ("Google Drive is out of the backups (Jaron 11/24: 'Google Drive has always had issues'); the off-MSI "
+                                  "Supabase backup covers everything" + ("; NOTE enabled again: " + ", ".join(on) if on else "; its 3 jobs stay off"))
+
+
+add("Off on purpose", "Google Drive backups", "Drive's index kept breaking; the big copies go off-MSI to Supabase; Drive keeps one weekly file", "task states of the 3 old Drive jobs", t_gdrive_off)
 add("Off on purpose", "Codex Observer", "an old Codex side project", "not checked", t_codex_observer)
 
 

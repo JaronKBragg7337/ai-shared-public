@@ -1,0 +1,2 @@
+CodexObserverServer = powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "G:\My Drive\Codex Coworker\codex-observer\scripts\start-observer.ps1"
+CodexObserverCloudflareTunnel = powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "G:\My Drive\Codex Coworker\codex-observer\scripts\start-cloudflare-tunnel.ps1"

@@ -110,6 +110,15 @@ KNOWN = {   # name: (label, prefixes, test)
     "SUPABASE_PUBLISHABLE_KEY": ("Supabase public key (safe to share)", ("sb_publishable_",), None),
     "STRIPE_SECRET_KEY": ("Stripe", ("sk_live_", "sk_test_", "rk_live_"), None),
     "NTFY_TOPIC": ("Phone alerts topic (ntfy)", (), None),
+    # 11/24: our own posting to X and YouTube (tools/direct_post.py). They arrive as two cards with several boxes each
+    # (X_POSTING, YOUTUBE_UPLOAD below) and are tested together there before anything is saved.
+    "X_API_KEY": ("X posting, our own: API key", (), None),
+    "X_API_SECRET": ("X posting, our own: API key secret", (), None),
+    "X_ACCESS_TOKEN": ("X posting, our own: access token", (), None),
+    "X_ACCESS_SECRET": ("X posting, our own: access token secret", (), None),
+    "YOUTUBE_CLIENT_ID": ("YouTube upload, our own: client ID", (), None),
+    "YOUTUBE_CLIENT_SECRET": ("YouTube upload, our own: client secret", (), None),
+    "YOUTUBE_REFRESH_TOKEN": ("YouTube upload, our own: the one-time phone sign-in (made on the MSI, never pasted)", (), None),
 }
 
 
@@ -210,7 +219,11 @@ def handle(row):
             os.remove(p)                               # fall back to the old key file the service used before
             polymarket_restart(); raise
     if t == "env":
-        name = row.get("env_name") or ""; val = v.get("value", "").strip()
+        name = row.get("env_name") or ""
+        if name in ("X_POSTING", "YOUTUBE_UPLOAD"):   # 11/24: one card, several boxes (the page's X and YouTube tabs)
+            import direct_post                         # it tests the values together, saves them itself, never logs one
+            return direct_post.drop_x(v) if name == "X_POSTING" else direct_post.drop_youtube(v)
+        val = v.get("value", "").strip()
         if not val: raise RuntimeError("the value box was empty")
         if not name: name = guess_name(val) or ""
         if not name: raise RuntimeError("couldn't tell what this key is - send it again with a name")
@@ -231,6 +244,10 @@ def main():
         except Exception as e: note, status = str(e)[:200], "failed"
         req("PATCH", URL + "?id=eq." + row["id"], {"blob": None, "status": status, "note": note, "done_at": datetime.datetime.now(datetime.timezone.utc).isoformat()})
         log(f"{label}: {status} - {note}"); buzz(f"{label or 'key'}: {status}. {note}")
+    try:                                               # 11/24: is a YouTube sign-in waiting for Jaron's tap? Ask Google once.
+        import direct_post
+        direct_post.signin_tick()
+    except Exception as e: log(f"direct_post sign-in check: {type(e).__name__}: {str(e)[:120]}")
     inventory(force=bool(rows))
 
 

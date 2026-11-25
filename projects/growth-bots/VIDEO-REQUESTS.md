@@ -15,7 +15,7 @@ Status words: WAITING ON VIEWER (angle asked, no answer yet) / OPEN - ready / BU
 - When it's up: tag them only if they said yes to being tagged.
 
 ## Open
-(nothing open - crew checked 2026-11-23 1:16 PM)
+(nothing open - crew checked 2026-11-24 1:17 PM)
 
 ## Done
 - 2026-10-25 | TikTok | Adam Drelich | History 7.6 comments | "what if America kept building railroads for travel... high speed

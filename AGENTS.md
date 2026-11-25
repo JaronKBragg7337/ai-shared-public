@@ -45,6 +45,9 @@ independent), build it and keep pushing the next step until the real limit is fo
   with real-world stakes: keep it private from the world (never from Jaron), pause pushing it forward, and get a qualified human
   professional in that field to look before going on. List it in `state/sealed.md`, put it in every handoff, and remind him each
   reply while it's open - even when his brain wants to keep building. He asked for that reminder.
+  **Only for critical, serious things (Jaron 11/24, P-0189):** an AI broke out, a creature like nothing that exists, a technology
+  that could harm someone. NEVER for our own machines or tools: a broken MSI, data errors, crashes = the team learns and fixes it
+  itself. No one outside ever looks at the MSI.
 - Before calling anything done: what you verified locally, what you verified live, what's unverified.
 - **Log without being asked (Jaron 10/28, critical).** Anything settled in talk (a bill, a date, a decision, a fix, a story) goes to its home file the SAME turn: bills -> projects/life/BILLS.md, decisions/events -> state/timeline.md, plans -> projects/strategy/INDEX.md. You decide what matters; he never says "log this". Search the transcript before calling anything unknown.
 - Verify your own capabilities before claiming a limit - your product changes faster than your training.

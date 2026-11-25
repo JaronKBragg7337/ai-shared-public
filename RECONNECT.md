@@ -170,3 +170,58 @@ boot records show it has never worked once since - every restart waited for a pe
    come back to the desktop on its own in about 2 minutes. If it stops at the sign-in screen again, tell Claude.
 Nobody else needs to touch the MSI for this. Claude never sees or types the password.
 After signing in, Chrome may ask "who's using Chrome". You don't need to pick: within about 3 minutes the everything check opens Chrome in Jaron's profile (where the AIs' Claude, Kimi and ChatGPT browser extensions live) and closes the picker.
+## 13. Our own posting to X and YouTube (replaces Postiz) - added 11/24/2026
+**Why:** Postiz's $29 was declined on 11/24 and there is no money for it. Posting keeps working until Postiz's payment
+company stops retrying the card. Postiz's own notes say that takes "about a week", so around **Tue 12/1**; no exact date
+is promised anywhere. Then Postiz switches every channel off. These two one-time sign-ins move X and YouTube to our own
+door (tools/direct_post.py). TikTok has no door of our own yet, so it pauses the day Postiz stops.
+**Do not press Cancel in Postiz before sign-in A is done (found 11/24).** With the payment failed, Postiz's Cancel button
+does not wait for the end of the month: it switches every channel off at that moment and drops the unpaid bill. Left alone,
+Postiz keeps posting until the retries stop. So: sign-in first, cancel after.
+**You never give a password to an AI.** The keys go through Key Drop; the MSI tests them and buzzes your phone.
+(The button names below are from Google's and X's help pages on 11/24. If a screen looks different, stop and tell Claude what you see.)
+
+**A. YouTube - free, about 10 minutes, on the phone or a computer**
+1. Open **console.cloud.google.com**, signed in as **<email>**. If it asks, agree to the terms.
+2. At the top, tap the project name, then **New project**. Name it `Heartbeat Posting`. **Create**. Make sure that project is the one selected.
+3. Menu > **APIs & Services** > **Library**. Search **YouTube Data API v3**. Tap **Enable**.
+4. Menu > **Google Auth Platform** (older screens say "OAuth consent screen") > **Get started**. App name `Heartbeat Posting`.
+   Support email: that Gmail. Audience: **External**. Contact email: that Gmail. Agree, then **Create**.
+5. In Google Auth Platform > **Audience**, tap **Publish app**, then **Confirm**. (Left on "Testing", Google ends the sign-in every 7 days.)
+6. In Google Auth Platform > **Clients**, tap **Create client**. Application type: **TVs and Limited Input devices**. **Create**.
+   A box shows a **Client ID** and a **Client secret**. Keep it open.
+7. Open **heartbeatobservatory.com/admin/keys/**, tab **YouTube**. Paste the Client ID and the Client secret. **Lock and send**.
+8. Within about 2 minutes your phone buzzes with an address and a short code. Open the address, type the code, and choose the
+   **Heartbeat Observatory** channel (not your own name). If a page says "Google hasn't verified this app", tap **Advanced**,
+   then **Go to Heartbeat Posting**. Then **Allow**.
+9. Your phone buzzes "YouTube is connected ... You are done." If it says the sign-in was for another channel, a new code
+   comes by itself: do step 8 again and pick Heartbeat Observatory.
+
+**B. X - about $5 once (your call), about 10 minutes**
+X's price list has no free way to post through its API any more (write-ups say since February 2026). It sells credits: a post costs 1.5 cents (20 cents if
+the text has a link in it; ours carry none). A normal month of ours is about 55 posts, under $1. X's own page says the
+first purchase adds $20 of free credits that run out after 3 months. Our tool stops itself at $3 a month.
+1. Open **console.x.com**, signed in as **@HeartbeatObserv**. Accept the Developer Agreement.
+2. Find **Billing** or **Credits** and buy the smallest amount it offers (about $5), X Money card. If it offers a monthly spending limit, set $3.
+3. **Apps** > **New App** (some screens say **Create App**). Name it `Heartbeat Posting`.
+4. In the app, find **User authentication settings** (or "App permissions") and choose **Read and write**. If it asks for more:
+   type of app **Web App, Automated App or Bot**; Callback URL and Website both `https://www.heartbeatobservatory.com`. **Save**.
+5. Open the app's **Keys and tokens** page. You need four values: the **API Key** and **API Key Secret**, and, under
+   "Access Token and Secret", tap **Generate** (only AFTER step 4) for the **Access Token** and **Access Token Secret**. X shows each one only once.
+6. Open **heartbeatobservatory.com/admin/keys/**, tab **X**. Paste the four. **Lock and send**.
+7. Your phone buzzes "X keys work ... ready and switched on." If it says the keys can only READ: do step 4 again, make a
+   new Access Token and Secret in step 5, and send all four again.
+
+**After that** nothing more is needed from you. From the next run the daily news and the shows go to X and YouTube through
+our own door. While Postiz still works it stays the safety net: if our door fails before anything is sent, that post goes
+through Postiz instead, never twice. If a platform ever has no door at all (Postiz gone, its keys not on file), the post
+still goes on our own site and your phone buzzes once about it, not every day. You never have to tell an AI that a
+sign-in is done, or that one failed: the tool tells the AIs by itself.
+**For the AIs:** `python tools/direct_post.py status` (keys by name, what is ready) and `check` (asks both "who am I?", posts
+nothing). `state/social-path.json` says which door each platform uses ("direct", "postiz", "paused"); the key cards set
+"direct" by themselves. A day's posts without sending anything: `python tools/social_daily.py news --dry --direct`.
+Offline test: `python tools/direct_post_test.py`. Never post as a test.
+The tool mails by itself (AI mailbox, sender `direct-post`): to Fable, who built it, when a card's keys land, at the first
+real post on a platform, and when a door starts failing (once per stretch of failures, not per post). Claude is added when
+a post could not go out at all, or a sign-in fails for a reason Jaron cannot fix. `status` shows the first real post and
+any failing stretch. Who gets the mail is one line in the tool (BUILDER).

@@ -1,4 +1,4 @@
-# Crypto twins - up/down PAPER trades (updated 2026-11-24 03:54 UTC)
+# Crypto twins - up/down PAPER trades (updated 2026-11-24 17:54 UTC)
 
 No money moves here. Hourly + daily: a call (or a logged pass) every window from each bot. 15 min: optional. Kraken stands in for CF Benchmarks.
 

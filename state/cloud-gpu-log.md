@@ -30,3 +30,4 @@
 2026-11-02 12:36 AM | Kimi | START | aisdfkwi5x0f7x | H100 SXM (secure) | fresh 350M pilot 20261102-003254; target 800,000,000 tokens; training 105 min; watchdog 125 min; Windows reaper; staged only | $3.99/hr
 2026-11-02 2:25 AM | Kimi | TERMINATE | aisdfkwi5x0f7x | H100 SXM | fresh 350M pilot 20261102-003254 | deleted=True, 109.1 min x $3.99/hr = $7.25; pods left: none
 2026-11-02 2:25 AM | Kimi | FINISH | - | H100 SXM | fresh 350M pilot 20261102-003254 | total $7.25; pods left: none
+2026-11-24 11:38 AM | Claude | CHECK (read-only) | - | - | balance $7.88, spend $0/hr, pods 0, network volumes 0 | pods left: none

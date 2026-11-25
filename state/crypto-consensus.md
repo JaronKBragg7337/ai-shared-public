@@ -288,3 +288,4 @@
 [2026-11-23 05:00:00] WEEKLY satya-twin: 0 settled calls since 2026-11-16, net $+0.00 -> cap $29 -> $29
 [2026-11-23 05:00:00] WEEKLY jarons-twin: 0 settled calls since 2026-11-16, net $+0.00 -> cap $31 -> $31
 [2026-11-23 12:39:13] fill reconcile skipped (JSONDecodeError: Unterminated string starting at: line 1 column 344 (char 343))
+[2026-11-24 11:24:13] fill reconcile skipped (JSONDecodeError: Expecting value: line 1 column 402 (char 401))
