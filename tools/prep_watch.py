@@ -86,7 +86,17 @@ def tick():
     if paused:
         log("paused for the news render"); return
     catchup = s.get("catchup_done") != today and (news_published(today) or now.hour >= 8) and now.hour < 14
-    seat = ORDER[s.get("next", 0) % len(ORDER)]
+    # a seat that ran out of its own usage sits out until its bench ends, so the round goes to the next seat (11/25)
+    benched = s.setdefault("benched", {})
+    seat = None
+    for i in range(len(ORDER)):
+        cand = ORDER[(s.get("next", 0) + i) % len(ORDER)]
+        if benched.get(cand, "") <= f"{now:%Y-%m-%d %H:%M}":
+            seat = cand
+            s["next"] = s.get("next", 0) + i
+            break
+    if seat is None:
+        log("every seat is benched for usage, skipping"); return
     # never run into the 2:30 AM news pause
     cutoff = now.replace(hour=2, minute=25, second=0)
     if now >= cutoff:
@@ -109,6 +119,14 @@ def tick():
     fails = s.setdefault("fails", {})
     if not ok:
         fails[seat] = fails.get(seat, 0) + 1
+        if re.search(r"402|exhausted|usage limit|quota|rate limit|out of credits", err, re.I):
+            until = now + datetime.timedelta(hours=12)
+            benched[seat] = f"{until:%Y-%m-%d %H:%M}"
+            log(f"{seat} out of usage, benched until {benched[seat]}")
+            if fails[seat] == 2:
+                mail("claude", f"Prep Watch: {seat} benched (usage)", f"{seat} is out of its own usage ({err.strip()[:200]}). "
+                     f"It sits out until {benched[seat]} and the other seats take its rounds. Nothing to do.")
+            save(s); return
         log(f"{seat} FAILED ({fails[seat]} in a row): {err.strip()[:200]}")
         if fails[seat] >= 2:
             mail("claude", f"Prep Watch: {seat} failing", f"{seat} failed {fails[seat]} rounds in a row. Last error: {err.strip()[:500]}")

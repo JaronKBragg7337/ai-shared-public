@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DIR = ROOT / "state" / "firsts"
 NAMES = {"sapling": "Sapling", "creature": "her (the creature)"}
 # Jaron 11/21 6:20 PM: not every surprise is "cool". Three kinds, all worth noticing; none of them pauses anything.
-KINDS = {"wow": "Wow", "hmm": "Hmm", "uh-oh": "Uh-oh"}  # wow = good surprise; hmm = strange, not sure if good or bad; uh-oh = going wrong but not dangerous (may need a fix)
+KINDS = {"wow": "Wow", "hmm": "Hmm", "uh-oh": "Uh-oh", "stuck": "Stuck - need your ideas"}  # stuck (Jaron 11/25): the team is out of good next steps; buzz him for new ideas  # wow = good surprise; hmm = strange, not sure if good or bad; uh-oh = going wrong but not dangerous (may need a fix)
 
 
 def topic():
@@ -84,7 +84,7 @@ def main():
     a.add_argument("--checked", action="store_true")
     a.add_argument("--by", default="unknown")
     a.add_argument("--when", default="", help="when it actually happened, if not just now (e.g. 2026-10-14)")
-    a.add_argument("--kind", default="wow", choices=list(KINDS), help="wow = good surprise, hmm = strange/unsure, uh-oh = going wrong, not dangerous")
+    a.add_argument("--kind", default="wow", choices=list(KINDS), help="wow = good surprise, hmm = strange/unsure, uh-oh = going wrong, not dangerous, stuck = out of next steps, ask Jaron for ideas")
     r = sub.add_parser("roundup")
     r.add_argument("--dry", action="store_true")
     l = sub.add_parser("list")

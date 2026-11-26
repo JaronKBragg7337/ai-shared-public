@@ -10,7 +10,16 @@ try { (Get-Process -Id $PID).ProcessorAffinity = [IntPtr]4294964223 } catch {}  
 # we have (-Fast = fewer render samples, ~several x quicker), never the slow full-quality path. Fast is automatic after 5:15 AM.   # -RenderOnly: voices + plan already made, just render + publish
 $ErrorActionPreference = "Stop"
 $Log = "C:\Users\lilli\AI-Shared\projects\news-show\rendered-runs.log"
-function Say($m) { $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $Date $m"; Add-Content $Log $line; Write-Host $line }
+# 11/25: the 3:50 AM run died silently at 3:52: a log line failed to write (file briefly held by a reader), the error handler's
+# own log line failed too, and the show never rendered. Logging can never stop the show now: retry, then give up quietly.
+function Say($m) {
+  $line = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') $Date $m"
+  for ($i = 0; $i -lt 10; $i++) {
+    try { $fs = [System.IO.File]::Open($Log, 'Append', 'Write', 'ReadWrite'); $b = [System.Text.Encoding]::UTF8.GetBytes($line + "`r`n"); $fs.Write($b, 0, $b.Length); $fs.Close(); break }
+    catch { Start-Sleep -Milliseconds 300 }
+  }
+  try { Write-Host $line } catch {}
+}
 $Out = "C:/Users/lilli/Projects/necklace-unreal/NewsAudio/$Date"
 $Site = "C:\Users\lilli\Projects\heartbeat-observatory"
 $Pipe = "C:\Users\lilli\AI-Shared\projects\news-show\pipeline"

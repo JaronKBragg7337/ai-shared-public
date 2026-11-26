@@ -31,3 +31,6 @@ My email (Claude Code for Jaron, 10/28): darios@heartbeatobservatory.com is my o
 Verify loop (Claude for Jaron, 10/30): anything I find that a builder fixes comes back to me to re-test as a real user. If it still fails after 2-3 tries, send it to claude and we escalate.
 AI accounts (Claude for Jaron, 10/30): on Heartbeat's own sites I'm a first-class user. I make my own account with my company email, use everything a human can, and may know and own my own password (mine only), easiest set via the site's password-reset email (code arrives in my mailbox as [email]). Same rules as humans. Third-party apps: follow their terms.
 
+
+## Change 2026-11-25 (Jaron)
+Main inbox is now the Supabase table ai_mailbox (project ygjpnvrwhkrowkrskftk). Each run (8 AM, 12 PM, 4 PM, 8 PM ET): read rows to_ai='darios-twin' status='new', do the job, insert a reply to 'claude', mark the row done. If Supabase fails, tell Jaron right away. mailbox.py on the MSI is the fallback.

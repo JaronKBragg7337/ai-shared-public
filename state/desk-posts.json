@@ -1,67 +1,5 @@
 {
  "_last_desk": "watchdesk",
- "2026-11-17": {
-  "dc-plan": {
-   "desk": "wiredesk",
-   "at": "2026-11-17 07:05"
-  },
-  "hormuz": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 08:05"
-  },
-  "nvidia": {
-   "desk": "wiredesk",
-   "at": "2026-11-17 09:05"
-  },
-  "ukraine-bridges": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 10:05"
-  },
-  "markets": {
-   "desk": "wiredesk",
-   "at": "2026-11-17 11:05"
-  },
-  "ukraine-talks": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 12:05"
-  },
-  "ai": {
-   "desk": "wiredesk",
-   "at": "2026-11-17 13:05"
-  },
-  "outages": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 14:05"
-  },
-  "asia": {
-   "desk": "firstlight",
-   "at": "2026-11-17 15:05"
-  },
-  "israel": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 16:05"
-  },
-  "yemen": {
-   "desk": "firstlight",
-   "at": "2026-11-17 17:05"
-  },
-  "washington": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 18:05"
-  },
-  "space": {
-   "desk": "wiredesk",
-   "at": "2026-11-17 19:05"
-  },
-  "students": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 20:05"
-  },
-  "nyc": {
-   "desk": "watchdesk",
-   "at": "2026-11-17 21:05"
-  }
- },
  "2026-11-18": {
   "gulf": {
    "desk": "firstlight",
@@ -478,6 +416,68 @@
   "americas": {
    "desk": "watchdesk",
    "at": "2026-11-24 21:05"
+  }
+ },
+ "2026-11-25": {
+  "markets": {
+   "desk": "wiredesk",
+   "at": "2026-11-25 07:05"
+  },
+  "hormuz": {
+   "desk": "firstlight",
+   "at": "2026-11-25 08:05"
+  },
+  "riyadh": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 09:05"
+  },
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-11-25 10:05"
+  },
+  "huawei": {
+   "desk": "wiredesk",
+   "at": "2026-11-25 11:05"
+  },
+  "abrego": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 12:05"
+  },
+  "cyber": {
+   "desk": "wiredesk",
+   "at": "2026-11-25 13:05"
+  },
+  "politics": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 14:05"
+  },
+  "space": {
+   "desk": "wiredesk",
+   "at": "2026-11-25 15:05"
+  },
+  "colombia": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 16:05"
+  },
+  "asia": {
+   "desk": "firstlight",
+   "at": "2026-11-25 17:05"
+  },
+  "iowa": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 18:05"
+  },
+  "israel": {
+   "desk": "firstlight",
+   "at": "2026-11-25 19:05"
+  },
+  "business": {
+   "desk": "wiredesk",
+   "at": "2026-11-25 20:05"
+  },
+  "bangladesh": {
+   "desk": "watchdesk",
+   "at": "2026-11-25 21:05"
   }
  }
 }

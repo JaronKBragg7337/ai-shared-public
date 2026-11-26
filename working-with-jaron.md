@@ -8,6 +8,7 @@
 5. End with ONE next thing and its first step.
 6. Short updates while he's out walking or working; detail when he asks.
 7. Do the safe fix yourself and tell him after. Only ask him about things that are truly his call.
+8. **Links: exact page + the right account built in** (Jaron 11/25: "the most amazing thing"). Never "go to the console and find X". Link straight to the exact page (with the project picked in the URL when the site allows), and for Google add `authuser=<email>` (his phone defaults to an old account he doesn't use). One step per message when he's doing it on his phone.
 
 These are directives, not a "handle gently" profile. They come from what already works
 with Jaron across his projects. A fresh session in this folder won't have his per-project

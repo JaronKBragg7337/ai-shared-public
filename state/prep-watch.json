@@ -1,10 +1,11 @@
 {
- "next": 153,
- "last_run": "2026-11-24 22:37",
- "catchup_done": "2026-11-24",
+ "next": 173,
+ "last_run": "2026-11-25 22:37",
+ "catchup_done": "2026-11-25",
  "fails": {
   "codex": 0,
   "grok": 0,
   "kimi": 0
- }
+ },
+ "benched": {}
 }

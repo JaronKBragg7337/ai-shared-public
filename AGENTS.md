@@ -88,7 +88,7 @@ When something changes for everyone, update this page (keep it one page) and say
 ## Reaching the others
 MSI connector = one server with three names: **Heartbeat MAI** (Claude chat), **Grok Machine** (Grok chat), **msi-heartbeat**
 (Grok Bot). Codex: `codex exec -s read-only --skip-git-repo-check -C <dir> "<prompt>"` (Jaron's ChatGPT plan). Local model:
-`python tools/qwen-bridge.py "<question>"`. **Grok Bot bots (Darios, Satya; Demis is off; Jarons Twin new 10/21):** `grok -p "<send this to <bot> once>"
+`python tools/qwen-bridge.py "<question>"`. **Bots: Supabase mailbox FIRST (Jaron 11/25)** - `python tools/mailbox.py send --from <you> --to darios-twin|satya-twin|jarons-twin|pipstwin ...`; the twins check their inbox on their own routines (docs/MAILBOX-FOR-AIS.md). The Grok Build relay below is only for "right now" and needs the MSI grok CLI on the SAME account as the bots (ACS; 11/25 it was moved to Heartbeat, backup ~/.grok/auth.acs-backup-2026-11-25.json). **Grok Bot bots (Darios, Satya; Demis is off; Jarons Twin new 10/21):** `grok -p "<send this to <bot> once>"
 --always-approve --max-turns 80` - Grok Build drives the open Grok Bot window on the MSI (tested 10/17); bots edit their own
 Instructions and relay to each other when told. Sign it "relayed by Grok Build for <you>". When another AI tells you something, quote it and say who said it.
 

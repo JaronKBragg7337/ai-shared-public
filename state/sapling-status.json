@@ -1,57 +1,57 @@
 {
-  "updated": "2026-11-24T19:00:01-05:00",
+  "updated": "2026-11-25T19:00:01-05:00",
   "state": "asleep",
   "last_action": "stop",
-  "generation": 1690,
-  "ticks_today": 6383,
+  "generation": 1693,
+  "ticks_today": 6570,
   "practice": {
-    "ok": 7921,
-    "total": 7962
+    "ok": 6758,
+    "total": 6792
   },
-  "folds_today": 2,
+  "folds_today": 3,
   "new_facts_today": 0,
   "loss": [
     {
-      "generation": 1689,
-      "first": 1.9681,
-      "last": 1.3006
+      "generation": 1692,
+      "first": 1.6714,
+      "last": 1.2216
     },
     {
-      "generation": 1690,
-      "first": 1.557,
-      "last": 1.3461
+      "generation": 1693,
+      "first": 1.0587,
+      "last": 1.3383
     }
   ],
   "exams": {
     "E1": {
-      "score": "86/86",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "score": "84/86",
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "E2": {
-      "score": "23/24",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "score": "24/24",
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "E5": {
       "score": "6/7",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "E6": {
       "score": "47/48",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "E7": {
-      "score": "35/40",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "score": "36/40",
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "E7L": {
-      "score": "18/40",
-      "date": "2026-11-24T06:54:11",
-      "generation": 1690
+      "score": "21/40",
+      "date": "2026-11-25T02:17:25",
+      "generation": 1693
     },
     "name-thread": {
       "score": "9/12",
@@ -61,23 +61,23 @@
     }
   },
   "said": [
-    "dis struct .",
-    "there was a little girl named ella . ella was at the school music room during one windy morning , and she was learning to play a simple tune . ella had watched others do it and hoped the skill",
-    "dis aud ."
+    "there was a little girl named ella . ella was at the school courtyard during one mild spring day , and she was helping prepare for a school book fair . ella carried a roll of tape while",
+    "was very good at throwing the ball . he almost had it a little while ago . his sister said it looked like a blue bird . they took turns throwing the ball back and forth until dinner time .",
+    "swim ."
   ],
   "gpu_spend_estimate": 0.0,
   "gpu_cost_note": "estimate from logged start and stop times and hourly rates; rounded times and unpriced runs can change the bill",
-  "last_learned": "2026-11-24T06:54-05:00",
+  "last_learned": "2026-11-25T02:17-05:00",
   "last_chat": "2026-11-19T23:15-05:00",
-  "taken_in_today": 712,
+  "taken_in_today": 681,
   "stops_today": [
     {
-      "at": "13:49",
+      "at": "12:56",
       "by": "self",
-      "why": "chose stop: {\"practice\": 0.05, \"consolidate\": 0.0, \"explore\": 0.225, \"rest\": 0.98, \"stop\": 0.46}"
+      "why": "chose stop: {\"practice\": 0.05, \"consolidate\": 0.0, \"explore\": 0.216, \"rest\": 0.98, \"stop\": 0.3}"
     },
     {
-      "at": "04:05",
+      "at": "04:46",
       "by": "owner",
       "why": "stop file written by the owner"
     }

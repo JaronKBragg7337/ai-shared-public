@@ -31,3 +31,14 @@ from a phone. How: phone page + one relay + a small agent on the home computer.
 He wants to screen-record the whole flow (remote, sign-in, Key Drop) for the product but can't show real passwords. Plan: a **demo mode** with
 a fake "Example AI" sign-in page, fake keys (sk-demo-...), a fake email code and fake machine stats, all running the real
 Control Room flow. It must use made-up branding only, never a copy of a real company's login page. Recordings from it can be shared publicly.
+
+## Guided setup for people who aren't comfortable with tech (Jaron 11/25/2026 9:53 AM)
+From the YouTube sign-in he did on his phone: "These are also the things that when we set systems up for other people with the kit, things like that could be useful for people that aren't comfortable or understand things."
+What worked, to build into the kit's setup:
+- Exact-page links with the account pre-picked (Google `authuser=`, project in the URL) - no "go find the setting".
+- One step per message, a screenshot back after each, the AI reads the screenshot and says the next tap.
+- A short list of all steps with checkmarks, so the person sees how close the end is.
+- Keys go through a Key Drop page on the phone, never pasted into a chat; the machine tests them and buzzes "you are done".
+- Warn ahead about scary-but-normal screens ("Google hasn't verified this app" for your own app) and about traps (e.g. a logo upload that forces a weeks-long review).
+- Never "sign out" or "delete" anything without saying plainly that nothing is lost; people fear losing accounts.
+- Missing pieces get made for them on the spot (here: a privacy policy + Terms of Service page the provider required).

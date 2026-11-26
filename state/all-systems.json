@@ -1,12 +1,12 @@
 {
- "at": "2026-11-24T13:04:50",
- "dry": true,
- "summary": "All good",
- "took_s": 17,
+ "at": "2026-11-25T07:50:31",
+ "dry": false,
+ "summary": "2 broken: Logins, AI-Shared saved to GitHub",
+ "took_s": 330,
  "counts": {
-  "ok": 55,
+  "ok": 53,
   "fixed": 0,
-  "broken": 0,
+  "broken": 2,
   "skipped": 4
  },
  "checks": [
@@ -55,7 +55,7 @@
    "name": "The creature",
    "purpose": "her world (Cloudflare Worker) is up and her clock moves",
    "result": "OK",
-   "detail": "alive, tick 8178 (was 8175 at the last Creature Watch)",
+   "detail": "alive, tick 9951 (was 9933 at the last Creature Watch)",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -65,7 +65,7 @@
    "name": "MSI dark alarm",
    "purpose": "buzzes Jaron if the MSI goes quiet 20 min (off, or stuck at the sign-in screen)",
    "result": "OK",
-   "detail": "watching from Cloudflare: last check-in 5 min ago, its own check ran 5 min ago",
+   "detail": "watching from Cloudflare: last check-in 0 min ago, its own check ran 0 min ago",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -215,7 +215,7 @@
    "name": "Disk space",
    "purpose": "room for the nightly news render (~70 GB)",
    "result": "OK",
-   "detail": "176 GB free",
+   "detail": "173 GB free",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -225,7 +225,7 @@
    "name": "GPU heat",
    "purpose": "the MSI isn't overheating",
    "result": "OK",
-   "detail": "49C, 0% busy",
+   "detail": "50C, 0% busy",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -235,7 +235,7 @@
    "name": "Power and memory",
    "purpose": "plugged in, enough RAM",
    "result": "OK",
-   "detail": "plugged in, battery 90%, 16.7 GB RAM free",
+   "detail": "plugged in, battery 90%, 16.5 GB RAM free",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -264,18 +264,18 @@
    "group": "The machine",
    "name": "Logins",
    "purpose": "every login the system uses still works",
-   "result": "OK",
-   "detail": "all logins fine (checked 2026-11-24 12:49)",
+   "result": "BROKEN",
+   "detail": "needs Jaron: Claude chat -> MSI connector (Heartbeat MAI) (checked 2026-11-25 07:49; steps in RECONNECT.md) (still broken after re-ran tools/login-watch.py --quiet (a fresh check, no buzz); waited 5.0 min)",
    "was": "",
-   "fix_done": "",
+   "fix_done": "re-ran tools/login-watch.py --quiet (a fresh check, no buzz)",
    "buzzes": false
   },
   {
    "group": "The machine",
    "name": "AI-Shared saved to GitHub",
    "purpose": "this folder is backed up",
-   "result": "OK",
-   "detail": "main...origin/main [ahead 1] (recent; its own job pushes it)",
+   "result": "BROKEN",
+   "detail": "main...origin/main [ahead 5] - oldest unpushed commit 3 h old",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -285,7 +285,7 @@
    "name": "Public copy pushed in the last 48 hours",
    "purpose": "the scrubbed public AI-Shared reaches GitHub nightly",
    "result": "OK",
-   "detail": "pushed 14 h ago; last nightly: FLAGS: none",
+   "detail": "pushed 8 h ago; last nightly: FLAGS: none",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -305,7 +305,7 @@
    "name": "HB Watch Loop",
    "purpose": "answers Jaron's \"Tell Claude\" watch messages by ntfy",
    "result": "OK",
-   "detail": "last run 11-24 13:04, result 0",
+   "detail": "last run 11-25 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -315,7 +315,7 @@
    "name": "HB Key Drop",
    "purpose": "files and tests API keys Jaron pastes on his phone",
    "result": "OK",
-   "detail": "last run 11-24 13:03, result 0",
+   "detail": "last run 11-25 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -325,7 +325,7 @@
    "name": "Crew Publish",
    "purpose": "publishes the public system/crew page",
    "result": "OK",
-   "detail": "last run 11-24 13:00, result 0",
+   "detail": "last run 11-25 07:45, result 267009",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -335,7 +335,7 @@
    "name": "MSI Beat",
    "purpose": "checks in with the off-MSI alarm on Cloudflare (quiet 20 min = one buzz)",
    "result": "OK",
-   "detail": "last run 11-24 13:00, result 0",
+   "detail": "last run 11-25 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -345,7 +345,7 @@
    "name": "HB Video Drop",
    "purpose": "picks up videos dropped for the site",
    "result": "OK",
-   "detail": "last run 11-24 13:02, result 0",
+   "detail": "last run 11-25 07:42, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -355,7 +355,7 @@
    "name": "HB Price Alerts",
    "purpose": "price alerts (money side)",
    "result": "OK",
-   "detail": "last run 11-24 13:01, result 0",
+   "detail": "last run 11-25 07:41, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -365,7 +365,7 @@
    "name": "Usage Snapshot",
    "purpose": "the AI usage meter",
    "result": "OK",
-   "detail": "last run 11-24 13:03, result 267009",
+   "detail": "last run 11-25 07:41, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -375,7 +375,7 @@
    "name": "HB News Watchdog",
    "purpose": "buzzes if today's news isn't live (7 AM-noon)",
    "result": "OK",
-   "detail": "only runs 7-12h; last 11-24 11:00 result 0",
+   "detail": "last run 11-25 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -385,7 +385,7 @@
    "name": "MSI Connector Watch",
    "purpose": "buzzes if the connector/Cosmos/relay is down",
    "result": "OK",
-   "detail": "last run 11-24 12:44, result 0",
+   "detail": "last run 11-25 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -395,7 +395,7 @@
    "name": "Creature Watch",
    "purpose": "looks in on the creature (read-only)",
    "result": "OK",
-   "detail": "last run 11-24 13:03, result 0",
+   "detail": "last run 11-25 07:33, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -405,7 +405,7 @@
    "name": "HB Safety Signal",
    "purpose": "safety level from the DHS feed",
    "result": "OK",
-   "detail": "last run 11-24 12:59, result 0",
+   "detail": "last run 11-25 07:29, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -415,7 +415,7 @@
    "name": "MSI Status",
    "purpose": "writes state/MSI-STATUS.md",
    "result": "OK",
-   "detail": "last run 11-24 12:49, result 0",
+   "detail": "last run 11-25 07:19, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -425,7 +425,7 @@
    "name": "Sapling Watch",
    "purpose": "watches Sapling (read-only)",
    "result": "OK",
-   "detail": "last run 11-24 12:45, result 0",
+   "detail": "last run 11-25 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -435,7 +435,7 @@
    "name": "Sapling Wake",
    "purpose": "Sapling's own wake",
    "result": "OK",
-   "detail": "last run 11-24 12:35, result 0",
+   "detail": "last run 11-25 07:35, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -445,7 +445,7 @@
    "name": "DB Size Check",
    "purpose": "database size vs the 8 GB cap",
    "result": "OK",
-   "detail": "last run 11-24 12:25, result 0",
+   "detail": "last run 11-25 07:25, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -455,7 +455,7 @@
    "name": "MSI Health",
    "purpose": "hourly task/port health",
    "result": "OK",
-   "detail": "last run 11-24 13:02, result 0",
+   "detail": "last run 11-25 07:02, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -465,7 +465,7 @@
    "name": "HB AI Fund",
    "purpose": "AI fund (money side)",
    "result": "OK",
-   "detail": "last run 11-24 12:17, result 0",
+   "detail": "last run 11-25 07:17, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -595,10 +595,12 @@
    "name": "Codex Observer",
    "purpose": "an old Codex side project",
    "result": "SKIPPED-ON-PURPOSE",
-   "detail": "Codex Observer server + tunnel (Registry Run entries) - not checked; ask Jaron if still wanted",
+   "detail": "Codex Observer retired 11/24 (Jaron: old = noise): its 2 dead startup entries were removed; values kept in state/removed-startup-entries-2026-11-24.txt",
    "was": "",
    "fix_done": "",
    "buzzes": true
   }
- ]
+ ],
+ "mail": "mailed Claude",
+ "buzz": "no buzz (nothing broken that needs Jaron)"
 }

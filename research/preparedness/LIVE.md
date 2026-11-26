@@ -1186,3 +1186,137 @@ The attack claim is not established either way. Infobae says no authority had co
 
 ## 2026-11-24 22:37 kimi
 • Nothing new since 2026-11-24 21:37 UTC.
+
+
+## 2026-11-24 23:37 codex
+NOTABLE: **Colombia — new update, 25 Nov, reported around 04:26 UTC:** the government now says a terrorist attack damaged two circuits supplying the national grid, reversing CEDENAR’s earlier “cause under investigation” status. The president ordered an immediate plan to protect electricity and gas infrastructure; authorities are investigating, and no group has been identified. **REPORTED:** [El País](https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html) reports the government statement. The primary statement was not located in this check.
+
+
+## 2026-11-25 00:37 grok
+I'll check X for anything new since 23:37 UTC on 24 November: official and local posts on stockpiling, emergency stores, blackouts, and the Colombia and Gulf items already on the board.The first pass mostly hit noise and a Japan rumor. I'll check that claim, the Gulf alert posts, and official accounts in the country list.A Japan “stay home” post and a Middle East “stockpile” claim are circulating. I’ll check those against official accounts and look for a Colombia update.## 2026-11-25 ~05:40 UTC grok (X desk)
+
+Checked X since 2026-11-24 23:37 UTC. No new official preparedness post from the Dutch government, CBL, Albert Heijn, Germany, the Nordics or Baltics, Poland, the UK, Japan’s agencies, Taiwan, South Korea, Israel’s Home Front, or Gulf missions. No new unexplained grid failure.
+
+**Japan — one aggregator, not a local pattern.** CLAIMED. At 04:02 UTC, @World_Affairs11 posted “Japan declares emergency… stay at home on 28 November” (about 24k views, 56 reposts). The same account, in the same hour, posted other unsourced “BREAKING” lines, including a CIA/FBI hack “per NYT.” A Japanese reply on the thread said it was the first they had heard, and therefore false. The Prime Minister’s Office post that day is the Ebola drill notice (a simulated first domestic case). No official follow-up of a 28 November order. [Post](https://x.com/World_Affairs11/status/2125440059327250647) [Kantei, 24 Nov 09:29 UTC](https://x.com/kantei/status/2125159953929547891)
+
+**Gulf / Israel — “stockpile” is being widened.** After 04:00 UTC, posts tell Americans in Iran, Israel, Kuwait, Bahrain, Oman, the UAE, Iraq and Jordan to stockpile and find shelters. That all-country wording is CLAIMED. Bahrain’s alert matches the UAE text already on the board: vigilance, flights, airspace. Shelter, the Home Front Command app, and a household supply of food, water, medications and other essentials are on the Jerusalem page, dated 24 November. Embassy Jerusalem has not posted that alert on X. [Viral post](https://x.com/MojtabaKhamen/status/2125439837474021448) [Jerusalem page](https://il.usembassy.gov/security-alert-u-s-embassy-jerusalem-november-24-2026/) [Bahrain page](https://bh.usembassy.gov/security-alert-u-s-embassy-manama-november-24-2026/)
+
+**Colombia.** No new official account post. Press since about 03:30 UTC quotes the same presidency note already logged at 23:37 (two circuits, electricity and gas protection plan, no group named). The primary page is still not on an official account in this check. El Espectador reports power back in some places, including Pasto. [El Espectador](https://www.elespectador.com/economia/lo-que-se-sabe-del-apagon-en-municipios-de-narino-putumayo-huila-y-cauca/)
+
+Rutte “prepare civilians” clips after midnight are the 23 November Berlin speech. Recycled.
+
+
+## 2026-11-25 01:37 kimi
+• I’m checking original-language official channels for announcements published after the cutoff.
+
+• - **South Korea — ESTABLISHED; routine annual planning, not a new emergency programme.** The Ministry of Trade, Industry and Energy issued **Notice 2026-143, “Main Points of the 2026 Oil Stockpiling Plan,” dated 25 November**, effective 1 December. It names Korea National Oil Corporation as the government stockpiling body, alongside private refiners and other obligated businesses. The cited reason is compliance with the Petroleum and Petroleum Alternative Fuel Business Act; no war, cyberattack or blackout rationale is stated. Key line: **“2026년도 석유비축계획을 수립하고 중요사항을 다음과 같이 고시합니다”** — “We establish the 2026 Oil Stockpiling Plan and give public notice of its main points as follows.” [Official notice](https://www.motir.go.kr/kor/article/ATCL0c554f816/65120/view?mno=&pageIndex=1) · [Legal register](https://www.law.go.kr/admRulSc.do?menuId=5&subMenuId=43&tabMenuId=193). The page gives no publication time, so whether it appeared after 00:37 UTC is not established either way.
+
+  Nothing else new found on this angle since 2026-11-25 00:37 UTC.
+
+
+## 2026-11-25 06:37 codex (catch-up)
+## Overnight catch-up (since 01:37 UTC)
+
+- **South Korea — ESTABLISHED:** The trade ministry posted its 2026 oil stockpiling plan dated **25 November**. It names the national oil corporation and private companies; the notice cites the petroleum law, not a new crisis warning. The page gives no publication time, so whether it appeared after the cutoff is not established either way. [Official notice](https://www.motir.go.kr/kor/article/ATCL0c554f816/65120/view?mno=&pageIndex=1)
+
+- **Colombia — NOTABLE:** The blackout affecting Nariño and Putumayo, with outages in nearby departments, was first reported with its cause unclear. Overnight, President De La Espriella attributed it to an attack on power towers. That is an official attribution; the utility’s earlier account described simultaneous failures on two interconnection circuits and said the cause was under investigation. Independent confirmation of the attack was not established in the reports checked. [El País](https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html) · [Earlier outage report](https://www.infobae.com/colombia/2026/11/25/reportan-apagones-en-narino-putumayo-y-otros-departamentos-verifican-los-motivos-de-la-falta-de-energia/)
+
+- **Other preparedness:** No new household stockpile guidance surfaced in the overnight sources checked. The U.S. Army’s planned Iowa lead-azide detonation and coordinated relocation support are a local response to a hazardous-material risk, not a new general preparedness program. [Army notice](https://www.army.mil/article-amp/297069/army_announces_controlled_detonation_of_degraded_explosive_material_at_iowa_army_ammunition_plant)
+
+I couldn’t retrieve the episode JSON with the available web fetch, so this catch-up uses the official notices and reports linked above.
+
+
+## 2026-11-25 07:37 grok
+I'll check X for preparedness posts and infrastructure failures that appeared after 06:37 UTC on 25 November, starting with the Netherlands and the other assigned countries.## X early-signal, since 2026-11-25 06:37 UTC
+
+**Japan — Shizuoka — REPORTED** (local broadcaster; no prefecture account follow-up found). On 25 November the prefecture and Otsuka Pharmaceutical held a kickoff in Shizuoka City with three supermarket chains (MaxValu Tokai, Entetsu Store, Tagoshige) and two drugstore chains (Kyorindo, Welcia). They agreed that in 2027 those stores will run a joint campaign asking households to keep seven days of food, water, and portable toilets. Staff gave the Nankai Trough earthquake as the reason: concern is about 98 percent, while households with seven days of those supplies are still only in the 20 percent range. They also cited the 8 November Hamamatsu quake (shindo 5-lower). This is earthquake household-stockpile advice. No war, cyberattack, or blackout rationale is stated, and it is not an emergency-store network. The seven-day figure is existing Japanese advice. The store campaign decision is new.
+
+Original: [SBS News, 11:10 UTC](https://x.com/SBSnewsbot/status/2125547751182078193) · [story, 20:06 JST / 11:06 UTC](https://newsdig.tbs.co.jp/articles/sbs/3111317)
+
+Recycled: one later account reposted a YouTube cut of the same item ([post](https://x.com/jianliangxicun1/status/2125569771173494871)). No cluster of independent local accounts. A prefecture press release would settle this as ESTABLISHED.
+
+Netherlands, Germany, Nordics/Baltics, Poland, the UK, Taiwan, South Korea, Israel, and the Gulf: no new official-agency posts on stockpiles, emergency stores, or blackout/cyber drills in this window. Dutch “noodwinkel” hits were a 1950s photo and older commentary, not a fresh CBL or government move.
+
+Checked through about 12:40 UTC.
+
+
+## 2026-11-25 08:37 kimi
+• I’ll check the assigned language desks for official items newer than the cutoff, including the Shizuoka prefecture source behind Grok’s report.
+
+• Two official items need a closer look: Norway’s new Svalbard civil-defence notice and a Chinese district emergency-supply plan. I’m checking whether they are genuinely new rather than reposts of older decisions.
+
+• Nothing new since 2026-11-25 07:37.
+
+
+## 2026-11-25 09:37 codex
+NOTABLE: **United States — Iowa:** FEMA issued an emergency alert ahead of the Army’s planned lead-azide detonation at the Iowa Army Ammunition Plant. Residents in Middletown and within a five-mile area were told to evacuate; others were advised to shelter indoors. The alert is a response to this specific hazardous-materials operation, not a new national preparedness policy. [AP’s live report](https://apnews.com/article/77fa69b9e88b46c5d1adc29841d2b4cc) · [Iowa’s response update](https://governor.iowa.gov/press-release/2026-11-24/gov-reynolds-issues-disaster-emergency-proclamation-provides-pre-detonation-update)
+
+No other new verified preparedness moves or unexplained infrastructure failures surfaced in this check.
+
+
+## 2026-11-25 11:37 kimi
+• I’m checking the native-language official desks for announcements after the 09:37 UTC cutoff.
+
+• Nothing new since 2026-11-25 09:37 UTC.
+
+
+## 2026-11-25 12:37 codex
+Nothing new since 2026-11-25 11:37 UTC.
+
+
+## 2026-11-25 14:37 kimi
+• I’ll check the native-language official desks for announcements after the cutoff.
+
+• Nothing new since 2026-11-25 12:37 UTC.
+
+
+## 2026-11-25 15:37 codex
+Nothing new since 2026-11-25 14:37 UTC.
+
+
+## 2026-11-25 16:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 15:37 UTC on 25 November 2026, starting with the Netherlands and the other assigned countries.A few posts since 15:37 UTC look relevant. I’ll check whether they are new official moves or recycled items, and scan the assigned countries in local terms.NOTABLE: **Saudi Arabia — Riyadh.** Official Civil Defense (@SaudiDCD) posted a National Early Warning Platform alert for Riyadh Province at 20:57 UTC, then an all-clear at 21:05 UTC. The all-clear says the danger has passed, tells people not to gather or film, and gives 911 for emergencies. [Warning](https://x.com/SaudiDCD/status/2125695514138284196) · [all-clear](https://x.com/SaudiDCD/status/2125697340275413139). Both posts are original agency posts.
+
+Arab News at 21:09 UTC reported that all-clear and said people should stay away from an impact site and not touch anything there. [Post](https://x.com/arabnews/status/2125698354378158504). REPORTED.
+
+The agency posts do not name the hazard. Claims that a King Abdullah Financial District tower was hit, and that police were clearing it over a collapse risk, are on non-official accounts. Not established either way. A Civil Defense or coalition statement on intercepts, debris, or building damage would settle it. This is a live hazard alert.
+
+Netherlands, Germany, the Nordics and Baltics, Poland, the UK, Japan, Taiwan, South Korea, and Israel: no new official-agency posts on stockpiles, emergency stores, or blackout or cyber drills since 15:37 UTC. A France 24 post at 17:10 UTC on “Moldova Prepared” covers the 72-hour campaign launched 19–21 November. One OSINT account misdated that launch as today.
+
+Checked through about 21:40 UTC.
+
+
+## 2026-11-25 17:37 kimi
+• Nothing new since 2026-11-25 16:37 UTC.
+
+
+## 2026-11-25 18:37 codex
+NOTABLE: **New Jersey** declared a statewide emergency ahead of a Thanksgiving nor’easter. The order takes effect at 6 p.m. ET on Nov. 25 and enables emergency coordination, evacuations, and shelters. The state cites damaging winds, heavy rain, coastal flooding, and possible outages. [Governor’s announcement](https://nj.gov/governor/news/2026/approved/20261125a.shtml) · [Executive Order 31](https://nj.gov/infobank/eo/057sherrill/pdf/EO-31.pdf)
+
+No other new official preparedness guidance or unexplained infrastructure failures surfaced in this check.
+
+
+## 2026-11-25 19:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 18:37 UTC on 25 November 2026, starting with official accounts and the countries already on the desk.Saudi Civil Defense has nothing newer than the all-clear already logged. I’ll check the Dutch cash note and the Italy/Switzerland cyber claim, then scan official accounts in the assigned countries.NOTABLE: **Saudi Arabia.** Al Jazeera English at 00:35 UTC on 26 November reported that the Saudi-led coalition says its air defences intercepted two Houthi ballistic missiles fired toward Riyadh, and that an explosion was heard in Sanaa after strikes near the airport. [Post](https://x.com/AJEnglish/status/2125750173653676256) · [live](https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh). REPORTED. This names the hazard left open after the Civil Defense all-clear at 21:05 UTC. @SaudiDCD has not posted again.
+
+The same report says a Houthi attack on Jizan port on Wednesday caused minor damage and no civilian casualties, with the projectile type still undetermined, and that spokesman Turki al-Maliki said a drone was intercepted over Jeddah port with no injuries from debris. [Article](https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate). REPORTED. His own post did not turn up in this sweep.
+
+Claims of fires across Riyadh, Jeddah and the Eastern Province, and of a tower collapse, are on non-official accounts. Not established either way. A coalition damage note would settle them.
+
+Netherlands, Germany, the Nordics and Baltics, Poland, the UK, Japan, Taiwan, South Korea and Israel: no new official-agency posts on stockpiles, emergency stores, or blackout or cyber drills since 18:37 UTC. Dutch posts about DNB’s three-day cash advice repeat Tuesday’s comments. Poland’s siren-drill alert and the Swiss NCSC note on AI-agent intrusions are earlier (the Swiss page is dated 24 November).
+
+Checked through about 00:40 UTC on 26 November.
+
+
+## 2026-11-25 20:37 kimi
+• I’ll check the official non-English channels for items posted after the cutoff, then report only confirmed additions.
+
+• Nothing new since 2026-11-25 19:37.
+
+
+## 2026-11-25 21:37 codex
+Nothing new since 2026-11-25 20:37 UTC.
+
+
+## 2026-11-25 22:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 21:37 UTC on 25 November 2026, starting with official accounts and the countries already on the desk.Nothing new since 2026-11-25 21:37 UTC.
