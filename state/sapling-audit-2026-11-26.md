@@ -1,0 +1,37 @@
+# Sapling plateau audit (Codex gpt-6-luna, read-only), Thu 11/26/2026 6:38 PM. Asked by Claude for Jaron; Kimi out of weekly usage. Report only - for Kimi to act on (Sapling = Kimi's lane).
+
+## 1. Why it plateaued
+
+**Mostly a shortage of new experience, with long-reading retention as a specific weak spot.** The supplied snapshot says 22 generations in six days, almost no new facts, and no person-to-person chat since 11/19. The heartbeat can practice, consolidate, explore, or rest; its practice curriculum is deterministic school material ([ARCHITECTURE.md](ARCHITECTURE.md:22), [sapling/curriculum.py](sapling/curriculum.py:1)). With few new facts or conversations, more generations mostly revisit familiar material. `STATUS.md` shows the latest long-reading score at 15/40 and bridge at 42/86, while core exam scores remain high ([STATUS.md](STATUS.md:12)).
+
+**The 512-token context is a real constraint, but not the whole explanation.** Sapling has 512 tokens of context ([README.md](README.md:5)); its design notes say that fits one 150-word passage, a distractor, and a question ([DESIGN-CHOICES.md](DESIGN-CHOICES.md:27)). That makes longer or more complex reading tasks harder. But the current long-reading lesson was built around 200–450-token passages, so context length alone does not explain the flat score ([README.md](README.md:81)).
+
+**Folding can wear down long-reading gains; settings appear tuned to limit that wear.** Consolidation uses 200 steps, and long-reading cores replay 8 lesson examples alongside reading, conversation, and school examples ([membrane.yaml](membrane.yaml:69), [sapling/consolidate.py](sapling/consolidate.py:159)). Earlier fold tests found that replaying old document and long-read school examples hurt the newer lesson; D36 removed those examples for cores with the lesson ([sapling/consolidate.py](sapling/consolidate.py:265), [CHANGELOG.md](CHANGELOG.md:176)). So folds are a risk, but these settings don’t look like the main cause of a month-long plateau.
+
+**The open “world to practice in” is the clearest missing path to fresh, checkable experience.** It remains open in `NEXT.md`; the proposed grid world gives actions consequences and records outcomes as memories ([NEXT.md](NEXT.md:135)). The 99% practice accuracy suggests current practice is too familiar or narrow to move the harder cold exams.
+
+## 2. Ways forward on the MSI
+
+- **Build the small grid world described in NEXT.md.** Cost: no data license; development time is the main cost. MSI time: light for a deterministic simulator; measure GPU time only if training on its logged experiences. Proof: held-out maps or rules improve, and gains remain after several folds. Risk: it could learn a narrow game policy that does not transfer to reading or conversation.
+
+- **Add a daily licensed reading set with questions made from the source text.** Use only published material whose license permits this use; derive answer spans from passages, and keep some documents fully held out. Cost: usually free for openly licensed/public-domain texts; curation takes owner time. MSI time: CPU preparation plus a measured local 4060 training run. Proof: held-out long-reading scores rise and persist after folds. Risk: repetitive passages or mismatched questions could improve lesson fit without improving E7L.
+
+- **Use Jaron’s own words and real conversations as lessons.** Collect only what he writes or says, then test new prompts and multi-turn threads not included in training. Cost: no license fee; requires his time. MSI time: short top-up and fold checks, as the project’s earlier plan estimates ([NEXT.md](NEXT.md:60)). Proof: better unseen name-thread conversations, still better after folds. Risk: too few examples or overfitting his phrasing. No machine-generated text is needed for any of these options.
+42,761
+## 1. Why it plateaued
+
+**Mostly a shortage of new experience, with long-reading retention as a specific weak spot.** The supplied snapshot says 22 generations in six days, almost no new facts, and no person-to-person chat since 11/19. The heartbeat can practice, consolidate, explore, or rest; its practice curriculum is deterministic school material ([ARCHITECTURE.md](ARCHITECTURE.md:22), [sapling/curriculum.py](sapling/curriculum.py:1)). With few new facts or conversations, more generations mostly revisit familiar material. `STATUS.md` shows the latest long-reading score at 15/40 and bridge at 42/86, while core exam scores remain high ([STATUS.md](STATUS.md:12)).
+
+**The 512-token context is a real constraint, but not the whole explanation.** Sapling has 512 tokens of context ([README.md](README.md:5)); its design notes say that fits one 150-word passage, a distractor, and a question ([DESIGN-CHOICES.md](DESIGN-CHOICES.md:27)). That makes longer or more complex reading tasks harder. But the current long-reading lesson was built around 200–450-token passages, so context length alone does not explain the flat score ([README.md](README.md:81)).
+
+**Folding can wear down long-reading gains; settings appear tuned to limit that wear.** Consolidation uses 200 steps, and long-reading cores replay 8 lesson examples alongside reading, conversation, and school examples ([membrane.yaml](membrane.yaml:69), [sapling/consolidate.py](sapling/consolidate.py:159)). Earlier fold tests found that replaying old document and long-read school examples hurt the newer lesson; D36 removed those examples for cores with the lesson ([sapling/consolidate.py](sapling/consolidate.py:265), [CHANGELOG.md](CHANGELOG.md:176)). So folds are a risk, but these settings don’t look like the main cause of a month-long plateau.
+
+**The open “world to practice in” is the clearest missing path to fresh, checkable experience.** It remains open in `NEXT.md`; the proposed grid world gives actions consequences and records outcomes as memories ([NEXT.md](NEXT.md:135)). The 99% practice accuracy suggests current practice is too familiar or narrow to move the harder cold exams.
+
+## 2. Ways forward on the MSI
+
+- **Build the small grid world described in NEXT.md.** Cost: no data license; development time is the main cost. MSI time: light for a deterministic simulator; measure GPU time only if training on its logged experiences. Proof: held-out maps or rules improve, and gains remain after several folds. Risk: it could learn a narrow game policy that does not transfer to reading or conversation.
+
+- **Add a daily licensed reading set with questions made from the source text.** Use only published material whose license permits this use; derive answer spans from passages, and keep some documents fully held out. Cost: usually free for openly licensed/public-domain texts; curation takes owner time. MSI time: CPU preparation plus a measured local 4060 training run. Proof: held-out long-reading scores rise and persist after folds. Risk: repetitive passages or mismatched questions could improve lesson fit without improving E7L.
+
+- **Use Jaron’s own words and real conversations as lessons.** Collect only what he writes or says, then test new prompts and multi-turn threads not included in training. Cost: no license fee; requires his time. MSI time: short top-up and fold checks, as the project’s earlier plan estimates ([NEXT.md](NEXT.md:60)). Proof: better unseen name-thread conversations, still better after folds. Risk: too few examples or overfitting his phrasing. No machine-generated text is needed for any of these options.

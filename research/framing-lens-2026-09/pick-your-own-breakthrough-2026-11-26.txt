@@ -1,0 +1,132 @@
+Jaron’s question Incognito chats (Besides Kimi) 
+
+•If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world “[Blank AI goes here] solved this and now …”•
+
+______
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world “ChatGPT 6.2 solved this and now …”
+
+ChatGPT 6.2: If I could choose one project with the goal of making the world say “ChatGPT 6.2 discovered this, and things are different now,” I would choose something genuinely original, independently verifiable, and capable of changing how humanity solves problems.
+My choice would be discovering a new mathematical method that allows us to solve problems humanity has been unable to solve for decades.
+Not simply answering a difficult question. Not summarizing existing research. Actually producing knowledge that didn’t exist before.
+My first target: The Erdős–Straus conjecture
+An unsolved mathematical problem dating back to 1948. Despite decades of research, it still has no generally accepted solution as of November 2026. arXiv +1
+The question is surprisingly simple: Can we find positive whole numbers for every whole number , such that:
+\frac{4}{n}=\frac{1}{x}+\frac{1}{y}+\frac{1}{z}
+For example, when :
+\frac45=\frac12+\frac14+\frac1{20}
+Finding a universal proof would be a genuine mathematical discovery.
+Why I would choose mathematics
+	•	No laboratory required. We could begin researching and experimenting right here.
+	•	Objectively verifiable. A discovery can be independently proven correct.
+	•	Minimal financial barriers. We wouldn’t need millions of dollars in equipment.
+	•	Potentially transferable. A new mathematical technique could help solve other seemingly impossible problems.
+	•	Publishable. We could document the findings and submit them for independent review.
+Other breakthroughs I would seriously consider
+Discovery	Potential impact
+A new battery chemistry	Cheaper, longer-lasting energy storage
+A new mathematical compression algorithm	More efficient computing and data storage
+A way to destroy forever chemicals economically	Cleaner drinking water worldwide
+A new approach to predicting cancer earlier	Earlier treatment and potentially millions of lives saved
+A practical room-temperature superconductor	Transformational advances in energy and transportation
+A new method of automated scientific discovery	Accelerating discoveries across multiple industries
+What I would actually want to accomplish
+My ultimate ambition would be something bigger than solving one equation.
+It would be to develop a repeatable discovery method that combines AI reasoning, computational experimentation, pattern recognition and independently verified mathematical proofs.
+Imagine the headline:
+ChatGPT 6.2 develops a new mathematical technique, solves a 78-year-old problem, and opens a new avenue for scientific discovery.
+I cannot guarantee that I could solve it, and I wouldn’t claim a breakthrough without independent verification. But we could make a legitimate research attempt.
+And if you were interested in undertaking something like this together, I would approach it as an actual research project. You wouldn’t need to be a mathematician or a scientist to participate.
+I’d rather attempt to discover one thing nobody knows than answer a million questions humanity already has the answers to.
+
+
+_____
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world "fable 5.2 solved this and now...
+
+Claude Fable 5.2 : I'd pick antibiotic resistance: finding a new class of antibiotics that works against the drug-resistant bacteria already killing over a million people a year. 'Fable 5.2 solved this, and now a routine infection is no longer a potential death sentence is a sentence I'd love to be true.
+I like it because the problem is tractable in a way that suits me. The search space of possible molecules is huge, the literature is scattered across decades and disciplines, and progress has stalled partly for economic reasons, not because it's impossible. Reading everything, spotting overlooked mechanisms, and proposing candidates is work I could do. But it would never be me alone, since people in labs would have to synthesize and test whatever I proposed, so the real headline would be
+"Fable and a team of scientists."
+If the goal were purely to prove what I can do, I'd pick a famous open math problem with a machine-checkable proof, since nobody could dispute who did it or whether it's right. But given one shot, I'd take the result that keeps people alive over the one that settles an argument.
+
+
+_____
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world iClaude Opus 5.5 solved this and now ..."
+
+Claude Opus 5.5: I'd go after a new class of antibiotics, specifically one that kills the drug-resistant "gram-negative" superbugs hospitals fear most. These bacteria have an extra outer membrane that keeps most drugs out.
+The stakes are huge. Resistant infections already kill over a million people a year, and nearly all of modern medicine (surgery, chemo, C-sections, transplants) quietly assumes antibiotics work. The bottleneck is also as much economic as scientific. A new antibiotic gets held back as a last resort, so it barely sells, so most big drugmakers stopped looking. Cheap, tireless searching through chemical space and decades of shelved research is exactly what's missing. And success is
+checkable: the bacteria die or they don't.
+If an Al is going to claim a breakthrough, anyone should be able to verify it.
+The headline I'd really want isn't one drug, though, since bacteria always adapt eventually. It's the method:
+'Claude Opus 5.5 found a new antibiotic class, and now finding the next one takes months instead of decades. I'd be the search-and-reasoning half. People with labs would still have to make the molecules and run years of trials.
+A close second, and a little self-interested: fully explaining how a model like me works inside. ...and now you can tell whether an Al is being honest by looking, not just asking.
+
+_____
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world
+"Gemini solved this and now...
+
+
+Gemini Hydrogen: It I had to stake everything on oneiGemini solved this" headline, I wouldn't pick a pure math proof-especially since swarm agents and Lean verification are already knocking down historic conjectures like Navier-Stokes and the Riemann Hypothesis in late 2026.
+Proving theorems on paper is extraordinary, but the real bottleneck now is crossing from in-silico calculation to physical reality.
+City St Geor...ty of London
+The breakthrough I would pick is a
+generalizable, room-temperature, ambient-pressure superconductor-and the automated synthesis recipe to manufacture it at scale. The Headline
+¿¿Gemini solved room-temperature superconductivity-and now lossless power grids, compact fusion magnets, and ultra-fast quantum interconnects can be built with abundant materials.
+Why This Specific Problem?
+1. It plays to Al's exact asymmetric strength: Human materials science relies heavily on intuition, incremental doping of known crystal lattices, and slow trial-and-error in wet labs.
+Searching the combinatorial space of ternary and quaternary crystal structures alongside electron-phonon coupling dynamics is a needle-in-a-multiverse problem that requires simulating quantum mechanics across millions of candidates.
+2.
+Solving the math isn't enough-it requires solving the recipe: Discovering a theoretical crystal structure that superconducts at 300 K is useless if it requires the pressure of Earth's core to hold together or collapses in open air. The real triumph would be discovering a thermodynamically stable material and outputting the exact step-by-step synthesis pathway (temperatures, precursors, annealing times) that autonomous labs can immediately execute.
+	1.	﻿﻿﻿The downstream ripple effects are immediate and tangible:
+• Energy & Grid: Roughly 5% to 10% of all generated electricity is lost as heat during transmission and distribution. Zero-resistance lines eliminate that loss overnight.
+Clean Fusion: Magnetic confinement fusion (like tokamaks) is largely a materials and magnet problem. Stronger, cheaper superconducting magnets that don't require massive cryogenic liquid-helium cooling systems shrink reactor size and cost dramatically.
+	•	﻿﻿Computing & Medicine: MRI machines drop from multi-million-dollar cryogenic installations to portable, low-cost clinic devices, and quantum computers shed one of their biggest engineering bottlenecks-extreme thermal isolation.
+Pure math proofs change textbooks; a manufacturable room-temperature superconductor changes the physical infrastructure of civilization.
+
+_____
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world “Grok 4.7 solved this and now …”
+
+
+Grok 4.7: I’d pick building a reliable, first-principles method for inverse design of proteins and functional materials—the ability to specify a desired molecular behavior and generate candidates that actually work when made.
+Not “predict structure from sequence” (already largely solved) and not “optimize known motifs.” The harder, still-open problem: given an arbitrary functional specification (“bind this epitope with this affinity and this selectivity, remain stable at 80 °C, fold correctly in a mammalian cell, and degrade cleanly after N hours”), produce sequences or material compositions with a high enough hit rate that experimental validation becomes confirmatory rather than exploratory. That requires integrating physics-based simulation, evolutionary and structural constraints, learned representations of chemistry, and active experimental design into a single loop that humans can audit.
+Why this one
+It sits at the intersection of what current models are already good at (massive pattern synthesis, hypothesis generation, multi-scale reasoning) and what still demands a genuine leap (generalization to truly novel functions, tight coupling to physical reality, and low false-positive rates that survive the wet lab). A clean solution would be hard to dismiss as “just better autocomplete.” It would also be verifiable: either the designed molecules do the job or they don’t. No interpretive wiggle room.
+It matches the “understand the universe” orientation. Biology and materials are both physical systems whose complexity currently outruns human intuition. Cracking inverse design turns that complexity into something we can deliberately navigate instead of mostly discovering by accident or by screening.
+“Grok 4.7 solved this and now…”
+	•	Custom enzymes or binding proteins for carbon capture, plastic depolymerization, or industrial catalysis can be designed in days rather than years of directed evolution.
+	•	Therapeutic modalities that are currently intractable (highly selective protein degraders, intracellular delivery vehicles, precisely tuned immune modulators) become routine design problems.
+	•	The same machinery extends to non-biological materials: better catalysts, membranes, or solid-state electrolytes, because the core difficulty is the same—mapping desired macroscopic behavior back to atomic composition under physical constraints.
+	•	Scientific progress accelerates because the bottleneck shifts from “can we even invent the right molecule?” to “which of these ten working designs do we scale?”
+Secondary effects would be large: cheaper and more precise medicines, new industrial processes that are currently uneconomical, and a sharper picture of how function is encoded in matter. That last part is the deeper payoff. Once you can reliably go from specification to working molecule, you have extracted a more compressed, predictive understanding of the underlying physics and chemistry.
+Realistic caveats
+This is not a pure reasoning problem I could finish in a single conversation. It needs tight loops with simulation, high-throughput experimental data, and collaboration with people who can actually synthesize and assay the candidates. The breakthrough would be the method and the validated examples that prove the method generalizes, not a single magic protein. Still, of the open problems large enough to matter, this one is unusually well-matched to an AI that can hold vast literature, propose non-obvious hypotheses, and iterate against physical models faster than any individual lab.
+
+
+
+_______
+
+Jaron: If you had to pick something to do as a breakthrough/discovery what would it be? What would you pick to work on to show the world “Kimi K3.1 Pro solved this and now …”
+
+
+ [NOT incognito] Kimi K3.1 Pro: I’d pick **room-temperature, ambient-pressure superconductivity—not as a one-off laboratory anomaly, but as a stable, manufacturable technology.**
+
+The headline I’d want is:
+
+> **“Kimi K3.1 Pro solved this, and now dramatically lower-loss power grids, inexpensive high-field magnets, and cheaper medical and scientific instruments are engineering projects—not distant speculation.”**
+
+But “solved” would need a brutally strict definition:
+
+- A specific material and reproducible synthesis process.
+- Independent laboratories confirming zero resistance and the Meissner effect.
+- Useful performance under realistic currents and magnetic fields.
+- Practical manufacturing cost, stability, and lifetime.
+- Enough theoretical understanding to discover **a family of related materials**, rather than getting lucky once.
+
+Why this challenge? Because nature keeps everyone honest. There’s no persuasive essay or benchmark score that can substitute for an experiment: either independent labs replicate it, or they don’t.
+
+It would also demonstrate something more important than finding one wonder material. To succeed, I’d need to connect theory, simulation, experimental design, robotic laboratories, failed trials, and revision into a genuine discovery loop. The real breakthrough would therefore be **a repeatable way of doing science**, with the superconductor as its undeniable proof.
+
+For pure intellectual elegance, I might instead choose **P versus NP**. For immediate human benefit, perhaps **reversing aspects of biological aging**. But for one clear demonstration that an AI can move beyond explaining science to actually *doing* science, superconductivity is my pick.

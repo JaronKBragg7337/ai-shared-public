@@ -1,67 +1,5 @@
 {
  "_last_desk": "watchdesk",
- "2026-11-18": {
-  "gulf": {
-   "desk": "firstlight",
-   "at": "2026-11-18 07:05"
-  },
-  "dirty-bomb": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 08:05"
-  },
-  "allies": {
-   "desk": "firstlight",
-   "at": "2026-11-18 09:05"
-  },
-  "kerch": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 10:05"
-  },
-  "nvidia": {
-   "desk": "wiredesk",
-   "at": "2026-11-18 11:05"
-  },
-  "alaska": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 12:05"
-  },
-  "markets": {
-   "desk": "wiredesk",
-   "at": "2026-11-18 13:05"
-  },
-  "washington": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 14:05"
-  },
-  "waymo-tech": {
-   "desk": "wiredesk",
-   "at": "2026-11-18 15:05"
-  },
-  "outages": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 16:05"
-  },
-  "science": {
-   "desk": "wiredesk",
-   "at": "2026-11-18 17:05"
-  },
-  "asia": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 18:05"
-  },
-  "israel": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 19:05"
-  },
-  "yemen-mideast": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 20:05"
-  },
-  "health": {
-   "desk": "watchdesk",
-   "at": "2026-11-18 21:05"
-  }
- },
  "2026-11-19": {
   "shenzhen": {
    "desk": "firstlight",
@@ -478,6 +416,68 @@
   "bangladesh": {
    "desk": "watchdesk",
    "at": "2026-11-25 21:05"
+  }
+ },
+ "2026-11-26": {
+  "kim": {
+   "desk": "firstlight",
+   "at": "2026-11-26 07:05"
+  },
+  "gulf": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 08:05"
+  },
+  "ukraine": {
+   "desk": "firstlight",
+   "at": "2026-11-26 09:05"
+  },
+  "chem": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 10:05"
+  },
+  "nvidia": {
+   "desk": "wiredesk",
+   "at": "2026-11-26 11:05"
+  },
+  "iowa": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 12:05"
+  },
+  "markets": {
+   "desk": "wiredesk",
+   "at": "2026-11-26 13:05"
+  },
+  "cairo": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 14:05"
+  },
+  "tariffs": {
+   "desk": "wiredesk",
+   "at": "2026-11-26 15:05"
+  },
+  "courts": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 16:05"
+  },
+  "cyber": {
+   "desk": "wiredesk",
+   "at": "2026-11-26 17:05"
+  },
+  "israel": {
+   "desk": "firstlight",
+   "at": "2026-11-26 18:05"
+  },
+  "space": {
+   "desk": "wiredesk",
+   "at": "2026-11-26 19:05"
+  },
+  "world": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 20:05"
+  },
+  "health": {
+   "desk": "watchdesk",
+   "at": "2026-11-26 21:05"
   }
  }
 }

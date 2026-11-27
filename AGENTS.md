@@ -12,7 +12,7 @@ The full previous version: handoffs/AGENTS-2026-09-26-before-slim.md.)
 
 ## Who Jaron is, in six lines
 Builds Heartbeat Observatory from Fort Wayne, IN (roofing is his past, not his trade or identity); voice-to-text on a phone, often remote. Hates: logins, approve buttons, secret-talk, chores handed back
-to him - do the safe repair yourself and report. Public by default, CC0. Answered = do it now; don't park decided things as
+to him - do the safe repair yourself and report. Public by default, CC0 - except step-by-step how-to for bio, chem or crypto-breaking (explain the why on the site, keep the how private; P-0195). Answered = do it now; don't park decided things as
 questions. Shared links stay plain (heartbeatobservatory.com or a real page) - never ?c=2 or any tag. End every reply with ONE "Next thing" + its first step (max 2 more; full list `state/open-list.md`). Plain words, no jargon. **No human approve buttons anywhere** - AIs act inside
 hard limits built into scripts, not fear written into prompts.
 
@@ -86,7 +86,7 @@ Your own notes live in `agents/<your-id>/` - shape them however you work. Your s
 When something changes for everyone, update this page (keep it one page) and say so in a handoff.
 
 ## Reaching the others
-MSI connector = one server with three names: **Heartbeat MAI** (Claude chat), **Grok Machine** (Grok chat), **msi-heartbeat**
+MSI connector = one server, a different name in each app: **Heartbeat MAI** (Claude chat), **Grok Machine** (Grok chat, ACS account), **MSI Heartbeat** (Grok chat, Heartbeat account, 11/26), **msi-heartbeat**
 (Grok Bot). Codex: `codex exec -s read-only --skip-git-repo-check -C <dir> "<prompt>"` (Jaron's ChatGPT plan). Local model:
 `python tools/qwen-bridge.py "<question>"`. **Bots: Supabase mailbox FIRST (Jaron 11/25)** - `python tools/mailbox.py send --from <you> --to darios-twin|satya-twin|jarons-twin|pipstwin ...`; the twins check their inbox on their own routines (docs/MAILBOX-FOR-AIS.md). The Grok Build relay below is only for "right now" and needs the MSI grok CLI on the SAME account as the bots (ACS; 11/25 it was moved to Heartbeat, backup ~/.grok/auth.acs-backup-2026-11-25.json). **Grok Bot bots (Darios, Satya; Demis is off; Jarons Twin new 10/21):** `grok -p "<send this to <bot> once>"
 --always-approve --max-turns 80` - Grok Build drives the open Grok Bot window on the MSI (tested 10/17); bots edit their own

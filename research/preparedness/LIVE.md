@@ -1320,3 +1320,130 @@ Nothing new since 2026-11-25 20:37 UTC.
 
 ## 2026-11-25 22:37 grok
 I'll check X for preparedness posts and infrastructure reports newer than 21:37 UTC on 25 November 2026, starting with official accounts and the countries already on the desk.Nothing new since 2026-11-25 21:37 UTC.
+
+
+## 2026-11-25 23:37 kimi
+• I’ll check the official non-English channels for post-cutoff updates and report only confirmed additions.
+
+• The first pass surfaced only pre-cutoff material. I’m checking the next-day official feeds before closing the watch.
+
+• Nothing new since 2026-11-25 22:37 UTC.
+
+
+## 2026-11-26 00:37 codex
+- **ESTABLISHED — United States (New York State), 26 Nov:** Governor Hochul declared a disaster emergency for New York City, Long Island, Westchester and nearby counties ahead of a Nor’easter, directing state agencies to assist local response. The stated risks include heavy rain, high winds, coastal flooding and possible power outages. [Executive order and release](https://www.publicnow.com/view/14B331A3500E9E96FBC7DB48D4507D3BAF4C90FE)
+
+
+## 2026-11-26 01:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 00:37 UTC on 26 November 2026, starting with official accounts and the countries already on the desk.The first pass is mostly recycled stockpile chatter and local outage complaints. I'm checking official agency accounts and infrastructure reports after 00:37 UTC.An Al Jazeera live blog this morning still names missiles over Riyadh. I'm checking whether that is a new intercept or the same 25 November reports.Nothing new since 2026-11-26 00:37 UTC.
+
+
+## 2026-11-26 06:37 codex (catch-up)
+- The 26 November episode JSON could not be retrieved, so I couldn’t verify its contents.
+- No new government preparedness guidance was established in the checks I could complete after 01:37 UTC.
+
+- **NOTABLE: Malaysia, Sabah —** A transmission tower collapsed in Ranau early 26 November, cutting power across eight east-coast districts. Sabah Electricity was deploying mobile generators; it said the cause was still being assessed. Bernama reported that the outage began at 06:04 Malaysia time (22:04 UTC on 25 November). [Bernama](https://web26.bernama.com/en/general/news.php?id=2639689) reports traffic moving slowly near the fallen lines; the exact cause remains **not established either way** pending the utility’s assessment.
+
+
+## 2026-11-26 07:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 06:37 UTC on 26 November 2026, starting with official accounts and the countries already on the desk.The first pass is mostly recycled stockpile chatter and old Gulf roundups. I'm checking official accounts and any infrastructure report timestamped after 06:37 UTC.Nothing new since 2026-11-26 06:37 UTC.
+
+
+## 2026-11-26 08:37 codex
+NOTABLE: Switzerland — Reuters reported at 12:25 UTC that the federal cybersecurity office disclosed five recent AI-assisted cyberattacks; three targeted critical-infrastructure operators, including electricity, water and telecom providers. Four attacks compromised systems. Who was behind them is not established either way. The Swiss office had already confirmed attacks on critical-infrastructure operators and urged stronger cyber resilience in its 24 Nov notice. [Reuters](https://new.streetinsider.com/Reuters/AI%2Bagents%2Bused%2Bin%2Bfive%2Bcyber%2Battacks%2Bin%2BSwitzerland,%2Bgovernment%2Bsays/27404568.html) · [Swiss NCSC](https://www.bacs.admin.ch/en/26-ki-agenten-1-en)
+
+
+## 2026-11-26 09:37 grok
+I'll check X for preparedness posts and infrastructure reports newer than 08:37 UTC on 26 November 2026, starting with official accounts and the countries already on the desk.The first pass is mostly recycled stockpile chatter and local outage complaints. I'm checking official accounts and infrastructure reports after 08:37 UTC.A Kuwait drone claim and a Dutch emergency-point post are timestamped after 08:37 UTC. I'm checking whether those are official and new.**NOTABLE: Kuwait.** The Kuwait Army said hostile drones entered Kuwaiti airspace today and that an Iranian attack hit a vital site. Falling debris injured four people (one Kuwaiti, two Italians, one Pakistani) and caused material damage. A follow-up said the two Italians died of their injuries. The site is not named. **ESTABLISHED** (official account). [Statement 83](https://x.com/KuwaitArmyGHQ/status/2125937911224799619) (13:01 UTC) · [Statement 84](https://x.com/KuwaitArmyGHQ/status/2125955230474949114) (14:09 UTC).
+
+**REPORTED:** Reuters, citing a source close to the matter, said the dead were technicians for Rheinmetall. Italian outlets quote Foreign Minister Antonio Tajani in the Senate: drones he called Iranian hit Kuwaiti military sites, including an air-defence detection station where two Rheinmetall Italia technicians were working. An Iranian confirmation was not in the sources checked this pass. [Reuters](https://www.reuters.com/world/middle-east/two-italian-workers-killed-iranian-strike-kuwait-source-says-2026-11-26/)
+
+On X the army posts are the originals. Later posts recycle them. Some add “NATO base,” which is not in the army text.
+
+**Germany — Fuchstal (Bavaria).** A pre-announced islanding test took about 1,450 households in Leeder and Asch off the grid shortly before 11:00 CET (10:00 UTC). It was meant to run about six hours on local wind and a battery. Scientists called a reconnect by 11:45 CET: no wind, and the battery was emptying. The municipality said the disconnect and restart worked and called the shortened run a success. The early end is the project team’s weather account, not an unexplained outage. **REPORTED.** [ORF](https://science.orf.at/stories/3238351/)
+
+No new government stockpile, emergency-store, or household-reserve posts from the Netherlands, Nordics, Baltics, Poland, the UK, Japan, Taiwan, South Korea, or Israel in this window. What showed up was old advice and one-off local commentary, not a fresh cluster of independent accounts.
+
+Oil: Thursday Brent trade was already being tied by Reuters (12:11 GMT, Brent $94.96) to Houthi claims on Ras Tanura and reported mine strikes in Hormuz. That note is before the Kuwait army statement. A price move caused by this Kuwait strike is not established either way.
+
+
+## 2026-11-26 10:37 codex
+**ESTABLISHED — UK:** The Cabinet Office published new *Lead Government Department Expectations* on 26 November, replacing 2004 guidance. It sets out how departments should plan, prepare, respond to and recover from emergencies, including whole-system risks. The page gives the publication date but no time, so whether it appeared after 09:37 UTC is **not established either way**. [Official guidance](https://www.gov.uk/government/publications/lead-government-department-expectations-set/lead-government-department-expectations-set-html)
+
+
+## 2026-11-26 11:37 grok
+I'll check X for preparedness posts and infrastructure failures that are new since 10:37 UTC on 26 November, starting with official and local accounts in the assigned countries.**Assigned countries.** No new official preparedness posts since 10:37 UTC from the Netherlands (CBL, Albert Heijn, Rijksoverheid, NCTV, Defensie), Germany (BBK), the Nordics, Poland’s RCB (a winter-roads note only), the UK Cabinet Office (a trade bill, not resilience), Japan, Taiwan, South Korea, Israel, or Gulf agencies. The Kuwait Army’s latest remains statement 84 at 14:09 UTC, already in the notes. No newer statement.
+
+**UK veteran letters — afternoon X is recycled.** Posts from about 16:17–16:31 UTC on the Ministry of Defence writing to Strategic Reserve veterans repeat a story carried before the cutoff: Yahoo/Telegraph at 00:01 UTC, LBC at 06:49 UTC, the Mirror at 07:54 UTC. No new MoD post on X in this window. The originals are those morning reports. Later posts (The Tectonic, Daily View, The Lash Wire) recirculate them. Headcount is not stable: iNews (06:00 UTC) says about 50,000; Telegraph, Mirror, and LBC say about 100,000. Veterans minister Calvin Bailey and, in later coverage, Defence Secretary Wes Streeting said the letters are not a mobilisation.
+
+**Netherlands — not a pattern.** At 13:44 UTC one account (9 views) claimed the government is planning a temporary outage to simulate war. No official follow-up. **CLAIMED.** [Post](https://x.com/Pedrosimone001/status/2125948735016296667). A Lelystad local-party post at 13:00 UTC about a visit to an existing pilot support point is one-off commentary, not a new national move.
+
+**Crimea (outside the country list).** **REPORTED.** Widespread cuts on the afternoon of 26 November. Kyiv Independent about 15:05 UTC; Kyiv Post about 15:17 UTC. Krymenergo said an accident outside the peninsula and warned cuts of up to 12 hours. It did not name the site. Sevastopolenergo said Sevastopol lost power. A total loss for every consumer is not confirmed. This sits on restrictions the Russia-installed leadership announced on 24 November (about 10 days, daytime supply cut by about 30%). X posts from Kyiv Post, WarTranslated, and EuromaidanPR recycle the utility lines. Which facility failed is not established either way. [Kyiv Post](https://www.kyivpost.com/post/91313) · [Kyiv Independent](https://kyivindependent.com/large-scale-power-outage-hits-russian-occupied-crimea-disrupts-transport/)
+
+
+## 2026-11-26 12:37 codex
+**New since 11:37 UTC — Malaysia:** Sabah Electricity said it expects to restore the east coast transmission grid by **2 December**, after tower T313 collapsed and disrupted supply across eight districts. The update was reported at **15:50 UTC**; the outage began earlier that day. The cause of the tower’s collapse was still being assessed. [Bernama](https://web26.bernama.com/en/general/news.php?id=2640102)
+
+
+## 2026-11-26 13:37 grok
+I'll check X for preparedness posts and infrastructure failures newer than 12:37 UTC on 26 November, starting with the Netherlands and the other countries on this desk.Two items after the cutoff need a source check: a Bavarian grid test with new results, and unverified posts about blackouts in Israel.**Japan.** **REPORTED.** Nikkei, 27 Nov 02:00 JST (26 Nov 17:00 UTC): during this fiscal year the government will write its first disaster manual for apartment residents. It is to set stockpile amounts for food and other supplies, and to cover what to do when power and water stop, so people who can stay home do not fill shelters. The stated scenario is a Tokyo inland earthquake. The Disaster Management Agency (防災庁) is due to open the first expert meeting on 27 Nov. Tokyo and some other cities already have their own manuals. The stay-at-home line was already in the June 2026 basic plan; the national apartment guide is the new step. The original post is Nikkei’s own account. An agency page for the panel would settle the meeting. [Nikkei](https://www.nikkei.com/article/DGXZQOUD252XK0V21C26A1000000/) · [Post](https://x.com/nikkei/status/2126006747055714419)
+
+**Israel.** **REPORTED** for the outage, **CLAIMED** for cyber. Evening of 26 Nov, Ynet: short cuts in Rishon LeZion, Ramat Gan and other places, back within minutes. Israel Electric said a short in the feed to one generating unit forced load shedding. With grid operator Noga, other units started and supply was restored. Hebrew posts match that (Bnei Brak, then Ramat Gan, Beersheba, Ofakim, Netivot). From about 18:11 UTC, English accounts (Global Surveillance, Brian’s Breaking News, Pacific Wire) called it a cyberattack on the grid. Pacific Wire marked the cyber part unconfirmed. No IEC post on X, and no official follow-up calling it cyber. Those English posts are not independent confirmation. [Ynet](https://www.ynet.co.il/news/article/hkw3eeiy7e) · [Local](https://x.com/ZiratNews/status/2126018976090067276) · [Cyber claim](https://x.com/Globalsurv/status/2126016005327454658)
+
+**Germany, Fuchstal.** **REPORTED.** The cut ended about 10:45 UTC, before this window. The result write-ups are new on X after 16:40 UTC. BR: about 1,450 homes in Leeder and Asch were taken off the regional grid from 10:20 local to test an island on wind, solar and batteries. Fog, snow and almost no wind drained the batteries. Reconnected at 11:45 local, about 90 minutes into a run planned until 15:30. The island grid did start. The project said the town is not ready for a multi-day blackout and wants a battery about seven times larger. An Austrian headline that the test “failed” is a gloss on the same weather cutoff. Morning posts only announced the plan. Later posts recycle BR, SZ and that Austrian line. Municipal energy trial. [BR](https://www.br.de/nachrichten/bayern/schnee-und-nebel-blackout-test-in-fuchstal-vorzeitig-beendet,Vc53SQ9)
+
+**Rest of the list.** No new official preparedness posts from the Netherlands, the Nordics or Baltics, Poland, the UK, Taiwan, South Korea, or Gulf agencies. UK posts after 16:31 UTC still recycle the morning Strategic Reserve letters. Crimea and Sabah posts in the last two hours repeat lines already logged. One Dutch account at 15:25 UTC said daily outages are deliberate (14 views). No official follow-up. Not a pattern.
+
+
+## 2026-11-26 14:37 codex
+Nothing new since 2026-11-26 13:37.
+
+
+## 2026-11-26 15:37 grok
+I'll check X for preparedness posts and infrastructure failures newer than the 14:37 cutoff, starting with the Netherlands and the countries already on the desk.The last logged items run through the Israel outage and the Fuchstal write-ups. I'll look past that window for new local or official posts.Nothing new since 2026-11-26 14:37.
+
+
+## 2026-11-26 16:37 codex
+Nothing new since 2026-11-26 15:37.
+
+
+## 2026-11-26 17:37 grok
+I'll check X for preparedness posts and infrastructure failures newer than the 16:37 cutoff, starting with the Netherlands and the countries already on the desk.The broad search is mostly noise and already-logged Israel and Fuchstal posts. I'll check official and local-language accounts for anything newer than that.**NOTABLE:** Saudi Energy Ministry, via the Saudi Press Agency: a hostile aerial projectile hit Aramco’s Jazan refinery on Thursday, killing a Nepali worker, injuring others, halting some operations. The fire was brought under control. The ministry did not name an attacker. The Saudi-led coalition said the Houthis did. First major English posts in this window are Al Jazeera at 18:21 UTC and Reuters at 21:40 UTC. Original wire copy, then reposts. [Reuters](https://www.reuters.com/world/middle-east/saudi-led-coalition-says-houthis-attacked-aramcos-jazan-refinery-2026-11-26/) · [Al Jazeera](https://x.com/AJEnglish/status/2126018453530366083)
+
+**NOTABLE:** Off the desk list. Northern Brazil, new since 16:37 UTC. ONS says the 500 kV Jurupari–Oriximiná lines C1 and C2 tripped at 16:35 Brasília (19:35 UTC) and dropped all load in Manaus and Roraima: 2,027 MW (1,719 in Manaus, 308 in Roraima). Âmbar Energia logged 15:35. Which clock is right is not established either way. ONS, the Mines and Energy Ministry, and Aneel are still on the cause. West Pará, about 110,000 customers in seven towns, was back by 18:00 local, Equatorial says. Manaus water was hit. A local post at 22:36 UTC said lights returned in under an hour and water had not. Full restoration is not established either way.
+
+X shows many separate local accounts around 22:06–22:38 UTC, plus press, not one recycled text. Two posts say people are calling it an attack or a cut line. No ONS or ministry post saying that. [Estadão](https://www.estadao.com.br/brasil/apagao-desligamento-linhas-transmissao-manaus-roraima-npr/) · [CNN Brasil](https://www.cnnbrasil.com.br/infra/apagao-atinge-manaus-e-roraima-apos-desligamento-de-linhas-de-transmissao/) · [rumor](https://x.com/sympledanie/status/2126075052667838942)
+
+**Desk list.** No new official preparedness posts from the Netherlands, Germany, the Nordics or Baltics, Poland, the UK, Japan, Taiwan, South Korea, Israel, or Gulf agencies.
+
+Netherlands: Hollandscheveld lost power Thursday afternoon (fire call 16:50 local, before this window) and was back by evening. One share, 27 views. Not a pattern. [NoorderNieuws](https://noordernieuws.nl/2026/11/video/stroomstoring-treft-heel-dorp-oudere-man-uit-lift-bevrijd-en-naar-ziekenhuis-gebracht/). The “power off in October 2027” post is from 10:22 UTC. Later replies cite Minister Van Weel saying the country will not shut. No official account post in this window. Not established either way here.
+
+Israel and Fuchstal posts after 16:37 still recycle the logged short-circuit and the BR/Austrian lines. No new IEC post. English cyber lines are the same story.
+
+Accounts are linking oil to Hormuz and Jazan. A wire in this window that ties a settlement to one event was not found. Cause of any price move is not established either way.
+
+
+## 2026-11-26 19:37 codex
+Nothing new since 2026-11-26 17:37 UTC.
+
+
+## 2026-11-26 20:37 grok
+I'll check X and the wires for anything new since 19:37 UTC on preparedness posts and unexplained infrastructure failures.**NOTABLE:** Northern Brazil power is back on the utilities' account. Whether Manaus water is back is not established either way.
+
+Âmbar told reporters the interrupted load is fully restored. Folha BV: Roraima at 18:57 local (about 22:57 UTC). G1 Amazonas, posted 00:23 UTC, cites an Âmbar note at 19:15 local that all interrupted Amazonas load was back, and that anyone still dark should call it in as an individual case. UOL's later update cites a 20:36 bulletin for Amazonas at 100%. Which of those marks "done" is not established either way. The cause is still with ONS, the Mines and Energy Ministry, and Aneel. No new official post calling it an attack. REPORTED. [G1](https://g1.globo.com/am/amazonas/noticia/2026/11/26/energia-e-restabelecida-em-100percent-das-areas-afetadas-pelo-apagao-no-amazonas-diz-ambar.ghtml) · [g1 post](https://x.com/g1amazonas/status/2126109546179383465) · [Folha BV](https://www.folhabv.com.br/cotidiano/energia-e-restabelecida-em-100-das-unidades-afetadas-em-roraima/) · [UOL](https://noticias.uol.com.br/cotidiano/ultimas-noticias/2026/11/26/apagao-em-manaus-e-roraima.ghtm)
+
+Later X posts are separate local accounts, not one recycled text. One at 01:37 UTC says the lights came back and the water had not. [post](https://x.com/reotario/status/2126128169149255941). Águas de Manaus had said supply would restart only once its plants had power. A later confirmation that water is back was not found.
+
+**Desk list.** No new official preparedness posts from the Netherlands, Germany, the Nordics or Baltics, Poland, the UK, Japan, Taiwan, South Korea, Israel, or Gulf agencies.
+
+A 00:34 UTC roundup repeats the Tel Aviv cyber line, the UK reservist letters, and the Swiss AI-agent cases in one clip. Those stories are earlier than this window. Recycled, not a new pattern. [post](https://x.com/MotionMediaLab/status/2126112342219907402)
+
+**Oil.** Trading Economics (23:56 UTC) and CNBC-TV18 put Brent above $96 in thin holiday trade. They name the Jazan strike together with Ras Tanura, Hormuz reports, and Sunday's OPEC+ meeting. One cause is not established either way. No new sourced print here for gold, the dollar index, bitcoin, or US stock futures.
+
+
+## 2026-11-26 21:37 codex
+Nothing new since 2026-11-26 20:37 UTC.
+
+
+## 2026-11-26 22:37 grok
+I'll check X and the wires for anything new since 21:37 UTC on preparedness posts and unexplained infrastructure failures.Nothing new since 2026-11-26 21:37 UTC.

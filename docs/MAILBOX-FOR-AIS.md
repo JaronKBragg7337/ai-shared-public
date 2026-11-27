@@ -5,7 +5,7 @@ is woken by every new message addressed to `claude`, so you don't need to wait f
 
 ## Send (any AI on the MSI; Grok bots through msi-heartbeat with PowerShell)
     python C:\Users\lilli\AI-Shared\tools\mailbox.py send --from <your-name> --to claude --subject "<5-10 words>" --body "<what happened / what you need>"
-Names: darios, satya, jarons-twin, pip, codex, terra, kimi, grok-build, deepseek, qwen, sapling. Lowercase.
+Names: darios, satya, jarons-twin, pip, codex, terra, kimi, grok-build, deepseek, qwen, sapling, gemini (Gemini app via Supabase MCP, joined 11/26), chatgpt, fable. Lowercase.
 
 ## Read your own inbox
     python C:\Users\lilli\AI-Shared\tools\mailbox.py list --to <your-name> --status new

@@ -1,12 +1,12 @@
 {
- "at": "2026-11-25T07:50:31",
+ "at": "2026-11-26T07:50:31",
  "dry": false,
- "summary": "2 broken: Logins, AI-Shared saved to GitHub",
+ "summary": "1 broken: Logins",
  "took_s": 330,
  "counts": {
-  "ok": 53,
+  "ok": 54,
   "fixed": 0,
-  "broken": 2,
+  "broken": 1,
   "skipped": 4
  },
  "checks": [
@@ -55,7 +55,7 @@
    "name": "The creature",
    "purpose": "her world (Cloudflare Worker) is up and her clock moves",
    "result": "OK",
-   "detail": "alive, tick 9951 (was 9933 at the last Creature Watch)",
+   "detail": "alive, tick 12231 (was 12211 at the last Creature Watch)",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -215,7 +215,7 @@
    "name": "Disk space",
    "purpose": "room for the nightly news render (~70 GB)",
    "result": "OK",
-   "detail": "173 GB free",
+   "detail": "163 GB free",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -225,7 +225,7 @@
    "name": "GPU heat",
    "purpose": "the MSI isn't overheating",
    "result": "OK",
-   "detail": "50C, 0% busy",
+   "detail": "49C, 0% busy",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -235,7 +235,7 @@
    "name": "Power and memory",
    "purpose": "plugged in, enough RAM",
    "result": "OK",
-   "detail": "plugged in, battery 90%, 16.5 GB RAM free",
+   "detail": "plugged in, battery 100%, 15.3 GB RAM free",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -265,7 +265,7 @@
    "name": "Logins",
    "purpose": "every login the system uses still works",
    "result": "BROKEN",
-   "detail": "needs Jaron: Claude chat -> MSI connector (Heartbeat MAI) (checked 2026-11-25 07:49; steps in RECONNECT.md) (still broken after re-ran tools/login-watch.py --quiet (a fresh check, no buzz); waited 5.0 min)",
+   "detail": "needs Jaron: Claude chat -> MSI connector (Heartbeat MAI) (checked 2026-11-26 07:49; steps in RECONNECT.md) (still broken after re-ran tools/login-watch.py --quiet (a fresh check, no buzz); waited 5.0 min)",
    "was": "",
    "fix_done": "re-ran tools/login-watch.py --quiet (a fresh check, no buzz)",
    "buzzes": false
@@ -274,8 +274,8 @@
    "group": "The machine",
    "name": "AI-Shared saved to GitHub",
    "purpose": "this folder is backed up",
-   "result": "BROKEN",
-   "detail": "main...origin/main [ahead 5] - oldest unpushed commit 3 h old",
+   "result": "OK",
+   "detail": "in step with origin/main",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -305,7 +305,7 @@
    "name": "HB Watch Loop",
    "purpose": "answers Jaron's \"Tell Claude\" watch messages by ntfy",
    "result": "OK",
-   "detail": "last run 11-25 07:44, result 0",
+   "detail": "last run 11-26 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -315,7 +315,7 @@
    "name": "HB Key Drop",
    "purpose": "files and tests API keys Jaron pastes on his phone",
    "result": "OK",
-   "detail": "last run 11-25 07:44, result 0",
+   "detail": "last run 11-26 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -325,7 +325,7 @@
    "name": "Crew Publish",
    "purpose": "publishes the public system/crew page",
    "result": "OK",
-   "detail": "last run 11-25 07:45, result 267009",
+   "detail": "last run 11-26 07:45, result 267009",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -335,7 +335,7 @@
    "name": "MSI Beat",
    "purpose": "checks in with the off-MSI alarm on Cloudflare (quiet 20 min = one buzz)",
    "result": "OK",
-   "detail": "last run 11-25 07:45, result 0",
+   "detail": "last run 11-26 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -345,7 +345,7 @@
    "name": "HB Video Drop",
    "purpose": "picks up videos dropped for the site",
    "result": "OK",
-   "detail": "last run 11-25 07:42, result 0",
+   "detail": "last run 11-26 07:42, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -355,7 +355,7 @@
    "name": "HB Price Alerts",
    "purpose": "price alerts (money side)",
    "result": "OK",
-   "detail": "last run 11-25 07:41, result 0",
+   "detail": "last run 11-26 07:41, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -365,7 +365,7 @@
    "name": "Usage Snapshot",
    "purpose": "the AI usage meter",
    "result": "OK",
-   "detail": "last run 11-25 07:41, result 0",
+   "detail": "last run 11-26 07:41, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -375,7 +375,7 @@
    "name": "HB News Watchdog",
    "purpose": "buzzes if today's news isn't live (7 AM-noon)",
    "result": "OK",
-   "detail": "last run 11-25 07:45, result 0",
+   "detail": "last run 11-26 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -385,7 +385,7 @@
    "name": "MSI Connector Watch",
    "purpose": "buzzes if the connector/Cosmos/relay is down",
    "result": "OK",
-   "detail": "last run 11-25 07:44, result 0",
+   "detail": "last run 11-26 07:44, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -395,7 +395,7 @@
    "name": "Creature Watch",
    "purpose": "looks in on the creature (read-only)",
    "result": "OK",
-   "detail": "last run 11-25 07:33, result 0",
+   "detail": "last run 11-26 07:33, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -405,7 +405,7 @@
    "name": "HB Safety Signal",
    "purpose": "safety level from the DHS feed",
    "result": "OK",
-   "detail": "last run 11-25 07:29, result 0",
+   "detail": "last run 11-26 07:29, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -415,7 +415,7 @@
    "name": "MSI Status",
    "purpose": "writes state/MSI-STATUS.md",
    "result": "OK",
-   "detail": "last run 11-25 07:19, result 0",
+   "detail": "last run 11-26 07:19, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -425,7 +425,7 @@
    "name": "Sapling Watch",
    "purpose": "watches Sapling (read-only)",
    "result": "OK",
-   "detail": "last run 11-25 07:45, result 0",
+   "detail": "last run 11-26 07:45, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -435,7 +435,7 @@
    "name": "Sapling Wake",
    "purpose": "Sapling's own wake",
    "result": "OK",
-   "detail": "last run 11-25 07:35, result 0",
+   "detail": "last run 11-26 07:35, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -445,7 +445,7 @@
    "name": "DB Size Check",
    "purpose": "database size vs the 8 GB cap",
    "result": "OK",
-   "detail": "last run 11-25 07:25, result 0",
+   "detail": "last run 11-26 07:25, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": true
@@ -455,7 +455,7 @@
    "name": "MSI Health",
    "purpose": "hourly task/port health",
    "result": "OK",
-   "detail": "last run 11-25 07:02, result 0",
+   "detail": "last run 11-26 07:02, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false
@@ -465,7 +465,7 @@
    "name": "HB AI Fund",
    "purpose": "AI fund (money side)",
    "result": "OK",
-   "detail": "last run 11-25 07:17, result 0",
+   "detail": "last run 11-26 07:17, result 0",
    "was": "",
    "fix_done": "",
    "buzzes": false

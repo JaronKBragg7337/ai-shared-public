@@ -72,6 +72,18 @@
         "C:/Users/lilli/Projects/heartbeat-observatory"
       ],
       "port": 4352
+    },
+    {
+      "name": "turkey",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8766",
+        "--directory",
+        "C:/Users/lilli/Projects/ho-turkey"
+      ],
+      "port": 8766
     }
   ]
 }

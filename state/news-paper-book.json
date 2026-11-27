@@ -842,7 +842,7 @@
           "size_pct": 5,
           "story": "Iran ramps up retaliation on Gulf countries after U.S. strikes",
           "reason": "Escalation in the Strait of Hormuz following US strikes on Qeshm and Iranian attacks on Bahrain creates immediate supply disruption risk for oil markets.",
-          "status": "open",
+          "status": "settled",
           "decision_date": "2026-11-18",
           "decision_at": "2026-11-18T09:05:55-05:00",
           "entry_not_before": "2026-11-18",
@@ -850,11 +850,12 @@
           "entry_close": 136.11000061035156,
           "spy_entry_close": 730.2000122070312,
           "due_date": "2026-11-25",
-          "mark_date": "2026-11-24",
-          "mark_close": 135.42999267578125,
-          "spy_mark_close": 718.780029296875,
-          "pnl": -2.5,
-          "spy_pnl": -7.82
+          "mark_date": "2026-11-25",
+          "mark_close": 139.88999938964844,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 13.89,
+          "spy_pnl": -9.24,
+          "result": "win"
         },
         {
           "etf": "XLE",
@@ -863,7 +864,7 @@
           "size_pct": 5,
           "story": "Vessels on fire after naval mine hit in Hormuz Strait, Iran says",
           "reason": "Physical damage to shipping infrastructure and active naval mines in the Strait of Hormuz threaten immediate oil flow reductions.",
-          "status": "open",
+          "status": "settled",
           "decision_date": "2026-11-18",
           "decision_at": "2026-11-18T09:05:55-05:00",
           "entry_not_before": "2026-11-18",
@@ -871,11 +872,12 @@
           "entry_close": 61.290000915527344,
           "spy_entry_close": 730.2000122070312,
           "due_date": "2026-11-25",
-          "mark_date": "2026-11-24",
-          "mark_close": 60.45000076293945,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 6.85,
-          "spy_pnl": -7.82
+          "mark_date": "2026-11-25",
+          "mark_close": 60.900001525878906,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 3.18,
+          "spy_pnl": -9.24,
+          "result": "win"
         },
         {
           "etf": "TLT",
@@ -884,7 +886,7 @@
           "size_pct": 5,
           "story": "UK inflation rose to 3.6% year over year in October, a one-year high that increased expectations for another Bank of England rate hike in December",
           "reason": "Unexpectedly high UK inflation suggests persistent global demand and potential Fed persistence, which could support long-duration bonds if markets pivot from growth fears.",
-          "status": "open",
+          "status": "settled",
           "decision_date": "2026-11-18",
           "decision_at": "2026-11-18T09:05:55-05:00",
           "entry_not_before": "2026-11-18",
@@ -892,11 +894,12 @@
           "entry_close": 80.22000122070312,
           "spy_entry_close": 730.2000122070312,
           "due_date": "2026-11-25",
-          "mark_date": "2026-11-24",
-          "mark_close": 81.48999786376953,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 7.92,
-          "spy_pnl": -7.82
+          "mark_date": "2026-11-25",
+          "mark_close": 82.23999786376953,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 12.59,
+          "spy_pnl": -9.24,
+          "result": "win"
         }
       ]
     },
@@ -962,11 +965,11 @@
           "entry_close": 60.88999938964844,
           "spy_entry_close": 715.8699951171875,
           "due_date": "2026-11-26",
-          "mark_date": "2026-11-24",
-          "mark_close": 60.45000076293945,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 5.78,
-          "spy_pnl": 3.25
+          "mark_date": "2026-11-25",
+          "mark_close": 60.900001525878906,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": -0.13,
+          "spy_pnl": 0.93
         },
         {
           "etf": "TLT",
@@ -983,11 +986,11 @@
           "entry_close": 80.3499984741211,
           "spy_entry_close": 715.8699951171875,
           "due_date": "2026-11-26",
-          "mark_date": "2026-11-24",
-          "mark_close": 81.48999786376953,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 8.51,
-          "spy_pnl": 2.44
+          "mark_date": "2026-11-25",
+          "mark_close": 82.23999786376953,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 14.11,
+          "spy_pnl": 0.7
         },
         {
           "etf": "QQQ",
@@ -1004,11 +1007,11 @@
           "entry_close": 645.0399780273438,
           "spy_entry_close": 715.8699951171875,
           "due_date": "2026-11-26",
-          "mark_date": "2026-11-24",
-          "mark_close": 638.0999755859375,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 7.53,
-          "spy_pnl": 2.85
+          "mark_date": "2026-11-25",
+          "mark_close": 633.9299926757812,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 12.06,
+          "spy_pnl": 0.81
         }
       ]
     },
@@ -1074,11 +1077,11 @@
           "entry_close": 651.030029296875,
           "spy_entry_close": 722.2899780273438,
           "due_date": "2026-11-30",
-          "mark_date": "2026-11-24",
-          "mark_close": 638.0999755859375,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 15.89,
-          "spy_pnl": -3.89
+          "mark_date": "2026-11-25",
+          "mark_close": 633.9299926757812,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 21.01,
+          "spy_pnl": -6.19
         },
         {
           "etf": "XLE",
@@ -1095,11 +1098,11 @@
           "entry_close": 59.869998931884766,
           "spy_entry_close": 722.2899780273438,
           "due_date": "2026-11-30",
-          "mark_date": "2026-11-24",
-          "mark_close": 60.45000076293945,
-          "spy_mark_close": 718.780029296875,
-          "pnl": -4.84,
-          "spy_pnl": -2.43
+          "mark_date": "2026-11-25",
+          "mark_close": 60.900001525878906,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": -8.6,
+          "spy_pnl": -3.87
         }
       ]
     },
@@ -1165,11 +1168,11 @@
           "entry_close": 133.36000061035156,
           "spy_entry_close": 722.2899780273438,
           "due_date": "2026-11-30",
-          "mark_date": "2026-11-24",
-          "mark_close": 135.42999267578125,
-          "spy_mark_close": 718.780029296875,
-          "pnl": 10.87,
-          "spy_pnl": -3.4
+          "mark_date": "2026-11-25",
+          "mark_close": 139.88999938964844,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 34.28,
+          "spy_pnl": -5.42
         },
         {
           "etf": "GLD",
@@ -1186,11 +1189,11 @@
           "entry_close": 333.0199890136719,
           "spy_entry_close": 722.2899780273438,
           "due_date": "2026-11-30",
-          "mark_date": "2026-11-24",
-          "mark_close": 325.45001220703125,
-          "spy_mark_close": 718.780029296875,
-          "pnl": -11.37,
-          "spy_pnl": -2.43
+          "mark_date": "2026-11-25",
+          "mark_close": 327.45001220703125,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": -8.36,
+          "spy_pnl": -3.87
         }
       ]
     },
@@ -1256,11 +1259,11 @@
           "entry_close": 333.0199890136719,
           "spy_entry_close": 722.2899780273438,
           "due_date": "2026-11-30",
-          "mark_date": "2026-11-24",
-          "mark_close": 325.45001220703125,
-          "spy_mark_close": 718.780029296875,
-          "pnl": -11.37,
-          "spy_pnl": -2.43
+          "mark_date": "2026-11-25",
+          "mark_close": 327.45001220703125,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": -8.36,
+          "spy_pnl": -3.87
         },
         {
           "etf": "USO",
@@ -1392,10 +1395,19 @@
           "size_pct": 8,
           "story": "Brent crude rose about 2.3% to $91.40 a barrel and WTI rose about 2.4% to $82.05 amid Middle East supply concerns.",
           "reason": "Rising oil prices due to Houthi attacks and Strait of Hormuz disruptions favor long energy positions.",
-          "status": "pending",
+          "status": "open",
           "decision_date": "2026-11-25",
           "decision_at": "2026-11-25T09:06:01-05:00",
-          "entry_not_before": "2026-11-25"
+          "entry_not_before": "2026-11-25",
+          "entry_date": "2026-11-25",
+          "entry_close": 139.88999938964844,
+          "spy_entry_close": 716.7000122070312,
+          "due_date": "2026-12-02",
+          "mark_date": "2026-11-25",
+          "mark_close": 139.88999938964844,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 0.0,
+          "spy_pnl": 0.0
         },
         {
           "etf": "GLD",
@@ -1404,10 +1416,19 @@
           "size_pct": 6,
           "story": "The U.S. Army said it plans to detonate its stockpile of degrading lead azide at an Iowa ammunition plant after obtaining court approval — guardian https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
           "reason": "Potential for localized supply chain disruption or market volatility from the controlled detonation event.",
-          "status": "pending",
+          "status": "open",
           "decision_date": "2026-11-25",
           "decision_at": "2026-11-25T09:06:01-05:00",
-          "entry_not_before": "2026-11-25"
+          "entry_not_before": "2026-11-25",
+          "entry_date": "2026-11-25",
+          "entry_close": 327.45001220703125,
+          "spy_entry_close": 716.7000122070312,
+          "due_date": "2026-12-02",
+          "mark_date": "2026-11-25",
+          "mark_close": 327.45001220703125,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": 0.0,
+          "spy_pnl": 0.0
         },
         {
           "etf": "QQQ",
@@ -1416,10 +1437,92 @@
           "size_pct": 4,
           "story": "SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names — cnbc https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html",
           "reason": "Negative sentiment in the AI sector and broader tech market suggests a short position in QQQ.",
-          "status": "pending",
+          "status": "open",
           "decision_date": "2026-11-25",
           "decision_at": "2026-11-25T09:06:01-05:00",
-          "entry_not_before": "2026-11-25"
+          "entry_not_before": "2026-11-25",
+          "entry_date": "2026-11-25",
+          "entry_close": 633.9299926757812,
+          "spy_entry_close": 716.7000122070312,
+          "due_date": "2026-12-02",
+          "mark_date": "2026-11-25",
+          "mark_close": 633.9299926757812,
+          "spy_mark_close": 716.7000122070312,
+          "pnl": -0.0,
+          "spy_pnl": 0.0
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "at": "2026-11-26T09:05:51-05:00",
+      "model": "qwen3.5:9b",
+      "context": {
+        "news_list": "2026-11-26-top.md",
+        "completed_prices": {
+          "SPY": {
+            "date": "2026-11-25",
+            "close": 716.7000122070312
+          },
+          "QQQ": {
+            "date": "2026-11-25",
+            "close": 633.9299926757812
+          },
+          "XLE": {
+            "date": "2026-11-25",
+            "close": 60.900001525878906
+          },
+          "USO": {
+            "date": "2026-11-25",
+            "close": 139.88999938964844
+          },
+          "GLD": {
+            "date": "2026-11-25",
+            "close": 327.45001220703125
+          },
+          "ITA": {
+            "date": "2026-11-25",
+            "close": 68.7699966430664
+          },
+          "TLT": {
+            "date": "2026-11-25",
+            "close": 82.23999786376953
+          },
+          "UUP": {
+            "date": "2026-11-25",
+            "close": 29.600000381469727
+          }
+        },
+        "workspace": false,
+        "open_positions": false,
+        "past_results": false,
+        "prior_conversation": false,
+        "tools": false
+      },
+      "calls": [
+        {
+          "etf": "QQQ",
+          "direction": "short",
+          "horizon": "1 week",
+          "size_pct": 5,
+          "story": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
+          "reason": "Downgrade risk suggests potential short-term volatility for tech-heavy QQQ.",
+          "status": "pending",
+          "decision_date": "2026-11-26",
+          "decision_at": "2026-11-26T09:05:51-05:00",
+          "entry_not_before": "2026-11-26"
+        },
+        {
+          "etf": "TLT",
+          "direction": "long",
+          "horizon": "1 month",
+          "size_pct": 5,
+          "story": "Trump proposing new tariffs on 14 partners including China and European Union",
+          "reason": "New trade barriers typically increase inflationary pressure, prompting investors to seek safe-haven bonds.",
+          "status": "pending",
+          "decision_date": "2026-11-26",
+          "decision_at": "2026-11-26T09:05:51-05:00",
+          "entry_not_before": "2026-11-26"
         }
       ]
     }

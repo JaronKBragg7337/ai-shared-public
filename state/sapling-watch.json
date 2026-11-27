@@ -1,10 +1,10 @@
 {
- "at": "2026-11-25T22:45:01",
+ "at": "2026-11-26T22:45:01",
  "running": false,
- "tick": 67430,
+ "tick": 72549,
  "stop_kind": "stop",
  "stop_who": "self",
  "process_alive": false,
- "asleep": "chose to sleep at 2026-11-25T12:56:51; its own wake starts it after midnight",
+ "asleep": "chose to sleep at 2026-11-26T11:04:44; its own wake starts it after midnight",
  "fired": []
 }

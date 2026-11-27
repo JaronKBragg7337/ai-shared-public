@@ -1,4 +1,4 @@
-# AI Fund Desk - paper only (updated 2026-11-26T03:17:02+00:00)
+# AI Fund Desk - paper only (updated 2026-11-27T03:17:02+00:00)
 
 No real money. No orders. Paper books on free data; dashboard: heartbeatobservatory.com/admin/fund/ (admins only).
 Forward paper book started from the 2026-11-13 close with $100,000; nothing filled before the build.
@@ -11,7 +11,7 @@ Forward paper book started from the 2026-11-13 close with $100,000; nothing fill
 | SPY buy-and-hold | $95,556 | -4.44% | -8.0% |
 | 60/40: 60% SPY, 40% AGG, rebalanced monthly | $97,894 | -2.11% | -4.4% |
 | Cash / T-bills (BIL) | $100,059 | +0.06% | -0.0% |
-| BTC buy-and-hold | $92,280 | -8.48% | -10.4% |
+| BTC buy-and-hold | $93,423 | -8.48% | -10.4% |
 
 ## Sleeves
 | Sleeve | Weight | Status | Value now | Trades | Win rate | Verdict |
@@ -39,7 +39,7 @@ BACKTEST - same engine and costs, but the rules were picked by AIs who already k
 At +6.7%/yr (backtest - the live book is too young to annualize), $100,000 makes about $556/month. Covering $275-305/month would take about $49,400-54,800, with drawdowns like -7%. Planning at the team's honest 5-7%/yr instead: $49,700-69,600. T-bills alone: about $93,300 with almost no drawdown. At 3x trading costs the fund's return is +5.0%/yr.
 
 ## Other paper books (comparison rows)
-- News paper book (local model reads headlines): $+172.18 19 settled so far; updated 2026-11-25 09:06
+- News paper book (local model reads headlines): $+224.58 22 settled so far; updated 2026-11-26 09:05
 - Crypto twins up/down paper (Darios, Satya, Jarons Twin): $+73.06 237 settled calls; last update 2026-11-24 17:54 UTC (paper only)
 
 ## Data checks

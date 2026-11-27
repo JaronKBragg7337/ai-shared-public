@@ -528,6 +528,18 @@ def clip_bytes(s: str, limit: int) -> str:
     return s.encode("utf-8")[:limit].decode("utf-8", "ignore")
 
 
+def yt_title(t: str, limit: int = 100) -> str:
+    """YouTube allows 100 characters. Cut at a word, drop a dangling joiner word, add an ellipsis (11/26: a title ended '...and a')."""
+    t = " ".join(t.split())
+    if len(t) <= limit:
+        return t
+    cut = t[:limit - 1].rsplit(" ", 1)[0].rstrip(",;:-")
+    words = cut.split(" ")
+    while words and words[-1].lower() in {"a", "an", "the", "and", "or", "of", "to", "in", "on", "for", "with", "at", "by"}:
+        words.pop()
+    return " ".join(words).rstrip(",;:-") + "…"
+
+
 @watched("youtube")
 def yt_upload(video: str, title: str, description: str, *, privacy: str = "public", ai_label: bool | None = None,
               category: str = "22", dry: bool = False) -> str:
@@ -537,7 +549,7 @@ def yt_upload(video: str, title: str, description: str, *, privacy: str = "publi
     if not dry and not have(YT_KEYS, k):
         raise PostError("YouTube keys are not on file yet (Key Drop, tab YouTube, then the phone sign-in)")
     clean = lambda s: s.replace("<", "(").replace(">", ")")          # YouTube refuses < and > in titles and descriptions
-    meta = {"snippet": {"title": clean(title)[:100], "description": clip_bytes(clean(description), 4900), "categoryId": category},
+    meta = {"snippet": {"title": yt_title(clean(title)), "description": clip_bytes(clean(description), 4900), "categoryId": category},
             "status": {"privacyStatus": privacy, "selfDeclaredMadeForKids": False}}
     if ai_label is not None:
         meta["status"]["containsSyntheticMedia"] = bool(ai_label)

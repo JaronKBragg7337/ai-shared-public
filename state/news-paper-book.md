@@ -1,21 +1,20 @@
-# News PAPER book (updated 2026-11-25 09:06 EST)
+# News PAPER book (updated 2026-11-26 09:05 EST)
 
 Paper only. No real money or orders. Each call uses a fixed percentage of the starting $10,000, with no compounding. The combined gross size of open calls and calls waiting for entry cannot exceed $10,000; extra calls are declined after the independent model decides.
 News and completed prices alone go to a fresh local model request with no tools or prior conversation. A decision before 1 PM Eastern enters at that day's close; later decisions enter at the next available close. The early cutoff also avoids backdating on early-close days. Due dates use calendar weeks/months; weekends and holidays settle at the next available close.
 Prices are Yahoo Finance daily closes, with no fees, slippage, short borrow costs or dividends explicitly modeled. Marks show their actual date and may be stale when prices are unavailable.
-Runs: 14. Passes: 1. Declined for account limit: 4. Settled: 19. Wins: 13. Hit rate: 68.4%.
+Runs: 15. Passes: 1. Declined for account limit: 4. Settled: 22. Wins: 16. Hit rate: 72.7%.
 Flat calls count in the settled total but are not wins. A pass is a decision, not a win or loss.
 
 SPY comparison: for each call, the same paper dollars buy SPY over the same entry and mark or settlement dates. This is a matched-exposure comparison, not one continuous $10,000 buy-and-hold account.
-Settled paper P&L: $+138.91; matched SPY: $-299.31.
-Open paper P&L: $+33.27; matched SPY: $-29.50.
+Settled paper P&L: $+168.57; matched SPY: $-327.03.
+Open paper P&L: $+56.01; matched SPY: $-20.78.
 
 ## Waiting for entry close
 | Decision date | ETF | Direction | Horizon | Size | Story and reason |
 |---|---|---|---|---|---|
-| 2026-11-25 | USO | long | 1 week | 8% | Brent crude rose about 2.3% to $91.40 a barrel and WTI rose about 2.4% to $82.05 amid Middle East supply concerns.: Rising oil prices due to Houthi attacks and Strait of Hormuz disruptions favor long energy positions. |
-| 2026-11-25 | GLD | long | 1 week | 6% | The U.S. Army said it plans to detonate its stockpile of degrading lead azide at an Iowa ammunition plant after obtaining court approval - guardian https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide: Potential for localized supply chain disruption or market volatility from the controlled detonation event. |
-| 2026-11-25 | QQQ | short | 1 week | 4% | SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names - cnbc https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html: Negative sentiment in the AI sector and broader tech market suggests a short position in QQQ. |
+| 2026-11-26 | QQQ | short | 1 week | 5% | S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks: Downgrade risk suggests potential short-term volatility for tech-heavy QQQ. |
+| 2026-11-26 | TLT | long | 1 month | 5% | Trump proposing new tariffs on 14 partners including China and European Union: New trade barriers typically increase inflationary pressure, prompting investors to seek safe-haven bonds. |
 
 ## Declined calls
 | Decision date | ETF | Direction | Horizon | Size | Story and reason |
@@ -28,17 +27,17 @@ Open paper P&L: $+33.27; matched SPY: $-29.50.
 ## Open calls
 | Decision | ETF | Direction | Horizon | Size | Entry close | Mark or exit close | Paper P&L | SPY P&L | Story and reason |
 |---|---|---|---|---|---|---|---|---|---|
-| 2026-11-18 | USO | long | 1 week | 5% | 2026-11-18 $136.11 | 2026-11-24 $135.43 | $-2.50 | $-7.82 | Iran ramps up retaliation on Gulf countries after U.S. strikes: Escalation in the Strait of Hormuz following US strikes on Qeshm and Iranian attacks on Bahrain creates immediate supply disruption risk for oil markets. |
-| 2026-11-18 | XLE | short | 1 week | 5% | 2026-11-18 $61.29 | 2026-11-24 $60.45 | $+6.85 | $-7.82 | Vessels on fire after naval mine hit in Hormuz Strait, Iran says: Physical damage to shipping infrastructure and active naval mines in the Strait of Hormuz threaten immediate oil flow reductions. |
-| 2026-11-18 | TLT | long | 1 week | 5% | 2026-11-18 $80.22 | 2026-11-24 $81.49 | $+7.92 | $-7.82 | UK inflation rose to 3.6% year over year in October, a one-year high that increased expectations for another Bank of England rate hike in December: Unexpectedly high UK inflation suggests persistent global demand and potential Fed persistence, which could support long-duration bonds if markets pivot from growth fears. |
-| 2026-11-19 | XLE | short | 1 week | 8% | 2026-11-19 $60.89 | 2026-11-24 $60.45 | $+5.78 | $+3.25 | Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island - bbc https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss · aljazeera https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss: Escalating Houthi and Iranian strikes on Gulf infrastructure threaten oil supply chains, potentially driving crude prices higher. |
-| 2026-11-19 | TLT | long | 1 week | 6% | 2026-11-19 $80.35 | 2026-11-24 $81.49 | $+8.51 | $+2.44 | EU proposes fresh $49 billion loan for Ukraine as war costs mount - abc https://abcnews.com/International/wireStory/eu-proposes-fresh-49-billion-loan-ukraine-war-138249084 · france24 https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia: Increased sovereign debt issuance to fund war efforts may push yields down, supporting bond prices. |
-| 2026-11-19 | QQQ | short | 1 week | 7% | 2026-11-19 $645.04 | 2026-11-24 $638.10 | $+7.53 | $+2.85 | Anthropic sets share price at $83 for stock market debut, above expected range - guardian https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo · france24 https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo: A massive AI IPO success could signal a bubble or excessive valuation in the sector, prompting profit-taking. |
-| 2026-11-21 | QQQ | short | 1 week | 8% | 2026-11-23 $651.03 | 2026-11-24 $638.10 | $+15.89 | $-3.89 | Anthropic shares tank after blockbuster IPO, pulling the rest of the market down: The reported sell-off in Anthropic suggests broader AI sector weakness that could drag down tech-heavy QQQ. |
-| 2026-11-21 | XLE | short | 1 week | 5% | 2026-11-23 $59.87 | 2026-11-24 $60.45 | $-4.84 | $-2.43 | Fossil fuel talks deadlock pushes COP31 climate summit into overtime: A deadlock on fossil fuels at the climate summit may signal regulatory headwinds or lack of green transition momentum for energy stocks. |
-| 2026-11-22 | USO | long | 1 week | 7% | 2026-11-23 $133.36 | 2026-11-24 $135.43 | $+10.87 | $-3.40 | Hormuz tankers hit in apparent Iranian attacks as Qataris visit Tehran for mediation talks: Attacks on shipping lanes in the Strait of Hormuz directly threaten oil supply chains, potentially driving crude prices higher. |
-| 2026-11-22 | GLD | long | 1 week | 5% | 2026-11-23 $333.02 | 2026-11-24 $325.45 | $-11.37 | $-2.43 | sources reported possible Iranian plans for a dirty bomb targeting Washington, while cautioning that the intelligence had not been verified: Reports of potential radiological threats against US soil increase geopolitical risk premiums and drive investors toward safe-haven assets like gold. |
-| 2026-11-23 | GLD | long | 1 week | 5% | 2026-11-23 $333.02 | 2026-11-24 $325.45 | $-11.37 | $-2.43 | gold rebounded about 2% from a 14-month low as traders awaited US inflation data and assessed Fed rate expectations: Gold is rising on inflation fears and geopolitical tension in the Gulf. |
+| 2026-11-19 | XLE | short | 1 week | 8% | 2026-11-19 $60.89 | 2026-11-25 $60.90 | $-0.13 | $+0.93 | Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island - bbc https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss · aljazeera https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss: Escalating Houthi and Iranian strikes on Gulf infrastructure threaten oil supply chains, potentially driving crude prices higher. |
+| 2026-11-19 | TLT | long | 1 week | 6% | 2026-11-19 $80.35 | 2026-11-25 $82.24 | $+14.11 | $+0.70 | EU proposes fresh $49 billion loan for Ukraine as war costs mount - abc https://abcnews.com/International/wireStory/eu-proposes-fresh-49-billion-loan-ukraine-war-138249084 · france24 https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia: Increased sovereign debt issuance to fund war efforts may push yields down, supporting bond prices. |
+| 2026-11-19 | QQQ | short | 1 week | 7% | 2026-11-19 $645.04 | 2026-11-25 $633.93 | $+12.06 | $+0.81 | Anthropic sets share price at $83 for stock market debut, above expected range - guardian https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo · france24 https://www.france24.com/en/tv-shows/business/20261119-ai-lab-anthropic-sets-stock-market-record-with-81-billion-ipo: A massive AI IPO success could signal a bubble or excessive valuation in the sector, prompting profit-taking. |
+| 2026-11-21 | QQQ | short | 1 week | 8% | 2026-11-23 $651.03 | 2026-11-25 $633.93 | $+21.01 | $-6.19 | Anthropic shares tank after blockbuster IPO, pulling the rest of the market down: The reported sell-off in Anthropic suggests broader AI sector weakness that could drag down tech-heavy QQQ. |
+| 2026-11-21 | XLE | short | 1 week | 5% | 2026-11-23 $59.87 | 2026-11-25 $60.90 | $-8.60 | $-3.87 | Fossil fuel talks deadlock pushes COP31 climate summit into overtime: A deadlock on fossil fuels at the climate summit may signal regulatory headwinds or lack of green transition momentum for energy stocks. |
+| 2026-11-22 | USO | long | 1 week | 7% | 2026-11-23 $133.36 | 2026-11-25 $139.89 | $+34.28 | $-5.42 | Hormuz tankers hit in apparent Iranian attacks as Qataris visit Tehran for mediation talks: Attacks on shipping lanes in the Strait of Hormuz directly threaten oil supply chains, potentially driving crude prices higher. |
+| 2026-11-22 | GLD | long | 1 week | 5% | 2026-11-23 $333.02 | 2026-11-25 $327.45 | $-8.36 | $-3.87 | sources reported possible Iranian plans for a dirty bomb targeting Washington, while cautioning that the intelligence had not been verified: Reports of potential radiological threats against US soil increase geopolitical risk premiums and drive investors toward safe-haven assets like gold. |
+| 2026-11-23 | GLD | long | 1 week | 5% | 2026-11-23 $333.02 | 2026-11-25 $327.45 | $-8.36 | $-3.87 | gold rebounded about 2% from a 14-month low as traders awaited US inflation data and assessed Fed rate expectations: Gold is rising on inflation fears and geopolitical tension in the Gulf. |
+| 2026-11-25 | USO | long | 1 week | 8% | 2026-11-25 $139.89 | 2026-11-25 $139.89 | $+0.00 | $+0.00 | Brent crude rose about 2.3% to $91.40 a barrel and WTI rose about 2.4% to $82.05 amid Middle East supply concerns.: Rising oil prices due to Houthi attacks and Strait of Hormuz disruptions favor long energy positions. |
+| 2026-11-25 | GLD | long | 1 week | 6% | 2026-11-25 $327.45 | 2026-11-25 $327.45 | $+0.00 | $+0.00 | The U.S. Army said it plans to detonate its stockpile of degrading lead azide at an Iowa ammunition plant after obtaining court approval - guardian https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide: Potential for localized supply chain disruption or market volatility from the controlled detonation event. |
+| 2026-11-25 | QQQ | short | 1 week | 4% | 2026-11-25 $633.93 | 2026-11-25 $633.93 | $-0.00 | $+0.00 | SoftBank drops over 11% as Wall Street AI sell-off ripples across Asian tech names - cnbc https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html: Negative sentiment in the AI sector and broader tech market suggests a short position in QQQ. |
 
 ## Settled calls
 | Decision | ETF | Direction | Horizon | Size | Entry close | Mark or exit close | Paper P&L | SPY P&L | Story and reason |
@@ -62,11 +61,14 @@ Open paper P&L: $+33.27; matched SPY: $-29.50.
 | 2026-11-15 | XLE | short | 1 week | 7% | 2026-11-16 $63.69 | 2026-11-23 $59.87 | $+41.98 | $-16.71 | Iran’s Revolutionary Guard said two oil tankers struck mines and caught fire in the Strait of Hormuz, but the report was not independently verified: Unverified reports of tanker strikes in the Strait of Hormuz could temporarily disrupt supply but lack confirmation, creating volatility rather than sustained demand for energy. |
 | 2026-11-15 | TLT | long | 1 week | 6% | 2026-11-16 $79.38 | 2026-11-23 $81.69 | $+17.46 | $-14.32 | The White House and Kremlin confirmed a U.S.-Russia-China leaders’ meeting in Shenzhen where Trump is expected to discuss reducing nuclear weapons: High-level diplomatic de-escalation involving major powers suggests a potential reduction in geopolitical risk premiums, which often benefits long-duration bond yields. |
 | 2026-11-16 | UUP | short | 1 week | 5% | 2026-11-16 $29.56 | 2026-11-23 $29.78 | $-3.72 | $-11.93 | Iran’s Revolutionary Guard said it attacked a US radar system at a base in Bahrain - bbc: Escalation of direct attacks on US assets in the Middle East increases risk premium for dollar-denominated equities and may prompt defensive positioning. |
+| 2026-11-18 | USO | long | 1 week | 5% | 2026-11-18 $136.11 | 2026-11-25 $139.89 | $+13.89 | $-9.24 | Iran ramps up retaliation on Gulf countries after U.S. strikes: Escalation in the Strait of Hormuz following US strikes on Qeshm and Iranian attacks on Bahrain creates immediate supply disruption risk for oil markets. |
+| 2026-11-18 | XLE | short | 1 week | 5% | 2026-11-18 $61.29 | 2026-11-25 $60.90 | $+3.18 | $-9.24 | Vessels on fire after naval mine hit in Hormuz Strait, Iran says: Physical damage to shipping infrastructure and active naval mines in the Strait of Hormuz threaten immediate oil flow reductions. |
+| 2026-11-18 | TLT | long | 1 week | 5% | 2026-11-18 $80.22 | 2026-11-25 $82.24 | $+12.59 | $-9.24 | UK inflation rose to 3.6% year over year in October, a one-year high that increased expectations for another Bank of England rate hike in December: Unexpectedly high UK inflation suggests persistent global demand and potential Fed persistence, which could support long-duration bonds if markets pivot from growth fears. |
 
 ## Settled by horizon
 | horizon | Calls | Wins | Paper P&L | Matched SPY P&L |
 |---|---|---|---|---|
-| 1 week | 19 | 13 | $+138.91 | $-299.31 |
+| 1 week | 22 | 16 | $+168.57 | $-327.03 |
 | 1 month | 0 | 0 | $+0.00 | $+0.00 |
 | 3 months | 0 | 0 | $+0.00 | $+0.00 |
 
@@ -75,9 +77,9 @@ Open paper P&L: $+33.27; matched SPY: $-29.50.
 |---|---|---|---|---|
 | SPY | 0 | 0 | $+0.00 | $+0.00 |
 | QQQ | 6 | 6 | $+119.04 | $-108.29 |
-| XLE | 1 | 1 | $+41.98 | $-16.71 |
-| USO | 5 | 4 | $+49.46 | $-73.93 |
+| XLE | 2 | 2 | $+45.16 | $-25.95 |
+| USO | 6 | 5 | $+63.35 | $-83.17 |
 | GLD | 3 | 0 | $-81.82 | $-28.97 |
 | ITA | 0 | 0 | $+0.00 | $+0.00 |
-| TLT | 3 | 2 | $+13.97 | $-59.48 |
+| TLT | 4 | 3 | $+26.56 | $-68.72 |
 | UUP | 1 | 0 | $-3.72 | $-11.93 |

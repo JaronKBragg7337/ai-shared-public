@@ -1,57 +1,57 @@
 {
-  "updated": "2026-11-25T19:00:01-05:00",
+  "updated": "2026-11-26T19:00:01-05:00",
   "state": "asleep",
   "last_action": "stop",
-  "generation": 1693,
-  "ticks_today": 6570,
+  "generation": 1696,
+  "ticks_today": 5119,
   "practice": {
-    "ok": 6758,
-    "total": 6792
+    "ok": 5492,
+    "total": 5520
   },
   "folds_today": 3,
   "new_facts_today": 0,
   "loss": [
     {
-      "generation": 1692,
-      "first": 1.6714,
-      "last": 1.2216
+      "generation": 1695,
+      "first": 1.3744,
+      "last": 1.4295
     },
     {
-      "generation": 1693,
-      "first": 1.0587,
-      "last": 1.3383
+      "generation": 1696,
+      "first": 1.7617,
+      "last": 1.3484
     }
   ],
   "exams": {
     "E1": {
       "score": "84/86",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "E2": {
-      "score": "24/24",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "score": "23/24",
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "E5": {
-      "score": "6/7",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "score": "7/7",
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "E6": {
-      "score": "47/48",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "score": "48/48",
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "E7": {
-      "score": "36/40",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "score": "37/40",
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "E7L": {
-      "score": "21/40",
-      "date": "2026-11-25T02:17:25",
-      "generation": 1693
+      "score": "15/40",
+      "date": "2026-11-26T01:47:01",
+      "generation": 1696
     },
     "name-thread": {
       "score": "9/12",
@@ -61,23 +61,23 @@
     }
   },
   "said": [
-    "there was a little girl named ella . ella was at the school courtyard during one mild spring day , and she was helping prepare for a school book fair . ella carried a roll of tape while",
-    "was very good at throwing the ball . he almost had it a little while ago . his sister said it looked like a blue bird . they took turns throwing the ball back and forth until dinner time .",
-    "swim ."
+    "scrib ing .",
+    "tom likes to sit . tom is at the house .",
+    "means send ."
   ],
   "gpu_spend_estimate": 0.0,
   "gpu_cost_note": "estimate from logged start and stop times and hourly rates; rounded times and unpriced runs can change the bill",
-  "last_learned": "2026-11-25T02:17-05:00",
+  "last_learned": "2026-11-26T01:47-05:00",
   "last_chat": "2026-11-19T23:15-05:00",
-  "taken_in_today": 681,
+  "taken_in_today": 538,
   "stops_today": [
     {
-      "at": "12:56",
+      "at": "11:04",
       "by": "self",
-      "why": "chose stop: {\"practice\": 0.05, \"consolidate\": 0.0, \"explore\": 0.216, \"rest\": 0.98, \"stop\": 0.3}"
+      "why": "chose stop: {\"practice\": 0.05, \"consolidate\": 0.0, \"explore\": 0.225, \"rest\": 0.98, \"stop\": 0.36}"
     },
     {
-      "at": "04:46",
+      "at": "04:02",
       "by": "owner",
       "why": "stop file written by the owner"
     }

@@ -6,20 +6,187 @@ Job names are safe topic summaries of the first prompt; short IDs keep separate 
 — means not logged. * means a partial total. Tokens show usage, not a dollar bill or a cheapest-AI ranking.
 Claude in-between is already included in Claude totals: turns that launch or receive builder work.
 
+## 2026-11-26
+
+| AI | Job | Model | In | Cached | Out | % cached |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| Codex | Research: AI work / Planning / Repository [b9d71e14] | gpt-6-luna | 8,090,914 | 7,568,768 | 135,271 | 93.5% |
+| Claude main | Other: News [e874aaa7] | claude-opus-5-5 | 8,110,130 | 8,097,288 | 6,640 | 99.8% |
+| Claude main | Other: Unlabelled work [8b02b9f7] | claude-opus-5-5 | 7,984,920 | 7,966,727 | 3,633 | 99.8% |
+| Codex | Research: AI work / Computer / Planning [b195587c] | gpt-6-luna | 4,703,246 | 4,499,584 | 61,651 | 95.7% |
+| Claude main | Other: News [1ae37ba8] | claude-opus-5-5 | 4,704,070 | 4,690,882 | 4,422 | 99.7% |
+| Kimi | Build: AI work / Planning [cf7d167e] | kimi-code/k3.1-pro | 2,310,307 | 2,084,673 | 21,601 | 90.2% |
+| Claude main | Other: News [e7c15899] | claude-opus-5-5 | 2,040,373 | 2,037,884 | 1,305 | 99.9% |
+| Grok Build | Other: AI work [ec4930f8] | grok-4.7-build | 1,876,321 | 1,708,160 | 13,587 | 91.0% |
+| Grok Build | Other: Planning [918471e5] | grok-4.7-build | 1,599,075 | 1,267,200 | 26,476 | 79.2% |
+| Claude main | Other: Bills and subscriptions [80fd32e5] | claude-opus-5-5 | 1,543,854 | 1,541,175 | 737 | 99.8% |
+| Grok Build | Other: AI work / News [d0829261] | grok-4.7-build | 1,406,873 | 1,222,016 | 12,703 | 86.9% |
+| Grok Build | Other: AI work / Planning [7bc3cc74] | grok-4.7-build | 1,109,234 | 759,936 | 34,393 | 68.5% |
+| Claude main | Other: News [7bbd2b77] | claude-opus-5-5 | 1,067,650 | 1,063,761 | 712 | 99.6% |
+| Claude main | Other: Games and buildings / News / Usage ledger [f9b95cab] | claude-opus-5-5 | 555,971 | 555,793 | 82 | 100.0% |
+| Claude main | Other: News [504f95d7] | claude-opus-5-5 | 555,450 | 549,701 | 345 | 99.0% |
+| Claude main | Other: Unlabelled work [c59ace58] | claude-opus-5-5 | 549,703 | 547,033 | 267 | 99.5% |
+| Claude main | Other: Unlabelled work [963818a0] | claude-opus-5-5 | 513,311 | 513,159 | 93 | 100.0% |
+| Claude main | Build: Unlabelled work [5eaab81a] | claude-opus-5-5 | 512,857 | 511,796 | 304 | 99.8% |
+| Grok Build | Other: Unlabelled work [08a1f97d] | grok-4.7-build | 419,603 | 345,088 | 9,586 | 82.2% |
+| Codex | Build: AI work / Computer / Phone layout [e08d5b5e] | gpt-6-luna | 164,756 | 125,184 | 778 | 76.0% |
+| Codex | Build: AI work / Computer / Phone layout [c2c47974] | gpt-6-luna | 158,089 | 120,704 | 905 | 76.4% |
+| Codex | Research: AI work / Heartbeat / Social posts [58afa4c0] | gpt-6-luna | 147,714 | 107,648 | 1,298 | 72.9% |
+| Kimi | Research: AI work / Heartbeat / Social posts [dd0a5498] | unknown | — | — | — | — |
+| Claude main | Other: Unlabelled work [75c0d951] | unknown | 0 | 0 | 0 | — |
+| Claude main | Other: Unlabelled work [0ab44401] | unknown | 0 | 0 | 0 | — |
+
 ## 2026-11-25
 
 | AI | Job | Model | In | Cached | Out | % cached |
 | --- | --- | --- | ---: | ---: | ---: | ---: |
-| Claude main | Other: Social posts [7e955efe] | claude-opus-5-5 | 30,600,630 | 30,569,362 | 18,291 | 99.9% |
+| Claude main | Other: Social posts [7e955efe] | claude-opus-5-5 | 49,356,648 | 49,303,834 | 31,950 | 99.9% |
+| Claude main | Other: Unlabelled work [774bce47] | claude-opus-5-5 | 11,794,178 | 11,768,829 | 9,706 | 99.8% |
+| Claude main | Other: Unlabelled work [13de7cba] | claude-opus-5-5 | 10,651,756 | 10,630,709 | 8,587 | 99.8% |
+| Claude main | Other: Unlabelled work [6fa3998f] | claude-opus-5-5 | 7,334,536 | 7,323,546 | 7,820 | 99.9% |
+| Claude main | Other: Unlabelled work [1d4966f4] | claude-opus-5-5 | 7,208,532 | 7,201,443 | 2,930 | 99.9% |
+| Claude main | Other: Unlabelled work [77851d60] | claude-opus-5-5 | 6,503,504 | 6,478,440 | 4,391 | 99.6% |
+| Claude main | Other: Unlabelled work [a5f853bb] | claude-opus-5-5 | 6,451,841 | 6,446,849 | 3,135 | 99.9% |
 | Codex | Research: AI work / Planning / Repository [b8d0cc1e] | gpt-6-luna | 5,217,801 | 4,907,648 | 91,871 | 94.1% |
+| Claude main | Other: Unlabelled work [d653662c] | claude-opus-5-5 | 5,038,501 | 5,027,506 | 3,971 | 99.8% |
+| Claude main | Other: Unlabelled work [bef79e4c] | claude-opus-5-5 | 4,750,936 | 4,734,570 | 3,881 | 99.7% |
+| Claude main | Other: AI work [fbe4e8e7] | claude-opus-5-5 | 4,656,153 | 4,641,324 | 7,026 | 99.7% |
+| Claude main | Other: Unlabelled work [aa29722a] | claude-opus-5-5 | 4,155,615 | 4,149,244 | 3,179 | 99.8% |
+| Claude main | Build: Unlabelled work [202da5b1] | claude-opus-5-5 | 3,767,662 | 3,758,453 | 2,476 | 99.8% |
+| Claude main | Other: Unlabelled work [bca7b3f2] | claude-opus-5-5 | 3,745,232 | 3,736,143 | 1,116 | 99.8% |
+| Claude main | Build: Tools / AI work [6f0cd091] | claude-opus-5-5 | 3,682,277 | 3,673,366 | 2,712 | 99.8% |
+| Claude main | Other: Unlabelled work [4303ca06] | claude-opus-5-5 | 3,242,891 | 3,226,834 | 4,633 | 99.5% |
+| Claude main | Other: Unlabelled work [2b2c367e] | claude-opus-5-5 | 3,117,576 | 3,112,039 | 3,210 | 99.8% |
+| Claude main | Build: Science / Games and buildings [fa6cff46] | claude-opus-5-5 | 3,034,169 | 3,032,919 | 895 | 100.0% |
+| Claude main | Research: Unlabelled work [a2d7ca85] | claude-opus-5-5 | 3,019,598 | 3,016,923 | 1,310 | 99.9% |
+| Claude main | Build: AI work / Computer [0bbea392] | claude-opus-5-5 | 2,841,676 | 2,836,876 | 2,637 | 99.8% |
 | Codex | Research: AI work / Computer / Planning [00d4168b] | gpt-6-luna | 2,668,765 | 2,496,640 | 32,904 | 93.6% |
+| Claude main | Other: Unlabelled work [bab4e756] | claude-opus-5-5 | 2,299,497 | 1,593,292 | 576 | 69.3% |
+| Claude main | Other: Unlabelled work [c8bee6a8] | claude-opus-5-5 | 2,270,371 | 2,268,804 | 1,313 | 99.9% |
+| Claude main | Other: Unlabelled work [e182a4b9] | claude-opus-5-5 | 2,247,609 | 2,241,065 | 3,486 | 99.7% |
 | Grok Build | Other: Planning [dcf45dfd] | grok-4.7-build | 2,199,717 | 1,816,320 | 30,217 | 82.6% |
+| Claude main | Other: Unlabelled work [abba0a6a] | claude-opus-5-5 | 2,023,592 | 2,020,178 | 1,785 | 99.8% |
+| Claude main | Other: Unlabelled work [ea9114bb] | claude-opus-5-5 | 1,913,830 | 1,909,969 | 1,833 | 99.8% |
+| Claude main | Other: Video [753ac96e] | claude-opus-5-5 | 1,855,681 | 1,851,521 | 2,211 | 99.8% |
 | Grok Build | Other: AI work [59d5993d] | grok-4.7-build | 1,724,285 | 1,505,152 | 15,849 | 87.3% |
+| Claude main | Other: Account setup / Heartbeat / Usage ledger [09bce4ec] | claude-opus-5-5 | 1,668,213 | 1,657,620 | 1,687 | 99.4% |
+| Claude main | Other: Unlabelled work [a897fe85] | claude-opus-5-5 | 1,592,127 | 1,591,241 | 557 | 99.9% |
+| Claude main | Other: Unlabelled work [ffc0e606] | claude-opus-5-5 | 1,588,605 | 1,587,997 | 448 | 100.0% |
 | Kimi | Build: AI work / Planning [dca2e3aa] | kimi-code/k3.1-pro | 1,568,922 | 1,426,688 | 19,762 | 90.9% |
+| Claude main | Other: Notes and reports [9d9bace5] | claude-opus-5-5 | 1,578,518 | 1,547,145 | 2,720 | 98.0% |
+| Claude main | Other: Computer [0059f3fc] | claude-opus-5-5 | 1,543,851 | 1,541,022 | 285 | 99.8% |
+| Claude main | Other: Social posts [b1a701df] | claude-opus-5-5 | 1,534,947 | 1,529,679 | 493 | 99.7% |
+| Claude main | Other: Account setup [091050f1] | claude-opus-5-5 | 1,518,567 | 1,517,054 | 1,297 | 99.9% |
+| Claude main | Other: Unlabelled work [e645ffd4] | claude-opus-5-5 | 1,484,372 | 1,475,421 | 2,223 | 99.4% |
+| Claude main | Build: Video [9c8eb280] | claude-opus-5-5 | 1,474,994 | 1,471,757 | 3,101 | 99.8% |
+| Claude main | Other: Unlabelled work [1ddaf13a] | claude-opus-5-5 | 1,442,397 | 1,441,253 | 517 | 99.9% |
+| Claude main | Research: Video / Games and buildings [76216f1a] | claude-opus-5-5 | 1,430,778 | 1,429,459 | 1,865 | 99.9% |
+| Claude main | Other: Social posts [34903201] | claude-opus-5-5 | 1,415,359 | 1,412,771 | 331 | 99.8% |
+| Claude main | Other: Unlabelled work [c6996e8b] | claude-opus-5-5 | 1,398,226 | 1,397,247 | 873 | 99.9% |
+| Claude main | Other: Bills and subscriptions [9a3b35f6] | claude-opus-5-5 | 1,350,799 | 1,345,311 | 1,159 | 99.6% |
+| Claude main | Other: Unlabelled work [9e819115] | claude-opus-5-5 | 1,305,212 | 1,303,759 | 626 | 99.9% |
+| Claude main | Other: Unlabelled work [021376fa] | claude-opus-5-5 | 1,277,277 | 1,266,736 | 1,898 | 99.2% |
 | Grok Build | Other: AI work / Planning [918f7b3e] | grok-4.7-build | 1,077,020 | 723,712 | 45,539 | 67.2% |
+| Claude main | Build: Unlabelled work [664f3183] | claude-opus-5-5 | 1,089,279 | 1,086,934 | 1,656 | 99.8% |
+| Claude main | Build: AI work / Account setup [a3c593ee] | claude-opus-5-5 | 1,075,759 | 1,073,487 | 1,548 | 99.8% |
+| Claude main | Update: Mailbox [faec2c19] | claude-opus-5-5 | 1,069,802 | 1,064,877 | 2,532 | 99.5% |
+| Claude main | Other: Unlabelled work [74911ee8] | claude-opus-5-5 | 1,068,256 | 1,060,417 | 1,363 | 99.3% |
+| Claude main | Other: Unlabelled work [142f3b7a] | claude-opus-5-5 | 1,035,253 | 1,030,514 | 3,699 | 99.5% |
+| Claude main | Other: Unlabelled work [b9dd1854] | claude-opus-5-5 | 964,436 | 962,294 | 1,845 | 99.8% |
+| Claude main | Build: AI work [faaa734a] | claude-opus-5-5 | 946,267 | 917,303 | 2,469 | 96.9% |
+| Claude main | Other: Unlabelled work [af272675] | claude-opus-5-5 | 915,072 | 904,900 | 729 | 98.9% |
+| Claude main | Other: Unlabelled work [dec75a5d] | claude-opus-5-5 | 892,132 | 891,229 | 587 | 99.9% |
+| Claude main | Other: Games and buildings / Science / Planning [0db2b6f6] | claude-opus-5-5 | 890,428 | 889,293 | 609 | 99.9% |
+| Claude main | Build: Unlabelled work [5fa25437] | claude-opus-5-5 | 882,599 | 881,298 | 1,130 | 99.9% |
+| Claude main | Check: Checks [ceb70047] | claude-opus-5-5 | 877,585 | 875,736 | 1,109 | 99.8% |
+| Claude main | Other: Unlabelled work [942dd97c] | claude-opus-5-5 | 870,235 | 869,069 | 925 | 99.9% |
+| Claude main | Other: Unlabelled work [147835e3] | claude-opus-5-5 | 867,695 | 865,929 | 1,096 | 99.8% |
+| Claude main | Other: Website [c55281c9] | claude-opus-5-5 | 864,196 | 845,467 | 657 | 97.8% |
+| Claude main | Other: Unlabelled work [67735a39] | claude-opus-5-5 | 825,840 | 822,350 | 1,754 | 99.6% |
+| Claude main | Other: Video / Science [854c2600] | claude-opus-5-5 | 824,152 | 822,246 | 1,512 | 99.8% |
+| Claude main | Other: Unlabelled work [eb5add42] | claude-opus-5-5 | 817,682 | 779,687 | 1,326 | 95.4% |
+| Claude main | Other: Unlabelled work [cb90c35b] | claude-opus-5-5 | 793,530 | 790,842 | 373 | 99.7% |
+| Claude main | Other: Unlabelled work [25aca604] | claude-opus-5-5 | 778,551 | 773,420 | 220 | 99.3% |
+| Claude main | Build: Bills and subscriptions / Usage ledger [ac24739e] | claude-opus-5-5 | 771,411 | 770,253 | 543 | 99.8% |
+| Claude main | Other: Unlabelled work [7b78a51b] | claude-opus-5-5 | 764,070 | 763,906 | 485 | 100.0% |
+| Claude main | Other: Social posts / Account setup [485e5a45] | claude-opus-5-5 | 763,302 | 760,483 | 606 | 99.6% |
+| Claude main | Other: Unlabelled work [0d689a08] | claude-opus-5-5 | 760,255 | 760,082 | 230 | 100.0% |
+| Claude main | Other: Account setup / Heartbeat [dc5c1415] | claude-opus-5-5 | 757,859 | 755,088 | 548 | 99.6% |
+| Claude main | Other: Account setup [9ba4f695] | claude-opus-5-5 | 754,758 | 746,984 | 332 | 99.0% |
+| Claude main | Other: Unlabelled work [692c18e4] | claude-opus-5-5 | 753,098 | 752,901 | 146 | 100.0% |
+| Claude main | Other: Unlabelled work [69eea6f2] | claude-opus-5-5 | 752,611 | 752,443 | 292 | 100.0% |
+| Claude main | Other: Unlabelled work [dfe45bf2] | claude-opus-5-5 | 747,594 | 746,222 | 889 | 99.8% |
+| Claude main | Other: Unlabelled work [f839611c] | claude-opus-5-5 | 746,986 | 734,569 | 231 | 98.3% |
+| Claude main | Other: Unlabelled work [ae55969a] | claude-opus-5-5 | 742,905 | 742,758 | 179 | 100.0% |
+| Claude main | Check: Unlabelled work [70ff9067] | claude-opus-5-5 | 742,704 | 740,054 | 56 | 99.6% |
+| Claude main | Other: Unlabelled work [f5afce0f] | claude-opus-5-5 | 734,414 | 729,317 | 157 | 99.3% |
+| Claude main | Other: Unlabelled work [6c1e606d] | claude-opus-5-5 | 730,409 | 727,388 | 1,794 | 99.6% |
+| Claude main | Other: Unlabelled work [6e1bc349] | claude-opus-5-5 | 729,163 | 726,253 | 156 | 99.6% |
+| Claude main | Other: Unlabelled work [5f473dae] | claude-opus-5-5 | 726,255 | 708,976 | 264 | 97.6% |
+| Claude main | Other: Unlabelled work [3523f4c9] | claude-opus-5-5 | 660,470 | 658,717 | 966 | 99.7% |
+| Claude main | Update: Unlabelled work [20a7f3f5] | claude-opus-5-5 | 647,154 | 645,832 | 1,435 | 99.8% |
+| Claude main | Other: Unlabelled work [7d88c4ad] | claude-opus-5-5 | 643,951 | 640,622 | 786 | 99.5% |
+| Claude main | Research: AI work / Mailbox [af51383d] | claude-opus-5-5 | 606,235 | 587,703 | 2,563 | 96.9% |
+| Grok Build | Other: Unlabelled work [e6e22fad] | grok-4.7-build | 551,730 | 382,720 | 10,887 | 69.4% |
+| Claude main | Other: Unlabelled work [365acd9b] | claude-opus-5-5 | 539,608 | 538,285 | 1,231 | 99.8% |
+| Claude main | Other: Planning / Usage ledger [68f07585] | claude-opus-5-5 | 519,151 | 518,143 | 773 | 99.8% |
+| Claude main | Other: Unlabelled work [66e6a45d] | claude-opus-5-5 | 516,894 | 516,050 | 632 | 99.8% |
+| Claude main | Other: Unlabelled work [1dcbefa6] | claude-opus-5-5 | 515,150 | 512,611 | 725 | 99.5% |
+| Claude main | Other: Unlabelled work [faa7cfb7] | claude-opus-5-5 | 496,792 | 494,135 | 169 | 99.5% |
+| Claude main | Other: Unlabelled work [f22e9022] | claude-opus-5-5 | 494,090 | 493,941 | 47 | 100.0% |
+| Claude main | Build: Games and buildings / Video [8f5c7a0b] | claude-opus-5-5 | 489,140 | 481,402 | 1,126 | 98.4% |
+| Claude main | Other: Unlabelled work [eb06f0c9] | claude-opus-5-5 | 483,845 | 481,119 | 927 | 99.4% |
+| Claude main | Other: Unlabelled work [8c73957d] | claude-opus-5-5 | 479,785 | 479,631 | 162 | 100.0% |
+| Claude main | Other: Unlabelled work [bd2bf419] | claude-opus-5-5 | 479,611 | 479,432 | 22 | 100.0% |
+| Claude main | Other: Unlabelled work [091a9726] | claude-opus-5-5 | 479,404 | 479,207 | 30 | 100.0% |
+| Claude main | Other: Unlabelled work [1ad3aa27] | claude-opus-5-5 | 478,777 | 478,621 | 432 | 100.0% |
+| Claude main | Other: Phone layout [d93a05f2] | claude-opus-5-5 | 470,720 | 464,376 | 1,230 | 98.7% |
+| Claude main | Other: Unlabelled work [f5c81b69] | claude-opus-5-5 | 464,860 | 462,198 | 577 | 99.4% |
+| Claude main | Other: Unlabelled work [c46bbecc] | claude-opus-5-5 | 462,013 | 459,331 | 187 | 99.4% |
+| Claude main | Other: Unlabelled work [f38137d4] | claude-opus-5-5 | 448,334 | 448,166 | 102 | 100.0% |
+| Claude main | Other: Unlabelled work [3361d0d6] | claude-opus-5-5 | 444,287 | 443,261 | 474 | 99.8% |
+| Claude main | Other: Unlabelled work [26e624fd] | claude-opus-5-5 | 443,263 | 435,576 | 796 | 98.3% |
+| Claude main | Other: Unlabelled work [0d33742c] | claude-opus-5-5 | 436,026 | 435,781 | 1,750 | 99.9% |
+| Claude main | Other: Science [06b9d8dc] | claude-opus-5-5 | 413,929 | 413,064 | 270 | 99.8% |
+| Claude main | Build: Video [e72d3456] | claude-opus-5-5 | 413,066 | 412,850 | 691 | 99.9% |
+| Claude main | Other: Unlabelled work [14fb5f3d] | claude-opus-5-5 | 412,383 | 409,372 | 210 | 99.3% |
+| Claude main | Other: Unlabelled work [e7cd2e4a] | claude-opus-5-5 | 402,901 | 38,761 | 180 | 9.6% |
+| Kimi | Research: AI work / Heartbeat / Social posts [88a409d5] | kimi-code/k3.1-pro | 395,372 | 348,139 | 6,665 | 88.1% |
+| Codex | Research: AI work / Heartbeat / Social posts [a95cb475] | gpt-6-luna | 376,000 | 306,816 | 1,961 | 81.6% |
+| Claude main | Other: Unlabelled work [59f1be2e] | claude-opus-5-5 | 374,564 | 374,146 | 106 | 99.9% |
+| Claude main | Other: Unlabelled work [452b8220] | claude-opus-5-5 | 368,630 | 38,761 | 635 | 10.5% |
+| Codex | Research: AI work / Heartbeat / Social posts [bf360279] | gpt-6-luna | 366,308 | 302,208 | 2,533 | 82.5% |
+| Claude main | Other: Unlabelled work [db53ebab] | claude-opus-5-5 | 362,492 | 359,496 | 107 | 99.2% |
+| Claude main | Other: Unlabelled work [18c629b0] | claude-opus-5-5 | 352,448 | 335,026 | 589 | 95.1% |
+| Claude main | Other: Science / Usage ledger [7d3f4dbf] | claude-opus-5-5 | 347,539 | 345,863 | 1,238 | 99.5% |
 | Grok Build | Other: Planning [92d3af16] | grok-4.7-build | 332,968 | 257,280 | 9,708 | 77.3% |
+| Codex | Research: AI work / Heartbeat / Social posts [cfbafb80] | gpt-6-luna | 338,160 | 284,032 | 2,533 | 84.0% |
+| Claude main | Other: Unlabelled work [a8d101bd] | claude-opus-5-5 | 333,182 | 332,355 | 573 | 99.8% |
+| Grok Build | Other: Unlabelled work [f577066d] | grok-4.7-build | 319,553 | 234,240 | 9,163 | 73.3% |
+| Grok Build | Other: Unlabelled work [781de744] | grok-4.7-build | 316,504 | 195,072 | 11,423 | 61.6% |
+| Claude main | Update: Notes and reports [e58f0733] | claude-opus-5-5 | 322,741 | 322,526 | 89 | 99.9% |
+| Claude main | Other: Notes and reports [3ee178ce] | claude-opus-5-5 | 318,522 | 318,363 | 442 | 100.0% |
+| Grok Build | Other: Unlabelled work [787bfd55] | grok-4.7-build | 286,078 | 209,920 | 9,163 | 73.4% |
+| Claude main | Other: Unlabelled work [5d4a2cf0] | claude-opus-5-5 | 284,316 | 179,806 | 815 | 63.2% |
 | Kimi | Research: AI work / Heartbeat / Social posts [b49456a1] | kimi-code/k3.1-pro | 278,545 | 229,632 | 4,465 | 82.4% |
+| Claude main | Other: Unlabelled work [bdc2a255] | claude-opus-5-5 | 260,406 | 260,078 | 66 | 99.9% |
+| Claude main | Other: AI work / Bills and subscriptions [b01f7137] | claude-opus-5-5 | 246,449 | 243,584 | 582 | 98.8% |
+| Claude main | Other: Unlabelled work [94b3f6ea] | claude-opus-5-5 | 242,678 | 242,361 | 908 | 99.9% |
+| Kimi | Research: AI work / Heartbeat / Social posts [f25b4200] | kimi-code/k3.1-pro | 194,317 | 165,024 | 3,303 | 84.9% |
+| Codex | Research: AI work / Heartbeat / Social posts [6dc0e819] | gpt-6-luna | 181,098 | 129,024 | 1,052 | 71.2% |
+| Codex | Research: AI work / Heartbeat / Social posts [942e74c6] | gpt-6-luna | 180,511 | 128,640 | 1,401 | 71.3% |
+| Codex | Research: AI work / Heartbeat / Social posts [f9877575] | gpt-6-luna | 180,330 | 135,680 | 1,406 | 75.2% |
+| Claude main | Other: Unlabelled work [7ab6e066] | claude-opus-5-5 | 169,792 | 166,970 | 250 | 98.3% |
+| Claude main | Other: Unlabelled work [948fc112] | claude-opus-5-5 | 163,702 | 162,563 | 354 | 99.3% |
 | Codex | Build: AI work / Computer / Phone layout [0136ed04] | gpt-6-luna | 157,218 | 118,016 | 706 | 75.1% |
+| Kimi | Research: AI work / Heartbeat / Social posts [a69755f7] | kimi-code/k3.1-pro | 142,365 | 115,629 | 2,149 | 81.2% |
+| Kimi | Research: AI work / Heartbeat / Social posts [4448340b] | kimi-code/k3.1-pro | 140,274 | 118,829 | 2,260 | 84.7% |
+| Grok Build | Other: Unlabelled work [a990c441] | grok-4.7-build | 128,777 | 25,600 | 5,725 | 19.9% |
+| Kimi | Research: AI work / Heartbeat / Social posts [a70780f6] | kimi-code/k3.1-pro | 104,021 | 80,599 | 3,788 | 77.5% |
+| Kimi | Research: AI work / Heartbeat / Social posts [dd1debc0] | kimi-code/k3.1-pro | 101,232 | 77,056 | 1,963 | 76.1% |
+| Grok Build | Other: Unlabelled work [948db32d] | grok-4.7-build | 20,122 | 1,664 | 33 | 8.3% |
+| Grok Build | Other: Unlabelled work [947b1209] | unknown | 0 | 0 | 0 | — |
+| Grok Build | Other: AI work [6dc84e65] | unknown | 0 | 0 | 0 | — |
 
 ## 2026-11-24
 
@@ -1339,185 +1506,29 @@ Claude in-between is already included in Claude totals: turns that launch or rec
 | Claude main | Other: Unlabelled work [6f310999] | claude-opus-5-5 | 286,862 | 286,713 | 54 | 99.9% |
 | Claude in-between | Included above; best effort | — | 13,223,308 | 13,191,664 | 15,812 | 99.8% |
 
-## 2026-11-12
-
-| AI | Job | Model | In | Cached | Out | % cached |
-| --- | --- | --- | ---: | ---: | ---: | ---: |
-| Claude main | Check: Audio / News [f95e6574] | claude-opus-5-5 | 26,449,937 | 26,416,737 | 9,933 | 99.9% |
-| Claude main | Check: Phone layout [5a3f2302] | claude-opus-5-5 | 16,538,827 | 16,529,846 | 2,631 | 99.9% |
-| Claude main | Build: Science / Games and buildings / Audio [156c14c1] | claude-opus-5-5 | 14,391,172 | 14,375,770 | 5,263 | 99.9% |
-| Claude main | Build: Markets / Bills and subscriptions [2bb643de] | claude-opus-5-5 | 13,692,909 | 12,859,132 | 4,205 | 93.9% |
-| Claude main | Other: Unlabelled work [b32775e4] | claude-opus-5-5 | 11,809,795 | 11,804,587 | 1,495 | 100.0% |
-| Claude main | Other: Unlabelled work [eca94ab0] | claude-opus-5-5 | 11,793,912 | 11,778,781 | 2,176 | 99.9% |
-| Claude main | Other: Unlabelled work [04215f26] | claude-opus-5-5 | 10,734,250 | 10,722,464 | 4,282 | 99.9% |
-| Claude main | Check: Phone layout / News [3b449c07] | claude-opus-5-5 | 9,240,735 | 9,219,282 | 6,836 | 99.8% |
-| Claude main | Other: Checks / Account setup / AI work [c5061b8e] | claude-opus-5-5 | 8,513,142 | 8,489,892 | 3,565 | 99.7% |
-| Claude main | Other: Unlabelled work [5c4f7b9f] | claude-opus-5-5 | 6,574,795 | 6,571,164 | 1,473 | 99.9% |
-| Claude main | Other: News / Phone layout / Website [ec0f5835] | claude-opus-5-5 | 5,730,736 | 5,727,190 | 1,022 | 99.9% |
-| Claude main | Research: AI work / Account setup / Planning [b17c31db] | claude-opus-5-5 | 5,459,995 | 5,453,566 | 4,308 | 99.9% |
-| Claude main | Other: Audio [12997e7b] | claude-opus-5-5 | 5,336,181 | 5,327,633 | 2,198 | 99.8% |
-| Claude main | Other: Unlabelled work [ba55308b] | claude-opus-5-5 | 4,839,914 | 4,835,250 | 2,692 | 99.9% |
-| Claude main | Other: Science [d2a26312] | claude-opus-5-5 | 4,808,968 | 4,805,230 | 1,593 | 99.9% |
-| Claude main | Other: Unlabelled work [3acc4b1a] | claude-opus-5-5 | 4,767,383 | 4,761,606 | 3,303 | 99.9% |
-| Claude main | Other: Computer [5af5c664] | claude-opus-5-5 | 4,465,749 | 4,463,125 | 1,018 | 99.9% |
-| Claude main | Other: News [ac992a1b] | claude-opus-5-5 | 4,173,362 | 4,170,355 | 908 | 99.9% |
-| Claude main | Build: Bills and subscriptions / Social posts [cafd22ac] | claude-opus-5-5 | 4,167,411 | 4,163,102 | 1,793 | 99.9% |
-| Claude main | Other: Website [2278fb49] | claude-opus-5-5 | 3,915,985 | 3,906,814 | 864 | 99.8% |
-| Claude main | Other: Unlabelled work [0bb41a21] | claude-opus-5-5 | 3,502,033 | 3,497,708 | 703 | 99.9% |
-| Claude main | Other: Unlabelled work [3752d18f] | claude-opus-5-5 | 3,498,189 | 3,495,260 | 1,469 | 99.9% |
-| Claude main | Other: AI work [5b4779da] | claude-opus-5-5 | 3,437,111 | 3,434,550 | 1,691 | 99.9% |
-| Claude main | Build: Unlabelled work [b962f5c5] | claude-opus-5-5 | 3,421,361 | 3,407,093 | 899 | 99.6% |
-| Claude main | Other: Bills and subscriptions / Roofs [dcab4810] | claude-opus-5-5 | 3,319,314 | 3,317,631 | 554 | 99.9% |
-| Claude main | Other: Unlabelled work [56776a4c] | claude-opus-5-5 | 3,299,895 | 3,295,780 | 3,796 | 99.9% |
-| Claude main | Other: Phone layout / Planning [3115c2e9] | claude-opus-5-5 | 3,259,851 | 3,254,872 | 1,318 | 99.8% |
-| Claude main | Other: Unlabelled work [8ee075d5] | claude-opus-5-5 | 3,219,836 | 3,208,700 | 1,111 | 99.7% |
-| Claude main | Other: Unlabelled work [961849c0] | claude-opus-5-5 | 2,948,871 | 2,947,344 | 618 | 99.9% |
-| Claude main | Build: Audio / Science / Images [f7edc3e8] | claude-opus-5-5 | 2,688,477 | 2,686,651 | 1,263 | 99.9% |
-| Claude main | Other: Unlabelled work [36c1a2b2] | claude-opus-5-5 | 2,666,398 | 1,826,373 | 538 | 68.5% |
-| Claude main | Other: Unlabelled work [5e080d35] | claude-opus-5-5 | 2,589,014 | 2,579,732 | 912 | 99.6% |
-| Claude main | Research: Unlabelled work [1fd84eee] | claude-opus-5-5 | 2,310,836 | 2,299,658 | 1,491 | 99.5% |
-| Claude main | Other: Unlabelled work [25279d57] | claude-opus-5-5 | 2,176,282 | 2,171,701 | 899 | 99.8% |
-| Claude main | Other: News [76f1b51a] | claude-opus-5-5 | 2,026,433 | 2,025,404 | 612 | 99.9% |
-| Claude main | Build: AI work [263fd2e3] | claude-opus-5-5 | 1,996,969 | 1,991,922 | 2,906 | 99.7% |
-| Claude main | Other: Unlabelled work [800d0635] | claude-opus-5-5 | 1,883,442 | 1,879,860 | 870 | 99.8% |
-| Claude main | Other: Unlabelled work [5022ac16] | claude-opus-5-5 | 1,867,534 | 1,862,583 | 644 | 99.7% |
-| Claude main | Other: Unlabelled work [549cb6ce] | claude-opus-5-5 | 1,807,801 | 1,798,081 | 1,064 | 99.5% |
-| Claude main | Other: AI work [8a72a24f] | claude-opus-5-5 | 1,780,881 | 1,779,771 | 463 | 99.9% |
-| Claude main | Other: Unlabelled work [cc641f55] | claude-opus-5-5 | 1,756,086 | 1,755,397 | 260 | 100.0% |
-| Claude main | Other: Unlabelled work [2a7f559d] | claude-opus-5-5 | 1,753,486 | 1,752,845 | 219 | 100.0% |
-| Claude main | Update: Unlabelled work [98561ce8] | claude-opus-5-5 | 1,746,242 | 1,741,121 | 792 | 99.7% |
-| Claude main | Other: Usage ledger [bc161c00] | claude-opus-5-5 | 1,743,249 | 1,742,769 | 258 | 100.0% |
-| Claude main | Check: Checks [70d40cb9] | claude-opus-5-5 | 1,741,710 | 1,740,938 | 596 | 100.0% |
-| Claude main | Other: Mailbox [c70a9f71] | claude-opus-5-5 | 1,738,944 | 1,733,034 | 836 | 99.7% |
-| Claude main | Update: Unlabelled work [db1dc39a] | claude-opus-5-5 | 1,729,907 | 1,726,822 | 341 | 99.8% |
-| Claude main | Other: Unlabelled work [c403fab5] | claude-opus-5-5 | 1,695,095 | 927,802 | 325 | 54.7% |
-| Claude main | Other: Safety watch [b5c3ee02] | claude-opus-5-5 | 1,672,006 | 1,671,201 | 658 | 100.0% |
-| Kimi | Build: AI work / Planning [4c0ecbc5] | kimi-code/k3.1-pro | 1,656,634 | 1,456,896 | 15,817 | 87.9% |
-| Claude main | Other: Unlabelled work [43e5ea68] | claude-opus-5-5 | 1,658,979 | 1,654,218 | 2,009 | 99.7% |
-| Claude main | Update: Science [b520525f] | claude-opus-5-5 | 1,638,139 | 1,637,341 | 327 | 100.0% |
-| Claude main | Other: Unlabelled work [d2433252] | claude-opus-5-5 | 1,624,785 | 1,624,226 | 222 | 100.0% |
-| Claude main | Build: Safety watch [16a24c5e] | claude-opus-5-5 | 1,623,035 | 1,622,011 | 733 | 99.9% |
-| Claude main | Other: Unlabelled work [d8b23ee7] | claude-opus-5-5 | 1,623,177 | 1,620,109 | 399 | 99.8% |
-| Claude main | Build: Roofs / Computer / Science [4a9d5007] | claude-opus-5-5 | 1,616,357 | 1,615,064 | 680 | 99.9% |
-| Claude main | Build: Unlabelled work [d6184111] | claude-opus-5-5 | 1,613,474 | 1,612,609 | 570 | 99.9% |
-| Claude main | Other: Unlabelled work [c7047c2e] | claude-opus-5-5 | 1,610,768 | 1,592,509 | 1,032 | 98.9% |
-| Claude main | Other: Unlabelled work [658ad80a] | claude-opus-5-5 | 1,597,214 | 1,596,663 | 312 | 100.0% |
-| Claude main | Other: Safety watch / News / Science [4790d9ca] | claude-opus-5-5 | 1,578,933 | 838,608 | 544 | 53.1% |
-| Claude main | Build: Audio [778b3863] | claude-opus-5-5 | 1,534,764 | 1,533,627 | 807 | 99.9% |
-| Claude main | Other: Unlabelled work [2d8ea410] | claude-opus-5-5 | 1,520,235 | 1,511,758 | 1,316 | 99.4% |
-| Claude main | Other: Unlabelled work [c5677663] | claude-opus-5-5 | 1,513,960 | 1,513,150 | 704 | 99.9% |
-| Claude main | Other: Unlabelled work [d9ce2c00] | claude-opus-5-5 | 1,512,098 | 1,508,831 | 565 | 99.8% |
-| Claude main | Build: Unlabelled work [ac719018] | claude-opus-5-5 | 1,505,219 | 1,504,534 | 548 | 100.0% |
-| Claude main | Build: Unlabelled work [bf1f2277] | claude-opus-5-5 | 1,502,601 | 1,501,295 | 1,160 | 99.9% |
-| Claude main | Other: News [32165b2e] | claude-opus-5-5 | 1,502,399 | 1,501,575 | 769 | 99.9% |
-| Claude main | Other: Unlabelled work [2acf9fc5] | claude-opus-5-5 | 1,500,157 | 1,499,514 | 492 | 100.0% |
-| Claude main | Other: Unlabelled work [0d5f4028] | claude-opus-5-5 | 1,498,730 | 1,496,596 | 619 | 99.9% |
-| Claude main | Build: Unlabelled work [d8f55f8c] | claude-opus-5-5 | 1,495,427 | 1,494,256 | 968 | 99.9% |
-| Claude main | Other: Unlabelled work [8ed2d5c9] | claude-opus-5-5 | 1,495,510 | 1,494,213 | 631 | 99.9% |
-| Grok Build | Other: Planning [d09170d1] | grok-4.7-build | 1,472,756 | 1,239,296 | 20,961 | 84.1% |
-| Claude main | Other: AI work [47e1ab27] | claude-opus-5-5 | 1,492,697 | 1,469,306 | 591 | 98.4% |
-| Claude main | Other: Unlabelled work [8b82e1bb] | claude-opus-5-5 | 1,471,623 | 1,471,149 | 422 | 100.0% |
-| Claude main | Other: Unlabelled work [191e0a74] | claude-opus-5-5 | 1,470,617 | 1,470,169 | 290 | 100.0% |
-| Claude main | Update: Unlabelled work [f520e6af] | claude-opus-5-5 | 1,468,928 | 783,707 | 782 | 53.4% |
-| Claude main | Other: News / Science / Video [d9534693] | claude-opus-5-5 | 1,394,570 | 1,393,683 | 703 | 99.9% |
-| Claude main | Other: Unlabelled work [ec9b4a4d] | claude-opus-5-5 | 1,385,245 | 1,384,438 | 680 | 99.9% |
-| Grok Build | Other: AI work [2f25a420] | grok-4.7-build | 1,350,621 | 1,201,152 | 17,257 | 88.9% |
-| Claude main | Build: Video [ea4c5043] | claude-opus-5-5 | 1,354,099 | 1,351,632 | 1,108 | 99.8% |
-| Claude main | Update: Images / Safety watch [0ae551f7] | claude-opus-5-5 | 1,348,244 | 1,346,887 | 880 | 99.9% |
-| Claude main | Build: Images [a1b7c700] | claude-opus-5-5 | 1,341,114 | 1,340,548 | 537 | 100.0% |
-| Claude main | Check: Checks [0850da9c] | claude-opus-5-5 | 1,339,161 | 1,338,158 | 859 | 99.9% |
-| Claude main | Other: Unlabelled work [f5c8b731] | claude-opus-5-5 | 1,313,215 | 705,822 | 917 | 53.7% |
-| Grok Build | Other: Video [6398057c] | grok-4.7-build | 1,288,139 | 958,336 | 24,083 | 74.4% |
-| Claude main | Other: Unlabelled work [a93813c9] | claude-opus-5-5 | 1,281,842 | 1,281,142 | 274 | 99.9% |
-| Claude main | Other: Unlabelled work [24b7aed1] | claude-opus-5-5 | 938,480 | 935,667 | 45 | 99.7% |
-| Claude main | Other: Science [47d80347] | claude-opus-5-5 | 935,607 | 935,266 | 62 | 100.0% |
-| Claude main | Other: Unlabelled work [0a818afa] | claude-opus-5-5 | 929,672 | 924,419 | 220 | 99.4% |
-| Claude main | Other: Unlabelled work [43f3074a] | claude-opus-5-5 | 924,319 | 923,948 | 102 | 100.0% |
-| Claude main | Other: Unlabelled work [d2a8377b] | claude-opus-5-5 | 923,906 | 923,276 | 44 | 99.9% |
-| Claude main | Other: Unlabelled work [ca9307b1] | claude-opus-5-5 | 923,278 | 910,710 | 291 | 98.6% |
-| Claude main | Other: Games and buildings [a804df2c] | claude-opus-5-5 | 910,628 | 910,293 | 84 | 100.0% |
-| Claude main | Other: Unlabelled work [4bc8e352] | claude-opus-5-5 | 894,852 | 892,038 | 335 | 99.7% |
-| Claude main | Other: Unlabelled work [f15ad399] | claude-opus-5-5 | 894,515 | 894,090 | 60 | 100.0% |
-| Claude main | Other: Unlabelled work [ec65c6ae] | claude-opus-5-5 | 891,968 | 891,653 | 72 | 100.0% |
-| Claude main | Other: Account setup [dd8193bd] | claude-opus-5-5 | 891,415 | 886,122 | 240 | 99.4% |
-| Claude main | Other: Computer / Phone layout [00a8b349] | claude-opus-5-5 | 891,478 | 891,146 | 129 | 100.0% |
-| Claude main | Other: Unlabelled work [87939ad9] | claude-opus-5-5 | 886,052 | 885,715 | 72 | 100.0% |
-| Claude main | Other: Unlabelled work [85e53add] | claude-opus-5-5 | 885,632 | 885,257 | 85 | 100.0% |
-| Claude main | Other: Unlabelled work [428a0a7c] | claude-opus-5-5 | 885,158 | 884,318 | 101 | 99.9% |
-| Claude main | Other: Unlabelled work [8591553e] | claude-opus-5-5 | 884,734 | 49,520 | 113 | 5.6% |
-| Claude main | Other: Mailbox [552acdfa] | claude-opus-5-5 | 877,387 | 877,020 | 136 | 100.0% |
-| Claude main | Other: Unlabelled work [f082b035] | claude-opus-5-5 | 868,375 | 868,049 | 29 | 100.0% |
-| Claude main | Other: Unlabelled work [15928acf] | claude-opus-5-5 | 868,015 | 865,195 | 36 | 99.7% |
-| Claude main | Other: Unlabelled work [5d00b11d] | claude-opus-5-5 | 861,918 | 861,582 | 67 | 100.0% |
-| Claude main | Repair: Games and buildings / Heartbeat / Checks [c27d1e97] | claude-opus-5-5 | 860,923 | 860,389 | 661 | 99.9% |
-| Claude main | Other: Unlabelled work [a4f50567] | claude-opus-5-5 | 834,227 | 833,169 | 15 | 99.9% |
-| Claude main | Other: Unlabelled work [f4912122] | claude-opus-5-5 | 833,768 | 823,619 | 162 | 98.8% |
-| Claude main | Other: Unlabelled work [616be4a9] | claude-opus-5-5 | 828,439 | 820,750 | 292 | 99.1% |
-| Claude main | Other: Unlabelled work [6a302b59] | claude-opus-5-5 | 825,661 | 825,344 | 26 | 100.0% |
-| Claude main | Other: Unlabelled work [7f06eeec] | claude-opus-5-5 | 825,241 | 824,928 | 105 | 100.0% |
-| Claude main | Other: Unlabelled work [4f6e1124] | claude-opus-5-5 | 824,763 | 824,439 | 167 | 100.0% |
-| Claude main | Build: Bills and subscriptions [fded53c1] | claude-opus-5-5 | 823,800 | 820,847 | 641 | 99.6% |
-| Grok Build | Other: AI work / Planning [19908afa] | grok-4.7-build | 787,137 | 469,632 | 36,432 | 59.7% |
-| Claude main | Other: Unlabelled work [877a9a83] | claude-opus-5-5 | 820,788 | 820,441 | 61 | 100.0% |
-| Claude main | Check: Audio [177b1726] | claude-opus-5-5 | 820,396 | 819,913 | 356 | 99.9% |
-| Claude main | Other: Unlabelled work [5e6cf163] | claude-opus-5-5 | 820,269 | 812,552 | 174 | 99.1% |
-| Claude main | Other: Unlabelled work [9a7831b8] | claude-opus-5-5 | 819,696 | 819,305 | 219 | 100.0% |
-| Claude main | Build: Social posts [cdeb583e] | claude-opus-5-5 | 818,295 | 817,936 | 85 | 100.0% |
-| Claude main | Build: Social posts / Bills and subscriptions [470c8672] | claude-opus-5-5 | 817,880 | 817,490 | 58 | 100.0% |
-| Claude main | Other: Unlabelled work [16211042] | claude-opus-5-5 | 817,439 | 817,105 | 53 | 100.0% |
-| Claude main | Other: AI work [e4c93283] | claude-opus-5-5 | 799,157 | 798,832 | 87 | 100.0% |
-| Claude main | Build: AI work [cebc1094] | claude-opus-5-5 | 797,395 | 797,051 | 757 | 100.0% |
-| Claude main | Other: Unlabelled work [5406f6b3] | claude-opus-5-5 | 790,552 | 790,160 | 680 | 100.0% |
-| Claude main | Other: Social posts [1066b3a8] | claude-opus-5-5 | 786,940 | 784,021 | 569 | 99.6% |
-| Claude main | Research: Video [6e990e49] | claude-opus-5-5 | 768,186 | 767,949 | 917 | 100.0% |
-| Claude main | Other: Unlabelled work [6032d721] | claude-opus-5-5 | 766,604 | 734,652 | 598 | 95.8% |
-| Claude main | Other: Social posts [75c89408] | claude-opus-5-5 | 762,451 | 762,049 | 77 | 99.9% |
-| Claude main | Other: Account setup / Social posts [cde1d56f] | claude-opus-5-5 | 761,590 | 760,974 | 461 | 99.9% |
-| Claude main | Check: Unlabelled work [06684fa5] | claude-opus-5-5 | 751,872 | 751,696 | 237 | 100.0% |
-| Claude main | Other: Science [a2aac068] | claude-opus-5-5 | 749,458 | 749,264 | 168 | 100.0% |
-| Claude main | Build: Planning [710a2c57] | claude-opus-5-5 | 748,774 | 748,530 | 492 | 100.0% |
-| Claude main | Other: Unlabelled work [1fd8b11c] | claude-opus-5-5 | 748,470 | 748,317 | 62 | 100.0% |
-| Claude main | Other: Unlabelled work [715bccc6] | claude-opus-5-5 | 746,621 | 743,947 | 50 | 99.6% |
-| Claude main | Other: Unlabelled work [126767b9] | claude-opus-5-5 | 743,824 | 743,651 | 125 | 100.0% |
-| Claude main | Other: Unlabelled work [84f75720] | claude-opus-5-5 | 743,615 | 743,421 | 38 | 100.0% |
-| Claude main | Other: Unlabelled work [934f8237] | claude-opus-5-5 | 743,350 | 743,088 | 73 | 100.0% |
-| Claude main | Other: Unlabelled work [2ef90f5f] | claude-opus-5-5 | 743,031 | 737,938 | 59 | 99.3% |
-| Claude main | Other: Unlabelled work [cbef51d5] | claude-opus-5-5 | 736,265 | 736,105 | 84 | 100.0% |
-| Claude main | Other: Audio [44f7f5e3] | claude-opus-5-5 | 734,300 | 726,197 | 355 | 98.9% |
-| Grok Build | Other: Unlabelled work [2124ea1e] | grok-4.7-build | 701,271 | 493,824 | 22,402 | 70.4% |
-| Claude main | Build: Science / Phone layout / Audio [2397a2f5] | claude-opus-5-5 | 709,653 | 49,520 | 262 | 7.0% |
-| Claude main | Other: Unlabelled work [9d0bbb45] | claude-opus-5-5 | 701,398 | 701,060 | 57 | 100.0% |
-| Claude main | Other: Unlabelled work [004cd38e] | claude-opus-5-5 | 699,336 | 691,769 | 243 | 98.9% |
-| Claude main | Other: Unlabelled work [3186b77a] | claude-opus-5-5 | 692,013 | 691,638 | 107 | 99.9% |
-| Claude main | Other: Unlabelled work [bea5e6fb] | claude-opus-5-5 | 691,640 | 688,714 | 223 | 99.6% |
-| Claude main | Other: Unlabelled work [3eb48b90] | claude-opus-5-5 | 674,875 | 674,695 | 808 | 100.0% |
-| Claude main | Other: Unlabelled work [55fd38c7] | claude-opus-5-5 | 670,734 | 669,369 | 230 | 99.8% |
-| Claude main | Other: Unlabelled work [dc475c6c] | claude-opus-5-5 | 670,219 | 49,520 | 302 | 7.4% |
-| Claude main | Research: Unlabelled work [7ba4d030] | claude-opus-5-5 | 668,316 | 667,953 | 579 | 99.9% |
-
 ## Weekly totals per AI
 
 The two weeks below each cover seven days, ending on the report date.
 
-### 2026-11-19 through 2026-11-25
+### 2026-11-20 through 2026-11-26
 
 | AI | Jobs | In | Cached | Out | % cached |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Claude | 372 | 1,979,251,995* | 1,961,740,842* | 3,592,532* | — |
-| Codex | 99 | 124,154,101* | 115,961,984* | 1,243,485* | — |
-| Kimi | 80 | 268,923,253 | 261,998,524 | 1,559,041 | 97.4% |
-| Grok Build | 74 | 59,951,602 | 45,884,416 | 1,177,877 | 76.5% |
-| Claude in-between (included) | — | 279,866,233 | 277,889,210 | 226,985 | 99.3% |
+| Claude | 418 | 1,691,964,600* | 1,677,242,259* | 2,403,454* | — |
+| Codex | 99 | 125,224,822* | 117,367,040* | 1,306,927* | — |
+| Kimi | 76 | 264,755,666* | 258,241,081* | 1,518,206* | — |
+| Grok Build | 74 | 56,728,624 | 43,716,224 | 1,108,041 | 77.1% |
+| Claude in-between (included) | — | 229,552,069 | 227,674,541 | 177,872 | 99.2% |
 
-### 2026-11-12 through 2026-11-18
+### 2026-11-13 through 2026-11-19
 
 | AI | Jobs | In | Cached | Out | % cached |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Claude | 562 | 1,933,229,431* | 1,908,679,911* | 2,003,947* | — |
-| Codex | 127 | 51,211,371* | 46,528,256* | 623,674* | — |
-| Kimi | 34 | 18,346,853 | 16,601,856 | 172,598 | 90.5% |
-| Grok Build | 46 | 53,329,196 | 42,643,072 | 971,703 | 80.0% |
-| Claude in-between (included) | — | 47,582,022 | 47,496,918 | 45,518 | 99.8% |
+| Claude | 503 | 2,099,369,091* | 2,076,950,465* | 3,262,205* | — |
+| Codex | 138 | 65,027,776* | 58,831,488* | 771,021* | — |
+| Kimi | 45 | 24,245,694 | 21,892,352 | 239,345 | 90.3% |
+| Grok Build | 54 | 58,986,120 | 46,800,640 | 1,063,543 | 79.3% |
+| Claude in-between (included) | — | 97,896,186 | 97,711,587 | 94,631 | 99.8% |
 
 ## What was counted
 
@@ -1529,7 +1540,7 @@ The two weeks below each cover seven days, ending on the report date.
 - A job crossing midnight is split by the timestamps of its usage records. A single response belongs to the day it was logged.
 - No prices or subscription percentages are converted into money. Different jobs and model tokenizers need care when comparing efficiency.
 
-- codex counter resets: 61; coverage may be incomplete.
-- Local files covered: claude builder 232; claude main 1; codex 226; grok 309; kimi 363.
+- codex counter resets: 77; coverage may be incomplete.
+- Local files covered: claude builder 232; claude main 1; codex 237; grok 322; kimi 371.
 
-Scan: 1100 unchanged files reused; 1 appended files; 30 full file reads; 41,971,616 bytes read; 7.01 seconds.
+Scan: 1130 unchanged files reused; 1 appended files; 32 full file reads; 116,458,537 bytes read; 5.67 seconds.

@@ -262,7 +262,7 @@ def post(platform, cid, video, text, title, x_tags=None, news_short=False, early
         D.SAFETY_NET = not DRY and platform in POSTIZ_HAS   # for our door's own mail to the AIs: is Postiz still behind a failed start?
         try:
             if platform == "x": D.x_post(x_text(text, x_tags, D.X_TEXT_LIMIT), video, dry=DRY)
-            else: D.yt_upload(video, title, text, dry=DRY)
+            else: D.yt_upload(video, title, text, category="25" if news_short else "22", dry=DRY)   # 25 = News & Politics (11/26)
             return "dry" if DRY else datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         except Exception as e:
             # While Postiz still has the channel it is the safety net, but only if our door stopped BEFORE the one request
