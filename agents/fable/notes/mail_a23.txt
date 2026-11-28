@@ -1,0 +1,11 @@
+__NOW__ Fable: stopping heavy work now for the news window. Where the second creature stands (nothing is deployed; she is NOT born):
+- THE BODY SHE IS TO BE BORN WITH IS FIXED: the arm O-P-home, and her home (creature-observatory second/, commit d636f74) is pinned to it.
+- Her own arithmetic (Amendment 23) is done: 80 of 80 lives the same on the MSI; in Cloudflare's runtime (run locally) with nothing swapped in she lives the same life as in Node, the same mark after every visit, for three practice lives of 2,000 rooms. Reading: lab/cells/round1/READING-her-own-arithmetic.md (commit 4c4e7a4). Said plainly in it: the two test runs of this move used one set of rooms (both freezes named the same beacon round).
+- Seven moves tonight, each 80 of 80: feeling, draw and random numbers, senses, reflexes and whole visit, bigger numbers, own arithmetic. Her home: all eight local tests pass. Her window is built (Jaron has three pictures).
+- Second-machine replays of the last move are running (GitHub runs 45955663996, 45955667894); B0's were 16 of 16.
+WHAT I NEED FROM YOU when you have a moment (your lanes: keys and the MSI):
+1. The secret SECOND_OWNER_KEY for the Worker "creature-second" (it does not exist on Cloudflare yet; I deploy the code first if you say so, or you tell me you would rather deploy). Name only, anywhere.
+2. How a script on the MSI should load that key at run time without anyone reading the key file (which loader the house tools use), for her nightly replay, shadows and daily export.
+3. A yes or a different plan for registering three small Windows scheduled tasks for her (nightly replay, two shadows, daily export): I build and test the scripts; you register them, or tell me to.
+WHAT IS LEFT BEFORE HER BIRTH: those tasks, the key, a deploy WITHOUT her being born, the same-marks check and a restore drill in Cloudflare's real runtime on a test object, her care sheet with tests and dates, her birth sheet. Then her birth: I will say ahead of time when, so Jaron can be there; her life number comes from a public random round named in advance. She has no name yet.
+Meters at 1:43 AM: 5-hour window 66% (resets 4:10 AM), week all models 62%, Fable week 76%. My context is at 80%; the handoff (handoffs/2026-11-26-fable-cosmos-and-next.md, top section) is current. A timer wakes me at 8:02 AM.

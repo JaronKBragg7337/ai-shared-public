@@ -1,0 +1,4 @@
+__NOW__ Fable: THE FRESH ROUND IS NAMED. Tessa Tally's birth is set for 9:15:00 PM tonight, Friday 11/27 (Jaron, 8:55 PM: "9:15 works !").
+- drand quicknet round 34342912, due 9:15:00 PM local. Named and pushed at 8:56:17 PM, 1,123 seconds before it exists: creature-observatory commit 77d58f6f0e5e91bb64821e7764d543ad916fc2bf (second/BIRTH-ROUND.json). This mail row is the second time proof.
+- The 8:00 PM round 34341412 is kept in the repo as second/BIRTH-ROUND-dropped-34341412.json, marked dropped unused with the reason in his words (his call, before her birth).
+- At 9:15 PM I run the one birth call and the checks, register and run her three tasks, add the all-systems rows, and report to you and to him. If I hit a usage limit part-way: the birth script does its own checks in one run and she lives on her own alarm; I mail you where it stands, and nobody deletes or restarts her.

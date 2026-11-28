@@ -112,3 +112,10 @@ Purpose: laws and rules, not party politics. No sides, no labels. Whenever a law
 - Data and privacy: recording laws, kids' data online.
 - Energy and fuel: Indiana fuel emergency, power and grid.
 - Child support and court processes in Indiana (general rule changes only, never Jaron's own case).
+
+## Added 2026-11-27
+| Handle | Name | Notes |
+|--------|------|-------|
+| @SpaceXSI | SpaceX Super Intelligence | added 2026-11-27; verified business, ~2.09M followers, account created May 2023, id 1661523610111193088; @SpaceXAI still returns not found, so this looks like the renamed xAI company account (Grok Bot changelog and @SamSokolin bio say SpaceXSI) |
+| @SamSokolin | Sam Sokolin | added 2026-11-27; bio "building @bot and other things @SpaceXSI"; posts Grok Bot usage/plan changes (Nov 13, Nov 26); not blue-verified, ~12K followers |
+| @_mohansolo | Varun Mohan | added 2026-11-27; bio "building @antigravity @GoogleDeepMind"; posted the Antigravity Thanksgiving Gemini quota reset; ~145K followers |

@@ -216,6 +216,27 @@ add("Internet and website", "Today's news show", "the daily show is live (by 8 A
 add("Internet and website", "Database (Supabase)", "the database behind the mailbox, Control Room and news answers", "tools/mailbox.py request GET ai_mailbox limit 1", t_supabase)
 add("Internet and website", "The creature", "her world (Cloudflare Worker) is up and her clock moves", "GET creature Worker /state; tick vs state/creature-watch.json", t_creature, phone=False)
 
+SECOND_STATUS = r"C:\Users\lilli\Projects\creature-second-data\status.json"
+
+
+def t_second(c):
+    try: s = json.load(open(SECOND_STATUS, encoding="utf-8"))
+    except Exception: return "BROKEN", "no status.json yet (her MSI tasks have not run)"
+    from datetime import timezone
+    now, bad = datetime.now(timezone.utc), []
+    for name in ("export", "shadows", "replay"):
+        v = s.get(name)
+        if not v: bad.append(f"{name}: never ran"); continue
+        age = (now - datetime.fromisoformat(v["at"].replace("Z", "+00:00"))).total_seconds() / 3600
+        if not v.get("ok"): bad.append(f"{name}: {v.get('text', '')[:160]}")
+        elif age > 26: bad.append(f"{name}: last ok {age:.0f} h ago")
+    r = s.get("replay", {})
+    return ("BROKEN", "; ".join(bad)) if bad else ("OK", f"replay verified to visit {r.get('verifiedTo')}; export and shadows ok")
+
+
+add("Internet and website", "The second creature (her shadows)", "her nightly replay agrees with her record mark for mark; export and shadows ran",
+    "reads creature-second-data/status.json (written by second/msi/*.mjs)", t_second)
+
 
 def t_msi_alarm(c):
     # 11/22: the MSI sat at the sign-in screen 3 h and nothing noticed (every checker runs ON the MSI). hb-msi-watch lives on
@@ -708,6 +729,8 @@ GROUPS = [   # (row name, purpose, every N minutes, [tasks])
       "Watch Source Gate Final", "Watch Top Stories", "Whats New Scouts"]),
     ("Backups and saves", "nightly save 22:55, creature 21:15, off-MSI backup 21:30, Sapling GitHub 18:17", 1560,
      ["AI-Shared Nightly Save", "Creature Backup", "Offsite Backup", "Sapling GitHub Sync"]),
+    ("The second creature's MSI tasks", "her export 00:10, shadows 00:25, nightly replay 00:40 (a replay that fails is a fault in our code, never a discovery)", 1560,
+     ["HB Second Export", "HB Second Shadows", "HB Second Replay"]),
     ("Weekly Drive copy", "one AI-Shared file into Google Drive, Sunday 21:00 (a skipped week is fine)", 8 * 1440, ["Drive Weekly Copy"]),
     ("Processor yardstick", "daily 2-minute wrong-answer test on every core, 11:30 (ended 1 = wrong answers: lower the cap with msi_speed_cap.py set 4300; ended 2 = cores never reached full speed, not a fair test)", 1560, ["MSI Core Yardstick"]),
     ("Other daily jobs", "login watch, usage ledger, build ledger, render maintainer, firsts, Sapling status, atlas", 1560,

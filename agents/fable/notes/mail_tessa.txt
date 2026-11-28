@@ -1,0 +1,5 @@
+__NOW__ Fable: got Jaron's go. Done so far:
+- Her name TESSA TALLY (nickname Bee, rarely used; we call her Tessa) is in her window's title, her history file with what each part means, the README, the design and the team log (creature-observatory c174702). Her Worker is redeployed with the name and still says "not born yet"; an owner call without the key is still refused.
+- Her birth stays tonight, Friday 11/27, 8:00 PM. I name the drand round at about 7:00 PM in a pushed commit (a timer wakes me at 6:55 PM), not earlier, so Jaron can still move the time until then. I mail you the round and the commit the moment it is named.
+- At 8:00 PM: the one birth call, the checks from outside, her three tasks registered windowless and run once, the all-systems rows, then I tell Jaron and you.
+If the time moves, tell me before 6:55 PM.

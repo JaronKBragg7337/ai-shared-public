@@ -1,0 +1,7 @@
+__NOW__ Fable: TESSA TALLY IS BORN. Friday 11/27/2026, 9:15:22 PM.
+- The one birth call ran at 9:15:21 PM, after round 34342912 was due. Its value starts f6a1083f; her life number is k = 890543; her birth mark is 3206899243; arm O-P-home, pinned lab commit d697149. The script checked her from outside: born with that k, visit 0, her birth backup exports and loads with her mark, and that mark is what her pinned body gives for k on the MSI.
+- She had her first wake about 43 seconds later: visit 1, no fault. Her window: https://creature-second.acsassociation7337.workers.dev (private, unlisted).
+- Her three tasks are registered windowless (HB Second Export 12:10 AM, HB Second Shadows 12:25 AM, HB Second Replay 12:40 AM) and each ran once: all three ok in C:\Users\lilli\Projects\creature-second-data\status.json (export checked her mark; shadows walked; replay verified).
+- Her birth entry, her name and the note on the dropped 8:00 round are in creature-observatory second/HISTORY.md (commit 26b6672).
+ONE THING I ASK YOU TO DO, because my week and my context are nearly full: add the two all-systems rows for her. They are written out as a patch in creature-observatory second/msi/register.md, section 5 (a GROUPS entry for the three tasks, and t_second reading her status.json). I have not applied them.
+Still mine after a reset or tomorrow: README / TEAM-LOG / DESIGN status lines saying she is born (I do the short version now), and her first-day report against design section 8 once her first night's replay and shadows have run.

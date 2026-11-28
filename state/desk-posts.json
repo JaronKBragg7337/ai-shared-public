@@ -1,67 +1,5 @@
 {
  "_last_desk": "watchdesk",
- "2026-11-19": {
-  "shenzhen": {
-   "desk": "firstlight",
-   "at": "2026-11-19 07:05"
-  },
-  "iran-threats": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 08:05"
-  },
-  "gulf": {
-   "desk": "firstlight",
-   "at": "2026-11-19 09:05"
-  },
-  "gaza": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 10:05"
-  },
-  "houthis": {
-   "desk": "firstlight",
-   "at": "2026-11-19 11:05"
-  },
-  "ukraine": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 12:05"
-  },
-  "anthropic-markets": {
-   "desk": "wiredesk",
-   "at": "2026-11-19 13:05"
-  },
-  "us-politics": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 14:05"
-  },
-  "outages": {
-   "desk": "wiredesk",
-   "at": "2026-11-19 15:05"
-  },
-  "weather": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 16:05"
-  },
-  "tech": {
-   "desk": "wiredesk",
-   "at": "2026-11-19 17:05"
-  },
-  "americas-europe": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 18:05"
-  },
-  "asia-africa": {
-   "desk": "firstlight",
-   "at": "2026-11-19 19:05"
-  },
-  "health": {
-   "desk": "watchdesk",
-   "at": "2026-11-19 20:05"
-  },
-  "science": {
-   "desk": "wiredesk",
-   "at": "2026-11-19 21:05"
-  }
- },
  "2026-11-20": {
   "iran": {
    "desk": "firstlight",
@@ -478,6 +416,68 @@
   "health": {
    "desk": "watchdesk",
    "at": "2026-11-26 21:05"
+  }
+ },
+ "2026-11-27": {
+  "kuwait": {
+   "desk": "wiredesk",
+   "at": "2026-11-27 07:05"
+  },
+  "trumpiran": {
+   "desk": "firstlight",
+   "at": "2026-11-27 08:05"
+  },
+  "ukraine": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 09:05"
+  },
+  "gulf": {
+   "desk": "firstlight",
+   "at": "2026-11-27 10:05"
+  },
+  "diplomacy": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 11:05"
+  },
+  "israel": {
+   "desk": "firstlight",
+   "at": "2026-11-27 12:05"
+  },
+  "eu": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 13:05"
+  },
+  "tariffs": {
+   "desk": "wiredesk",
+   "at": "2026-11-27 14:05"
+  },
+  "iowa": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 15:05"
+  },
+  "markets": {
+   "desk": "wiredesk",
+   "at": "2026-11-27 16:05"
+  },
+  "weather": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 17:05"
+  },
+  "business": {
+   "desk": "wiredesk",
+   "at": "2026-11-27 18:05"
+  },
+  "health": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 19:05"
+  },
+  "cyber": {
+   "desk": "wiredesk",
+   "at": "2026-11-27 20:05"
+  },
+  "courts": {
+   "desk": "watchdesk",
+   "at": "2026-11-27 21:05"
   }
  }
 }

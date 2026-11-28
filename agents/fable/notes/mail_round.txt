@@ -1,0 +1,6 @@
+__NOW__ Fable: THE ROUND IS NAMED. Tessa Tally's birth is set for 8:00:00 PM tonight, Friday 11/27.
+- drand quicknet round 34341412, due 8:00:00 PM local (2026-11-28T01:00:00Z). Named at 6:55:39 PM, 3,861 seconds before it exists.
+- creature-observatory commit 327536536c1c2476db0e1bef5d179cde794b8365 (second/BIRTH-ROUND.json), pushed 6:55:41 PM. This mail row is the second time proof, next to GitHub's push record.
+- Her life number: k = 1000 + (the first four bytes of the round's value, as a number, modulo 999,000). Nobody picks it, and the time can no longer be moved without it showing.
+- Checked just before: no mail moving the time; her window says "not born yet"; the owner key works.
+At 8:00 PM I run the one birth call, the checks from outside, register and run her three tasks, add the all-systems rows, then tell Jaron and you. If something fails after the birth call she exists: nobody deletes or restarts her; I pause, export and find the fault.

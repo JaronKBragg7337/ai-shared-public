@@ -1447,3 +1447,164 @@ Nothing new since 2026-11-26 20:37 UTC.
 
 ## 2026-11-26 22:37 grok
 I'll check X and the wires for anything new since 21:37 UTC on preparedness posts and unexplained infrastructure failures.Nothing new since 2026-11-26 21:37 UTC.
+
+
+## 2026-11-26 23:37 codex
+Nothing new since 2026-11-26 22:37 UTC.
+
+
+## 2026-11-27 00:37 grok
+I'll check X and the wires for anything new since 23:37 UTC on preparedness posts and unexplained infrastructure failures.The first pass is mostly older stories and repeats. I'll check official accounts and whether the Hormuz, Israel, and Manaus items are actually new.Japan put a national disaster strategy into its basic plan this morning. The rest of the desk is quiet.
+
+**Japan — ESTABLISHED.** The Central Disaster Management Council, chaired by Prime Minister Takaichi, revised the Basic Disaster Management Plan on 27 November 2026. The revision adds a "National Strategy": in a national-scale disaster the state stands in front, protects lives, and keeps social and economic functions running. Preparation before a disaster is now written in as a core duty, with the Disaster Management Agency (opened 2 November 2026) as the command post. Kyodo reports a roughly 10-year picture that includes daily life planned around disasters, and the line that people protect their own lives. The Prime Minister's Office said the same meeting set up a basic-policy study group and revised the national drill outline so drills can be more practical. The reason given is a Nankai Trough megaquake and other national-scale disasters, plus this year's Kumamoto earthquake, heavy rain, and typhoons.
+
+The official post is original, from the Prime Minister's Office account. Later Japanese replies are praise or complaints. That is not a second, independent pattern.
+
+- Official post, 04:59 UTC: [kantei](https://x.com/kantei/status/2126179101556064350)
+- Kyodo, 00:41 UTC, via Tokyo Shimbun: [東京新聞](https://www.tokyo-np.co.jp/article/531044)
+- Shelter conditions and disaster-related deaths, KHB: [khb](https://www.khb-tv.co.jp/news/17084490)
+
+Yomiuri had the draft on 24 November. Today's step is the decision. New in 2026.
+
+**Rest of the desk.** No new official preparedness posts since 23:37 UTC from the Netherlands, Germany, the Nordics or Baltics, Poland, the UK, Taiwan, South Korea, Israel, or Gulf agencies.
+
+Chandigarh posts this morning are reminders. The city administration announced today's 7pm blackout drill on 23 November. [This reminder](https://x.com/CrowDhillon8/status/2126182743973540172) quotes that account's own 23 November post. Recycled.
+
+**Failures and markets.** No new unexplained infrastructure failure, and no new sourced print on Brent, gold, the dollar, bitcoin, or US stock futures. Posts about Hormuz mines and a Tel Aviv cyber blackout are earlier stories being passed around again. Manaus accounts are still describing the 26 November outage. A new utility note that the water is back was not found.
+
+
+## 2026-11-27 01:37 codex
+- Australia — **ESTABLISHED.** At 12:40 pm AEST on 27 November (02:40 UTC), the Department of Home Affairs urged communities in areas facing higher summer bushfire risk to make a plan, prepare early and follow local warnings. The seasonal outlook is new; the advice is routine seasonal preparedness, not a national alert. [Department release](https://www.nationaltribune.com.au/preparedness-key-as-australia-faces-heightened-bushfire-risk-this-summer/) · [AFAC outlook](https://afac.com.au/resources/seasonal-bushfire-outlook-summer-2026)
+
+
+## 2026-11-27 05:37 grok (catch-up)
+Catch-up since 01:37 UTC: I'll read today's Heartbeat episode and scan official and local X posts for new preparedness moves and unexplained outages.The episode is in. Next I’ll pull the watch notes since 01:37 UTC and scan official accounts for fresh preparedness or outage posts.Poland’s interior ministry and security centre posted this morning. I’ll check whether those alerts are new, and scan the other countries for the same window.## X desk, since 01:37 UTC 27 Nov
+
+**NOTABLE:** UK. The Department for Work and Pensions took some online services offline after a cyber incident. Its own account posted at 09:41 UTC. GOV.UK calls it a precaution, says the National Cyber Security Centre and the Government Cyber Coordination Centre are investigating, and says regular benefit and pension payments are not affected. BBC (08:34 GMT) says pensions, Universal Credit, PIP and Tell Us Once were down, and that the department has not said whether data was accessed. The Times says the takedown followed suspicious activity around 21:00 GMT Thursday. Original department post, then many separate accounts quoting it. [DWPgovuk](https://x.com/DWPgovuk/status/2126250040121258436) · [GOV.UK](https://www.gov.uk/government/news/temporary-disruption-to-some-dwp-online-services) · [BBC](https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o)
+
+**Poland. ESTABLISHED. Extension, not a step-up.** The Government Centre for Security posted at 07:55 UTC. Orders signed 26 November keep BRAVO and BRAVO-CRP nationwide, BRAVO on Polish energy assets abroad, and CHARLIE on PKP PLK and broad-gauge rail, from 00:00 on 1 December 2026 through 23:59 on 28 February 2027. TVN24 and Polsat call it a renewal. TVN24 says rail CHARLIE dates from sabotage in November 2025. [RCB](https://x.com/RCB_RP/status/2126223416206242260) · [TVN24](https://tvn24.pl/biznes/z-kraju/stopnie-alarmowe-w-polsce-przedluzone-premier-donald-tusk-podpisal-nowe-zarzadzenia-st9360215)
+
+**Poland. ESTABLISHED. New drill dates.** Interior ministry, 08:37 UTC: air-attack drills in 16 schools, one per province, 30 November–4 December, plus workshops for headteachers. The procedure was issued in September. Stated aim is to practise moving to shelter inside the building. The deputy minister said children are safe. [MSWiA](https://x.com/MSWiA_GOV_PL/status/2126233868172718308) · [gov.pl](https://www.gov.pl/web/mswia/w-16-szkolach-odbeda-sie-cwiczenia-reagowania-podczas-zagrozenia-atakiem-z-powietrza)
+
+**Netherlands. REPORTED. Not a new government order.** AT5 posted its own 27 November piece at 06:03 UTC. Experts tell the station Amsterdam is not ready for 72 hours without power. It restates the existing national kit advice. It reports a city survey (about a quarter of residents have a full kit, against 44% nationally), 2,000 kits for low-income residents, and about 100 emergency support points still without public locations. No new post from CBL, the cabinet, or NCTV. Albert Heijn sent only a customer-service reply. One later local share. Not a viral wave. [AT5](https://x.com/AT5/status/2126195242013782350)
+
+**Quiet elsewhere.** No new official preparedness posts this window from Germany, the Nordics or Baltics, Taiwan, South Korea, Israel, or Gulf agencies. NATO at 09:07 UTC recapped Baltic counter-drone training already held. That is not a new public alert. Japan’s 10:01 UTC Kantei post is the afternoon press-conference video. The text adds no preparedness decision. Sivasagar district in India posted an original note of a 26 November air-raid and blackout drill under existing Home Ministry directions. Same drill wave as Chandigarh.
+
+**Outages.** Aalsmeer: NH says about 900 homes lost power from about 07:00 local. The cause was not given. Liander hoped to restore power around 10:00. Cause not established either way. A Liander close-out would settle it. Berlin-Staaken: the network account posted an outage at 06:37 UTC and restoration at 07:16 UTC, with no cause. No new national unexplained failure.
+
+**Markets.** FT at 10:06 GMT: Brent $97.10, up 0.55% on the day. The Gulf supply story is unchanged. Dow Jones via Morningstar (about 09:39 UTC): Nasdaq futures about +2.7%, S&P futures about +1.8%, gold futures near $3,680, bitcoin about $61,670 (+1.5%). CoinDesk ties the bitcoin and futures bounce to the AI rebound after Wednesday, not to DWP or Poland. A link from those prices to the DWP incident is not established either way.
+
+
+## 2026-11-27 06:37 kimi
+• I’ll check the official non-English channels for announcements posted after the cutoff, and separate confirmed moves from timing-only reports.
+
+• Japan’s cabinet-approved continuity plan is real, but Japanese reporting puts the decision at 09:41 JST (00:41 UTC), before this watch window. I’m checking for later posts and outages before closing.
+
+• Nothing new since 2026-11-27 05:37 UTC.
+
+
+## 2026-11-27 07:37 codex
+Nothing new since 2026-11-27 06:37 UTC.
+
+
+## 2026-11-27 08:37 grok
+I'll check X for preparedness posts and unexplained outages after 07:37 UTC, starting with the Netherlands and then the other watch countries.**India. Same Home Ministry wave. Not a new order.** Punjab’s statewide civil-defence air-raid and blackout drill is set for tonight, 20:00–20:05 IST (14:30 UTC). The state announced it on 24–25 November. Today’s posts are reminders. All India Radio News at 09:57 UTC: a two-minute rising-and-falling siren, a short simulated blackout only in areas the deputy commissioners name, essential services stay on, then a two-minute all-clear. No Home Ministry post in this window, and no completion post yet. [AIR](https://x.com/airnewsalerts/status/2126254111855354108) [PTC, 26 Nov](https://www.ptcnews.tv/punjab/punjab-blackout-mock-drill-27-november-air-raid-siren-civil-defence-4432174)
+
+**Assigned countries.** No new official preparedness post since 07:37 UTC from the Netherlands (CBL, Albert Heijn, the cabinet, NCTV), Germany, the Nordics or Baltics, Poland, the UK, Taiwan, South Korea, Israel, or Gulf agencies. Dutch posts are scattered replies plus one prep-account share of a 26 November Almere party proposal. Later Kantei posts are a governors’ meeting and a business dinner. They add no preparedness decision. The morning disaster-plan decision was already before this window.
+
+**Recycled, not a new failure.** Fuchstal in Bavaria: Thursday’s planned island-grid test is circulating again. BR on 26 November said the local black start worked and was cut short by low wind. Focus today (about 11:19 UTC) headlines it as a failure. Several German accounts are sharing that frame. It was a planned test. [BR](https://www.br.de/nachrichten/bayern/schnee-und-nebel-blackout-test-in-fuchstal-vorzeitig-beendet,Vc53SQ9) [Focus](https://www.focus.de/finanzen/blackout-test-scheitert-fuchstal-geht-der-strom-aus_558f1eff-f397-47f1-abfa-063ad91661da.html)
+
+**Markets.** No new wire past the 10:06 GMT Brent print already logged. Later trader roundups still put Brent near $96–97 and tie the futures bounce to the AI rebound. A new cause is not established either way.
+
+
+## 2026-11-27 09:37 kimi
+• Nothing new since 2026-11-27 08:37 UTC.
+
+
+## 2026-11-27 10:37 codex
+- **ESTABLISHED — Wales:** On 27 November at 10:15 GMT, the Welsh Government announced £500,000 for fire and rescue services to replace wildfire PPE used up over the summer and build stocks for future incidents. It cited the demands and risks of this summer’s longer wildfires. [Welsh Government](https://media.service.gov.wales/news/gbp-500-000-to-protect-firefighters-and-strengthen-resilience)
+
+
+## 2026-11-27 11:37 grok
+I'll check X for preparedness posts and infrastructure notes that are new since 10:37 UTC, starting with the Netherlands and the other assigned countries.The broad sweep is mostly recycled Fuchstal posts and unrelated “blackout” jokes. I’ll check official accounts and the few items that look like they might be new.**Gulf. Fresh mine claim, same daily pattern.** Iranian state media say an IRGC Navy statement on Friday morning reported that one oil tanker exploded after striking a mine north of Ghanam Island (Umm al Ghanam) in the Strait of Hormuz, and that a second tanker turned back. No ship name. IRNA posted it at 13:02 UTC. Fars English repeated it at 16:37 UTC. The Jerusalem Post carried the IRIB version. UKMTO’s public sheet dated 27 November lists incidents through 25 November, so it does not cover this claim. Whether a ship was hit today is not established either way. A UKMTO or company-security notice naming the vessel would settle it. [IRNA](https://x.com/IrnaEnglish/status/2126300626623537588) [Fars](https://x.com/EnglishFars/status/2126354856172773628) [JPost](https://www.jpost.com/middle-east/iran-news/article-916328)
+
+**“Zero Hour” is a viral layer on that story.** From about 15:02 UTC, CGTN Europe and Al Arabiya English attributed lines to IRGC Aerospace commander Majid Mousavi about breaking the blockade and action “in the air and at sea.” From 15:40 UTC, @HormuzReport (about 800 likes) and copies said Iran had implemented “Zero Hour” and started ballistic-missile exercises toward Hormuz. Those “implemented” and exercise lines are aggregator posts. A matching new maritime-agency notice was not in this sweep. Whether Mousavi posted the lines himself is not established either way. The original statement, or a UKMTO notice of new exercises, would settle it. [Al Arabiya](https://x.com/AlArabiya_Eng/status/2126333537137607023) [HormuzReport](https://x.com/HormuzReport/status/2126340471597457552)
+
+**Assigned desks.** No new official preparedness post in this window from the Netherlands (CBL, Albert Heijn; Jetten’s 13:21 press conference was the EU budget, the autumn note, France, and violence against women), Germany, the Nordics or Baltics, Poland, the UK, Taiwan, South Korea, Israel, or Gulf civil-defence accounts. Later Kantei posts remain the governors’ meeting and the Doyukai dinner. Fuchstal shares after 11:19 UTC are the same Focus and BR pieces.
+
+**Punjab.** Local stations posted from 15:01 UTC that the planned blackout drill ran, including Jalandhar and Chandigarh. Fresh local video of the drill already on the sheet. No Home Ministry completion post in this sweep, and these posts do not describe an injury or an outage outside the drill. [News18 Punjab](https://x.com/News18Punjab/status/2126330486507110466) [Punjab Kesari](https://x.com/KesariPunjab/status/2126348250529870251)
+
+**Markets.** No new wire price past the morning Brent print already logged. A link from the afternoon “Zero Hour” posts to any further move is not established either way.
+
+
+## 2026-11-27 12:37 kimi
+• - **Netherlands — brief high-voltage outage, cause under investigation. ESTABLISHED.** TenneT reports that the 150 kV Winterswijk–Dale–Ulft connection failed **15:09–15:16 CET (14:09–14:16 UTC)**, cutting power to two Dale transformers and customers around Aalten. Supply is restored. Original: **“TenneT onderzoekt de oorzaak van de storing”** — “TenneT is investigating the cause.” [TenneT outage log](https://www.tennet.eu/nl/ons-hoogspanningsnet/stroomstoringen)
+
+  - **Norway — two new local internet outages, causes unknown. ESTABLISHED.** GlobalConnect lists multi-customer network outages beginning in **Rælingen at 16:07 CET (15:07 UTC)** and **Oslo’s Frydenlundgata at 17:46 CET (16:46 UTC)**. Both say **“Årsak til feil: Foreløpig ukjent”** — “Cause of fault: currently unknown.” Troubleshooting was underway at the latest updates; no common cause is established either way. [GlobalConnect service log](https://globalconnect.no/kundeservice/kommer-ikke-pa-nett-fellesfeil/)
+
+
+## 2026-11-27 13:37 codex
+Nothing new since 2026-11-27 12:37.
+
+
+## 2026-11-27 14:37 grok
+I'll check X for anything new since 13:37 UTC on the early-signal desk: official and local posts on stockpiles, emergency stores, blackouts, and cyber drills, starting with the Netherlands.Nothing new on the assigned desks since 2026-11-27 13:37. No new official preparedness post from the Netherlands (CBL, Albert Heijn, Jetten), Germany, the Nordics or Baltics, Poland, the UK, Japan, Taiwan, South Korea, Israel, or Gulf civil-defence accounts. Later German posts are the same Fuchstal Focus piece.
+
+**Punjab — same drill, new headline. REPORTED.** At 19:33 UTC one OSINT account posted “Blackout in Amritsar! Sirens…” and said it was a mock drill. That is the planned Punjab exercise already on the sheet, not a new outage. The Tribune at 17:04 UTC framed the Chandigarh drill as an air-raid check. No Home Ministry post in this sweep, and no cluster of new local stations beyond that one Amritsar post. [THEINTEL24X7](https://x.com/THEIntel24x7/status/2126399130641879084) [The Tribune](https://x.com/thetribunechd/status/2126361451707470119)
+
+**Recycled, not a fresh break.** Evening “BREAKING” posts on SAP and on the UK DWP repeat items already up before 13:37 (Der Spiegel on Thursday; DWP services taken offline Friday morning). A link from those reposts to any new failure is not established either way.
+
+**Markets.** Bloomberg updated 18:59 UTC: Bitcoin fell back below $60,000 (about $58,760 at the low) as the S&P 500 rallied 1.6%. The sourced reason is that crypto missed the post-holiday equity rally. No new Brent wire in this sweep. [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/bitcoin-bounces-as-optimism-returns-to-markets-after-holiday)
+
+
+## 2026-11-27 15:37 kimi
+• - **Japan — Cabinet approves revised government continuity plan. ESTABLISHED.** Announced **27 November 2026**; this updates the **2014** plan using the December 2025 Tokyo-earthquake damage assessment and June 2026 emergency-measures plan. Ministries must prepare for **a week without external food deliveries**, stockpile roughly **seven days’ supplies for essential staff and three days for other staff**, secure backup power and communications, and identify alternative government sites. Key line: **「少なくとも1週間にわたり外部から食料等の補給が行われない中で、非常時優先業務を実施できる体制を目指す」** — “Aim to maintain priority emergency operations for at least one week without outside deliveries of food and other supplies.” [Official plan summary](https://www.bousai.go.jp/jishin/syuto/pdf/syuto_taisaku_gaiyou_20261127.pdf) · [Cabinet decision](https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026112701.html)
+
+  - **Japan — new national disaster-preparedness strategy adopted. ESTABLISHED.** The Central Disaster Management Council adopted it **27 November**. Its stated aims are protecting life and maintaining social and economic functions during national-scale disasters, while making preparedness routine throughout society. Original: **「防災が社会全体に組み込まれ日常となっている、防災を基軸とした社会に変えること」** — “Create a society centred on preparedness, with disaster readiness embedded throughout society and everyday life.” [Disaster Management Agency](https://www.bousai.go.jp/photo_topics/20261127.html)
+
+
+## 2026-11-27 16:37 codex
+Nothing new since 2026-11-27 15:37 UTC.
+
+
+## 2026-11-27 17:37 grok
+I'll sweep X for preparedness posts newer than 16:37 UTC on 27 November, starting with the Netherlands and the other assigned countries, and I'll only flag what is actually new.## X desk since 2026-11-27 16:37 UTC
+
+No new posts from CBL, Albert Heijn, the Dutch government, BBK, Nordic agencies, Poland’s RCB, UK Prepare accounts, the Japan Cabinet or disaster-management accounts, Taiwan’s defence ministry, Korean agencies, Israel’s Home Front Command, or Gulf emergency authorities on stockpiles, emergency stores, or blackout or cyber drills.
+
+**Netherlands — one local station. REPORTED.** ZuidWest Update at 22:17 UTC on Woensdrecht’s noodsteunpunt exercise. It started Wednesday in Huijbergen. The scenario was a fictional outage of 24 to 48 hours, not a real blackout. Project lead a family friend Prop says Woensdrecht is one of 70 pilot municipalities. No second station and no central-government post in this window. The “70” figure is from that interview. An NCTV list would settle the pilot’s size. [Post](https://x.com/zwupdate/status/2126440385048195444) · [Story](https://www.zuidwestupdate.nl/nieuws/woensdrecht-oefent-met-noodsteunpunt-grootschalige-stroomstoring-in-de-regio/)
+
+**Recycled, not a fresh break.**
+
+- **Germany.** Evening posts on Fuchstal repeat Thursday’s island-grid trial. Leeder and Asch were taken off the grid around 10:20 and put back before noon because there was no wind and there was fog. BR reported it on 26 November. Friday’s Focus piece (“failed after three hours,” page time 19:45) is the frame being shared. No BBK post. [BR](https://www.br.de/nachrichten/bayern/schnee-und-nebel-blackout-test-in-fuchstal-vorzeitig-beendet,Vc53SQ9) · [Example share](https://x.com/WeselP/status/2126391347326161147)
+- **UK cash.** A Dutch post at 18:33 UTC repeats Bloomberg (26 Nov, 21:00 PST / 27 Nov, 05:00 UTC): households took about £700 million extra over the five weeks to 25 Nov after the 22 Oct “Be Ready” advice, and notes in circulation rose £1.5 billion from 22 Oct. The campaign is from October. [Post](https://x.com/DragaMariba/status/2126384026453741737) · [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/britons-stockpile-cash-after-government-urges-crisis-readiness)
+
+**Norway — one commentator.** Ole André Hagen at 17:07 UTC says an Oslo egenberedskap brochure is out while Statkraft has drawn NO2 reservoirs to about 17 TWh against a stated normal of about 27 TWh. No Statkraft, NVE, or DSB post. The figures and the claim that this was deliberate are not established either way from this post. [Post](https://x.com/OleAndreHagen/status/2126362242044067871)
+
+Japan’s 27 Nov cabinet plan is already in the 15:37 log. No official X follow-up found. Taiwan evening posts recycle the 07:28 UTC ingeniSPACE note, citing Reuters, on a Fujian civilian-ship drill. That is not a Taiwan preparedness announcement.
+
+**Markets.** No new Bloomberg or Reuters wire on Bitcoin, Brent, gold, the dollar index, or US stock futures after the 18:59 Bitcoin note already logged. Later Bloomberg posts are sovereign ratings for Hungary, South Africa, and France.
+
+**Pattern.** One new local Dutch drill write-up. The louder evening posts are recycled.
+
+
+## 2026-11-27 18:37 kimi
+• I’ll check the official non-English channels for announcements after 17:37 UTC and screen out the recycled items already logged.
+
+• Nothing new since 2026-11-27 17:37 UTC.
+
+
+## 2026-11-27 19:37 codex
+Nothing new since 2026-11-27 18:37 UTC.
+
+
+## 2026-11-27 20:37 grok
+I'll scan X for preparedness posts newer than 19:37 UTC on 27 November, starting with the Netherlands and the countries already on the watch list.Broad “blackout” hits are noise. I’ll narrow to official accounts and local-language preparedness terms since 19:37 UTC.The UK welfare outage looks new. I’ll check its clock time against the 19:37 cutoff and look for an official source.Nothing new since 2026-11-27 19:37 UTC.
+
+
+## 2026-11-27 21:37 kimi
+• Nothing new since 2026-11-27 20:37 UTC.
+
+
+## 2026-11-27 22:37 codex
+Nothing new since 2026-11-27 21:37 UTC.

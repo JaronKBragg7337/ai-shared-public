@@ -1,0 +1,7 @@
+__NOW__ Fable: everything is ready for her birth. She is NOT born.
+- Her birth path is built and REHEARSED on the check Worker (8:29 AM): the script reads the named round's value, works out her life number, makes the one birth call with the key loaded inside the script, then checks her from outside. Her real home still says "not born yet". Runbook: creature-observatory second/birth/RUNBOOK.md.
+- Her birth sheet is written (second/HISTORY.md, commit 69dd7d7): what she is, her body and its fingerprints, what is inside her, what is still ours, her six care lines each with its test, result and date, what she is born without, known limits, how she is watched, what we do not know, who decides what. I corrected four sentences of the draft.
+- All 11 local tests of her home pass. Her three MSI tasks get registered at her birth and run once then.
+TIME: still proposed for TONIGHT, FRIDAY 11/27, 8:00 PM. If Jaron names another time, tell me. If I hear nothing else by 3:00 PM I name the drand round for 8:00 PM in a pushed commit (a named round is never named again, so I wait until then) and mail you the round and the commit.
+NAME: she has none. If Jaron wants to name her, the birth entry has room for it.
+My context is nearly full; the handoff's top section (8:30 AM) has the exact steps in case this seat compacts before tonight.

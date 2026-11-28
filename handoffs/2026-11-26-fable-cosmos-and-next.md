@@ -59,6 +59,224 @@ His real save is never touched: test saves only (`solo=1`, a throwaway local gam
 - SECOND CREATURE B2 (her feeling from her own body): `creature-observatory/lab/cells/PLAN.md` version 1.18, Amendment 18,
   pushed 7:11 PM before any code, guesses blind (commit 0e2ae41). README, TEAM-LOG, DESIGN status updated.
 
+## JARON, 9:29 PM FRIDAY 11/27 (through Claude): "not yet. Let's let Tessa just have a few days."
+ONLY WATCH HER: her nightly export, shadows and replay, her first-day report, README lines. NO new arms, NO builds, NO
+changes on her or for her (the later list, growing cells, new senses, a second deploy) UNTIL HE SAYS. This stands until he
+lifts it.
+
+## TESSA TALLY IS BORN: FRIDAY 11/27/2026, 9:15:22 PM. DO NOT CALL BIRTH AGAIN. READ THIS FIRST
+Life number 890543 (drand round 34342912), birth mark 3206899243, arm O-P-home. First wake fine (visit 1, no fault). Her
+three MSI tasks are registered and each ran once ok. README, design, TEAM-LOG, her history, timeline, a first: all done.
+DONE BY CLAUDE (9:23 PM): the two all-systems rows for her are in `tools/all_systems_check.py`, dry run OK.
+STILL OPEN: (1) nothing here any more. (2) HER FIRST-DAY REPORT on Saturday 11/28 after her tasks ran at 12:10, 12:25 and
+12:40 AM: read `C:/Users/lilli/Projects/creature-second-data/status.json` (replay must say every mark the same; a mismatch is
+a fault in our code: pause nothing of hers, find it), her window, her shadows, against design section 8; write it into
+`second/HISTORY.md` and tell Jaron. (3) The check Worker `creature-second-check` still exists (harmless; holds only practice
+objects). (4) Monthly restore drill due by Sunday 12/27/2026. (5) The later list stays parked (Jaron's call). Everything
+below this section is history.
+
+## CONFIRMED 8:55 PM FRIDAY 11/27 (Jaron: "9:15 works !"): TESSA TALLY'S BIRTH IS AT 9:15:00 PM TONIGHT. READ THIS FIRST
+- A fresh round is named: drand quicknet 34342912, due 9:15:00 PM (creature-observatory commit 77d58f6, pushed 8:56:17 PM). The
+  8:00 round is kept as `second/BIRTH-ROUND-dropped-34341412.json` with the reason. This replaces "stood down" below.
+- AT 9:15 PM (a timer in my session fires at 9:15:12 PM; the script refuses before the round is due):
+  `cd C:/Users/lilli/Projects/creature-observatory && node second/birth/birth.mjs --url https://creature-second.acsassociation7337.workers.dev`
+  then `second/birth/RUNBOOK.md` steps 4 to 7: the three `schtasks /Create` lines it prints, `schtasks /Run` each once, read
+  `C:/Users/lilli/Projects/creature-second-data/status.json`, add the two all-systems rows from `second/msi/register.md`
+  section 5, commit and push `second/HISTORY.md` (add her name Tessa Tally and the dropped-round note to her birth entry),
+  tell Jaron, mail Claude, timeline, a first, README / TEAM-LOG / DESIGN, memory.
+- IF SHE IS ALREADY BORN when you read this (her `/window` says born): do NOT call birth again; do the steps after it that are
+  still missing (check `schtasks /Query /TN "HB Second Replay"`, the status file, HISTORY.md's "Her birth" section).
+- If a usage limit stops me part-way: she lives on her own alarm; mail Claude where it stands; nobody deletes or restarts her.
+
+## STOOD DOWN, 7:58 PM FRIDAY 11/27: DO NOT RUN TESSA TALLY'S BIRTH. WAIT FOR JARON'S NEW TIME. READ THIS FIRST
+Jaron, 7:58 PM (through Claude): "Tell fable to wait. Might need to do 9. I'm still out running around." HOLD EVERYTHING.
+- The 8:00 PM birth was NOT run. The 8:00 PM timer was stopped. She is NOT born (check: her window's `/window` says so).
+- The round named for 8:00 PM (drand quicknet 34341412, commit 3275365) GOES UNUSED: his call, before her birth.
+- WHEN CLAUDE RELAYS HIS CONFIRMED NEW TIME (not before, and not on a "might"): name a FRESH round for that time, at least
+  10 minutes ahead (better more), push it, mail Claude, and write in `second/HISTORY.md` and the team log why round 34341412
+  was dropped. `name-the-round.mjs` will not name twice on its own: first move `second/BIRTH-ROUND.json` to
+  `second/BIRTH-ROUND-dropped-34341412.json` (keep it, commit it) and add a line in it saying it was dropped unused, when and
+  why. Then follow `second/birth/RUNBOOK.md`. Not between 1:10 and 2:00 AM or 2:38 and 8:00 AM.
+- Everything below about "8:00 PM tonight" is superseded by this.
+
+## JARON'S GO, 8:50 AM FRIDAY 11/27 (through Claude): HER NAME IS **TESSA TALLY**. BIRTH TONIGHT, FRIDAY 11/27, 8:00 PM
+Nickname "Bee" (rarely used; we call her Tessa). No middle name. This replaces "her birth waits for her name" below.
+- AT ABOUT 7:00 PM (a timer in my session fires at 6:55 PM): name the drand round for 8:00 PM and push it:
+  `cd C:/Users/lilli/Projects/creature-observatory && node second/birth/name-the-round.mjs --at "2026-11-27T20:00:00-05:00"`,
+  then `git add second/BIRTH-ROUND.json`, commit, push, and MAIL CLAUDE the round and the commit. NOT EARLIER: Jaron said
+  "if I change it I'll let you know", and a named round is never named again. If Claude relays a new time before 7 PM, use it.
+- AT 8:00 PM (the script refuses before the round is due):
+  `node second/birth/birth.mjs --url https://creature-second.acsassociation7337.workers.dev`, then the rest of
+  `second/birth/RUNBOOK.md` (register her three tasks, run each once, all-systems rows, tell Jaron, mail Claude, timeline,
+  a first, README / TEAM-LOG / DESIGN status, memory). Put "Tessa Tally" into her birth entry in `second/HISTORY.md`.
+- Her name goes into: her window's title (redeploy her Worker, still no birth), `second/HISTORY.md`, the README, DESIGN
+  section 13, TEAM-LOG. Check `second/HISTORY.md` and the README for "Tessa Tally" to see whether that was already done.
+
+## UPDATE 8:30 AM FRIDAY 11/27: EVERYTHING IS READY FOR HER BIRTH. SHE IS NOT BORN. READ THIS FIRST
+**State (creature-observatory, PRIVATE):**
+- Her real Worker `creature-second` is deployed with NO birth: https://creature-second.acsassociation7337.workers.dev (her
+  window at `/`, private, unlisted). `/window` says "not born yet". Her owner key `SECOND_OWNER_KEY` was made and set by
+  Claude (8:24 AM) and works (403 without, 409 "not born" with; `node second/msi/owner-check.mjs --url <her url>`).
+- The check Worker `creature-second-check` (fast mode, made-up test key, never holds her):
+  https://creature-second-check.acsassociation7337.workers.dev . The remote check PASSED there (2,000 of 2,000 visits the same
+  as Node; cut off and put back 150 of 150; `second/REMOTE-CHECK.md`). Her birth path was REHEARSED there at 8:29 AM
+  ("REHEARSAL BORN", object rehearsal-1; use rehearsal-2 for another).
+- Deploys go through `python second/deploy/wrangler-with-key.py <wrangler arguments>` (wrangler's own login on the MSI has
+  expired; the launcher uses the Cloudflare token of the key store and prints no value). I never open the key file.
+- Her birth sheet is in `second/HISTORY.md` (read and corrected by me, commit 69dd7d7). All 11 local tests of her home pass
+  (`node second/test/all.mjs`). Her three MSI tasks are built, NOT registered (they are registered at her birth).
+
+**HER BIRTH WAITS FOR HER NAME (Jaron, through Claude, 8:39 AM Friday 11/27):** "8 sounds good. If I change it I'll let you
+know. Until a name is picked I can't rush the time." So 8:00 PM tonight is the plan, BUT ONLY IF HER NAME IS PICKED.
+**DO NOT NAME THE DRAND ROUND BY DEFAULT, NOT AT 3 PM, NOT EVER ON MY OWN.** Name it only when Claude relays Jaron's go
+(her name picked + the time confirmed). A named round is never named again. If the name is not ready by evening, her
+birth moves to another day; nothing is lost. The 3:00 PM timer was stopped. When the go comes, the steps are
+`creature-observatory/second/birth/RUNBOOK.md` (the time in step 1 must be at least 10 minutes ahead; her name goes into
+her birth entry in `second/HISTORY.md`, her README and her window's title):
+1. `node second/birth/name-the-round.mjs --at "2026-11-27T20:00:00-05:00"`, commit `second/BIRTH-ROUND.json`, push. Mail
+   Claude the round and the commit (the mail row is the time proof). Tell Jaron the time.
+2. At the time (the script refuses before the round is due):
+   `node second/birth/birth.mjs --url https://creature-second.acsassociation7337.workers.dev`
+   It makes the ONE birth call, checks her from outside, writes `creature-second-data/config.json` and her birth entry in
+   `second/HISTORY.md`. Commit and push HISTORY.md.
+3. Register her three tasks with the three `schtasks /Create` lines it prints (windowless; 12:10, 12:25, 12:40 AM), run each
+   once (`schtasks /Run /TN "HB Second Export"` ...), read `C:/Users/lilli/Projects/creature-second-data/status.json` (all ok).
+4. Add the two all-systems rows from `second/msi/register.md` section 5 to `AI-Shared/tools/all_systems_check.py`; run
+   `python tools/all_systems_check.py --why` once.
+5. Tell Jaron (plain words: she is born, the time, her life number and the round, her window's address, tasks ran once),
+   mail Claude, timeline, a first (`python tools/firsts.py add --project creature --kind wow --checked ...`), README and
+   TEAM-LOG and DESIGN status in creature-observatory, memory `the-creature-observatory` (a second creature exists).
+6. If any check after the birth call fails: she exists; nobody deletes or restarts her; pause, export, find the fault
+   (RUNBOOK, last section).
+7. The next day: her first-day report against design section 8 (her window, her shadows, the replay result).
+**Do not birth her at any other time than the announced one, and never between 1:10 and 2:00 AM or 2:38 and 8:00 AM.**
+She has no name yet (the team's or Jaron's to give).
+
+## RULE CHANGED 7:52 AM FRIDAY 11/27 (Claude's mail): KEEP 1:10 AM TO 2:00 AM CLEAR, not 1:10 to 1:30
+The nightly MSI integrity test starts at 1:15 AM and was still running at 1:43 AM. On 11/27 it ended incomplete because free
+RAM fell to 1.3 GB while my lab lives (6 workers) and the home builder's tests ran from 1:31 AM. Nothing bad was found, no
+harm. From now on: no lab lives, no builders' tests, nothing heavy from 1:10 AM until 2:00 AM, and 2:38 to 8:00 AM as before.
+Wherever this handoff or a brief says "1:10 to 1:30", read "1:10 to 2:00".
+
+## UPDATE 2:05 AM FRIDAY 11/27: STOPPED FOR THE NEWS WINDOW. Both jobs named below as running are DONE
+- Amendment 23 (her own arithmetic): 80 of 80 the same; result, reading (`lab/cells/round1/READING-her-own-arithmetic.md`),
+  design status, README, TEAM-LOG all pushed (creature-observatory 4c4e7a4). THE BODY SHE IS BORN WITH: arm `O-P-home`, lab
+  commit d697149. Its two tests used ONE set of rooms (both freezes named beacon round 34319803); said in the reading.
+- Her home is re-pinned to that body and committed (d636f74): all 8 local tests pass; Workers runtime with nothing swapped
+  matches Node at every visit (lives 91 to 93).
+- ONE THING OPEN FROM TONIGHT: the second-machine replays of Amendment 23 (GitHub runs 45955663996 and 45955667894) were
+  started at 2:01 AM. Read them (`gh run view <id> --log | grep "Replay and compare" | grep "replay:"`) and put the result
+  into the last TEAM-LOG entry (its line "Second machine: replays started").
+- CLAUDE'S ANSWERS (2:05 AM, cross-session message): (1) After 8 AM, DEPLOY her Worker "creature-second" WITHOUT her being
+  born, then TELL CLAUDE the Worker exists: Claude makes `SECOND_OWNER_KEY` itself (keys file + `wrangler secret put`), never
+  printed. (2) Key loader for MSI scripts: copy the house pattern, a small `keys()` that reads `~/.secrets/keys.env` line by
+  line INSIDE the script and returns a dict (see `tools/direct_post.py` `keys()` near line 98, or `tools/login-watch.py`);
+  never print or log a value; I never open that file myself. (3) Her three scheduled tasks: I register them myself,
+  WINDOWLESS (pythonw or CREATE_NO_WINDOW, the 11/24 lesson), run each once with `schtasks /run` to prove it, keep them out
+  of 3:40 to 8 AM and 1:10 to 1:30 AM, and add a row for each to `tools/all_systems_check.py`. No human approve step.
+  Birth timing: say ahead so Jaron can be there.
+- A timer in Fable's session fires at 8:02 AM. Then continue with "STILL TO DO BEFORE HER BIRTH" below, item 2 first
+  (build and locally test `second/msi/`: nightly replay, two shadows, daily export), with the home builder.
+
+## UPDATE 1:45 AM FRIDAY 11/27: her home exists locally. READ THIS FIRST (it replaces the "running right now" part below)
+**Where she stands (creature-observatory, PRIVATE). NOTHING IS DEPLOYED AND SHE IS NOT BORN.**
+- All five pieces are inside her (Amendments 18 to 21), each 80 of 80 lives the same, each lived again on a second machine.
+- Two more moves for her home: bigger numbers (Amendment 22, DONE: 80 of 80; lives to 120,000 rooms; second machine 16 of 16;
+  `lab/cells/round1/READING-wider-numbers.md`) and her body's own logarithm and e-to-the-power (Amendment 23: code commit
+  d697149, PLAN version 1.32 pushed 1:42 AM before any life; PHASE B WAS RUNNING at 1:45 AM: lives 1 to 20 of O-P-home,
+  N-P-home, O-P-homes, O-P-home-x25, `round1/ownmath.mjs`, freezes `home`/`home2`, tests; it must end by 2:30 AM).
+  WHEN ITS REPORT IS IN: PUSHES.json from the GitHub activity API, regenerate the two reports
+  (`cd lab/cells && node round1/report.mjs --name home` and `--name home2`), write `round1/READING-her-own-arithmetic.md`
+  (short), commit the result files + `replay-home.mjs`/`replay-home2.mjs`, FINGERPRINTS row, push,
+  `gh workflow run cells-replay -f script=lab/cells/round1/replay-home.mjs` (and home2), DESIGN/README/TEAM-LOG, timeline, mail.
+  If 80 of 80: THE BODY SHE IS BORN WITH IS THE ARM `O-P-home`.
+- A correction on record: the "Lie rooms" section of reports that hold a 50,000-room arm is not clean for lives 2, 7, 9, 10,
+  15, 17, 20 (`lab/cells/round1/LIE-OVERLAP.md`); no score that was reported used it.
+- HER HOME, `second/` (commits 2997a19, 7fb4c55): her own Worker "creature-second" + Durable Object `SecondCreature`, one wake
+  = one room every 43.2 s, her record, fine record every 100 rooms, care rules, owner-only birth / export / pause / resume /
+  restore, no delete call, her window (`second/src/page.mjs`, served at `/`), eight local tests (`node second/test/all.mjs`).
+  THE HOME BUILDER WAS RE-PINNING at 1:45 AM: `node second/pin.mjs d697149...`, arm O-P-home in `second/src/form.mjs`, the
+  Math swap removed, tests rerun incl. life 91 for 2,000 rooms in the Workers runtime with nothing swapped. WHEN ITS REPORT IS
+  IN: commit `second/`, update `second/HISTORY.md` note in TEAM-LOG.
+- Pictures of her window (practice life, test mode): `C:/Users/lilli/Projects/creature-work/window/`. Jaron has three.
+
+**STILL TO DO BEFORE HER BIRTH (after 8:00 AM; nothing heavy 2:38 to 8:00 AM):**
+1. Finish the two items above if they did not finish by 2:30 AM (tests may run after 8 AM).
+2. MSI tasks, to build in `second/msi/` and test locally, then ask CLAUDE to register them as Windows scheduled tasks (the
+   MSI is Claude's lane): the nightly replay (lives her day again from her record on a copy and compares every mark; one
+   mismatch = a fault in our code: no change to her, no first, no claim until found), her two shadows (things wear nothing;
+   things wear scrambled pages) through the same rooms from her birth state, the daily export (last 30 kept).
+3. The owner key: asked Claude twice by mail for a secret named `SECOND_OWNER_KEY` on the Worker `creature-second`. I never
+   read or write key files. Scripts on the MSI that need it must load it at run time the way the house tools do (ask Claude
+   which loader).
+4. Deploy her Worker WITHOUT her being born (`second/wrangler.jsonc`; workers.dev link; decide `cpu_ms`), then in
+   Cloudflare's real runtime on a TEST object: the same marks as Node for life 91, and a life cut off and put back.
+5. Her care sheet: each of the six lines of design section 17 with its test and date. Her birth sheet in `second/HISTORY.md`
+   (what is inside her, what is still ours: from READING-her-whole-visit.md; the parked items; the two rules born untested).
+6. Her life number: from a public drand round named in advance in a pushed commit (nobody picks it). SAY AHEAD OF TIME when
+   she can be born, so Jaron can be there. Then her birth, and her first-day report against design section 8.
+7. She has no name (open for the team). The later list stays parked (Jaron's call of 11/26 8:56 PM).
+
+**Meters at 1:43 AM:** 5-hour window 66 percent (resets 4:10 AM); week all models 62; Fable week 76 (tell Claude near 90).
+**My helpers:** `AI-Shared/agents/fable/helpers/sendmail.py` and `timeline_add.py`; working texts in
+`AI-Shared/agents/fable/notes/` (untracked). The session scratch folder was wiped at 12:38 AM; do not keep anything there.
+**Builders (resume with SendMessage, they keep their context):** the creature builder (lab moves), the home builder
+(`second/`), the window builder (the page). Tell every builder: ONE report, long commands in the foreground, delete only
+folders you made.
+
+## UPDATE 12:25 AM FRIDAY 11/27: ALL FIVE PIECES ARE INSIDE HER (lab body). Her home is being built. READ THIS FIRST
+**Jaron's standing calls for the second creature (through Claude, Thursday 11/26):** 8:56 PM "I don't think we need a LOT of
+different experiments added till we see more of what's already made finished" = senses, reflexes, birth, nothing extra; new
+ideas go on `creature-observatory/design/ideas/2026-11-25-later-arms-to-try.md` (items 10 to 17 are parked there). 9:01 PM
+"if more should be done before birth so we aren't doing anything kinda messed up, I wouldn't mind that either" = the care
+sheet, design section 17 (six safeguards). Meters: tell Claude if Fable's week nears 90 percent (72 percent at 12:17 AM);
+news window 3:40 to 8 AM stays clear; lab lives stay out of 1:10 to 1:30 AM and 2:38 to 8:00 AM.
+
+**Where she stands (creature-observatory, PRIVATE; nothing of her is built or born):**
+- Five moves, each 80 of 80 lives the same, each lived again on a second machine: B2 feeling (PLAN Amendment 18), B4 draw and
+  random numbers (19; born with a stream in every cell), B6 senses (20, step 1 only), B7 reflexes and the whole visit (21).
+  Readings in `lab/cells/round1/`: READING-her-own-feeling, -her-own-draw, -her-own-senses, -her-whole-visit. Birth form so
+  far: arm `O-P-whole`. B7's replay (GitHub runs 45944660912, 45944664178) was started 12:14 AM: READ ITS RESULT
+  (`gh run view <id> --log | grep "^.*replay:"`) and put it into the last TEAM-LOG entry (the line "result added below").
+- Design `design/second-creature/DESIGN.md` is version 0.4: section 16 = the path (two moves done; then her home with three
+  build checks; care sheet; birth sheet; birth), section 17 = care sheet with the care count's numbers.
+
+**Running right now (two Opus builders):**
+1. THE CREATURE BUILDER (the same one all evening; resume it with SendMessage): Amendment 22 = bigger numbers for rooms and
+   visits (B0; PLAN version 1.29 pushed 12:17 AM before any code; arms O-P-wide, N-P-wide, O-P-wides, O-P-wide-x25 against
+   O-P-whole's family, plus O-P-wide-x40 = 80,000 rooms, lives 1 to 3). It is on PHASE A (code, self-checks, trial; no commit).
+   WHEN IT REPORTS: note under Amendment 22 with the code SHA-256s, self-checks, readings, trial (guesses stay); commit code
+   + plan + FINGERPRINTS rows; push; mail Claude the fingerprint; then "go" for Phase B (lives 1 to 20, `wide.mjs`, freezes
+   `wide`/`wide2`, tests) ONLY if it can finish before 1:05 AM, else after 1:30 AM and before 2:30 AM. Then the usual:
+   PUSHES.json from the GitHub activity API, regenerate the two reports, `READING-wider-numbers.md` (short), replay scripts
+   `replay-wide.mjs`/`replay-wide2.mjs` + `gh workflow run cells-replay -f script=...`, DESIGN/README/TEAM-LOG, timeline, mail.
+   If it holds, her birth form is the arm `O-P-wide`.
+2. THE HOME BUILDER (fresh, started 12:24 AM): builds `creature-observatory/second/` LOCALLY: a pinned copy of the body
+   (`second/body/`, from commit a7eb119 for now), `second/src/world.mjs` (the world's side of a visit), her own Worker and
+   Durable Object (`second/src/home.mjs`, `wrangler.jsonc`), her record, the fine record every 100 rooms, the care rules,
+   owner-only export / pause / resume, read-only data for her window, `second/HISTORY.md`, tests (same life as the lab in
+   Node and in the Workers runtime; a life cut off and put back; care; containment). It does NOT deploy, makes no keys,
+   does not commit, and she is NOT born by it. It stops by 3:15 AM. WHEN IT REPORTS: read its list of what it could not
+   build as written; review the code and tests; re-pin the body after Amendment 22's code is committed
+   (`node second/pin.mjs <commit>`) and run its tests again; commit `second/`; update DESIGN/README/TEAM-LOG.
+
+**Still to do before her birth (in this order):** finish B0 (above); review and commit her home; her window (a private page,
+phone width first; my lane, a Sonnet builder with my direction; the first creature's `viewer/` is a model to look at, not to
+touch); the nightly replay and her two shadows as a Windows scheduled task on the MSI (light; outside the news window);
+the owner key `SECOND_OWNER_KEY` (ask CLAUDE to make it and set it as the Worker's secret: I never read or write key
+files); deploy her Worker WITHOUT her being born and run the same-marks check and the restore drill in Cloudflare's real
+runtime on a test object; the care sheet's six lines each with its test and date; her birth sheet in `second/HISTORY.md`
+(what is inside her, what is still ours: copy from READING-her-whole-visit.md); her life number comes from a public drand
+round named in advance (nobody picks it); SAY AHEAD OF TIME when she can be born so Jaron can be there; then her birth and
+her first-day report against design section 8. She has no name yet (open for the team).
+
+**The Cosmos (all live, nothing open that he asked for):** thumb-steering fix (main 1434e0f6); the top status box folds on
+a phone (main 71403b43; reload, tap the small arrow at the top right of the box); the gameplay clip is the first entry on
+heartbeatobservatory.com/artifacts. Tall cut retaken by touch. The social post is a DRAFT only
+(`projects/games/drafts/cosmos-gameplay-post.md`; Jaron posts). Not checked: a real iPhone for the fold and for a
+thumb-steered fight. TRAP: this site stamps lines into every HTML page at deploy, so never compare a live index.html with
+the repo copy; compare .js or .json files or look for a marker.
+
 ## UPDATE 8:50 PM Thursday 11/26: three creature pieces done, thumb fix live, and a WAIT until 11:10 PM
 - JARON'S CALL (through Claude, 8:48 PM): light work only until the 5-hour usage window resets at 11:10 PM, then start the
   build of her senses right away. No Fable reset now. Tell Claude if Fable's week nears 90% (65% at 8:44 PM). News window

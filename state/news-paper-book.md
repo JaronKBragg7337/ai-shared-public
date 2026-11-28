@@ -1,9 +1,9 @@
-# News PAPER book (updated 2026-11-26 09:05 EST)
+# News PAPER book (updated 2026-11-27 09:06 EST)
 
 Paper only. No real money or orders. Each call uses a fixed percentage of the starting $10,000, with no compounding. The combined gross size of open calls and calls waiting for entry cannot exceed $10,000; extra calls are declined after the independent model decides.
 News and completed prices alone go to a fresh local model request with no tools or prior conversation. A decision before 1 PM Eastern enters at that day's close; later decisions enter at the next available close. The early cutoff also avoids backdating on early-close days. Due dates use calendar weeks/months; weekends and holidays settle at the next available close.
 Prices are Yahoo Finance daily closes, with no fees, slippage, short borrow costs or dividends explicitly modeled. Marks show their actual date and may be stale when prices are unavailable.
-Runs: 15. Passes: 1. Declined for account limit: 4. Settled: 22. Wins: 16. Hit rate: 72.7%.
+Runs: 16. Passes: 1. Declined for account limit: 4. Settled: 22. Wins: 16. Hit rate: 72.7%.
 Flat calls count in the settled total but are not wins. A pass is a decision, not a win or loss.
 
 SPY comparison: for each call, the same paper dollars buy SPY over the same entry and mark or settlement dates. This is a matched-exposure comparison, not one continuous $10,000 buy-and-hold account.
@@ -15,6 +15,7 @@ Open paper P&L: $+56.01; matched SPY: $-20.78.
 |---|---|---|---|---|---|
 | 2026-11-26 | QQQ | short | 1 week | 5% | S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks: Downgrade risk suggests potential short-term volatility for tech-heavy QQQ. |
 | 2026-11-26 | TLT | long | 1 month | 5% | Trump proposing new tariffs on 14 partners including China and European Union: New trade barriers typically increase inflationary pressure, prompting investors to seek safe-haven bonds. |
+| 2026-11-27 | GLD | long | 1 week | 5% | UN warns hunger will deepen in the Middle East - bbc https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss · abc https://abcnews.com/International/wireStory/warns-hunger-deepen-middle-east-war-fuel-costs-138477712 SAFETY WORDS: nuclear.: Escalating geopolitical conflict in the Middle East combined with food insecurity warnings typically drives capital toward gold as a hedge against regional instability. |
 
 ## Declined calls
 | Decision date | ETF | Direction | Horizon | Size | Story and reason |

@@ -1525,6 +1525,67 @@
           "entry_not_before": "2026-11-26"
         }
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "at": "2026-11-27T09:06:03-05:00",
+      "model": "qwen3.5:9b",
+      "context": {
+        "news_list": "2026-11-27-top.md",
+        "completed_prices": {
+          "SPY": {
+            "date": "2026-11-25",
+            "close": 716.7000122070312
+          },
+          "QQQ": {
+            "date": "2026-11-25",
+            "close": 633.9299926757812
+          },
+          "XLE": {
+            "date": "2026-11-25",
+            "close": 60.900001525878906
+          },
+          "USO": {
+            "date": "2026-11-25",
+            "close": 139.88999938964844
+          },
+          "GLD": {
+            "date": "2026-11-25",
+            "close": 327.45001220703125
+          },
+          "ITA": {
+            "date": "2026-11-25",
+            "close": 68.7699966430664
+          },
+          "TLT": {
+            "date": "2026-11-25",
+            "close": 82.23999786376953
+          },
+          "UUP": {
+            "date": "2026-11-25",
+            "close": 29.600000381469727
+          }
+        },
+        "workspace": false,
+        "open_positions": false,
+        "past_results": false,
+        "prior_conversation": false,
+        "tools": false
+      },
+      "calls": [
+        {
+          "etf": "GLD",
+          "direction": "long",
+          "horizon": "1 week",
+          "size_pct": 5,
+          "story": "UN warns hunger will deepen in the Middle East — bbc https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss · abc https://abcnews.com/International/wireStory/warns-hunger-deepen-middle-east-war-fuel-costs-138477712 SAFETY WORDS: nuclear.",
+          "reason": "Escalating geopolitical conflict in the Middle East combined with food insecurity warnings typically drives capital toward gold as a hedge against regional instability.",
+          "status": "pending",
+          "decision_date": "2026-11-27",
+          "decision_at": "2026-11-27T09:06:03-05:00",
+          "entry_not_before": "2026-11-27"
+        }
+      ]
     }
   ]
 }
